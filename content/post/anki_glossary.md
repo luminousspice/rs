@@ -1,0 +1,158 @@
+---
+slug: "anki_glossary"
+date: "2013-10-27T19:30:55+00:00"
+lastmod: "2014-10-13T05:32:46+00:00"
+title: "Anki 用語集 - Anki Glossary"
+categories: ["Anki","Anki2の使い方"]
+tags: ["Anki","用語集"]
+anki: ["AnkiMobile"]
+excerpt: "Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。用語を日英併記し、英語版しか存在しない iOS 版 Anki (AnkiMobile)、ウェブ版 Anki (AnkiWeb) ユーザーにも配慮しました。"
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。用語を日英併記し、英語版しか存在しない iOS 版 Anki (AnkiMobile)、ウェブ版 Anki (AnkiWeb) ユーザーにも配慮しました。</p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_使用上の注意">使用上の注意</h2>
+<div class="sectionbody">
+<div class="ulist"><ul>
+<li>
+<p>
+この用語集は、私 (Luminous Spice) が、<a href="http://ankisrs.net/docs/manual.html" target="_new">Anki ユーザーマニュアル</a>と <a href="http://ankisrs.net/" target="_new">Anki 2.0.15</a> から独自に作成した非公式のドキュメントです。
+</p>
+</li>
+<li>
+<p>
+この用語集の内容と、Anki アプリケーションやマニュアルの内容と相違がある場合は、オリジナルであるアプリケーション、およびマニュアルの内容が優先します。
+</p>
+</li>
+<li>
+<p>
+PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankidroid および　iOS 版 AnkiMobile、Web 版 AnkiWeb と表記や内容に相違が生じる可能性があります。
+</p>
+</li>
+</ul></div>
+<table rules="rows" frame="hsides" class="table table-striped">
+<col style="width:25%">
+<col style="width:75%">
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">用語 (英語表記)</th>
+<th class="tableblock halign-left valign-top">説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ノート (Note)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">一つの問題を構成するデータの集まりをノートと呼びます。Anki1 では、「ファクト (Fact)」と呼ばれていました。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ノートタイプ (Note Type)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ノートタイプとは、ノートを作成する際に共通で利用するひな形。フィールドとカードタイプからなります。Anki1 ではノートの「モデル (Model)」と呼ばれていました。Anki には、既定で 4 つの標準的なノートタイプ、基本 [Basic]、基本 (裏面カード付き) [Basic (and reversed card)]、基本 (裏面カードを任意選択) [Basic (optional reversed card)]、穴埋め [Cloze] を標準で用意しています。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>カード (Card)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ノートの内容を学習画面に配置して具体化したもの。質問 (表) と解答 (裏) の 2 つの画面一組で一枚のカードを構成する。問題のデータに加えて、学習履歴、復習スケジュール、易しさなどの情報も保存しています。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>新規カード (New Card, Unseen)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">追加してから一度も学習していない (Unseen) カードのこと。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>未熟なカード (Young Card)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">復習間隔が 21 日未満のカードのこと。(再) 学習中のカードは含みません。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>熟知なカード (Mature Card)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">復習間隔が 21 日以上のカードのこと。分散学習の効果が現れて復習間隔を広く設定しているカードです。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ブラウザ (Browser)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">カード一覧を表示する画面。カード管理のための処理を実行できる。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>カードタイプ(Card Type)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">カード上にノートの配置を指定するテンプレートとスタイルシート。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>カードレイアウト (Card Layout)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ノートタイプのカードテンプレートとスタイルシートを編集する画面。編集内容をプレビューできる。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>関連カード (Sibling)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">同じノートから作成したカード同士のこと。ノートが複数のカードタイプを持っている場合に発生する。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>コレクション (Collection)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ユーザーが Anki に読み込んで使用している単語帳、カードの全体を保存しているファイル。プロファイル毎に一つ作成します。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>自動バックアップ (Automatic Backup)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anki アプリケーションの終了時、プロファイル変更時に自動的に作成するコレクションのバックアップファイル。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>単語帳 (Deck)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コレクション内のカードを分類して作成する、共通の学習オプションを設定できるカードのグループ。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>単語帳オプション(Deck Option)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">単語帳内のカードの利用に関する設定。カードの学習オプションは、特に特別な指定がなければ単語帳単位で設定する。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>フィルター単語帳 (Filter Deck)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コレクションの中の全てのカードから検索条件でカードを抽出し、元の単語帳の設定とは別にカスタマイズした学習オプションが設定できる特別な単語帳。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>共有単語帳 (Shared Deck)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ユーザーが共有している既成の単語帳。AnkiWeb から登録します。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>オプショングループ (Option Group)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">複数の単語帳間で共有可能な単語帳オプション。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>学習 (Learn)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">新規カードの初回の学習。ここで何回記憶に失敗しても、復習スケジュールには影響しません。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>再学習 (Relearn)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">復習に失敗 (忘却) した直後に行うカード学習。再学習中の忘却回数は、復習スケジュールには影響しません。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>復習 (Review)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">学習、再学習後に行うカードの記憶の確認。次回の復習期日は過去の学習履歴によって決まります。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>忘却 (Lapse)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">復習時に正しい解答が思い出せないこと。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>無駄 (Leech)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">忘却回数が一定数を超えると設定する。既定では保留になり学習対象外になります。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>保留 (Suspend)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">カードを学習対象から除外すること。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>延期 (Bury)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">学習キューの中にあるカードの学習を翌日まで一時中断すること。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>アドオン (Add-on)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anki を機能拡張する外部プログラム。Anki1 では、「プラグイン (Plugin)」と呼ばれていました。</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>2013/10/27: 初出</p></div>
+<div class="paragraph"><p>2014/08/23: Anki 2.0.21 で変更した延期の解消時期を反映</p></div>
+</div>
+</div>
+
+

@@ -1,0 +1,159 @@
+---
+slug: "learn-with-anki"
+date: "2016-01-03T23:00:16+00:00"
+lastmod: "2016-02-08T16:42:59+00:00"
+title: "暗記に強くなるために Anki から上手くサポートを得るには"
+categories: ["Anki"]
+tags: ["Anki","iOS","iPad","iPhone","iPod touch","利用事例","書籍"]
+anki: ["メディアを登録","統計","音声"]
+excerpt: "暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。"
+---
+<section id="preamble">
+<p>暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。</p>
+</section>
+<section id="苦手な暗記を_anki_でどうにかしたい">
+  <div class="page-header">
+    <h2>苦手な暗記を Anki でどうにかしたい</h2>
+  </div>
+<p>Anki について公開されている情報のほとんどは、英文、和文に限らず Anki そのものの使い方を説明するものです。Anki を使った学習方法の向上についての事例はほとんどありません。</p>
+<p>電子レンジの取扱説明書に詳しくなっても、料理がうまくなる訳ではありません。冷凍食品の温め方は上達すると思いますが。既存の調理法に電子レンジを上手く組み合わせることで、効率的に料理ができ、レパートリーを広げることができるのです。</p>
+<p>テクノロジーは人の長所を伸ばすことにも、短所を支援することにも役立ちます。</p>
+<p>暗記が得意な人、暗記物の勉強の仕方が分かっている人なら、取扱説明書でアプリの使い方を知れば、Anki を自分の暗記のやり方にどう活用するか分かってしまいます。
+反対に暗記物の勉強のサポートにアプリを使いたい人にとっては、教材の学習効果を上げるのに Anki をどのように使うかという情報も必要です。</p>
+<p>例えば、いろいろなジャンルでの Anki を使った<a href="/tag/%e5%88%a9%e7%94%a8%e4%ba%8b%e4%be%8b/">利用事例</a>はこのような方々に役立つと思って集めてものです。Anki の使い方に慣れると、効率重視の使い方になり、初心者の頃注意していたことも無意識の内にできるようになります。機械的に出来るようになったら、Anki を使った暗記法に慣れたと言うべきかもしれません。</p>
+<p>そこで、もっと誰もが使えて基本的な事例を、自分で初心者に戻った気持ちで作ることにしました。</p>
+</section>
+<section id="無理のない学習モデル">
+  <div class="page-header">
+    <h2>無理のない学習モデル</h2>
+  </div>
+<p>実際にいくつかの教材を Anki でユルいペースを保ちながら一か月学習し、参照用の統計情報を掲載しました。どの教材も一日当たりの学習時間は 20 分を超えない程度に抑えました。この学習例の統計情報と、自分の Anki の統計情報とよく見比べてみてください。</p>
+<p>更に、それぞれの教材から、何を取り出し、どんな基準で覚えているか判定したか学習した結果なのか分かるようになっています。</p>
+</section>
+<section id="音声付きの薄い本_から始めよう">
+  <div class="page-header">
+    <h2>「音声付きの薄い本」から始めよう</h2>
+  </div>
+<p>初心者の立場に改めて戻って Anki を使い直して気がついた学習と復習の経験則を紹介しましょう。</p>
+<ul>
+<li>
+新しい知識を理解するのにコストが掛かる。一旦理解したものの復習の方がはラク。
+</li>
+<li>
+教材に慣れると新しい知識の学習コストは減少する。ある限界を超えると激減する。
+</li>
+</ul>
+<p>Anki を使い始めるときの方針は、「初めから決まった量の情報を教材とし、教材の理解は最初から丁寧に行い、新規の情報追加は教材に慣れるまで抑制的にする」です。</p>
+<p>このような条件に合う教材とは、「音声付きの薄い本」です。</p>
+<p>Anki に持ち込む前に、本で学べる点が有利です。完成度の高い紙面で学習することが出来、Anki のカードは必要最小限の情報で済ませられるからです。作業に手間がかからないことと、紙面、モニタ、音声の三種類のインターフェイスで同じ内容を学習できることです。分量が限られているので、予定が立てやすく、達成感と満足感が早く得られます。</p>
+<p>なお、音声がない場合には <a href="/how-to-edit-cards/">Anki 上で TTS を使ってテキストを読み上げる</a>ことも出来ます。</p>
+</section>
+<section id="モデル教材はフレーズと発音">
+  <div class="page-header">
+    <h2>モデル教材はフレーズと発音</h2>
+  </div>
+<p>Anki 用の公開教材データ (共有単語帳) の分布を見ると、外国語用が主だということ、日本人にとっての分かりやすさを考えて、英語の教材で説明することにしました。</p>
+<p>外国語の学習をはじめると、最初にどこの学校でもどの言語でもフレーズを覚えます。先生の話した内容をオウムがえしに話します。最初に取り組むべきことは、自分の使いたい状況の表現をまとめたフレーズ集でしょう。旅行、買い物、職場での会話など、状況別にまとめられたフレーズ集が出版されていますのでそこから選ぶのがよいでしょう。
+また、言語によって状況は異なりますが、発音について詳しく説明している教材もあれば、最初にやっておく価値があります。</p>
+<p>この後、具体的な教材を使った学習事例を紹介しますが、取り上げた教材をお勧めしている訳ではありません。また、この例では主として聴き取りの練習をしていますが、同じ素材を使って書取、リプロダクション、シャドーイングをすることも出来ます。ご自分の学習履歴、進捗や関心に応じて選んでみてください。</p>
+<h3 id="基本フレーズ">基本フレーズ</h3>
+<p>例えばこのフレーズ集は、見開きに簡単な会話例とその説明、重要表現の例文が載っており、会話と重要例文を録音した一分弱の音声を 100 ファイル CD に収録しています。
+英米の出版社の業務英語の教科書とは違い、職場環境で使うような内容を、基本的な中学校程度の文法事項の使って簡潔に表現できるように工夫しています。120-150 wpm くらいのスピードでゆったりと話していることもあり、中学程度の知識があればすぐに取り組める内容です。</p>
+<p>別のことをしながら、話している内容を確実に聴き取れたかを判断基準に学習しました。</p>
+<div class="amazlet-box" style="margin-bottom:0px"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51KZQQT259L._SL160_.jpg" alt="英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]" style="border: none" /></a></div><div class="amazlet-info" style="line-height:120%;margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/" name="amazletlink" target="_blank">英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 16.01.02</div></div><div class="amazlet-detail">スティーブ ソレイシィ Steve Soresi ロビン ソレイシィ Robin Soresi <br />アルク <br />売り上げランキング: 1,280<br /></div><div class="amazlet-sub-info" style="float: left"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<p>Anki のカードは、音声だけをカードに埋め込んだシンプルなものを使いました。
+詳しい作り方は、<a href="/learn-audio-material-with-anki/">Anki を使って音声データ付き書籍の理解を深めよう</a>で紹介しています。</p>
+<p>百個のファイルの中から毎日 3 件を新規追加して、28日で全て聴き終えた時のデータが次のファイルです。
+一日平均 10 分程度の Anki での学習時間でしたが、三週間を超えた所でブレイクスルーが起り、新規カードの数も学習時間の増加も苦にならなくなりました。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/with-anki-stats-biz100.png" alt="統計情報 (英会話ペラペラビジネス100)">
+</div>
+<div class="title">図 1. 統計情報 (英会話ペラペラビジネス100)</div>
+</div>
+<h3 id="一つ一つの音を正しく捉える">一つ一つの音を正しく捉える</h3>
+<p>この教材は、標準的なアメリカ英語の発音やアクセントを練習する教材です。まず音節レベルで発音の基礎を練習し、更に単語、文と発音する音を長くし、そこで発生する音の変化も練習できるように出来ています。付属では CD 似ている音を聞き分けるたり、話したりする課題がたくさん盛り込まれています。</p>
+<p>意味の理解よりも、基本的な音を確実に聞き分けたかという基準で学習しました。</p>
+<div class="amazlet-box" style="margin-bottom:0px"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/1107682959/rsls-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41fpVYf8B1L._SL160_.jpg" alt="Clear Speech Student's Book : Basic Pronunciation and Listening Comprehension in North American English. 4th." style="border: none" /></a></div><div class="amazlet-info" style="line-height:120%;margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/1107682959/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Clear Speech Student's Book : Basic Pronunciation and Listening Comprehension in North American English. 4th.</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 16.01.24</div></div><div class="amazlet-detail">Judy B. Gilbert <br />Cambridge University Press <br />売り上げランキング: 6,702<br /></div><div class="amazlet-sub-info" style="float: left"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/1107682959/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<p>一日 1 Unit のペースで聴き 14 日で完了しました。その結果を下に記しました。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/with-anki-stats-clearspeech.png" alt="統計情報 (Clear Speech)">
+</div>
+<div class="title">図 2. 統計情報 (Clear Speech)</div>
+</div>
+<h3 id="会話の中で連続した音の変化を練習する">会話の中で連続した音の変化を練習する</h3>
+<p>こちらのオーディオプレイの教材は、実際の発音でおこる単語内での音の変化、単語間、文章間で起る音の変化の解説を主眼としています。シナリオで使っている英語なので文法的な難度は高くないですが、スラングが盛り込まれていることと、200 wpm を超えた速度で話しているので、実際に聴いてみると楽ではありません。</p>
+<p>この教材の優れた点は、場面ごとの見開きの音の変化の解説の部分も録音しています。解説の部分がオーディオブッックになっているのです。文字で読んでも分かりにくい発音の変化を付属 CD を聴きながら繰り返し理解できます。</p>
+<p>早口でしゃべっても、音の変化を漏らさず聴き取れることを判定基準に学習しました。</p>
+<div class="amazlet-box" style="margin-bottom:0px"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4887244525/rsls-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51Ogeq03B7L._SL160_.jpg" alt="ボトムアップ式 映画英語のリスニング 新装版―NewYork Detective Story (CD BOOK)" style="border: none" /></a></div><div class="amazlet-info" style="line-height:120%;margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4887244525/rsls-22/ref=nosim/" name="amazletlink" target="_blank">ボトムアップ式 映画英語のリスニング 新装版―NewYork Detective Story (CD BOOK)</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 16.01.02</div></div><div class="amazlet-detail">森田 勝之 <br />ディーエイチシー <br />売り上げランキング: 7,975<br /></div><div class="amazlet-sub-info" style="float: left"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4887244525/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<p>Anki 用のカードは、前の本で使ったのと同じシンプルなものを使いました。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/audio-material-audio-card.png" alt="実際に使用したカード">
+</div>
+<div class="title">図 3. 実際に使用したカード</div>
+</div>
+<p>一分程度のスキットとそれぞれ音の説明と例文の音声を 4 ファイルで構成していて、16 場面収録しています。
+一日一場面のペースで聴いた結果を下に記しました。</p>
+<p>一日平均 12 分程度の Anki での学習時間でしたが、二週間過ぎた所で出演者の声に慣れて聴き取りやすくなってきました。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/with-anki-stats-detective.png" alt="統計情報 (映画英語のリスニング)">
+</div>
+<div class="title">図 4. 統計情報 (ボトムアップ式 映画英語のリスニング)</div>
+</div>
+</section>
+<section id="参考例_単語帳で語彙を整理しながら増やす">
+  <div class="page-header">
+    <h2>参考例 単語帳で語彙を整理しながら増やす</h2>
+  </div>
+<p>それでも、暗記をする以上単語帳をやってみたいという方もきっと居るでしょう。そこで単語帳も参考までにやってみました。</p>
+<p>これは、語源別に覚える単語集で、25 Unit (最新版は 30 Unit) で千語収録しています。Unit あたり見出しは 40 で、復習問題は一つの見出しにつき四問収録しています。</p>
+<p>語源別の単語帳を選んだ意義は、を未知の言葉の意味を類推するために使うというよりも、語源で既知の語彙を同義語や反義語もまとめて整理して、言語結束性への意識を高めたり、綴りの似ている単語を見分けるのに活用したりすることです。</p>
+<p>半分くらいは大学受験の単語帳に載っているもので難易度ですが、医学用語やギリシャ、ローマ神話の語彙も含んでいます。
+そこで、本を飛ばし読みしている時に出会ったら意味が分かることを目標として、
+Anki では TTS を使って発音させながら、綴りを見て意味が瞬時に分かることを判定基準として学習しました。</p>
+<div class="amazlet-box" style="margin-bottom:0px"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51Eolqic2GL._SL160_.jpg" alt="Merriam-Webster's Vocabulary Builder" style="border: none" /></a></div><div class="amazlet-info" style="line-height:120%;margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Merriam-Webster's Vocabulary Builder</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 16.01.02</div></div><div class="amazlet-detail">Mary W. Cornog <br />Merriam Webster Mass Market <br />売り上げランキング: 151<br /></div><div class="amazlet-sub-info" style="float: left"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<p>元の本を読んで、復習クイズを全問解き、さらにわからない見出し語を Anki に入れて復習した結果です。
+二日で 1 Unit のペースで学習し、65 日で終わりました。
+Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。<a href="/how-to-edit-cards/">テンプレートから Mac 内蔵の辞書を引ける設定</a>にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。</p>
+<p>毎日平均 8 分 Anki で学習し、三週間経ったところで一日の定型ルーチンが決まり作業が楽になりました。なお、Anki で意味を思い出すよりも、元の本の復習用クイズの方が数段難しく、本での学習に 30 分程度の時間を使いました。
+復習の枚数は最高で 110 枚、100 枚を超えたのは三日でした。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/with-anki-stats-mwvb.png" alt="Merriam-Webster's Vocabulary Builder">
+</div>
+<div class="title">図 5. 統計情報 (Merriam-Webster&#8217;s Vocabulary Builder)</div>
+</div>
+</section>
+<section id="応用例_ネットのビデオを使用">
+  <div class="page-header">
+    <h2>応用例 ネットのビデオを使用</h2>
+  </div>
+<p>ネットに上がっているビデオでも、完結している動画シリーズであれば、この投稿で紹介したアプローチが使えるでしょう。例えば、RussianPod101.com の <a href="https://www.youtube.com/playlist?list=PL_knbQpx9pBetwxup_IHr47cQsYvnQhRF">Russian Weekly Words</a> は、一回につきロシア語の単語を五個ずつテーマ別に学習する 63 回完結のコースです。英語とロシア語の字幕付きで、例文や会話例も学ぶことが出来ます。</p>
+<p>Mac を使っている場合は、<a href="/audio-stdout-into-anki-for-mac/">Mac で再生中の音声を Anki に直接録音する</a> を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/audio-stdout-russianpod-card.png" alt="Russian Weekly Words を利用したカード">
+</div>
+<div class="title">図 6. Russian Weekly Words を利用したカード</div>
+</div>
+</section>
+<section id="おわりに">
+  <div class="page-header">
+    <h2>おわりに</h2>
+  </div>
+<p>新しい道具を使う時に何から始めればよいか。得意分野では道具の使い方が分かれば自律的に進めますが、そうでない場合は素材とお手本を選ぶ支援が必要となるでしょう。</p>
+<p>Anki は学習心理学の研究結果に基づいたアルゴリズムを使っていますので、教材を学習することが前提となっています。理解のないまま繰り返し見た内容を無意識の内に覚えるような洗脳の技術を使っている訳ではありません。そこで、Anki での最初の学習を大切にして、後々復習の泥沼はまることのないよう心掛けてモデル学習の事例を作りました。</p>
+<p>この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 <a href="/how-to-anki/">はじめての Anki</a>という記事も参考になると思います。</p>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h2>更新情報</h2>
+  </div>
+<p>2016/01/03: 初出</p>
+<p>2016/01/24: 発音教材の追加と単語帳学習データの更新</p>
+</section>
+
+

@@ -1,0 +1,318 @@
+---
+slug: "anki-tips"
+date: "2014-03-25T00:00:10+00:00"
+lastmod: "2014-04-17T17:56:16+00:00"
+title: "Anki Tips - 知っておくとお得な機能たち"
+categories: ["Anki"]
+tags: ["Anki","Tips"]
+anki: ["AnkiWeb","アドオン","スケジュール変更","同期","延期","延期を解除","未使用タグの削除","無駄なカード","自動同期の回避","裏返しのカード","起動","追加順に学習","重複"]
+excerpt: "マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。"
+---
+<section id="preamble">
+<p>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。
+その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。
+そこで、Anki の知っておくと便利な機能の操作方法をまとめて紹介します。</p>
+</section>
+<section id="自動同期しないで起動">
+  <div class="page-header">
+    <h1>自動同期しないで起動</h1>
+  </div>
+<p></p>
+<ol>
+<li>
+Shift キーを押しながら起動する。
+</li>
+</ol>
+<p>セーブブート (2.0.9以降) とは、AnkiWeb との同期とプラグインの読み込みを飛ばして起動する処理です。</p>
+<p>ツールチップ「シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。」と表示が出る。(図 1)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_1.png" alt="セーブブート成功時のメッセージ">
+</div>
+<div class="title">図 1. セーブブート成功時のメッセージ</div>
+</div>
+</section>
+<section id="アドオンを読み込まないで起動">
+  <div class="page-header">
+    <h1>アドオンを読み込まないで起動</h1>
+  </div>
+<p>上の項目と同じようにセーブブートを使う</p>
+<ol>
+<li>
+Shift キーを押しながら起動する。
+</li>
+</ol>
+<p>ツールチップ「シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。」と表示が出る。(図 1)</p>
+</section>
+<section id="重複カードの検索">
+  <div class="page-header">
+    <h1>重複カードの検索</h1>
+  </div>
+<p></p>
+<ol>
+<li>
+ブラウザーを開き、メニューバーから[編集]-[重複を検索]
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_2.png" alt="検索結果">
+</div>
+<div class="title">図 2. 重複カードの検索結果</div>
+</div>
+</section>
+<section id="延期の手動取消">
+  <div class="page-header">
+    <h1>延期の手動取消</h1>
+  </div>
+<p></p>
+<ol>
+<li>
+単語帳のトップページに戻る
+</li>
+<li>
+ウィンドウ下の[延期を解除]ボタンを押す
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_3.png" alt="延期を解除">
+</div>
+<div class="title">図 3. 延期を解除</div>
+</div>
+</section>
+<section id="カードの学習スケジュールを変更">
+  <div class="page-header">
+    <h1>カードの学習スケジュールを変更</h1>
+  </div>
+<p></p>
+<ol>
+<li>
+ブラウザーを開き、カードを選択する。
+</li>
+<li>
+メニューバーから[編集]-[スケジュールを変更]
+</li>
+</ol>
+<div class="ulist"><ul>
+<li>
+<p>
+新規カードに戻す: [新規カードの最後に設定]
+</p>
+</li>
+<li>
+<p>
+復習期日を変更: [次の期間内に復習を設定]
+</p>
+</li>
+</ul></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_4.png" alt="学習スケジュールを変更">
+</div>
+<div class="title">図 4. 学習スケジュールを変更</div>
+</div>
+</section>
+<section id="新規カードの並び替え">
+  <div class="page-header">
+    <h1>新規カードの並び替え</h1>
+  </div>
+<p></p>
+<ol>
+<li>
+ブラウザーを開き、カードを選択する。
+</li>
+<li>
+メニューバーから[編集]-[新規カードを並び替える]
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_5.png" alt="新規カードを並び替える">
+</div>
+<div class="title">図 5. 新規カードを並び替える</div>
+</div>
+</section>
+<section id="カードの内容を一括置換">
+  <div class="page-header">
+    <h1>カードの内容を一括置換</h1>
+  </div>
+<p></p>
+<ol>
+<li>
+ブラウザーを開き、メニューバーから[編集]-[検索と置換]
+<div class="ulist"><ul>
+<li>
+<p>
+置換対象のフィールドが選択可能
+</p>
+</li>
+<li>
+<p>
+置換に正規表現を使用可能
+</p>
+</li>
+</ul></div>
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_6.png" alt="一括置換画面">
+</div>
+<div class="title">図 6. 一括置換画面</div>
+</div>
+</section>
+<section id="ブラウザーから未使用のタグを削除">
+  <div class="page-header">
+    <h1>ブラウザーから未使用のタグを削除</h1>
+  </div>
+<p></p>
+<p>ブラウザーのサイドバーから未使用のタグの表示を取り除くには、データベースをチェックして最適化します。</p>
+<ol>
+<li>
+メニューバーから[ツール]-[データベースをチェック]
+</li>
+</ol>
+</section>
+<section id="ノートを追加順に学習">
+  <div class="page-header">
+    <h1>ノートを追加順に学習</h1>
+  </div>
+<p></p>
+<p>フィルター単語帳の出題方法を  [追加した順番] 設定する。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+フィルター単語帳を作成し、出題方法で [追加した順番] を選択する。
+</p>
+</li>
+<li>
+<p>
+オプションから [この単語帳の解答に基づいてスケジュールし直す] を外す。
+</p>
+</li>
+</ul></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/learn_in_original_squence_1.png" alt="フィルター単語帳の設定">
+</div>
+<div class="title">図 7. フィルター単語帳の設定</div>
+</div>
+<p>さらに詳しい設定方法: <a href="/learn_in_original_sequence/">Ankiのノートを追加順に学習する方法</a></p>
+</section>
+<section id="無駄なカード_leech_になっても保留にしない">
+  <div class="page-header">
+    <h1>無駄なカード (leech) になっても保留にしない</h1>
+  </div>
+<p></p>
+<p>単語帳オプションの [忘却] タブの [無駄なカードの処理] で設定します。</p>
+<h2 id="無駄なカードの自動処理の変更">無駄なカードの自動処理の変更</h2>
+<ol>
+<li>
+Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
+</li>
+<li>
+ウィンドウ下の [オプション] ボタンを押します。
+</li>
+<li>
+[忘却] タブをクリックします。
+</li>
+<li>
+[無駄なカードの処理] という項目のプルダウンメニューから [タグを付けるだけ] を選択します。
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/leech_1.png" alt="単語帳のオプション設定">
+</div>
+<div class="title">図 8. 単語帳のオプション設定</div>
+</div>
+<p>さらに詳しい設定方法: <a href="/management_of_leeches/">無駄なカード(Leech)になってもAnki学習を続ける方法</a></p>
+</section>
+<section id="裏返しのカードを追加">
+  <div class="page-header">
+    <h1>裏返しのカードを追加</h1>
+  </div>
+<p></p>
+<p>ノートタイプに表裏反転したカードタイプを追加する。</p>
+<h2 id="ノートタイプを既定_基本_のまま使っている場合">ノートタイプを既定 [基本] のまま使っている場合</h2>
+<p>ノートタイプを設定したことのない方はこの場合に当てはまります。
+共有単語帳を使っている場合は当てはまらない場合があります。</p>
+<ol>
+<li>
+ブラウザーからカードを選択、[編集] - [ノートタイプを変更]
+</li>
+<li>
+[変更先ノートタイプ] を [基本(裏面カード付き)] に設定
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/cardtype_1.png" alt="裏面カード付きノートタイプを設定">
+</div>
+<div class="title">図 9. 裏面カード付きノートタイプを設定</div>
+</div>
+<h2 id="独自のノートタイプを使っている場合">独自のノートタイプを使っている場合</h2>
+<p>カードレイアウトを使って、表裏反転したカードタイプを追加します。</p>
+<h3 id="カードレイアウトの呼び出し方">カードレイアウトの呼び出し方</h3>
+<div class="ulist"><ul>
+<li>
+<p>
+単語帳一覧から単語帳を選択し、[追加] リンク - ツールバー [カード] ボタン
+</p>
+</li>
+<li>
+<p>
+ブラウザーからカードを選択、編集フォーム内の [カード] ボタン
+</p>
+</li>
+<li>
+<p>
+学習画面から、画面左下 [編集] ボタン - ツールバー [カード] ボタン
+</p>
+</li>
+</ul></div>
+<h3 id="カードレイアウト設定手順">カードレイアウト設定手順</h3>
+<ol>
+<li>
+画面右上 [+] ボタンを押して、新規カードタイプを追加する。
+</li>
+<li>
+新規カードタイプが新しいタブに追加。既定では カード 2。
+</li>
+<li>
+画面下中央 [反転] ボタンを押して、表裏を入れ替える
+</li>
+<li>
+裏面テンプレートに自動的に追加する文字列「編集してカスタマイズする。」を適宜編集する。
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tips_cardlayout.png" alt="カードレイアウト">
+</div>
+<div class="title">図 10. カードレイアウト</div>
+</div>
+<p>さらに詳しい設定方法:</p>
+<div class="ulist"><ul>
+<li>
+<p>
+<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/how-to-choose-notetype/">Ankiのノートタイプの選び方</a>
+</p>
+</li>
+</ul></div>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h1>更新情報</h1>
+  </div>
+<p>2014/03/25: 初出</p>
+<p>2014/04/17: 追加順に学習、無駄なカードを保留にしない、裏返しのカードを追加</p>
+</section>
+
+

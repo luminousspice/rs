@@ -1,0 +1,144 @@
+---
+slug: "sample-decks"
+date: "2014-04-15T00:00:30+00:00"
+lastmod: "2014-04-14T23:18:31+00:00"
+title: "Anki 単語帳サンプル一覧"
+categories: ["Anki","MSDNの英語","WordPress"]
+tags: ["Anki"]
+anki: ["サンプル単語帳"]
+excerpt: "これまでの投稿で公開してきた Anki 単語帳を紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。List of Anki Deck Samples."
+---
+<section id="preamble">
+<p>これまでの投稿で公開してきた Anki 単語帳のサンプルを紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。</p>
+</section>
+<section id="辞書を開くリンクと読み上げ機能">
+  <div class="page-header">
+    <h2>辞書を開くリンクと読み上げ機能</h2>
+  </div>
+<p><a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>では、カードにフィールドの文字を辞書検索するリンクを追加する方法、アドオン AwesomeTTS を使って読み上げる方法を説明しました。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_4_13.png" alt="カード表示">
+</div>
+<div class="title">図 1. カード表示例</div>
+</div>
+<p>Mac OS X の場合は、内蔵の辞書アプリからテキストを検索して表示します。</p>
+<p><a href="/apkg/how2anki4.apkg" class="btn btn-large btn-primary"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ how2anki4.apkg</a></p>
+</section>
+<section id="解答キー入力機能と空欄補充">
+  <div class="page-header">
+    <h2>解答キー入力機能と空欄補充</h2>
+  </div>
+<p><a href="/type_answer/">Anki解答キー入力機能の使い方</a>では、解答をキー入力するカードのつくり方、さらに空欄補充問題と組み合わせた応用例を紹介しています。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_5.png" alt="カードのプレビュー">
+</div>
+<div class="title">図 2. カードのプレビュー</div>
+</div>
+<p>空欄補充問題の解答をカードの穴埋め欄に記入するカードです。解答を表示すると入力内容と正解の比較ができます。</p>
+<p><a href="/apkg/anki209.apkg" class="btn btn-large btn-primary"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ anki209.apkg</a></p>
+</section>
+<section id="widows_開発者のための頻出語彙_msdn_word_list">
+  <div class="page-header">
+    <h2>Widows 開発者のための頻出語彙 MSDN Word List</h2>
+  </div>
+<p><a href="/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>では Windows アプリケーション開発者が技術文書を読むための語彙集を作成しました。
+一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、MSDN Magazineの使用語彙の98%がカバーできる語彙824を収録しています。
+なお、この分析には固有名詞は除外して計算しています。</p>
+<table rules="rows"width=""frame="hsides"cellspacing="0" cellpadding="4">
+<caption class="title">表 1. 単語帳の内訳</caption>
+<colgroup>
+<col class="span2">
+<col class="span2">
+<col class="span4">
+</colgroup>
+<thead>
+<tr>
+<th>子単語帳名</th>
+<th>単語数</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MSDNWords::Level1</td>
+<td>179</td>
+<td>基本語彙(GSL+AWL)との組み合わせで使用語彙の95%までカバーできる単語(カタカナ、略語を除く)</td>
+</tr>
+<tr>
+<td>MSDNWords::Level2</td>
+<td>276</td>
+<td>基本語彙(GSL+AWL)との組み合わせで使用語彙の98%までカバーできる単語(カタカナ、略語を除く)</td>
+</tr>
+<tr>
+<td>MSDNWords::Level3</td>
+<td>102</td>
+<td>過去10年分のバックナンバーまで分析対象を拡大した時、新たに追加になった頻出語彙</td>
+</tr>
+<tr>
+<td>MSDNWords::カタカナ英語</td>
+<td>223</td>
+<td>カタカナ英語として使われている単語</td>
+</tr>
+<tr>
+<td>MSDNWords::略語</td>
+<td>50</td>
+<td>訳語をあてずに使われている略語</td>
+</tr>
+</tbody>
+</table>
+<div class="imageblock">
+<div class="content">
+<img src="/images/sample_deck_msdnwl.png" alt="単語帳使用例" width="800">
+</div>
+<div class="title">図 3. 単語帳使用例</div>
+</div>
+<p>解答面には、<a target="_new" href="http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;refinement=118%2C117&amp;ac=2">MSDNオンライン検索</a>(MSDN MagazineとMSDN Library限定)、<a target="_new" href="http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;langID=ja-jp">マイクロソフト用語集</a>へのリンクを設定していますので、実際に使用している文例を確認することができます。</p>
+<p><a href="/apkg/msdnwl.apkg" class="btn btn-large btn-primary"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ msdnwl.apkg</a></p>
+</section>
+<section id="wordpress_開発者のための_wordpress_codex_頻出語彙">
+  <div class="page-header">
+    <h2>WordPress 開発者のための WordPress Codex 頻出語彙</h2>
+  </div>
+<p><a href="/frequent-words-in-wordpress-codex/">WordPress Codexの英語 WordPress開発者のためのAnki単語帳</a>では、WordPress 開発者が技術文書を読むための語彙集を作成しました。
+一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、WordPress Codex の使用語彙の98%がカバーできる語彙445を収録しています。
+なお、この分析には固有名詞は除外して計算しています。</p>
+<table rules="rows"width=""frame="hsides"cellspacing="0" cellpadding="4">
+<caption class="title">表 2. 単語帳の内訳</caption>
+<colgroup>
+<col class="span2">
+<col class="span2">
+<col class="span4">
+</colgroup>
+<thead>
+<tr>
+<th>タグ名</th>
+<th>単語数</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WPCX1</td>
+<td>205</td>
+<td>頻出2000語と学術語彙(AWL)との組み合わせで使用語彙の95%までカバーできる単語</td>
+</tr>
+<tr>
+<td>WPCX2</td>
+<td>241</td>
+<td>頻出2000語と学術語彙(AWL)との組み合わせで使用語彙の98%までカバーできる単語</td>
+</tr>
+</tbody>
+</table>
+<div class="imageblock">
+<div class="content">
+<img src="/images/sample_deck_wpcxwl.png" alt="単語帳使用例" width="800">
+</div>
+<div class="title">図 4. 単語帳使用例</div>
+</div>
+<p>解答面には、<a target="_new" href="http://codex.wordpress.org/">WordPress Codex</a>へのリンクを設定していますので、実際に使用している文例を確認することができます。</p>
+<p><a href="/apkg/wpcxwl.apkg" class="btn btn-large btn-primary"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ wpcxwl.apkg</a></p>
+</section>
+
+

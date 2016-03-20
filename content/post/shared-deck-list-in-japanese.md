@@ -1,0 +1,1230 @@
+---
+slug: "shared-deck-list-in-japanese"
+date: "2015-02-15T05:00:57+00:00"
+lastmod: "2016-02-08T16:42:30+00:00"
+title: "日本語ユーザーのための Anki 共有単語帳リスト"
+categories: ["Anki"]
+tags: ["Anki","Anki 単語帳","Data","iOS","iPad","iPhone","iPod touch"]
+anki: ["AnkiMobile","共有単語帳"]
+excerpt: "日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。"
+---
+<section id="preamble">
+<p>日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。</p>
+</section>
+<section id="日本語の共有単語帳を見つけやすく">
+  <div class="page-header">
+    <h1>日本語の共有単語帳を見つけやすく</h1>
+  </div>
+<p>AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。</p>
+<p><a href="https://ankiweb.net/shared/decks/">AnkiWeb に登録されている単語帳一覧</a>は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。</p>
+<p>そこで、独自に AnkiWeb の内容を検索閲覧し、日本人にとって利用可能な単語帳をまとめ、そのデータを簡単に検索できる画面を作りました。</p>
+</section>
+<section id="共有単語帳検索">
+  <div class="page-header">
+    <h1>共有単語帳検索</h1>
+  </div>
+<table id="decklist" class="display" frame="hsides"> 
+<colgroup>
+<col class="span2">
+<col class="span1">
+<col class="span2">
+</colgroup>
+<thead>
+<tr>
+<th>題名</th>
+<th>分類</th>
+<th>タグ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/206033178">Ankiの基礎知識</a></td>
+<td>科学技術</td>
+<td>Tips 用語 ショートカット</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/810249417">Speech Text template for iOS (AnkiMobile)</a></td>
+<td>言語</td>
+<td>英語 フランス語 ドイツ語 TTS 読み上げ</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/697716450">救急診療に役立つ暗記メモ集</a></td>
+<td>科学技術</td>
+<td>医学 医療</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/833115970">十六進数掛け算</a></td>
+<td>科学技術</td>
+<td>算数 16進 情報</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1112109660">数え方・数助詞</a></td>
+<td>言語</td>
+<td>国語 数助詞</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/329800646">変体仮名 Hentaigana Variant Kana</a></td>
+<td>言語</td>
+<td>国語 古文 かな 変体仮名</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/587958922">Man&#8217;yougana 万葉仮名</a></td>
+<td>言語</td>
+<td>国語 古文 かな 万葉仮名</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/69487830">日本史資料 十七条憲法</a></td>
+<td>人文社会</td>
+<td>歴史 日本史 古文 政治 法律</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1639232676">日本史資料 武家諸法度</a></td>
+<td>人文社会</td>
+<td>歴史 日本史 古文 政治 法律</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/69487830">日本史資料 五箇条の御誓文</a></td>
+<td>人文社会</td>
+<td>歴史 日本史 古文 政治 法律</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/25909930">宮内庁用語集</a></td>
+<td>人文社会</td>
+<td>国語 儀式 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/818749478">歌舞伎の演目名</a></td>
+<td>人文社会</td>
+<td>日本史 演劇 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/333780058">重要古文単語315</a></td>
+<td>言語</td>
+<td>国語 古文</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/641220595">古文単語</a></td>
+<td>言語</td>
+<td>国語 古文</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/643386433">難読漢字（一般）</a></td>
+<td>言語</td>
+<td>国語 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1432056637">難読漢字（昆虫、動物、鳥類、爬虫類の名前）</a></td>
+<td>言語</td>
+<td>国語 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1286270423">難読漢字（植物、果実、野菜の名前）</a></td>
+<td>言語</td>
+<td>国語 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/458314799">難読漢字（物、職業、色の名前）</a></td>
+<td>言語</td>
+<td>国語 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/538946132">難読漢字（魚類、水生動物の名前）</a></td>
+<td>言語</td>
+<td>国語 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2020347104">まいにちロシア語（入門編）：大人のためのロシア語</a></td>
+<td>言語</td>
+<td>ロシア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1871538034">身体を表す単語 Russian-Japanese</a></td>
+<td>言語</td>
+<td>ロシア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3372203342">簡単フランス語</a></td>
+<td>言語</td>
+<td>フランス語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1194828453">フランス語単語</a></td>
+<td>言語</td>
+<td>フランス語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3245135572">Rosetta stone ドイツ語(German) Level 3</a></td>
+<td>言語</td>
+<td>ドイツ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/485323808">Rosetta stone ドイツ語(German) Level 4</a></td>
+<td>言語</td>
+<td>ドイツ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/396806471">ポルトガル語ー日本語</a></td>
+<td>言語</td>
+<td>ポルトガル語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1981573963">ポルトガル語ー日本語 複数形</a></td>
+<td>言語</td>
+<td>ポルトガル語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1785823362">ポルトガル語ー日本語p</a></td>
+<td>言語</td>
+<td>ポルトガル語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/788807830">ソマリ語</a></td>
+<td>言語</td>
+<td>ソマリ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2946080634">日本人の為のペルシア語</a></td>
+<td>言語</td>
+<td>ペルシア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1252765692">ベトナム語666</a></td>
+<td>言語</td>
+<td>ベトナム語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/625959472">越語</a></td>
+<td>言語</td>
+<td>ベトナム語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1235147594">越語2700</a></td>
+<td>言語</td>
+<td>ベトナム語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1238396573">簡単中国語（北京語）</a></td>
+<td>言語</td>
+<td>中国語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/771647964">簡単韓国語</a></td>
+<td>言語</td>
+<td>韓国語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1030183555">旧字体新字体 Kyuujitai Shinjitai</a></td>
+<td>言語</td>
+<td>国語 漢字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/799735887">說文部首：楷體與小篆</a></td>
+<td>言語</td>
+<td>漢字 説文解字</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1037174978">電気通信主任技術者_伝送交換設備及び設備管理</a></td>
+<td>科学技術</td>
+<td>電気 通信 電気通信主任技術者 資格</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/4091424041">電験三種_法規</a></td>
+<td>科学技術</td>
+<td>電気 電気主任技術者 資格</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1087111583">電験三種_電力</a></td>
+<td>科学技術</td>
+<td>電気 電気主任技術者 資格</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3985963857">電験三種_機械</a></td>
+<td>科学技術</td>
+<td>電気 電気主任技術者 資格</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/614725473">公害防止管理者（公害総論）</a></td>
+<td>科学技術</td>
+<td>環境 公害防止管理者 資格</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1585384509">公害管理者試験（振動・騒音概論）</a></td>
+<td>科学技術</td>
+<td>環境 公害防止管理者 資格</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/611525897">確定給付企業年金法の法令解釈</a></td>
+<td>人文社会</td>
+<td>法律</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/417940470">英語発音聞き取り改善（日本人のための）</a></td>
+<td>言語</td>
+<td>英語 日本語 発音 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/676760195">英語Boost! ‐ 200 Common Phrasal Verbs (句動詞・熟語)</a></td>
+<td>言語</td>
+<td>英語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1503073102">TOEIC Vocab - English for Japanese - 日本人のための英語コース</a></td>
+<td>言語</td>
+<td>英語 日本語 TOEIC 検定 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/258609336">英単語 頻出順 15000語 Level 1 （1－2000）</a></td>
+<td>言語</td>
+<td>英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1924742385">英単語 頻出順 15000語 Level 2 （2001－3000）</a></td>
+<td>言語</td>
+<td>英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/226773917">Duo3.0 Tango</a></td>
+<td>言語</td>
+<td>英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/159860789">中学英語(English Japanese)</a></td>
+<td>言語</td>
+<td>英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1955159956">TARGET ターゲット 1400 頻出単語 1-1100 English&#8594;Japanese</a></td>
+<td>言語</td>
+<td>英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1794720435">GRE Quant英単語</a></td>
+<td>言語</td>
+<td>英語 日本語 GRE 数的推論 度量衡 検定</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2041494066">800ベーシック英単語[CC4.0]</a></td>
+<td>言語</td>
+<td>英語 日本語 ベーシック・イングリッシュ</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/333469572">Books of the Bible in Japanese</a></td>
+<td>言語</td>
+<td>英語 日本語 宗教 聖書</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/87825824">LSI Japanisch Aufbaukurs</a></td>
+<td>言語</td>
+<td>ドイツ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1871575935">日本語会話・和独 Japanisch Konversation・Japanisch-Deutsch</a></td>
+<td>言語</td>
+<td>ドイツ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3239288653">毎日１５分の漢字練習</a></td>
+<td>言語</td>
+<td>フランス語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1594205371">Hindi-Japanese 200</a></td>
+<td>言語</td>
+<td>ヒンディー語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/113704501">Japanese-Hindi 200</a></td>
+<td>言語</td>
+<td>ヒンディー語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1364084349">Bộ Thủ Chữ Hán (Tiếng Nhật)</a></td>
+<td>言語</td>
+<td>ベトナム語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2095212688">Hán Tự Thường Dùng (Tiếng Nhật)</a></td>
+<td>言語</td>
+<td>ベトナム語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1781457420">Japonština LEDA</a></td>
+<td>言語</td>
+<td>チェコ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/231402903">Polski-japonski by Adam</a></td>
+<td>言語</td>
+<td>ポーランド語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/398382772">Yhdyssanoja Basic Kanji book 2 (Finnish/Japanese)</a></td>
+<td>言語</td>
+<td>フィンランド語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1384794163">Vocaboli ed espressioni giapponesi</a></td>
+<td>言語</td>
+<td>イタリア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/4036197163">Italiano-Giapponese</a></td>
+<td>言語</td>
+<td>イタリア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1056471432">kotoba</a></td>
+<td>言語</td>
+<td>スペイン語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/93980248">Japanese everyday words and phrases, translated into Russian</a></td>
+<td>言語</td>
+<td>ロシア語 日本語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/794286705">Выражения 1 урока An Integrated Approach to Intermediate Jap</a></td>
+<td>言語</td>
+<td>ロシア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/196511944">Выражения 6 урока An Integrated Approach to Intermediate Jap</a></td>
+<td>言語</td>
+<td>ロシア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2872379547">慣用句(あ行)　Идиоматические выражения (а-ряд)(rus)</a></td>
+<td>言語</td>
+<td>ロシア語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2447397931">Japanisch/Deutsch Vokabular I und II</a></td>
+<td>言語</td>
+<td>ドイツ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/249991587">Japanisch/Deutsch Vokabular II und III</a></td>
+<td>言語</td>
+<td>ドイツ語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1625541380">Health and Medical Pictures with English and Japanese</a></td>
+<td>科学技術</td>
+<td>術語 英語 日本語 医学 医療</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1082920264">Japanese Radiological Terms</a></td>
+<td>科学技術</td>
+<td>術語 医学 医療 放射線 英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/214864764">Japanese Math Pictures</a></td>
+<td>科学技術</td>
+<td>術語 英語 日本語 数学 算数</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/63102099">Japanese Programming</a></td>
+<td>科学技術</td>
+<td>術語 英語 日本語 プログラミング 情報</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1944071542">Japanese and English Fruit Pictures</a></td>
+<td>言語</td>
+<td>英語 日本語 果物 フルーツ 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2107766673">Japanese and English School Pictures</a></td>
+<td>言語</td>
+<td>英語 日本語 学校 教室 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/414459136">Japanese Counters</a></td>
+<td>言語</td>
+<td>英語 日本語 数助詞</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1771382918">Japanese Counters</a></td>
+<td>言語</td>
+<td>英語 日本語 数助詞</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1036098926">Japanese Counters</a></td>
+<td>言語</td>
+<td>英語 日本語 数助詞</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/115255341">Japanese Counting Systems Version 1.01 (mostly JTMW)</a></td>
+<td>言語</td>
+<td>英語 日本語 数助詞</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/188437368">Japanese Newspaper 4560</a></td>
+<td>言語</td>
+<td>英語 日本語 新聞 報道 ニュース</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1073450896">Japanese Newspaper 4560 Additional News</a></td>
+<td>言語</td>
+<td>英語 日本語 新聞 報道 ニュース</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/135266511">Japanese signs</a></td>
+<td>言語</td>
+<td>英語 日本語 標識 ピクトグラム 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2754914665">55k WordNet Definitions &amp; Sentences (Monolingual, Bilingual)</a></td>
+<td>言語</td>
+<td>英語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/615343093">sentenças em japonês</a></td>
+<td>言語</td>
+<td>ポルトガル語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/651475745">słówka japońskie</a></td>
+<td>言語</td>
+<td>ポーランド語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/224108184">Vocabulaire Japonais-Français</a></td>
+<td>言語</td>
+<td>フランス語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/722824598">Vocabulaire français-japonais</a></td>
+<td>言語</td>
+<td>フランス語 日本語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1215022603">Great works of art</a></td>
+<td>人文社会</td>
+<td>英語 美術 絵画 歴史 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/311374406">Classical Music Themes - Re-uploaded</a></td>
+<td>人文社会</td>
+<td>英語 音楽 歴史 音源</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/58419656">Notes of the chromatic scale</a></td>
+<td>人文社会</td>
+<td>英語 音楽 半音階 音源</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/946752090">Chord Symbols to piano keys</a></td>
+<td>人文社会</td>
+<td>音楽 ピアノ 和音 コード キー 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/395734601">Guitar Chords With Sound by ReinOwader</a></td>
+<td>人文社会</td>
+<td>音楽 ギター 和音 コード 音源</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1646233599">Birds of Great Britain, with images and sounds</a></td>
+<td>科学技術</td>
+<td>生物 分類学 鳥類 鳴き声 英語 画像 音源</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/940243165">Dutch birds&#8201;&#8212;&#8201;sounds, appearance and taxonomy</a></td>
+<td>科学技術</td>
+<td>生物 分類学 鳥類 鳴き声 英語 オランダ語 画像 音源</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1680286867">Multiplication Table 2x1 through 20x20 Spreadsheet-built</a></td>
+<td>科学技術</td>
+<td>算数 掛け算</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/715012449">2-digit Times Table</a></td>
+<td>科学技術</td>
+<td>算数 掛け算</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1546703997">Mental Arithmetic Practice</a></td>
+<td>科学技術</td>
+<td>算数 暗算</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/405506694">Hexadecimal Multiplication Table</a></td>
+<td>科学技術</td>
+<td>算数 掛け算 16進 情報</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/736754132">rot13</a></td>
+<td>科学技術</td>
+<td>情報 暗号 ROT13</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1975673825">Electronics: Resistor Color Coding</a></td>
+<td>科学技術</td>
+<td>電子 抵抗 カラーコード</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1291257745">Geography - Oceans &amp; Seas</a></td>
+<td>科学技術</td>
+<td>地理 英語 地図 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2263258759">Countries of the World</a></td>
+<td>科学技術</td>
+<td>地理 英語 統計 GDP 人口 通貨 地図 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3066506982">Chinese provinces and more</a></td>
+<td>科学技術</td>
+<td>地理 英語 中国 ピンイン 語源 地図 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1874254267">Latitudes and longitudes of some major cities</a></td>
+<td>科学技術</td>
+<td>地理 経度 緯度 英語</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2343964336">Amino acids study deck</a></td>
+<td>科学技術</td>
+<td>生化学 英語 アミノ酸</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/274734459">Amino Acid Flashcards</a></td>
+<td>科学技術</td>
+<td>生化学 英語 アミノ酸 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/129986190">Chemical elements — number, name, symbol, mass</a></td>
+<td>科学技術</td>
+<td>化学 英語 元素 陽子数 原子量</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/275584315">Perodic table with atomic data</a></td>
+<td>科学技術</td>
+<td>化学 英語 ドイツ語 元素 周期表 融点 電子配置</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1472635709">Ashtanga Yoga</a></td>
+<td>科学技術</td>
+<td>ヨガ アシュタンガ 英語 サンスクリット アサナ 画像</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/441595417">Physical Exam: Heart Sounds</a></td>
+<td>科学技術</td>
+<td>医学 医療 心音 英語 音源</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1475716870">Mathematical terms</a></td>
+<td>科学技術</td>
+<td>術語 英語 数学 算数</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1085268504">American english pronunciation</a></td>
+<td>言語</td>
+<td>英語 発音 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/168692952">Pronunciation practice phonetics (US accent+extra UK) M.F</a></td>
+<td>言語</td>
+<td>英語 発音 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/644151027">Portuguese Phrase Book (Continental pronunciation)</a></td>
+<td>言語</td>
+<td>ポルトガル語 発音 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/428194897">Quranic Arabic Verses word for word SIA (+ audio)</a></td>
+<td>人文社会</td>
+<td>アラビア語 宗教 コーラン 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3396002907">Russian Alphabet with Handwritten and Print fonts and sounds</a></td>
+<td>言語</td>
+<td>ロシア語 発音 キリル文字 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/534801471">Visual Spanish Plus Sound Files from Forvo</a></td>
+<td>言語</td>
+<td>スペイン語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/629972372">French 500 coloured words with pictures and audio</a></td>
+<td>言語</td>
+<td>フランス語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1529958967">Norwegian Sentences with Audio</a></td>
+<td>言語</td>
+<td>ノルウェー語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/822208674">Top 5000 - 1,395 Russian Verbs +audio +perfective +conjugati</a></td>
+<td>言語</td>
+<td>ロシア語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/733910527">500 English words(with pictures and audio)</a></td>
+<td>言語</td>
+<td>英語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1693270835">German FSI Vocab &amp; Basic Sentences (with audio)</a></td>
+<td>言語</td>
+<td>ドイツ語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/124854924">FSI Hungarian I Vocab &amp; Basic Sentences (with audio)</a></td>
+<td>言語</td>
+<td>ハンガリー語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1875520915">FSI II Hungarian Basic Sentences (with audio)</a></td>
+<td>言語</td>
+<td>ハンガリー語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/2530965591">Hangul (Korean Alphabet)</a></td>
+<td>言語</td>
+<td>韓国語 ハングル 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/281628775">Norwegian with Audio</a></td>
+<td>言語</td>
+<td>ノルウェー語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1126003944">German-English top 1000 words - usage frequency (with audio)</a></td>
+<td>言語</td>
+<td>ドイツ語 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/3004519841">French Numbers 0-99 - Audio Drill</a></td>
+<td>言語</td>
+<td>フランス語 数字 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1836502846">Spanish numbers 1-200 with audio</a></td>
+<td>言語</td>
+<td>スペイン語 数字 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1197265380">Spanish numbers 200-400 with audio</a></td>
+<td>言語</td>
+<td>スペイン語 数字 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1644949726">Spanish numbers 400-1000 with audio random</a></td>
+<td>言語</td>
+<td>スペイン語 数字 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1364481455">US Postal Abbreviations</a></td>
+<td>言語</td>
+<td>英語 アメリカ 郵便 州 略称</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1018410050">Finnish Core 100 - Basic words (EN FI with audio)</a></td>
+<td>言語</td>
+<td>フィンランド語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1082291730">German Core 100 - Basic words (EN DE with audio)</a></td>
+<td>言語</td>
+<td>ドイツ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1183137635">Farsi Core 100 - Basic words (EN FA with audio)</a></td>
+<td>言語</td>
+<td>ペルシア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/120195518">Swedish Core 100 - Basic words (EN SV with audio)</a></td>
+<td>言語</td>
+<td>スウェーデン語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1534310908">Turkish Core 100 - Basic words (EN TR with audio)</a></td>
+<td>言語</td>
+<td>トルコ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1540956544">Russian Core 100 - Basic words (EN RU with audio)</a></td>
+<td>言語</td>
+<td>ロシア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1558401647">Cantonese Core 100 - Basic words (EN YUE with audio)</a></td>
+<td>言語</td>
+<td>広東語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1758160103">Korean Core 100 - Basic words (EN KO with audio)</a></td>
+<td>言語</td>
+<td>韓国語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/186112735">Polish Core 100 - Basic words (EN PL with audio)</a></td>
+<td>言語</td>
+<td>ポーランド語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1880481633">Dutch Core 100 - Basic words (EN NL with audio)</a></td>
+<td>言語</td>
+<td>オランダ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1910069300">Danish Core 100 - Basic words (EN DA with audio)</a></td>
+<td>言語</td>
+<td>デンマーク語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1951512042">Norwegian Core 100 - Basic words (EN NO with audio)</a></td>
+<td>言語</td>
+<td>ノルウェー語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1965697482">Vietnamese Core 100 - Basic words (EN VI with audio)</a></td>
+<td>言語</td>
+<td>ベトナム語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/264662891">Spanish Core 100 - Basic words (EN ES with audio)</a></td>
+<td>言語</td>
+<td>スペイン語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/291616264">Indonesian Core 100 - Basic words (EN ID with audio)</a></td>
+<td>言語</td>
+<td>インドネシア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/33786403">French Core 100 - Basic words (EN FR with audio)</a></td>
+<td>言語</td>
+<td>フランス語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/454628379">Hindi Core 100 - Basic words (EN HI with audio)</a></td>
+<td>言語</td>
+<td>ヒンディー語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/50460602">Swahili Core 100 - Basic words (EN SW with audio)</a></td>
+<td>言語</td>
+<td>スワヒリ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/556661775">Filipino Core 100 - Basic words (EN TL with audio)</a></td>
+<td>言語</td>
+<td>フィリピン語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/697918796">Mandarin Chinese Core 100 - Basic words (EN ZH with audio)</a></td>
+<td>言語</td>
+<td>中国語 普通話 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/72104535">Italian Core 100 - Basic words (EN IT with audio)</a></td>
+<td>言語</td>
+<td>イタリア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/738192852">Arabic Core 100 - Basic words (EN AR with audio)</a></td>
+<td>言語</td>
+<td>アラビア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/790604009">Thai Core 100 - Basic words (EN TH with audio)</a></td>
+<td>言語</td>
+<td>タイ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/812639328">Greek Core 100 - Basic words (EN EL with audio)</a></td>
+<td>言語</td>
+<td>ギリシア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/889789113">Hebrew Core 100 - Basic words (EN HE with audio)</a></td>
+<td>言語</td>
+<td>ヘブライ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/952826225">Portuguese Core 100 - Basic words (EN PT with audio)</a></td>
+<td>言語</td>
+<td>ポルトガル語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1320507125">Czech Core 100 - Basic words (EN CS with audio)</a></td>
+<td>言語</td>
+<td>チェコ語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/141464639">Bulgarian Core 100 - Basic words (EN BG with audio)</a></td>
+<td>言語</td>
+<td>ブルガリア語 画像 音声</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/info/1392746304">Hungarian Core 100 - Basic words (EN HU with audio)</a></td>
+<td>言語</td>
+<td>ハンガリー語 画像 音声</td>
+</tr>
+</tbody>
+</table>
+<h2 id="使い方">使い方</h2>
+<ul>
+<li>
+右上検索欄にキーワードを入力すると、情報を絞り込みます。
+</li>
+<li>
+分類列やタグ列の単語をクリックすると、その用語で情報を絞り込みます。
+</li>
+<li>
+左上 [検索条件解除] ボタンを押すと、全ての情報を表示します。
+</li>
+<li>
+見出しをクリックすると、情報を並び替えます。
+</li>
+<li>
+上部のドロップダウンから一度に表示する項目数を選択できます。
+</li>
+</ul>
+<h2 id="注意事項">注意事項</h2>
+<ul>
+<li>
+このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
+</li>
+<li>
+個人的な視点に基づいて選択したデータであって、AnkiWeb 登録の日本語単語帳の一部です。
+</li>
+<li>
+外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
+</li>
+</ul>
+<h2 id="共有単語帳を使う時の参考に">共有単語帳を使う時の参考に</h2>
+<ul>
+<li>
+共有単語帳の使い方は、<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>をご覧下さい。
+</li>
+<li>
+共有単語帳の作り方や AnkiWeb への登録方法は、<a href="/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>をご覧下さい。
+</li>
+<li>
+Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点を<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a>にまとめています。
+</li>
+</ul>
+</section>
+<section id="共有単語帳への検索リンク集">
+  <div class="page-header">
+    <h1>共有単語帳への検索リンク集</h1>
+  </div>
+<p>更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
+日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。</p>
+<h2 id="注意事項_2">注意事項</h2>
+<ul>
+<li>
+タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
+</li>
+<li>
+AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
+</li>
+</ul>
+<h2 id="言語">言語</h2>
+<table class="table table-striped" width="" cellspacing="0" cellpadding="4" frame="hsides" rules="rows">
+<colgroup>
+<col class="span2">
+<col class="span3">
+</colgroup>
+<thead>
+<tr>
+<th>日本語キーワード</th>
+<th>英語キーワード</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E6%97%A5%E6%9C%AC%E8%AA%9E">日本語</a>, <a href="https://ankiweb.net/shared/decks/%E5%9B%BD%E8%AA%9E">国語</a>,  <a href="https://ankiweb.net/shared/decks/%E6%BC%A2%E5%AD%97">漢字</a>,  <a href="https://ankiweb.net/shared/decks/%E4%BB%AE%E5%90%8D">仮名</a>, <a href="https://ankiweb.net/shared/decks/%E5%8F%A4%E6%96%87">古文</a>, <a href="https://ankiweb.net/shared/decks/%E9%83%A8%E9%A6%96">部首</a></td>
+<td><a href="https://ankiweb.net/shared/decks/japanese/">Japanese</a>, <a href="https://ankiweb.net/shared/decks/kanji">Kanji</a></td>
+</tr>
+<tr>
+<td>アラビア語</td>
+<td><a href="https://ankiweb.net/shared/decks/arabic">Arabic</a></td>
+</tr>
+<tr>
+<td>イタリア語</td>
+<td><a href="https://ankiweb.net/shared/decks/Italian">Italian</a></td>
+</tr>
+<tr>
+<td>ウクライナ語</td>
+<td><a href="https://ankiweb.net/shared/decks/Ukrainian">Ukrainian</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E8%8B%B1%E8%AA%9E">英語</a>, <a href="https://ankiweb.net/shared/decks/%E8%8B%B1%E6%A4%9C">英検</a></td>
+<td><a href="https://ankiweb.net/shared/decks/english">English</a>,<a href="https://ankiweb.net/shared/decks/TOEFL">TOEFL</a>, <a href="https://ankiweb.net/shared/decks/TOEIC">TOEIC</a>, <a href="https://ankiweb.net/shared/decks/IELTS">IELTS</a>, <a href="https://ankiweb.net/shared/decks/CAE">CAE</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E9%9F%93%E5%9B%BD%E8%AA%9E">韓国語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/korean">Korean</a></td>
+</tr>
+<tr>
+<td>ギリシャ語</td>
+<td><a href="https://ankiweb.net/shared/decks/greek">Greek</a></td>
+</tr>
+<tr>
+<td>クメール語</td>
+<td><a href="https://ankiweb.net/shared/decks/Khmer">Khmer</a></td>
+</tr>
+<tr>
+<td>サンスクリット</td>
+<td><a href="https://ankiweb.net/shared/decks/sanskrit">Sanskrit</a></td>
+</tr>
+<tr>
+<td>スペイン語</td>
+<td><a href="https://ankiweb.net/shared/decks/spanish">Spanish</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E4%B8%AD%E5%9B%BD%E8%AA%9E">中国語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/chinese">Chinese</a>, <a href="https://ankiweb.net/shared/decks/mandarin">Mandarin</a></td>
+</tr>
+<tr>
+<td>タイ語</td>
+<td><a href="https://ankiweb.net/shared/decks/Thai">Thai</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E3%83%89%E3%82%A4%E3%83%84%E8%AA%9E">ドイツ語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/german">German</a></td>
+</tr>
+<tr>
+<td>トルコ語</td>
+<td><a href="https://ankiweb.net/shared/decks/Turkish">Turkish</a></td>
+</tr>
+<tr>
+<td>ヒンディー語</td>
+<td><a href="https://ankiweb.net/shared/decks/hindi">Hindi</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E8%AA%9E">フランス語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/french">French</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E8%AA%9E">ベトナム語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/Vietnamese">Vietnamese</a></td>
+</tr>
+<tr>
+<td>ヘブライ語</td>
+<td><a href="https://ankiweb.net/shared/decks/Hebrew">Hebrew</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E3%83%9A%E3%83%AB%E3%82%B7%E3%82%A2%E8%AA%9E">ペルシャ語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/persian">Persian</a></td>
+</tr>
+<tr>
+<td>ベンガル語</td>
+<td><a href="https://ankiweb.net/shared/decks/bengal">Bengal</a></td>
+</tr>
+<tr>
+<td>ポーランド語</td>
+<td><a href="https://ankiweb.net/shared/decks/Polish">Polish</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB%E8%AA%9E">ポルトガル語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/portugues">Portugues</a></td>
+</tr>
+<tr>
+<td>マラティ語</td>
+<td><a href="https://ankiweb.net/shared/decks/Marathi">Marathi</a></td>
+</tr>
+<tr>
+<td>マレー語</td>
+<td><a href="https://ankiweb.net/shared/decks/malay">Malay</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E3%83%AD%E3%82%B7%E3%82%A2%E8%AA%9E">ロシア語</a></td>
+<td><a href="https://ankiweb.net/shared/decks/russian">Russian</a></td>
+</tr>
+<tr>
+<td>ラテン語</td>
+<td><a href="https://ankiweb.net/shared/decks/latin">Latin</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="人文社会">人文社会</h2>
+<table class="table table-striped" width="" cellspacing="0" cellpadding="4" frame="hsides" rules="rows">
+<colgroup>
+<col class="span2">
+<col class="span3">
+</colgroup>
+<thead>
+<tr>
+<th>日本語キーワード</th>
+<th>英語キーワード</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>哲学</td>
+<td><a href="https://ankiweb.net/shared/decks/philosophy">Philosophy</a></td>
+</tr>
+<tr>
+<td>聖書</td>
+<td><a href="https://ankiweb.net/shared/decks/bible">Bible</a></td>
+</tr>
+<tr>
+<td>コーラン</td>
+<td><a href="https://ankiweb.net/shared/decks/quran">Quran</a></td>
+</tr>
+<tr>
+<td>仏教</td>
+<td><a href="https://ankiweb.net/shared/decks/buddha">Buddha</a>, <a href="https://ankiweb.net/shared/decks/buddhism">Buddhism</a></td>
+</tr>
+<tr>
+<td>心理</td>
+<td><a href="https://ankiweb.net/shared/decks/Psychology">Psychology</a></td>
+</tr>
+<tr>
+<td>言語</td>
+<td><a href="https://ankiweb.net/shared/decks/linguistics">Linguistics</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E6%AD%B4%E5%8F%B2">歴史</a></td>
+<td><a href="https://ankiweb.net/shared/decks/history">History</a>, <a href="https://ankiweb.net/shared/decks/history%20of%20japan">History of Japan</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E5%9C%B0%E7%90%86">地理</a></td>
+<td><a href="https://ankiweb.net/shared/decks/Geography">Geography</a></td>
+</tr>
+<tr>
+<td>音楽</td>
+<td><a href="https://ankiweb.net/shared/decks/music">Music</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E6%95%99%E8%82%B2">教育</a></td>
+<td><a href="https://ankiweb.net/shared/decks/education">Education</a></td>
+</tr>
+<tr>
+<td>学力試験</td>
+<td><a href="https://ankiweb.net/shared/decks/GCSE">GCSE</a>, <a href="https://ankiweb.net/shared/decks/AQA">AQA</a>, <a href="https://ankiweb.net/shared/decks/sat%20vocab">SAT Vocab</a>ulary, <a href="https://ankiweb.net/shared/decks/gre%20vocab">GRE Vocab</a>ulary</td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E6%B3%95%E5%BE%8B">法律</a>, <a href="https://ankiweb.net/shared/decks/%E6%B3%95%E4%BB%A4">法令</a></td>
+<td><a href="https://ankiweb.net/shared/decks/law">Law</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E6%94%BF%E6%B2%BB">政治</a></td>
+<td><a href="https://ankiweb.net/shared/decks/politics">Politics</a></td>
+</tr>
+<tr>
+<td>経済</td>
+<td><a href="https://ankiweb.net/shared/decks/Economics">Economics</a></td>
+</tr>
+<tr>
+<td>会計</td>
+<td><a href="https://ankiweb.net/shared/decks/CPA">CPA</a></td>
+</tr>
+<tr>
+<td>マーケティング</td>
+<td><a href="https://ankiweb.net/shared/decks/Marketing">Marketing</a></td>
+</tr>
+<tr>
+<td>プロジェクト管理</td>
+<td><a href="https://ankiweb.net/shared/decks/Project%20Management">Project Management</a>, <a href="https://ankiweb.net/shared/decks/PMBOK">PMBOK</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="科学技術">科学技術</h2>
+<table class="table table-striped" width="" cellspacing="0" cellpadding="4" frame="hsides" rules="rows">
+<colgroup>
+<col class="span2">
+<col class="span3">
+</colgroup>
+<thead>
+<tr>
+<th>日本語キーワード</th>
+<th>英語キーワード</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数学</td>
+<td><a href="https://ankiweb.net/shared/decks/math">Math</a></td>
+</tr>
+<tr>
+<td>統計</td>
+<td><a href="https://ankiweb.net/shared/decks/statistics">Statistics</a></td>
+</tr>
+<tr>
+<td>物理</td>
+<td><a href="https://ankiweb.net/shared/decks/physics">Physics</a></td>
+</tr>
+<tr>
+<td>化学</td>
+<td><a href="https://ankiweb.net/shared/decks/chemistry">Chemistry</a></td>
+</tr>
+<tr>
+<td>生物</td>
+<td><a href="https://ankiweb.net/shared/decks/biology">Biology</a></td>
+</tr>
+<tr>
+<td>解剖学</td>
+<td><a href="https://ankiweb.net/shared/decks/anatomy">Anatomy</a></td>
+</tr>
+<tr>
+<td>生理学</td>
+<td><a href="https://ankiweb.net/shared/decks/Physiology">Physiology</a></td>
+</tr>
+<tr>
+<td><a href="https://ankiweb.net/shared/decks/%E5%8C%BB%E5%AD%A6">医学</a>, <a href="https://ankiweb.net/shared/decks/%E5%8C%BB%E7%99%82">医療</a></td>
+<td><a href="https://ankiweb.net/shared/decks/medicine">Medicine</a>, <a href="https://ankiweb.net/shared/decks/medical">Medical</a>, <a href="https://ankiweb.net/shared/decks/USMLE">USMLE</a></td>
+</tr>
+<tr>
+<td>病理学</td>
+<td><a href="https://ankiweb.net/shared/decks/pathology">Pathology</a></td>
+</tr>
+<tr>
+<td>歯学</td>
+<td><a href="https://ankiweb.net/shared/decks/Dentistry">Dentistry</a>, <a href="https://ankiweb.net/shared/decks/dental">Dental</a></td>
+</tr>
+<tr>
+<td>薬学</td>
+<td><a href="https://ankiweb.net/shared/decks/Pharmacology">Pharmacology</a>,<a href="https://ankiweb.net/shared/decks/drug">Drug</a></td>
+</tr>
+<tr>
+<td>獣医学</td>
+<td><a href="https://ankiweb.net/shared/decks/Veterinary">Veterinary</a></td>
+</tr>
+<tr>
+<td>エンジニアリング</td>
+<td><a href="https://ankiweb.net/shared/decks/Engineering">Engineering</a></td>
+</tr>
+<tr>
+<td>建築</td>
+<td><a href="https://ankiweb.net/shared/decks/Architecture">Architecture</a></td>
+</tr>
+<tr>
+<td>情報</td>
+<td><a href="https://ankiweb.net/shared/decks/software">Software</a>, <a href="https://ankiweb.net/shared/decks/Programming">Programming</a>, <a href="https://ankiweb.net/shared/decks/network">Network</a></td>
+</tr>
+<tr>
+<td>金属</td>
+<td><a href="https://ankiweb.net/shared/decks/metal">Metal</a></td>
+</tr>
+<tr>
+<td>デザイン</td>
+<td><a href="https://ankiweb.net/shared/decks/design">Design</a></td>
+</tr>
+<tr>
+<td>環境, <a href="https://ankiweb.net/shared/decks/%E5%85%AC%E5%AE%B3">公害</a></td>
+<td><a href="https://ankiweb.net/shared/decks/environment">Environment</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h1>更新情報</h1>
+  </div>
+<p>2015/02/17: 初出</p>
+<p>2015/02/26: 追加: 人文社会、科学技術</p>
+<p>2016/01/27: 最新情報にあわせて全面更新</p>
+<p>2016/02/05: 単語帳検索画面を追加</p>
+</section>
+
+

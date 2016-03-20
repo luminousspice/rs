@@ -1,0 +1,102 @@
+---
+slug: "type_answer"
+date: "2013-06-17T00:00:51+00:00"
+lastmod: "2014-09-16T13:41:18+00:00"
+title: "Anki解答キー入力機能の使い方"
+categories: ["Anki"]
+tags: ["Anki","Anki 単語帳"]
+anki: ["Anki2.0.9","AwesomeTTS","オフィシャルビデオ","カードテンプレート","穴埋め","解答キー入力"]
+excerpt: "解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9."
+---
+<section id="anki解答キー入力機能の使い方">
+<div class="paragraph"><p>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。</p></div>
+<h2 id="オフィシャルビデオでアウトラインをつかむ" class="section">オフィシャルビデオでアウトラインをつかむ</h2>
+<div class="paragraph"><p>Anki作者Damien Elmesの作ったYouTubeビデオ"Typing in the Answer"を見てください。
+英語の説明音声が分からなくても、画面を眺めるだけで良いです。</p></div>
+<div class="paragraph"><p>
+<iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/5tYObQ3ocrw" frameborder="0" allowfullscreen></iframe></p></div>
+<div class="paragraph"><p>このビデオの次のような作業をしています。</p></div>
+<div class="olist arabic"><ol class="arabic">
+<li>
+<p>
+カードテンプレートを編集して解答キー入力機能の設定をします。
+</p>
+</li>
+<li>
+<p>
+フィールド設定からキー入力のフォントサイズを変更します。
+</p>
+</li>
+<li>
+<p>
+穴埋め問題に解答キー入力機能を追加する応用例を紹介しています。
+</p>
+</li>
+</ol></div>
+<div class="paragraph"><p>なお、このビデオはAnki2.0.9以前のバージョンで作成しています。
+解答キー入力機能は、<a href="/changes-in-anki209/">Anki2.0.9で機能が改善</a>されていて、最新版のAnkiとは若干表示内容が異なります。</p></div>
+<h2 id="キー入力機能の設定方法" class="section">キー入力機能の設定方法</h2>
+<div class="paragraph"><p>キー入力機能を設定するにはカードテンプレート上でフィールド名の前に <code>type:</code> を追加します。
+例えば、[Back]フィールドに設定する場合は <code>{{type:Back}}</code> となります。</p></div>
+<div class="listingblock">
+<div class="title">基本ノートタイプへの表面の設定例</div>
+<div class="content monospaced">
+<pre>{{Front}}
+{{type:Back}}</pre>
+</div></div>
+<div class="paragraph"><p>画面上にテキストフィールドが追加になり、解答を入力できるようになります。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/type_answer1.png" alt="解答キー入力 表面の表示">
+</div>
+<div class="title">図 1. 表面の表示</div>
+</div>
+<div class="paragraph"><p>解答を入力して、エンターキーまたは[解答を表示]ボタンを押すと、間違った場合にはキー入力した内容と正解の比較が表示されます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/type_answer2.png" alt="解答キー入力 裏面の表示">
+</div>
+<div class="title">図 2. 裏面の表示</div>
+</div>
+<div class="paragraph"><div class="title">注意事項</div><p>裏面のテンプレートの <code>&lt;hr id=answer&gt;</code> タグの直下に解答の比較例を挿入します。このタグを削除すると、比較例が表示できなくなります。</p></div>
+<div class="paragraph"><p>カードテンプレートの編集画面で、解答キー入力機能のプレビューを見ることもできます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/type_answer3.png" alt="解答キー入力 カードテンプレートのプレビュー画面">
+</div>
+<div class="title">図 3. カードテンプレートのプレビュー画面</div>
+</div>
+<div class="paragraph"><p>この例では、アドオンAwesomeTTSを使って、BackフィールドをGoogleTTSで読み上げる設定にしています。
+アドオンAwesomeTTSの設定方法については<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>をご覧ください。</p></div>
+<h2 id="穴埋め問題と組み合わせる" class="section">穴埋め問題と組み合わせる</h2>
+<div class="paragraph"><p>オフィシャルビデオの最後で紹介している穴埋め問題と組み合わせた例を説明します。</p></div>
+<div class="paragraph"><p>ノートタイプを穴埋めに設定した上で、カードテンプレートで穴埋め問題を設定した「テキスト」フィールドに、<code>{{type:close:テキスト}}</code> と設定すると解答キー入力機能でチェックできるようになります。</p></div>
+<div class="listingblock">
+<div class="title">基本ノートタイプへの表面テンプレートの設定例</div>
+<div class="content monospaced">
+<pre>{{cloze:テキスト}}
+{{type:cloze:テキスト}}</pre>
+</div></div>
+<div class="paragraph"><p>穴埋め問題の下に、解答を入力するフィールドが現れます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_3.png" alt="キー入力内容と正解の比較" width="400">
+</div>
+<div class="title">図 4. 表面の解答キー入力画面</div>
+</div>
+<div class="paragraph"><p>穴埋め問題の解答をテキストフィールドにキー入力し、[解答を表示]ボタンを押します。
+間違っている場合は正解と比較結果を表示します。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_4.png" alt="入力内容と正解の比較" width="400">
+</div>
+<div class="title">図 5. 裏面のキー入力した解答と正解の比較</div>
+</div>
+<h3 id="サンプルのダウンロード">サンプルのダウンロード</h3>
+<div class="paragraph">
+<p>上の例で使ったカードテンプレートを含む単語帳 anki209.apkg をダウンロードしてお使いいただけます。</p>
+<p><a href="/apkg/anki209.apkg" class="btn btn-large btn-primary"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ anki209.apkg</a></p>
+</div>
+</section>
+
+

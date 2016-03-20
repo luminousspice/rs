@@ -1,0 +1,250 @@
+---
+slug: "how-to-customize-learning"
+date: "2013-05-11T20:00:43+00:00"
+lastmod: "2014-10-13T05:34:36+00:00"
+title: "フィルター単語帳でAnki学習をカスタマイズしよう"
+categories: ["Anki","Anki2の使い方"]
+tags: ["Anki"]
+anki: ["Anki2.0.9","カスタム学習","フィルター単語帳","上限を変更","検索条件"]
+excerpt: "単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query."
+---
+<section id="preamble">
+<p><strong>連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回</strong></p>
+<p>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。</p>
+<div class="sidebarblock well">
+<div class="content">
+<p><a target="_new" href="http://ankisrs.net/">Anki</a>とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。</p>
+</div></div>
+</section>
+<section id="この記事の目標">
+  <div class="page-header">
+    <h2>この記事の目標</h2>
+  </div>
+<p>フィルター学習を使ったAnkiの学習オプションのカスタマイズ方法になれましょう。</p>
+</section>
+<section id="使うもの">
+  <div class="page-header">
+    <h2>使うもの</h2>
+  </div>
+<div class="ulist"><ul>
+<li>
+<p>
+<a target="_new" href="http://ankisrs.net/">Anki2</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/browser-overview/">第5回目の記事のデータ検索の知識</a>
+</p>
+</li>
+</ul></div>
+</section>
+<section id="カスタム学習の紹介">
+  <div class="page-header">
+    <h2>カスタム学習の紹介</h2>
+  </div>
+<p></p>
+<p>カスタム学習セッションとは、標準の学習スケジュールから外れて設定する学習セッションのことです。学習対象を絞り込んで集中的に学習することができます。設定画面を表示するには、メインウィンドウで単語帳を選択し、画面下の[カスタム学習]ボタンを押します。(図1)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_2.png" alt="カスタム学習設定画面">
+</div>
+<div class="title">図 1. カスタム学習設定画面</div>
+</div>
+<p>カスタム学習には2種類あり、選択中の単語帳の一日の制限を超えて学習カードを追加するものと、全単語帳から検索条件を設定して抽出したカードをフィルター単語帳という特殊な単語帳に移動して学習するものがあります。</p>
+<div class="ulist"><div class="title">使用中の単語帳の制限を超えて学習カードを追加</div><ul>
+<li>
+<p>
+今日の新規カードの上限を上げる
+</p>
+</li>
+<li>
+<p>
+今日の復習カードの上限を上げる
+</p>
+</li>
+</ul></div>
+<p>これら、2つの場合は、更にカードの枚数が増えるだけで通常の学習と変わりありません。
+それ以外の項目を選択した場合には、[カスタム学習セッション]という名前の単語帳に移動します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_6_2.png" alt="フィルター単語帳設定画面">
+</div>
+<div class="title">図 2. フィルター単語帳設定画面</div>
+</div>
+<p>[学習する]ボタンを押すしてそのままカスタム学習を始めることができますし、[オプション]ボタンを押すと学習設定を詳しく調整することもできます。</p>
+<h3 id="フィルター単語帳の注意点">フィルター単語帳の注意点</h3>
+<p></p>
+<p>フィルター単語帳を使用した場合、元の単語帳からカードを移動しています。フィルター単語帳内での学習が終わればカードは元の単語帳に戻ります。ここで、[再構築]ボタンを押すともう一度同じセッションを繰り返すことができます。</p>
+<p>学習を中断した場合や未学習の場合は、フィルター単語帳内に残ります。元の単語帳にカードを戻したい時は[白紙]のボタンを押してください。</p>
+<p>[カスタム学習セッション]という名前の単語帳は、カスタム学習を設定するごとに上書きされます。この単語帳の名前を書き換えれば上書きされることなく、再利用できます。[再構築]ボタンを押すと再び学習カードを抽出することができます。</p>
+</section>
+<section id="フィルター単語帳の設定">
+  <div class="page-header">
+    <h2>フィルター単語帳の設定</h2>
+  </div>
+<p></p>
+<p>フィルター単語帳を開いて[オプション]ボタンを押すと、設定画面を呼び出すことができます。(図3)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_6_3.png" alt="フィルター単語帳設定画面">
+</div>
+<div class="title">図 3. フィルター単語帳設定画面</div>
+</div>
+<p>この画面では、検索条件、抽出枚数、出題順の基本情報と、オプションとしてカスタム学習セッションでの学習結果を通常のスケジュールに反映するか、独自の学習ステップを設定するか指定することができます。</p>
+<p>既定の検索条件を表1に書き出しました。この条件を自分でカスタマイズすることができます。この5つの項目は、それぞれ別の設定をしている訳ではなく、Ankiが典型的な検索条件のテンプレートを示してくれていると考えてよいです。例えば最初に[先取りして復習する]を選んでも、検索条件を書き換えて、[忘却したカードを復習する]と同じ内容に書き換えても動作します。</p>
+<p>また、既定では選択中の単語帳の名前が検索条件に自動的に入ります。図2の場合は、<code>deck:"中学英単語"</code> です。単語帳の指定を消せばコレクション全体が抽出条件になります。AND や OR を設定して複数の単語帳から抽出することもできます。基本的なデータ抽出の知識は<a href="/browser-overview/">前回の記事</a>で説明した通りです。</p>
+<table rules="rows"width=""frame="hsides"cellspacing="0" cellpadding="4" class="table table-striped">
+<caption class="title">表 1. カスタム学習セッションの既定の検索条件 (単語帳を"中学英単語"に指定した場合)</caption>
+<colgroup>
+<col class="span3">
+<col class="span2">
+<col class="span3">
+</colgroup>
+<thead>
+<tr>
+<th>選択項目</th>
+<th>検索条件</th>
+<th>その他の設定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>忘却したカードを復習する</td>
+<td>deck:"中学英単語" rated:1:1</td>
+<td></td>
+</tr>
+<tr>
+<td>先取りして復習する</td>
+<td>deck:"中学英単語" prop:due&#8656;1</td>
+<td></td>
+</tr>
+<tr>
+<td>カードを無作為に選んで学習する</td>
+<td>deck:"中学英単語"</td>
+<td>出題方法:無作為</td>
+</tr>
+<tr>
+<td>新規のカードをプレビューする</td>
+<td>deck:"中学英単語" is:new added:1</td>
+<td></td>
+</tr>
+<tr>
+<td>特定のタグに限定する(追加"Grade1"、除外"今日の失敗")</td>
+<td>deck:"中学英単語" (is:new or is:due) (tag:'Grade1') -tag:'今日の失敗'</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Ankiが書き出す設定例を、自分で書き換えることでカスタム学習を柔軟に設定できます。次の表では簡単なカスタマイズの一例を紹介します。</p>
+<p></p>
+<table rules="rows"width=""frame="hsides"cellspacing="0" cellpadding="4" class="table table-striped">
+<colgroup>
+<col class="span2">
+<col class="span4">
+<col class="span2">
+</colgroup>
+<thead>
+<tr>
+<th>設定内容</th>
+<th>検索条件</th>
+<th>その他の設定と補足説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>期日に達したカードをランダムに表示</td>
+<td>is:due</td>
+<td>出題方法:無作為を追加設定。過去の学習順に関わらずランダムに表示</td>
+</tr>
+<tr>
+<td>解答3回未満のカード</td>
+<td>prop:reps&lt;3</td>
+<td>出現回数の少ないカードを重点的に学習</td>
+</tr>
+<tr>
+<td>明日期日に達するカード</td>
+<td>prop:due=1</td>
+<td>余裕がある時に明日の分を先取り学習</td>
+</tr>
+<tr>
+<td>学習間隔が1日の期日に達したカード</td>
+<td>is:due prop:ivl=1</td>
+<td>大きなバックログから危急なカードを抽出</td>
+</tr>
+<tr>
+<td>過去1週間(7)に難しい(2)と解答したカード</td>
+<td>rated:7:2</td>
+<td>間違えに落ち込む前にメンテナンスする</td>
+</tr>
+<tr>
+<td>過去1か月(31)に解答した3回以上間違えたカード</td>
+<td>rated:31 prop:lapses&gt;=3</td>
+<td>記憶困難なカードを選び出す</td>
+</tr>
+<tr>
+<td>ノートタイプ"英語単語"で"back"フィールドが空でないカード</td>
+<td>note:"英語単語" back:*</td>
+<td>ノートタイプやフィールドも条件に設定できます</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="フィルター単語帳を直接設定する">
+  <div class="page-header">
+    <h2>フィルター単語帳を直接設定する</h2>
+  </div>
+<p>少し進んだ使い方になりますが、メインメニューの単語帳一覧、あるいは単語帳のトップページから直接フィルター単語帳の設定画面を呼び出すことができます。メニューバーから[ツール]>[フィルター単語帳を作成]を選択するか[F]キーを押します。</p>
+<p>この場合、詳しい検索条件は自分で設定する必要がありますので、慣れた人向けの機能になります。</p>
+<p>さらに詳しい設定は、ユーザーマニュアルの<a target="_new" href="http://ankisrs.net/docs/manual.html#browser">Browser</a>項目(<a target="_new" href="http://wikiwiki.jp/rage2050/?2.0%2FBrowser">日本語訳</a>)に記載されています。</p>
+</section>
+<section id="まとめ">
+  <div class="page-header">
+    <h2>まとめ</h2>
+  </div>
+<p>カスタム学習、フィルター単語帳を使うときめ細かな学習条件を設定することができます。標準の学習スケジュールより自分にあった効率的な学習を設計できます。学習環境が大きく変わって、たくさんの課題に取り組める時、余裕がない時に、大きなバックログを抱えた時に、Ankiはこの強力な機能でサポートしてくれます。</p>
+<p>標準学習に飽きた時に気分転換に使うのも楽しいです。ぜひ、このカスタム学習を活用して、Ankiをもっと楽しんでください。</p>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h2>更新情報</h2>
+  </div>
+<p>2013/05/11: 初出</p>
+<p>2014/09/21: 再構成</p>
+</section>
+<section id="連載_ankiの使い方_覚えるために忘れろ_記事一覧">
+  <div class="page-header">
+    <h2>連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧</h2>
+  </div>
+<ol>
+<li>
+<a href="/how-to-anki/">はじめてのAnki – まず使ってみる</a>(インストール、問題入力、学習の流れ)
+</li>
+<li>
+<a href="/how-to-import/">Ankiにデータをまとめて取り込む</a>(テキストデータの一括登録)
+</li>
+<li>
+<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>(アドオン、共有単語帳)
+</li>
+<li>
+<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>(カード編集、外部リンク設定、読み上げ)
+</li>
+<li>
+<a href="/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>(ブラウザー、検索条件)
+</li>
+<li>
+フィルター単語帳でAnki学習をカスタマイズしよう (カスタム学習、フィルター単語帳、独自の学習条件を設定)
+</li>
+<li>
+<a href="/reduce-anki-backlog-with-stats/">Anki統計情報を活用したバックログ解消法</a>(統計情報の見方、たまった復習カードの解決法)
+</li>
+<li>
+<a href="/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>(単語帳の書き出し、AnkiWebへの共有)
+</li>
+<li>
+<a href="/index-how-to-anki/">はじめてAnkiを使う人のための索引</a>(連載内容の索引)
+</li>
+</ol>
+</section>
+
+

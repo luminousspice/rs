@@ -1,0 +1,442 @@
+---
+slug: "words-in-msdn"
+date: "2013-06-01T23:00:37+00:00"
+lastmod: "2014-03-24T18:22:59+00:00"
+title: "MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略"
+categories: ["MSDNの英語","コーパス"]
+tags: ["Anki 単語帳","AWL","BNC","CasualConc","Corpus","GSL","msdn","msdn magazine","コーパス"]
+excerpt: "ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。"
+---
+<section id="msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略">
+<p>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</p>
+<h2 id="おことわり" class="section">おことわり</h2>
+<div class="sidebarblock well">
+<div class="content">
+<p>この記事は、楽しむことを目的とした内容で、学術的な厳密性を考慮していません。教育学的観点からの配慮もしていません。</p>
+<p>MSDNは、Microsoft Corporationの商標であり、
+MSDN Magazineは、1105 Media, Inc.の出版物です。</p>
+</div></div>
+<h2 id="msdnの情報を読むのに必要な条件" class="section">MSDNの情報を読むのに必要な条件</h2>
+<p>情報提供を目的しているMSDNの技術文書は、簡潔な構造で明快な文章で、定型的な表現を繰り返し使って構成してます。
+文法の面では、日本の中学校で習う英語の文法事項が分かれば理解できる内容です。</p>
+<p>読解に必要なのは、内容に対する前提知識とアプリケーション開発の分野の専門用語、そして全体を構成する語彙です。
+内容に対する前提知識は、ソースコードの理解と開発ツールなどの製品の習熟によって得られます。
+英語の理解力とは別の知識ですが理解力を左右する重要な要素です。実際の開発経験の中で高めてください。</p>
+<p>そうすると、英語学習でできることは語彙に絞られます。MSDNを読むのに語彙はどれくらい必要なのでしょうか。</p>
+<h2 id="msdnの語彙水準を調べる" class="section">MSDNの語彙水準を調べる</h2>
+<p>一つの例として、MSDN Magazine最新号(May 2013 Volume 28 Number 5)に収録の記事<a href="http://msdn.microsoft.com/en-us/magazine/dn198241.aspx">Parse JSON Strings in Windows Runtime Components</a>の使用語彙について調べてみましょう。</p>
+<p>VP(Vocabulary Profile)という分析方法があります。コーパス(Corpus)から求めたある言語全体の語彙頻度表に、ある文章の中の語彙をあてはめた時の分布が得られます。</p>
+<p>一般的によく使われている語彙をたくさん使っている文章なのか、まれにしか使わない単語をたくさん使っている文章なのか知ることができます。</p>
+<p>ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している<a href="http://www.lextutor.ca/vp/bnc/">Web VP / BNC-20 v 3.2</a>を使います。
+このプログラムは、英語の頻出2万語(ワードファミリー;Word Family)の使用分布を調べてくれます。頻出語句は、書き言葉と話し言葉の約1億語を収録するイギリス英語のコーパス、BNC(British National Corpus)の頻度上位2万語を使用しています。英語のコーパスとしては、代表的なものです。Oxford University PressやLongmanはBNCのプロジェクトに資金提供し、それぞれの辞書にこのコーパスを利用しています。</p>
+<p>様々な研究結果がありますが、英語の成人ネイティブスピーカーの語彙数は2−3万ワードファミリーと言われています。</p>
+<p>調査結果は1000ワードファミリー毎に20分割して使用語彙数を表示します。最初の1000語つまり1-1000番目までの範囲をK1を表現します。以後K2(1001-2000)というように表示し、最後はK20(19001-20000)になります。</p>
+<table rules="rows"frame="hsides"cellspacing="0" cellpadding="4">
+<caption class="title">表 1. Parse JSON Strings in Windows Runtime Components</caption>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th>Freq. Level </th>
+<th>Coverage (tokens)% </th>
+<th>Cum%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K1 Words (1000):</td>
+<td>81.76% (1)</td>
+<td>81.76%</td>
+</tr>
+<tr>
+<td>K2 Words (2000):</td>
+<td>10.84% (2)</td>
+<td>92.60% (3)</td>
+</tr>
+<tr>
+<td>K3 Words (3000):</td>
+<td>2.05%</td>
+<td>94.65%</td>
+</tr>
+<tr>
+<td>K4 Words (4000):</td>
+<td>1.77%</td>
+<td>96.42% (4)</td>
+</tr>
+<tr>
+<td>K5 Words (5000):</td>
+<td>0.61%</td>
+<td>97.03%</td>
+</tr>
+<tr>
+<td>K6 Words (6000):</td>
+<td>0.61%</td>
+<td>97.64%</td>
+</tr>
+<tr>
+<td>K7 Words (7000):</td>
+<td>0.19%</td>
+<td>97.83%</td>
+</tr>
+<tr>
+<td>K8 Words (8000):</td>
+<td>0.17%</td>
+<td>98.00% (5)</td>
+</tr>
+<tr>
+<td>K9-K20 (9000-20000)</td>
+<td>1.22%</td>
+<td>99.22%</td>
+</tr>
+<tr>
+<td>Off-List:</td>
+<td>0.78%</td>
+<td>100.00%</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>100%</td>
+<td>100.00%</td>
+</tr>
+</tbody>
+</table>
+<p>表1では次のようなことを示しています。</p>
+<ol>
+<li>
+BNCの上位1000番目に含まれている単語(K1)がこの文章内の単語の81.76% (1)占めている。
+</li>
+<li>
+次の1000語つまり1001−2000番目に含まれている単語(K2)は10.84% (2)だった。
+</li>
+<li>
+上位2000語で92.60% (3)だった。
+</li>
+<li>
+上位4000語(K1-K4)で96.42% (4)を占める。頻出4000語知っていればこの文書の95%は既知の単語で埋まる。
+</li>
+<li>
+上位8000語(K1-K8)で98.00% (5)を占める。頻出8000語知っていればこの文書の98%は既知の単語で埋まる。
+</li>
+</ol>
+<p>Cobb教授は、この分析で被覆率95%に達するBNCの頻度帯をその文章の語彙水準を示す指標として使っています。
+このMSDN Magazine記事はK4=96.42%でK4で95%を超えるので、4000ワードファミリーの語彙水準ということになります。</p>
+<p>BNC頻出上位4000語を知っていれば、この文書の95%の単語が分かるということです。</p>
+<p>ここで注意してほしいのは、この文書の使用語彙3600ワードのうち3420ワードカバーするという意味です。高頻度な単語は繰り返し出てきます。800種類の異なる単語が含まれていますがその95%という訳ではないです。</p>
+<h2 id="msdn_magazineの語彙水準の比較" class="section">MSDN Magazineの語彙水準の比較</h2>
+<p>Web VP / BNCの<a href="http://conc.lextutor.ca/vp/bnc/samples.html">What texts can I read if I know this many words?</a>に典型的な分析結果が紹介されています。
+このデータを参考にして、VOA(Voice of America) Special English、The Economist、National Geographic Magazineなどの雑誌、日本の高校や大学で副読本として使う文学作品の分析結果をまとめて表にしました。</p>
+<table rules="rows"frame="hsides"cellspacing="0" cellpadding="4">
+<caption class="title">表 2. MSDNの語彙水準の比較</caption>
+<colgroup>
+<col class="span5">
+<col class="span1">
+<col class="span1">
+<col class="span1">
+</colgroup>
+<thead>
+<tr>
+<th>Title</th>
+<th>GSL+AWL</th>
+<th>カバー95%</th>
+<th>カバー98%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VOA Special English 放送トランススクリプト(1500語限定) <a href="http://learningenglish.voanews.com/content/obama-administration-defensive/1662970.html">Obama Administration on the Defensive</a></td>
+<td>94.88%</td>
+<td>K4</td>
+<td>K4</td>
+</tr>
+<tr>
+<td><strong>MSDN Magazine</strong> Parse JSON Strings in Windows Runtime Components</td>
+<td>95.01%</td>
+<td>K4</td>
+<td>K8</td>
+</tr>
+<tr>
+<td>Daily Express   <a href="http://www.express.co.uk/life-style/health/403365/How-having-a-dog-can-change-your-life-for-the-better">How having a dog can change your life for the better</a></td>
+<td>90.45%</td>
+<td>K5</td>
+<td>K11</td>
+</tr>
+<tr>
+<td>The Economist <a href="http://www.economist.com/news/leaders/21578389-despite-rancour-over-scandals-big-reforms-are-still-possible-how-save-obamas-second-term">How to save Obama’s second term</a></td>
+<td>87.98%</td>
+<td>K5</td>
+<td>K9</td>
+</tr>
+<tr>
+<td>ジョージオーウェル <a href="http://gutenberg.net.au/ebooks01/0100011h.html">動物農場</a></td>
+<td>89.65%</td>
+<td>K5</td>
+<td>K11</td>
+</tr>
+<tr>
+<td>ラム <a href="http://shakespeare.palomar.edu/lambtales/LTROMEO.HTM">シェークスピア物語 ロミオとジュリエット</a></td>
+<td>90.44%</td>
+<td>K6</td>
+<td>K11</td>
+</tr>
+<tr>
+<td>National Geographic <a href="http://ngm.nationalgeographic.com/2013/04/mahogany/wallace-text">Mahogany’s Last Stand</a></td>
+<td>85.62%</td>
+<td>K7</td>
+<td>K12</td>
+</tr>
+</tbody>
+</table>
+<p>使用語彙の95%カバーで見れば、MSDN Magazineの記事は、Voice of America の特別放送トランスクリプトと同程度で、Daily ExpressやThe Economistよりやや劣る程度です。National Geographic には遠く及びません。</p>
+<p>使用語彙の98%カバーで見れば、8000ワードファミリーに抑えられていますが、比較対象にした雑誌や文学作品が1万ワードファミリーを超える語彙量を必要とします。</p>
+<p>VOA Special Englishは非ネイティブ向けの特別放送ですから、MSDN Magazineはネイティブ向けとしては限界ぎりぎりの語彙水準で執筆されていると言えます。
+そのような制約の中で、常に高品質な記事を提供してくれる執筆者の方、編集者の方に対して改めて畏敬の念を感じずにはいられません。</p>
+<h2 id="msdnを読むための語彙" class="section">MSDNを読むための語彙</h2>
+<p>色々な研究発表が出ていますが日本の高校生の語彙力が3000−4000ワードファミリーだそうです。
+高校時代の英語の実力を維持している方は既に、MSDN Magazineの使用語彙の95%カバーする語彙力を持っています。</p>
+<p>使用語彙の95%カバーとは、MSDN Magazineの現在のレイアウトでは、2行に一語程度未知語が出てくる計算です。
+3000ワードの記事であれば、150個出てきます。さすがにポップアップ辞書で引きながら読んだとしても辛いです。
+読本が目的の授業で教科書を読むのであれば支障ないでしょうが、情報取得を目的とした読書としては現実的な語彙力ではありません</p>
+<p>何の支援もなしに未知語の類推して読むのには、使用語彙の98%が必要との研究結果が出ています。
+先ほどの分析結果を見ると、MSDN Magazineの場合は8000ワードファミリー必要になります。</p>
+<p>常時英語でコニュンケーションする生活を送っている方は、通常の英語学習方法で8000語以上語彙量を上げることが目標でしょう。実際には8000語では足りなくて、ネイティブ並みの2万を目標にしているのではないかと思います。</p>
+<p>日本で暮らして、普段は日本語でコミュニケーションし、必要な時だけ英文を読む、3000語レベルの典型的な人ができることを考えました。長期的には、8000語身につけるとして、短期的に今すぐ何ができるかと。
+ソフトウェア開発の技術文書が読むことだけに集中して、学習リソースを選択できないかと考えました。</p>
+<p>先ほどのWeb VPプログラムの元になった、Rangeプログラムの作者Nation教授は著書 "Learning Vocabulary in Another Language (2001)" の中で、英文に使われる語彙を高頻出な語彙(2000ワードファミリーレベル)、学術的な語彙(AWL)、専門用語、低頻出な語彙に4分類し、それぞれの語彙グループの学習戦略を説明しています。</p>
+<p>最初に取り上げたMSDN Magazineの記事"Parse JSON Strings in Windows Runtime Components"の使用語彙をこの分類に基づいて図示にすると次のようになります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/msdnwords1.png" alt="語彙の分布">
+</div>
+<div class="title">図 1. 語彙の分布</div>
+</div>
+<p>高頻度な語彙とは、話し言葉や書き言葉の80−90%を構成する高い頻度で使われる語彙で、コーパス分析から頻度表として求められます。英語の場合、代表的な頻出語彙集として2000ワードファミリーの大きさを持つGSL(General Service List)があります。</p>
+<p>学術的な語彙とは、第2言語としての英語学習者が大学の学習現場で、高頻度に使用する語彙のことです。代表的なものは <a href="http://www.victoria.ac.nz/lals/resources/academicwordlist/">AWL</a>(Academic Word List)です。AWLは、GSLとの重複を避け、特定の学問分野に偏らないように配慮しています。OxfordやLongmanの最新の学習英英辞典にもAWLの情報が盛り込まれています。</p>
+<p>専門用語とは、上の2つの語彙から漏れた、語彙のうち特定の専門分野で頻出する語彙のことです。例えば、MSDNの文書に特異的に出現する語彙がこれにあたります。</p>
+<p>低頻度な語彙とは、上記以外の語彙のことです。</p>
+<p>Nation教授は、前述の著書の中で高頻出な語彙と学術的な語彙を取得した上で、専門用語の学習を勧めています。</p>
+<p>英語の一般的な頻度分布に従えば、98%カバーに8000語必要です。
+この中からMSDNに頻出する専門用語を抽出すれば、もっと少ない語彙量で98%が実現できないだろうか。</p>
+<p>調べてみました。</p>
+<h2 id="コーパス分析" class="section">コーパス分析</h2>
+<p>データの入手しやすさと使用語彙の代表性を考慮して、MSDN Magazineのバックナンバーを対象にしました。
+MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。</p>
+<p>このデータから <a href="https://sites.google.com/site/casualconcj/Home">CasualConc</a>というコンコーダンサーソフトを使って、コーパスを作成し、使用語彙の頻度表を作成しました。</p>
+<table rules="rows"frame="hsides"cellspacing="0" cellpadding="4">
+<caption class="title">表 3. 語彙頻度表　上位10番目まで</caption>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th>順位 </th>
+<th>単語 </th>
+<th>出現回数 </th>
+<th>出現ファイル </th>
+<th>被覆比率 </th>
+<th>累積比率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>the</td>
+<td>129652</td>
+<td>45</td>
+<td>5.98%</td>
+<td>5.98%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>to</td>
+<td>58786</td>
+<td>45</td>
+<td>2.71%</td>
+<td>8.69%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>a</td>
+<td>57158</td>
+<td>45</td>
+<td>2.63%</td>
+<td>11.32%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>be</td>
+<td>52674</td>
+<td>45</td>
+<td>2.43%</td>
+<td>13.75%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>and</td>
+<td>44396</td>
+<td>45</td>
+<td>2.05%</td>
+<td>15.80%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>of</td>
+<td>38546</td>
+<td>45</td>
+<td>1.78%</td>
+<td>17.58%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>in</td>
+<td>34933</td>
+<td>45</td>
+<td>1.61%</td>
+<td>19.19%</td>
+</tr>
+<tr>
+<td>9</td>
+<td>for</td>
+<td>23250</td>
+<td>45</td>
+<td>1.07%</td>
+<td>20.26%</td>
+</tr>
+<tr>
+<td>10</td>
+<td>that</td>
+<td>22266</td>
+<td>45</td>
+<td>1.03%</td>
+<td>21.09%</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3180</td>
+<td>nullable</td>
+<td>25</td>
+<td>13</td>
+<td>&gt;&gt;0.00%</td>
+<td>98.00%</td>
+</tr>
+<tr>
+<td>4258</td>
+<td>wealth</td>
+<td>12</td>
+<td>9</td>
+<td>&gt;&gt;0.00%</td>
+<td>99.00%</td>
+</tr>
+</tbody>
+</table>
+<p>ある単語がコーパスのテキストデータの中に何回出現し、テキスト全体の何パーセントを占めているかというデータを得ます。
+このデータを一番出現しているデータから降順にソートし、個々の単語の被覆率を足し合わせて98%になる順位を求めたところ、3182番目になり、出現回数25回でした。こうして98%被覆するMSDN頻出語句を得ました。</p>
+<p>この中には、前の項目で説明した、高頻度な語彙(GSL)と学術的な語彙(AWL)が含まれていますので取り除きました。さらに固有名詞も除きました。</p>
+<p>最後に残ったのが723語の語彙表です。この語彙表のことを仮にMSDN Word listと呼びます。</p>
+<p>詳しい作成手順は、<a href="/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>で説明しましたので興味のある方はお読みください。Anki単語帳にしたMSDN Word listもダウンロードできます。</p>
+<p>この方法以外にも、Cobb教授が<a href="http://www.lextutor.ca/vp/how_to_techlist.html">How and why to make a technical (domain-specific) vocabulary list</a>という記事で専門用語集の作り方を説明していますので紹介します。</p>
+<h2 id="作成データの検証" class="section">作成データの検証</h2>
+<p>本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
+対象は、コーパスには含んでいないMSDN Magazineの最新号とMSDNライブラリのWindows 8のホワイトペーパーです。</p>
+<p>Cobb教授が公開している<a href="http://www.lextutor.ca/vp/bnc/">VocabProfilers Classic VP English v.3</a>を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、MSDN word listを追加した場合どれだけカバーできるか調べてみました。</p>
+<table rules="rows"frame="hsides"cellspacing="0" cellpadding="4">
+<caption class="title">表 4. 頻出語彙集　MSDN word listの効果</caption>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th>題名</th>
+<th>GSL+AWL</th>
+<th>MSDN word list</th>
+<th>合計</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://msdn.microsoft.com/en-us/magazine/dn198241.aspx">Parse JSON Strings in Windows Runtime Components</a></td>
+<td>95.01%</td>
+<td>3.94%</td>
+<td>98.95%</td>
+</tr>
+<tr>
+<td><a href="http://msdn.microsoft.com/en-us/magazine/dn198241.aspx">Social Authentication in ASP.NET MVC 4</a></td>
+<td>93.00%</td>
+<td>5.87%</td>
+<td>98.87%</td>
+</tr>
+<tr>
+<td><a href="http://download.microsoft.com/download/0/E/5/0E5ECE25-D240-435E-9FD6-6092896A3F5F/PackagingandBinding.docx">Packaging and assembly binding in the .NET Framework for Windows Store apps</a></td>
+<td>92.44%</td>
+<td>5.83%</td>
+<td>98.27%</td>
+</tr>
+<tr>
+<td><a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh465408.aspx">Windows Store apps using JavaScript versus traditional web apps</a></td>
+<td>89.80%</td>
+<td>8.47%</td>
+<td>98.27%</td>
+</tr>
+</tbody>
+</table>
+<p>一般的な頻出語彙(GSL+AWL)を理解している場合、使用語彙の10%程度が未知の語句を含むテキストが、このMSDN word listを加えることで、2%にまで圧縮できる結果を得ました。前掲した図1は、"Parse JSON Strings in Windows Runtime Components"について行った分析結果の数字を反映しています。</p>
+<h2 id="msdnを情報源として常時利用するための学習戦略" class="section">MSDNを情報源として常時利用するための学習戦略</h2>
+<p>まず自分の語彙量を測定します。
+受験者の分析データが豊富なlink:<a href="http://testyourvocab.com/">Test Your Vocab</a>やWeb VPと同じサイトが提供している<a href="http://www.lextutor.ca/tests/">Frequency Based Vocabulary Tests</a>などのツールが利用できます。両方のツールともワードファミリーレベルの語彙量を測定してくれます。</p>
+<h3 id="8000語以上の場合">8000語以上の場合</h3>
+<p>MSDNの記事の98%をカバーする語彙を持っています。未知の語彙も類推によって理解できる場合が多いと思いますので、たくさん読んで未知の言葉に出会い、必要なら覚えてしまいましょう。
+Nation教授は、基本語彙を習得した後、使用言語が98%既知のする文章を集中的に読む学習方法を勧めています。
+もし難しいと感じた場合は、その記事は日本語で読んだ場合でも難しいはずです。ガッカリしないでください。気分転換に別の記事を読みましょう。</p>
+<h3 id="3000_8000語の場合">3000-8000語の場合</h3>
+<p>MSDN Word Listを暗記しましょう。暗記学習用ソフトAnki用の単語帳を用意しました。<a href="/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>からダウンロードできます。</p>
+<p>暗記と並行して、始めのうちは通読するのは辛いかもしれませんがMSDN Magazineには常時触れましょう。関心のある記事の一部で構わないので常時読む習慣をつけましょう。
+文中のソースコードもよく読みましょう。ソースコードを説明している文章がたくさん出てきます。
+ソースコードと英語のバイリンガル表記だと思ってください。</p>
+<h3 id="3000語未満の場合">3000語未満の場合</h3>
+<p>基本語彙の学習をまずしましょう。
+中学高校である程度の語彙は身についていると思いますので、頻出2000語とAWLのリストを確認して、未知のものだけ取り出して学習しましょう。
+頻出2000語のリストは、一般的な英語のコーパス分析によって得られたものなら何でも良いです。自分の持っている辞書の巻末のリストがあればそれをチェックしましょう。</p>
+<p>身近に適切な資料がない方にはOxford Advanced Learner&#8217;s Dictionaryオンライン版の <a href="http://oald8.oxfordlearnersdictionaries.com/oxford3000/">Oxford 3000</a>をお勧めします。語義の中で重要なものを目印で示してくれます。単語の意味を覚えるのと同時に辞書の英文を読んで、読むことに慣れませしょう。<a href="http://oald8.oxfordlearnersdictionaries.com/academic/">AWL</a>も見ることができます。</p>
+<p>基本語彙を習得した後に MSDN Word Listを覚えましょう。
+また基本語彙を覚えると90%以上の語彙は既知になりますので、自分の興味のあるMSDNの記事に常時触れる習慣をつけましょう。</p>
+<h2 id="msdn_word_listを超えて" class="section">MSDN Word Listを超えて</h2>
+<p>MSDN Word Listを学習し終わった後、できることを少しだけ考えてみました。</p>
+<h3 id="懸念事項の検討">懸念事項の検討</h3>
+<p>MSDN Word Listはそれほど難しい語彙は含んでいません。一覧にしてご覧になった方はあまりに易しい内容で驚いたかもしれません。
+MSDNは難しいという先入観は捨てましょう。難しい感じるのは内容が難しいのであって、英語が難しいのではありません。たとえ同じ内容が日本語で書いてあっても分かりにくいはずです。</p>
+<p>英語学習に詳しい人なら、一般的な英語には句動詞を多用していて、個々の語彙が分かってもそれでは不十分なのでは感じるかもしれません。</p>
+<p>コーパスから単語の共起頻度の分析をしてみました。動詞+前置詞の組み合わせは出てきますが、元の動詞の意味が代わってしまうような句動詞は、MSDN Magazineではほとんど見当たらないです。
+もちろん、動詞と名詞や前置詞の組み合わせの頻出コロケーションというのは存在と思いますが、個々の単語の意味を知っていれば理解できるものばかりです。</p>
+<h3 id="更に語彙を増やすなら">更に語彙を増やすなら</h3>
+<p>同じ手法で更に被覆率を1%上げるのには、つまり99%にするには基本語彙と固有名詞を除くと500語追加すると実現できます。</p>
+<p>自分の専門分野、例えばデータベースアクセス、ユーザーインターフェースなど、狭い分野の文書を集めてコーパスを作り、頻出の専門用語表作り出しても良いでしょう。</p>
+<p>それぞれの方法は、<a href="/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>で紹介しているコーパス作成から頻度表を作る方法も参考にしてみてください。</p>
+<p>MSDN Word Listのフォローアップ企画として、MSDN Magazineの最新の記事から、MSDN Word Listの範囲で実際どれだけカバーできて、どんなものが未知語になるか紹介する<a href="/?cat=34">連載記事: MSDNの英語</a>を始めました。</p>
+<h3 id="内容理解に努める">内容理解に努める</h3>
+<p>アプリケーション開発の経験や知識の深さが、MSDN文書の理解を高めます。実務経験なしには理解は向上しません。たとえネイティブ並みの語彙量があっても、この分野の経験が全くなければ、MSDNの文書は全く理解できないでしょう。</p>
+<p>ソフトウェア開発の経験を積むこと、ソースコードを読んで理解することも大切です。
+卵が先か鶏が先かという話にもなりますが、MSDNのリソースに常に慣れ親しんで、サンプルコードや技術文書中のソースコード、その中にコメントなどに触れる経験を蓄積することも内容理解に繋がります。</p>
+<h2 id="おわりに" class="section">おわりに</h2>
+<p>MSDNの情報がネイティブ並みの高い言語力、語彙力を必要としないことはお分かりいただけましたでしょうか。</p>
+<p>日本で暮らして、日本語でコミュニケーションする人が、日本で言うところの「英語の達人」を目指さなくても、MSDNを自分の情報源として活用する方法の一例を紹介しました。</p>
+<p>皆さんのお持ちになっている、ソフトウェア開発の知識は、英文の内容理解に力強い支援をしてくれます。自信を持ってください。</p>
+<p>最低でも人の数だけソフトウェアは存在する意義があるとわたしは思っています。ひとりひとりの生活からしか生まれないソフトウェアがあるはずです。</p>
+<p>重要な情報源にもっと簡単に頻繁にアクセスできれば、世の中のソフトウェアはもっと豊かになるはずです。そして開発者のであることの喜びや使命感がもっと強くなるでしょう。</p>
+<p>これからもソフトフェア開発を楽しんでください。</p>
+<h2 id="参考資料" class="section">参考資料</h2>
+<p>インターネットで公開しているものと購入できる書籍のみ掲載しました。
+ご自身の著作を公開してくれたCobb教授、Nation教授に感謝したいです。</p>
+<p>Cobb, Tom. <a href="http://www.lextutor.ca/cv/awl_F.htm">Chapter 2. Is There Room for an Academic Word List in French?</a></p>
+<p>Cobb, Tom. <a href="http://www.lextutor.ca/research/rationale.htm">Why &amp; how to use frequency lists to learn words</a></p>
+<p>Hwang, K. and Nation, I.S.P. (1995) <a href="http://www.victoria.ac.nz/lals/staff/Publications/paul-nation/1995-Hwang-Special-purposes.pdf">Where would general service vocabulary stop and special purposes vocabulary begin?</a> System 23, 1: 35-41.</p>
+<p>Nation, P., &amp; Waring, R. (1997). <a href="http://www.lextutor.ca/research/nation_waring_97.html">Vocabulary size, text coverage, and word lists. In Schmitt, N., &amp; McCarthy, M. (Eds.) Vocabulary: Description, acquisition, pedagogy</a> (pp. 6-19). New York: Cambridge University Press.</p>
+<p>Nation, I.S.P. (2001), Learning Vocabulary in Another Language, Cambridge University Press, ISBN 0-521-80498-1</p>
+<p>Nation, I.S.P. (2004) <a href="https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2004-BNC-3000.pdf">A study of the most frequent word families in the British National Corpus.</a> In P. Bogaards and B. Laufer (eds.) Vocabulary in a Second Language: Selection, Acquisition and Testing Amsterdam: John Benjamins: 3-13.</p>
+<p>Nation, I.S.P. <a href="https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2006-How-large-a-vocab.pdf">How large a vocabulary is needed for reading and listening?</a> Canadian Modern Language Review 63, 1 (2006): 59-82.</p>
+</section>
+
+

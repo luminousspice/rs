@@ -1,0 +1,111 @@
+---
+slug: "changes-in-anki209"
+date: "2013-06-08T22:00:56+00:00"
+lastmod: "2014-09-16T13:41:43+00:00"
+title: "Anki2.0.9の注目すべき変更点"
+categories: ["Anki"]
+tags: ["Anki","Anki 単語帳"]
+anki: ["Anki2.0.9","AwesomeTTS","オフィシャルビデオ","カードウィンドウ","タイムボックス","ノートを削除","フィルター単語帳","ブラウザー","プレビュー","プロファイル","完全同期","解答キー入力","起動"]
+excerpt: "Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。"
+---
+<section id="anki2_0_9の注目すべき変更点">
+<div class="paragraph"><p>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</p></div>
+<div class="sidebarblock well">
+<div class="content">
+<div class="paragraph"><p><a href="http://ankisrs.net/">Anki</a>とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。</p></div>
+</div></div>
+<h2 id="はじめに" class="section">はじめに</h2>
+<div class="paragraph"><p>Anki 2.0.9が公開されました。このアップデートでは、多くの問題点が修正されました。
+全てのユーザーがAnkiを快適に使える機能が追加されています。タイトルバーにプロファイル名を表示、ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェース変更、解答キー入力機能の強化、起動オプションや削除したノートの記録などです。これらの機能について簡単に紹介したいと思います。
+全ての変更内容をご覧になりたい方は、<a href="/changeinanki2/">Anki2 の変更点</a>をお読みください。</p></div>
+<h2 id="タイトルバーにプロファイル名を表示" class="section">タイトルバーにプロファイル名を表示</h2>
+<div class="paragraph"><p>タイトルバーの中に現在使用中のプロファイル名を表示するようになりました。何種類かのプロファイルを使い分けている人、共有PCで個人別にプロファイルを作っている人には非常に便利な機能強化だと思います。</p></div>
+<div class="paragraph"><p>個人的には、今回のアップデートで最高の機能強化だと思っています。</p></div>
+<h2 id="ブラウザー内でのプレビュー機能" class="section">ブラウザー内でのプレビュー機能</h2>
+<div class="paragraph"><p>ブラウザー内でノートを選択した状態で、ウインドウ上部の[プレビュー]ボタンを押すとカードのプレビューを見ることができます。ウィンドウ下の[&lt;]、[&gt;]ボタンを押すとブラウザー内のノートを順次めくってみることができます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_1.png" alt="プレビュー画面" width="600">
+</div>
+<div class="title">図 1. プレビュー画面</div>
+</div>
+<h2 id="カスタム学習のユーザーインターフェースの変更" class="section">カスタム学習のユーザーインターフェースの変更</h2>
+<div class="paragraph"><p>「特定のタグに限定する」と「カードを無作為に選んで学習する」は、一つのオプション「カードの状態やタグを選んで学習する」に統合しました。
+カードの状態の選択を選択肢の中から選べるようになったので、今までより簡単にフィルター単語帳を作成できるようになりました。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_2.png" alt="カスタム学習設定画面" width="400">
+</div>
+<div class="title">図 2. カスタム学習設定画面</div>
+</div>
+<h2 id="解答キー入力機能の強化" class="section">解答キー入力機能の強化</h2>
+<div class="paragraph"><p><a href="http://ankisrs.net/docs/manual.html#checking-your-answer">解答キー入力(Type Answer)</a>機能については下の動画を見てください。説明は英語ですが、音声は分からなくても見ているだけで内容は分かるものです。</p></div>
+<div class="paragraph"><p>
+<iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/5tYObQ3ocrw" frameborder="0" allowfullscreen></iframe>
+</p></div>
+<div class="paragraph"><p>この動画の内容は、今回の改善前の様子です。</p></div>
+<div class="paragraph"><p>どう変わったかというと、キー入力した解答と正解の比較が分かりやすくなりました。
+穴埋め問題と組み合わせると、下の図のようなカードを作ることができます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_3.png" alt="キー入力内容と正解の比較" width="400">
+</div>
+<div class="title">図 3. 表面の解答キー入力画面</div>
+</div>
+<div class="paragraph"><p>この例では、<code>{{type:close:テキスト}}</code> とテンプレートを設定して、「テキスト」フィールドの穴埋めを設定した内容を、解答キー入力機能でチェックしています。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_4.png" alt="入力内容と正解の比較" width="400">
+</div>
+<div class="title">図 4. 裏面のキー入力した解答と正解の比較</div>
+</div>
+<div class="paragraph"><p>このアップデートでは、等幅フォントで入力データと正解を上下に並べて比較するようにレイアウトが変更になりました。</p></div>
+<div class="paragraph"><p>アドオンのAwesomeTTSと組み合わせれば、ディクテーション用のカードも簡単に作れます。</p></div>
+<div class="paragraph"><p>更にカードウィンドウでのプレビュー機能が強化されました。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/anki209_5.png" alt="解答キー入力機能を設定したカードのプレビュー" width="600">
+</div>
+<div class="title">図 5. 解答キー入力機能を設定したカードのプレビュー</div>
+</div>
+<div class="paragraph"><p>なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を<a href="/type_answer/">Anki解答キー入力機能の使い方</a>にご用意しました。関心のある方はお読みください。</p></div>
+<h3 id="サンプルのダウンロード">サンプルのダウンロード</h3>
+<div class="paragraph"><p>上の例で使ったカードテンプレートを含む単語帳 <a href="/apkg/anki209.apkg">anki209.apkg</a>をダウンロードしてお使いいただけます。</p></div>
+<h2 id="その他の注目すべき変更項目" class="section">その他の注目すべき変更項目</h2>
+<div class="ulist"><ul>
+<li>
+<p>
+アドオンの読み込みと自動的な同期を回避した起動
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>シフトキーを押したままAnkiを起動すると、アドオンの読み込みと自動的な同期を行わなくなりました。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+削除したノートの記録
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>ノートを削除すると、そのコンテンツはプロファイルフォルダー内のファイル deleted.txt に記録するようになりました。 フィールドの内容が記録されます。タグは記録されません。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+完全同期の設定場所の変更
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>メニュー([ツール]&gt;[メンテナンス]&gt;[完全同期])から環境設定([ネットワーク]タブ)に移動しました。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+タイムボックス機能の変更
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>ツールチップの表示から、ダイアログ表示に変わりました。ダイアログの選択肢に解答するまで学習が一時中断します。</p></div>
+<h2 id="おわりに" class="section">おわりに</h2>
+<div class="paragraph"><p>今回のアップデートは主として問題点の修正が行われています。数ある変更点の中にも、通常のユーザーがAnkiをもっと快適に使える注目すべき機能が追加になりました。ぜひこの機能を活用して、Ankiを楽しく使ってください。</p></div>
+</section>
+
+

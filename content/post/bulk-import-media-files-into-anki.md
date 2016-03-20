@@ -1,0 +1,324 @@
+---
+slug: "bulk-import-media-files-into-anki"
+date: "2014-04-13T00:00:27+00:00"
+lastmod: "2015-02-02T02:06:46+00:00"
+title: "画像、音声、動画などメディアファイルを Anki へ一括登録"
+categories: ["Anki"]
+tags: ["Anki","TTS"]
+anki: ["AwesomeTTS","アドオン","テキストファイル","ノートの登録","メディアの登録","動画","読み込み","音声"]
+excerpt: "メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks."
+---
+<section id="preamble">
+<p>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。</p>
+</section>
+<section id="データの一括登録">
+  <div class="page-header">
+    <h2>データの一括登録</h2>
+  </div>
+<p>テキストデータの一括登録方法は、<a href="/how-to-import/">Ankiにデータをまとめて取り込む</a>で紹介しました。
+この記事では学習データの一括登録の一般的な方法については説明しています。
+今回は、この記事をさらに発展させてテキストにメディアファイル (音声、画像、動画) を添付して一括登録する方法を紹介します。</p>
+</section>
+<section id="前提知識">
+  <div class="page-header">
+    <h2>前提知識</h2>
+  </div>
+<p>Anki のデータ読み込みの方法についての理解
+または、<a href="/how-to-import/">Ankiにデータをまとめて取り込む</a>の内容の理解</p>
+</section>
+<section id="メディアファイル利用の基本">
+  <div class="page-header">
+    <h2>メディアファイル利用の基本</h2>
+  </div>
+<p></p>
+<h3 id="入力内容を確認">入力内容を確認</h3>
+<p>Anki ではノートにメディアを含めるには特別なタグを使います。Anki のノート入力に使うエディタは WYSIWYG なので、タグの内容を気にせずに利用できます。</p>
+<p>外部のテキストファイルからノートの読み込みを行うには、自分でタグを記述する必要があります。</p>
+<p>メディアを実際に追加して、HTML エディタを開いてどのような記述をしているか確認してみましょう。</p>
+<p>ノートエディタからツールバーのクリップの形をした [画像/音声/ビデオを添付する] ボタン (または F3) を押して添付ファイルが選択します。
+フィールドに添付ファイルが反映されたら、HTML エディタを開いてその内容を確認します。(Mac OS X: Command+Shift+X, Windows: Ctrl+Shift+X)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_1.png" alt="HTML エディタで内容を確認">
+</div>
+<div class="title">図 1. HTML エディタで内容を確認</div>
+</div>
+</section>
+<section id="メディアファイルを参照するための記述">
+  <div class="page-header">
+    <h2>メディアファイルを参照するための記述</h2>
+  </div>
+<p>画像や音声、動画をノートに追加するには次の様なタグを使います。</p>
+<div class="listingblock">
+<div class="title">画像の場合</div>
+<div class="content"><div class="highlight"><pre><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;myimage.jpg&quot;</span> <span class="nt">/&gt;</span>
+</pre></div></div></div>
+<div class="listingblock">
+<div class="title">音声 (mp3) の場合</div>
+<div class="content"><div class="highlight"><pre>[sound:myaudio.mp3]
+</pre></div></div></div>
+<div class="listingblock">
+<div class="title">動画 (mp4) の場合</div>
+<div class="content"><div class="highlight"><pre>[sound:myvideo.mp4]
+</pre></div></div></div>
+<h3 id="利用可能なフォーマット">利用可能なフォーマット</h3>
+<p></p>
+<p>最新版 Anki 2.0.29 でサポートしているメディアファイルのフォーマットは次の通りです。</p>
+<table rules="rows"width=""frame="hsides"cellspacing="0"cellpadding="4" class="table table-striped">
+<caption class="title">表 1. 利用可能なフォーマット</caption>
+<colgroup>
+<col class="span1">
+<col class="span4">
+</colgroup>
+<thead>
+<tr>
+<th>メディアの種類</th>
+<th>フォーマット</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>画像</td>
+<td>jpg, jpeg, png, tif, tiff, gif, svg</td>
+</tr>
+<tr>
+<td>音声、動画</td>
+<td>wav, mp3, ogg, flac, mp4, swf, mov, mpeg, mkv, m4a</td>
+</tr>
+</tbody>
+</table>
+<h3 id="メディアファイルをテンプレート内から参照">メディアファイルをテンプレート内から参照</h3>
+<p>一括登録することを考える方は、次の様なテンプレートを作りたくなるかもしれません。</p>
+<div class="listingblock">
+<div class="title">機能しないテンプレート</div>
+<div class="content"><div class="highlight"><pre><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;{{myimage}}.jpg&quot;</span> <span class="nt">/&gt;</span>
+
+[sound:{{myvideo}}.mp4]
+</pre></div></div></div>
+<p>残念ながら Anki 2.0 からはこのような記述は機能しなくなりました。フィールドに全体タグを含める必要があります。</p>
+</section>
+<section id="登録データのつくり方">
+  <div class="page-header">
+    <h2>登録データのつくり方</h2>
+  </div>
+<p>Anki への一括登録データのフォーマットには CSV を使います。
+例えば ripple、波紋、画像 (ripple.png)、音声(ripple.mp3) からなるノートを登録する例を説明します。</p>
+<p>既定の基本ノートタイプを利用してFront フィールドに単語、画像、音声を入力し、Back フィールドに訳語を入れる場合。</p>
+<pre>ripple &lt;img src="ripple.png" /&gt;[sound:ripple.mp3], 波紋</pre>
+<p>カスタムのノートタイプを利用して、単語、画像、音声、訳語全てを別のフィールドに入れる場合。</p>
+<pre>ripple, &lt;img src="ripple.png" /&gt;, [sound:ripple.mp3], 波紋</pre>
+<p>この場合は、全てのフィールドをカードに表示するようにテンプレートを編集する必要があります。</p>
+<p>このようにして作成した、テキストデータを Anki の読み込み機能を使って登録します。</p>
+<h3 id="メディアファイル一括登録の方法">メディアファイル一括登録の方法</h3>
+<p>メディアを一括登録するには、テキストデータのみ読み込む方法に加えて、次の作業が必要です。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+登録するメディアファイルをメディアフォルダ (collection.media) に保存します。
+既定のメディアフォルダは、 <code>(書類, ドキュメントフォルダ)/Anki/(プロファイル名: ユーザー 1)/collection.media</code> になります。サブディレクトリは使用できません。
+</p>
+</li>
+<li>
+<p>
+読み込みデータでタグを使ってメディアファイルを指定します。具体的な指定方法は次の項目で説明します。
+</p>
+</li>
+<li>
+<p>
+読み込みオプションで [フィールドに HTML をつかう] を有効にします。
+</p>
+</li>
+<li>
+<p>
+[読み込む] ボタンを押して、読み込み件数が表示されれば、全ての作業は終了です。
+</p>
+</li>
+</ul></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_2.png" alt="読み込みオプション">
+</div>
+<div class="title">図 2. 読み込みオプション</div>
+</div>
+<p>ここまでが、Anki の標準的な基本的な機能を使った処理方法です。</p>
+</section>
+<section id="アドオン_media_import_を使う方法">
+  <div class="page-header">
+    <h2>アドオン Media Import を使う方法</h2>
+  </div>
+<p>実はつい最近、<a target="_new" href="https://ankiweb.net/shared/info/874215009">Advanced Browser</a> の作者でもある <a target="_new" href="https://github.com/hssm/media-import">Houssam Salem</a> という方がすばらしいアドオン <a target="_new" href="https://ankiweb.net/shared/info/1531997860">Media Import</a> を公開しました。</p>
+<p>内容的にはこれまでのこの記事の説明で紹介した手順を自動化してくれるものです。
+そのアドオンを活用した方法を紹介します。</p>
+<p>このアドオンのすごいところは、指定したフォルダーにあるメディアファイルを読み取って、
+拡張子を除いたファイル名を、Front フィールドへ、メディアファイル自体の参照を Back フィールドへ登録してくれる点です。</p>
+<p>メニューバーから [ツール] - [Media Import&#8230;] を選択して登録するメディアデータが入っているフォルダーを指定します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_3.png" alt="Media Import の呼び出し">
+</div>
+<div class="title">図 3. Media Import の呼び出し</div>
+</div>
+<p>テキストファイルの用意は不要で、ファイル名を Front フィールドに使いたい文字列を設定すれば、メディアファイルをつくるだけで 単語帳 <code>MediaImport</code> へ一括登録できてしまうところです。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_4.png" alt="Media Import の処理完了">
+</div>
+<div class="title">図 4. Media Import の処理完了</div>
+</div>
+<p>処理毎に基本ノートタイプのクローンを作成するので、同じフォルダーを繰り返し処理しても上書きされることはありません。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_5.png" alt="Media Import を使用した読み込み例">
+</div>
+<div class="title">図 5. Media Import を使用した読み込み例</div>
+</div>
+<h3 id="使用上の注意">使用上の注意</h3>
+<div class="ulist"><ul>
+<li>
+<p>
+指定するフォルダー名に日本語が入っていると扱えません。(作者にフィードバックを出しますのでそのうち直ると思いますが)
+</p>
+</li>
+<li>
+<p>
+ファイル毎にノートをつくるため、拡張子だけが違うファイルが存在すると、Front フィールドが重複します。例、画像 (ripple.png)、音声(ripple.mp3)。
+</p>
+</li>
+<li>
+<p>
+実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>で説明しています。
+</p>
+</li>
+</ul></div>
+</section>
+<section id="既存のノートにメディアを追加">
+  <div class="page-header">
+    <h2>既存のノートにメディアを追加</h2>
+  </div>
+<p>すでに、テキストデータが入力済みのフィールドにに音声や画像を追加する方法を紹介しましょう。</p>
+<h3 id="検索置換機能を使う">検索置換機能を使う</h3>
+<p>ブラウザの [検索と置換] 処理を使う方法を紹介します。
+Front フィールドに単語が入力済みで、その単語に拡張子 mp3(音声) と png(画像) を付けたファイル名のメディアファイルを用意する場合考えます。
+例えば "ripple" が Front フィールドに登録済みで、さらに画像 (ripple.png)、音声(ripple.mp3) を追加したいとします。</p>
+<p>変換後の Front フィールドは次のようになります。</p>
+<pre>ripple &lt;img src="ripple.png" /&gt;[sound:ripple.mp3]</pre>
+<ol>
+<li>
+まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
+</li>
+<li>
+[検索と置換] ダイアログを呼び出し (Mac OS X: Command+Option+F, Windows: Ctrl+Alt+F)、検索置換条件を次のように設定します。
+</li>
+</ol>
+<pre>検索文字列: (.*)
+置換文字列: \1 &lt;img src="\1.png" /&gt;[sound:\1.mp3]
+対象: Front
+入力条件に正規表現を使う: 有効</pre>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_6.png" alt="検索置換条件">
+</div>
+<div class="title">図 6. 検索置換条件</div>
+</div>
+<p>間違えた場合あわてないで、元に戻す (Mac OS X: Command+Z, Windows: Ctrl+Z) コマンドを使いましょう。変換前の状態に戻せます。</p>
+</section>
+<section id="テキストから音声ファイルを自動作成">
+  <div class="page-header">
+    <h2>テキストから音声ファイルを自動作成</h2>
+  </div>
+<p>音声ファイルを持っていない場合に、音声データ (mp3) を自動生成する方法を紹介します。
+TTS サービスが使えない別の機器用に音声データを自作するのにも利用できます。</p>
+<p>アドオン <a target="_new" href="https://ankiweb.net/shared/info/301952613">AwesomeTTS</a> には、<a href="/how-to-edit-cards/">フィールドのテキストを読み上げる機能</a>に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。</p>
+<ol>
+<li>
+まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
+</li>
+<li>
+処理したいカードを選択します。
+</li>
+<li>
+メニューバーから [編集] - [Add Audio to Selected w/ AwesomeTTS] を選択します。
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_7.png" alt="AwesomeTTS MP3 Mass Generator の呼び出し方">
+</div>
+<div class="title">図 7. AwesomeTTS MP3 Mass Generator の呼び出し方</div>
+</div>
+<p>AwesomeTTS MP3 Mass Generator の設定画面では次のように設定します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/media_bulk_import_8.png" alt="AwesomeTTS MP3 Mass Generator の設定例">
+</div>
+<div class="title">図 8. AwesomeTTS MP3 Mass Generator の設定例</div>
+</div>
+<p>Previwe 項目では、指定したサービスの音声を確認することができます。</p>
+<table rules="rows"width=""frame="hsides"cellspacing="0"cellpadding="4"class="table table-striped">
+<caption class="title">表 2. AwesomeTTS MP3 Mass Generator の設定項目とその内容</caption>
+<colgroup>
+<col class="span1">
+<col class="span2">
+</colgroup>
+<thead>
+<tr>
+<th>項目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Generate using</td>
+<td>使用するTTSサービスを選択します。</td>
+</tr>
+<tr>
+<td>Voice</td>
+<td>使用するVoice の選択をします。OSX Say を選択した時にのみ表示。</td>
+</tr>
+<tr>
+<td>Languages</td>
+<td>使用する言語を選択します。(除く: OSX Say)</td>
+</tr>
+<tr>
+<td>Source Field</td>
+<td>テキストを読み上げるフィールドを指定します。</td>
+</tr>
+<tr>
+<td>Destination Field</td>
+<td>処理結果を記録するフィールドを指定します。</td>
+</tr>
+<tr>
+<td>Append [sound:xxx] Tag onto Destination Field</td>
+<td>対象フィールドのデータの最後に [sound:] タグを追加します。</td>
+</tr>
+<tr>
+<td>Overwrite the Destination Field w/ Media Filename</td>
+<td>対象フィールドを生成したファイル名で書き換えます。</td>
+</tr>
+<tr>
+<td>Remove Existing [sound:xxx] Tag(s)</td>
+<td>既存の [sound:] タグを削除します。</td>
+</tr>
+</tbody>
+</table>
+<p>なお、生成した音声データはメディアフォルダに保存します。</p>
+<p>AwesomeTTS MP3 Mass Generator の詳しい使い方は、<a target="_new" href="https://ankiatts.appspot.com/usage/browser">ドキュメント</a>をお読みください。</p>
+</section>
+<section id="まとめ">
+  <div class="page-header">
+    <h2>まとめ</h2>
+  </div>
+<p>メディアデータ (画像、音声、動画) であっても、テキストデータを作成して、Anki の読み込み機能を使ってノートをまとめて登録する方法に変わりありません。
+Anki のノートにメディアデータを含めるには、HTML のタグなどで表現する必要があり、注意すべき必要な処理をこの記事で説明しました。</p>
+<p>アドオンが提供してくれている便利な機能も、基本は最初に紹介した手順を自動化したものです。基本の手順を理解しておくと、アドオンの機能を更に詳しく使いこなしたり、トラブルに直面しても回避策が見つけやすくなるのです。</p>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h2>更新情報</h2>
+  </div>
+<p>2014/04/13: 初出</p>
+<p>2014/10/04: テキストから音声ファイルを自動作成を AwesomeTTS 1.1.2 に合わせて更新</p>
+</section>
+
+
+

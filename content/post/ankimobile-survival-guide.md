@@ -1,0 +1,415 @@
+---
+slug: "ankimobile-survival-guide"
+date: "2014-05-11T04:00:03+00:00"
+lastmod: "2016-01-24T00:10:24+00:00"
+title: "iPhone ユーザーのための AnkiMobile サバイバルガイド"
+categories: ["Anki"]
+tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
+anki: ["AnkiMobile","サポート","ジェスチャ","ノートを編集","ノートを追加","共有単語帳"]
+excerpt: "Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。"
+---
+<section id="preamble">
+<p>Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。</p>
+<p><strong>後注:</strong> AnkiMobile の基本的な使い方全般を日本語で説明した<a href="/how-to-use-ankimobile/">iPhone ユーザーのためのはじめての Anki</a>を公開しました。</p>
+</section>
+<section id="はじめに">
+  <div class="page-header">
+    <h1>はじめに</h1>
+  </div>
+<p><a target="itunes_store" href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS">AnkiMobile</a> <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" target="itunes_store"></a> とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。</p>
+<p></p>
+<p>マニュアルの最初に書かれているように Anki (PC 版) と連携して利用することが前提となっています。単独利用では主として学習データの作成の面で機能制限があります。
+iOS 機器の特長を生かした機能拡張が行われており、学習機能の面では PC 版と比較すると使いやすくなっています。
+既存データの学習に特化したアプリと言えるでしょう。</p>
+<p>また、ユーザーインターフェイスの表示言語は英語のみです。</p>
+<p>値段は為替レートの影響を受けますが、私は App Store から 2,500 円で購入しました</p>
+<p></p>
+<p>インストール方法については、他の App Store と変わりなく特別なことはありません。
+これが iphone の場合のインストール直後の画面です。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/mainscreen.png" alt="mainscreen.png" width="300" height="450">
+</div>
+<div class="title">図 1. インストール直後</div>
+</div>
+<p>ここで、ほとんどの方が呆然としたのではないでしょうか。Anki の利用経験があってもそう感じると思います。
+iPhone の小さい画面の中に、機能を詰め込んだ簡潔なユーザーインターフェイスです。</p>
+<p>このままでは非常に厳しいですが、次の二つの条件を満たせば自力で使えるようになると思います。</p>
+<ol>
+<li>
+英文のマニュアルを読んで試行錯誤できる。
+</li>
+<li>
+Anki (PC 版) の利用経験から使い方や機能の類推ができる。
+</li>
+</ol>
+<p>ほとんどの方は、英文を読む力はあるけど一体どこから手を付けたら良いか分からず途方に暮れたのではないでしょうか。
+せっかく身銭切って買ったアプリなのに、この無力感は&#8230;</p>
+<p>このガイドでは、AnkiMobile ユーザーインターフェイスの中で最低限必要なものを選んで説明します。
+マニュアルの読んだ時に、実際にアプリのどこをどう操作すればいいか見当がつくよういなるのが目的です。</p>
+<p>iPhone で単独利用する場合に使い方に絞りますので、PC や Anki の知識は不要です。
+事前に必要なのは英文を読もうとする意欲だけです。</p>
+<p><strong>このガイドの目標は「必要な機能はどこにあるのか」見当がつくようになることです。</strong></p>
+<p>英語を学習するために AnkiMobile を買った訳ではないので、英文読むことも勘弁してほしいという方は、後日公開予定の記事をお待ちください。
+基本的な使い方を日本語で説明します。</p>
+</section>
+<section id="重要な機能の呼び出し場所">
+  <div class="page-header">
+    <h1>重要な機能の呼び出し場所</h1>
+  </div>
+<p>再びインストール直後の画面に戻ります。重要なのは 3 か所です。</p>
+<ol>
+<li>
+マニュアル
+</li>
+<li>
+環境設定
+</li>
+<li>
+データ入出力
+</li>
+</ol>
+<div class="imageblock">
+<div class="content">
+<img src="/images/mainscreen-mark.png" alt="重要なポイント" width="300" height="450">
+</div>
+<div class="title">図 2. 重要なポイント</div>
+</div>
+<p>この 3 か所でどんな機能が呼び出せるか覚えれば十分です。
+それぞれを順番に見ていきましょう。</p>
+</section>
+<section id="マニュアルとサポート">
+  <div class="page-header">
+    <h1>マニュアルとサポート</h1>
+  </div>
+<p>画面左上 ? をタップすると、マニュアルを表示できます。
+AnkiMobile を使うのに必要なことが全て記載されています。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/manual2.png" alt="マニュアルを表示" width="300" height="450">
+</div>
+<div class="title">図 3. マニュアルを表示</div>
+</div>
+<p>このマニュアルの中に、<a target="_new" href="https://anki.tenderapp.com/">サポートサイト</a>と<a target="_new" href="http://ankisrs.net/docs/am-changes.html">更新履歴</a>へのリンクが含まれています。</p>
+<h2 id="サポート">サポート</h2>
+<p>iPhone ユーザーにとってサポートサイトに問題があります。iPhoneの解像度に対応した画面ではないので、必要な項目が見つけにくいのです。
+AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+<strong><a target="_new" href="https://anki.tenderapp.com/discussions/announcements">Announcements</a> カテゴリ</strong>: 作者からの告知が書き込まれるフォーラムです。バージョンアップや AnkiWeb の障害時に報告があります。
+</p>
+</li>
+<li>
+<p>
+<strong><a target="_new" href="https://anki.tenderapp.com/discussions/ankimobile">AnkiMobile</a> カテゴリ</strong>: AnkiMobile ユーザーからの使い方、障害報告サポートするフォーラムです。
+</p>
+</li>
+<li>
+<p>
+<strong><a target="_new" href="https://anki.tenderapp.com/discussions/ankiweb">AnkiWeb</a> カテゴリ</strong>: AnkiWeb と同期する方に必要なカテゴリです。但し、AnkiMobileとの同期で発生した問題は、AnkiMobile のカテゴリでも報告できます。
+</p>
+</li>
+</ul></div>
+<p>あたらなトピックスを報告をすると、自動返信メールに書かれている通り平均 8 時間でサポートスタッフからの返信があります。
+障害については、サポートスタッフがサポートサイトでの聴き取り内容からバグレポートを作成しますので、ユーザーが作成する必要はありません。
+もしアプリケーションに修正が必要になった場合には、いつその問題が修正されるか回答があります。基本的には直近のリリースで対応するようです。修正内容は<a target="_new" href="http://ankisrs.net/docs/am-changes.html">更新履歴</a>で確認できます。</p>
+<p>サポートサイトのコミュニケーションは全て英語で行われています。
+流暢な英文が書けなくても恐縮する必要はありません。世界中からネイティブでない方たちがたくさん報告しています。Anki や AnkiMobile の部位や固有名詞を正確に記述していれば、行間を読んでユーザーの問題を予想し、必要な追加質問をするなどして誠実に対応してくれます。
+プライベートな内容を含む質問の場合には非公開で質問することもできます。</p>
+</section>
+<section id="環境設定">
+  <div class="page-header">
+    <h1>環境設定</h1>
+  </div>
+<p>画面右上の歯車のアイコンをタップすると環境設定画面が開きます。
+画面左上 [Back] をタップすると元の画面に戻ります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/preferences.png" alt="preferences.png" width="300" height="450">
+</div>
+<div class="title">図 4. 環境設定画面</div>
+</div>
+<p>この中で重要なのは [Review] 項目です。学習方法を設定します。
+マルチタッチスクリーンのジェスチャでどんな機能を呼び出すか設定することができます。
+AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の好きな処理を割り当てることができます。
+どこでどんな姿勢でもこのアプリで学習できるのです。</p>
+<p>Anki (PC 版) が画面上に表示したボタンとキーボードショートカットから決まった機能を呼び出すことと比較すると、AnkiMobile は iOS 版のアプリならではの強力な機能を持っていることが分かります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/preferences-review.png" alt="preferences-review.png" width="300" height="450">
+</div>
+<div class="title">図 5. 学習方法設定画面</div>
+</div>
+<p>なお、Tool Buttons と Quickbar は学習画面に配置しているボタンです。その場所は後ほど触れますが、どんな機能を呼び出すか設定できます。</p>
+<p>画面一番下の [Shake Action] でシェイクジェスチャで呼び出す機能を設定できます。既定値は、元に戻す (Undo) です。</p>
+<p>画面左上 [Preferences] をタップすると、環境設定画面に戻ります</p>
+</section>
+<section id="データ入出力">
+  <div class="page-header">
+    <h1>データ入出力</h1>
+  </div>
+<p>画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
+AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/deck-io.png" alt="共有単語帳ダウンロード" width="300" height="450">
+</div>
+<div class="title">図 6. 共有単語帳ダウンロード</div>
+</div>
+<p>[Download Shared Deck] をタップすると、Safari が共有単語帳のリポジトリ開きます。
+ここで、分類項目をクリックして一覧を表示しても、登録数が膨大なため必要な単語帳を見つけるのが大変です。
+もし、探したい情報が決まっているのなら、右上の検索欄を活用しましょう。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/shareddeck.png" alt="共有単語帳 リポジトリ" width="300" height="450">
+</div>
+<div class="title">図 7. 共有単語帳 リポジトリ</div>
+</div>
+<h2 id="共有単語帳のインストール手順">共有単語帳のインストール手順</h2>
+<p>私がつくった共有単語帳「歌舞伎の演目名」をインストールする例を紹介します。
+「歌舞伎」をキーワードにして検索します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/deck-search.png" alt="検索結果" width="300" height="450">
+</div>
+<div class="title">図 8. 検索結果</div>
+</div>
+<p>[Info] をタップすると、単語帳の詳細ページへ移動します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/deck-kabuki.png" alt="詳細ページ" width="300" height="450">
+</div>
+<div class="title">図 9. 詳細ページ</div>
+</div>
+<p>[Download] をタップすると、単語帳をダウンロードします。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/deck-download.png" alt="完了" width="300" height="450">
+</div>
+<div class="title">図 10. ダウンロード完了</div>
+</div>
+<p>画面右上 ["Anki"で開く] をタップすると、単語帳一覧に追加されます。
+単語帳 default は収録しているカードがなく、他の単語帳が追加になると表示しなくなります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/deck-list.png" alt="共有単語帳の読み込み例" width="300" height="450">
+</div>
+<div class="title">図 11. 共有単語帳の読み込み例</div>
+</div>
+<p>これで重要な3カ所の説明が終わりました。</p>
+</section>
+<section id="学習画面">
+  <div class="page-header">
+    <h1>学習画面</h1>
+  </div>
+<p>最後に簡単に学習画面について触れておきましょう。
+単語帳一覧から単語帳名をタップすると、学習を開始します。
+解答を見るには、画面中央の白い部分をタップします。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/learn-q.png" alt="出題" width="300" height="450">
+</div>
+<div class="title">図 12. 出題 (赤枠内をタップすると回答表示)</div>
+</div>
+<p>問題が分かったかどうか判断しボタンをタップします。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+分からなかった場合は、左下の赤いボタン [Answer Again] または、画面左側
+</p>
+</li>
+<li>
+<p>
+分かった場合は、下中央の緑のボタン　[Answer Good] または、画面左側
+</p>
+</li>
+<li>
+<p>
+分かったけど簡単すぎた場合は、右下の灰色のボタン [Answer Easy]
+</p>
+</li>
+</ul></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/learn-a.png" alt="学習の解答" width="300" height="450">
+</div>
+<div class="title">図 13. 学習の解答</div>
+</div>
+<p>学習が済んだ後、翌日以降に行う復習の場合はボタンが増えます。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+分からなかった場合は、左下の赤いボタン [Answer Again]　または、画面左側
+</p>
+</li>
+<li>
+<p>
+分かったけど難しすぎた場合は、下中央左の灰色のボタン　[Answer Hard]
+</p>
+</li>
+<li>
+<p>
+分かった場合は、下中央右の緑のボタン　[Answer Good]または、画面左側
+</p>
+</li>
+<li>
+<p>
+分かったけど簡単すぎた場合は、右下の灰色のボタン [Answer Easy]
+</p>
+</li>
+</ul></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/review.png" alt="復習の解答" width="300" height="450">
+</div>
+<div class="title">図 14. 復習の解答</div>
+</div>
+<p>スクリーンをタップしても、解答できます。
+画面を9分割してどこをタップするとどのような処理をするか、先ほどの環境設定画面で取り上げた、[Review] - [Taps] 項目で設定できます。</p>
+<h2 id="学習画面で実行する処理">学習画面で実行する処理</h2>
+<p>学習画面を操作するアクションはジェスチャか画面上部のボタンを押して呼び出せます。
+学習画面ではタップ、スワイプ、シェイクのジェスチャが使え、全てカスタマイズすることができます。</p>
+<ul>
+<li>
+タップ (Taps): 画面を九分割した領域にアクションを割り当てることができます。質問表示と解答表示で独立したアクションを設定できます。
+</li>
+<li>
+スワイプ (Swipes): 画面をスワイプする四つの方向にアクションを割り当てることができます。
+</li>
+<li>
+シェイク (Shake): シェイクジェスチャにアクションを割り当てることができます。
+</li>
+</ul>
+<p>また、画面上部のバーにあるボタンに呼び出したいアクションを割り当てることもできます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/learnscreen-button.png" alt="学習画面上部のボタン" width="300">
+</div>
+<div class="title">図 15. 学習画面上部のボタン</div>
+</div>
+<ul>
+<li>
+Back ボタン: 画面左上の　[Back] ボタンを押すと、Deck List に移動します。この動作は変更できません。
+</li>
+<li>
+Quickbar: 画面上部中央の三つのボタンにアクションを割り当てることができます。
+</li>
+<li>
+Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面の六個のボタンにアクションを割り当てることができます。
+</li>
+</ul>
+<p>ジェスチャ、ボタンとも一部のアクションについては、条件によっては割り当てられず、エラーメッセージを表示する場合があります。</p>
+<h2 id="quickbar_の設定">Quickbar の設定</h2>
+<p>[環境設定] - [Review] - [Quickbar] で設定画面が開きます。画面上中央の枠で囲った部分 (図 15) に、最大 4 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。</p>
+<h2 id="tools_画面の設定">Tools 画面の設定</h2>
+<p>画面右上 [Tools] \(図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/tools.png" alt="Tools 画面" width="300">
+</div>
+<div class="title">図 16. Tools 画面</div>
+</div>
+<p>[環境設定] - [Review] - [Tool Buttons] で設定画面が開きます。画面上中央の赤枠で囲った部分に、最大 6 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。</p>
+<p>[More] からは AnkiMobile のアクション一覧が呼び出せます。アルファベット順にソートされていますので見つけやすくなっています。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/actions.png" alt="アクション一覧" width="300">
+</div>
+<div class="title">図 17. アクション一覧</div>
+</div>
+</section>
+<section id="ノートの追加編集">
+  <div class="page-header">
+    <h1>ノートの追加編集</h1>
+  </div>
+<p>最後にノート (教材) の追加編集について説明します。
+Anki では、一枚のカードに表示する一組のデータをノートと呼びます。</p>
+<h2 id="ノートの編集">ノートの編集</h2>
+<p>ノートを編集したい場合は、編集したいノートを表示した上で学習画面の上部 [Quickbar] -[Edit] で編集画面が開きます。
+変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [Save] をタップします。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/edit.png" alt="ノートの編集" width="300" height="450">
+</div>
+<div class="title">図 17. ノートの編集</div>
+</div>
+<p>学習中のノート以外のカードを編集したい場合は、学習画面から [Tools] - [More] - [Find] を選択して検索し、選択します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/find.png" alt="ノートを検索" width="300" height="450">
+</div>
+<div class="title">図 18. 「桜」を含むノートを検索</div>
+</div>
+<h2 id="ノートの追加">ノートの追加</h2>
+<p>学習画面の上部 [Quickbar] -[Add] で追加画面が開きます。
+ノートタイプが [基本] の場合は、Front に表面に表示する内容、Back に裏面に表示する内容を入力します。HTMLのタグを使って書式設定することができます。
+変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。
+入力内容の保存は、右上の [保存] をタップします。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/add.png" alt="ノートの追加" width="300" height="450">
+</div>
+<div class="title">図 19. ノートの追加</div>
+</div>
+<p>画面上部でトートタイプと保存先の単語帳を指定します。</p>
+<p></p>
+</section>
+<section id="おわりに">
+  <div class="page-header">
+    <h1>おわりに</h1>
+  </div>
+<p>AnkiMobile を使いこなすのに最低限必要な機能は、実は集約して配置していますが、マニュアルが文字情報に偏っているため、独力で探し出すのが大変なことだと思います。
+しかし、一旦その場所さえ覚えてしまえば、マニュアルを見ながら色々な機能を試していけるようになります。
+そこで、このガイドではスクリーンショットを多用して、画面のどこに注目すれば良いか、紹介しました。</p>
+</section>
+<section id="さらにくわしく">
+  <div class="page-header">
+    <h1>さらにくわしく</h1>
+  </div>
+<div class="ulist"><ul>
+<li>
+<p>
+<a href="/start-up-anki-for-iphone-users/">iPhone ユーザーのための Anki のゆるい始めかた</a><br />
+このアプリを使い始めた方を対象に、長続きする学習方法を提案しています。教材の準備に極力手間をかけずに、カードの学習に集中できる使い方を取り上げています。
+</p>
+</li>
+<li>
+<p>
+<a href="/how-to-use-ankimobile/">iPhone ユーザーのためのはじめての Anki</a><br />
+はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。
+</p>
+</li>
+<li>
+<p>
+<a href="/speech-text-on-ankimobile/">iPhone 版 Anki でテキストを読み上げるにはどうするか</a><br />
+カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
+</p>
+</li>
+<li>
+<p>
+<a href="/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a><br />
+この記事では取り上げなかった、図 2. 重要なポイント 右下の [Synchronize] のボタンの使い方を説明しています。
+無料のオンラインサービス AnkiWeb の同期機能を使うと、他の iOS 機器やアンドロイド端末、PC にインストールした Anki とコンテンツを同期して学習を複数の機器にまたがって継続することができます。
+</p>
+</li>
+<li>
+<p>
+<a href="/anki_glossary/">Anki 用語集 - Anki Glossary</a><br />
+AnkiMobile で使用している特別な意味を持つ用語が理解できます。
+Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
+</p>
+</li>
+</ul></div>
+</section>
+<section id="更新情報">
+<div class="page-header">
+<h1>更新情報</h1>
+</div>
+<p>2014/05/11: 初出</p>
+<p>2016/01/23: 更新: 学習画面で実行する処理</p>
+</section>
+<hr />
+<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png" style="border-style:none;float:left;margin:5px" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Damien Elmes<br />価格： 2,500円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt="iTunesで見る" style="border-style:none" /></a><br /><span style="font-size:xx-small">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2014.5.13</span><br style="clear:left" /></div></div> 
+
+

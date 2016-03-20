@@ -1,0 +1,336 @@
+---
+slug: "table-of-contents"
+date: "2014-04-07T18:30:27+00:00"
+lastmod: "2016-01-09T11:46:00+00:00"
+title: "投稿記事目次"
+categories: ["Anki","コーパス","開発"]
+tags: ["Anki","Corpus","Learning with Texts","LWT","コーパス"]
+excerpt: "このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents"
+---
+<section id="preamble">
+<p>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。</p>
+</section>
+<section id="anki_公式文書_日本語訳">
+  <div class="page-header">
+    <h2>Anki 公式文書 日本語訳</h2>
+  </div>
+<p>マニュアルを補足する文書の日本語訳。バージョン間での機能の違いを調べたりや機能を独自にカスタマイズしたり拡張したりするのに役立ちます。</p>
+<ul>
+<li>
+<a href="/changeinanki2/">Anki 2 の変更点 日本語訳</a>
+</li>
+<li>
+<a href="/anki2addons/">Anki 2.0 アドオンの作成 日本語訳</a>
+</li>
+</ul>
+</section>
+<section id="anki_連載チュートリアル">
+  <div class="page-header">
+    <h2>Anki 連載チュートリアル</h2>
+  </div>
+<p>Ankiを使って学習するのに必要最低限の内容を頻度と習熟度を基準にすぐ役立つなものからまとめました。
+理解するより、まず使ってみてなれてもらえればと思っています。
+Anki 2 はベータ版から2年近く毎日使っていますが、この連載の範囲を超える機能はほとんど使ったことがありません。</p>
+<ul>
+<li>
+<a href="/how-to-anki/">はじめてのAnki - まず使ってみる</a>
+</li>
+<li>
+<a href="/how-to-import/">Ankiにデータをまとめて取り込む</a>
+</li>
+<li>
+<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>
+</li>
+<li>
+<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>
+</li>
+<li>
+<a href="/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>
+</li>
+<li>
+<a href="/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>
+</li>
+<li>
+<a href="/reduce-anki-backlog-with-stats/">Anki統計情報を活用したバックログ解消法</a>
+</li>
+<li>
+<a href="/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>
+</li>
+<li>
+<a href="/index-how-to-anki/">はじめてAnkiを使う人のための索引</a>
+知りたい機能や使い方を紹介している記事へ誘導する索引です。簡単な逆引き辞典です。
+</li>
+<li>
+<a href="/anki_glossary/">Anki 用語集 - Anki Glossary</a>
+Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。
+</li>
+<li>
+<a href="/anki-tips/">Anki Tips - 知っておくとお得な機能たち</a>
+</li>
+<li>
+<a href="/anki-shortcuts/">Anki ショートカットキー</a>
+</li>
+<li>
+<a href="/anki-addons-guide/">Anki アドオンガイド – Anki をもっと使いやすくするアドオンたち</a>
+</li>
+<li>
+<a href="/shared-deck-list-in-japanese/">日本語ユーザーのための Anki 共有単語帳リスト</a>
+</li>
+<li>
+<a href="/sample-decks/">Anki 単語帳サンプル一覧</a>
+</li>
+<li>
+<a href="/ems-mnemonics/">Anki 単語帳: 救急診療に役立つ暗記メモ集</a>
+</li>
+<li>
+<a href="/ankigene-bot-guide/">Anki の基本知識をつぶやきます</a>
+ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、機能拡張するアドオンの説明を取り上げます。
+</li>
+</ul>
+</section>
+<section id="anki活用の手引き">
+  <div class="page-header">
+    <h2>Anki活用の手引き</h2>
+  </div>
+<p>前の連載の内容に比べると、利用頻度はそれほど高くありませんが、知っておくと断然Ankiの利用価値が高まる機能や使い方についてまとめました。</p>
+<h3 id="anki_の設定とメンテナンス">Anki の設定とメンテナンス</h3>
+<ul>
+<li>
+<a href="/install_anki/">Ankiのインストール</a>
+</li>
+<li>
+<a href="/anki_reset/">Ankiと初期化</a>
+</li>
+<li>
+<a href="/how-to-change-lang/">Anki2の言語設定を変更する</a>
+</li>
+<li>
+<a href="/anki_automatic_backup/">Anki自動バックアップ機能の使い方</a>
+</li>
+<li>
+<a href="/restore_corrupt_data/">破損したAnkiデータの修復</a>
+</li>
+<li>
+<a href="/changes-in-anki209/">Anki2.0.9の注目すべき変更点</a>
+</li>
+<li>
+<a href="/changes-in-anki2013/">Anki2.0.13の注目すべき変更点</a>
+</li>
+<li>
+<a href="/anki-fail-to-sync/">Ankiが同期できない問題について</a>
+</li>
+<li>
+<a href="/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>
+</li>
+<li>
+<a href="/how-to-use-profile/">Anki を共有機器で利用するためのプロファイルの使い方</a>
+</li>
+<li>
+<a href="/anki-timebox-time-limit/">時間制限して Anki 学習するタイムボックス機能</a>
+<a href="/study-session-with-the-unexpected/">Anki 学習セッション中の予測とは異なる体感</a>
+</li>
+</ul>
+<h3 id="anki_の学習方法">Anki の学習方法</h3>
+<ul>
+<li>
+<a href="/how-to-suspend-this-card/">いま表示しているAnkiカードだけ学習をやめる方法</a>
+</li>
+<li>
+<a href="/learn_in_original_sequence/">Ankiのノートを追加順に学習する方法</a>
+</li>
+<li>
+<a href="/management_of_leeches/">無駄なカード(Leech)になってもAnki学習を続ける方法</a>
+</li>
+<li>
+<a href="/suitable-deck/">おすすめ Anki 単語帳について</a>
+</li>
+<li>
+<a href="/anki-restore-guide/">転んでもタダでは起きない Anki 再履修の手引き</a>
+</li>
+<li>
+<a href="/learn-with-anki/">暗記に強くなるために Anki から上手くサポートを得るには</a>
+</li>
+</ul>
+<h3 id="anki_の教材作成">Anki の教材作成</h3>
+<ul>
+<li>
+<a href="/how-to-choose-notetype/">Ankiのノートタイプの選び方</a>
+</li>
+<li>
+<a href="/type_answer/">Anki解答キー入力機能の使い方</a>
+</li>
+<li>
+<a href="/cloze-deletion/">Ankiにおける空欄補充問題の作り方</a>
+</li>
+<li>
+<a href="/hint_field/">Ankiのカードにヒントを付ける方法</a>
+</li>
+<li>
+<a href="/cardtype/">Ankiのカードタイプと出題方法の増やし方</a>
+</li>
+</ul>
+<h3 id="メディアファイルとの連携">メディアファイルとの連携</h3>
+<ul>
+<li>
+<a href="/bulk-import-media-files-into-anki/">画像、音声、動画などメディアファイルを Anki へ一括登録</a>
+</li>
+<li>
+<a href="/audio-stdout-into-anki-for-mac/">Mac で再生中の音声を Anki に直接録音する</a>
+</li>
+<li>
+<a href="/mplayer-shortcut-for-anki-video/">Anki の動画再生に使えるショートカットキー</a>
+</li>
+<li>
+<a href="/html5-on-anki/">HTML5 を利用した Anki カードへのメディアの埋め込み</a>
+</li>
+<li>
+<a href="/learn-audio-material-with-anki/">Anki を使って音声データ付き書籍の理解を深めよう</a>
+</li>
+</ul>
+<h3 id="anki_アドオンの作成">Anki アドオンの作成</h3>
+<ul>
+<li>
+<a href="/how_to_create_anki_add-ons/">フックを使った Anki アドオンのつくり方</a>
+</li>
+</ul>
+</section>
+<section id="ios_ユーザ向け_anki_アプリガイダンス">
+  <div class="page-header">
+    <h2>iOS ユーザ向け Anki アプリガイダンス</h2>
+  </div>
+<p>iPhone、iPad、iPod touch ユーザのために Anki の iOS アプリ AnkiMobile Flashcards のスマホの特性を活用した使い方を紹介します。</p>
+<ul>
+<li>
+<a href="/ankimobile-survival-guide/">iPhone ユーザーのための AnkiMobile サバイバルガイド</a>
+</li>
+<li>
+<a href="/speech-text-on-ankimobile/">iPhone 版 Anki でテキストを読み上げるにはどうするか</a>
+</li>
+<li>
+<a href="/start-up-anki-for-iphone-users/">iPhone ユーザーのための Anki のゆるい始めかた</a>
+</li>
+<li>
+<a href="/how-to-use-ankimobile/">iPhone ユーザーのためのはじめての Anki</a>
+</li>
+<li>
+<a href="/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>
+</li>
+<li>
+<a href="/how-to-use-profile/">Anki を共有機器で利用するためのプロファイルの使い方</a>
+</li>
+<li>
+<a href="/ankimobile-study-options/">AnkiMobile の学習オプションを最適化する</a>
+</li>
+</ul>
+</section>
+<section id="熟練ユーザー限定_anki_の使いこなし方">
+  <div class="page-header">
+    <h2>熟練ユーザー限定 Anki の使いこなし方</h2>
+  </div>
+<p>連載: Art of Anki では、Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
+<ul>
+<li>
+<a href="/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a>
+</li>
+<li>
+<a href="/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a>
+</li>
+<li>
+<a href="/bias-free-anki-learning/">もっと Anki に集中する使い方</a>
+</li>
+<li>
+<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a>
+</li>
+<li>
+<a href="/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a>
+</li>
+<li>
+<a href="/anki-basics/">Anki 使いの原点</a>
+</li>
+</ul>
+</section>
+<section id="最新_anki_情報源">
+  <div class="page-header">
+    <h2>最新 Anki 情報源</h2>
+  </div>
+<p><a href="/ankigene">Ankigene</a> では、ネット上に流通する多くの情報の中から、Anki ユーザーの意欲を活性化するユニークな話題を厳選し、要約して紹介します。(目下、不定期リリース)</p>
+</section>
+<section id="コーパス分析による語彙学習と_anki_の活用法">
+  <div class="page-header">
+    <h2>コーパス分析による語彙学習と Anki の活用法</h2>
+  </div>
+<p>特定分野の専門文書に高頻度に出現する語彙をデータベースから抽出して、効果的に語彙学習する方法を紹介しています。
+基本語彙を習得した後に、自分の専門分野に特化した語彙学習の方法をAnkiを使って説明しています。</p>
+<ul>
+<li>
+<a href="/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>
+</li>
+<li>
+<a href="/words-in-msdn/">MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</a>
+</li>
+<li>
+<a href="/frequent-words-in-wordpress-codex/">WordPress Codexの英語 WordPress開発者のためのAnki単語帳</a>
+</li>
+<li>
+<a href="/frequent-words-in-msdn-magazine-in-10years/">MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</a>
+</li>
+<li>
+<a href="/words_in_msdn_20130601/">MSDNの英語[1</a> - "A Modern C++ Library for DirectX Programming" June 2013から]
+</li>
+</ul>
+</section>
+<section id="learning_with_texts_lwt_を使ったテキスト購読による語彙学習とanki活用法">
+  <div class="page-header">
+    <h2>Learning with Texts(LWT) を使ったテキスト購読による語彙学習とAnki活用法</h2>
+  </div>
+<p>実際のテキスト購読を進めながら、学習語彙を抽出し Anki と連携する方法について紹介しています。</p>
+<ul>
+<li>
+<a href="/how_to_lwt_install/">はじめてのLearning with Texts(LWT) インストール</a>
+</li>
+<li>
+<a href="/lwt_basics/">はじめてのLWT 基本的な使い方</a>
+</li>
+<li>
+<a href="/how_to_export_for_anki/">はじめてのLWT データ出力</a>
+</li>
+</ul>
+</section>
+<section id="その他の話題">
+  <div class="page-header">
+    <h2>その他の話題</h2>
+  </div>
+<p>本来書くつもりだった普通の個人的なブログの話題です。</p>
+<ul>
+<li>
+<a href="/zen-coding-with-mi/">ZenCoding with mi</a>
+</li>
+<li>
+<a href="/zencoding-automator-services/">Zencoding Automator Services</a>
+</li>
+<li>
+<a href="/japanese-free-programming-books/">日本語で読める Free Programming Books</a>
+</li>
+<li>
+<a href="/pelican_with_asciidoc/">静的サイトジェネレータ Pelican で AsciiDoc を使う方法</a>
+</li>
+<li>
+<a href="/ipython-notebook-installation-on-macosx/">Mac OS X に IPython Notebook をインストールする場合の注意点</a>
+</li>
+</ul>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h2>更新情報</h2>
+  </div>
+<p>2014/04/07: 初出</p>
+<p>2014/07/15: AnkiMoble についての項目追加</p>
+<p>2014/09/01: AnkiWeb についての項目追加</p>
+<p>2014/09/08: 学習方法についての項目追加</p>
+<p>2014/09/24: 再構成</p>
+<p>2015/01/24: 記事追加</p>
+<p>2016/01/03: メディアファイルとの連携について項目追加</p>
+<p>2016/01/09: Anki ショートカットキーについて項目追加</p>
+</section>
+
+

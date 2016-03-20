@@ -1,0 +1,147 @@
+---
+slug: "how_to_export_for_anki"
+date: "2013-07-21T06:00:01+00:00"
+lastmod: "2013-07-21T06:05:54+00:00"
+title: "はじめてのLWT データ出力"
+categories: ["LWT"]
+tags: ["Anki","Learning with Texts","LWT"]
+excerpt: "今回は、LWTを使ってテキストから抽出したデータをAnkiに取り込む方法を紹介します。LWTを組み合わせると、頻出基本語彙の学習が終了して多読にシフトした進んだ語学学習者にも、Ankiの分散学習の特長が活用できるようになります。"
+---
+<section id="preamble">
+<div class="paragraph"><p><strong>連載: はじめてのLearning with Texts(LWT)</strong></p></div>
+<div class="paragraph"><p><strong>第3回目 Learning with Texts(LWT) Ankiへのデータ出力</strong></p></div>
+</section>
+<h2 id="はじめに" class="section">はじめに</h2>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p><a href="http://lwt.sourceforge.net/">Learning with Texts(LWT)</a>とは、テキストの読解を基本とした、パブリックドメインの語学学習の分散学習システムです。
+基本的には自分で収集したテキストから自動生成する空欄補充問題を学習します。
+オンライン辞書や辞書APIと連携していますので、簡単に語彙の定義や訳語を記録することができます。</p></div>
+<div class="paragraph"><p>テキストを多読しながら効率的に自動的に未知の語彙を収集し、分散学習する機能を提供してくれます。</p></div>
+<div class="paragraph"><p>前回の記事 <a href="/lwt_basics/">はじめてのLearning with Texts(LWT) 基本的な使い方</a>では、テキスト登録から学習語句の設定、復習方法を紹介しました。</p></div>
+<div class="paragraph"><p>今回は、LWTを使ってテキストから抽出したデータをAnkiに取り込む方法を紹介します。</p></div>
+<div class="paragraph"><p>この記事は、LWT 1.5.12 (July 16 2013)に基づいて作成しています。
+作業環境は、Mac OS X です。他のプラットフォームをお使いの方は適宜読み替えてください。</p></div>
+<h2 id="データ出力の方法" class="section">データ出力の方法</h2>
+<div class="paragraph"><p>ホームスクリーンからリンク[My Terms (Words and Expressions)]をクリックして、語句一覧を表示します。
+ページ上部にドロップダウンメニューがある場合は[Terms]を選択しても移動できます。</p></div>
+<div class="paragraph"><p>まず出力用データを絞り込みます。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+<strong>Language:</strong> でどの言語の語句を出力するか決めます。
+</p>
+</li>
+<li>
+<p>
+<strong>Status:</strong> では、出力する語句のStatus(習熟度)を設定します。
+</p>
+</li>
+</ul></div>
+<h2 id="付属anki用テンプレートを使う場合" class="section">付属Anki用テンプレートを使う場合</h2>
+<div class="paragraph"><p><code>lwt/anki</code> ディレクトリ内には、Anki読み込み用テンプレート <code>LWT.apkg</code> を収録しています。
+このAnki単語帳 <code>LWT.apkg</code> には、ノートタイプ[LWT-Note-Type]が含まれています。</p></div>
+<h3>絞り込んだ全ての語句を出力する場合</h3>
+<div class="paragraph"><p>ALL # Terms: (# は絞り込んだ語句の数) から[Export All Terms (Anki)] を選択します。</p></div>
+<h3>絞り込んだから語句をさらに選んで出力する場合</h3>
+<div class="paragraph"><p>選択したい語句のMark列のチェックボックス選択して、Marked Terms: から [Export Marked Terms (Anki)] を選択します。</p></div>
+<div class="paragraph"><p>データは、ウェブブラウザーのダウンロードファイルの保存先に出力します。
+ファイル名は、例えば2012/07/20 12:30:00 に出力した場合は <code>lwt_anki_export_2013-07-20-12-30-00.txt</code> となります。</p></div>
+<div class="paragraph"><p>出力データの内容は次の通りです。</p></div>
+<div class="listingblock">
+<div class="title">Export Terms (Anki)の出力データ</div>
+<div class="content monospaced">
+<pre>families        家族 / (Plural form of family.)               The two chief &lt;span style="font-weight:600; color:#0000ff;"&gt;[••••••••]&lt;/span&gt; in Verona were the rich Capulets and the Montagues.       The two chief &lt;span style="font-weight:600; color:#0000ff;"&gt;families&lt;/span&gt; in Verona were the rich Capulets and the Montagues. English 221</pre>
+</div></div>
+<div class="paragraph"><p>Anki読み込みテンプレート<code>LWT.apkg</code> をAnkiに読み込ませた上で、出力データ(上の例では <code>lwt_anki_export_2013-07-20-12-30-00.txt</code>) を読み込ませます。</p></div>
+<div class="ulist"><div class="title">Anki読み込みオプションの設定内容 (Anki)</div><ul>
+<li>
+<p>
+(ノートの)種類は[LWT-Note-Type]に設定します。
+</p>
+</li>
+<li>
+<p>
+[フィールドに HTML に使う]を設定してください。出力データの内容にHTMLを含んでいるためです。
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>設定画面の例を参考までに掲載します。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2lwt03_1.png" alt="Anki読み込み設定">
+</div>
+<div class="title">図 1. Anki読み込み設定</div>
+</div>
+<div class="paragraph"><p>この方法で読み込んだカードの表示例です。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2lwt03_2.png" alt="付属テンプレートのカード">
+</div>
+<div class="title">図 2. 付属テンプレートのカード表面</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2lwt03_3.png" alt="付属テンプレートのカード">
+</div>
+<div class="title">図 3. 付属テンプレートのカード裏面</div>
+</div>
+<h2 id="出力形式をカスタマイズする場合" class="section">出力形式をカスタマイズする場合</h2>
+<div class="paragraph"><p>My Languages(言語設定)の[Export Template]で、出力形式を指定できます。
+言語設定ウィザードを使った場合、英語の既定設定は、<code>$y\t$t\n</code> です。
+Anki2の穴埋めに対応した出力設定になっています。</p></div>
+<div class="paragraph"><p>出力テンプレートの詳細設定は、ドキュメントの<a href="http://lwt.sourceforge.net/info_export_template.htm">LWT Export Templates for "Flexible Exports"</a>をご覧ください。</p></div>
+<div class="paragraph"><p>出力データの作成手順は、付属テンプレートと使った場合と同じです。語句一覧から次の項目を選択して出力します。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+ALL # Terms: (# は絞り込んだ語句の数) から[Export All Terms (Flexible)] を選択します。
+</p>
+</li>
+<li>
+<p>
+選択したい語句のMark列のチェックボックス選択して、Marked Terms: から [Export Marked Terms (Flexible)] を選択します。
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>ファイル名は、例えば2012/07/20 12:30:00 に出力した場合は <code>lwt_flexible_export_2013-07-20-12-30-00.txt</code> となります。</p></div>
+<div class="paragraph"><p>出力データの内容は次の通りです。</p></div>
+<div class="listingblock">
+<div class="title">Export Terms (Flexible)の出力データ</div>
+<div class="content monospaced">
+<pre>The two chief {{c1::families::家族 / (Plural form of family.)}} in Verona were the rich Capulets and the Montagues.   家族 / (Plural form of family.)</pre>
+</div></div>
+<div class="ulist"><div class="title">Anki読み込みオプションの設定内容 (Flexible)</div><ul>
+<li>
+<p>
+(ノートの)種類は[穴埋め]に設定します。
+</p>
+</li>
+</ul></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2lwt03_4.png" alt="Anki読み込み設定">
+</div>
+<div class="title">図 4. Anki読み込み設定</div>
+</div>
+<div class="paragraph"><p>この方法で読み込んだカードの表示例です。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2lwt03_5.png" alt="付属テンプレートのカード">
+</div>
+<div class="title">図 5. カスタマイズしたテンプレートのカード表面</div>
+</div>
+<div class="paragraph"><p>Ankiの穴埋め問題が機能しています。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2lwt03_6.png" alt="付属テンプレートのカード">
+</div>
+<div class="title">図 6. カスタマイズしたテンプレートのカード裏面</div>
+</div>
+<div class="paragraph"><p>Ankiで使用中のノートタイプを共用することができました。
+出力テンプレートをカスタマイズすれば、さらに柔軟なカードレイアウトを実現できます。</p></div>
+<h2 id="まとめ" class="section">まとめ</h2>
+<div class="paragraph"><p>LWTは、Ankiと連携して使用することを考慮して作られているため、標準のAnki用テンプレートや、出力形式のカスタマイズ機能を用意しています。</p></div>
+<div class="paragraph"><p>Ankiの既定状態では、既成の語彙表、単語帳による学習に偏りがちですが、LWTは多量のテキスト処理を得意としていますので、文脈を活用した学習をAnkiへ簡単に取り込むことできます。</p></div>
+<div class="paragraph"><p>LWTを組み合わせると、頻出基本語彙の学習が終了して多読にシフトした進んだ語学学習者にも、Ankiの分散学習の特長が活用できるようになります。</p></div>
+
+

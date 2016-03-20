@@ -1,0 +1,289 @@
+---
+slug: "how-to-import"
+date: "2013-04-20T09:00:02+00:00"
+lastmod: "2014-09-22T04:04:52+00:00"
+title: "Ankiにデータをまとめて取り込む"
+categories: ["Anki","Anki2の使い方"]
+tags: ["Anki"]
+anki: ["タグ","テキストファイル","ブラウザー","単語帳の作成","読み込み"]
+excerpt: "今回はまとまったリストを暗記教材として登録する方法を紹介します。単語の一覧表をテキストデータ CSV に加工に、Ankiへ読み込む方法を紹介します。How to import CSV data into Anki."
+---
+<section id="preamble">
+<p><strong>連載: Ankiの使い方 〜覚えるために忘れろ〜 第2回</strong></p>
+<p>Ankiを使っている人なら知っている使い方をあえて紹介する連載の2回目は、学習教材の一括登録です。前回は、暗記したい項目に出会う度に登録する使い方を取り上げましたが、今回はまとまったリストを暗記教材として登録する方法を紹介します。</p>
+<div class="sidebarblock well">
+<div class="content">
+<p><a target="_new" href="http://ankisrs.net/">Anki</a>とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。</p>
+</div></div>
+</section>
+<section id="この記事の目標">
+  <div class="page-header">
+    <h2>この記事の目標</h2>
+  </div>
+<p>教材を一括登録するAnkiの読み込み機能の扱い方になれましょう。</p>
+<p>例として中学校教科書に使われている英単語リストをテキストファイルに整形して読み込みます。</p>
+</section>
+<section id="使うもの">
+  <div class="page-header">
+    <h2>使うもの</h2>
+  </div>
+<div class="ulist"><ul>
+<li>
+<p>
+Anki2
+</p>
+</li>
+<li>
+<p>
+英単語リスト
+</p>
+</li>
+<li>
+<p>
+表計算ソフト(Excel形式を読み込めて、テキストファイルに保存できるもの)
+</p>
+</li>
+</ul></div>
+<p>中学校の教科書に掲載されている英単語一覧を登録してみましょう。教科書会社のサイトに現行6社の教科書に使用している英単語のリストが入手できますのでこれを使います。教科書の巻末にある語彙集をまとめたもののようです。</p>
+<p><a target="_new" href="http://www.kairyudo.co.jp/contents/02-chu/eigo/h24/eitango.htm">平成24～27年度用の各社の中学校 英語教科書で使われる英単語のリスト</a> (開隆堂出版株式会社)</p>
+<p>Excel形式と、PDF形式で提供していますが今回はExcel形式のものを使います。</p>
+<h3 id="代替リストの参考例">代替リストの参考例</h3>
+<p>他にも同じようなリストで面白そうなものを紹介します。頻出の英単語なので全体としては違いはそれほどないですが、その中の微妙な差が興味深いかなと。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+<a target="_new" href="http://www.cambridgeenglish.org/Images/22099-vocabulary-list.pdf">BEC Preliminary Vocabulary List</a>
+</p>
+</li>
+</ul></div>
+<p>ケンブリッジ大学ESOL試験 ビジネス英語分野(BEC Preliminary; CEFR B1レベル) の受験準備教材。ビジネス英語の基礎語彙を確認したい場合に。
+<a target="_new" href="http://www.cambridgeenglish.org/exams-and-qualifications/business-certificates/business-preliminary/how-to-prepare/">BEC Preliminaryの詳しい説明</a></p>
+<div class="ulist"><ul>
+<li>
+<p>
+<a target="_new" href="http://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Contemporary_fiction_in_60_categories">The 2000 most frequently used words in contemporary fiction (Wiktionary)</a>
+</p>
+</li>
+</ul></div>
+<p>フィクションの現代作品の中の頻出2000語。作品の主題と使用頻度で分類。左の列から400語毎に5段階に頻度分類。フィクションを読む速度をもっと上げたいのなら。</p>
+</section>
+<section id="テキストファイル読み込み機能">
+  <div class="page-header">
+    <h2>テキストファイル読み込み機能</h2>
+  </div>
+<p>Ankiは、タブやカンマ、セミコロン、スペースで区切ったテキストファイルを読み込むことができます。
+フィールドにHTMLのタグを含めることができますし、テキストファイルのフィールドとAnkiファイルのフィールドの対応を読み込みの際に画面から設定することができます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_1.png" alt="読み込み設定画面">
+</div>
+<div class="title">図 1. 読み込み設定画面</div>
+</div>
+<p>Ankiに登録したいデータを持っているのなら、そのデータをタブ区切りなどのテキストファイルに加工する方法を考えましょう。</p>
+<p>この機能が利用できるのは PC 版 Anki だけです。iOS アプリ AnkiMobile、Android アプリ AnkiDroid は、Anki単語帳パッケージ (apkg) の読み込みだけに対応しています。</p>
+</section>
+<section id="単語リストの前処理">
+  <div class="page-header">
+    <h2>単語リストの前処理</h2>
+  </div>
+<p></p>
+<p>まずデータの内容を確認してみましょう。Microsot ExcelかExcel形式のファイルを編集してテキスト形式で保存できるアプリケーションソフトを使います。この記事ではLibreOffice Calcを使いますが、操作内容Excelを使った場合とはほとんど変わりません。</p>
+<p>LibreOfficeは自由でかつオープンソースのオフィススイートです。Windows、Macintosh、Linux を始めとする多くのプラットフォームで動作します。LibreOfficeの入手や詳しい内容は <a href="http://ja.libreoffice.org/">http://ja.libreoffice.org/</a> をご覧ください。</p>
+<p>ダウンロードした "h24-eitango-1.xls" を開いてみると図2のようになります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_2.png" alt="単語データの内容">
+</div>
+<div class="title">図 2. 単語データの内容</div>
+</div>
+<p>A列は英単語、B列は同綴異義語の区別、C列からH列までは、各社の教科書で何年生で初出するか、I列は何社の教科書に掲載されているかを示しています。3277個の単語が含まれていました。
+A列をFrontフィールドに、I列を頻度表示を示すタグに割り当てるようデータを加工していきます。今回はBackフィールドにあたる解答項目は空白にしておきます。</p>
+<p>今後の連載で解答、ヒントへのリンクを生成するカードのカスタマイズ方法を紹介します。</p>
+<h3 id="重複を除く">重複を除く</h3>
+<p>Anki2では、最初のフィールド(既定でFrontフィールド、いわゆる見出しフィールド)の重複を認めていません。B列でソートして重複している見出しを解消する必要があります。
+図3からcanは助動詞と名詞で同綴異義語として別々の項目で登録されていることが分かります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_3.png" alt="重複データ">
+</div>
+<div class="title">図 3. 重複データ</div>
+</div>
+<p>一つ目の方法は、片方を削ってしまうこと。
+もう一つ目は、見出しを書き換えてcan(助動詞),can(名詞)と別の見出しにしてしまう方法です。</p>
+<p>今回は次の17個の重複している単語を一つの項目にまとめました。名寄せというべきかもしれません。
+can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, right, second, story, train</p>
+<h3 id="頻度タグの準備">頻度タグの準備</h3>
+<p>I列の数字を頻度表示のタグとして利用したいので、加工しておきます。数字だけのタグだと意味が分かりにくいので、Gradeという文字を先につけて、1社で使われている単語のタグをGrade1と付けたいと思います。</p>
+<p>やり方は色々ありますが、I列を選択した状態で、"1"を"Grade1"、"2"を"Grade2"というように検索置換掛けました。</p>
+<h3 id="不要なデータを削除">不要なデータを削除</h3>
+<p>C列からH列までは不要なので削除します。
+また、見出しの中に"Agghhhhhh"というようなオノマトペや"Alice in Wonderland"のような書名、固有名詞が多数含まれています。暗記に必要のない項目は今のうちに削除しておきましょう。Ankiからも削除はできますが、今の段階で除いておく方が断然楽です。</p>
+<p>最終的に見出し語と頻度の2列からなるデータにまとめました。(図 4)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_4.png" alt="加工済みデータ">
+</div>
+<div class="title">図 4. 加工済みデータ</div>
+</div>
+<h3 id="テキストファイルに保存">テキストファイルに保存</h3>
+<p>最後にテキストファイル形式に保存します。LibreOffice Calcではファイルの種類を[テキスト CSV(.csv)]を選択します。</p>
+<p>テキストファイルを開いて中を確認すると、カンマで区切られたテキストファイルになっていることが分かります。(図 5)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_5.png" alt="読み込み用テキストファイル">
+</div>
+<div class="title">図 5. 読み込み用テキストファイル</div>
+</div>
+</section>
+<section id="ankiへの読み込み">
+  <div class="page-header">
+    <h2>Ankiへの読み込み</h2>
+  </div>
+<p>これまで作業してきたテキストファイルの読み込み手順を紹介します。</p>
+<h3 id="読み込みファイルの指定">読み込みファイルの指定</h3>
+<p></p>
+<p>Ankiへの読み込み処理を呼び出す方法は、(1)  メインウィンドウ右下の[ファイルを読み込む]ボタンを押す方法、(2) メニューバーから[ファイル]&gt;[読み込む](Command/Ctrl + I)の2通りあります。</p>
+<p>ファイル選択画面が開きますので、これまで作成してきたテキストファイルを選択し、ファイルの種類の指定に[テキスト(タブ区切りまたはセミコロン区切り)(*)]を選択して[開く]ボタンを押してください (図 6)。作成したファイルはカンマ区切りですが読み込むことができます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_import.png" alt="読み込むファイルの選択">
+</div>
+<div class="title">図 6. 読み込むファイルの選択</div>
+</div>
+<p>Ankiの読み込み機能から、Ankiから書き出して作るAnki 単語帳パッケージ (apkg)や旧バージョンの単語帳ファイル(anki)を読み込むことが出来ます。
+また、Mnemosyne、Supermemo、Paukerなどのアプリケーションの出力ファイルを読み込むことが出来ます。
+ファイル指定の際にそれぞれのファイルの種類を選択します。</p>
+<p>選択したテキストファイルが Anki に読み込まれると、図 7 のように設定画面が開きます。[コンマで区切ったフィールド]というボタンが現れたことに注意してください。区切り文字を自動認識してくれます。素晴らしい。
+他の区切り文字を指定したい場合はこのボタンを押すと他の文字を指定できます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_6.png" alt="読み込み設定画面">
+</div>
+<div class="title">図 7. 読み込み設定画面</div>
+</div>
+<h3 id="保存先単語帳の作成">保存先単語帳の作成</h3>
+<p>図 7の右上に、単語帳という見出しの右に[Default]というボタンがあります。これは、読み込み先に単語帳Defaultを指定しています。今回は中学英単語という名前の単語帳を作ってデータ追加してみましょう。</p>
+<p>[Default]ボタンを押すと単語帳指定ウィンドウが表示されます。このウィンドウの左下[追加]ボタンを押すと、単語帳の新規作成ができます。(図 8)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_7.png" alt="単語帳の新規作成">
+</div>
+<div class="title">図 8. 単語帳の新規作成</div>
+</div>
+<h3 id="フィールドの対応指定">フィールドの対応指定</h3>
+<p>さらにフィールドの割り当てをしましょう。
+読み込んだテキストファイルは1列目英単語、2列目頻度表示タグだったことを思い出してください。
+図 7のフィールドの割り当てを見ていただくと、1列目はFrontフィールドに、2列目はBackフィールドに設定しています。2列目が、1列目の解答やヒントであればこのままでよいのですが、今回はタグに割り当てるため、設定を変更します。フィールド設定の[変更]ボタンを押すと、対象フィールドを選択する画面が開きますので [タグに割り当てる]を選択してください。(図 9)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_8.png" alt="読み込み用テキストファイル">
+</div>
+<div class="title">図 9. 読み込み用テキストファイル</div>
+</div>
+<h3 id="読み込みオプションの設定">読み込みオプションの設定</h3>
+<p>最後に、読み込みオプションの[最初のフィールドが一致した場合、既存ノートを更新する。]という項目を[最初のフィールドが既存ノートと同じであっても読み込む]に変更します。
+これは、読み込みデータに既に登録済みの単語があった場合、既存ノートを書き換えることなく別のデータとして読み込む設定になります。(図 10)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_9.png" alt="読み込み用テキストファイル">
+</div>
+<div class="title">図 10. 読み込み用テキストファイル</div>
+</div>
+<p>これで読み込み設定完了です。[読み込む]ボタンを押すと、読み込みを開始し、終了すると処理内容の報告を表示します。(図 11)</p>
+<p>既存のノートを更新した場合、読み込まなかったデータがあった場合などもここで表示します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_10.png" alt="読み込み処理ログ">
+</div>
+<div class="title">図 11. 読み込み処理ログ</div>
+</div>
+<p>報告画面を閉じて、メインウィンドウに戻ります。単語帳「中学英単語」が現れ、新規学習20件が早速割り当てられていることが分かります。(図 12)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_11.png" alt="新規単語帳が追加された">
+</div>
+<div class="title">図 12. 新規単語帳が追加された</div>
+</div>
+</section>
+<section id="ブラウザーで登録内容を確認">
+  <div class="page-header">
+    <h2>ブラウザーで登録内容を確認</h2>
+  </div>
+<p>読み込んだデータ全体を確認してみましょう。単語帳一覧から「中学英単語」をクリックし、タイトルバー下の[ブラウザー]というリンクをクリックしてください。
+ブラウザーが表示されます。さらに左のリストから「中学英単語」を選択すると一覧表示が得られます。</p>
+<p>ウィンドウのタイトルバーを見てください。この単語帳に3254枚のカードがあることが分かります。
+actuallyという単語を選択した状態で、下のタグ欄に"Grade5"という文字が表示されています。頻度表示のタグも割り振られていることが分かります。
+また、検索欄に"deck:中学英単語"という文字が現れていることも注意してください。これは、左のメニューをクリックしなくても、検索欄に文字入力しても同じ結果が得られることを意味します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_12.png" alt="ブラウザー 単語帳「中学英単語」を選択">
+</div>
+<div class="title">図 13. ブラウザー 単語帳「中学英単語」を選択(deck:中学英単語)</div>
+</div>
+<p>左のメニューから"Grade2"を選択すると、このタグを持つデータ一覧が得られます。Grade2のタグを持つカードは、470枚あり、"tag:Grade2"でも検索できることが分かります。(図 14)</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_13.png" alt="ブラウザー タグ Grade2を選択">
+</div>
+<div class="title">図 14. ブラウザー タグ Grade2を選択(tag:Grade2)</div>
+</div>
+<p>左のメニューから「今日追加したカード」を選択すると、その日追加したカードの一覧が表示されます。中学英単語のカード3254枚を表示します。"added:1"でも検索できます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="/images/how2anki_2_14.png" alt="ブラウザー">
+</div>
+<div class="title">図 15. ブラウザー</div>
+</div>
+<p>ブラウザーの詳しい使い方は、ユーザーマニュアルの<a target="_new" href="http://ankisrs.net/docs/manual.html#browser">Browser</a>をご覧ください。検索文字列の詳しい設定方法を知っておくと、学習方法をカスタマイズするフィルター学習を設定する時に役立ちます。幸いにしてこのページは<a href="http://wikiwiki.jp/rage2050/?2.0%2FBrowser">日本語訳</a>されています。</p>
+</section>
+<section id="おわりに">
+  <div class="page-header">
+    <h2>おわりに</h2>
+  </div>
+<p>データをテキスト形式に変換できれば、簡単にAnkiに取り込めます。その点を分かっていただけるとうれしいです。たくさん問題を作りすぎて困るくらいです。皆さんの作った専門性あふれる<a href="/how-to-share-anki-decks/">Anki単語帳を共有</a>していただけると、もっと楽しくなるのではないかと思います。</p>
+<p>学習方法については、<a href="/how-to-anki/">前回説明した内容</a>の通りです。いろいろな事柄の暗記をして、Ankiを楽しんでください。</p>
+<p>この記事には、<a href="/how-to-edit-cards/">解答へのリンクを設定していく続編</a>と<a href="/bulk-import-media-files-into-anki/">画像や音声、動画もまとめて取り込む続編</a>を用意しています。合わせてご利用ください。</p>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h2>更新情報</h2>
+  </div>
+<p>2013/04/20: 初出</p>
+<p>2014/09/21: 再構成、ファイル読み込みの手順を更新</p>
+</section>
+<section id="連載_ankiの使い方_覚えるために忘れろ_記事一覧">
+  <div class="page-header">
+    <h2>連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧</h2>
+  </div>
+<ol>
+<li>
+<a href="/how-to-anki/">はじめてのAnki – まず使ってみる</a>(インストール、問題入力、学習の流れ)
+</li>
+<li>
+Ankiにデータをまとめて取り込む (テキストデータの一括登録)
+</li>
+<li>
+<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>(アドオン、共有単語帳)
+</li>
+<li>
+<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>(カード編集、外部リンク設定、読み上げ)
+</li>
+<li>
+<a href="/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>(ブラウザー、検索条件)
+</li>
+<li>
+<a href="/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう </a>(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+</li>
+<li>
+<a href="/reduce-anki-backlog-with-stats/">Anki統計情報を活用したバックログ解消法</a>(統計情報の見方、たまった復習カードの解決法)
+</li>
+<li>
+<a href="/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>(単語帳の書き出し、AnkiWebへの共有)
+</li>
+<li>
+<a href="/index-how-to-anki/">はじめてAnkiを使う人のための索引</a>(連載内容の索引)
+</li>
+</ol>
+</section>
+
+
