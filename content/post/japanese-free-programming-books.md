@@ -11,7 +11,7 @@ excerpt: "List of Free Programming Books 日本語版は、インターネット
   <div class="page-header">
     <h2>List of Free Programming Books とは</h2>
   </div>
-<p><a href="http://resrc.io/list/10/list-of-free-programming-books/">List of Free Programming Books</a> とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の <a href="http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/">List of freely available programming books</a> が元になっています。
+<p><a href="http://resrc.io/list/10/list-of-free-programming-books/">List of Free Programming Books</a> とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の "List of freely available programming books" が元になっています。
 現在は、<a href="https://github.com/vhf/free-programming-books">GitHub にホスティングしているリポジトリ</a>を vhf / victor felder が管理しています。</p>
 <p>現在では、オリジナルの英語版に加えて、<a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books-ja.md">日本語版</a>をはじめとした13か国語版のリストを収録しています。</p>
 <p>GitHub のアカウントをもっていれば誰でも追加編集リクエストを出すことができます。</p>

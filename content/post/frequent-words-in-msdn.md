@@ -125,7 +125,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 <p>画面左上[書き出す]ボタンを押す(図2)か、メニューバーから[ファイル]&gt;[テーブルの結果を書き出す]を選択します。</p>
 <h2 id="頻度表の整理" class="section">頻度表の整理</h2>
 <p>表計算ソフトでは、単語を並び替えや検索などを行って、記号や数字が混入しているソースコードの断片など明らかに英語の単語ではないものを取り除きました。</p>
-<p>さらに、約1億語を収録するイギリス英語のコーパスBNC(British National Corpus)の最頻出2万語(レマ化)とつきあわせて、英単語を取り出しました。BNCの頻出20Kリストは、<a href="http://www.lextutor.ca/vp/bnc/">Web VP / BNC-20</a>から入手できます。</p>
+<p>さらに、約1億語を収録するイギリス英語のコーパスBNC(British National Corpus)の最頻出2万語(レマ化)とつきあわせて、英単語を取り出しました。BNCの頻出20Kリストは、<a href="http://www.lextutor.ca/vp/comp/">Web VP / BNC-20</a>から入手できます。</p>
 <p>ここからは不本意ながら手作業になります。</p>
 <p>残ったのは、記号や数字が入っていない文字列で、BNC頻出20Kに入っていないものになります。</p>
 <p>表計算ソフト上で、出現頻度の高いものから全てのデータ(英単語確認済み+未確定)を並べて、コーパス全体の累積被覆率を計算しました。4269番目の確認済みの単語で99%に達します。この単語は、12回出現しています。</p>
@@ -143,7 +143,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 <h2 id="作成データの検証" class="section">作成データの検証</h2>
 <p>本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
 対象は、コーパスには含んでいないMSDN Magazineの最新号とMSDNライブラリのWindows 8のホワイトペーパーです。
-ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している<a href="http://www.lextutor.ca/vp/bnc/">VocabProfilers Classic VP English v.3</a>を使い、それぞれの記事の使用語彙に対して、頻出基本語句(GSL+AWL)、MSDN word listでどれだけカバーできるか調べてみました。</p>
+ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している<a href="http://www.lextutor.ca/vp/comp/">VocabProfilers Classic VP English v.3</a>を使い、それぞれの記事の使用語彙に対して、頻出基本語句(GSL+AWL)、MSDN word listでどれだけカバーできるか調べてみました。</p>
 <table rules="rows"width=""frame="hsides"cellspacing="0" cellpadding="4">
 <caption class="title">表 1. 頻出語彙集　MSDN word listの効果</caption>
 <colgroup>
@@ -170,7 +170,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 <td>98.87%</td>
 </tr>
 <tr>
-<td><a href="http://download.microsoft.com/download/0/E/5/0E5ECE25-D240-435E-9FD6-6092896A3F5F/PackagingandBinding.docx">Packaging and assembly binding in the .NET Framework for Windows Store apps</a></td>
+<td>Packaging and assembly binding in the .NET Framework for Windows Store apps</td>
 <td>92.44%</td>
 <td>5.83%</td>
 <td>98.27%</td>
@@ -260,7 +260,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は <a href="/
 <h3 id="ご利用いただく前に" class="section">ご利用いただく前に</h3>
 <p>この単語帳は2000ワードファミリーレベルの頻出語彙とAWLとの組み合わせて使用することを前提にしています。
 この単語帳の学習の前に、あるいは並行して基本語彙を確認することをお勧めします。</p>
-<p>頻出語彙2000語については、GSLの他に<a href="http://www.lextutor.ca/vp/bnc/nation_14/">BNC(British National Corpus)の頻出2000語</a>や英英辞典の定義語集<a href="http://oald8.oxfordlearnersdictionaries.com/oxford3000/">Oxford 3000</a>、Longman Defining Vocabularyなどの入手しやすいものをお使いください。</p>
+<p>頻出語彙2000語については、GSLの他に<a href="http://www.lextutor.ca/vp/comp/nation_14/">BNC(British National Corpus)の頻出2000語</a>や英英辞典の定義語集<a href="http://oald8.oxfordlearnersdictionaries.com/oxford3000/">Oxford 3000</a>、Longman Defining Vocabularyなどの入手しやすいものをお使いください。</p>
 <p>どうしてもアメリカ英語をという方は、アメリカ英語のコーパスCOCA(Corpus of Contemporary American English)の<a href="http://www.wordfrequency.info/free.asp">上位5000語のリスト</a>から上位3000語を使うこともできます。上位3000語で2000ワードファミリー程度になります。</p>
 <h3 id="作成した単語帳の使い方">作成した単語帳の使い方</h3>
 <p>親単語帳「MSDNWords」を学習した場合は、Level1&gt;Level2&gt;カタカナ英語&gt;略語の優先順で新規カードの取得が行われます。</p>
