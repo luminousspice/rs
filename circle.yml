@@ -18,7 +18,7 @@ dependencies:
     - git config --global user.email "circleci@example.com"
   override:
     # http://stackoverflow.com/a/31032379
-#    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
+    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
 
 test:
   post:
@@ -26,7 +26,7 @@ test:
     - cd public && rm -rf * && git rm -rf .
     - hugo version
     - hugo
-#    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
+    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
 
 deployment:
   master:
