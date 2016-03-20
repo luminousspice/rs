@@ -14,7 +14,7 @@
     <item>
       <title>時間制限して Anki 学習するタイムボックス機能</title>
       <link>http://rs.luminousspice.com/anki-timebox-time-limit/</link>
-      <pubDate>Fri, 31 Oct 2014 19:15:35 +0000</pubDate>
+      <pubDate>Fri, 31 Oct 2014 19:15:35 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-timebox-time-limit/</guid>
       <description>Anki のタイムボックス機能を使うと、学習セッションに制限時間を設定することができます。この機能の設定法と使い方を紹介します。How to use Timebox time limit on Anki.</description>
       <content>&lt;p&gt;&lt;p&gt;Anki のタイムボックス機能を使うと、学習セッションに制限時間を設定することができます。この機能の設定法と使い方を紹介します。&lt;/p&gt;
@@ -73,7 +73,7 @@ Anki では、学習セッションに制限時間を設けて、指定時間毎
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;

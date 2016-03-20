@@ -14,7 +14,7 @@
     <item>
       <title>Anki の基本知識をつぶやきます</title>
       <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
-      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -52,7 +52,7 @@
     <item>
       <title>Anki アドオンガイド &amp;#8211; Anki をもっと使いやすくするアドオンたち</title>
       <link>http://rs.luminousspice.com/anki-addons-guide/</link>
-      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。共有アドオンの中から自分で使ってみて誰にでも役立つようなアドオンを紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -383,7 +383,7 @@ Anki を使っている PC のシステムを更新した時
     <item>
       <title>Ankiの共有リソースを使ってみる</title>
       <link>http://rs.luminousspice.com/how-to-use-shared-resources/</link>
-      <pubDate>Sat, 27 Apr 2013 06:00:26 +0000</pubDate>
+      <pubDate>Sat, 27 Apr 2013 06:00:26 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-shared-resources/</guid>
       <description>既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログラムの形で記録して共有してくれています。共有の単語帳やアドオンを通してAnkiの使い方を慣れてみましょう。How to use shared decks and Addons for Anki. </description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -670,7 +670,7 @@ Ankiの設定画面の中に追加されたアドオン用項目から、機能�
     <item>
       <title>Anki 2.0 アドオンの作成 日本語訳</title>
       <link>http://rs.luminousspice.com/anki2addons/</link>
-      <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
+      <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki2addons/</guid>
       <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
       <content>&lt;hr /&gt;

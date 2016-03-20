@@ -14,7 +14,7 @@
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
       <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
-      <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 23:15:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -100,7 +100,7 @@
     <item>
       <title>Mac で再生中の音声を Anki に直接録音する</title>
       <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
-      <pubDate>Sun, 27 Dec 2015 23:45:15 +0000</pubDate>
+      <pubDate>Sun, 27 Dec 2015 23:45:15 +0900</pubDate>
       <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
       <description> Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -218,7 +218,7 @@
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
       <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
-      <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
+      <pubDate>Tue, 15 Jul 2014 19:00:04 +0900</pubDate>
       <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -581,7 +581,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
     <item>
       <title>Anki アドオンガイド &amp;#8211; Anki をもっと使いやすくするアドオンたち</title>
       <link>http://rs.luminousspice.com/anki-addons-guide/</link>
-      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。共有アドオンの中から自分で使ってみて誰にでも役立つようなアドオンを紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -912,7 +912,7 @@ Anki を使っている PC のシステムを更新した時
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
       <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
-      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
       <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

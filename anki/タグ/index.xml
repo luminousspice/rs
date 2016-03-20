@@ -14,7 +14,7 @@
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
-      <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
+      <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -262,7 +262,7 @@ Anki に Python インタープリタが含まれているため、アドオン�
     <item>
       <title>Ankiにデータをまとめて取り込む</title>
       <link>http://rs.luminousspice.com/how-to-import/</link>
-      <pubDate>Sat, 20 Apr 2013 09:00:02 +0000</pubDate>
+      <pubDate>Sat, 20 Apr 2013 09:00:02 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-import/</guid>
       <description>今回はまとまったリストを暗記教材として登録する方法を紹介します。単語の一覧表をテキストデータ CSV に加工に、Ankiへ読み込む方法を紹介します。How to import CSV data into Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

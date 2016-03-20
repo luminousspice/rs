@@ -14,7 +14,7 @@
     <item>
       <title>静的サイトジェネレータ Pelican で AsciiDoc を使う方法</title>
       <link>http://rs.luminousspice.com/pelican_with_asciidoc/</link>
-      <pubDate>Sun, 01 Dec 2013 21:00:53 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2013 21:00:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/pelican_with_asciidoc/</guid>
       <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

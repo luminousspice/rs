@@ -14,7 +14,7 @@
     <item>
       <title>Anki 用語集 - Anki Glossary</title>
       <link>http://rs.luminousspice.com/anki_glossary/</link>
-      <pubDate>Sun, 27 Oct 2013 19:30:55 +0000</pubDate>
+      <pubDate>Sun, 27 Oct 2013 19:30:55 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki_glossary/</guid>
       <description>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。用語を日英併記し、英語版しか存在しない iOS 版 Anki (AnkiMobile)、ウェブ版 Anki (AnkiWeb) ユーザーにも配慮しました。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
@@ -169,7 +169,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
     <item>
       <title>はじめてAnkiを使う人のための索引</title>
       <link>http://rs.luminousspice.com/index-how-to-anki/</link>
-      <pubDate>Wed, 19 Jun 2013 00:00:48 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2013 00:00:48 +0900</pubDate>
       <guid>http://rs.luminousspice.com/index-how-to-anki/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集めました。連載終了後行われた Anki のバージョンアップの内容を考慮し、Anki の基本的な機能について項目追加しました。Index of basic features in Anki for beginners, extracted from &#39;How to Anki&#39; tutorial series.</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
@@ -943,7 +943,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
     <item>
       <title>Anki単語帳を共有する方法</title>
       <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
-      <pubDate>Thu, 30 May 2013 00:30:22 +0000</pubDate>
+      <pubDate>Thu, 30 May 2013 00:30:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の最終回は、単語帳の共有方法について紹介します。Ankiは色々な出力機能で、ユーザー間のデータ共有を支援しています。自分の単語帳を友達と交換して、Ankiの楽しみを広げましょう。How to share your Anki decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -1203,7 +1203,7 @@ AnkiWeb にサインインします。
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
       <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
-      <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
+      <pubDate>Sun, 19 May 2013 20:00:04 +0900</pubDate>
       <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.</description>
       <content>&lt;p&gt;&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目&lt;/strong&gt;&lt;/p&gt;
@@ -1441,7 +1441,7 @@ AnkiWeb にサインインします。
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
       <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
-      <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
+      <pubDate>Sat, 11 May 2013 20:00:43 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

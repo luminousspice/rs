@@ -14,7 +14,7 @@
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
       <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
-      <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
+      <pubDate>Mon, 03 Jun 2013 18:00:58 +0900</pubDate>
       <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。 An [&amp;hellip;]</description>
       <content>&lt;section id=&#34;wordpress_codexの英語_wordpress開発者のためのanki単語帳&#34;&gt;
@@ -266,7 +266,7 @@ WordPressプロジェクトに関わる全ての方々の努力で、素晴ら�
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
       <link>http://rs.luminousspice.com/words-in-msdn/</link>
-      <pubDate>Sat, 01 Jun 2013 23:00:37 +0000</pubDate>
+      <pubDate>Sat, 01 Jun 2013 23:00:37 +0900</pubDate>
       <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</description>
       <content>&lt;section id=&#34;msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略&#34;&gt;
@@ -706,7 +706,7 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
       <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
-      <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
+      <pubDate>Mon, 27 May 2013 00:30:32 +0900</pubDate>
       <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。MSDN Magazine バックナンバーのコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介します。GSL頻出2000語とAWLを理解した上で、作成したMSDN word listを学習すれば、使用語彙の98%をカバーできます。</description>
       <content>&lt;section id=&#34;ankiを使ってwindows開発者の必須語彙を習得しよう&#34;&gt;

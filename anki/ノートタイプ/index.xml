@@ -14,7 +14,7 @@
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
       <link>http://rs.luminousspice.com/cardtype/</link>
-      <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
+      <pubDate>Sat, 12 Oct 2013 23:30:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -181,7 +181,7 @@
     <item>
       <title>Ankiのノートタイプの選び方</title>
       <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
-      <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
+      <pubDate>Sun, 16 Jun 2013 10:00:37 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
       <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -297,7 +297,7 @@
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
       <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
-      <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 23:15:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -100,7 +100,7 @@
     <item>
       <title>Anki 学習セッション中の予測とは異なる体感</title>
       <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
-      <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
+      <pubDate>Sun, 22 Feb 2015 23:50:12 +0900</pubDate>
       <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
       <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -199,7 +199,7 @@
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
       <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
-      <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
+      <pubDate>Sun, 15 Feb 2015 05:00:57 +0900</pubDate>
       <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
       <description>日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -1426,7 +1426,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
     <item>
       <title>AnkiMobile の学習オプションを最適化する</title>
       <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
-      <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
+      <pubDate>Sat, 24 Jan 2015 00:00:42 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
       <description>AnkiWeb の同期機能は、教材や学習履歴、復習スケジュールに加えて、学習オプションも同期します。通常は iPhone や iPad などで AnkiMobile を単独で使っている場合でも、この同期機能を利用すると AnkiMobile の機能を詳細に設定することができます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -1531,7 +1531,7 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
     <item>
       <title>Anki の基本知識をつぶやきます</title>
       <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
-      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

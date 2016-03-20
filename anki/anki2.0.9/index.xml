@@ -14,7 +14,7 @@
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
       <guid>http://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
       <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
@@ -113,7 +113,7 @@
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
@@ -221,7 +221,7 @@
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
       <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
-      <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
+      <pubDate>Sat, 11 May 2013 20:00:43 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

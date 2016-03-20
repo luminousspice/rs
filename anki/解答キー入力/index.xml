@@ -14,7 +14,7 @@
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
       <link>http://rs.luminousspice.com/cardtype/</link>
-      <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
+      <pubDate>Sat, 12 Oct 2013 23:30:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -181,7 +181,7 @@
     <item>
       <title>Ankiにおける空欄補充問題の作り方</title>
       <link>http://rs.luminousspice.com/cloze-deletion/</link>
-      <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jun 2013 00:00:00 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cloze-deletion/</guid>
       <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -291,7 +291,7 @@
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
       <guid>http://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
       <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
@@ -390,7 +390,7 @@
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;

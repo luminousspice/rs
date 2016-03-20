@@ -14,7 +14,7 @@
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
       <link>http://rs.luminousspice.com/anki-tips/</link>
-      <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
+      <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -329,7 +329,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <item>
       <title>Ankiのノートを追加順に学習する方法</title>
       <link>http://rs.luminousspice.com/learn_in_original_sequence/</link>
-      <pubDate>Mon, 08 Jul 2013 00:00:15 +0000</pubDate>
+      <pubDate>Mon, 08 Jul 2013 00:00:15 +0900</pubDate>
       <guid>http://rs.luminousspice.com/learn_in_original_sequence/</guid>
       <description>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。Ankiの既定の機能は、ノート毎の解答履歴によって、復習間隔や順序を設定します。この機能を外して、学習する方法を紹介します。</description>
       <content>&lt;section id=&#34;順番に意味があるノートを学習する&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
       <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
-      <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
+      <pubDate>Sun, 31 Aug 2014 22:00:26 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。How to sync data through AnkiWeb for Anki, AnkiMobile, AnkiDroid.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -213,7 +213,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
     <item>
       <title>Ankiが同期できない問題について</title>
       <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
-      <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
       <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
-      <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
+      <pubDate>Sat, 13 Sep 2014 21:30:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -500,7 +500,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
       <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
-      <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
+      <pubDate>Sat, 11 May 2013 20:00:43 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -747,7 +747,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
       <link>http://rs.luminousspice.com/browser-overview/</link>
-      <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
+      <pubDate>Fri, 10 May 2013 23:30:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/browser-overview/</guid>
       <description>Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると、計画的な学習が設計でき、きめ細かな学習設定しやすくなります。特にカードの検索条件は、他の機能でも共通に使用する基本情報です。How to use card browser and build search queries on Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

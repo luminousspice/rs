@@ -14,7 +14,7 @@
     <item>
       <title>Anki 2 の変更点 日本語訳</title>
       <link>http://rs.luminousspice.com/changeinanki2/</link>
-      <pubDate>Sun, 03 Feb 2013 02:00:26 +0000</pubDate>
+      <pubDate>Sun, 03 Feb 2013 02:00:26 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changeinanki2/</guid>
       <description>Anki 2.0.32 (2015/03/25) 準拠の更新履歴日本語訳。Anki 2へアップグレードする前に知っておきたい用語や機能の変更、以前のバージョンの単語帳のアップグレード方法、新機能について説明しています。Anki2リリース以降、各アップグレードで行われた変更点についても記載しています。Anki Changelog, Japanese translation (as of Anki 2.0.32)</description>
       <content>&lt;hr /&gt;
@@ -4599,7 +4599,7 @@ Anki 2 アドオンの作成方法を知るには、&lt;a href=&#34;http://rs.lu
     <item>
       <title>Anki 2.0 アドオンの作成 日本語訳</title>
       <link>http://rs.luminousspice.com/anki2addons/</link>
-      <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
+      <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki2addons/</guid>
       <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
       <content>&lt;hr /&gt;

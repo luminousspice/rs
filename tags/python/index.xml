@@ -14,7 +14,7 @@
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
-      <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
+      <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -262,7 +262,7 @@ Anki に Python インタープリタが含まれているため、アドオン�
     <item>
       <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>
       <link>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
-      <pubDate>Mon, 02 Dec 2013 00:00:49 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2013 00:00:49 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
       <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -288,7 +288,7 @@ pip install matplotlib
     <item>
       <title>静的サイトジェネレータ Pelican で AsciiDoc を使う方法</title>
       <link>http://rs.luminousspice.com/pelican_with_asciidoc/</link>
-      <pubDate>Sun, 01 Dec 2013 21:00:53 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2013 21:00:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/pelican_with_asciidoc/</guid>
       <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -351,7 +351,7 @@ Done: Processed 1 articles and 0 pages in 0.40 seconds.
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
       <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
-      <pubDate>Fri, 07 Jun 2013 22:30:38 +0000</pubDate>
+      <pubDate>Fri, 07 Jun 2013 22:30:38 +0900</pubDate>
       <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]</description>
       <content>&lt;section id=&#34;msdn_magazine過去10年分の頻出語彙からanki単語帳を作る&#34;&gt;
@@ -507,7 +507,7 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
     <item>
       <title>Anki 2.0 アドオンの作成 日本語訳</title>
       <link>http://rs.luminousspice.com/anki2addons/</link>
-      <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
+      <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki2addons/</guid>
       <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
       <content>&lt;hr /&gt;

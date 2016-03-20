@@ -14,7 +14,7 @@
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
       <link>http://rs.luminousspice.com/anki-tips/</link>
-      <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
+      <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -329,7 +329,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
       <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
-      <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
+      <pubDate>Sun, 15 Feb 2015 05:00:57 +0900</pubDate>
       <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
       <description>日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -1241,7 +1241,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
       <link>http://rs.luminousspice.com/ems-mnemonics/</link>
-      <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
+      <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
       <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;
@@ -1317,7 +1317,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
       <guid>http://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
       <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
@@ -1416,7 +1416,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
     <item>
       <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
       <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
-      <pubDate>Sun, 09 Jun 2013 20:00:25 +0000</pubDate>
+      <pubDate>Sun, 09 Jun 2013 20:00:25 +0900</pubDate>
       <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
       <description>この連載では、頻出語句(2000&#43;AWL&#43;MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォローアップを目的としています。最新号の記事から、頻出語句に漏れた語彙を紹介します。</description>
       <content>&lt;section id=&#34;msdnの英語_1_june_2013_a_modern_c_library_for_directx_programming_から&#34;&gt;
@@ -1719,7 +1719,7 @@ MSDN Magazineはこの目的に最適な専門誌です。
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;

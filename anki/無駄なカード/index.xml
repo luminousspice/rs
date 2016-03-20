@@ -14,7 +14,7 @@
     <item>
       <title>Anki 学習セッション中の予測とは異なる体感</title>
       <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
-      <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
+      <pubDate>Sun, 22 Feb 2015 23:50:12 +0900</pubDate>
       <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
       <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -113,7 +113,7 @@
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
       <link>http://rs.luminousspice.com/anki-tips/</link>
-      <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
+      <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -428,7 +428,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
       <link>http://rs.luminousspice.com/management_of_leeches/</link>
-      <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
+      <pubDate>Sat, 13 Jul 2013 23:45:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
       <description>無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
       <content>&lt;p&gt;&lt;h2 id=&#34;無駄なカード_leech_とは&#34; class=&#34;section&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
@@ -122,7 +122,7 @@
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

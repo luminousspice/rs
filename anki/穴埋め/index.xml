@@ -14,7 +14,7 @@
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
       <link>http://rs.luminousspice.com/ems-mnemonics/</link>
-      <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
+      <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
       <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;
@@ -90,7 +90,7 @@
     <item>
       <title>Ankiにおける空欄補充問題の作り方</title>
       <link>http://rs.luminousspice.com/cloze-deletion/</link>
-      <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jun 2013 00:00:00 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cloze-deletion/</guid>
       <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -200,7 +200,7 @@
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
       <guid>http://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
       <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;

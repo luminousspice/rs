@@ -14,7 +14,7 @@
     <item>
       <title>Anki 単語帳サンプル一覧</title>
       <link>http://rs.luminousspice.com/sample-decks/</link>
-      <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
+      <pubDate>Tue, 15 Apr 2014 00:00:30 +0900</pubDate>
       <guid>http://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で公開してきた Anki 単語帳を紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。List of Anki Deck Samples.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -155,7 +155,7 @@
     <item>
       <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
       <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
-      <pubDate>Sun, 09 Jun 2013 20:00:25 +0000</pubDate>
+      <pubDate>Sun, 09 Jun 2013 20:00:25 +0900</pubDate>
       <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
       <description>この連載では、頻出語句(2000&#43;AWL&#43;MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォローアップを目的としています。最新号の記事から、頻出語句に漏れた語彙を紹介します。</description>
       <content>&lt;section id=&#34;msdnの英語_1_june_2013_a_modern_c_library_for_directx_programming_から&#34;&gt;
@@ -458,7 +458,7 @@ MSDN Magazineはこの目的に最適な専門誌です。
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
       <link>http://rs.luminousspice.com/words-in-msdn/</link>
-      <pubDate>Sat, 01 Jun 2013 23:00:37 +0000</pubDate>
+      <pubDate>Sat, 01 Jun 2013 23:00:37 +0900</pubDate>
       <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</description>
       <content>&lt;section id=&#34;msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -420,7 +420,7 @@ Ankiのカード表示を編集する (カード編集、外部リンク設定�
     <item>
       <title>ZenCoding with mi</title>
       <link>http://rs.luminousspice.com/zen-coding-with-mi/</link>
-      <pubDate>Sun, 05 Aug 2012 23:20:40 +0000</pubDate>
+      <pubDate>Sun, 05 Aug 2012 23:20:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/zen-coding-with-mi/</guid>
       <description>miでZenCodingする方法。既存のPerl実装を利用して、ツールをAppleScriptで書きます。</description>
       <content>&lt;hr&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
       <link>http://rs.luminousspice.com/learn-with-anki/</link>
-      <pubDate>Sun, 03 Jan 2016 23:00:16 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2016 23:00:16 +0900</pubDate>
       <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
       <description>暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -170,7 +170,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
       <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
-      <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
+      <pubDate>Sat, 13 Sep 2014 21:30:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -656,7 +656,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
     <item>
       <title>ためた Anki 復習カードをスライスして消化</title>
       <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
-      <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
+      <pubDate>Sun, 07 Sep 2014 23:45:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
       <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。How to resolve your backlog of due cards.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -815,7 +815,7 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
     <item>
       <title>長続きする Anki 単語帳の作り方</title>
       <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
-      <pubDate>Sat, 06 Sep 2014 19:00:09 +0000</pubDate>
+      <pubDate>Sat, 06 Sep 2014 19:00:09 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
       <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜単語帳、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。How to make Anki decks sustainable.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -957,7 +957,7 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
     <item>
       <title>Anki アドオンガイド &amp;#8211; Anki をもっと使いやすくするアドオンたち</title>
       <link>http://rs.luminousspice.com/anki-addons-guide/</link>
-      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。共有アドオンの中から自分で使ってみて誰にでも役立つようなアドオンを紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

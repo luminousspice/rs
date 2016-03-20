@@ -14,7 +14,7 @@
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
       <link>http://rs.luminousspice.com/how-to-use-profile/</link>
-      <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2014 17:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。How to use User Profile for Anki.</description>
       <content>&lt;p&gt;&lt;p&gt;Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。&lt;/p&gt;
@@ -214,7 +214,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
     <item>
       <title>Ankiが同期できない問題について</title>
       <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
-      <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -366,7 +366,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;

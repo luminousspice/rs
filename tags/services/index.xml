@@ -14,7 +14,7 @@
     <item>
       <title>Zencoding Automator Services</title>
       <link>http://rs.luminousspice.com/zencoding-automator-services/</link>
-      <pubDate>Mon, 06 Aug 2012 20:49:29 +0000</pubDate>
+      <pubDate>Mon, 06 Aug 2012 20:49:29 +0900</pubDate>
       <guid>http://rs.luminousspice.com/zencoding-automator-services/</guid>
       <description>ZenCodingサービスをautomatorと既存のPerl実装を利用して作ったよ。</description>
       <content>&lt;p&gt;Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。&lt;/p&gt;

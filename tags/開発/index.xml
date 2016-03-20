@@ -14,7 +14,7 @@
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
       <link>http://rs.luminousspice.com/html5-on-anki/</link>
-      <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
+      <pubDate>Thu, 31 Dec 2015 23:00:39 +0900</pubDate>
       <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -117,7 +117,7 @@
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
-      <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
+      <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
       <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
-      <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
+      <pubDate>Sun, 15 Feb 2015 05:00:57 +0900</pubDate>
       <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
       <description>日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -1241,7 +1241,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
     <item>
       <title>Anki 共有単語帳の学び方</title>
       <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
-      <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
+      <pubDate>Sun, 14 Sep 2014 23:30:25 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -1414,7 +1414,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
       <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
-      <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
+      <pubDate>Sat, 13 Sep 2014 21:30:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -1900,7 +1900,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
     <item>
       <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
       <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
-      <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
+      <pubDate>Sun, 11 May 2014 04:00:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
       <description>Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -2311,7 +2311,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
       <link>http://rs.luminousspice.com/ems-mnemonics/</link>
-      <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
+      <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
       <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;

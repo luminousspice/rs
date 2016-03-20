@@ -14,7 +14,7 @@
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
       <link>http://rs.luminousspice.com/cardtype/</link>
-      <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
+      <pubDate>Sat, 12 Oct 2013 23:30:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -181,7 +181,7 @@
     <item>
       <title>Anki2.0.13の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
-      <pubDate>Tue, 08 Oct 2013 00:30:08 +0000</pubDate>
+      <pubDate>Tue, 08 Oct 2013 00:30:08 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
       <description>Anki 2.0.13は、Anki2.0.9以来の大規模なアップデートです。最も重要な変更点は、同じノートから作成した関連カード同士の間隔設定の処理は、新たに書き直されて生まれ変わったことです。更に、更新した既存コンテンツを再度読み込む処理の改善、フィルター単語帳の出題方法の追加、重複検索の結果にタグを付加する機能の追加が行われました。</description>
       <content>&lt;section id=&#34;はじめに&#34;&gt;

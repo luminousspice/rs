@@ -14,7 +14,7 @@
     <item>
       <title>破損したAnkiデータの修復</title>
       <link>http://rs.luminousspice.com/restore_corrupt_data/</link>
-      <pubDate>Sat, 06 Jul 2013 21:00:07 +0000</pubDate>
+      <pubDate>Sat, 06 Jul 2013 21:00:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/restore_corrupt_data/</guid>
       <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -125,7 +125,7 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
     <item>
       <title>Anki2の言語設定を変更する</title>
       <link>http://rs.luminousspice.com/how-to-change-lang/</link>
-      <pubDate>Sun, 28 Apr 2013 00:00:22 +0000</pubDate>
+      <pubDate>Sun, 28 Apr 2013 00:00:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-change-lang/</guid>
       <description>Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -222,7 +222,7 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
     <item>
       <title>Anki 2.0 アドオンの作成 日本語訳</title>
       <link>http://rs.luminousspice.com/anki2addons/</link>
-      <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
+      <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki2addons/</guid>
       <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
       <content>&lt;hr /&gt;

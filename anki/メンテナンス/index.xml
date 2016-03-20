@@ -14,7 +14,7 @@
     <item>
       <title>Ankiのインストール</title>
       <link>http://rs.luminousspice.com/install_anki/</link>
-      <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
+      <pubDate>Sun, 29 Sep 2013 18:00:18 +0900</pubDate>
       <guid>http://rs.luminousspice.com/install_anki/</guid>
       <description>最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。AnkiのデスクトップPC版(Mac, Windows, Linux/BSD)については、ダウンロードからインストールまでの手順を、Apple機器(ipod touch, ipad, iPhone)とAndroid(アンドロイド)機器、Chromebookについては、最新版Ankiのダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -190,7 +190,7 @@ Anki フォルダーに含まれている単語帳、学習履歴、ユーザー
     <item>
       <title>Ankiと初期化</title>
       <link>http://rs.luminousspice.com/anki_reset/</link>
-      <pubDate>Sat, 28 Sep 2013 22:00:25 +0000</pubDate>
+      <pubDate>Sat, 28 Sep 2013 22:00:25 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki_reset/</guid>
       <description>Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を紹介します。復習間隔や学習履歴を初期化、リセットする方法を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -370,7 +370,7 @@ Anki フォルダーに含まれている単語帳、学習履歴、ユーザー
     <item>
       <title>破損したAnkiデータの修復</title>
       <link>http://rs.luminousspice.com/restore_corrupt_data/</link>
-      <pubDate>Sat, 06 Jul 2013 21:00:07 +0000</pubDate>
+      <pubDate>Sat, 06 Jul 2013 21:00:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/restore_corrupt_data/</guid>
       <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -481,7 +481,7 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
     <item>
       <title>Anki自動バックアップ機能の使い方</title>
       <link>http://rs.luminousspice.com/anki_automatic_backup/</link>
-      <pubDate>Fri, 05 Jul 2013 23:00:59 +0000</pubDate>
+      <pubDate>Fri, 05 Jul 2013 23:00:59 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
       <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</description>
       <content>&lt;section id=&#34;自動バックアップとは&#34;&gt;
@@ -538,7 +538,7 @@ Ankiがコレクションファイルを閉じるタイミングとは、Ankiを
     <item>
       <title>Anki2の言語設定を変更する</title>
       <link>http://rs.luminousspice.com/how-to-change-lang/</link>
-      <pubDate>Sun, 28 Apr 2013 00:00:22 +0000</pubDate>
+      <pubDate>Sun, 28 Apr 2013 00:00:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-change-lang/</guid>
       <description>Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

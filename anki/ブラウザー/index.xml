@@ -14,7 +14,7 @@
     <item>
       <title>Anki 共有単語帳の学び方</title>
       <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
-      <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
+      <pubDate>Sun, 14 Sep 2014 23:30:25 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -187,7 +187,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
@@ -295,7 +295,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
       <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
-      <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
+      <pubDate>Sun, 19 May 2013 20:00:04 +0900</pubDate>
       <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.</description>
       <content>&lt;p&gt;&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目&lt;/strong&gt;&lt;/p&gt;
@@ -533,7 +533,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
       <link>http://rs.luminousspice.com/browser-overview/</link>
-      <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
+      <pubDate>Fri, 10 May 2013 23:30:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/browser-overview/</guid>
       <description>Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると、計画的な学習が設計でき、きめ細かな学習設定しやすくなります。特にカードの検索条件は、他の機能でも共通に使用する基本情報です。How to use card browser and build search queries on Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -776,7 +776,7 @@ Ankiのブラウザーの使い方とデータ検索 (ブラウザー、検索�
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

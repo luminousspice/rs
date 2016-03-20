@@ -14,7 +14,7 @@
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
       <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
-      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
@@ -212,7 +212,7 @@
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
       <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
-      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
       <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -532,7 +532,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
       <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
-      <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
+      <pubDate>Mon, 03 Jun 2013 18:00:58 +0900</pubDate>
       <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。 An [&amp;hellip;]</description>
       <content>&lt;section id=&#34;wordpress_codexの英語_wordpress開発者のためのanki単語帳&#34;&gt;
@@ -784,7 +784,7 @@ WordPressプロジェクトに関わる全ての方々の努力で、素晴ら�
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
       <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
-      <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
+      <pubDate>Mon, 27 May 2013 00:30:32 +0900</pubDate>
       <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。MSDN Magazine バックナンバーのコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介します。GSL頻出2000語とAWLを理解した上で、作成したMSDN word listを学習すれば、使用語彙の98%をカバーできます。</description>
       <content>&lt;section id=&#34;ankiを使ってwindows開発者の必須語彙を習得しよう&#34;&gt;
@@ -1060,7 +1060,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

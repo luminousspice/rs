@@ -14,7 +14,7 @@
     <item>
       <title>Anki自動バックアップ機能の使い方</title>
       <link>http://rs.luminousspice.com/anki_automatic_backup/</link>
-      <pubDate>Fri, 05 Jul 2013 23:00:59 +0000</pubDate>
+      <pubDate>Fri, 05 Jul 2013 23:00:59 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
       <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</description>
       <content>&lt;section id=&#34;自動バックアップとは&#34;&gt;

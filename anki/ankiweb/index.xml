@@ -14,7 +14,7 @@
     <item>
       <title>Anki の基本知識をつぶやきます</title>
       <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
-      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -52,7 +52,7 @@
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
       <link>http://rs.luminousspice.com/how-to-use-profile/</link>
-      <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2014 17:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。How to use User Profile for Anki.</description>
       <content>&lt;p&gt;&lt;p&gt;Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。&lt;/p&gt;
@@ -252,7 +252,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
       <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
-      <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
+      <pubDate>Sun, 31 Aug 2014 22:00:26 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。How to sync data through AnkiWeb for Anki, AnkiMobile, AnkiDroid.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -451,7 +451,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
       <link>http://rs.luminousspice.com/anki-tips/</link>
-      <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
+      <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -766,7 +766,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
-      <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
+      <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

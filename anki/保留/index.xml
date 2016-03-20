@@ -14,7 +14,7 @@
     <item>
       <title>Anki 学習セッション中の予測とは異なる体感</title>
       <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
-      <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
+      <pubDate>Sun, 22 Feb 2015 23:50:12 +0900</pubDate>
       <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
       <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -113,7 +113,7 @@
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
       <link>http://rs.luminousspice.com/management_of_leeches/</link>
-      <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
+      <pubDate>Sat, 13 Jul 2013 23:45:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
       <description>無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
       <content>&lt;p&gt;&lt;h2 id=&#34;無駄なカード_leech_とは&#34; class=&#34;section&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;
@@ -209,7 +209,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
       <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
-      <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
+      <pubDate>Sat, 15 Jun 2013 22:30:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
       <description>いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

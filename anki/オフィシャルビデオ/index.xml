@@ -14,7 +14,7 @@
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
       <guid>http://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
       <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
@@ -113,7 +113,7 @@
     <item>
       <title>Ankiのノートタイプの選び方</title>
       <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
-      <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
+      <pubDate>Sun, 16 Jun 2013 10:00:37 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
       <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -229,7 +229,7 @@
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki209/</link>
-      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
@@ -337,7 +337,7 @@
     <item>
       <title>はじめてのAnki – まず使ってみる</title>
       <link>http://rs.luminousspice.com/how-to-anki/</link>
-      <pubDate>Fri, 12 Apr 2013 23:30:03 +0000</pubDate>
+      <pubDate>Fri, 12 Apr 2013 23:30:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-anki/</guid>
       <description>分散学習システム Anki を今すぐ使い始めるのに最低限必要な使い方を紹介します。最新版 Anki 2.0.33 に準拠しています。Ankiをダウンロードして、記憶するカードを作成し、学習してみましょう。画像や動画、音声を追加する方法、学習中に音声ファイルを再生する方法も取り上げています。Survival skill to learn with Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

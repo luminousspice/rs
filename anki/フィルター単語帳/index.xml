@@ -14,7 +14,7 @@
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
       <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
-      <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
+      <pubDate>Sat, 13 Sep 2014 21:30:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -500,7 +500,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
     <item>
       <title>ためた Anki 復習カードをスライスして消化</title>
       <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
-      <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
+      <pubDate>Sun, 07 Sep 2014 23:45:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
       <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。How to resolve your backlog of due cards.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -659,7 +659,7 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
     <item>
       <title>Anki2.0.13の注目すべき変更点</title>
       <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
-      <pubDate>Tue, 08 Oct 2013 00:30:08 +0000</pubDate>
+      <pubDate>Tue, 08 Oct 2013 00:30:08 +0900</pubDate>
       <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
       <description>Anki 2.0.13は、Anki2.0.9以来の大規模なアップデートです。最も重要な変更点は、同じノートから作成した関連カード同士の間隔設定の処理は、新たに書き直されて生まれ変わったことです。更に、更新した既存コンテンツを再度読み込む処理の改善、フィルター単語帳の出題方法の追加、重複検索の結果にタグを付加する機能の追加が行われました。</description>
       <content>&lt;section id=&#34;はじめに&#34;&gt;
@@ -799,7 +799,7 @@ Anki 2.0.12から再びincludegraphics命令が使えるようになりました
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
       <link>http://rs.luminousspice.com/management_of_leeches/</link>
-      <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
+      <pubDate>Sat, 13 Jul 2013 23:45:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
       <description>無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
       <content>&lt;p&gt;&lt;h2 id=&#34;無駄なカード_leech_とは&#34; class=&#34;section&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;
@@ -895,7 +895,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <item>
       <title>Ankiのノートを追加順に学習する方法</title>
       <link>http://rs.luminousspice.com/learn_in_original_sequence/</link>
-      <pubDate>Mon, 08 Jul 2013 00:00:15 +0000</pubDate>
+      <pubDate>Mon, 08 Jul 2013 00:00:15 +0900</pubDate>
       <guid>http://rs.luminousspice.com/learn_in_original_sequence/</guid>
       <description>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。Ankiの既定の機能は、ノート毎の解答履歴によって、復習間隔や順序を設定します。この機能を外して、学習する方法を紹介します。</description>
       <content>&lt;section id=&#34;順番に意味があるノートを学習する&#34;&gt;

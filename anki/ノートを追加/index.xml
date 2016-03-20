@@ -14,7 +14,7 @@
     <item>
       <title>Anki ショートカットキー</title>
       <link>http://rs.luminousspice.com/anki-shortcuts/</link>
-      <pubDate>Sat, 09 Jan 2016 11:20:37 +0000</pubDate>
+      <pubDate>Sat, 09 Jan 2016 11:20:37 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
       <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -575,7 +575,7 @@
     <item>
       <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
       <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
-      <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
+      <pubDate>Sun, 11 May 2014 04:00:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
       <description>Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;

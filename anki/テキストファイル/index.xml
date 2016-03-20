@@ -14,7 +14,7 @@
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
       <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
-      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
       <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -334,7 +334,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
     <item>
       <title>Anki単語帳を共有する方法</title>
       <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
-      <pubDate>Thu, 30 May 2013 00:30:22 +0000</pubDate>
+      <pubDate>Thu, 30 May 2013 00:30:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の最終回は、単語帳の共有方法について紹介します。Ankiは色々な出力機能で、ユーザー間のデータ共有を支援しています。自分の単語帳を友達と交換して、Ankiの楽しみを広げましょう。How to share your Anki decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -594,7 +594,7 @@ AnkiWeb にサインインします。
     <item>
       <title>Ankiにデータをまとめて取り込む</title>
       <link>http://rs.luminousspice.com/how-to-import/</link>
-      <pubDate>Sat, 20 Apr 2013 09:00:02 +0000</pubDate>
+      <pubDate>Sat, 20 Apr 2013 09:00:02 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-import/</guid>
       <description>今回はまとまったリストを暗記教材として登録する方法を紹介します。単語の一覧表をテキストデータ CSV に加工に、Ankiへ読み込む方法を紹介します。How to import CSV data into Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

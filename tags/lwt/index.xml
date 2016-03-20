@@ -14,7 +14,7 @@
     <item>
       <title>投稿記事目次</title>
       <link>http://rs.luminousspice.com/table-of-contents/</link>
-      <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
+      <pubDate>Mon, 07 Apr 2014 18:30:27 +0900</pubDate>
       <guid>http://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -348,7 +348,7 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
     <item>
       <title>はじめてのLWT データ出力</title>
       <link>http://rs.luminousspice.com/how_to_export_for_anki/</link>
-      <pubDate>Sun, 21 Jul 2013 06:00:01 +0000</pubDate>
+      <pubDate>Sun, 21 Jul 2013 06:00:01 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_export_for_anki/</guid>
       <description>今回は、LWTを使ってテキストから抽出したデータをAnkiに取り込む方法を紹介します。LWTを組み合わせると、頻出基本語彙の学習が終了して多読にシフトした進んだ語学学習者にも、Ankiの分散学習の特長が活用できるようになります。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -493,7 +493,7 @@ ALL # Terms: (# は絞り込んだ語句の数) から[Export All Terms (Flexibl
     <item>
       <title>はじめてのLWT 基本的な使い方</title>
       <link>http://rs.luminousspice.com/lwt_basics/</link>
-      <pubDate>Sat, 20 Jul 2013 23:00:39 +0000</pubDate>
+      <pubDate>Sat, 20 Jul 2013 23:00:39 +0900</pubDate>
       <guid>http://rs.luminousspice.com/lwt_basics/</guid>
       <description>今回は、LWTの基本的な使い方として、テキストを登録し、語句の分類をし、学習するまでの流れを紹介したいと思います。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -817,7 +817,7 @@ Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わら
     <item>
       <title>はじめてのLearning with Texts(LWT) インストール</title>
       <link>http://rs.luminousspice.com/how_to_lwt_install/</link>
-      <pubDate>Tue, 02 Jul 2013 19:00:21 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2013 19:00:21 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_lwt_install/</guid>
       <description>この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。まず最初にLWTのインストール方法を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

@@ -14,7 +14,7 @@
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
       <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
-      <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 23:15:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -100,7 +100,7 @@
     <item>
       <title>Anki の基本知識をつぶやきます</title>
       <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
-      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -138,7 +138,7 @@
     <item>
       <title>Anki アドオンガイド &amp;#8211; Anki をもっと使いやすくするアドオンたち</title>
       <link>http://rs.luminousspice.com/anki-addons-guide/</link>
-      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。共有アドオンの中から自分で使ってみて誰にでも役立つようなアドオンを紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -469,7 +469,7 @@ Anki を使っている PC のシステムを更新した時
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
       <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
-      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
       <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -789,7 +789,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
       <link>http://rs.luminousspice.com/anki-tips/</link>
-      <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
+      <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

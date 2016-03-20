@@ -14,7 +14,7 @@
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
       <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
-      <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
+      <pubDate>Tue, 15 Jul 2014 19:00:04 +0900</pubDate>
       <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
@@ -377,7 +377,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
       <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
-      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
@@ -575,7 +575,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

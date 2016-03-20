@@ -14,7 +14,7 @@
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
       <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
-      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
@@ -212,7 +212,7 @@
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
       <link>http://rs.luminousspice.com/cardtype/</link>
-      <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
+      <pubDate>Sat, 12 Oct 2013 23:30:56 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -379,7 +379,7 @@
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
       <guid>http://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
       <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
@@ -478,7 +478,7 @@
     <item>
       <title>Ankiのカード表示を編集する</title>
       <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
-      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;

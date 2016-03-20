@@ -14,7 +14,7 @@
     <item>
       <title>Anki 共有単語帳の学び方</title>
       <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
-      <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
+      <pubDate>Sun, 14 Sep 2014 23:30:25 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
@@ -187,7 +187,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
       <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
-      <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
+      <pubDate>Sun, 19 May 2013 20:00:04 +0900</pubDate>
       <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.</description>
       <content>&lt;p&gt;&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目&lt;/strong&gt;&lt;/p&gt;
@@ -425,7 +425,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
       <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
-      <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
+      <pubDate>Sat, 11 May 2013 20:00:43 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
