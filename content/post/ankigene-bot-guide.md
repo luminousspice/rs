@@ -17,7 +17,7 @@ excerpt: "ツイッターアカウント Ankigene (@Ankigene) は、Anki を使�
   </div>
 <p><a href="https://twitter.com/Ankigene">@Ankigene</a> のつぶやきの内容は、Anki の使い方、Anki Tips、Anki 用語、Anki ショートカット、Anki アドオンから構成しています。さらに詳しい情報へのリンクも含んでいます。
 つぶやきの頻度は、一日 4 回です。</p>
-<p><a href="/category/anki/how_to_anki2/">Anki の使い方</a>と<a href="/anki-tips/">Anki Tips</a>からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。</p>
+<p><a href="/how-to-anki/">Anki の使い方</a>と<a href="/anki-tips/">Anki Tips</a>からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。</p>
 <p><a href="/anki_glossary/">Anki 用語</a>は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。</p>
 <p><a href="/anki-shortcuts/">Anki ショートカット</a>は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。</p>
 <p><a href="/anki-addons-guide/">Anki アドオン</a>は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。</p>

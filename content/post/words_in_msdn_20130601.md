@@ -287,7 +287,7 @@ Kenny Kerr. <a href="http://msdn.microsoft.com/en-us/magazine/dn201741.aspx">"A 
 MSDN Magazineはこの目的に最適な専門誌です。
 もちろん開発者ブログもおすすめです。</p>
 <h2 id="未知語彙の学習単語帳" class="section">未知語彙の学習単語帳</h2>
-<p>この記事で紹介した最初の未知語13語は、Anki単語帳にしました。Ankiを使って学習することができます。<a href="/wp-content/uploads/words_in_msdn/wordsinmsdn.apkg">Anki単語帳パッケージ wordsinmsdn.apkg</a>をダウンロードしてお使いいただけます。</p>
+<p>この記事で紹介した最初の未知語13語は、Anki単語帳にしました。Ankiを使って学習することができます。<a href="/apkg/wordsinmsdn.apkg">Anki単語帳パッケージ wordsinmsdn.apkg</a>をダウンロードしてお使いいただけます。</p>
 <p>連載毎に単語帳のノートが追加できるような仕組みを作っていきたいです。</p>
 <p>この単語帳を使うにはAnkiのインストールが必要です。<a href="http://ankisrs.net/">Ankiサイト</a>から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。</p>
 <p>このAnkiの使い方全般については、<a href="/how-to-anki/">はじめてのAnki </a>をご覧ください。</p>

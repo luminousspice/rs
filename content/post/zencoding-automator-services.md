@@ -41,7 +41,7 @@ foreach (@tags) {
 <h2>完成品のワークフローファイルをそのままインストールする</h2>
 <p>完成品のworkflowファイルは、<a title="github" href="https://github.com/luminousspice/Zen-Coding-Services" target="_blank">githubからダウンロードできるようにしました</a>。</p>
 <p>このファイルを開くと、インストールのためのダイアログが表示されます。手作業でインストールするのであれば、~/Library/Services/ に置くと機能するようになります。</p>
-<img src="/images/zencofing-services-installer.png" alt="インストールダイアログ" />
+<img src="/images/zencoding-services-installer.png" alt="インストールダイアログ" />
 <strong>図 3. インストールダイアログ</strong>
 
 <h2>どこでも使えるよ</h2>

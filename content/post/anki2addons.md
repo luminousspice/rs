@@ -516,7 +516,7 @@ jp.py</pre>
 <hr />
 
 <h2>日本語版訳注</h2>
-<p>Anki 2 の変更点を知るには、<a href="/2013/02/changeinanki2/" target="_blank">Anki 2の変更点</a> が役立ちます。</p>
+<p>Anki 2 の変更点を知るには、<a href="/changeinanki2/" target="_blank">Anki 2の変更点</a> が役立ちます。</p>
 <p>更に、アプリケーションの個々の機能や処理を詳しく理解するには <a href="http://ankisrs.net/docs/manual.html" target="_blank">Anki User Manual</a> をご覧ください。</p>
 <p>アドオン開発の簡単なチュートリアルとして <a href="/how_to_create_anki_add-ons/">フックを使った Anki アドオンのつくり方</a>を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。</p>
 
