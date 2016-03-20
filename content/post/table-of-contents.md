@@ -275,7 +275,7 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 <a href="/frequent-words-in-msdn-magazine-in-10years/">MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</a>
 </li>
 <li>
-<a href="/words_in_msdn_20130601/">MSDNの英語[1</a> - "A Modern C++ Library for DirectX Programming" June 2013から]
+<a href="/words_in_msdn_20130601/">MSDNの英語[1]</a> - "A Modern C++ Library for DirectX Programming" June 2013から
 </li>
 </ul>
 </section>
