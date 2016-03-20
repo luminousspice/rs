@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>保留 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99/</link>
+    <description>保留 | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 22 Feb 2015 23:50:12 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki 学習セッション中の予測とは異なる体感</title>
+      <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
+      <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
+      <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AnkiMobile ユーザー向けの注意:&lt;/strong&gt; この投稿で紹介する設定項目は、iOS アプリ AnkiMobile では直接設定できませんが、PC 版 Anki で設定し AnkiWeb 経由で同期すると AnkiMobile に反映させることが出来ます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;学習セッションが体感と異なる長さになる&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;学習セッションが体感と異なる長さになる&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;学習に関する時間や時刻の設定が重複する場合に、予想とは異なるセッション時間を体感する場合があります。まずそれぞれの設定内容を確認していきましょう。&lt;/p&gt;
+&lt;h2 id=&#34;学習ステップ&#34;&gt;学習ステップ&lt;/h2&gt;
+&lt;p&gt;学習ステップは、単語帳毎に指定する項目です。
+新たに学習するカードの学習セッションでは、初回の表示で、正解であれば 1 分後と 10 分後に復習する学習ステップが初期値です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_8.png&#34; alt=&#34;新規カード&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 学習オプション 新規カード&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;復習セッションで思い出せなかった (忘却) カードは、[もう一回]ボタンを押して、再学習します。
+この場合の学習ステップの初期値は 10 分後です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 学習オプション 忘却&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面下の [オプション] ボタンを押して設定画面を開きます。&lt;/p&gt;
+&lt;h2 id=&#34;先取り学習&#34;&gt;先取り学習&lt;/h2&gt;
+&lt;p&gt;先取り学習とは、指定した時間 (分単位) 以内に期日の達するカードがあれば、学習セッションに追加する機能です。&lt;/p&gt;
+&lt;p&gt;この機能によって、学習セッションが断続した細切れの時間になることを防ぎます。初期値は 20 分です。&lt;/p&gt;
+&lt;p&gt;先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[先取り学習の限度] に時間を指定します。(図 3)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/preference.png&#34; alt=&#34;環境設定 基本&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 環境設定 基本&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;一日の開始時刻&#34;&gt;一日の開始時刻&lt;/h2&gt;
+&lt;p&gt;その日新たに期日に達するカードが発生する時刻を指定できます。
+夜型の人のための機能ですね。&lt;/p&gt;
+&lt;p&gt;先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[一日の開始] に時間を指定します。(図 3)&lt;/p&gt;
+&lt;h2 id=&#34;体感より早くセッションが終わる&#34;&gt;体感より早くセッションが終わる&lt;/h2&gt;
+&lt;p&gt;解答ボタンの上に表示する時間を確認しながら、学習セッションをしている時に、
+まだ後で学習すべきカードが残っているはずなのに突然終わってしまうことがあります。
+多くの場合は、先取り学習の設定が原因です。&lt;/p&gt;
+&lt;p&gt;この場合の注目すべき点は、新規カードや忘却の学習ステップの 10 分後と先取り学習の 20 分が重なっていることです。&lt;/p&gt;
+&lt;p&gt;何が起るかというと、本来 10 分後に学習すべきカードが先取り学習の範囲内にあるため 10 分待たずに出題されます。&lt;/p&gt;
+&lt;p&gt;10 分後のつもりでいたのに、学習セッションが終わってしまうことに戸惑うかもしれません。
+この機能によって、学習セッションが小出しにでてくる煩雑さが解放される利点もあります。また、統計情報を見ると期日に達したカードが計上されているのに出題されない状態を避けることが出来ます。&lt;/p&gt;
+&lt;p&gt;結局のところは、表示する情報から判断すると直感に反するようですが、実用的な理由から使いやすくなるように処理しているのです。&lt;/p&gt;
+&lt;p&gt;厳密に 10 分のインターバルを設定したい場合は、先取り学習の限度の設定を変更します。&lt;/p&gt;
+&lt;h2 id=&#34;体感よりセッションが長くなる&#34;&gt;体感よりセッションが長くなる&lt;/h2&gt;
+&lt;p&gt;一日の開始時刻と先取り学習の限度が重なっている場合に発生します。
+図 3 の例だと 03:40 以降に学習セッションを続けると翌日分のカードが加算されます。
+突然カードが増えて、いつもの倍以上のノルマをこなしたような体感がします。&lt;/p&gt;
+&lt;p&gt;このような問題を避けたい場合は、一日の開始時刻が近づいたら先の時刻に一時的に設定変更をします。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;無駄なカードの判定で学習中のカードが消える&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;無駄なカードの判定で学習中のカードが消える&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;初期値では 8 回忘却したカードは、保留扱いとなって復習カードから除外されます。
+学習セッションからも除かれます。&lt;/p&gt;
+&lt;p&gt;記憶に失敗しつづけるカードを出題し続けても、何も対策が取られなければ時間のムダなので、学習効率の面から行われている処理です。&lt;/p&gt;
+&lt;p&gt;設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面したの [オプション] ボタンを押して設定画面を開き、[忘却] タブを選択します。(図 4)&lt;/p&gt;
+&lt;p&gt;[無駄なカードになる回数]で判定回数を変更することが出来ます。[無駄なカードの処理]では、保留扱いの処理を解除することも出来ます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 学習オプション 忘却&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;無駄なカードについては、&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;で更に詳しく説明しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;延長処理で復習カードの枚数が減る&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;延長処理で復習カードの枚数が減る&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;同じノートから作った複数のカードを作った場合、同じセッション内に一枚出題すると残りのカードの答えが分かってしまうため、残りのカードは翌日まで出題を延長します。&lt;/p&gt;
+&lt;p&gt;この処理は、最初の一枚を出題した時に行われるため、あたかもセッション中復習カード枚数が減ったように感じられます。&lt;/p&gt;
+&lt;p&gt;設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面したの [オプション] ボタンを押して設定画面を開き、[復習] タブを選択します。
+[関連カードの復習を翌日まで延期する]の選択を外すとこの機能を無効に出来ます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_10.png&#34; alt=&#34;復習&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 学習オプション 復習&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;延期処理については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;で更に詳しく説明しています。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
+      <link>http://rs.luminousspice.com/management_of_leeches/</link>
+      <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
+      <description>無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
+      <content>&lt;p&gt;&lt;h2 id=&#34;無駄なカード_leech_とは&#34; class=&#34;section&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカードの詳細については、Anki日本語マニュアルの&lt;a href=&#34;http://wikiwiki.jp/rage2050/?2.0%2FLeeches&#34;&gt;無駄カード (Leeches)&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;問題は、既定の設定では、8回以上失敗し無駄なカードになると自動的に保留されてしまうことです。
+この仕組みを知らない方にとっては、繰り返し復習していたカードが、突然単語帳から消えて、行方不明になった感じるのではないかと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;実際には、単語帳にはそのまま残って、タグ &lt;code&gt;Leech&lt;/code&gt; が設定され保留状態になっています。このため、出題から除外されているのです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Ankiマニュアルでは、無駄なカードをそのままの形で学習し続けることは時間の浪費なので、次のように処理することを勧めています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+他の項目と記憶の干渉が置きている場合は片方の記憶が完全になるまで、もう一方を保留する。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+記憶する価値があるのか検討して、無駄であれば削除する。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+カードを編集して覚えやすくする。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;保留になった無駄なカードを戻すには&#34; class=&#34;section&#34;&gt;保留になった無駄なカードを戻すには&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Ankiユーザーの皆さんの色々な事情から、無駄と判定されても学習し続けたい場合もあると思います。
+次のような手順で通常の復習セッションにカードを戻すことができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;div class=&#34;title&#34;&gt;無駄なカードを保留から復帰する手順&lt;/div&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+Ankiのブラウザーを開き、サイドバーから[無駄]項目をクリックしてください。タグ &lt;code&gt;Leech&lt;/code&gt; が設定されているカード一覧が表示されます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+この中から保留を解除したいカードを選択して、ウィンドウ上部の[保留]ボタンを押します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;h2 id=&#34;無駄なカードの設定を変える&#34; class=&#34;section&#34;&gt;無駄なカードの設定を変える&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;毎回無駄なカードが発生するたびに、元に戻す作業を行うのは手間な作業です。
+単語帳のオプション設定を編集すると、この処理を変更して、タグ &lt;code&gt;Leech&lt;/code&gt; を設定するだけで、保留を行わないようにすることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;div class=&#34;title&#34;&gt;無駄なカードの処理をタグを追加するだけに変更する手順&lt;/div&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ウィンドウ下の[オプション]ボタンを押します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[忘却]タブをクリックします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[無駄なカードの処理]という項目のプルダウンメニューから[タグを付けるだけ]を選択します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[OK]ボタンを押す。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 単語帳のオプション設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;これで、無駄なカードに設定されても、学習を続けることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;無駄なカードを隔離して学習する方法&#34; class=&#34;section&#34;&gt;無駄なカードを隔離して学習する方法&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカードを保留したまま、通常の学習セッションと分離して学習することもできます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;フィルター単語帳を作成し、検索条件に　&lt;code&gt;tag:leech&lt;/code&gt; を設定します。
+出題方法で、[無作為]や[忘却回数の多い順]などが設定できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/leech_2.png&#34; alt=&#34;無駄なカードを学習するフィルター単語帳&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 無駄なカードを学習するフィルター単語帳&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;フィルター単語帳の詳しい使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
+      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <description>いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;学習セッションから特定のカードを除外する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;学習セッションから特定のカードを除外する&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiを使っていて、このカードだけ今の学習セッションから外したい場合ありませんでしたか。
+新規カードでどうしても覚えられないカードが発生して、1分毎の再表示になるのが煩わしい場合。学習中にカードの間違いに気づいて、後で再編集したい場合。あまりにやさしすぎる内容のカードで、削除するほどではないが別に取っておきたい場合などが考えられます。&lt;/p&gt;
+&lt;p&gt;そのような時に使えるAnkiのコマンドは、カードの右下のドロップダウンリスト[もっと]を押すと選択できます。
+この中から保留(Suspend)か延期(bury)、ノートかカード、どれを選べば良いか迷うところです。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_14.png&#34; alt=&#34;ドロップダウンリストの内容&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. ドロップダウンリストの内容&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;保留_suspend_と延期_bury_の違い&#34;&gt;保留(Suspend)と延期(bury)の違い&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;保留は解除するまで学習対象から除外になります。ブラウザー内で選択して解除するのが一番簡単です。
+延期は、Ankiを終了するまで学習から除外になります。再度Ankiを起動すると自動的にもとに戻ります。(注: Anki 2.0.12 まで)&lt;/p&gt;
+&lt;h2 id=&#34;新しい延期機能&#34;&gt;新しい延期機能&lt;/h2&gt;
+&lt;p&gt;最新版 Anki 2.0.21 では、延期は、翌日まで学習から除外されます。一日の始まりに設定した時刻に達すると自動解除になります。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+延期の手動で解除するには、単語帳の概要画面の下部にある [延期を解除] ボタンを押します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+関連カードの自動延期は、新規カード、復習カードともに単語帳オプションで無効にできます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モバイル機器版 Anki でも新しい延期機能が動作するようになります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ノートの保留とカードの保留の違い&#34;&gt;ノートの保留とカードの保留の違い&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;カードの保留は今表示しているカードだけを保留します。ノートの保留は、同じノートから生成したカード全てが保留になります。
+例えば、基本(裏面カード付き)ノートタイプを選択した時、一つのノートから表面カードと反転した裏面カードの2枚が自動生成します。いま表面カードを表示していて、[カードを保留]するとそのカード一枚が保留になります。[ノートを保留]すると、表示中の表面カードと裏面カードも一緒に保留になります。&lt;/p&gt;
+&lt;p&gt;保留したカードを解除するには、ブラウザーから保留中のカードを選択して[保留]ボタンを押します。
+ブラウザーの使い方を含めた詳しい方法は、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;そのまま、スルーして目印だけつけたいのなら、[星印をつける]を使うこともできます。
+カードを削除した場合、Anki2.0.9からはプロファイルディレクトリ内の &lt;code&gt;deleted.txt&lt;/code&gt; ファイルに削除したカードのフィールドの内容を保存するようになりました。これも知っておく良い知識だと思います。&lt;/p&gt;
+&lt;p&gt;途中で止めたくなる事情は様々ですが、ふさわしいAnkiの機能を選ぶと、もっとAnki学習が楽しくなると思います。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;参考_anki_2_0_13_以降の延期処理の変更点&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;参考: Anki 2.0.13 以降の延期処理の変更点&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki 2.0.13 で関連カードの処理に見直しが行われ、延期処理について大きな変更が加えられました。
+以後のバージョンでは調整が行われました。その主な項目を紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;anki_2_0_13_の変更点&#34;&gt;Anki 2.0.13 の変更点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+同期した時、Anki を再起動した時に、延期は自動的に解除になります。
+この自動解除のタイミングは、Android 版 AnkiDroid との互換性確保のために一時的に設定したものです。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳の概要画面右下にある [延期を解除] ボタンを押すと、延期が手動で解除できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳のオプション設定の新規カードタブから、新規の関連カードの自動延期を無効にできるようになりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;anki_2_0_15_の変更点&#34;&gt;Anki 2.0.15 の変更点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳のオプション設定の復習タブから、関連カードの復習の自動延期を無効にできるようになりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+延期したカードを &lt;code&gt;is:buried&lt;/code&gt; で検索できるようになりました。また、&lt;code&gt;is:suspend&lt;/code&gt; で検索しても延期したカードは表示しなくなりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;anki_2_0_21_の変更点&#34;&gt;Anki 2.0.21 の変更点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+延期の自動解除のタイミングが、一日の始まりに設定した時刻になりました。これが最終的なタイミングで、デスクトップ版 Anki と AnkiWeb 経由でモバイル機器版 Anki と同期するとモバイル機器にもその変更が反映されます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/06/15: 初出&lt;/p&gt;
+&lt;p&gt;2014/01/24: Anki 2.0.13 で導入した新しい延期機能について補足。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

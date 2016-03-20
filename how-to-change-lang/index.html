@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.'>
+<meta name="keywords" content="Anki, SQLite">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.'/>
+<meta property="og:title" content="Anki2の言語設定を変更する" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/how-to-change-lang/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-04-28T00:00:22Z"/>
+<meta property="article:modified_time" content="2013-04-28T00:00:22Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="SQLite">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Anki2の言語設定を変更する">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Anki2の言語設定を変更する | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/how-to-change-lang/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Anki2の言語設定を変更する</h1>
+  <span class="post-date">2013-04-28</span>
+  <section id="preamble">
+<p>Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。</p>
+</section>
+<section id="はじめに">
+  <div class="page-header">
+    <h2>はじめに</h2>
+  </div>
+<p>Anki2からインストール直後の初期設定でユーザーインターフェースの使用言語を選択した後、設定画面から言語設定を変更することができなくなりました。複数の言語を学習にAnkiの言語設定を切り替えながら使ってきたユーザーの方々は、この変更点にとまどっているのではないでしょうか。</p>
+<p>そこで、今回はインストール後にAnkiの言語設定を切り替える方法をまとめて紹介します。</p>
+</section>
+<section id="一時的に変更">
+  <div class="page-header">
+    <h2>一時的に変更</h2>
+  </div>
+<p></p>
+<p>Anki2からは<a target="_new" href="http://ankisrs.net/docs/manual.html#startup-options">Startup Options(起動オプション)</a>で言語設定を指定できるようになりました。</p>
+<pre>インターフェースの言語は"-l"オプションで指定できます。-l &lt;ISO言語名コード&gt;を指定して起動します。</pre>
+<p>例: Windowsで英語を指定して起動</p>
+<pre>"C:\Program Files\Anki\anki.exe" -l en</pre>
+<p>例: Mac OS Xで日本語を指定して起動</p>
+<pre>/Applications/Anki.app/Contents/MacOS/anki -l ja</pre>
+<p>実際には皆さんお使いのAnkiのインストール場所を指定してください。</p>
+<div class="alert alert-info alert-block">
+<table cellpadding="10">
+<tr>
+<td class="icon" nowrap>
+<div class="title">NOTE</div>
+</td>
+<td class="content">
+<div class="title">使用可能な言語</div>
+<p>Ankiマニュアルでは、"iso country code" と記述していますが、正しくは言語名コード(Language code)です。ISO 639に掲載している全ての言語で使用できるとはとても思えないので調べてみました。</p>
+<p>使用可能な言語は、Ankiのソースコード<a target="_new" href="https://github.com/dae/anki/blob/master/anki/lang.py">anki/lang.py</a>の先頭で定義しています。言語リソースの翻訳状況は様々ですがAnki2.0.8時点で、<strong>50言語</strong> サポートしています。これ以外の言語を指定した場合は英語で代用します。</p>
+</td>
+</tr>
+</table>
+</div>
+<p>コマンドプロンプトから毎回起動オプションを使うのは面倒な場合もあります。でどうするかというのがこの先の話題です。</p>
+<h3 id="windows_のショートカットを利用">Windows のショートカットを利用</h3>
+<ol>
+<li>
+<code>anki.exe</code> のショートカットを右クリックし、プロパティを選択
+</li>
+<li>
+ショートカットタブを選択
+</li>
+<li>
+リンク先項目の最後に起動オプションを追加する。例: <code>"C:\Program Files\Anki\anki.exe" -l en</code>
+</li>
+</ol>
+</section>
+<section id="初期設定し直す">
+  <div class="page-header">
+    <h2>初期設定し直す</h2>
+  </div>
+<p></p>
+<p>インストール直後の初期状態に戻して言語設定し直すというのが次のアプローチです。Ankiの初期設定ファイルを削除すれば良いのです。Ankiの再インストールでは、初期設定はそのまま残りますので、言語設定し直すことができません。</p>
+<p>Ankiは既定でドキュメントフォルダーの中に単語帳を保存するAnkiフォルダーを作成します。この中にある <code>prefs.db (Documents/Anki/prefs.db)</code> が初期設定ファイルです。Ankiを終了してから <code>prefs.db</code> を削除し、Ankiを起動すると言語設定し直すことができます。
+当然のことながら他の設定もなくなってしまいます。</p>
+<p>より安全に作業するには、Ankiを終了してから <code>prefs.db</code> を別のファイル名に変更します。元のファイルの名前を <code>prefs.db</code> に変更すればいつでも元の設定に戻すことができます。</p>
+<p>頻繁ではないにしても継続的に言語設定を切り替えるのであれば、あらかじめ言語別に <code>prefs.db</code> を保存しておいて使い分けるのも効率的な方法だと思います。</p>
+<p>Mac OS Xの場合の保存場所</p>
+<pre>[書類]&gt;[Anki] prefs.db (/Users/[ユーザー名]/Documents/Anki/prefs.db)</pre>
+<p>Windows7の場合の保存場所</p>
+<pre>[マイ ドキュメント]&gt;[Anki] prefs.db ("C:\Users\user name\Documents\Anki\prefs.db")</pre>
+<p>Windowsの場合バージョン毎にドキュメントフォルダーの位置が異なります。<a target="_new" href="http://windows.microsoft.com/ja-jp/windows7/where-are-my-files-and-folders-after-upgrading-from-windows-xp-or-windows-vista">Windows XP または Windows Vista からのアップグレード後のファイルおよびフォルダーの場所</a>の「Windows 7 で共通のフォルダーを見つける方法」を参考にしてください。</p>
+<h3 id="注意_ユーザープロフィールを複数使っている場合">注意: ユーザープロフィールを複数使っている場合</h3>
+<p>この方法を行うと、既定で作成するプロファイル"ユーザー 1"以外のプロファイルが消えてしまいます。ここで慌てないでください。再度、これまで使っていたプロファイル名でプロファイルを作成すると元に戻ります。プロファイル名を忘れてしまった方は、ドキュメントフォルダー内のAnkiフォルダーを見てください。プロファイル名がフォルダー名として残っています。</p>
+</section>
+<section id="設定ファイルを編集">
+  <div class="page-header">
+    <h2>設定ファイルを編集</h2>
+  </div>
+<p><code>prefs.db</code> はsqliteファイルです。開発経験が必要になりますが、sqliteファイルを書き換えることでも言語設定は変更できます。</p>
+</section>
+<section id="どう使い分けるか">
+  <div class="page-header">
+    <h2>どう使い分けるか</h2>
+  </div>
+<p>まず最も頻繁に使う言語にAnkiの言語設定をすることです。現在そうなっていないのなら、初期設定からし直すのがよいでしょう。その上で一時的に使う言語は起動プションで呼び出すのがおすすめの方法の方法です。</p>
+</section>
+<section id="更新情報">
+  <div class="page-header">
+    <h2>更新情報</h2>
+  </div>
+<p>2013/4/28: 初出</p>
+<p>2013/5/5: AnkiサポートサイトのKnowledge Baseの記事"<a target="_new" href="https://anki.tenderapp.com/kb/interface/changing-the-interface-language">Changing the interface language</a>"に基づいて、内容を更新しました。</p>
+<p>2014/09/28 再構成</p>
+</section>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

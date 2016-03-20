@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]'>
+<meta name="keywords" content="Anki, Anki 単語帳, CasualConc, Corpus, mac, msdn, msdn magazine, Python, コーパス">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]'/>
+<meta property="og:title" content="MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-06-07T22:30:38Z"/>
+<meta property="article:modified_time" content="2013-06-07T22:30:38Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="Anki 単語帳"><meta property="article:tag" content="CasualConc"><meta property="article:tag" content="Corpus"><meta property="article:tag" content="mac"><meta property="article:tag" content="msdn"><meta property="article:tag" content="msdn magazine"><meta property="article:tag" content="Python"><meta property="article:tag" content="コーパス">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</h1>
+  <span class="post-date">2013-06-07</span>
+  <section id="msdn_magazine過去10年分の頻出語彙からanki単語帳を作る">
+<p>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析します。前回作成したMSDN Word Listからの差分は102語になりました。</p>
+<div class="sidebarblock well">
+<div class="content">
+<p><a href="http://ankisrs.net/">Anki</a>とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。</p>
+</div></div>
+<h2 id="おことわり" class="section">おことわり</h2>
+<div class="sidebarblock well">
+<div class="content">
+<p>この記事は、楽しむことを目的とした内容で、学術的な厳密性を考慮していません。</p>
+<p>MSDNは、Microsoft Corporationの商標であり、
+MSDN Magazineは、1105 Media, Inc.の出版物です。</p>
+</div></div>
+<h2 id="使うもの" class="section">使うもの</h2>
+<div class="ulist"><ul>
+<li>
+<p>
+<a href="http://ankisrs.net/">Anki2</a>
+</p>
+</li>
+<li>
+<p>
+<a href="http://msdn.microsoft.com/en-us/magazine/default.aspx">MSDN Magazine</a> BackNumber 2003.01 - 2009.07
+</p>
+</li>
+<li>
+<p>
+コンコーダンサーソフト (この記事の作成には、<a href="https://sites.google.com/site/casualconcj/Home">CasualConc</a>を使いました。)
+</p>
+</li>
+<li>
+<p>
+表計算ソフト (この記事の作成には、<a href="http://ja.libreoffice.org/">LibreOffice Calc</a>を使いました。)
+</p>
+</li>
+</ul></div>
+<h2 id="はじめに" class="section">はじめに</h2>
+<p>以前の記事、<a href="http://rs.luminousspice.com/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
+コンコーダンサーソフトに読み込む作業の煩雑さから、CHM(Microsoft Compiled HTML Help)形式のファイルは対象としませんでした。</p>
+<p>今回は、CHMファイルをPDFに変換してコンコーダンサーに読み込む方法に挑戦します。</p>
+<p>2003年のバックナンバーを改めて読んでみました。.NET Framework 1.1とWindows XP SP2(Springboard)という現在のWindowsプラットフォームの基盤となる製品がリリースした頃です。ここまで遡ってコーパスデータを分析すれば、ほぼWindowsプラットフォームの技術文書に特有な語彙は網羅できるだろうと考えました。</p>
+<p>内容の面での代表性を考えるとSpringboardまで遡らないと不十分なのではと、気になっていました。</p>
+<p>CHMファイル数は79で、今回の拡張で前回の分析データから3倍に増加します。</p>
+<p>分析前の予想として、高頻度の語彙の使用がさらに集中して、使用語彙の98%に入る頻出語彙の種類は減るだろうというと考えています。実際に確認してみました。</p>
+<h2 id="chmファイルの変換" class="section">CHMファイルの変換</h2>
+<p>CHMファイルを分解して取り出す正統的な方法は<a href="http://msdn.microsoft.com/en-us/library/ms669985.aspx">Help Workshop</a>を使う方法です。この方法だと手作業の部分が非常に多くなるため二の足を踏んでいました。</p>
+<p>なにかCHMファイルをコンバートする上手い方法はないだろうかと探していたところ、pdfに変換してくれるアプリケーションが見つかりました。<a href="http://code.google.com/p/ichm/">iChm</a>というMac OS X上のCHMビューアーと<a href="http://code.google.com/p/chm2pdf/">chm2pdf</a>という変換用Pythonスクリプトです。</p>
+<p>心情的にはchm2pdfを使って、シェルスクリプトで一括処理したかったのですが、MSDN Magazineの1冊分のファイル容量では大きすぎて、chm2pdfはエラーをはきます。そこで残念ながら79個のファイルを手作業でiChmを使って、pdfに書き出しました。</p>
+<p>なお、chm2pdfのMac OS X上でのビルド方法について情報がインターネット上にほとんどなかったので、この記事の最後に補足として記録しておきます。</p>
+<h2 id="コンコーダンサーcasualconcへの読み込み" class="section">コンコーダンサーCasualConcへの読み込み</h2>
+<p>pdf化したバックナンバーをCasualConcで既存のコーパスデータベースに追加します。
+前回はデータベースの新規作成を行いましたが、今回はデータの追加なので作業手順が若干異なります。</p>
+<p>今回のデータを別のデータベースとして新規作成する方法もあります。手順は前回と同じです。
+この場合は、頻度表をカウントする時に複数のデータベースを指定する必要があります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/msdnwl1.png" alt="ファイルツール" width="600">
+</div>
+<div class="title">図 1. CasualConc ファイルツール画面</div>
+</div>
+<div class="title">コーパス作成手順 (図1)</div>
+<ol>
+<li>
+画面上[ファイル]タブをクリックしてファイルツールを表示する。
+</li>
+<li>
+右上画面下[追加]ボタンでコーパス化するファイルを選択する。
+</li>
+<li>
+左下画面下[追加リストから追加]ボタンを押すとコーパスが作成できます。
+</li>
+</ol>
+<p>ここで、登録済みのデータを重複して登録するかというダイアログが表示される場合があります。ディレクトリ内に以前作業したファイルが残っている場合などですが、[すべていいえ]を選択してください。</p>
+<p>その後の手順は、<a href="http://rs.luminousspice.com/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>の通りです。</p>
+<h2 id="10年分に対象を拡大した結果" class="section">10年分に対象を拡大した結果</h2>
+<p>頻度順に語彙を並べて、コーパス全体に占める割合を足していくと2754番目に98%に達します。登場回数は77が最小値です。
+そこから、一般的に高頻度な語彙(GSL+BNC2K)と学術的に高頻度な語彙を除き、MSDN Magazineに特有な頻出語彙662語を抽出しました。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/msdnwl10y1.png" alt="MSDN Magazine コーパスの内訳">
+</div>
+<div class="title">図 2. MSDN Magazine 過去10年分の使用語彙の内訳</div>
+</div>
+<p>さて、最初の予想はどうなったかというと、直近3年分の分析結果から180語が外れて、100語が追加になりました。</p>
+<p>10年のスパンで見ると頻出語句だけど、この3年では頻出語句からものは、gadget、cursor、virus、KB、LOB、fuzzy、RPC、enumeratorなどが含まれていて、時代を感じさせる言葉です。
+この3年で頻出語句に入ってきたものは、geographic、multicore、affiliate、gpu、ubiquitous、taxonomy、prototypeなどです。SEOなどのバズワードも入っています。</p>
+<p>技術の進歩や市場の関心の変化が反映していることが読み取れました。</p>
+<p>当初は、10年分の分析結果の語彙表を決定版として、3年分のデータを置き換えようと考えていました。
+多くのコーパス分析の対象は、過去に向いて文学作品など固定した文書ですが、今自分が扱っているのは生ものの文字情報なのだということに気づきました。</p>
+<p>未来に向けて、予言する訳ではないですが、これから出てくるであろう文書を読むための語彙を調べようという趣旨なので、直近3年分のデータを正本として、10年分のデータは補足資料として扱おうと方針転換しました。
+ほとんど無駄な努力だったかもです。この脱力感がたまらない。同時に直近3年分のデータからの結果に自信を持ちました。</p>
+<p>直近3年の頻出語句からもれた102語を補足データとして、<a href="http://ankisrs.net/">Anki</a>単語帳のパッケージデータにしました。Level3というタグを付加しています。</p>
+<h2 id="完成品のダウンロード" class="section">完成品のダウンロード</h2>
+<p>この記事で作成した差分の単語帳は、<a href="http://rs.luminousspice.com/apkg/msdnwl_adx.apkg">Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)</a>をダウンロードしてお使いいただけます。
+子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。</p>
+<p>全体の単語帳は、<a href="http://rs.luminousspice.com/apkg/msdnwl.apkg">Anki単語帳パッケージ msdnwl.apkg (80.6KB)</a>をダウンロードしてお使いいただけます。</p>
+<p>この単語帳を使うにはAnkiのインストールが必要です。<a href="http://ankisrs.net/">Ankiサイト</a>から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/msdnwl10y2.png" alt="完成品画面" width="400">
+</div>
+<div class="title">図 3. 完成品画面</div>
+</div>
+<p>このAnki単語帳の使い方については、<a href="http://rs.luminousspice.com/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>をご覧ください。</p>
+<h2 id="まとめ" class="section">まとめ</h2>
+<p>テキストデータをより広範に収集できれば、頻度表の品質を向上させることができます。
+その際には目的にかなった対象を選ぶことが大切です。</p>
+<p>当初の目論みから方針転換はしましたが、取得したデータの内容から、この分野の頻出語彙集の決定版だと思っています。</p>
+<p>個人としてできることは、あとはSDKのドキュメントなどからコーパスデータを作って個別製品の開発に特化したより分野の狭い専門語彙を見つけ出すことだと思います。
+全てのSDKドキュメントを集めて、合算して分析する発想もありますが、今回の結果と大きな差でないのではないかと思います。
+但し、全SDKドキュメントのコーパスの作成は、今回の様な頻出語彙を取り出すのではなくて、もっと広範で高度なコーパス分析には意義があると思います。</p>
+<p>頻度表を得るために作ったコーパスをKWIC分析やN-gram分析を掛けると、その語彙の語義だけでは分からない、MSDNのコンテキストの中での、その語彙の振る舞いが一覧にして理解できるようになります。この情報は語彙学習の面で極めて強力でだと思います。サンプルのソースコードも一緒に見ることができます。</p>
+<p>もし、自分でコーパスを作ってみた方は、ぜひ頻度表を作った後も、コーパスをメンテナンスして語彙学習に活用してみてください。楽しくなってくると思います。いつか機会があれば、そんな内容の記事が書けたら良いなと持っています。</p>
+<p>CasualConcは、PDF以外にも、HTML、XML、Web Archive、RTF、Microsoft Word、OASIS OpenDocument Textなどの直接的な読み込みをサポートしています。
+テキストファイルへの変換が面倒な場合でも、上記のいずれかのフォーマットに持ち込めれば、コーパスを簡単に作成できます。</p>
+<p>また、複数のコーパスデータベースを管理して、データベース間にまたがって分析することも簡単にできます。</p>
+<p>自分の目的にあったデータを見つけ出して、もっと自由にAnkiを楽しんでください。</p>
+<h2 id="補遺_chm2pdfのmac_os_xへのインストール方法" class="section">補遺 chm2pdfのMac OS Xへのインストール方法</h2>
+<p>Pythonスクリプト<a href="http://code.google.com/p/chm2pdf/">chm2pdf</a>の前提条件は次の3点です。</p>
+<div class="ulist"><ul>
+<li>
+<p>
+<a href="https://github.com/jedwing/CHMLib">chmlib</a>
+</p>
+</li>
+<li>
+<p>
+<a href="http://gnochm.sourceforge.net/pychm.html">pychm</a>
+</p>
+</li>
+<li>
+<p>
+htmldoc
+</p>
+</li>
+</ul></div>
+<p>htmldocは、<a href="http://brew.sh/">Homebrew</a>から入手できるので、chmlib、pychmのみ自力でインストールしました。
+Pythonはシステムに付属しているものではなく、<a href="https://github.com/utahta/pythonbrew">pythonbrew</a>からインストールしたPython 2.7.3を使いました。</p>
+<h3 id="chmlib">chmlib</h3>
+<p>Mac OS Xでのインストール方法が <code>INSTALL</code> ファイルに書かれています。
+更に、chm2pdfの <code>README</code> に書かれている通り、 Makefileを作る時に `./configure --enable-examples`オプションが必要です。MacPortから入手できるものはこのオプションがないそうです。</p>
+<h3 id="pychm">pychm</h3>
+<p>pychmは、`README`に書かれている方法でインストールし、シェルの環境変数を設定します。</p>
+<p>最後にchm2pdfの <code>README</code> に書いてある方法でインストールします。
+ターミナルから次のように入力して使います。
+<code>chm2pdf (--book / --webpage/) [options] input_filename [output_filename]</code></p>
+</section>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

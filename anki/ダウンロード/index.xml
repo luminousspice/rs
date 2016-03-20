@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ダウンロード on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/</link>
+    <description>ダウンロード | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 Sep 2013 18:00:18 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ankiのインストール</title>
+      <link>http://rs.luminousspice.com/install_anki/</link>
+      <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <description>最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。AnkiのデスクトップPC版(Mac, Windows, Linux/BSD)については、ダウンロードからインストールまでの手順を、Apple機器(ipod touch, ipad, iPhone)とAndroid(アンドロイド)機器、Chromebookについては、最新版Ankiのダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。Anki のデスクトップ PC 版 (OS X, Windows, Linux/BSD) については、ダウンロードからインストールまでの手順を、Apple 機器 (ipod touch, ipad, iPhone) とAndroid (アンドロイド) 機器、Chromebook については、最新版 Anki のダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_のダウンロードとインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki のダウンロードとインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、デスクトップ PC 版とモバイルデバイス版で機能に違いがあります。
+モバイルデバイス版は主に学習に特化した機能制限版です。
+また OS 毎にダウンロードファイルが異なり、入手先も異なります。
+デスクトップ PC 版は、&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki サイト&lt;/a&gt;からアプリケーションをローカルにダウンロードしてインストールします。
+モバイルデバイス版は、iOS 版 AnkiMobile は iTunes App Store、Android 版 Ankidroid は Google Play よりインストールします。
+この記事では、デスクトップ版のダウンロード先とインストール方法、モバイルデバイス版の入手先について紹介します。
+また、インストールの際に役立つ参考文書についても紹介します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+この記事の作成時のデスクトップ版の最新バージョンは、Anki 2.0.31 です。今後のアップグレードで、URLやファイル名が変更になる可能性があります。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップ版を AnkiWeb サーバーとデータを同期する場合は、Anki 2.0.24 以降が必須条件になりました。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;デスクトップpcの場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;デスクトップPCの場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;デスクトップ PC 版はダウンロードファイルは別々ですが、一つのプロジェクトとして開発していて OS は違ってもドキュメントは共通です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.luminousspice.com/2013/02/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
+&lt;/li&gt;
+&lt;li&gt;
+前回の記事、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;では Anki の環境設定の初期化、クリーンインストールする際の注意点をまとめています。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/download/mirror/&#34;&gt;最新版以外のアプリケーションを含むアーカイブ&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;os_x_へインストール&#34;&gt;OS X へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+起動中の Anki があれば終了します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Mac]ボタンを押し、&lt;code&gt;anki-2.0.31.dmg&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+ダウンロードした dmg ファイルを開き、Anki ファイルをアプリケーションフォルダーかデスクトップにドラッグしてコピーします。
+&lt;/li&gt;
+&lt;li&gt;
+コピーしたファイルを開くと Anki は起動します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+OS X 版 Anki をお使いになるには、OS X 10.7 以降の Intel Mac が必要です。
+&lt;/li&gt;
+&lt;li&gt;
+OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate Version) を用意しています。&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;の[Alternate Version]というリンクをクリックして入手できます。ダウンロードファイルは &lt;code&gt;anki-2.0.31.qt47.dmg&lt;/code&gt; です。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;windows_へインストール&#34;&gt;Windows へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#windows&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Windows]ボタンを押し、&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダブルクリックしてインストーラーを実行します。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップ上の Anki のショートカットアイコンをダブルクリックすると、Anki は起動します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ubuntu_debian_へインストール&#34;&gt;Ubuntu/Debian へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Ubuntu/Debian]ボタンを押し、&lt;code&gt;anki-2.0.31.deb&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+お使いになっているシステムのパッケージマネージャーを使ってダウンロードした deb ファイルをインストールします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki サイトで提供しているバージョンに比べて、Ubuntu/Debian の正式リポジトリに含まれている配布パッケージのバージョンは古いため、Anki サイトから直接アプリケーションを入手することをお勧めします。&lt;/p&gt;
+&lt;h2 id=&#34;fedora_へインストール&#34;&gt;Fedora へインストール&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo yum install anki&lt;/code&gt; を実行するだけでインストールできます。&lt;/p&gt;
+&lt;h2 id=&#34;その他の_linux_bsd_システムへインストール&#34;&gt;その他の Linux/BSD システムへインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki Source]ボタンを押し、&lt;code&gt;anki-2.0.31.tgz&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+ダウンロードした tarball(tgz) を解凍し、&lt;code&gt;README&lt;/code&gt; ファイルに記載している指示に従ってインストールします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;モバイルデバイスの場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;モバイルデバイスの場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;モバイルデバイス版のアプリケーションは iOS と Android でそれぞれ別々のプロジェクトで開発しています。
+名称も、iOS 版は AnkiMobile、Android 版は AnkiDroid といったデスクトップ版とは違った名称を使っています。
+必ずしも PC 版と同じ機能が使える訳ではありません。また、バージョン番号も一致していません。
+ドキュメントもそれぞれ独自に作成しており、デスクトップ PC 版のドキュメントがそのまま使える訳ではないことに注意してください。&lt;/p&gt;
+&lt;h2 id=&#34;ios_端末_ipod_touch_ipad_iphone_へ_ankimobile_をインストール&#34;&gt;iOS 端末 (iPod Touch, iPad, iPhone) へ AnkiMobile をインストール&lt;/h2&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile は有料アプリケーションです。
+このアプリケーションを購入すると、将来のAnkiの開発を支援することができます。&lt;/p&gt;
+&lt;p&gt;AnkiMobile は、&lt;a target=&#34;new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;iTunes App Store&lt;/a&gt; から購入できます。&lt;/p&gt;
+&lt;p&gt;どうしても無償のアプリケーションを使いたい場合は、&lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; が利用できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/docs/am-upgrade.html&#34;&gt;AnkiMobile2へのアップグレード&lt;/a&gt; (英文)
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;android_端末へ_ankidroid_をインストール&#34;&gt;Android 端末へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;p&gt;AnkiDroid (アンキドロイド) は、Anki の開発者 Damien Elmes とは別のグループが独自に開発している無償のアプリケーションです。&lt;/p&gt;
+&lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://play.google.com/store/apps/details?id=com.ichi2.anki&#34;&gt;Google Play&lt;/a&gt;から入手できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;https://ankidroid.org/docs/manual-ja.html&#34;&gt;AnkiDroid 2 取扱説明書&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://code.google.com/p/ankidroid/wiki/Upgrading?wl=ja&#34;&gt;AnkiDroid 2.0へのアップグレード方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chromebook_へ_ankidroid_をインストール&#34;&gt;Chromebook へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;p&gt;AnkiDroid 2.4 以降で Chromebook がサポートされています。&lt;/p&gt;
+&lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://chrome.google.com/webstore/detail/ankidroid/ckmbkodkbmkmdjdimeiddeljndcneifo&#34;&gt;Chrome ウェブストア&lt;/a&gt;から入手できます。&lt;/p&gt;
+&lt;h2 id=&#34;その他の端末&#34;&gt;その他の端末&lt;/h2&gt;
+&lt;p&gt;その他の端末には専用のクライアントソフトはありませんが &lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;が利用できます。
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#other&#34;&gt;Ankiサイト&lt;/a&gt;の　Download Anki 項目の Other タブの内容をご覧ください。
+このページでは、携帯電話、Blackberry 端末、Maemo、Windows Phone/Windows Mobile/Windows RT、ニンテンドーDS、Sony PSP、Palm端末の情報を掲載しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Knowledge Base &lt;a target=&#34;new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/windows-phone-windows-rt&#34;&gt;Windows Phone &amp;amp; Windows RT&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_のアンインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki のアンインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のアンインストールをするには、Anki のアプリケーション本体と Anki フォルダー &lt;code&gt;Documents/Anki/&lt;/code&gt; を削除します。
+Anki フォルダーに含まれている単語帳、学習履歴、ユーザープロファイル、バックアップファイルも削除されます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;さっそく_anki_を使ってみよう&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;さっそく Anki を使ってみよう&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;インストールしてどこから手をつけたら良いか分からない方には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;をお勧めします。デスクトップPC版を例にして、Ankiの使い方の基本的な流れが体験できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/09/29: 初出&lt;/p&gt;
+&lt;p&gt;2014/04/13: Anki 2.0.24 からの提供ファイルの変更に対応&lt;/p&gt;
+&lt;p&gt;2014/04/24: Anki 2.0.26 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2014/09/22: Anki 2.0.29 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2015/01/15: AnkiDroid 日本語マニュアル、Anki 2.0.31 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2015/01/29: AnkiDroid の Chromebook サポートへの対応&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

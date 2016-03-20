@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>開発 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/</link>
+    <description>開発 | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>iPhone 版 Anki でテキストを読み上げるには</title>
+      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; 
+とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone などの iOS 機器は、システム自体は音声認識や音声合成などの豊富なアクセシビリティ機能を持っています。iOS 版の Anki からアプリの標準設定では直接呼び出すことが出来ませんので、テキストから音声合成する、読み上げる方法を紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;次の 2 通りの方法を紹介します。テキストを読み上げる用途に適したものをお使いください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+選択項目を読み上げ機能の利用
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み上げ機能を持つカードテンプレートの作成
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile の最低限な使用方法を理解していることを前提として説明します。
+文中にもし不明な項目が出てきたら &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_選択項目を読み上げ&#34;&gt;選択項目を読み上げ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードの好きな場所を選択して、読み上げる方法を紹介します。読み上げるタイミングも自分で決めることが出来ます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;選択項目を読み上げ (Speak Selection) は、iPhoneの設定項目を一か所変更するだけですぐ利用できるようになります。
+呼び出す手順は、一見複雑そうに思うかもしれませんが、使ってみると意外に簡単です。
+自分ではこちらの方法を通常使っています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_設定の手順&#34;&gt;設定の手順&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+[設定]-[一般]-[アクセシビリティ]-[選択項目の読み上げ]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[選択項目の読み上げ] 項目を [オン] (1) にします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/setting-selectionspeech.png&#34; alt=&#34;setting-selectionspeech.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 選択項目を読み上げ設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_設定の調整&#34;&gt;設定の調整&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+[声] (2) の項目をタップして表示する設定する言語選択できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[読み上げ速度] (3) のスライダーで設定を変更すると、読み上げ速度のプレビューを聴くことが出来ます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_音声の詳細設定&#34;&gt;音声の詳細設定&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[声] (2) で表示した言語の一覧から、言語をタップして指定すると言語別に音声の種類(a)、品質(b)、読み上げ速度(c) を設定できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/setting-voice.png&#34; alt=&#34;setting-voice.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 声の詳細設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_iphoneで読み上げ可能な言語&#34;&gt;iPhoneで読み上げ可能な言語&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、音声は次の 26 言語に対応しています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;日本語、アラビア語、イタリア語、インドネシア語、オランダ語、ギリシャ語、スウェーデン語、スペイン語、スロバキア語、タイ語、チェコ語、デンマーク語、ドイツ語、トルコ語、ノルウェー語[ブークモール]、ハンガリー語、ヒンディー語、フィンランド語、フランス語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、英語、韓国語、中国語&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_テキストを読み上げる方法&#34;&gt;テキストを読み上げる方法&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み上げたいテキストをダブルタップして、選択項目を指定します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[Speak]をタップします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 選択範囲を指定して読み上げる&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ノートを読み上げるカードテンプレートの作り方&#34;&gt;ノートを読み上げるカードテンプレートの作り方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile でカードを表示した時に自動的にテキストを読み上げる方法を紹介しましょう。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki の作者は Anki のサポートサイトの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile/890-req-text-to-speech-in-ankimobile-for-ios7&#34;&gt;Req: Text to speech in AnkiMobile for ios7..&lt;/a&gt; の中でノートを読み上げるカードテンプレートの作り方を紹介しています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この方法は、テキスト読み上げ機能を呼び出す JavaScript をカードテンプレートに導入する方法です。テキストの読み上げには &lt;a target=&#34;_new&#34; href=&#34;https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html&#34;&gt;Web Speech API&lt;/a&gt; という Web 標準を使います。
+なお、AnkiMobile ではカートテンプレートの編集できませんので、PC 版 Anki で編集します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードの表面に配置した &lt;span class=&#34;monospaced&#34;&gt;Front&lt;/span&gt; フィールドを読み上げるには、表面のテンプレートを次のように設定します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Front フィールドを読み上げる設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;word&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;{{Front}}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getElementById&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;word&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;speak(w.innerHTML)&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;500&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;speak&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;SpeechSynthesisUtterance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;volume&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 音量: 0 to 1 (1)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 速度: 0.1 to 9 (2)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pitch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ピッチ: 0 to 2, 1=normal (3)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lang&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;en-US&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 言語: アメリカ英語、日本語なら ja-JP (4)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speechSynthesis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cancel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speechSynthesis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;speak&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声の読み上げ速度(1)、音量(2)、ピッチ(3)、言語(4)を指定することが出来ます。
+カードテンプレートの編集方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_anki_と_ankimobile_を同期している場合&#34;&gt;Anki と AnkiMobile を同期している場合&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;読み込み機能を使いたいカードのカードテンプレートに上の設定を追加し、AnkiMobile と同期します。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ankimobile_単独で利用している場合&#34;&gt;AnkiMobile 単独で利用している場合&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;新規のノートのみに読み上げ機能を設定できます。
+このカードテンプレートを含んだ共有単語帳を使います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+共有単語帳 &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/810249417&#34;&gt;Speech Text template for iOS (AnkiMobile)&lt;/a&gt;を ダウンロードします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ダウンロードファイルを AnkiMobile で開くと、読み込み機能を持つノートタイプ (Note Type) を導入できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ノート追加画面の [Type] 項目でノートタイプ指定します。アメリカ英語を読み上げる場合は [Basic (iOS Speech en-US;アメリカ英語)]へ変更します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-note.png&#34; alt=&#34;add-note.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. ノート追加画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;共有単語帳のインストール手順やノートの追加方法は &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;をご覧下さい。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声データをカードに使いたい方は、&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone のシステム iOS 自体は音声に関する豊富な機能を持っています。AnkiMobile から呼び出す方法さえ理解すれば、Anki の学習を妨げることなく簡単に呼び出すことが出来るようになります。
+テキストの読み上げ機能をどのように使うか、その用途によって紹介した 2 つの方法を使い分けて頂ければと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2014/06/21: 初出&lt;br&gt;2015/11/20: 共有単語帳リンク先変更&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>投稿記事目次</title>
+      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <description>このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_公式文書_日本語訳&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Anki 公式文書 日本語訳&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;マニュアルを補足する文書の日本語訳。バージョン間での機能の違いを調べたりや機能を独自にカスタマイズしたり拡張したりするのに役立ちます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成 日本語訳&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_連載チュートリアル&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Anki 連載チュートリアル&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiを使って学習するのに必要最低限の内容を頻度と習熟度を基準にすぐ役立つなものからまとめました。
+理解するより、まず使ってみてなれてもらえればと思っています。
+Anki 2 はベータ版から2年近く毎日使っていますが、この連載の範囲を超える機能はほとんど使ったことがありません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;
+知りたい機能や使い方を紹介している記事へ誘導する索引です。簡単な逆引き辞典です。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;
+Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips - 知っておくとお得な機能たち&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオンガイド – Anki をもっと使いやすくするアドオンたち&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザーのための Anki 共有単語帳リスト&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/sample-decks/&#34;&gt;Anki 単語帳サンプル一覧&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/ems-mnemonics/&#34;&gt;Anki 単語帳: 救急診療に役立つ暗記メモ集&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/ankigene-bot-guide/&#34;&gt;Anki の基本知識をつぶやきます&lt;/a&gt;
+ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、機能拡張するアドオンの説明を取り上げます。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki活用の手引き&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Anki活用の手引き&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;前の連載の内容に比べると、利用頻度はそれほど高くありませんが、知っておくと断然Ankiの利用価値が高まる機能や使い方についてまとめました。&lt;/p&gt;
+&lt;h3 id=&#34;anki_の設定とメンテナンス&#34;&gt;Anki の設定とメンテナンス&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;Anki自動バックアップ機能の使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/restore_corrupt_data/&#34;&gt;破損したAnkiデータの修復&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9の注目すべき変更点&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-timebox-time-limit/&#34;&gt;時間制限して Anki 学習するタイムボックス機能&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/study-session-with-the-unexpected/&#34;&gt;Anki 学習セッション中の予測とは異なる体感&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;anki_の学習方法&#34;&gt;Anki の学習方法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/suitable-deck/&#34;&gt;おすすめ Anki 単語帳について&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-restore-guide/&#34;&gt;転んでもタダでは起きない Anki 再履修の手引き&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/learn-with-anki/&#34;&gt;暗記に強くなるために Anki から上手くサポートを得るには&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;anki_の教材作成&#34;&gt;Anki の教材作成&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/hint_field/&#34;&gt;Ankiのカードにヒントを付ける方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cardtype/&#34;&gt;Ankiのカードタイプと出題方法の増やし方&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;メディアファイルとの連携&#34;&gt;メディアファイルとの連携&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;anki_アドオンの作成&#34;&gt;Anki アドオンの作成&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ios_ユーザ向け_anki_アプリガイダンス&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;iOS ユーザ向け Anki アプリガイダンス&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;iPhone、iPad、iPod touch ユーザのために Anki の iOS アプリ AnkiMobile Flashcards のスマホの特性を活用した使い方を紹介します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-study-options/&#34;&gt;AnkiMobile の学習オプションを最適化する&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;熟練ユーザー限定_anki_の使いこなし方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;熟練ユーザー限定 Anki の使いこなし方&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;連載: Art of Anki では、Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;最新_anki_情報源&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;最新 Anki 情報源&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/ankigene&#34;&gt;Ankigene&lt;/a&gt; では、ネット上に流通する多くの情報の中から、Anki ユーザーの意欲を活性化するユニークな話題を厳選し、要約して紹介します。(目下、不定期リリース)&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;コーパス分析による語彙学習と_anki_の活用法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;コーパス分析による語彙学習と Anki の活用法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;特定分野の専門文書に高頻度に出現する語彙をデータベースから抽出して、効果的に語彙学習する方法を紹介しています。
+基本語彙を習得した後に、自分の専門分野に特化した語彙学習の方法をAnkiを使って説明しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/words_in_msdn_20130601/&#34;&gt;MSDNの英語[1&lt;/a&gt; - &#34;A Modern C++ Library for DirectX Programming&#34; June 2013から]
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;learning_with_texts_lwt_を使ったテキスト購読による語彙学習とanki活用法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Learning with Texts(LWT) を使ったテキスト購読による語彙学習とAnki活用法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;実際のテキスト購読を進めながら、学習語彙を抽出し Anki と連携する方法について紹介しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how_to_lwt_install/&#34;&gt;はじめてのLearning with Texts(LWT) インストール&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/lwt_basics/&#34;&gt;はじめてのLWT 基本的な使い方&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how_to_export_for_anki/&#34;&gt;はじめてのLWT データ出力&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;その他の話題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;その他の話題&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;本来書くつもりだった普通の個人的なブログの話題です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/zen-coding-with-mi/&#34;&gt;ZenCoding with mi&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/zencoding-automator-services/&#34;&gt;Zencoding Automator Services&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/japanese-free-programming-books/&#34;&gt;日本語で読める Free Programming Books&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/pelican_with_asciidoc/&#34;&gt;静的サイトジェネレータ Pelican で AsciiDoc を使う方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/&#34;&gt;Mac OS X に IPython Notebook をインストールする場合の注意点&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/04/07: 初出&lt;/p&gt;
+&lt;p&gt;2014/07/15: AnkiMoble についての項目追加&lt;/p&gt;
+&lt;p&gt;2014/09/01: AnkiWeb についての項目追加&lt;/p&gt;
+&lt;p&gt;2014/09/08: 学習方法についての項目追加&lt;/p&gt;
+&lt;p&gt;2014/09/24: 再構成&lt;/p&gt;
+&lt;p&gt;2015/01/24: 記事追加&lt;/p&gt;
+&lt;p&gt;2016/01/03: メディアファイルとの連携について項目追加&lt;/p&gt;
+&lt;p&gt;2016/01/09: Anki ショートカットキーについて項目追加&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>フックを使った Anki アドオンのつくり方</title>
+      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
+      <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
+      <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることができます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことができます。この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「Anki 2.0 アドオンの作成」を補足する内容です。&lt;/p&gt;
+&lt;p&gt;この記事は、АnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/1299246957&#34; target=&#34;_new&#34;&gt;Mature Tag&lt;/a&gt;を例にとって、解説します。
+完成品をインストールして動作させることができますし、ソースコードを見ることもできます。最後に作成したアドオンを AnkiWeb の共有アドオン一覧に登録する方法を紹介します。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;p&gt;また、ソースコードの表示方法は、インストールが完了した後、メニューバーの[ツール]-[アドオン]-[Mature_Tag]-[編集&amp;#8230;]を選択してください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;前提知識&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;前提知識&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;この記事の内容を理解するには、次の知識が必要です。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Anki の操作方法
+特に、Anki というアプリケーションの機能を十分理解した上での操作方法の習熟は必須です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Python による開発経験
+他の開発言語の経験でも構いませんが、自分で資料を読み Python の開発方法を学べる能力は必要です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
+本文中のサンプルコードを実際に動かしてアドオンを作成する経験があると理解に役立ちます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;この記事の最後に &lt;a href=&#34;#review&#34;&gt;Anki アドオン開発のおさらい&lt;/a&gt; という項目を設けて、必要な知識をまとめています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;つくるアドオンの要件&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;つくるアドオンの要件&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;まず最初にアドオンの要件を決めておきます。&lt;/p&gt;
+&lt;p&gt;「復習が終わったら、新たに設定した復習間隔を調べ、熟知なら &#34;Mature&#34; というタグをノートに追加し、それ以外なら  &#34;Mature&#34; を削除します。」&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;モジュールのインポート&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;モジュールのインポート&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;最初に必要なモジュールをインポートします。
+Anki の復習で解答した時の処理は &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34; target=&#34;_new&#34;&gt;sched.py&lt;/a&gt; の中のクラス &lt;code&gt;Scheduler&lt;/code&gt; のメソッド &lt;code&gt;answerCard&lt;/code&gt; で記述しています。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;from&lt;/strong&gt; anki.sched &lt;strong&gt;import&lt;/strong&gt; Scheduler&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;残念ながら復習に関する処理の中にフック (Hook) は存在しません。そこで独自のフックをこのメソッドの最後に追加します。
+フックの設置、呼び出しに必要なモジュールをインポートします。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;from&lt;/strong&gt; anki.hooks &lt;strong&gt;import&lt;/strong&gt; addHook, runHook, wrap&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;もちろん &lt;code&gt;answerCard&lt;/code&gt; を書き換えることもできますが、今回の様な条件では独自フックの設置したほうが簡単に記述できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;復習の解答後に処理するフックを設置する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;復習の解答後に処理するフックを設置する&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;まず、独自のフック &#34;anseweredRevCard&#34; を追加する関数 &lt;code&gt;newAnswerCard()&lt;/code&gt; を定義します。
+runHook() はフックを新たに設置する標準の関数です。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;def&lt;/strong&gt; newAnswerCard(self, card, ease):
+    runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;次に標準の &lt;code&gt;wrap()&lt;/code&gt; 関数を使って、&lt;code&gt;answerCard&lt;/code&gt; の後に &lt;code&gt;newAnswerCard&lt;/code&gt; の内容を追加する処理を記述します。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;すると &lt;code&gt;answerCard&lt;/code&gt; の最後に次の行が追加されます。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;これで、復習で解凍した後に処理を呼び出すフックを設置できました。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;タグを追加_削除する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;タグを追加、削除する&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;復習が終わったら、復習間隔を調べ 21 日以上であったら、&#34;Mature&#34; タグを追加し、それ以外の場合は削除する関数　&lt;code&gt;matureCheck()&lt;/code&gt; を定義します。
+熟知の基準日数は変数 &lt;code&gt;threshold&lt;/code&gt; に、設定するタグ文字列は変数 &lt;code&gt;MatureTag&lt;/code&gt; に設定しました。
+タグをノートに追加するには &lt;code&gt;Note&lt;/code&gt; クラスのメソッド &lt;code&gt;addTag()&lt;/code&gt; を、削除するには &lt;code&gt;delTag()&lt;/code&gt; を使います。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;i&gt;# Threshold interval for tagging&lt;/i&gt;
+threshold = 21
+&lt;i&gt;# Tag string for mature note&lt;/i&gt;
+MatureTag = u&#34;Mature&#34;
+
+&lt;strong&gt;def&lt;/strong&gt; matureCheck(self, card):
+    f = card.note()
+    &lt;strong&gt;if&lt;/strong&gt; (card.ivl &amp;gt;= threshold):
+        f.addTag(MatureTag)
+    &lt;strong&gt;else&lt;/strong&gt;:
+        f.delTag(MatureTag)
+    f.flush()
+    &lt;strong&gt;return&lt;/strong&gt; True&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;最後に &lt;code&gt;addHook()&lt;/code&gt; 関数を使って上で作成したカスタムフック &#34;anseweredRevCard&#34;　で &lt;code&gt;matureCheck()&lt;/code&gt; 関数を呼び出す設定をします。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;これで、完成です。完成品は次の通りです。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;from&lt;/strong&gt; anki.hooks &lt;strong&gt;import&lt;/strong&gt; addHook, runHook, wrap
+&lt;strong&gt;from&lt;/strong&gt; anki.sched &lt;strong&gt;import&lt;/strong&gt; Scheduler
+
+&lt;i&gt;# Threshold interval for tagging&lt;/i&gt;
+threshold = 21
+&lt;i&gt;# Tag string for mature note&lt;/i&gt;
+MatureTag = u&#34;Mature&#34;
+
+&lt;strong&gt;def&lt;/strong&gt; matureCheck(self, card):
+    f = card.note()
+    &lt;strong&gt;if&lt;/strong&gt; (card.ivl &amp;gt;= threshold):
+        f.addTag(MatureTag)
+    &lt;strong&gt;else&lt;/strong&gt;:
+        f.delTag(MatureTag)
+    f.flush()
+    &lt;strong&gt;return&lt;/strong&gt; True
+
+&lt;strong&gt;def&lt;/strong&gt; newAnswerCard(self, card, ease):
+    runHook(&#39;anseweredRevCard&#39;, self, card)
+
+Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
+
+addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;もっとかんたんに書く&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;もっとかんたんに書く&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;実は、フックを設置せずに記述を簡略化できます。メソッドを上書きする方法です。
+&lt;code&gt;wrap()&lt;/code&gt; 関数で直接 &lt;code&gt;matureCheck&lt;/code&gt; を指定します。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;- &lt;strong&gt;def&lt;/strong&gt; newAnswerCard(self, card, ease):
+-    runHook(&#39;anseweredRevCard&#39;, self, card)
+
+- Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
++ Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)
+
+- addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;この場合は、フックを使わないので、他の関数も追加で呼び出すような追加拡張はできません。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ファイルの配置&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;ファイルの配置&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;完成したファイル Mature_Tag.py を動作させるには、&lt;code&gt;Documents/Anki/addons&lt;/code&gt; フォルダの中に保存します。Anki を再起動すると、この Python スクリプトファイルを読み込みます。&lt;/p&gt;
+&lt;p&gt;アドオンが読み込まれるとメニューバーに [ツール]-[アドオン]-[Mature_Tag] という項目が追加されます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiweb_の共有アドオン一覧に登録する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;AnkiWeb の共有アドオン一覧に登録する&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;作成したアドオンを AnkiWeb に公開して、アドオン一覧に登録する方法を紹介します。
+まず、&lt;a href=&#34;https://ankiweb.net/shared/addons/&#34; target=&#34;_new&#34;&gt;共有アドオン一覧&lt;/a&gt;を開き、AnkiWeb にサインインします。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_1.png&#34; alt=&#34;アドオン一覧&#34; width=&#34;60%&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 共有アドオン一覧&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;登録フォームは画面右上の [Upload Add-on] ボタンをクリックすると表示します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_2.png&#34; alt=&#34;登録フォーム&#34; width=&#34;60%&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. アドオン登録フォーム&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;このフォームでは次のように項目入力します。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;Title:&lt;/strong&gt; アドオンの名前を入力します。アドオン一覧に表示する名前にになります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;File:&lt;/strong&gt; 登録したいアドオンの Python スクリプトを選択します。今回の例では &lt;code&gt;Mature_Tag.py&lt;/code&gt; です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;Description&lt;/strong&gt; アドオンユーザーのためにアドオンの機能や使い方の説明を入力します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;入力が済んだら [Upload] を押すと登録できます。特に AnkiWeb に障害がなければ即座に公開されます。
+登録したアドオンのページに移動します。&lt;/p&gt;
+&lt;p&gt;公開したアドオンのページの下にある [Update] ボタンを押すと登録内容の編集ができ、[Remove] ボタンを押すとアドオンを削除することができます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_3.png&#34; alt=&#34;アドオンページ 編集、削除ボタン&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. アドオンページ 編集、削除ボタン&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;まとめ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;「Anki 2.0 アドオンの作成」で説明しているとおり、Anki が標準で用意しているフックを利用すると Anki の機能の修正や追加が簡単になります。フックが用意されていない箇所にも、この記事で紹介した方法で自分でカスタムのフックを自由に追加することができます。フックの使い方になれると Anki アドオン作成するを能力が向上し、Anki 自身の機能についても理解を深めることができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;review&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;遺補: Anki アドオン開発のおさらい&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のアドオンは、Python スクリプトで記述し、&lt;code&gt;Documents/Anki/addons&lt;/code&gt; フォルダの中に保存します。
+Anki に Python インタープリタが含まれているため、アドオンの開発に Python のインストールは必要ありません。&lt;/p&gt;
+&lt;p&gt;Anki は起動時に &lt;code&gt;addons&lt;/code&gt; フォルダの中の &lt;code&gt;.py&lt;/code&gt; ファイルを読み込みます。
+従って、新たにアドオンファイルを追加した場合、再起動して初めて機能するようになります。
+なお、シフトキーを押したまま Anki を起動すると、アドオンファイルの読み込みは行いません。&lt;/p&gt;
+&lt;p&gt;Anki には、WordPress のようにフック (Hook) という機能を提供していて、標準機能を拡張したり、変更したりするアドオン開発が容易にできます。Anki 自身もたくさんのフックを利用しています。&lt;/p&gt;
+&lt;p&gt;アドオンをつくるために Anki が用意している関数は次の通りです。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34; frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. アドオン開発用関数&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span4&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;関数名&lt;/th&gt;
+&lt;th&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;runHook&lt;/td&gt;
+&lt;td&gt;フックを実行する。値は返さない。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;runFilter&lt;/td&gt;
+&lt;td&gt;フィルターを実行し値を返す。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;addHook&lt;/td&gt;
+&lt;td&gt;フックを追加する。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;remHook&lt;/td&gt;
+&lt;td&gt;フックを削除する。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;wrap&lt;/td&gt;
+&lt;td&gt;既存の関数を上書きする。第3引数でオリジナルの関数の位置を指定。既定はオリジナルの後にカスタム関数を実行する。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;フックを見つけるには、Anki のソースコードを　&#34;runHook&#34;、&#34;runFilter&#34; で検索します。Anki 2.0.20 現在　36 のフックが存在します。&lt;/p&gt;
+&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34; target=&#34;_new&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>
+      <link>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
+      <pubDate>Mon, 02 Dec 2013 00:00:49 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
+      <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。&lt;/p&gt;
+&lt;p&gt;この記事は、Mac OS X 10.7 上に virtualenv で構築した Python 2.7.5 の仮想環境に IPython 1.1.0 をインストールする場合の注意点を取り上げます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ipython.org/notebook.html&#34; target=&#34;_new&#34;&gt;IPython Notebook&lt;/a&gt; は、Python の対話的な Web ベースの使いやすいシェルで、グラフや数式を表示することができます。特に Python の科学計算パッケージを利用する場合に重宝します。
+IPython のオフィシャルサイトで紹介している Anaconda という Python の商用配布パッケージには、IPython と関連パッケージが全て含まれていて、簡単にインストール可能です。&lt;/p&gt;
+&lt;p&gt;しかしながら、既に Python の独自環境を構築していて、追加で IPython Notebook のインストールには、複数の Python パッケージをインストールする必要があります。
+Mac OS X 環境に IPython Notebook インストールする手順としては、 &lt;a href=&#34;http://slowquery.hatenablog.com/entry/2013/04/01/010927&#34; target=&#34;_new&#34;&gt;IPython notebookでブラウザ内にグラフを描画する&lt;/a&gt; などの記事が参考になります。&lt;/p&gt;
+&lt;p&gt;ただし Mac OS X の場合、&lt;code&gt;pip install matplotlib&lt;/code&gt; だけでは、matplotlib がインストールできず、IPython 実行後のグラフの描画の際にエラーが発生する場合があります。&lt;/p&gt;
+&lt;p&gt;これは、Stack Overflow の投稿 &lt;a href=&#34;http://superuser.com/questions/242190/how-to-install-matplotlib-on-os-x&#34; target=&#34;_new&#34;&gt;How to install matplotlib on OS X?&lt;/a&gt; によれば、Mac OS X の場合、matplotlib をインストールする前に、コンパイルオプションを指定すると解決できるそうです。&lt;/p&gt;
+&lt;p&gt;pip を使う場合は、次のように実行します。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nb&#34;&gt;export &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;-L/usr/X11/lib&amp;quot;&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;export &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;-I/usr/X11/include -I/usr/X11/include/freetype2 -I/usr/X11/include/libpng12&amp;quot;&lt;/span&gt;
+pip install matplotlib
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;インストール終了後、再度グラフを描画して、確認すれば作業完了です。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>静的サイトジェネレータ Pelican で AsciiDoc を使う方法</title>
+      <link>http://rs.luminousspice.com/pelican_with_asciidoc/</link>
+      <pubDate>Sun, 01 Dec 2013 21:00:53 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/pelican_with_asciidoc/</guid>
+      <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。AsciiDoc API  のインストール方法と、日本語を処理した時に発生するユニコードエラーの対応について説明しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://docs.getpelican.com/&#34;&gt;Pelican&lt;/a&gt; は、Python で書かれた静的なサイトジェネレータです。reStructuredText や Markdown を標準でサポートしています。&lt;/p&gt;
+&lt;p&gt;マークアップ言語に &lt;a href=&#34;http://www.methods.co.nz/asciidoc/&#34;&gt;AsciiDoc&lt;/a&gt; を利用するために必要な、文書化されていない手続について説明します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;asciidoc_api_のインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AsciiDoc API のインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Pelican で AsciiDoc を利用するには、&lt;a href=&#34;http://www.methods.co.nz/asciidoc/asciidocapi.html&#34;&gt;AsciiDoc API&lt;/a&gt; をインストールする必要があります。
+Markdown を利用するには pip を使ったインストールが可能ですが、AsciiDoc の場合は別途作業になります。&lt;/p&gt;
+&lt;p&gt;AsciiDoc API は &lt;code&gt;asciidocapi.py&lt;/code&gt; ファイルの形で提供されています。Sourceforge から &lt;a href=&#34;http://sourceforge.net/projects/asciidoc/&#34;&gt;AsciiDoc のソースコード&lt;/a&gt;のアーカイブを解凍するとトップレベルに &lt;code&gt;asciidocapi.py&lt;/code&gt; が見つかります。&lt;/p&gt;
+&lt;p&gt;私の環境は、virtualenv を使っていますので次の場所にインストールしました。
+&lt;code&gt;~/.virtualenvs/(Pelicanを使う仮想環境名)/bin/asciidocapi.py&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;これで、ドキュメントのファイル名の拡張子を &lt;code&gt;asc&lt;/code&gt; にすると、Pelican は AsciiDoc として認識し処理してくれます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ユニコードエラーの問題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;ユニコードエラーの問題&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;利用している Python 環境によっては、Pelican で日本語の文書を処理した時にユニコードのエラーが発生することがあります。これは既定のエンコーディングが utf-8 になっていないためです。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;WARNING: Could not process ./mydoc.asc
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;ascii&amp;#39;&lt;/span&gt; codec can&amp;#39;t encode characters in position 20-22: ordinal not in range&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;128&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+Done: Processed 1 articles and 0 pages in 0.40 seconds.
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;次のように、調べると既定のエンコーディングを調べることができます。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; import sys
+&amp;gt;&amp;gt;&amp;gt; sys.getdefaultencoding&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;ascii&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;asciidocapi.py を書き換える方法と、Python の環境設定ファイルを編集する方法があります。Python の配布用モジュールを開発している訳ではないので、今回は環境設定ファイルで対応しました。&lt;/p&gt;
+&lt;p&gt;設定は &lt;code&gt;sitecustomize.py&lt;/code&gt; を編集します。
+このファイルのありか次のように調べます。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; import sitecustomize
+&amp;gt;&amp;gt;&amp;gt; sitecustomize.__file__
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;/usr/local/lib/python2.7/site-packages/sitecustomize.pyc&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;このファイルに次のような記述を追加します。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sys&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;setdefaultencoding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;最後に、既定の設定が反映されているか確認します。次のように utf-8 になっていれば完了です。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; import sys
+&amp;gt;&amp;gt;&amp;gt; sys.getdefaultencoding&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;文書化されていない Pelican での AsciiDoc 利用の方法はここまでです。
+ここから先は、他のマークアップ言語と同じようにドキュメントの内容に従って使いこなしてください。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

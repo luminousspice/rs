@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesometts on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/awesometts/</link>
+    <description>Awesometts | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/awesometts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki ショートカットキー</title>
+      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
+      <pubDate>Sat, 09 Jan 2016 11:20:37 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
+      <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。&lt;/p&gt;
+&lt;p&gt;このショートカット集は、Anki の正式なドキュメントの翻訳ではありません。
+筆者が独自に Anki 2.0.33 のソースコードより主なユーザーインターフェイスについてショートカットキーをまとめたものです。このため、文書化されていない機能も含んでおり、将来のバージョンで機能しなくなる場合もあります。また、広く使われているテキスト読み上げ用アドオン AwesomeTTS のショートカットについても一部取り上げました。
+ショートカットキーの表記は、OS X の基準に従っています。他のプラットフォームで利用する場合は適宜読み替えください。また、動作確認は Mac 版でのみで行っております。&lt;/p&gt;
+&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;メインウィンドウ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;メインウィンドウ&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;メインウィンドウは、Anki を起動すると最初に表示するウィンドウです。最初は、単語帳一覧を表示し、単語帳を選択すると単語帳概要を表示、学習セッションを開始すると学習画面を表示し、カードを順次表示するというように、同一の画面上でモードを遷移しながら学習に関する内容を表示する画面です。&lt;/p&gt;
+&lt;p&gt;ウィンドウ上のモードは変化しますが、ショートカットで呼び出せる機能自体は共通して使えるものが大半です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 単語帳一覧&lt;/div&gt;
+&lt;/div&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. メインウィンドウ共通&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt; キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;統計情報を表示&lt;/td&gt;
+&lt;td&gt;Shift+S&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AnkiWeb と同期&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;単語帳一覧&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートを追加&lt;/td&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ブラウザー&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;環境設定&lt;/td&gt;
+&lt;td&gt;Command+,&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Anki を隠す&lt;/td&gt;
+&lt;td&gt;Command+H&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;他のアプリを隠す&lt;/td&gt;
+&lt;td&gt;Command+Option+H&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;最小化 (Mac のみ)&lt;/td&gt;
+&lt;td&gt;Command+M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;終了&lt;/td&gt;
+&lt;td&gt;Command+Q&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;読み込み&lt;/td&gt;
+&lt;td&gt;Command+I&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;書き出し&lt;/td&gt;
+&lt;td&gt;Command+E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;元に戻す&lt;/td&gt;
+&lt;td&gt;Command+Z&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;プロファイル変更&lt;/td&gt;
+&lt;td&gt;Command+Shift+P&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;単語帳の学習を開始&lt;/td&gt;
+&lt;td&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;フィルター単語帳の作成&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートタイプの管理&lt;/td&gt;
+&lt;td&gt;Command+Shift+N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;オンラインマニュアル&lt;/td&gt;
+&lt;td&gt;F1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AwesomeTTS 設定 (AwesomeTTS インストール時)&lt;/td&gt;
+&lt;td&gt;Command+T&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 単語帳概要&lt;/div&gt;
+&lt;/div&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 2. 単語帳概要限定&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;オプション&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カスタム学習&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;フィルター単語帳を作成&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;フィルター単語帳を再構築&lt;/td&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;フィルター単語帳を空にする&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;延期を解除&lt;/td&gt;
+&lt;td&gt;U&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 学習画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 3. 学習画面限定&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;編集&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;解答を表示&lt;/td&gt;
+&lt;td&gt;SPACE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートをマーク&lt;/td&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カードを延期&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートを延期&lt;/td&gt;
+&lt;td&gt;=&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カードを保留&lt;/td&gt;
+&lt;td&gt;@&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートを保留&lt;/td&gt;
+&lt;td&gt;!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートを削除&lt;/td&gt;
+&lt;td&gt;delete&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;オプション&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;音声を再生&lt;/td&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;自分の声を録音&lt;/td&gt;
+&lt;td&gt;Shift+V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;自分の声を再生&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;表面を TTS で再生 (AwesomeTTS インストール時)&lt;/td&gt;
+&lt;td&gt;F3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ノート編集&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;ノート編集&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;ノートを編集するには三つの方法があります。ノートを新規追加する、学習画面で表示中カードのノートを編集する、ブラウザーで選択したカードのノートを編集するになります。呼び出し方や終了の仕方は、それぞれ異なりますが、ノートの編集に関する機能は共通です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 新規追加&lt;/div&gt;
+&lt;/div&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 4. ノートエディタ共通&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;カードを設定&lt;/td&gt;
+&lt;td&gt;Command+L&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;太字&lt;/td&gt;
+&lt;td&gt;Command+B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;斜字&lt;/td&gt;
+&lt;td&gt;Command+I&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;下線&lt;/td&gt;
+&lt;td&gt;Command+U&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;上付き文字&lt;/td&gt;
+&lt;td&gt;Command+Shift+=&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;下付き文字&lt;/td&gt;
+&lt;td&gt;Command+=&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;書式設定を外す&lt;/td&gt;
+&lt;td&gt;Command+R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;文字色&lt;/td&gt;
+&lt;td&gt;F7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;色を変更&lt;/td&gt;
+&lt;td&gt;F8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;穴埋め&lt;/td&gt;
+&lt;td&gt;Command+Shift+C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;直前と同じ設定の穴埋め&lt;/td&gt;
+&lt;td&gt;Command+Option+Shift+C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;メディアを追加&lt;/td&gt;
+&lt;td&gt;F3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;録音&lt;/td&gt;
+&lt;td&gt;F5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LaTeX&lt;/td&gt;
+&lt;td&gt;Command+T T&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LaTeX インライン書式&lt;/td&gt;
+&lt;td&gt;Command+T E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LaTeX ディスプレイ書式&lt;/td&gt;
+&lt;td&gt;Command+T M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HTML を編集&lt;/td&gt;
+&lt;td&gt;Command+Shift+X&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 5. 新規追加ウィンドウ限定&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートタイプを変更&lt;/td&gt;
+&lt;td&gt;Command+N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;追加先単語帳を変更&lt;/td&gt;
+&lt;td&gt;Command+D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;追加&lt;/td&gt;
+&lt;td&gt;Command+Return&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;追加履歴を表示&lt;/td&gt;
+&lt;td&gt;Command+Shift+H (Mac 以外 Ctrl+H)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 6. 編集ウィンドウ限定&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;閉じる&lt;/td&gt;
+&lt;td&gt;Command+Return&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードブラウザー&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;カードブラウザー&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;カードブラウザーはメインウィンドウから呼び出す、カードのさまざまな属性を一括管理する画面です。カードを一つ選択すると、ウィンドウ右下にノートエディタを表示します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. カードブラウザー&lt;/div&gt;
+&lt;/div&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 7. カードブラウザー&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;検索へフォーカスを移動&lt;/td&gt;
+&lt;td&gt;Command+F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;フィルターへフォーカスを移動&lt;/td&gt;
+&lt;td&gt;Command+Shift+R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カード一覧へフォーカスを移動&lt;/td&gt;
+&lt;td&gt;Command+Shift+L&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートへカーソルを移動&lt;/td&gt;
+&lt;td&gt;Command+Shift+F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全てを選択&lt;/td&gt;
+&lt;td&gt;Command+A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;次のカード&lt;/td&gt;
+&lt;td&gt;Command+N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;前のカード&lt;/td&gt;
+&lt;td&gt;Command+P&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;先頭まで選択&lt;/td&gt;
+&lt;td&gt;fn+Shift+← (Mac 以外 Shift+Home)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;画面先頭まで選択&lt;/td&gt;
+&lt;td&gt;fn+Shift+↑ (Mac 以外 Shift+PgUp)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;画面末尾まで選択&lt;/td&gt;
+&lt;td&gt;fn+Shift+↓ (Mac 以外 Shift+PgDn)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;末尾まで選択&lt;/td&gt;
+&lt;td&gt;fn+Shift+→ (Mac 以外 Shift+End)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;同じノートのカードを選択&lt;/td&gt;
+&lt;td&gt;Command+Shift+A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;情報を表示&lt;/td&gt;
+&lt;td&gt;Command+Shift+I&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;マーク&lt;/td&gt;
+&lt;td&gt;Command+K&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;単語帳を変更&lt;/td&gt;
+&lt;td&gt;Command+D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;タグを追加&lt;/td&gt;
+&lt;td&gt;Command+Shift+T&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;タグを削除&lt;/td&gt;
+&lt;td&gt;Command+Option+T&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カードを削除&lt;/td&gt;
+&lt;td&gt;delete&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;プレビューを表示&lt;/td&gt;
+&lt;td&gt;Command+Shift+P&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索と置換&lt;/td&gt;
+&lt;td&gt;Command+Option+F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ノートタイプの変更&lt;/td&gt;
+&lt;td&gt;Command+Shift+M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;元に戻す&lt;/td&gt;
+&lt;td&gt;Command+Z&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;閉じる&lt;/td&gt;
+&lt;td&gt;Command+W&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;オンラインマニュアル&lt;/td&gt;
+&lt;td&gt;F1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TTS 音声の追加 (AwesomeTTS インストール時)&lt;/td&gt;
+&lt;td&gt;Command+T&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section id=&#34;プレビュー&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;プレビュー&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;プレビューとは、ブラウザで選択したカードを学習画面での表示イメージをプレビューする機能です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. プレビュー&lt;/div&gt;
+&lt;/div&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 8. プレビュー&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;音声を再生&lt;/td&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;次のカード&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;前のカード&lt;/td&gt;
+&lt;td&gt;←&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section id=&#34;動画再生&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;動画再生&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 動画再生ウィンドウ&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
+      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;データの一括登録&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;データの一括登録&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
+この記事では学習データの一括登録の一般的な方法については説明しています。
+今回は、この記事をさらに発展させてテキストにメディアファイル (音声、画像、動画) を添付して一括登録する方法を紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;前提知識&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;前提知識&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のデータ読み込みの方法についての理解
+または、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;メディアファイル利用の基本&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;メディアファイル利用の基本&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3 id=&#34;入力内容を確認&#34;&gt;入力内容を確認&lt;/h3&gt;
+&lt;p&gt;Anki ではノートにメディアを含めるには特別なタグを使います。Anki のノート入力に使うエディタは WYSIWYG なので、タグの内容を気にせずに利用できます。&lt;/p&gt;
+&lt;p&gt;外部のテキストファイルからノートの読み込みを行うには、自分でタグを記述する必要があります。&lt;/p&gt;
+&lt;p&gt;メディアを実際に追加して、HTML エディタを開いてどのような記述をしているか確認してみましょう。&lt;/p&gt;
+&lt;p&gt;ノートエディタからツールバーのクリップの形をした [画像/音声/ビデオを添付する] ボタン (または F3) を押して添付ファイルが選択します。
+フィールドに添付ファイルが反映されたら、HTML エディタを開いてその内容を確認します。(Mac OS X: Command+Shift+X, Windows: Ctrl+Shift+X)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで内容を確認&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;メディアファイルを参照するための記述&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;メディアファイルを参照するための記述&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;画像や音声、動画をノートに追加するには次の様なタグを使います。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;画像の場合&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;myimage.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;音声 (mp3) の場合&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;[sound:myaudio.mp3]
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;動画 (mp4) の場合&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;[sound:myvideo.mp4]
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&#34;利用可能なフォーマット&#34;&gt;利用可能なフォーマット&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;最新版 Anki 2.0.29 でサポートしているメディアファイルのフォーマットは次の通りです。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34;cellpadding=&#34;4&#34; class=&#34;table table-striped&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. 利用可能なフォーマット&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span4&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;メディアの種類&lt;/th&gt;
+&lt;th&gt;フォーマット&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;画像&lt;/td&gt;
+&lt;td&gt;jpg, jpeg, png, tif, tiff, gif, svg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;音声、動画&lt;/td&gt;
+&lt;td&gt;wav, mp3, ogg, flac, mp4, swf, mov, mpeg, mkv, m4a&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;メディアファイルをテンプレート内から参照&#34;&gt;メディアファイルをテンプレート内から参照&lt;/h3&gt;
+&lt;p&gt;一括登録することを考える方は、次の様なテンプレートを作りたくなるかもしれません。&lt;/p&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;機能しないテンプレート&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;{{myimage}}.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+
+[sound:{{myvideo}}.mp4]
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;残念ながら Anki 2.0 からはこのような記述は機能しなくなりました。フィールドに全体タグを含める必要があります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;登録データのつくり方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;登録データのつくり方&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki への一括登録データのフォーマットには CSV を使います。
+例えば ripple、波紋、画像 (ripple.png)、音声(ripple.mp3) からなるノートを登録する例を説明します。&lt;/p&gt;
+&lt;p&gt;既定の基本ノートタイプを利用してFront フィールドに単語、画像、音声を入力し、Back フィールドに訳語を入れる場合。&lt;/p&gt;
+&lt;pre&gt;ripple &amp;lt;img src=&#34;ripple.png&#34; /&amp;gt;[sound:ripple.mp3], 波紋&lt;/pre&gt;
+&lt;p&gt;カスタムのノートタイプを利用して、単語、画像、音声、訳語全てを別のフィールドに入れる場合。&lt;/p&gt;
+&lt;pre&gt;ripple, &amp;lt;img src=&#34;ripple.png&#34; /&amp;gt;, [sound:ripple.mp3], 波紋&lt;/pre&gt;
+&lt;p&gt;この場合は、全てのフィールドをカードに表示するようにテンプレートを編集する必要があります。&lt;/p&gt;
+&lt;p&gt;このようにして作成した、テキストデータを Anki の読み込み機能を使って登録します。&lt;/p&gt;
+&lt;h3 id=&#34;メディアファイル一括登録の方法&#34;&gt;メディアファイル一括登録の方法&lt;/h3&gt;
+&lt;p&gt;メディアを一括登録するには、テキストデータのみ読み込む方法に加えて、次の作業が必要です。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+登録するメディアファイルをメディアフォルダ (collection.media) に保存します。
+既定のメディアフォルダは、 &lt;code&gt;(書類, ドキュメントフォルダ)/Anki/(プロファイル名: ユーザー 1)/collection.media&lt;/code&gt; になります。サブディレクトリは使用できません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み込みデータでタグを使ってメディアファイルを指定します。具体的な指定方法は次の項目で説明します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み込みオプションで [フィールドに HTML をつかう] を有効にします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[読み込む] ボタンを押して、読み込み件数が表示されれば、全ての作業は終了です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 読み込みオプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ここまでが、Anki の標準的な基本的な機能を使った処理方法です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;アドオン_media_import_を使う方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;アドオン Media Import を使う方法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;実はつい最近、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/874215009&#34;&gt;Advanced Browser&lt;/a&gt; の作者でもある &lt;a target=&#34;_new&#34; href=&#34;https://github.com/hssm/media-import&#34;&gt;Houssam Salem&lt;/a&gt; という方がすばらしいアドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; を公開しました。&lt;/p&gt;
+&lt;p&gt;内容的にはこれまでのこの記事の説明で紹介した手順を自動化してくれるものです。
+そのアドオンを活用した方法を紹介します。&lt;/p&gt;
+&lt;p&gt;このアドオンのすごいところは、指定したフォルダーにあるメディアファイルを読み取って、
+拡張子を除いたファイル名を、Front フィールドへ、メディアファイル自体の参照を Back フィールドへ登録してくれる点です。&lt;/p&gt;
+&lt;p&gt;メニューバーから [ツール] - [Media Import&amp;#8230;] を選択して登録するメディアデータが入っているフォルダーを指定します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. Media Import の呼び出し&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;テキストファイルの用意は不要で、ファイル名を Front フィールドに使いたい文字列を設定すれば、メディアファイルをつくるだけで 単語帳 &lt;code&gt;MediaImport&lt;/code&gt; へ一括登録できてしまうところです。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. Media Import の処理完了&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;処理毎に基本ノートタイプのクローンを作成するので、同じフォルダーを繰り返し処理しても上書きされることはありません。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. Media Import を使用した読み込み例&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;使用上の注意&#34;&gt;使用上の注意&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+指定するフォルダー名に日本語が入っていると扱えません。(作者にフィードバックを出しますのでそのうち直ると思いますが)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ファイル毎にノートをつくるため、拡張子だけが違うファイルが存在すると、Front フィールドが重複します。例、画像 (ripple.png)、音声(ripple.mp3)。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;既存のノートにメディアを追加&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;既存のノートにメディアを追加&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;すでに、テキストデータが入力済みのフィールドにに音声や画像を追加する方法を紹介しましょう。&lt;/p&gt;
+&lt;h3 id=&#34;検索置換機能を使う&#34;&gt;検索置換機能を使う&lt;/h3&gt;
+&lt;p&gt;ブラウザの [検索と置換] 処理を使う方法を紹介します。
+Front フィールドに単語が入力済みで、その単語に拡張子 mp3(音声) と png(画像) を付けたファイル名のメディアファイルを用意する場合考えます。
+例えば &#34;ripple&#34; が Front フィールドに登録済みで、さらに画像 (ripple.png)、音声(ripple.mp3) を追加したいとします。&lt;/p&gt;
+&lt;p&gt;変換後の Front フィールドは次のようになります。&lt;/p&gt;
+&lt;pre&gt;ripple &amp;lt;img src=&#34;ripple.png&#34; /&amp;gt;[sound:ripple.mp3]&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;
+まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
+&lt;/li&gt;
+&lt;li&gt;
+[検索と置換] ダイアログを呼び出し (Mac OS X: Command+Option+F, Windows: Ctrl+Alt+F)、検索置換条件を次のように設定します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;検索文字列: (.*)
+置換文字列: \1 &amp;lt;img src=&#34;\1.png&#34; /&amp;gt;[sound:\1.mp3]
+対象: Front
+入力条件に正規表現を使う: 有効&lt;/pre&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. 検索置換条件&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;間違えた場合あわてないで、元に戻す (Mac OS X: Command+Z, Windows: Ctrl+Z) コマンドを使いましょう。変換前の状態に戻せます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;テキストから音声ファイルを自動作成&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;テキストから音声ファイルを自動作成&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;音声ファイルを持っていない場合に、音声データ (mp3) を自動生成する方法を紹介します。
+TTS サービスが使えない別の機器用に音声データを自作するのにも利用できます。&lt;/p&gt;
+&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
+&lt;/li&gt;
+&lt;li&gt;
+処理したいカードを選択します。
+&lt;/li&gt;
+&lt;li&gt;
+メニューバーから [編集] - [Add Audio to Selected w/ AwesomeTTS] を選択します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. AwesomeTTS MP3 Mass Generator の呼び出し方&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;AwesomeTTS MP3 Mass Generator の設定画面では次のように設定します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. AwesomeTTS MP3 Mass Generator の設定例&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Previwe 項目では、指定したサービスの音声を確認することができます。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34;cellpadding=&#34;4&#34;class=&#34;table table-striped&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 2. AwesomeTTS MP3 Mass Generator の設定項目とその内容&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;項目&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Generate using&lt;/td&gt;
+&lt;td&gt;使用するTTSサービスを選択します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Voice&lt;/td&gt;
+&lt;td&gt;使用するVoice の選択をします。OSX Say を選択した時にのみ表示。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Languages&lt;/td&gt;
+&lt;td&gt;使用する言語を選択します。(除く: OSX Say)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Source Field&lt;/td&gt;
+&lt;td&gt;テキストを読み上げるフィールドを指定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Destination Field&lt;/td&gt;
+&lt;td&gt;処理結果を記録するフィールドを指定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Append [sound:xxx] Tag onto Destination Field&lt;/td&gt;
+&lt;td&gt;対象フィールドのデータの最後に [sound:] タグを追加します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Overwrite the Destination Field w/ Media Filename&lt;/td&gt;
+&lt;td&gt;対象フィールドを生成したファイル名で書き換えます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Remove Existing [sound:xxx] Tag(s)&lt;/td&gt;
+&lt;td&gt;既存の [sound:] タグを削除します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;なお、生成した音声データはメディアフォルダに保存します。&lt;/p&gt;
+&lt;p&gt;AwesomeTTS MP3 Mass Generator の詳しい使い方は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiatts.appspot.com/usage/browser&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;まとめ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;メディアデータ (画像、音声、動画) であっても、テキストデータを作成して、Anki の読み込み機能を使ってノートをまとめて登録する方法に変わりありません。
+Anki のノートにメディアデータを含めるには、HTML のタグなどで表現する必要があり、注意すべき必要な処理をこの記事で説明しました。&lt;/p&gt;
+&lt;p&gt;アドオンが提供してくれている便利な機能も、基本は最初に紹介した手順を自動化したものです。基本の手順を理解しておくと、アドオンの機能を更に詳しく使いこなしたり、トラブルに直面しても回避策が見つけやすくなるのです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/04/13: 初出&lt;/p&gt;
+&lt;p&gt;2014/10/04: テキストから音声ファイルを自動作成を AwesomeTTS 1.1.2 に合わせて更新&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiのカードタイプと出題方法の増やし方</title>
+      <link>http://rs.luminousspice.com/cardtype/</link>
+      <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/cardtype/</guid>
+      <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;前提知識&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;前提知識&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;この記事は、次の記事の理解を前提として作成しています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiのノートタイプ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Ankiのノートタイプ&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiでは、問題のデータ1件1件をノートと読んでいます。ノートは一つ以上のフィールドというデータ項目の集まりです。
+表示するカード上にどのようにフィールドのデータを表示する枠組みをカードテンプレートと呼びます。&lt;/p&gt;
+&lt;p&gt;既定の[基本]ノートタイプは、FrontとBackの2つのフィールドと一つのカードテンプレート(カードタイプ)で構成している最低限の基本要素です。&lt;/p&gt;
+&lt;p&gt;Ankiは、このノートタイプに、フィールドやカードテンプレートを追加してカスタマイズすることで、一つのノートから様々な出題方法のカードを派生する機能を持っています。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意:&lt;/strong&gt; [穴埋め]ノートタイプは特別なノートタイプで、一つのカードテンプレートしか持てないため、この記事の内容を適用できません。&lt;/p&gt;
+&lt;p&gt;まず最初に、簡単な例として既存のカードの質問と解答を裏返したカードの作り方を説明します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;裏返しのカードを作成する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;裏返しのカードを作成する&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;[基本]ノートタイプを使った既存のQAカードを使って、裏返しのカードを追加する一番簡単な方法は、ノートタイプを[基本(裏面カード付き)]に変更することです。このノートタイプは標準で用意されているものです。
+このノートタイプには、[基本]ノートタイプに含まれているカードタイプ(カード1)に、裏返しのカードタイプ(カード2)を追加したものです。
+ノートタイプを変更することで簡単に裏返しカードを生成することができます。&lt;/p&gt;
+&lt;p&gt;ブラウザーから裏返しのカードを作りたいカードを選択し、メニューバーから[ノートタイプを変更](Mac OS X: Command+Shift+M, Windows: Ctrl+Shift+M)を選択し、設定画面で変更先ノートタイプを[基本(裏面カード付き)]に指定します(図 1)。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_1.png&#34; alt=&#34;ノートタイプの変更&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. ノートタイプの変更&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;するとブラウザーに裏返しカードが追加になります。[カード]タイプを表示していれば追加カードのカードタイプが「カード2」という名前になっていることが分かります。
+元のカード(カードタイプ: カード1)には、期日は元のまま残っているのに対して、追加した裏返しカード(カードタイプ: カード2)は、期日は初期化され新規カードになっていることに注目してください(図 2)。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_2.png&#34; alt=&#34;裏返しカードの確認&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 裏返しカードの確認&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;また、サイドバーの[今日追加したカード]を選択してみてください。追加したカードはここにも現れます。&lt;/p&gt;
+&lt;h3 id=&#34;関連カードの取り扱い&#34;&gt;関連カードの取り扱い&lt;/h3&gt;
+&lt;p&gt;なお、Ankiはこの元のカードと新たに作成した裏返しのカードを両方をまとめて関連カードとして扱います。関連カード同士を連続して出題すると答えが簡単に分かってしまうので、あるカードを解答したら、そのカードの関連カードが出題キューに入っている場合は延期処理が行われます。この機能はAnki2.0.13で実装し直したものです。
+詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;さらに複雑な出題方法を追加する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;さらに複雑な出題方法を追加する&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;前の項目で取り上げた、表面の文字情報を見て解答を想起する単純なカードから、次のような少し複雑な出題方法を追加してみましょう。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+聴き取り: 音声を聴いて、解答を想起するカード。正しく聴き取り、その意味を記憶しているか確認します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+書き取り: 音声を聴いて、聞き取った内容を入力し、さらに解答を想起するカード。正しく聴き取り、綴りと、意味を記憶しているか確認します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;既存のノートタイプにこの様な機能を持ったカードテンプレートを追加することで実現できます。その作り方をこれから説明していきます。&lt;/p&gt;
+&lt;h3 id=&#34;カードレイアウトの呼び出し方&#34;&gt;カードレイアウトの呼び出し方&lt;/h3&gt;
+&lt;p&gt;カードテンプレートの追加は、[カードレイアウト]ウィンドウで設定できます。
+次の方法のいずれかでカードレイアウトの呼び出すことができます。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+ブラウザーからカードを追加したい項目を選び、ブラウザーのカード一覧の下にある[カード]ボタンを押す。(図 2)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+メインウィンドウからメニューバーの[ノートタイプを管理]を選択し、[ノートタイプ]ウィンドウからカードを追加したいノートタイプを選び、[カード]ボタンを押す。(図 3)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_3.png&#34; alt=&#34;ノートタイプウィンドウ&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. ノートタイプウィンドウ&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+メインウィンドウ上部から[追加]リンクをクリックして[ノート追加]ウィンドウを呼び出し、[種類]の設定で追加したいノートタイプを選び、[カード]ボタンを押す。(図 4)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_4.png&#34; alt=&#34;ノート追加ウィンドウ&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. ノート追加ウィンドウ&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;追加機能を持ったカードテンプレートの作成&#34;&gt;追加機能を持ったカードテンプレートの作成&lt;/h3&gt;
+&lt;p&gt;カードレイアウトで右上の[+]ボタンを押すと、選択中のタブで表示しているカードタイプを複製します。
+カードタイプを削除するには、タブのカードタイプ名の前にある[x]印を押します。&lt;/p&gt;
+&lt;p&gt;カードの名前は自動的に設定しますが、ウィンドウ下のドロップダウンメニュー[もっと]-[名前の変更]で好きな名前に変更できます。&lt;/p&gt;
+&lt;p&gt;ウィンドウ下の[反転]ボタンを押すと、表面と裏面のテンプレートを入れ替えることができます。
+既定のノートタイプ[基本(裏面カード付き)]と同じ機能を実現することができます。&lt;/p&gt;
+&lt;p&gt;テンプレートに追加表示するフィールドは、手入力でも設定できますが、ウィンドウ下の[フィールドを追加]ボタンを押すとノートタイプに設定済みのフィールドの中から選択できます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_5.png&#34; alt=&#34;カードレイアウト&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. カードレイアウト&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;聴き取りカードの設定例&#34;&gt;聴き取りカードの設定例&lt;/h3&gt;
+&lt;p&gt;聴き取りカードは、基本ノートタイプの表面のテンンプレートを編集して、Frontフィールドを読み上げるためのアドオン&lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34; target=&#34;_new&#34;&gt;AwesomeTTS&lt;/a&gt;のタグを設定します。
+この例では、Mac OS X標準のVoiceOverを使って、Alexの音声で設定しています。&lt;/p&gt;
+&lt;pre&gt;(聴き取り)
+&amp;lt;TTS service=&#34;say&#34; voice=&#34;Alex&#34; style=&#34;display:none&#34;&amp;gt;{{Front}}&amp;lt;/TTS&amp;gt;&lt;/pre&gt;
+&lt;h3 id=&#34;書き取りカードの設定例&#34;&gt;書き取りカードの設定例&lt;/h3&gt;
+&lt;p&gt;書き取りカードは、聴き取りカードの設定内容に加えて、読み上げた音声の解答をキー入力するための設定 &lt;code&gt;{{type:Front}}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;(書き取り)
+{{type:Front}}
+&amp;lt;TTS service=&#34;say&#34; voice=&#34;Alex&#34; style=&#34;display:none&#34;&amp;gt;{{Front}}&amp;lt;/TTS&amp;gt;&lt;/pre&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_6.png&#34; alt=&#34;書き取りカードのカードレイアウト&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. 書き取りカードのカードレイアウト&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;追加したカードの確認&#34;&gt;追加したカードの確認&lt;/h3&gt;
+&lt;p&gt;Ankiのブラウザーを開き、カードテンプレートを追加したノートタイプをサイドバーから選択してください。
+追加したカードテンプレートの数だけ、カードが増えていることが分かります。&lt;/p&gt;
+&lt;p&gt;また、サイドバーの[今日追加したカード]を選択してみてください。追加したカードはここにも現れます。&lt;/p&gt;
+&lt;p&gt;ブラウザーのカード一覧でカードタイプを表示していれば、どのカードにどのカードタイプを使っているか確認できます。
+見出し行を左クリックして[カード]を選択すると設定できます。&lt;/p&gt;
+&lt;p&gt;図 6の例では、同じノートから生成した4枚のカードが一組の関連カードになります。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki解答キー入力機能の使い方</title>
+      <link>http://rs.luminousspice.com/type_answer/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/type_answer/</guid>
+      <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
+      <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;オフィシャルビデオでアウトラインをつかむ&#34; class=&#34;section&#34;&gt;オフィシャルビデオでアウトラインをつかむ&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki作者Damien Elmesの作ったYouTubeビデオ&#34;Typing in the Answer&#34;を見てください。
+英語の説明音声が分からなくても、画面を眺めるだけで良いです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/5tYObQ3ocrw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このビデオの次のような作業をしています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+カードテンプレートを編集して解答キー入力機能の設定をします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+フィールド設定からキー入力のフォントサイズを変更します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+穴埋め問題に解答キー入力機能を追加する応用例を紹介しています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、このビデオはAnki2.0.9以前のバージョンで作成しています。
+解答キー入力機能は、&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9で機能が改善&lt;/a&gt;されていて、最新版のAnkiとは若干表示内容が異なります。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;キー入力機能の設定方法&#34; class=&#34;section&#34;&gt;キー入力機能の設定方法&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;キー入力機能を設定するにはカードテンプレート上でフィールド名の前に &lt;code&gt;type:&lt;/code&gt; を追加します。
+例えば、[Back]フィールドに設定する場合は &lt;code&gt;{{type:Back}}&lt;/code&gt; となります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;基本ノートタイプへの表面の設定例&lt;/div&gt;
+&lt;div class=&#34;content monospaced&#34;&gt;
+&lt;pre&gt;{{Front}}
+{{type:Back}}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面上にテキストフィールドが追加になり、解答を入力できるようになります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/type_answer1.png&#34; alt=&#34;解答キー入力 表面の表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 表面の表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;解答を入力して、エンターキーまたは[解答を表示]ボタンを押すと、間違った場合にはキー入力した内容と正解の比較が表示されます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/type_answer2.png&#34; alt=&#34;解答キー入力 裏面の表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 裏面の表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;div class=&#34;title&#34;&gt;注意事項&lt;/div&gt;&lt;p&gt;裏面のテンプレートの &lt;code&gt;&amp;lt;hr id=answer&amp;gt;&lt;/code&gt; タグの直下に解答の比較例を挿入します。このタグを削除すると、比較例が表示できなくなります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードテンプレートの編集画面で、解答キー入力機能のプレビューを見ることもできます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/type_answer3.png&#34; alt=&#34;解答キー入力 カードテンプレートのプレビュー画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. カードテンプレートのプレビュー画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、アドオンAwesomeTTSを使って、BackフィールドをGoogleTTSで読み上げる設定にしています。
+アドオンAwesomeTTSの設定方法については&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;穴埋め問題と組み合わせる&#34; class=&#34;section&#34;&gt;穴埋め問題と組み合わせる&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;オフィシャルビデオの最後で紹介している穴埋め問題と組み合わせた例を説明します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ノートタイプを穴埋めに設定した上で、カードテンプレートで穴埋め問題を設定した「テキスト」フィールドに、&lt;code&gt;{{type:close:テキスト}}&lt;/code&gt; と設定すると解答キー入力機能でチェックできるようになります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;基本ノートタイプへの表面テンプレートの設定例&lt;/div&gt;
+&lt;div class=&#34;content monospaced&#34;&gt;
+&lt;pre&gt;{{cloze:テキスト}}
+{{type:cloze:テキスト}}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;穴埋め問題の下に、解答を入力するフィールドが現れます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 表面の解答キー入力画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;穴埋め問題の解答をテキストフィールドにキー入力し、[解答を表示]ボタンを押します。
+間違っている場合は正解と比較結果を表示します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;サンプルのダウンロード&#34;&gt;サンプルのダウンロード&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 anki209.apkg をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki2.0.9の注目すべき変更点</title>
+      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
+      <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sidebarblock well&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9が公開されました。このアップデートでは、多くの問題点が修正されました。
+全てのユーザーがAnkiを快適に使える機能が追加されています。タイトルバーにプロファイル名を表示、ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェース変更、解答キー入力機能の強化、起動オプションや削除したノートの記録などです。これらの機能について簡単に紹介したいと思います。
+全ての変更内容をご覧になりたい方は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;タイトルバーにプロファイル名を表示&#34; class=&#34;section&#34;&gt;タイトルバーにプロファイル名を表示&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;タイトルバーの中に現在使用中のプロファイル名を表示するようになりました。何種類かのプロファイルを使い分けている人、共有PCで個人別にプロファイルを作っている人には非常に便利な機能強化だと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;個人的には、今回のアップデートで最高の機能強化だと思っています。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ブラウザー内でのプレビュー機能&#34; class=&#34;section&#34;&gt;ブラウザー内でのプレビュー機能&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ブラウザー内でノートを選択した状態で、ウインドウ上部の[プレビュー]ボタンを押すとカードのプレビューを見ることができます。ウィンドウ下の[&amp;lt;]、[&amp;gt;]ボタンを押すとブラウザー内のノートを順次めくってみることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_1.png&#34; alt=&#34;プレビュー画面&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;カスタム学習のユーザーインターフェースの変更&#34; class=&#34;section&#34;&gt;カスタム学習のユーザーインターフェースの変更&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;「特定のタグに限定する」と「カードを無作為に選んで学習する」は、一つのオプション「カードの状態やタグを選んで学習する」に統合しました。
+カードの状態の選択を選択肢の中から選べるようになったので、今までより簡単にフィルター単語帳を作成できるようになりました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. カスタム学習設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;解答キー入力機能の強化&#34; class=&#34;section&#34;&gt;解答キー入力機能の強化&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://ankisrs.net/docs/manual.html#checking-your-answer&#34;&gt;解答キー入力(Type Answer)&lt;/a&gt;機能については下の動画を見てください。説明は英語ですが、音声は分からなくても見ているだけで内容は分かるものです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/5tYObQ3ocrw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この動画の内容は、今回の改善前の様子です。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;どう変わったかというと、キー入力した解答と正解の比較が分かりやすくなりました。
+穴埋め問題と組み合わせると、下の図のようなカードを作ることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 表面の解答キー入力画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、&lt;code&gt;{{type:close:テキスト}}&lt;/code&gt; とテンプレートを設定して、「テキスト」フィールドの穴埋めを設定した内容を、解答キー入力機能でチェックしています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このアップデートでは、等幅フォントで入力データと正解を上下に並べて比較するようにレイアウトが変更になりました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;アドオンのAwesomeTTSと組み合わせれば、ディクテーション用のカードも簡単に作れます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;更にカードウィンドウでのプレビュー機能が強化されました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;解答キー入力機能を設定したカードのプレビュー&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 解答キー入力機能を設定したカードのプレビュー&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;にご用意しました。関心のある方はお読みください。&lt;/p&gt;&lt;/div&gt;
+&lt;h3 id=&#34;サンプルのダウンロード&#34;&gt;サンプルのダウンロード&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 &lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34;&gt;anki209.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;その他の注目すべき変更項目&#34; class=&#34;section&#34;&gt;その他の注目すべき変更項目&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+アドオンの読み込みと自動的な同期を回避した起動
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;シフトキーを押したままAnkiを起動すると、アドオンの読み込みと自動的な同期を行わなくなりました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+削除したノートの記録
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ノートを削除すると、そのコンテンツはプロファイルフォルダー内のファイル deleted.txt に記録するようになりました。 フィールドの内容が記録されます。タグは記録されません。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+完全同期の設定場所の変更
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;メニュー([ツール]&amp;gt;[メンテナンス]&amp;gt;[完全同期])から環境設定([ネットワーク]タブ)に移動しました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+タイムボックス機能の変更
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ツールチップの表示から、ダイアログ表示に変わりました。ダイアログの選択肢に解答するまで学習が一時中断します。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;今回のアップデートは主として問題点の修正が行われています。数ある変更点の中にも、通常のユーザーがAnkiをもっと快適に使える注目すべき機能が追加になりました。ぜひこの機能を活用して、Ankiを楽しく使ってください。&lt;/p&gt;&lt;/div&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

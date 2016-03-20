@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。まず最初にLWTのインストール方法を紹介します。'>
+<meta name="keywords" content="Anki, Learning with Texts, LWT">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。まず最初にLWTのインストール方法を紹介します。'/>
+<meta property="og:title" content="はじめてのLearning with Texts(LWT) インストール" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/how_to_lwt_install/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-07-02T19:00:21Z"/>
+<meta property="article:modified_time" content="2013-07-02T19:00:21Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="Learning with Texts"><meta property="article:tag" content="LWT">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="はじめてのLearning with Texts(LWT) インストール">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。まず最初にLWTのインストール方法を紹介します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>はじめてのLearning with Texts(LWT) インストール | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/how_to_lwt_install/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">はじめてのLearning with Texts(LWT) インストール</h1>
+  <span class="post-date">2013-07-02</span>
+  <section id="preamble">
+<div class="paragraph"><p><strong>連載: はじめてのLearning with Texts(LWT)</strong></p></div>
+<div class="paragraph"><p><strong>第1回目 Learning with Texts(LWT)のインストール</strong></p></div>
+</section>
+<section id="はじめに">
+  <div class="page-header">
+    <h1>はじめに</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p><a href="http://lwt.sourceforge.net/">Learning with Texts(LWT)</a>とは、テキストの読解を基本とした、パブリックドメインの語学学習の分散学習システムです。
+基本的には自分で収集したテキストから自動生成する空欄補充問題を学習します。
+オンライン辞書や辞書APIと連携していますので、簡単に語彙の定義や訳語を記録することができます。</p></div>
+<div class="paragraph"><p>学習間隔の設定はライトナーシステム(<a href="http://en.wikipedia.org/wiki/Leitner_system">Leitner System</a>)に基づいています。</p></div>
+<div class="paragraph"><p>学習テキストから抽出した語彙や文章は、Anki用にデータを書き出すことができます。Ankiの穴埋め(空欄補充)問題作成テンプレートを用意しています。</p></div>
+<div class="paragraph"><p>既成の単語帳を超えたAnkiの学習方法として、あるいは頻出語彙の学習が済んだ方向けの学習として、
+特定の専門分野のテキストから分野限定の頻出語彙のAnki単語帳を作る方法を「<a href="http://rs.luminousspice.com/frequent-words-in-msdn/">Windows開発者の必修語彙をAnki学習する方法</a>」で説明しました。</p></div>
+<div class="paragraph"><p>LWTを使った方法はさらに進んで、一般的な頻出語彙、さらに専門分野の頻出語彙の学習が終了した方に、関心のあるテキストを多読しながら効率的に自動的に未知の語彙を収集し、分散学習へ統合する機能を提供してくれます。</p></div>
+<div class="paragraph"><p>この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。</p></div>
+<div class="paragraph"><p>作業環境は、Mac OS X になります。他のプラットフォームをお使いの方は適宜読み替えてください。</p></div>
+<h2 id="lwtの機能プレビュー" class="section">LWTの機能プレビュー</h2>
+<div class="paragraph"><p>LWTの機能をプレビューできるチュートリアルとしてYouTube動画を参考までに紹介します。
+3:30まで見れば良いです。新規データの登録までの様子を知ることができます。</p></div>
+<div class="paragraph">
+<iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/QnGG-_urLKk" frameborder="0" allowfullscreen></iframe></div>
+<div class="olist arabic"><div class="title">このビデオの内容</div><ol class="arabic">
+<li>
+<p>
+学習用テキストデータを入力する。
+</p>
+</li>
+<li>
+<p>
+作業エリアに移動しテキストを表示する。
+</p>
+</li>
+<li>
+<p>
+過去の学習データに基づいて、単語が色分けされる。背景が水色の単語は、新出の単語。黄色やオレンジの背景の単語は現在学習中の単語。無地の単語は既知と設定した単語。
+</p>
+</li>
+<li>
+<p>
+水色背景の未知の単語の意味を、オンライン辞書を使いながら登録する。
+</p>
+</li>
+</ol></div>
+<div class="paragraph"><p>その後は、ipadやスマートフォンからのアクセスの話になります。</p></div>
+<div class="paragraph"><p>この後の使い方として、登録分類した単語のテストを行い、記憶状況に応じてステータス変更を行います。
+テストの出題形式としては次の6通りの方法です。この中から選んで記憶状態をチェックします。</p></div>
+<div class="ulist"><div class="title">テスト出題形式</div><ul>
+<li>
+<p>
+文中の単語の意味を問う
+</p>
+</li>
+<li>
+<p>
+記憶対象の単語を空欄した文章の空欄補充
+</p>
+</li>
+<li>
+<p>
+空欄の中に訳語を表示した文章の空欄補充
+</p>
+</li>
+<li>
+<p>
+単語のみを表示して意味を問う
+</p>
+</li>
+<li>
+<p>
+訳語のみを表示して意味を問う
+</p>
+</li>
+<li>
+<p>
+質問を表形式で一覧表示する
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>この記事作成時点では、テキストの登録から単語の訳語とステータス設定を解説するまで紹介するビデオはありますが、その後の復習テストの方法について紹介したビデオを見つけることはできませんでした。</p></div>
+<div class="paragraph"><p>連載記事では、どうやって学習していくのか、簡単かつ丁寧に説明していきたいと思います。</p></div>
+</section>
+<section id="lwtの前提条件">
+  <div class="page-header">
+    <h1>LWTの前提条件</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>オフィシャルサイトの<a href="http://lwt.sourceforge.net/#installmac">インストール情報</a>では、XAMPP、MAMP、EasyPHPを使った方法を説明していますが、最低限必要な条件は次の通りです。</p></div>
+<div class="olist arabic"><div class="title">サーバー環境</div><ol class="arabic">
+<li>
+<p>
+PHPが実行可能なウェブサーバー
+</p>
+</li>
+<li>
+<p>
+MySQL
+</p>
+</li>
+</ol></div>
+<div class="paragraph"><p>私の場合は、ウェブサーバーはシステムに付属のApache(Web 共有)とHomebrewからインストールしたMySQLを使いました。</p></div>
+<div class="paragraph"><div class="title">クライアント環境</div><p>Mac OS X、Windows、LinuxともにChromeかFirefoxが推奨です。</p></div>
+<div class="paragraph"><p>Mac OS Xの場合、SaferiはFrameの表示に問題があるとのことです。
+Firefoxでは、テキスト出力の際にルビ(ふりがな)の機能を使うには<a href="https://addons.mozilla.org/ja/firefox/addon/html-ruby/">HTML Ruby</a>アドオンが必要です。</p></div>
+</section>
+<section id="lwtの入手方法">
+  <div class="page-header">
+    <h1>LWTの入手方法</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>SourceForgeの <a href="http://sourceforge.net/projects/lwt/">Learning with Texts (LWT)</a> ページからソースコードがダウンロードできます。</p></div>
+</section>
+<section id="lwtのインストール方法">
+  <div class="page-header">
+    <h1>LWTのインストール方法</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>インストールには、MySQLの設定、LWTファイルの配置、LWTの設定ファイル <code>connect.inc.php</code> の作業が必要です。
+WordPressの実行環境を既に持っていて、WordPressのデータベースを使う場合は、MySQLの設定は不要です。</p></div>
+<h2 id="mysqlの設定" class="section">MySQLの設定</h2>
+<div class="paragraph"><p>LWTで利用するデータベースの作成とLWTがデータベースにアクセスするのに使うアカウントとパスワードを設定します。
+例えば、<a href="http://wpdocs.sourceforge.jp/WordPress_%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB#Step_2:_Create_the_Database_and_a_User">WordPress のインストール 手順 2： データベースとユーザの作成</a>が参考になります。</p></div>
+<h2 id="lwtファイルの配置" class="section">LWTファイルの配置</h2>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>ウェブサーバのコンテンツのルートに <code>lwt</code> というディレクトリを作って解凍したダウンロードファイルを配置します
+Mac OS Xの場合は、既定では <code>/Users/[username]/Sites/lwt</code> になります。</p></div>
+<div class="paragraph"><p>WordPressと連携して使用する場合は、<code>http://(使用するWordPressのURL)/lwt</code> になります。</p></div>
+</section>
+<section id="lwtの設定ファイルの編集">
+  <div class="page-header">
+    <h1>LWTの設定ファイルの編集</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p><code>connect_easyphp.inc.php</code> を複製して　<code>connect.inc.php</code> という名前で保存します。
+このファイルを編集して、前に設定したMySQLの設定内容を反映します。</p></div>
+<div class="ulist"><div class="title">設定内容</div><ul>
+<li>
+<p>
+$server は、MySQLのサーバ名。ローカルで使用する場合は変更不要です。
+</p>
+</li>
+<li>
+<p>
+$userid は、作成したMySQLのアカウント名
+</p>
+</li>
+<li>
+<p>
+$passwd は、作成したMySQLアカウントのパスワード
+</p>
+</li>
+<li>
+<p>
+$dbname は、作成したMySQLのデータベース名
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><div class="title">WordPressと連携する場合</div><p>WordPressと連携する場合は、<code>connect_wordpress.inc.php</code> を複製して　<code>connect.inc.php</code> という名前で保存します。
+<code>wp-config.php</code> に設定している、MySQLの情報を、<code>$userid</code> 、 <code>$passwd</code> 、 <code>$dbname</code> に反映します。</p></div>
+</section>
+<section id="アスセス制限の方法">
+  <div class="page-header">
+    <h1>アスセス制限の方法</h1>
+  </div>
+<div class="paragraph"><p>リモートのサーバー上にLWTを配置した場合、他人に内容が見えてしまうのを避けるにはアクセス制限を掛けます。</p></div>
+<div class="paragraph"><div class="title">Apacheベーシック認証</div><p>ウェブサーバーがApacheの場合には、<code>.htaccess</code> を使ったベーシック認証を使います。</p></div>
+<div class="paragraph"><div class="title">WordPress認証</div><p>WordPressとの統合を行っている場合は、LWTへのアクセスにWordPressへのサインインが必要になります。</p></div>
+</section>
+<section id="アクセスしてみる">
+  <div class="page-header">
+    <h1>アクセスしてみる</h1>
+  </div>
+<div class="paragraph"><p>以上の作業が済んだら、LWTにアクセスしてみましょう。
+例えばローカルにインストールしたのであれば、<code>http://localhost/lwt</code> にアクセスします。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt01_1.png" alt="インストール直後の画面">
+</div>
+<div class="title">図 1. インストール直後の画面</div>
+</div>
+<div class="paragraph"><p>インストール直後のデータベースが空の状態では、[You may install the LWT demo database] or [define the first language you want to learn] という囲みのリンクが現れます。</p></div>
+<div class="paragraph"><p>この例は、WordPressとの連携インストールしたもので画面下に[LOGUOUT]をいう表示が出ています。</p></div>
+</section>
+<section id="デモのインストール">
+  <div class="page-header">
+    <h1>デモのインストール</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>初めてインストールした場合は、デモをインストールして使い方を理解することもできます。[You may install the LWT demo database]リンクをクリックすると、インストール画面に移動します。</p></div>
+<div class="paragraph"><div class="title">デモインストールの注意点</div><p>デモをインストールする前に言語設定をするとその内容が消えてしまいます。デモを使用する場合は、[define the first language you want to learn]のリンクで言語設定する前に、デモをインストールしましょう。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt01_2.png" alt="デモインストール画面">
+</div>
+<div class="title">図 2. デモインストール画面</div>
+</div>
+<div class="paragraph"><p>インストールが完了したら、最初に見た動画と同じような操作をしてみて、LWTの機能を体験してみてください。</p></div>
+</section>
+<section id="インストール時のトラブル">
+  <div class="page-header">
+    <h1>インストール時のトラブル</h1>
+  </div>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>オフィシャルサイトの<a href="http://lwt.sourceforge.net/#faq">Questions and Answers</a>には、インストール時のトラブルの典型例をまとめています。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+ウェブサーバーが起動していない。
+</p>
+</li>
+<li>
+<p>
+LWTの配置場所が間違えている。(404 Not Found)
+</p>
+</li>
+<li>
+<p>
+MySQLが起動していないか、<code>connect.inc.php</code> のデータベースアクセスの設定を間違えている。(DB Connect error)
+</p>
+</li>
+<li>
+<p>
+<code>connect.inc.php</code> が見つからない。(Fatal Error, cannot find file: "connect.inc.php".)
+</p>
+</li>
+</ul></div>
+</section>
+<section id="まとめ">
+  <div class="page-header">
+    <h1>まとめ</h1>
+  </div>
+<div class="paragraph"><p>LWTは、ウェブサーバーとMySQLがインストール済みであれば、MySQLのデータベースとアカウントを作って、PHPファイル一つを編集して、その内容を書き込むだけで簡単にインストールできます。</p></div>
+<div class="paragraph"><p>完全なクライアントアプリケーションとして動作するAnkiに比べると、確かにインストールの難易度は高くなります。
+ネットワーク利用を考えた場合は、Ankiの場合はAnkiWebを必要としますが、LWTはサーバーアプリケーションのため、色々なデバイスから直接アクセスできる点は魅力的です。LWTはAnkiと組み合わせるとお互いに補い合って、強力な機能を提供してくれます。</p></div>
+<div class="paragraph"><p>Anki学習をより快適にする観点から、以後の記事でLWTの使い方を紹介していきたいと思います。</p></div>
+</section>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ankidroid on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/ankidroid/</link>
+    <description>Ankidroid | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 12 Sep 2014 22:45:57 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/ankidroid/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>もっと Anki に集中する使い方</title>
+      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
+      <pubDate>Fri, 12 Sep 2014 22:45:57 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
+      <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;はじめに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;はじめに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、学習履歴やコンテンツについてリアルタイムに色々な情報を取り出せる設計になっています。
+この機能を利用して、ユーザーインターフェイスの至る所に情報を表示しています。&lt;/p&gt;
+&lt;p&gt;Anki について理解が不十分な場合には、Anki の動作を理解するのに非常に役立ちます。&lt;/p&gt;
+&lt;p&gt;しかし、Anki になれてたくさんの学習コンテンツを処理する場合には、
+学習コンテンツに関係ないデータの表示は、集中力を低下させたり、自己バイアスを混入させたり、
+Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
+&lt;p&gt;そこで、この記事では、Anki に使い慣れた人向けに、学習中の情報表示の設定変更方法を説明します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;復習間隔の表示&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;復習間隔の表示&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、暗記したカードをどれだけの日数を空ければ覚えているか、その限界を拡張していくソフトです。
+また、毎回の復習時に、記憶している強度を 3 段階で評価して、次の復習間隔に反映しています。&lt;/p&gt;
+&lt;p&gt;下に示す 2 種類のカードの解答ボタンを見てください。
+両方とも次回の復習間隔として [5 日] のボタンを表示しています。
+同じ日数でも、カードの進捗によって評価の難易度まったく反対の結果になります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-ease.png&#34; alt=&#34;復習間隔表示 2&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 復習間隔表示 簡単が5日&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-hard.png&#34; alt=&#34;復習間隔表示 1&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 復習間隔表示 難しいが5日&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;カードの解答ボタンを選択する場合に、このカードは 5 日にしておこうとか、難易度の評価から離れて日数だけで判断して選択してしまうのは無理のないことです。&lt;/p&gt;
+&lt;p&gt;単語帳を使い始めた時に、解答ボタン [難しい]、[普通]、[簡単] を押す明確な基準を決めていないことが原因の一つです。&lt;/p&gt;
+&lt;p&gt;残念ながらこのような選択方法では、 Anki の復習アルゴリズムを歪めてしまいます。わざわざ Anki を使う意味がなくなります。
+また、記憶すべき内容から離れて、日数の方に関心が移ってしまうと、集中力を削ぎ、学習速度を低下させることになります。&lt;/p&gt;
+&lt;p&gt;そこで、そのような障害を防ぐために、日数表示をボタンから削除しましょう。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-empty.png&#34; alt=&#34;復習間隔を非表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 復習間隔を非表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この記事を書くために、久々に表示して毎日のルーチンをやってみました。
+無意識のうちに表示する情報に目が行きがちになり、なにか引っかかる感じで、集中力が削がれました。&lt;/p&gt;
+&lt;p&gt;非表示にすると最初のうちは、違和感がありますが、慣れてしまえばスピード感を持って復習に集中できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;セッション中の残り枚数&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;セッション中の残り枚数&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;セッション中の残り枚数も、誘惑に駆られる情報です。
+時間がない場合や、再学習の枚数が多い時に、まだ十分学習が済んでいないのに、つい妥協してセッションを終わらせたくなってしまいます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-remain.png&#34; alt=&#34;セッションの残り枚数表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. セッションの残り枚数表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この枚数表示も設定を変更することで、消すことができます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-remain-empty.png&#34; alt=&#34;残り枚数を非表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 残り枚数を非表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;時間がない、量が多いと感じるのは、単語帳の設計自体に無理があるのかもしれません。&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;では、統計情報を活用した単語帳サイズの最適化の方法を取り上げていますので参考にしてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;設定方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;設定方法&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[基本] タブを選択します。
+&lt;/li&gt;
+&lt;li&gt;
+[次回の復習時期を解答ボタンの上に表示する] と [復習の際にカードの残り枚数を表示する] の両方を無効にします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings.png&#34; alt=&#34;Anki 環境設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. Anki 環境設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ankimobile_iphone_の場合&#34;&gt;AnkiMobile (iPhone) の場合&lt;/h2&gt;
+&lt;p&gt;iOS アプリを、iPhone、iPad、iPod touch で使っている場合は、
+設定画面を表示するのに画面右上の歯車のアイコンをタップし、[Review] を選択します。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;[Next Time]&lt;/strong&gt; を無効にします。次回の復習までの間隔を解答ボタン上に表示する項目です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;[Remaining Counts]&lt;/strong&gt; を無効にします。学習セッション中の残り枚数を表示する項目です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings-ios.png&#34; alt=&#34;表示の設定箇所&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 表示の設定箇所&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;設定後すぐに反映されない場合は、一度アプリを終了してみてください。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-ios.png&#34; alt=&#34;ボタンから復習間隔が消えた&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. ボタンから復習間隔が消えた&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ankidroid_android_の場合&#34;&gt;AnkiDroid (Android) の場合&lt;/h2&gt;
+&lt;p&gt;アンドロイド機器の場合は、画面左上の Anki のアイコンをタップしてドロワーを開き、[設定]-[カードの復習と評価] を選択すると表示します。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;[ボタン上に時間を表示]&lt;/strong&gt; を無効にします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;[残りのカード枚数を表示]&lt;/strong&gt; を無効にします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings-android.png&#34; alt=&#34;表示の設定箇所&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. 表示の設定箇所&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;おわりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;おわりに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki はユーザーに仕組みや機能を理解してもらうために、色々な情報をユーザーインターフェイスの至る所に表示しています。
+Anki を使い慣れてくると、学習コンテンツに無関係な情報の表示は、学習への集中を妨げる不要なものになります。
+この点を考慮して設定画面で表示選択ができるようになっています。
+学習画面から不要な情報を除くと Anki にもっと集中でき、使いこなせるようになるのです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>AnkiWeb 同期機能の使い方</title>
+      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
+      <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
+      <description>AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。How to sync data through AnkiWeb for Anki, AnkiMobile, AnkiDroid.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;はじめに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;はじめに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb を活用すると複数の機器にまたがって学習を継続できます。コレクションデータをコピーする方法では、コピー先の機器の学習履歴が上書きされてしまいますが、AnkiWeb を経由すると、別々の機器で学習したデータの差分を統合することができます。&lt;/p&gt;
+&lt;p&gt;このサービスを使うには、AnkiWeb でのアカウント作成と、アクセスする機器からの設定が必要になります。それぞれの方法を順を追って解説します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;登録の方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;登録の方法&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; への登録は全ての機器で共通の作業です。&lt;/p&gt;
+&lt;p&gt;まず、ウェブブラウサーを使って &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;へアクセスし、右上の [Sign Up]ボタンを押します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-top.png&#34; alt=&#34;AnkiWeb トップページ アカウント登録ボタン&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. AnkiWeb トップページ アカウント登録ボタン&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;登録画面が出たら、メールアドレス (Your Email) とパスワード (New Password) を入力し、[Sign Up] を押します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-signup.png&#34; alt=&#34;登録画面&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 登録画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;登録完了すると確認画面が現れます。もう一度、登録したばかりのメールアドレス (Confirm Email) とパスワード (Confirm Password) を入力して、[Sign Up] を押します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-signup-confirmation.png&#34; alt=&#34;確認画面&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 確認画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ここはよく陥りがちな注意箇所です。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;メールアドレスやパスワードに問題があると勘違いして、別のものに変更してしまうと登録作業が進まなくなってしまうので注意しましょう。&lt;/p&gt;
+&lt;p&gt;登録が完了したら、AnkiWeb での作業は終了です。同期するだけなら、AnkiWeb にサインインする必要はありません。
+また、アドオンや共有単語帳の閲覧、ダウンロードする場合もサインインは不要です。&lt;/p&gt;
+&lt;p&gt;AnkiWeb にサインインが必要になるのは、AnkiWeb 上で直接カードを学習する時、共有単語帳やアドオンを登録、コメント、レイティングする時などです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;クライアントの設定&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;クライアントの設定&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;お使いになっている Anki アプリケーションから、AnkiWeb へ同期アクセスする設定を説明します。&lt;/p&gt;
+&lt;h2 id=&#34;デスクトップ版の場合&#34;&gt;デスクトップ版の場合&lt;/h2&gt;
+&lt;p&gt;デスクトップ版 Anki の場合は、画面右上の循環する矢印のボタンを押す (ショートカット Y) と、AnkiWeb で作成したアカウントを入力する画面が現れます。
+先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-signin.png&#34; alt=&#34;Anki 上でのアカウント設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. Anki 上でのアカウント設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;同期の際には、登録情報を使用してアクセスするので、同期の度にアカウント情報を入力することはありません。
+次に、アカウント情報を解除するなど同期機能の詳細設定を説明しましょう。&lt;/p&gt;
+&lt;h3&gt;同期機能の設定&lt;/h3&gt;
+&lt;p&gt;同期機能の設定画面は、環境設定の中にあります。
+メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+[音声と画像も同期する] を有効にすると、AnkiWeb にメディアデータも同期します。メディアデータが大きい場合は、同期に時間が掛かりますので注意してください。
+&lt;/li&gt;
+&lt;li&gt;
+[次回の同期は、一方向に変更を強制実行する] を有効にすると、次回の同期は差分のアップデートではなく、サーバー側かクライアント側の情報のどちらかに上書きします。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;アカウント情報の解除&lt;/h3&gt;
+&lt;p&gt;AnkiWeb のアカウントが登録済みの場合は、[認証解除] ボタンと登録メールアドレスを表示します。
+登録済みのアカウント情報を取り消すには、[認証解除] ボタンを押します。&lt;/p&gt;
+&lt;h3&gt;同期してみる&lt;/h3&gt;
+&lt;p&gt;環境設定ウィンドウを閉じて、メインウィンドウ画面右上の循環する矢印のボタンを押す (ショートカット Y) と同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。&lt;/p&gt;
+&lt;h2 id=&#34;ios_アプリ_の場合&#34;&gt;iOS アプリ の場合&lt;/h2&gt;
+&lt;p&gt;iPhone などで iOS アプリ AnkiMobile Flashcards を使っている場合、
+AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile Flashcards から AnkiWeb へ同期&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;AnkiWeb で登録したメールアドレス (Login) とパスワード (Password) を入力してください。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-signin.png&#34; alt=&#34;AnkiMobile 上でのアカウント設定画面&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 上でのアカウント設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;同期機能の設定&lt;/h3&gt;
+&lt;p&gt;同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. AnkiMobile Flashcards から AnkiWeb へ同期&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;次に、[Syncing] 項目をタップします。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 環境設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;デスクトップ版との違いは、プロファイル変更時の自動同期機能はなく、その代わりにモバイルデータ通信 (携帯電話回線) の利用の可否を設定できます。また、完全同期は直ちに行われます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+[Transfer Media] を有効にすると、AnkiWeb にメディアデータも同期します。メディアデータが大きい場合は、同期に時間が掛かりますので注意してください。
+&lt;/li&gt;
+&lt;li&gt;
+[Confirm Cell Sync] を有効にすると、モバイルデータ通信を使って同期できるようになります。
+&lt;/li&gt;
+&lt;li&gt;
+[Full Sync] をタップすると、同期処理を開始しサーバー側かクライアント側の情報のどちらかに上書き (完全同期) します。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 10. AnkiMobile 同期設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;アカウント情報の解除&lt;/h3&gt;
+&lt;p&gt;AnkiWeb のアカウントが登録済みの場合は、[Deauth] ボタンと登録メールアドレスを表示します。
+登録済みのアカウント情報を取り消すには、[Deauth] ボタンをタップします。&lt;/p&gt;
+&lt;h3&gt;同期してみる&lt;/h3&gt;
+&lt;p&gt;メインスクリーンまで戻り、右下の [Synchronize] ボタンをタップすると同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。&lt;/p&gt;
+&lt;h2 id=&#34;android_アプリの場合&#34;&gt;Android アプリの場合&lt;/h2&gt;
+&lt;p&gt;バージョン毎にユーザーインターフェイスに違いがありますが、現時点での最新安定板 AnkiDroid 2.2.3 を例に説明します。
+AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の循環する矢印ボタンをタップします。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-ad-mainscreen.png&#34; alt=&#34;同期の呼び出し&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 11. AnkiDroid の同期の呼び出し&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;また、同期設定画面は、画面左上の Anki のアイコンをタップしてドロワーを開き、[設定]-[AnkiDroid] を選択すると表示します。
+[AnkiWeb アカウント] をタップすると、アカウントの登録や解除ができます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-ad-pref-sync.png&#34; alt=&#34;一般設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 12. AnkiDroid 一般設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;制限事項&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;制限事項&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb には、ファイル容量と同時アクセス数に制限があります。通常の使い方をすれば、問題とならない制限です。&lt;/p&gt;
+&lt;h2 id=&#34;容量制限&#34;&gt;容量制限&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+コレクションファイル全体 100MB
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;平均 25,000 枚のカードを数年間学習しても、コレクション容量は 25MB 程度となります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+メディアファイル 1ファイルにつき 100MB
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;メディアファイルは、容量全体の制限はありませんが、ファイル毎に制限を設定しています。&lt;/p&gt;
+&lt;p&gt;参考資料 Anki サポート Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/are-there-limits-on-file-sizes-on-ankiweb&#34;&gt;Are there limits on file sizes on AnkiWeb?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数制限&#34;&gt;アクセス数制限&lt;/h2&gt;
+&lt;p&gt;一アカウント当たり、同時に一つの機器からしかアクセスできません。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;おわりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;おわりに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
+呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。&lt;/p&gt;
+&lt;p&gt;なお、AnkiWeb との同期が上手く行かない場合、&lt;a href=&#34;http://rs.luminousspice.com/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
+に注意すべき点をまとめていますので、参考にしてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/08/31: 初出&lt;/p&gt;
+&lt;p&gt;2014/11/26: 追加: 制限事項&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiが同期できない問題について</title>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;設定の再確認&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;設定の再確認&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki と AnkiWeb との同期で最初につまづく原因は、AnkiWeb のアカウント作成の失敗していること、Anki や連携して使用する AnkiMobile や AnkiDroid の設定が正しく行われていないことです。&lt;/p&gt;
+&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;プロキシ認証の失敗_mac_os_x_および_windows&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;プロキシ認証の失敗 (Mac OS X および Windows)&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/04/23 更新の &lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html#proxies&#34;&gt;Anki Manual Proxies&lt;/a&gt;によれば、Mac OS X および Windows 版の Anki ではツールキットの原因で、システム設定からユーザー名とパスワードの取得ができずプロキシ認証に失敗するとのことです。
+このため、Anki を認証が必要なプロキシ経由で同期するには、環境変数 HTTP_PROXY の設定が必要です。&lt;/p&gt;
+&lt;pre class=&#34;prettyprint&#34;&gt;http://user:pass@proxy.example.com:8080&lt;/pre&gt;
+&lt;p&gt;その際にユーザー名やパスワードに @ を使用している場合には、%40 で置き換える必要があります。&lt;/p&gt;
+&lt;pre class=&#34;prettyprint&#34;&gt;http://user%40workspace:pass@proxy.example.com:8080&lt;/pre&gt;
+&lt;p&gt;Mac OS X および Windows ともにそれぞれのバージョンによって環境変数の設定方法が異なります。お使いになっている環境に適した方法で設定ください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;同期に必須なバージョン&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;同期に必須なバージョン&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki サポートサイトの告知、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/60-anki-and-heartbleed&#34;&gt;Anki and Heartbleed&lt;/a&gt; によれば、Heartbleed 問題の対応のため、AnkiWeb と同期して Anki を使い続けるには、Anki 2.0.24 以降に変更になりました。&lt;/p&gt;
+&lt;h2 id=&#34;mac_os_x_10_5_10_6_用代替ビルドを使用している場合&#34;&gt;Mac OS X 10.5, 10.6 用代替ビルドを使用している場合&lt;/h2&gt;
+&lt;p&gt;Anki サポートサイト Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/problems/syncing-errors-with-older-macs&#34;&gt;Syncing errors with older Macs&lt;/a&gt; によれば、Anki 2.0.30 が必須になりました。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;同期中にタイムアウトが発生する場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;同期中にタイムアウトが発生する場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/#_2031&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ファイル容量制限&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;ファイル容量制限&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;ファイル容量が 100MB を超えるファイルをアップロードすることは出来ません。サーバーエラーが発生します。&lt;/p&gt;
+&lt;p&gt;Anki 2.0.29 Beta 2 (Sep 15) 以降では、100MB を超えるファイルは同期対象外になります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;複数のプロファイルを使用している場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;複数のプロファイルを使用している場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb の特定のアカウントに、特定の機器からは一つのプロファイルだけが接続できます。&lt;/p&gt;
+&lt;p&gt;一つの機器で複数のプロファイルを使っている場合、認証済みのプロファイルを認証解除して、アクセスしたいプロファイルに変更して認証し直します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;複数の機器からアクセスする場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;複数の機器からアクセスする場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;一つのアカウントに同時に複数の機器からアクセスすることはできません。&lt;/p&gt;
+&lt;p&gt;それぞれの機器から順番にアクセスしてください。また、同期中の機器がないか確認してみてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;サポートからのよくある回答&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;サポートからのよくある回答&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のサポートサイトで AnkiWeb の接続障害にする質問に対する、よくある回答は
+アンチウィルス、ファイアウォールなどのセキュリティソフトの設定、VPN ソフトの設定、ISP によるフィルタリングを原因として指摘しています。&lt;/p&gt;
+&lt;p&gt;セキュリティソフトの例外設定のために、Anki の再インストールを勧めている場合もあります。
+また、古いバージョンの Anki を使用していることを指摘されることも多いです。&lt;/p&gt;
+&lt;p&gt;サポートサイトへ質問する前に、これらの項目を事前に確認しておくと良いでしよう。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiweb_の障害情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiWeb の障害情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki と同期する AnkiWeb に障害発生により、同期に失敗したり遅延したりする場合があります。&lt;/p&gt;
+&lt;p&gt;最新情報の確認は、Anki サポートサイトの&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements&#34;&gt;Announcements&lt;/a&gt;の告知をご覧下さい。&lt;/p&gt;
+&lt;p&gt;Anki サポートサイトの&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34;&gt;AnkiWeb&lt;/a&gt;カテゴリでは、AnkiWebについて障害報告したり、他のユーザーからの報告を読むことができます合わせてご利用ください。&lt;/p&gt;
+&lt;h2 id=&#34;主な障害情報の履歴&#34;&gt;主な障害情報の履歴&lt;/h2&gt;
+&lt;h3&gt;2015/02/26&lt;/h3&gt;
+&lt;p&gt;AnkiWeb サーバーにパフォーマンス上の問題が発生していましたが、2015/03/02 に最終的な復旧報告がありました。&lt;/p&gt;
+&lt;p&gt;Anki サポート情報:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/80-ankiweb-performance-updates&#34;&gt;AnkiWeb performance updates&lt;/a&gt; (2015/03/02)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12070-slow-to-synchronise-last-few-days-could-you-check-it-for-me&#34;&gt;Slow to synchronise last few days - could you check it for me?&lt;/a&gt; (2015/03/01)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb/928-ankiweb-too-busy-right-now&#34;&gt;AnkiWeb too busy right now&lt;/a&gt; (2015/02/26)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;2014/09/16&lt;/h3&gt;
+&lt;p&gt;数時間にわたって発生していたサーバーのメンテナンスエラーが、6時40分過ぎに復旧しました。
+Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb/721-ankiweb-maintenance&#34;&gt;AnkiWeb maintenance?&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;2014/04/04&lt;/h3&gt;
+&lt;p&gt;数日前から発生していた AnkiWeb サーバーに発生していたパフォーマンス上の問題を、サーバーのアップグレードで解決しました。
+Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/58-ankiweb-servers-upgraded&#34;&gt;AnkiWeb servers upgraded&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;2013/11/21&lt;/h3&gt;
+&lt;p&gt;13時頃から、AnkiWeb サーバーにネットワーク上の問題が発生し、Anki クライアントアプリケーションとの同期ができなくなっていましが、16時20分過ぎに復旧しました。
+Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/40-ankiweb-problems-again&#34;&gt;AnkiWeb Problems Again&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_の同期に関する修正履歴&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki の同期に関する修正履歴&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankimobile_固有の問題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiMobile 固有の問題&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;iOS アプリ &lt;a target=&#34;_new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;ign-mpt=uo%3D4&#34;&gt;AnkiMobile&lt;/a&gt; の過去のバージョンが原因で発生した問題点を紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;同期中にクラッシュ&#34;&gt;同期中にクラッシュ&lt;/h2&gt;
+&lt;p&gt;AnkiMobile 2.0.14 では、AnkiMobile 2.0.13 へ以前のバージョンからアップグレードすると、多数のメディアファイルを同期した場合にアプリケーションがクラッシュする問題を解決しました。&lt;/p&gt;
+&lt;p&gt;参考情報: Anki サポート Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/problems/ankimobile-2013-may-crash-when-syncing&#34;&gt;AnkiMobile 2.0.13 may crash when syncing&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;不要な完全同期を求めるメッセージ&#34;&gt;不要な完全同期を求めるメッセージ&lt;/h2&gt;
+&lt;p&gt;AnkiMobile 2.0.15 では、不要な場合にも完全同期を促すメッセージを表示する問題を修正しました。&lt;/p&gt;
+&lt;p&gt;参考情報: AnkiMobile サポートフォーラム &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile/2117-deck-needs-total-upload-download-all-the-time&#34;&gt;Inconsistent state upload/download messages&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankidroid_固有の問題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiDroid 固有の問題&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb との同期の障害が、クライアント側の AnkiDroid が原因で発生する場合もあります。&lt;/p&gt;
+&lt;p&gt;AnkiWeb との同期に必須なバージョンは、AnkiDroid 2.3.2 以降です。&lt;/p&gt;
+&lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;https://code.google.com/p/ankidroid/wiki/FAQ#I_get_a_sync_error_about_the_time_of_my_device_when_syncing_with&#34;&gt;AnkiDroid FAQ&lt;/a&gt; によれば、タイムゾーン選択と時刻設定が正しくないと、AnkiWeb との同期でエラーが発生するそうです。&lt;/p&gt;
+&lt;p&gt;AnkiDroid の障害に関する最新情報は、&lt;a target=&#34;_new&#34; href=&#34;http://groups.google.com/group/anki-android&#34;&gt;AnkiDroid Forum&lt;/a&gt;で確認できます。&lt;/p&gt;
+&lt;p&gt;また、Issue Tracker (障害案件一覧) を開発者サイトで検索することもできます。
+&lt;a target=&#34;_new&#34; href=&#34;https://code.google.com/p/ankidroid/issues/list?can=2&amp;amp;q=sync%20status=Accepted%20type=Defect&amp;amp;sort=-id%20-milestone&amp;amp;colspec=ID%20Type%20Priority%20Status%20Milestone%20Owner%20Summary&#34;&gt;検索例: キーワード sync 優先順位 High 状況 Accepted&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/11/21: 初出&lt;/p&gt;
+&lt;p&gt;2014/04/24: 追加: プロキシ認証失敗、必須条件 2.0.24 以上&lt;/p&gt;
+&lt;p&gt;2014/09/08: 追加: 複数のプロファイルや機器からの接続、サポートからのよくある回答&lt;/p&gt;
+&lt;p&gt;2014/09/11: 追加: AnkiDroid 固有の問題&lt;/p&gt;
+&lt;p&gt;2014/09/15: 追加: ファイル容量制限&lt;/p&gt;
+&lt;p&gt;2014/10/19: 追加: Anki 2.0.30、2.0.31 の変更点&lt;/p&gt;
+&lt;p&gt;201M/10/30: 追加: AnkiMobile 2.0.13 が同期中にクラッシュする問題&lt;/p&gt;
+&lt;p&gt;2014/11/11: 追加: AnkiMobile 2.0.14 の変更点、AnkiDroid の必須バージョン&lt;/p&gt;
+&lt;p&gt;2014/11/12: 追加: AnkiMobile 2.0.15 の変更点&lt;/p&gt;
+&lt;p&gt;2015/02/26: 追加: AnkiWeb 処理能力の問題&lt;/p&gt;
+&lt;p&gt;2015/03/02: 更新: AnkiWeb 処理能力の問題&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiのインストール</title>
+      <link>http://rs.luminousspice.com/install_anki/</link>
+      <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <description>最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。AnkiのデスクトップPC版(Mac, Windows, Linux/BSD)については、ダウンロードからインストールまでの手順を、Apple機器(ipod touch, ipad, iPhone)とAndroid(アンドロイド)機器、Chromebookについては、最新版Ankiのダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。Anki のデスクトップ PC 版 (OS X, Windows, Linux/BSD) については、ダウンロードからインストールまでの手順を、Apple 機器 (ipod touch, ipad, iPhone) とAndroid (アンドロイド) 機器、Chromebook については、最新版 Anki のダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_のダウンロードとインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki のダウンロードとインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、デスクトップ PC 版とモバイルデバイス版で機能に違いがあります。
+モバイルデバイス版は主に学習に特化した機能制限版です。
+また OS 毎にダウンロードファイルが異なり、入手先も異なります。
+デスクトップ PC 版は、&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki サイト&lt;/a&gt;からアプリケーションをローカルにダウンロードしてインストールします。
+モバイルデバイス版は、iOS 版 AnkiMobile は iTunes App Store、Android 版 Ankidroid は Google Play よりインストールします。
+この記事では、デスクトップ版のダウンロード先とインストール方法、モバイルデバイス版の入手先について紹介します。
+また、インストールの際に役立つ参考文書についても紹介します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+この記事の作成時のデスクトップ版の最新バージョンは、Anki 2.0.31 です。今後のアップグレードで、URLやファイル名が変更になる可能性があります。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップ版を AnkiWeb サーバーとデータを同期する場合は、Anki 2.0.24 以降が必須条件になりました。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;デスクトップpcの場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;デスクトップPCの場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;デスクトップ PC 版はダウンロードファイルは別々ですが、一つのプロジェクトとして開発していて OS は違ってもドキュメントは共通です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.luminousspice.com/2013/02/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
+&lt;/li&gt;
+&lt;li&gt;
+前回の記事、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;では Anki の環境設定の初期化、クリーンインストールする際の注意点をまとめています。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/download/mirror/&#34;&gt;最新版以外のアプリケーションを含むアーカイブ&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;os_x_へインストール&#34;&gt;OS X へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+起動中の Anki があれば終了します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Mac]ボタンを押し、&lt;code&gt;anki-2.0.31.dmg&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+ダウンロードした dmg ファイルを開き、Anki ファイルをアプリケーションフォルダーかデスクトップにドラッグしてコピーします。
+&lt;/li&gt;
+&lt;li&gt;
+コピーしたファイルを開くと Anki は起動します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+OS X 版 Anki をお使いになるには、OS X 10.7 以降の Intel Mac が必要です。
+&lt;/li&gt;
+&lt;li&gt;
+OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate Version) を用意しています。&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;の[Alternate Version]というリンクをクリックして入手できます。ダウンロードファイルは &lt;code&gt;anki-2.0.31.qt47.dmg&lt;/code&gt; です。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;windows_へインストール&#34;&gt;Windows へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#windows&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Windows]ボタンを押し、&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダブルクリックしてインストーラーを実行します。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップ上の Anki のショートカットアイコンをダブルクリックすると、Anki は起動します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ubuntu_debian_へインストール&#34;&gt;Ubuntu/Debian へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Ubuntu/Debian]ボタンを押し、&lt;code&gt;anki-2.0.31.deb&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+お使いになっているシステムのパッケージマネージャーを使ってダウンロードした deb ファイルをインストールします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki サイトで提供しているバージョンに比べて、Ubuntu/Debian の正式リポジトリに含まれている配布パッケージのバージョンは古いため、Anki サイトから直接アプリケーションを入手することをお勧めします。&lt;/p&gt;
+&lt;h2 id=&#34;fedora_へインストール&#34;&gt;Fedora へインストール&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo yum install anki&lt;/code&gt; を実行するだけでインストールできます。&lt;/p&gt;
+&lt;h2 id=&#34;その他の_linux_bsd_システムへインストール&#34;&gt;その他の Linux/BSD システムへインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki Source]ボタンを押し、&lt;code&gt;anki-2.0.31.tgz&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+ダウンロードした tarball(tgz) を解凍し、&lt;code&gt;README&lt;/code&gt; ファイルに記載している指示に従ってインストールします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;モバイルデバイスの場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;モバイルデバイスの場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;モバイルデバイス版のアプリケーションは iOS と Android でそれぞれ別々のプロジェクトで開発しています。
+名称も、iOS 版は AnkiMobile、Android 版は AnkiDroid といったデスクトップ版とは違った名称を使っています。
+必ずしも PC 版と同じ機能が使える訳ではありません。また、バージョン番号も一致していません。
+ドキュメントもそれぞれ独自に作成しており、デスクトップ PC 版のドキュメントがそのまま使える訳ではないことに注意してください。&lt;/p&gt;
+&lt;h2 id=&#34;ios_端末_ipod_touch_ipad_iphone_へ_ankimobile_をインストール&#34;&gt;iOS 端末 (iPod Touch, iPad, iPhone) へ AnkiMobile をインストール&lt;/h2&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile は有料アプリケーションです。
+このアプリケーションを購入すると、将来のAnkiの開発を支援することができます。&lt;/p&gt;
+&lt;p&gt;AnkiMobile は、&lt;a target=&#34;new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;iTunes App Store&lt;/a&gt; から購入できます。&lt;/p&gt;
+&lt;p&gt;どうしても無償のアプリケーションを使いたい場合は、&lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; が利用できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/docs/am-upgrade.html&#34;&gt;AnkiMobile2へのアップグレード&lt;/a&gt; (英文)
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;android_端末へ_ankidroid_をインストール&#34;&gt;Android 端末へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;p&gt;AnkiDroid (アンキドロイド) は、Anki の開発者 Damien Elmes とは別のグループが独自に開発している無償のアプリケーションです。&lt;/p&gt;
+&lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://play.google.com/store/apps/details?id=com.ichi2.anki&#34;&gt;Google Play&lt;/a&gt;から入手できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;https://ankidroid.org/docs/manual-ja.html&#34;&gt;AnkiDroid 2 取扱説明書&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://code.google.com/p/ankidroid/wiki/Upgrading?wl=ja&#34;&gt;AnkiDroid 2.0へのアップグレード方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chromebook_へ_ankidroid_をインストール&#34;&gt;Chromebook へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;p&gt;AnkiDroid 2.4 以降で Chromebook がサポートされています。&lt;/p&gt;
+&lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://chrome.google.com/webstore/detail/ankidroid/ckmbkodkbmkmdjdimeiddeljndcneifo&#34;&gt;Chrome ウェブストア&lt;/a&gt;から入手できます。&lt;/p&gt;
+&lt;h2 id=&#34;その他の端末&#34;&gt;その他の端末&lt;/h2&gt;
+&lt;p&gt;その他の端末には専用のクライアントソフトはありませんが &lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;が利用できます。
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#other&#34;&gt;Ankiサイト&lt;/a&gt;の　Download Anki 項目の Other タブの内容をご覧ください。
+このページでは、携帯電話、Blackberry 端末、Maemo、Windows Phone/Windows Mobile/Windows RT、ニンテンドーDS、Sony PSP、Palm端末の情報を掲載しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Knowledge Base &lt;a target=&#34;new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/windows-phone-windows-rt&#34;&gt;Windows Phone &amp;amp; Windows RT&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_のアンインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki のアンインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のアンインストールをするには、Anki のアプリケーション本体と Anki フォルダー &lt;code&gt;Documents/Anki/&lt;/code&gt; を削除します。
+Anki フォルダーに含まれている単語帳、学習履歴、ユーザープロファイル、バックアップファイルも削除されます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;さっそく_anki_を使ってみよう&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;さっそく Anki を使ってみよう&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;インストールしてどこから手をつけたら良いか分からない方には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;をお勧めします。デスクトップPC版を例にして、Ankiの使い方の基本的な流れが体験できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/09/29: 初出&lt;/p&gt;
+&lt;p&gt;2014/04/13: Anki 2.0.24 からの提供ファイルの変更に対応&lt;/p&gt;
+&lt;p&gt;2014/04/24: Anki 2.0.26 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2014/09/22: Anki 2.0.29 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2015/01/15: AnkiDroid 日本語マニュアル、Anki 2.0.31 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2015/01/29: AnkiDroid の Chromebook サポートへの対応&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiのノートタイプの選び方</title>
+      <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
+      <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
+      <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ノートタイプを使った作業手順&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;ノートタイプを使った作業手順&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki作者Damien Elmesの作ったYouTubeビデオ&#34;&lt;a target=&#34;_new&#34; href=&#34;http://www.youtube.com/watch?v=DnbKwHEQ1mA&#34;&gt;Switching Card Order&lt;/a&gt;&#34;を見てください。
+英語の説明音声が分からなくても、画面を眺めるだけで良いです。&lt;/p&gt;
+&lt;p&gt;このビデオの次のような作業をしています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+カードテンプレートを編集してForwardカードの表裏を入れ替える。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+カードテンプレートを裏面カード(Backwards)を追加する。表面と裏面の2枚になった。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+一つのノートから裏面カードと表面カードが連続し出題すると答えが分かってしまうので、カードの順番を並び替える。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;既定のノートタイプ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;既定のノートタイプ&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Ankiは既定で4つのノートタイプを用意しています。既定設定では基本になっているので、そのまま使い続けている方が多いと思います。[Front]フィールドと[Back]フィールドからなる基本的なものです。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;div class=&#34;title&#34;&gt;既定の4種類のノートタイプ&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+基本
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+基本(裏面カード付き)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+基本(裏面カードを任意選択)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+穴埋め
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートタイプ選択画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. ノートタイプ選択画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;はじめに見ていただいた、ビデオでは裏面カードを編集して作りました。同じことはノートタイプを &lt;strong&gt;[基本(裏面カード付き)]&lt;/strong&gt; へ変更することでもできます。この場合は、自動的に裏面カードを生成します。&lt;/p&gt;
+&lt;p&gt;ノートタイプを変更する操作手順は、次の通りです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ブラウザーで変更したいノートを選択。
+&lt;/li&gt;
+&lt;li&gt;
+メニューバーから[編集]&amp;gt;[ノートタイプを変更]
+&lt;/li&gt;
+&lt;li&gt;
+変更先のノートタイプを[基本(裏面カード付き)]に指定。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;基本_裏面カードを任意選択_の違いは何か&#34;&gt;基本(裏面カードを任意選択)の違いは何か&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;基本(裏面カード付き)は、全てのノートに対して表裏2枚のカードを作ります。
+基本(裏面カードを任意選択)は、[Add Reverse]フィールドに何らかの入力がある場合だけ、反転した裏面カードを表示します。[Add Reverse]フィールドをデータフィールドとして活用することもできます。画像や音声などのメディアを入れて画面上に表示する使い方もできます。&lt;/p&gt;
+&lt;pre&gt;{{#Add Reverse}}{{Back}}{{/Add Reverse}}&lt;/pre&gt;
+&lt;p&gt;Add Reverseが空でない時に[Back]フィールドを表示する条件式を設定しています。&lt;/p&gt;
+&lt;h3 id=&#34;穴埋め_cloze_とは&#34;&gt;穴埋め(Cloze)とは&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;穴埋め問題を作るのに必要な特別のノートタイプです。穴埋め問題の作成方法は、&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;で説明しています。穴埋め問題の詳しい説明は、&lt;a target=&#34;_new&#34; href=&#34;http://wikiwiki.jp/rage2050/?ClozeDeletion&#34;&gt;ユーザーマニュアル&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ノートタイプの拡張法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;ノートタイプの拡張法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;既定のノートタイプを編集して独自のノートタイプを作成する手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。関心のある方はご覧ください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;スマホアプリ版の制限事項&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;スマホアプリ版の制限事項&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;最新版の iOS アプリ AnkiMobile 2.0.11、アンドロイドアプリ AnkiDroid 2.2.3 は、ノート作成時にこの投稿で説明した既定の 4 種類のノートタイプから選択できます。
+ただし、登録後の変更が出来ません。PC 版で変更する必要があります。
+また、既定のノートタイプの編集もできません。&lt;/p&gt;
+&lt;p&gt;PC 版で作業したノートタイプを AnkiMobile や AnkiDroid に持ち込むには、持ち込みたいノートタイプを使っているカードを &lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 経由で同期する&lt;/a&gt;か、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;apkg ファイルに書き出して&lt;/a&gt;からスマホに読み込みます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/06/16: 初出&lt;/p&gt;
+&lt;p&gt;2014/10/01: 追加 スマホアプリ版の制限事項&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

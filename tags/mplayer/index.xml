@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mplayer on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/mplayer/</link>
+    <description>Mplayer | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 30 Dec 2015 18:30:52 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/mplayer/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki の動画再生に使えるショートカットキー</title>
+      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <pubDate>Wed, 30 Dec 2015 18:30:52 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できる MPlayer のショートカットキーをまとめました。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。&lt;/p&gt;
+&lt;p&gt;Anki で動画を再生する時、ただ動画を再生するウィンドウが立ち上がるだけで、このままでは学習には使いにくいと感じている人はいませんか。
+実は、速度を変えたり、巻き戻しや早送りをするショートカットキーが存在するのです。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. ショートカットキーで動画の再生速度 91％ に変更&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Anki のメディアファイルの処理には &lt;a target=&#34;_new&#34; href=&#34;http://www.mplayerhq.hu/&#34;&gt;MPlayer&lt;/a&gt; というアプリケーションを使用しています。音声の場合は機能しないのですが、動画の場合にはこの MPlayer 独自のショートカットキーで再生を制御できます。
+この機能は Anki のマニュアルでは触れられていないため、ユーザーにあまりよく知られていません。そこで、Anki で動画を学習する際に使うであろう機能を選んでまとめました。&lt;/p&gt;
+&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. Anki で動作する MPlayer 再生制御ショートカットキー&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span4&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;キー&lt;/th&gt;
+&lt;th&gt;操作内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;← / →&lt;/td&gt;
+&lt;td&gt;10 秒早送り/巻き戻し&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;↑ / ↓&lt;/td&gt;
+&lt;td&gt;1 分早送り/巻き戻し&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ / ]&lt;/td&gt;
+&lt;td&gt;10% 再生速度減少/増加&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;{ / }&lt;/td&gt;
+&lt;td&gt;現在の再生速度を半分/二倍&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;delete&lt;/td&gt;
+&lt;td&gt;再生速度を標準に戻す&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;p / space&lt;/td&gt;
+&lt;td&gt;一時停止&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;q / esc&lt;/td&gt;
+&lt;td&gt;終了&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/ / *&lt;/td&gt;
+&lt;td&gt;音量減少/増加&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9 / 0&lt;/td&gt;
+&lt;td&gt;音量減少/増加&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;m&lt;/td&gt;
+&lt;td&gt;消音&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o&lt;/td&gt;
+&lt;td&gt;表示情報を変更 (再生時間など)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;command + 0&lt;/td&gt;
+&lt;td&gt;半分の画面の大きさ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;command + 1&lt;/td&gt;
+&lt;td&gt;実際の画面の大きさ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;command + 2&lt;/td&gt;
+&lt;td&gt;二倍の画面の大きさ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;command + f&lt;/td&gt;
+&lt;td&gt;全画面表示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;なお、動作確認は Mac でのみ行いました。&lt;/p&gt;
+&lt;p&gt;詳しい情報はオリジナルの&lt;a href=&#34;http://www.mplayerhq.hu/DOCS/man/en/mplayer.1.html#INTERACTIVE%20CONTROL&#34;&gt;MPlayer ドキュメント&lt;/a&gt;に掲載されています。なお、Anki から呼び出した場合に、動作しない機能もあるようです。&lt;/p&gt;
+&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

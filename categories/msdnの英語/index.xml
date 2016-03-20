@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Msdnの英語 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/</link>
+    <description>Msdnの英語 | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 15 Apr 2014 00:00:30 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki 単語帳サンプル一覧</title>
+      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <description>これまでの投稿で公開してきた Anki 単語帳を紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。List of Anki Deck Samples.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;これまでの投稿で公開してきた Anki 単語帳のサンプルを紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;辞書を開くリンクと読み上げ機能&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;辞書を開くリンクと読み上げ機能&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;では、カードにフィールドの文字を辞書検索するリンクを追加する方法、アドオン AwesomeTTS を使って読み上げる方法を説明しました。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_13.png&#34; alt=&#34;カード表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. カード表示例&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Mac OS X の場合は、内蔵の辞書アプリからテキストを検索して表示します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/how2anki4.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ how2anki4.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;解答キー入力機能と空欄補充&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;解答キー入力機能と空欄補充&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;では、解答をキー入力するカードのつくり方、さらに空欄補充問題と組み合わせた応用例を紹介しています。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;カードのプレビュー&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. カードのプレビュー&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;空欄補充問題の解答をカードの穴埋め欄に記入するカードです。解答を表示すると入力内容と正解の比較ができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;widows_開発者のための頻出語彙_msdn_word_list&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Widows 開発者のための頻出語彙 MSDN Word List&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;では Windows アプリケーション開発者が技術文書を読むための語彙集を作成しました。
+一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、MSDN Magazineの使用語彙の98%がカバーできる語彙824を収録しています。
+なお、この分析には固有名詞は除外して計算しています。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. 単語帳の内訳&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span4&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;子単語帳名&lt;/th&gt;
+&lt;th&gt;単語数&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;MSDNWords::Level1&lt;/td&gt;
+&lt;td&gt;179&lt;/td&gt;
+&lt;td&gt;基本語彙(GSL+AWL)との組み合わせで使用語彙の95%までカバーできる単語(カタカナ、略語を除く)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MSDNWords::Level2&lt;/td&gt;
+&lt;td&gt;276&lt;/td&gt;
+&lt;td&gt;基本語彙(GSL+AWL)との組み合わせで使用語彙の98%までカバーできる単語(カタカナ、略語を除く)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MSDNWords::Level3&lt;/td&gt;
+&lt;td&gt;102&lt;/td&gt;
+&lt;td&gt;過去10年分のバックナンバーまで分析対象を拡大した時、新たに追加になった頻出語彙&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MSDNWords::カタカナ英語&lt;/td&gt;
+&lt;td&gt;223&lt;/td&gt;
+&lt;td&gt;カタカナ英語として使われている単語&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MSDNWords::略語&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;訳語をあてずに使われている略語&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sample_deck_msdnwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 単語帳使用例&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;amp;refinement=118%2C117&amp;amp;ac=2&#34;&gt;MSDNオンライン検索&lt;/a&gt;(MSDN MagazineとMSDN Library限定)、&lt;a target=&#34;_new&#34; href=&#34;http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;amp;langID=ja-jp&#34;&gt;マイクロソフト用語集&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;wordpress_開発者のための_wordpress_codex_頻出語彙&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;WordPress 開発者のための WordPress Codex 頻出語彙&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;では、WordPress 開発者が技術文書を読むための語彙集を作成しました。
+一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、WordPress Codex の使用語彙の98%がカバーできる語彙445を収録しています。
+なお、この分析には固有名詞は除外して計算しています。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 2. 単語帳の内訳&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span4&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;タグ名&lt;/th&gt;
+&lt;th&gt;単語数&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;WPCX1&lt;/td&gt;
+&lt;td&gt;205&lt;/td&gt;
+&lt;td&gt;頻出2000語と学術語彙(AWL)との組み合わせで使用語彙の95%までカバーできる単語&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WPCX2&lt;/td&gt;
+&lt;td&gt;241&lt;/td&gt;
+&lt;td&gt;頻出2000語と学術語彙(AWL)との組み合わせで使用語彙の98%までカバーできる単語&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sample_deck_wpcxwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 単語帳使用例&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://codex.wordpress.org/&#34;&gt;WordPress Codex&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
+      <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
+      <pubDate>Sun, 09 Jun 2013 20:00:25 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
+      <description>この連載では、頻出語句(2000&#43;AWL&#43;MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォローアップを目的としています。最新号の記事から、頻出語句に漏れた語彙を紹介します。</description>
+      <content>&lt;section id=&#34;msdnの英語_1_june_2013_a_modern_c_library_for_directx_programming_から&#34;&gt;
+&lt;p&gt;この連載では、頻出語句(2000+AWL+MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォローアップを目的としています。最新号の記事から、頻出語句に漏れた語彙を紹介します。今回は2013年6月号の&#34;A Modern C++ Library for DirectX Programming&#34;を取り上げます。&lt;/p&gt;
+&lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN Magazineの過去の記事からコーパスを作り、MSDNに特有な語彙の頻出表を作りました。
+一般的な英語の頻出語彙表(頻出2000語とAWL)と組み合わせると、MSDNの記事の98%をカバーできるものです。&lt;/p&gt;
+&lt;p&gt;日本の高校で英語教育を受けた方にとっては、このリストが非常に物足りなく感じるかもしれません。
+実は、このリストを超えた98%以降頻度の語彙に興味深い語彙が多数含まれています。&lt;/p&gt;
+&lt;p&gt;記事が読めるためには、頻出語句(2000+AWL+MSDN Wordlist)を学習していただくのが必須です。&lt;/p&gt;
+&lt;p&gt;この連載では、MSDN word listのフォローアップとして、頻出語句の学習は終了した人を対象に、実際の記事の中に現れた頻出語句から外れたの語彙を紹介していきたいと思います。
+低頻度といっても、MSDN Magazineは98%レベルで8000語で作成されているので、一般の英語の語彙としては、高頻度ではないとしても頻出語句です。このような語句に慣れ親しんで、MSDNの原典にあたる習慣をつけるのに役立てばと思っています。&lt;/p&gt;
+&lt;p&gt;MSDN Magazineの日本語版の最近の制作状況を見ると、特集記事全てとコラムから1つ程度、翻訳されているようです。日本語化されているものは当然日本語で読むでしょうから、翻訳対象にならないコラムとオンライン限定の記事を取り上げたいと思います。scriptjunkie{}は今のところ対象外です。毎回一つの記事を、語彙分析して低頻度の語句を紹介していきたいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;おことわり&#34; class=&#34;section&#34;&gt;おことわり&lt;/h2&gt;
+&lt;p&gt;この連載は、英文で読み進めるための支援を目的としています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+日本語訳の補完する意図はありません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+日本語への翻訳の仕方を解説することはありません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+語義の解説はしません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+内容解説もしません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+読解力向上も目指していません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;この記事の内容は私(Luminous Spice)の私見を示すものです。Microsoft Corporationの見解を示すものではありません。&lt;/p&gt;
+&lt;p&gt;MSDNは、Microsoft Corporationの商標であり、MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
+&lt;h2 id=&#34;使うもの&#34; class=&#34;section&#34;&gt;使うもの&lt;/h2&gt;
+&lt;p&gt;今回は、先週公開になった最新号MSDN Magazine June 2013からDirectXとC++についてのコラムを取り上げたいと思います。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.aspx&#34;&gt;&#34;A Modern C++ Library for DirectX Programming&#34;&lt;/a&gt; MSDN Magazine June 2013 Volume 28 No 6, 1105 Media, Inc.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;と&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;このツールは語彙水準を調べるのに使います。&lt;/p&gt;
+&lt;h2 id=&#34;この記事の語彙水準&#34; class=&#34;section&#34;&gt;この記事の語彙水準&lt;/h2&gt;
+&lt;p&gt;代表的なイギリス英語のコーパス BNC(British National Corpus)頻出2万語を使って、この記事に使われている約2000語の語彙の分布を調べてみました。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. BNCの頻度表に基づいた語彙水準分析&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span6&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;頻度水準&lt;/th&gt;
+&lt;th&gt;累積カバー%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;K1 Words :&lt;/td&gt;
+&lt;td&gt;82.7%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K2 Words :&lt;/td&gt;
+&lt;td&gt;91.2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K3 Words :&lt;/td&gt;
+&lt;td&gt;93.2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K4 Words :&lt;/td&gt;
+&lt;td&gt;94.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K5 Words :&lt;/td&gt;
+&lt;td&gt;95.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K6 Words :&lt;/td&gt;
+&lt;td&gt;97.1%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K7 Words :&lt;/td&gt;
+&lt;td&gt;97.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K8 Words :&lt;/td&gt;
+&lt;td&gt;98.5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K9-K20&lt;/td&gt;
+&lt;td&gt;99.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;リスト外:&lt;/td&gt;
+&lt;td&gt;100.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;合計&lt;/td&gt;
+&lt;td&gt;100.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;より作成)&lt;/p&gt;
+&lt;p&gt;K8=98.5%でMSDN Word Listを作成した時に検証した記事と同程度の結果を得ました。頻出8000ワードファミリーの語彙力があれば、使用語彙の98%をカバーできることに変わりありません。&lt;/p&gt;
+&lt;p&gt;ネイティブ並みの2万語の語彙力を持ってしても1%は未知語になります。&lt;/p&gt;
+&lt;p&gt;MSDN Magazineのバックナンバーから作成した、頻出語彙表MSDN word listの効果を見てみましょう。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 2. 頻出語彙集　MSDN word listの効果&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;語彙分類   &lt;/th&gt;
+&lt;th&gt;Families &lt;/th&gt;
+&lt;th&gt;Types &lt;/th&gt;
+&lt;th&gt;Tokens &lt;/th&gt;
+&lt;th&gt;割合&lt;/th&gt;
+&lt;th&gt;累積&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;GSL K1 Words (1-1000):&lt;/td&gt;
+&lt;td&gt;339&lt;/td&gt;
+&lt;td&gt;431&lt;/td&gt;
+&lt;td&gt;1700&lt;/td&gt;
+&lt;td&gt;81.03%&lt;/td&gt;
+&lt;td&gt;81.03%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GSL K2 Words (1001-2000):&lt;/td&gt;
+&lt;td&gt;55&lt;/td&gt;
+&lt;td&gt;68&lt;/td&gt;
+&lt;td&gt;108&lt;/td&gt;
+&lt;td&gt;5.15%&lt;/td&gt;
+&lt;td&gt;86.18%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AWL Words (academic):&lt;/td&gt;
+&lt;td&gt;67&lt;/td&gt;
+&lt;td&gt;85&lt;/td&gt;
+&lt;td&gt;158&lt;/td&gt;
+&lt;td&gt;7.53%&lt;/td&gt;
+&lt;td&gt;93.71%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MSDN Words (technical):&lt;/td&gt;
+&lt;td&gt;&amp;#8230;&lt;/td&gt;
+&lt;td&gt;58&lt;/td&gt;
+&lt;td&gt;119&lt;/td&gt;
+&lt;td&gt;5.67%&lt;/td&gt;
+&lt;td&gt;99.38%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;リスト外:&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;0.62%&lt;/td&gt;
+&lt;td&gt;100.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;合計&lt;/td&gt;
+&lt;td&gt;461+?&lt;/td&gt;
+&lt;td&gt;653&lt;/td&gt;
+&lt;td&gt;2098&lt;/td&gt;
+&lt;td&gt;100.00%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;より作成)&lt;/p&gt;
+&lt;p&gt;99.38%という結果を得ました。&lt;code&gt;GSL(2000)+AWL(570)+MSDN Word list(720)=3300&lt;/code&gt; ですから、MSDN Magazineを読む場合には、MSDN Magazineに特化した頻出3300語で英語全体の頻出8000語と同じパフォーマンスを発揮します。&lt;/p&gt;
+&lt;p&gt;日本の高校生の語彙水準が3000語レベルとの研究発表が多数出ていますので、GSL+AWLの中の不足分をチェックして、更にMSDN Word listを学習すれば、MSDNを読む分には98%のカバーが実現できます。&lt;/p&gt;
+&lt;h3 id=&#34;gslとbnc_top2000について&#34;&gt;GSLとBNC Top2000について&lt;/h3&gt;
+&lt;p&gt;上記2つの結果で、頻出2000語にGSLとBNCが使い分けられています。単体で比較するとBNC2K(91.2%)&amp;gt;GSL(85.85%)でパフォーマンスの面で差が出ていますが、AWLと組み合わせた時には差はほとんど出ません。&lt;/p&gt;
+&lt;p&gt;その理由はAWLの作成基準にあって、AWLはGSLと重複しないように語彙を選択しています。一方BNCは単純にコーパスから頻度順に選んでいますので、BNC上位2000語とAWLには重複が発生しています。
+結果として、AWLと組み合わせた時には効果に差が出ないのです。&lt;/p&gt;
+&lt;h3 id=&#34;残りの未知の語彙ってどんなの&#34;&gt;残りの未知の語彙ってどんなの&lt;/h3&gt;
+&lt;p&gt;そこで本題です。それでも分からない語彙、13語はどんなものか調べてみましょう。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 3. リスト外の語彙の語彙水準&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span2&#34;&gt;
+&lt;col class=&#34;span6&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;語彙レベル&lt;/th&gt;
+&lt;th&gt;語彙_[出現頻度]&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-4000 types:&lt;/td&gt;
+&lt;td&gt;intimidating_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-5000 types:&lt;/td&gt;
+&lt;td&gt;dizzying_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-6000 types:&lt;/td&gt;
+&lt;td&gt;overheard_[1] prevalent_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-7000 types:&lt;/td&gt;
+&lt;td&gt;concise_[1] embodied_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-8000 types:&lt;/td&gt;
+&lt;td&gt;prerequisite_[1] prerequisites_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-9000 types:&lt;/td&gt;
+&lt;td&gt;palatable_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BNC-12000 types:&lt;/td&gt;
+&lt;td&gt;hardcore_[1]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OFFLIST:&lt;/td&gt;
+&lt;td&gt;nonvirtual_[3]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;上の表は、表2でリスト外になった単語を再びVocabProfile BNCにかけて、その言語水準を調べた結果です。
+全体を見てみると&#34;hardcore&#34;と&#34;nonvirtual&#34;は例外ですが、やはり8000語程度の語彙に収まっています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&#34;concise&#34;と&#34;hardcore&#34;はカタカナ英語になっています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&#34;virtual&#34;はAWLに含まれている頻出語彙に接頭辞&#34;non-&#34;がついた造語なので容易に意味が類推できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&#34;prerequisite(s)&#34;は、開発系のインストール文書には頻出語句です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;残るは6語です。活用形を原型に直しました。
+&#34;dizzy&#34;,&#34;embody&#34;,&#34;intimidate&#34;,&#34;overhear&#34;,&#34;palatable&#34;,&#34;prevalent&#34;&lt;/p&gt;
+&lt;p&gt;この文書は約2000語の長さです。頻出2000語+AWL+MSDN Word Listの語彙力があれば、
+この6語が仮に乱丁で読めなかったとしても文書全体の意味は理解できる語彙力は既に持っています。
+きっと、辞書で意味を調べなくても分かるはずです。まず、読んでみてからあとで時間があったら辞書を引いてみるのが良いでしょう。&lt;/p&gt;
+&lt;p&gt;この記事が難しく感じるとしたら、その一つは内容の専門性です。日本語で書いてあったとしても難しく感じるでしょう。それからMSDN Magazineは難しいという先入観、最後に英文の慣れが不足していることです。&lt;/p&gt;
+&lt;p&gt;先入観は、今この場で捨てましょう。&lt;/p&gt;
+&lt;p&gt;慣れについては、今からたくさんのMSDN Magazineの記事を読んでいけば解決します。&lt;/p&gt;
+&lt;p&gt;専門性については、開発の経験値を積むことと、たくさんの品質の高い技術情報を読んで知識を高めることによって培われます。高い質の情報を得る近道は、実際に製品や技術を作り出したその人の書いた一次情報、原典を読むことです。
+MSDN Magazineはこの目的に最適な専門誌です。
+もちろん開発者ブログもおすすめです。&lt;/p&gt;
+&lt;h2 id=&#34;未知語彙の学習単語帳&#34; class=&#34;section&#34;&gt;未知語彙の学習単語帳&lt;/h2&gt;
+&lt;p&gt;この記事で紹介した最初の未知語13語は、Anki単語帳にしました。Ankiを使って学習することができます。&lt;a href=&#34;http://rs.luminousspice.com/wp-content/uploads/words_in_msdn/wordsinmsdn.apkg&#34;&gt;Anki単語帳パッケージ wordsinmsdn.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;連載毎に単語帳のノートが追加できるような仕組みを作っていきたいです。&lt;/p&gt;
+&lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
+&lt;p&gt;このAnkiの使い方全般については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki &lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;子どもの頃、補助輪を外して自転車を乗り始めたことを思い出してください。
+きっと、ご両親や兄弟、友だちが後ろで支えてくれたのではないかと思います。
+この連載は、MSDN Magazineを原文で読むためにそのようなサポートの役割を果たしたいと思います。&lt;/p&gt;
+&lt;p&gt;皆さんが、ペダルを強くこぎ続けて前に進めば、自分の持っている語彙で記事の英文を読み進める意欲があれば、知らない間に、一人で自由に乗り回せるこつが掴めるでしょう。英文も同じように読んでいるでことでしょう。&lt;/p&gt;
+&lt;p&gt;ある時後ろを振り向いたら、支えてくれているはずの人がいないのに気がつきませんでしたか。
+この連載も同じです。
+連載だからといって、読み続ける必要はないです。皆さんが自然に記事を読めるようになったら役割を果たしたことになります。また、この連載も予告なく終了する予定です。&lt;/p&gt;
+&lt;p&gt;好きな記事をたくさん読んで、楽しんでください。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
+      <link>http://rs.luminousspice.com/words-in-msdn/</link>
+      <pubDate>Sat, 01 Jun 2013 23:00:37 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
+      <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</description>
+      <content>&lt;section id=&#34;msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略&#34;&gt;
+&lt;p&gt;ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。&lt;/p&gt;
+&lt;h2 id=&#34;おことわり&#34; class=&#34;section&#34;&gt;おことわり&lt;/h2&gt;
+&lt;div class=&#34;sidebarblock well&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;p&gt;この記事は、楽しむことを目的とした内容で、学術的な厳密性を考慮していません。教育学的観点からの配慮もしていません。&lt;/p&gt;
+&lt;p&gt;MSDNは、Microsoft Corporationの商標であり、
+MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;msdnの情報を読むのに必要な条件&#34; class=&#34;section&#34;&gt;MSDNの情報を読むのに必要な条件&lt;/h2&gt;
+&lt;p&gt;情報提供を目的しているMSDNの技術文書は、簡潔な構造で明快な文章で、定型的な表現を繰り返し使って構成してます。
+文法の面では、日本の中学校で習う英語の文法事項が分かれば理解できる内容です。&lt;/p&gt;
+&lt;p&gt;読解に必要なのは、内容に対する前提知識とアプリケーション開発の分野の専門用語、そして全体を構成する語彙です。
+内容に対する前提知識は、ソースコードの理解と開発ツールなどの製品の習熟によって得られます。
+英語の理解力とは別の知識ですが理解力を左右する重要な要素です。実際の開発経験の中で高めてください。&lt;/p&gt;
+&lt;p&gt;そうすると、英語学習でできることは語彙に絞られます。MSDNを読むのに語彙はどれくらい必要なのでしょうか。&lt;/p&gt;
+&lt;h2 id=&#34;msdnの語彙水準を調べる&#34; class=&#34;section&#34;&gt;MSDNの語彙水準を調べる&lt;/h2&gt;
+&lt;p&gt;一つの例として、MSDN Magazine最新号(May 2013 Volume 28 Number 5)に収録の記事&lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn198241.aspx&#34;&gt;Parse JSON Strings in Windows Runtime Components&lt;/a&gt;の使用語彙について調べてみましょう。&lt;/p&gt;
+&lt;p&gt;VP(Vocabulary Profile)という分析方法があります。コーパス(Corpus)から求めたある言語全体の語彙頻度表に、ある文章の中の語彙をあてはめた時の分布が得られます。&lt;/p&gt;
+&lt;p&gt;一般的によく使われている語彙をたくさん使っている文章なのか、まれにしか使わない単語をたくさん使っている文章なのか知ることができます。&lt;/p&gt;
+&lt;p&gt;ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;を使います。
+このプログラムは、英語の頻出2万語(ワードファミリー;Word Family)の使用分布を調べてくれます。頻出語句は、書き言葉と話し言葉の約1億語を収録するイギリス英語のコーパス、BNC(British National Corpus)の頻度上位2万語を使用しています。英語のコーパスとしては、代表的なものです。Oxford University PressやLongmanはBNCのプロジェクトに資金提供し、それぞれの辞書にこのコーパスを利用しています。&lt;/p&gt;
+&lt;p&gt;様々な研究結果がありますが、英語の成人ネイティブスピーカーの語彙数は2−3万ワードファミリーと言われています。&lt;/p&gt;
+&lt;p&gt;調査結果は1000ワードファミリー毎に20分割して使用語彙数を表示します。最初の1000語つまり1-1000番目までの範囲をK1を表現します。以後K2(1001-2000)というように表示し、最後はK20(19001-20000)になります。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. Parse JSON Strings in Windows Runtime Components&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Freq. Level &lt;/th&gt;
+&lt;th&gt;Coverage (tokens)% &lt;/th&gt;
+&lt;th&gt;Cum%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;K1 Words (1000):&lt;/td&gt;
+&lt;td&gt;81.76% (1)&lt;/td&gt;
+&lt;td&gt;81.76%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K2 Words (2000):&lt;/td&gt;
+&lt;td&gt;10.84% (2)&lt;/td&gt;
+&lt;td&gt;92.60% (3)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K3 Words (3000):&lt;/td&gt;
+&lt;td&gt;2.05%&lt;/td&gt;
+&lt;td&gt;94.65%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K4 Words (4000):&lt;/td&gt;
+&lt;td&gt;1.77%&lt;/td&gt;
+&lt;td&gt;96.42% (4)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K5 Words (5000):&lt;/td&gt;
+&lt;td&gt;0.61%&lt;/td&gt;
+&lt;td&gt;97.03%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K6 Words (6000):&lt;/td&gt;
+&lt;td&gt;0.61%&lt;/td&gt;
+&lt;td&gt;97.64%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K7 Words (7000):&lt;/td&gt;
+&lt;td&gt;0.19%&lt;/td&gt;
+&lt;td&gt;97.83%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K8 Words (8000):&lt;/td&gt;
+&lt;td&gt;0.17%&lt;/td&gt;
+&lt;td&gt;98.00% (5)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K9-K20 (9000-20000)&lt;/td&gt;
+&lt;td&gt;1.22%&lt;/td&gt;
+&lt;td&gt;99.22%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Off-List:&lt;/td&gt;
+&lt;td&gt;0.78%&lt;/td&gt;
+&lt;td&gt;100.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;100.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;表1では次のようなことを示しています。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+BNCの上位1000番目に含まれている単語(K1)がこの文章内の単語の81.76% (1)占めている。
+&lt;/li&gt;
+&lt;li&gt;
+次の1000語つまり1001−2000番目に含まれている単語(K2)は10.84% (2)だった。
+&lt;/li&gt;
+&lt;li&gt;
+上位2000語で92.60% (3)だった。
+&lt;/li&gt;
+&lt;li&gt;
+上位4000語(K1-K4)で96.42% (4)を占める。頻出4000語知っていればこの文書の95%は既知の単語で埋まる。
+&lt;/li&gt;
+&lt;li&gt;
+上位8000語(K1-K8)で98.00% (5)を占める。頻出8000語知っていればこの文書の98%は既知の単語で埋まる。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cobb教授は、この分析で被覆率95%に達するBNCの頻度帯をその文章の語彙水準を示す指標として使っています。
+このMSDN Magazine記事はK4=96.42%でK4で95%を超えるので、4000ワードファミリーの語彙水準ということになります。&lt;/p&gt;
+&lt;p&gt;BNC頻出上位4000語を知っていれば、この文書の95%の単語が分かるということです。&lt;/p&gt;
+&lt;p&gt;ここで注意してほしいのは、この文書の使用語彙3600ワードのうち3420ワードカバーするという意味です。高頻度な単語は繰り返し出てきます。800種類の異なる単語が含まれていますがその95%という訳ではないです。&lt;/p&gt;
+&lt;h2 id=&#34;msdn_magazineの語彙水準の比較&#34; class=&#34;section&#34;&gt;MSDN Magazineの語彙水準の比較&lt;/h2&gt;
+&lt;p&gt;Web VP / BNCの&lt;a href=&#34;http://conc.lextutor.ca/vp/bnc/samples.html&#34;&gt;What texts can I read if I know this many words?&lt;/a&gt;に典型的な分析結果が紹介されています。
+このデータを参考にして、VOA(Voice of America) Special English、The Economist、National Geographic Magazineなどの雑誌、日本の高校や大学で副読本として使う文学作品の分析結果をまとめて表にしました。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 2. MSDNの語彙水準の比較&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span5&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;GSL+AWL&lt;/th&gt;
+&lt;th&gt;カバー95%&lt;/th&gt;
+&lt;th&gt;カバー98%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;VOA Special English 放送トランススクリプト(1500語限定) &lt;a href=&#34;http://learningenglish.voanews.com/content/obama-administration-defensive/1662970.html&#34;&gt;Obama Administration on the Defensive&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;94.88%&lt;/td&gt;
+&lt;td&gt;K4&lt;/td&gt;
+&lt;td&gt;K4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;MSDN Magazine&lt;/strong&gt; Parse JSON Strings in Windows Runtime Components&lt;/td&gt;
+&lt;td&gt;95.01%&lt;/td&gt;
+&lt;td&gt;K4&lt;/td&gt;
+&lt;td&gt;K8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Daily Express   &lt;a href=&#34;http://www.express.co.uk/life-style/health/403365/How-having-a-dog-can-change-your-life-for-the-better&#34;&gt;How having a dog can change your life for the better&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;90.45%&lt;/td&gt;
+&lt;td&gt;K5&lt;/td&gt;
+&lt;td&gt;K11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Economist &lt;a href=&#34;http://www.economist.com/news/leaders/21578389-despite-rancour-over-scandals-big-reforms-are-still-possible-how-save-obamas-second-term&#34;&gt;How to save Obama’s second term&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;87.98%&lt;/td&gt;
+&lt;td&gt;K5&lt;/td&gt;
+&lt;td&gt;K9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ジョージオーウェル &lt;a href=&#34;http://gutenberg.net.au/ebooks01/0100011h.html&#34;&gt;動物農場&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;89.65%&lt;/td&gt;
+&lt;td&gt;K5&lt;/td&gt;
+&lt;td&gt;K11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ラム &lt;a href=&#34;http://shakespeare.palomar.edu/lambtales/LTROMEO.HTM&#34;&gt;シェークスピア物語 ロミオとジュリエット&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;90.44%&lt;/td&gt;
+&lt;td&gt;K6&lt;/td&gt;
+&lt;td&gt;K11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;National Geographic &lt;a href=&#34;http://ngm.nationalgeographic.com/2013/04/mahogany/wallace-text&#34;&gt;Mahogany’s Last Stand&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;85.62%&lt;/td&gt;
+&lt;td&gt;K7&lt;/td&gt;
+&lt;td&gt;K12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;使用語彙の95%カバーで見れば、MSDN Magazineの記事は、Voice of America の特別放送トランスクリプトと同程度で、Daily ExpressやThe Economistよりやや劣る程度です。National Geographic には遠く及びません。&lt;/p&gt;
+&lt;p&gt;使用語彙の98%カバーで見れば、8000ワードファミリーに抑えられていますが、比較対象にした雑誌や文学作品が1万ワードファミリーを超える語彙量を必要とします。&lt;/p&gt;
+&lt;p&gt;VOA Special Englishは非ネイティブ向けの特別放送ですから、MSDN Magazineはネイティブ向けとしては限界ぎりぎりの語彙水準で執筆されていると言えます。
+そのような制約の中で、常に高品質な記事を提供してくれる執筆者の方、編集者の方に対して改めて畏敬の念を感じずにはいられません。&lt;/p&gt;
+&lt;h2 id=&#34;msdnを読むための語彙&#34; class=&#34;section&#34;&gt;MSDNを読むための語彙&lt;/h2&gt;
+&lt;p&gt;色々な研究発表が出ていますが日本の高校生の語彙力が3000−4000ワードファミリーだそうです。
+高校時代の英語の実力を維持している方は既に、MSDN Magazineの使用語彙の95%カバーする語彙力を持っています。&lt;/p&gt;
+&lt;p&gt;使用語彙の95%カバーとは、MSDN Magazineの現在のレイアウトでは、2行に一語程度未知語が出てくる計算です。
+3000ワードの記事であれば、150個出てきます。さすがにポップアップ辞書で引きながら読んだとしても辛いです。
+読本が目的の授業で教科書を読むのであれば支障ないでしょうが、情報取得を目的とした読書としては現実的な語彙力ではありません&lt;/p&gt;
+&lt;p&gt;何の支援もなしに未知語の類推して読むのには、使用語彙の98%が必要との研究結果が出ています。
+先ほどの分析結果を見ると、MSDN Magazineの場合は8000ワードファミリー必要になります。&lt;/p&gt;
+&lt;p&gt;常時英語でコニュンケーションする生活を送っている方は、通常の英語学習方法で8000語以上語彙量を上げることが目標でしょう。実際には8000語では足りなくて、ネイティブ並みの2万を目標にしているのではないかと思います。&lt;/p&gt;
+&lt;p&gt;日本で暮らして、普段は日本語でコミュニケーションし、必要な時だけ英文を読む、3000語レベルの典型的な人ができることを考えました。長期的には、8000語身につけるとして、短期的に今すぐ何ができるかと。
+ソフトウェア開発の技術文書が読むことだけに集中して、学習リソースを選択できないかと考えました。&lt;/p&gt;
+&lt;p&gt;先ほどのWeb VPプログラムの元になった、Rangeプログラムの作者Nation教授は著書 &#34;Learning Vocabulary in Another Language (2001)&#34; の中で、英文に使われる語彙を高頻出な語彙(2000ワードファミリーレベル)、学術的な語彙(AWL)、専門用語、低頻出な語彙に4分類し、それぞれの語彙グループの学習戦略を説明しています。&lt;/p&gt;
+&lt;p&gt;最初に取り上げたMSDN Magazineの記事&#34;Parse JSON Strings in Windows Runtime Components&#34;の使用語彙をこの分類に基づいて図示にすると次のようになります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwords1.png&#34; alt=&#34;語彙の分布&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 語彙の分布&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;高頻度な語彙とは、話し言葉や書き言葉の80−90%を構成する高い頻度で使われる語彙で、コーパス分析から頻度表として求められます。英語の場合、代表的な頻出語彙集として2000ワードファミリーの大きさを持つGSL(General Service List)があります。&lt;/p&gt;
+&lt;p&gt;学術的な語彙とは、第2言語としての英語学習者が大学の学習現場で、高頻度に使用する語彙のことです。代表的なものは &lt;a href=&#34;http://www.victoria.ac.nz/lals/resources/academicwordlist/&#34;&gt;AWL&lt;/a&gt;(Academic Word List)です。AWLは、GSLとの重複を避け、特定の学問分野に偏らないように配慮しています。OxfordやLongmanの最新の学習英英辞典にもAWLの情報が盛り込まれています。&lt;/p&gt;
+&lt;p&gt;専門用語とは、上の2つの語彙から漏れた、語彙のうち特定の専門分野で頻出する語彙のことです。例えば、MSDNの文書に特異的に出現する語彙がこれにあたります。&lt;/p&gt;
+&lt;p&gt;低頻度な語彙とは、上記以外の語彙のことです。&lt;/p&gt;
+&lt;p&gt;Nation教授は、前述の著書の中で高頻出な語彙と学術的な語彙を取得した上で、専門用語の学習を勧めています。&lt;/p&gt;
+&lt;p&gt;英語の一般的な頻度分布に従えば、98%カバーに8000語必要です。
+この中からMSDNに頻出する専門用語を抽出すれば、もっと少ない語彙量で98%が実現できないだろうか。&lt;/p&gt;
+&lt;p&gt;調べてみました。&lt;/p&gt;
+&lt;h2 id=&#34;コーパス分析&#34; class=&#34;section&#34;&gt;コーパス分析&lt;/h2&gt;
+&lt;p&gt;データの入手しやすさと使用語彙の代表性を考慮して、MSDN Magazineのバックナンバーを対象にしました。
+MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
+&lt;p&gt;このデータから &lt;a href=&#34;https://sites.google.com/site/casualconcj/Home&#34;&gt;CasualConc&lt;/a&gt;というコンコーダンサーソフトを使って、コーパスを作成し、使用語彙の頻度表を作成しました。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 3. 語彙頻度表　上位10番目まで&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;順位 &lt;/th&gt;
+&lt;th&gt;単語 &lt;/th&gt;
+&lt;th&gt;出現回数 &lt;/th&gt;
+&lt;th&gt;出現ファイル &lt;/th&gt;
+&lt;th&gt;被覆比率 &lt;/th&gt;
+&lt;th&gt;累積比率&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;the&lt;/td&gt;
+&lt;td&gt;129652&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;5.98%&lt;/td&gt;
+&lt;td&gt;5.98%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;to&lt;/td&gt;
+&lt;td&gt;58786&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;2.71%&lt;/td&gt;
+&lt;td&gt;8.69%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;57158&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;2.63%&lt;/td&gt;
+&lt;td&gt;11.32%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;be&lt;/td&gt;
+&lt;td&gt;52674&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;2.43%&lt;/td&gt;
+&lt;td&gt;13.75%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;and&lt;/td&gt;
+&lt;td&gt;44396&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;2.05%&lt;/td&gt;
+&lt;td&gt;15.80%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;of&lt;/td&gt;
+&lt;td&gt;38546&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;1.78%&lt;/td&gt;
+&lt;td&gt;17.58%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;in&lt;/td&gt;
+&lt;td&gt;34933&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;1.61%&lt;/td&gt;
+&lt;td&gt;19.19%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;for&lt;/td&gt;
+&lt;td&gt;23250&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;1.07%&lt;/td&gt;
+&lt;td&gt;20.26%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;that&lt;/td&gt;
+&lt;td&gt;22266&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;1.03%&lt;/td&gt;
+&lt;td&gt;21.09%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3180&lt;/td&gt;
+&lt;td&gt;nullable&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;&amp;gt;&amp;gt;0.00%&lt;/td&gt;
+&lt;td&gt;98.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4258&lt;/td&gt;
+&lt;td&gt;wealth&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;&amp;gt;&amp;gt;0.00%&lt;/td&gt;
+&lt;td&gt;99.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ある単語がコーパスのテキストデータの中に何回出現し、テキスト全体の何パーセントを占めているかというデータを得ます。
+このデータを一番出現しているデータから降順にソートし、個々の単語の被覆率を足し合わせて98%になる順位を求めたところ、3182番目になり、出現回数25回でした。こうして98%被覆するMSDN頻出語句を得ました。&lt;/p&gt;
+&lt;p&gt;この中には、前の項目で説明した、高頻度な語彙(GSL)と学術的な語彙(AWL)が含まれていますので取り除きました。さらに固有名詞も除きました。&lt;/p&gt;
+&lt;p&gt;最後に残ったのが723語の語彙表です。この語彙表のことを仮にMSDN Word listと呼びます。&lt;/p&gt;
+&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で説明しましたので興味のある方はお読みください。Anki単語帳にしたMSDN Word listもダウンロードできます。&lt;/p&gt;
+&lt;p&gt;この方法以外にも、Cobb教授が&lt;a href=&#34;http://www.lextutor.ca/vp/how_to_techlist.html&#34;&gt;How and why to make a technical (domain-specific) vocabulary list&lt;/a&gt;という記事で専門用語集の作り方を説明していますので紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
+&lt;p&gt;本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
+対象は、コーパスには含んでいないMSDN Magazineの最新号とMSDNライブラリのWindows 8のホワイトペーパーです。&lt;/p&gt;
+&lt;p&gt;Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、MSDN word listを追加した場合どれだけカバーできるか調べてみました。&lt;/p&gt;
+&lt;table rules=&#34;rows&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 4. 頻出語彙集　MSDN word listの効果&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;題名&lt;/th&gt;
+&lt;th&gt;GSL+AWL&lt;/th&gt;
+&lt;th&gt;MSDN word list&lt;/th&gt;
+&lt;th&gt;合計&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn198241.aspx&#34;&gt;Parse JSON Strings in Windows Runtime Components&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;95.01%&lt;/td&gt;
+&lt;td&gt;3.94%&lt;/td&gt;
+&lt;td&gt;98.95%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn198241.aspx&#34;&gt;Social Authentication in ASP.NET MVC 4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;93.00%&lt;/td&gt;
+&lt;td&gt;5.87%&lt;/td&gt;
+&lt;td&gt;98.87%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://download.microsoft.com/download/0/E/5/0E5ECE25-D240-435E-9FD6-6092896A3F5F/PackagingandBinding.docx&#34;&gt;Packaging and assembly binding in the .NET Framework for Windows Store apps&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;92.44%&lt;/td&gt;
+&lt;td&gt;5.83%&lt;/td&gt;
+&lt;td&gt;98.27%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windows/apps/hh465408.aspx&#34;&gt;Windows Store apps using JavaScript versus traditional web apps&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;89.80%&lt;/td&gt;
+&lt;td&gt;8.47%&lt;/td&gt;
+&lt;td&gt;98.27%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;一般的な頻出語彙(GSL+AWL)を理解している場合、使用語彙の10%程度が未知の語句を含むテキストが、このMSDN word listを加えることで、2%にまで圧縮できる結果を得ました。前掲した図1は、&#34;Parse JSON Strings in Windows Runtime Components&#34;について行った分析結果の数字を反映しています。&lt;/p&gt;
+&lt;h2 id=&#34;msdnを情報源として常時利用するための学習戦略&#34; class=&#34;section&#34;&gt;MSDNを情報源として常時利用するための学習戦略&lt;/h2&gt;
+&lt;p&gt;まず自分の語彙量を測定します。
+受験者の分析データが豊富なlink:&lt;a href=&#34;http://testyourvocab.com/&#34;&gt;Test Your Vocab&lt;/a&gt;やWeb VPと同じサイトが提供している&lt;a href=&#34;http://www.lextutor.ca/tests/&#34;&gt;Frequency Based Vocabulary Tests&lt;/a&gt;などのツールが利用できます。両方のツールともワードファミリーレベルの語彙量を測定してくれます。&lt;/p&gt;
+&lt;h3 id=&#34;8000語以上の場合&#34;&gt;8000語以上の場合&lt;/h3&gt;
+&lt;p&gt;MSDNの記事の98%をカバーする語彙を持っています。未知の語彙も類推によって理解できる場合が多いと思いますので、たくさん読んで未知の言葉に出会い、必要なら覚えてしまいましょう。
+Nation教授は、基本語彙を習得した後、使用言語が98%既知のする文章を集中的に読む学習方法を勧めています。
+もし難しいと感じた場合は、その記事は日本語で読んだ場合でも難しいはずです。ガッカリしないでください。気分転換に別の記事を読みましょう。&lt;/p&gt;
+&lt;h3 id=&#34;3000_8000語の場合&#34;&gt;3000-8000語の場合&lt;/h3&gt;
+&lt;p&gt;MSDN Word Listを暗記しましょう。暗記学習用ソフトAnki用の単語帳を用意しました。&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;からダウンロードできます。&lt;/p&gt;
+&lt;p&gt;暗記と並行して、始めのうちは通読するのは辛いかもしれませんがMSDN Magazineには常時触れましょう。関心のある記事の一部で構わないので常時読む習慣をつけましょう。
+文中のソースコードもよく読みましょう。ソースコードを説明している文章がたくさん出てきます。
+ソースコードと英語のバイリンガル表記だと思ってください。&lt;/p&gt;
+&lt;h3 id=&#34;3000語未満の場合&#34;&gt;3000語未満の場合&lt;/h3&gt;
+&lt;p&gt;基本語彙の学習をまずしましょう。
+中学高校である程度の語彙は身についていると思いますので、頻出2000語とAWLのリストを確認して、未知のものだけ取り出して学習しましょう。
+頻出2000語のリストは、一般的な英語のコーパス分析によって得られたものなら何でも良いです。自分の持っている辞書の巻末のリストがあればそれをチェックしましょう。&lt;/p&gt;
+&lt;p&gt;身近に適切な資料がない方にはOxford Advanced Learner&amp;#8217;s Dictionaryオンライン版の &lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/oxford3000/&#34;&gt;Oxford 3000&lt;/a&gt;をお勧めします。語義の中で重要なものを目印で示してくれます。単語の意味を覚えるのと同時に辞書の英文を読んで、読むことに慣れませしょう。&lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/academic/&#34;&gt;AWL&lt;/a&gt;も見ることができます。&lt;/p&gt;
+&lt;p&gt;基本語彙を習得した後に MSDN Word Listを覚えましょう。
+また基本語彙を覚えると90%以上の語彙は既知になりますので、自分の興味のあるMSDNの記事に常時触れる習慣をつけましょう。&lt;/p&gt;
+&lt;h2 id=&#34;msdn_word_listを超えて&#34; class=&#34;section&#34;&gt;MSDN Word Listを超えて&lt;/h2&gt;
+&lt;p&gt;MSDN Word Listを学習し終わった後、できることを少しだけ考えてみました。&lt;/p&gt;
+&lt;h3 id=&#34;懸念事項の検討&#34;&gt;懸念事項の検討&lt;/h3&gt;
+&lt;p&gt;MSDN Word Listはそれほど難しい語彙は含んでいません。一覧にしてご覧になった方はあまりに易しい内容で驚いたかもしれません。
+MSDNは難しいという先入観は捨てましょう。難しい感じるのは内容が難しいのであって、英語が難しいのではありません。たとえ同じ内容が日本語で書いてあっても分かりにくいはずです。&lt;/p&gt;
+&lt;p&gt;英語学習に詳しい人なら、一般的な英語には句動詞を多用していて、個々の語彙が分かってもそれでは不十分なのでは感じるかもしれません。&lt;/p&gt;
+&lt;p&gt;コーパスから単語の共起頻度の分析をしてみました。動詞+前置詞の組み合わせは出てきますが、元の動詞の意味が代わってしまうような句動詞は、MSDN Magazineではほとんど見当たらないです。
+もちろん、動詞と名詞や前置詞の組み合わせの頻出コロケーションというのは存在と思いますが、個々の単語の意味を知っていれば理解できるものばかりです。&lt;/p&gt;
+&lt;h3 id=&#34;更に語彙を増やすなら&#34;&gt;更に語彙を増やすなら&lt;/h3&gt;
+&lt;p&gt;同じ手法で更に被覆率を1%上げるのには、つまり99%にするには基本語彙と固有名詞を除くと500語追加すると実現できます。&lt;/p&gt;
+&lt;p&gt;自分の専門分野、例えばデータベースアクセス、ユーザーインターフェースなど、狭い分野の文書を集めてコーパスを作り、頻出の専門用語表作り出しても良いでしょう。&lt;/p&gt;
+&lt;p&gt;それぞれの方法は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で紹介しているコーパス作成から頻度表を作る方法も参考にしてみてください。&lt;/p&gt;
+&lt;p&gt;MSDN Word Listのフォローアップ企画として、MSDN Magazineの最新の記事から、MSDN Word Listの範囲で実際どれだけカバーできて、どんなものが未知語になるか紹介する&lt;a href=&#34;http://rs.luminousspice.com/?cat=34&#34;&gt;連載記事: MSDNの英語&lt;/a&gt;を始めました。&lt;/p&gt;
+&lt;h3 id=&#34;内容理解に努める&#34;&gt;内容理解に努める&lt;/h3&gt;
+&lt;p&gt;アプリケーション開発の経験や知識の深さが、MSDN文書の理解を高めます。実務経験なしには理解は向上しません。たとえネイティブ並みの語彙量があっても、この分野の経験が全くなければ、MSDNの文書は全く理解できないでしょう。&lt;/p&gt;
+&lt;p&gt;ソフトウェア開発の経験を積むこと、ソースコードを読んで理解することも大切です。
+卵が先か鶏が先かという話にもなりますが、MSDNのリソースに常に慣れ親しんで、サンプルコードや技術文書中のソースコード、その中にコメントなどに触れる経験を蓄積することも内容理解に繋がります。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;MSDNの情報がネイティブ並みの高い言語力、語彙力を必要としないことはお分かりいただけましたでしょうか。&lt;/p&gt;
+&lt;p&gt;日本で暮らして、日本語でコミュニケーションする人が、日本で言うところの「英語の達人」を目指さなくても、MSDNを自分の情報源として活用する方法の一例を紹介しました。&lt;/p&gt;
+&lt;p&gt;皆さんのお持ちになっている、ソフトウェア開発の知識は、英文の内容理解に力強い支援をしてくれます。自信を持ってください。&lt;/p&gt;
+&lt;p&gt;最低でも人の数だけソフトウェアは存在する意義があるとわたしは思っています。ひとりひとりの生活からしか生まれないソフトウェアがあるはずです。&lt;/p&gt;
+&lt;p&gt;重要な情報源にもっと簡単に頻繁にアクセスできれば、世の中のソフトウェアはもっと豊かになるはずです。そして開発者のであることの喜びや使命感がもっと強くなるでしょう。&lt;/p&gt;
+&lt;p&gt;これからもソフトフェア開発を楽しんでください。&lt;/p&gt;
+&lt;h2 id=&#34;参考資料&#34; class=&#34;section&#34;&gt;参考資料&lt;/h2&gt;
+&lt;p&gt;インターネットで公開しているものと購入できる書籍のみ掲載しました。
+ご自身の著作を公開してくれたCobb教授、Nation教授に感謝したいです。&lt;/p&gt;
+&lt;p&gt;Cobb, Tom. &lt;a href=&#34;http://www.lextutor.ca/cv/awl_F.htm&#34;&gt;Chapter 2. Is There Room for an Academic Word List in French?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cobb, Tom. &lt;a href=&#34;http://www.lextutor.ca/research/rationale.htm&#34;&gt;Why &amp;amp; how to use frequency lists to learn words&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hwang, K. and Nation, I.S.P. (1995) &lt;a href=&#34;http://www.victoria.ac.nz/lals/staff/Publications/paul-nation/1995-Hwang-Special-purposes.pdf&#34;&gt;Where would general service vocabulary stop and special purposes vocabulary begin?&lt;/a&gt; System 23, 1: 35-41.&lt;/p&gt;
+&lt;p&gt;Nation, P., &amp;amp; Waring, R. (1997). &lt;a href=&#34;http://www.lextutor.ca/research/nation_waring_97.html&#34;&gt;Vocabulary size, text coverage, and word lists. In Schmitt, N., &amp;amp; McCarthy, M. (Eds.) Vocabulary: Description, acquisition, pedagogy&lt;/a&gt; (pp. 6-19). New York: Cambridge University Press.&lt;/p&gt;
+&lt;p&gt;Nation, I.S.P. (2001), Learning Vocabulary in Another Language, Cambridge University Press, ISBN 0-521-80498-1&lt;/p&gt;
+&lt;p&gt;Nation, I.S.P. (2004) &lt;a href=&#34;https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2004-BNC-3000.pdf&#34;&gt;A study of the most frequent word families in the British National Corpus.&lt;/a&gt; In P. Bogaards and B. Laufer (eds.) Vocabulary in a Second Language: Selection, Acquisition and Testing Amsterdam: John Benjamins: 3-13.&lt;/p&gt;
+&lt;p&gt;Nation, I.S.P. &lt;a href=&#34;https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2006-How-large-a-vocab.pdf&#34;&gt;How large a vocabulary is needed for reading and listening?&lt;/a&gt; Canadian Modern Language Review 63, 1 (2006): 59-82.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

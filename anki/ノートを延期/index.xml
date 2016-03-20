@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ノートを延期 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E5%BB%B6%E6%9C%9F/</link>
+    <description>ノートを延期 | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 15 Jun 2013 22:30:52 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E5%BB%B6%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
+      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <description>いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;学習セッションから特定のカードを除外する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;学習セッションから特定のカードを除外する&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiを使っていて、このカードだけ今の学習セッションから外したい場合ありませんでしたか。
+新規カードでどうしても覚えられないカードが発生して、1分毎の再表示になるのが煩わしい場合。学習中にカードの間違いに気づいて、後で再編集したい場合。あまりにやさしすぎる内容のカードで、削除するほどではないが別に取っておきたい場合などが考えられます。&lt;/p&gt;
+&lt;p&gt;そのような時に使えるAnkiのコマンドは、カードの右下のドロップダウンリスト[もっと]を押すと選択できます。
+この中から保留(Suspend)か延期(bury)、ノートかカード、どれを選べば良いか迷うところです。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_14.png&#34; alt=&#34;ドロップダウンリストの内容&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. ドロップダウンリストの内容&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;保留_suspend_と延期_bury_の違い&#34;&gt;保留(Suspend)と延期(bury)の違い&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;保留は解除するまで学習対象から除外になります。ブラウザー内で選択して解除するのが一番簡単です。
+延期は、Ankiを終了するまで学習から除外になります。再度Ankiを起動すると自動的にもとに戻ります。(注: Anki 2.0.12 まで)&lt;/p&gt;
+&lt;h2 id=&#34;新しい延期機能&#34;&gt;新しい延期機能&lt;/h2&gt;
+&lt;p&gt;最新版 Anki 2.0.21 では、延期は、翌日まで学習から除外されます。一日の始まりに設定した時刻に達すると自動解除になります。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+延期の手動で解除するには、単語帳の概要画面の下部にある [延期を解除] ボタンを押します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+関連カードの自動延期は、新規カード、復習カードともに単語帳オプションで無効にできます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モバイル機器版 Anki でも新しい延期機能が動作するようになります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ノートの保留とカードの保留の違い&#34;&gt;ノートの保留とカードの保留の違い&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;カードの保留は今表示しているカードだけを保留します。ノートの保留は、同じノートから生成したカード全てが保留になります。
+例えば、基本(裏面カード付き)ノートタイプを選択した時、一つのノートから表面カードと反転した裏面カードの2枚が自動生成します。いま表面カードを表示していて、[カードを保留]するとそのカード一枚が保留になります。[ノートを保留]すると、表示中の表面カードと裏面カードも一緒に保留になります。&lt;/p&gt;
+&lt;p&gt;保留したカードを解除するには、ブラウザーから保留中のカードを選択して[保留]ボタンを押します。
+ブラウザーの使い方を含めた詳しい方法は、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;そのまま、スルーして目印だけつけたいのなら、[星印をつける]を使うこともできます。
+カードを削除した場合、Anki2.0.9からはプロファイルディレクトリ内の &lt;code&gt;deleted.txt&lt;/code&gt; ファイルに削除したカードのフィールドの内容を保存するようになりました。これも知っておく良い知識だと思います。&lt;/p&gt;
+&lt;p&gt;途中で止めたくなる事情は様々ですが、ふさわしいAnkiの機能を選ぶと、もっとAnki学習が楽しくなると思います。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;参考_anki_2_0_13_以降の延期処理の変更点&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;参考: Anki 2.0.13 以降の延期処理の変更点&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki 2.0.13 で関連カードの処理に見直しが行われ、延期処理について大きな変更が加えられました。
+以後のバージョンでは調整が行われました。その主な項目を紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;anki_2_0_13_の変更点&#34;&gt;Anki 2.0.13 の変更点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+同期した時、Anki を再起動した時に、延期は自動的に解除になります。
+この自動解除のタイミングは、Android 版 AnkiDroid との互換性確保のために一時的に設定したものです。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳の概要画面右下にある [延期を解除] ボタンを押すと、延期が手動で解除できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳のオプション設定の新規カードタブから、新規の関連カードの自動延期を無効にできるようになりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;anki_2_0_15_の変更点&#34;&gt;Anki 2.0.15 の変更点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳のオプション設定の復習タブから、関連カードの復習の自動延期を無効にできるようになりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+延期したカードを &lt;code&gt;is:buried&lt;/code&gt; で検索できるようになりました。また、&lt;code&gt;is:suspend&lt;/code&gt; で検索しても延期したカードは表示しなくなりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;anki_2_0_21_の変更点&#34;&gt;Anki 2.0.21 の変更点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+延期の自動解除のタイミングが、一日の始まりに設定した時刻になりました。これが最終的なタイミングで、デスクトップ版 Anki と AnkiWeb 経由でモバイル機器版 Anki と同期するとモバイル機器にもその変更が反映されます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/06/15: 初出&lt;/p&gt;
+&lt;p&gt;2014/01/24: Anki 2.0.13 で導入した新しい延期機能について補足。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>用語集 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/%E7%94%A8%E8%AA%9E%E9%9B%86/</link>
+    <description>用語集 | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 27 Oct 2013 19:30:55 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/%E7%94%A8%E8%AA%9E%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki 用語集 - Anki Glossary</title>
+      <link>http://rs.luminousspice.com/anki_glossary/</link>
+      <pubDate>Sun, 27 Oct 2013 19:30:55 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki_glossary/</guid>
+      <description>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。用語を日英併記し、英語版しか存在しない iOS 版 Anki (AnkiMobile)、ウェブ版 Anki (AnkiWeb) ユーザーにも配慮しました。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。用語を日英併記し、英語版しか存在しない iOS 版 Anki (AnkiMobile)、ウェブ版 Anki (AnkiWeb) ユーザーにも配慮しました。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_使用上の注意&#34;&gt;使用上の注意&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+この用語集は、私 (Luminous Spice) が、&lt;a href=&#34;http://ankisrs.net/docs/manual.html&#34; target=&#34;_new&#34;&gt;Anki ユーザーマニュアル&lt;/a&gt;と &lt;a href=&#34;http://ankisrs.net/&#34; target=&#34;_new&#34;&gt;Anki 2.0.15&lt;/a&gt; から独自に作成した非公式のドキュメントです。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+この用語集の内容と、Anki アプリケーションやマニュアルの内容と相違がある場合は、オリジナルであるアプリケーション、およびマニュアルの内容が優先します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankidroid および　iOS 版 AnkiMobile、Web 版 AnkiWeb と表記や内容に相違が生じる可能性があります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;table rules=&#34;rows&#34; frame=&#34;hsides&#34; class=&#34;table table-striped&#34;&gt;
+&lt;col style=&#34;width:25%&#34;&gt;
+&lt;col style=&#34;width:75%&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;用語 (英語表記)&lt;/th&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;ノート (Note)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;一つの問題を構成するデータの集まりをノートと呼びます。Anki1 では、「ファクト (Fact)」と呼ばれていました。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;ノートタイプ (Note Type)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ノートタイプとは、ノートを作成する際に共通で利用するひな形。フィールドとカードタイプからなります。Anki1 ではノートの「モデル (Model)」と呼ばれていました。Anki には、既定で 4 つの標準的なノートタイプ、基本 [Basic]、基本 (裏面カード付き) [Basic (and reversed card)]、基本 (裏面カードを任意選択) [Basic (optional reversed card)]、穴埋め [Cloze] を標準で用意しています。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;カード (Card)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ノートの内容を学習画面に配置して具体化したもの。質問 (表) と解答 (裏) の 2 つの画面一組で一枚のカードを構成する。問題のデータに加えて、学習履歴、復習スケジュール、易しさなどの情報も保存しています。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;新規カード (New Card, Unseen)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;追加してから一度も学習していない (Unseen) カードのこと。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;未熟なカード (Young Card)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習間隔が 21 日未満のカードのこと。(再) 学習中のカードは含みません。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;熟知なカード (Mature Card)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習間隔が 21 日以上のカードのこと。分散学習の効果が現れて復習間隔を広く設定しているカードです。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;ブラウザ (Browser)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;カード一覧を表示する画面。カード管理のための処理を実行できる。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;カードタイプ(Card Type)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;カード上にノートの配置を指定するテンプレートとスタイルシート。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;カードレイアウト (Card Layout)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ノートタイプのカードテンプレートとスタイルシートを編集する画面。編集内容をプレビューできる。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;関連カード (Sibling)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;同じノートから作成したカード同士のこと。ノートが複数のカードタイプを持っている場合に発生する。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;コレクション (Collection)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ユーザーが Anki に読み込んで使用している単語帳、カードの全体を保存しているファイル。プロファイル毎に一つ作成します。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;自動バックアップ (Automatic Backup)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Anki アプリケーションの終了時、プロファイル変更時に自動的に作成するコレクションのバックアップファイル。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;単語帳 (Deck)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;コレクション内のカードを分類して作成する、共通の学習オプションを設定できるカードのグループ。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;単語帳オプション(Deck Option)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;単語帳内のカードの利用に関する設定。カードの学習オプションは、特に特別な指定がなければ単語帳単位で設定する。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;フィルター単語帳 (Filter Deck)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;コレクションの中の全てのカードから検索条件でカードを抽出し、元の単語帳の設定とは別にカスタマイズした学習オプションが設定できる特別な単語帳。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;共有単語帳 (Shared Deck)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ユーザーが共有している既成の単語帳。AnkiWeb から登録します。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;オプショングループ (Option Group)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;複数の単語帳間で共有可能な単語帳オプション。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;学習 (Learn)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;新規カードの初回の学習。ここで何回記憶に失敗しても、復習スケジュールには影響しません。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;再学習 (Relearn)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習に失敗 (忘却) した直後に行うカード学習。再学習中の忘却回数は、復習スケジュールには影響しません。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;復習 (Review)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;学習、再学習後に行うカードの記憶の確認。次回の復習期日は過去の学習履歴によって決まります。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;忘却 (Lapse)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習時に正しい解答が思い出せないこと。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;無駄 (Leech)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;忘却回数が一定数を超えると設定する。既定では保留になり学習対象外になります。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;保留 (Suspend)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;カードを学習対象から除外すること。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;延期 (Bury)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;学習キューの中にあるカードの学習を翌日まで一時中断すること。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;strong&gt;アドオン (Add-on)&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Anki を機能拡張する外部プログラム。Anki1 では、「プラグイン (Plugin)」と呼ばれていました。&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2013/10/27: 初出&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2014/08/23: Anki 2.0.21 で変更した延期の解消時期を反映&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。'>
+<meta name="keywords" content="IPython, matplotlib, Python">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。'/>
+<meta property="og:title" content="Mac OS X に IPython Notebook をインストールする場合の注意点" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-12-02T00:00:49Z"/>
+<meta property="article:modified_time" content="2013-12-02T00:00:49Z"/>
+
+
+
+<meta property="article:tag" content="IPython"><meta property="article:tag" content="matplotlib"><meta property="article:tag" content="Python">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Mac OS X に IPython Notebook をインストールする場合の注意点">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Mac OS X に IPython Notebook をインストールする場合の注意点 | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Mac OS X に IPython Notebook をインストールする場合の注意点</h1>
+  <span class="post-date">2013-12-02</span>
+  <section id="preamble">
+<p>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。</p>
+<p>この記事は、Mac OS X 10.7 上に virtualenv で構築した Python 2.7.5 の仮想環境に IPython 1.1.0 をインストールする場合の注意点を取り上げます。</p>
+<p><a href="http://ipython.org/notebook.html" target="_new">IPython Notebook</a> は、Python の対話的な Web ベースの使いやすいシェルで、グラフや数式を表示することができます。特に Python の科学計算パッケージを利用する場合に重宝します。
+IPython のオフィシャルサイトで紹介している Anaconda という Python の商用配布パッケージには、IPython と関連パッケージが全て含まれていて、簡単にインストール可能です。</p>
+<p>しかしながら、既に Python の独自環境を構築していて、追加で IPython Notebook のインストールには、複数の Python パッケージをインストールする必要があります。
+Mac OS X 環境に IPython Notebook インストールする手順としては、 <a href="http://slowquery.hatenablog.com/entry/2013/04/01/010927" target="_new">IPython notebookでブラウザ内にグラフを描画する</a> などの記事が参考になります。</p>
+<p>ただし Mac OS X の場合、<code>pip install matplotlib</code> だけでは、matplotlib がインストールできず、IPython 実行後のグラフの描画の際にエラーが発生する場合があります。</p>
+<p>これは、Stack Overflow の投稿 <a href="http://superuser.com/questions/242190/how-to-install-matplotlib-on-os-x" target="_new">How to install matplotlib on OS X?</a> によれば、Mac OS X の場合、matplotlib をインストールする前に、コンパイルオプションを指定すると解決できるそうです。</p>
+<p>pip を使う場合は、次のように実行します。</p>
+<div class="listingblock">
+<div class="content"><div class="highlight"><pre><span class="nb">export </span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;-L/usr/X11/lib&quot;</span>
+<span class="nb">export </span><span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;-I/usr/X11/include -I/usr/X11/include/freetype2 -I/usr/X11/include/libpng12&quot;</span>
+pip install matplotlib
+</pre></div></div></div>
+<p>インストール終了後、再度グラフを描画して、確認すれば作業完了です。</p>
+</section>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

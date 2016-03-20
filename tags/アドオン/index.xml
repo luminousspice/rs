@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アドオン on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/</link>
+    <description>アドオン | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 22 Jan 2015 22:00:52 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki の基本知識をつぶやきます</title>
+      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;この_bot_のつぶやく内容&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;この Bot のつぶやく内容&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/Ankigene&#34;&gt;@Ankigene&lt;/a&gt; のつぶやきの内容は、Anki の使い方、Anki Tips、Anki 用語、Anki ショートカット、Anki アドオンから構成しています。さらに詳しい情報へのリンクも含んでいます。
+つぶやきの頻度は、一日 4 回です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/category/anki/how_to_anki2/&#34;&gt;Anki の使い方&lt;/a&gt;と&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips&lt;/a&gt;からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語&lt;/a&gt;は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカット&lt;/a&gt;は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオン&lt;/a&gt;は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。&lt;/p&gt;
+&lt;p&gt;なお不定期的に、アプリケーションのアップグレード情報や、障害情報をつぶやくことがあります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_の中からも検索可能&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki の中からも検索可能&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;このつぶやきの内容が共有単語帳 &lt;a href=&#34;https://ankiweb.net/shared/info/206033178&#34;&gt;Ankiの基礎知識&lt;/a&gt; になりました。
+この単語帳をインストールすれば Anki のブラウザーからもいつでもネットワーク接続がなくて簡単に検索できるようになります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;最新のツイート内容&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;最新のツイート内容&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;a class=&#34;twitter-timeline&#34;  href=&#34;https://twitter.com/Ankigene&#34; data-widget-id=&#34;558234290119380992&#34;&gt;@Ankigeneさんのツイート&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id))d.createElement(s);js.id=id;js.src=p+&#34;://platform.twitter.com/widgets.js&#34;;fjs.parentNode.insertBefore(js,fjs);}(document,&#34;script&#34;,&#34;twitter-wjs&#34;);&lt;/script&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki アドオンガイド &amp;#8211; Anki をもっと使いやすくするアドオンたち</title>
+      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <description>Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。共有アドオンの中から自分で使ってみて誰にでも役立つようなアドオンを紹介します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。自分で使ってみた共有アドオンの中から誰にでも役立つようなアドオンを選んで紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;このアドオンガイドを使う前に&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;このアドオンガイドを使う前に&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;では、Anki の共有アドオンの取得、インストール、削除など基本的な説明しています。もし、まだアドオンを使ったことがない方はそちらも参考にしてみてください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki のアドオンは、PC (Desktop) 版でのみ動作します。Ankimoblie (iOS) や AnkiDroid (Android) では動作しません。&lt;/p&gt;
+&lt;p&gt;このガイドで紹介するそれぞれのアドオンのタイトルは、AnkiWeb のダウンロードページにリンクしています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;かゆいところに手が届くアドオンたち&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;かゆいところに手が届くアドオンたち&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;小さいけどあると絶対に手放せないニッチなアドオンたち。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_guide_1.png&#34; alt=&#34;かゆいところに手が届くアドオンたち&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. かゆいところに手が届くアドオンたち&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1867966335_bigger_show_answer_button_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1867966335&#34;&gt;Bigger Show Answer Button&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;単に [解答を表示] ボタンが横長になっただけなのですが、非常に便利です。(図 1 の 1)&lt;/p&gt;
+&lt;p&gt;実のところ自分でつくろうかと思っていたので、同じことを考えている人は世の中にいるんだなと感心しました。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_498789867_replay_buttons_on_card_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/498789867&#34;&gt;Replay buttons on card&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;音声ファイルが表示フィールドに含まれていると、再生ボタンを表示してくれます。こちらも地味に便利です。(図 1 の 2)&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_234253523_audio_playback_speed_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/234253523&#34;&gt;Audio Playback Speed&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;音声を再生速度を落として再生し直すショートカットキーを設定します。
+[5]: 50%, [6]: 60%, &amp;#8230; [9]: 90%, [0]: 100% で再生します。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1908633307_sound_volume_control_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1908633307&#34;&gt;Sound volume control.&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;音声ファイルの音量制御のショートカットキーを設定します。(Command/Ctrl++, Command/Ctrl+-)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+次に紹介する Zoom とキーの割り当てが重複しています。同時使用すると、正しく動作しない可能性があります。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;動画再生のショートカットキー&lt;/a&gt;は標準で用意されています。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1956318463_zoom_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1956318463&#34;&gt;Zoom&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;学習画面の文字サイズをキーボードショートカットで拡大縮小できるようになります。(Command/Ctrl++, Command/Ctrl+-)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 入手できなくなった View Size Adjust と同じ機能を持つアドオンです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;学習管理に役立つアドオンたち&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;学習管理に役立つアドオンたち&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;学習の進捗管理に役立つアドオンです。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_3179425861_new_and_max_cards_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3179425861&#34;&gt;New and max cards&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;これも地味なアドオンですが、単語帳のオプショングループのうち、新規と復習の学習条件を一望できます。
+影響を受ける親単語帳の設定が横に表示される点が便利です。&lt;/p&gt;
+&lt;p&gt;メニューバーから [ツール] - [New/Max Cards Configuration] を開くと設定ウィンドウが開きます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_newmax_cards.png&#34; alt=&#34;New/Max Cards 設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. New/Max Cards 設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1417170896_load_balancer_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1417170896&#34;&gt;load balancer&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;復習期日のピークをならしてくれます。
+復習をさぼってたくさんのカードを抱えた人限定でおすすめです。
+統計情報に難易度の予測項目 (Difficulty Forecast) が追加されます。&lt;/p&gt;
+&lt;p&gt;このアドオンの設定項目は、メニューバーから [Anki] - [環境設定] - [load balancer] タブを選択すると呼び出せます。インストールしたら必ず確認しておきましょう。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_10.png&#34; alt=&#34;load balancer&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. load balancer 設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1147586609_maturing_cards_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1147586609&#34;&gt;Maturing Cards&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;成熟したカードの枚数の履歴を統計情報の一番最後に表示してくれる。学習の進捗状況を見る一つの指標として使っています。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_11.png&#34; alt=&#34;Maturing Cards&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. Maturing Cards&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_763339789_progress_graph_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/763339789&#34;&gt;Progress graph&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Maturing Cards とは反対にどれだけのカードを学習し始めたのか表示してくれます。
+熟知したカードの枚数にどうしても目が行きがちがちですが、安定して新規追加できているか確認することが出来ます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_progress_graph.png&#34; alt=&#34;Progress graph&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. Progress graph&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1999018922_separate_learn_and_relearn_in_the_answer_buttons_graph_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1999018922&#34;&gt;Separate Learn and Relearn in the Answer Buttons graph&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;このアドオンは、統計情報のボタンの選択状況から、新規カードの学習と復習カードの再学習の結果を分離します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-learn-relearn.png&#34; alt=&#34;Separate Learn and Relearn in the Answer Buttons graph&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. Separate Learn and Relearn in the Answer Buttons graph&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;教材作成に役立つアドオン&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;教材作成に役立つアドオン&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;凝った教材をつくる場合や、大量に教材をつくる時に役立つアドオンを紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_301952613_awesometts_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Text to Speech機能を追加するアドオンです。MP3データを作成しなくても、文字を読み上げてくれます。MacOS Xの読み上げ機能(say コマンド)、SAPI5、GoogleTTSに対応しています。事前に読み上げたファイルを保存しておくことも可能です。&lt;/p&gt;
+&lt;p&gt;さらに指定したノートのフィールドから一括してテキストを読み込んで、音声ファイルを自動生成してフィールドに書き込んでくれる AwesomeTTS MP3 Mass Generator という機能も含まれています。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. AwesomeTTS MP3 Mass Generator の設定例&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;カードテンプレートを編集してAwesomeTTSを機能させる方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で、音声ファイルの自動生成については&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;機能の詳しい内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiatts.appspot.com/&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_3100585138_download_audio_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3100585138&#34;&gt;Download audio&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;オンライン辞書などで公開している音声データを検索してダウンロードするアドオンです。&lt;/p&gt;
+&lt;p&gt;このアドオンを動作させるには、ノートに Audio という名前のフィールドを追加するか、ノートタイプ [Standard with audio fields] あるいは [Japanese with audio fields] を指定することが必要です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-download-audio.png&#34; alt=&#34;Download audio&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. Download audio&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;このアドオンを詳細に設定するための、&lt;a target=&#34;_new&#34; href=&#34;http://ospalh.github.io/anki-addons/Download%20audio.html&#34;&gt;マニュアル&lt;/a&gt;も用意されています。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1531997860_media_import_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;指定したフォルダの中にあるメディアファイルからノートを書き起こしてくれるアドオン。
+大量のメディアデータから教材を作成する時に非常に役立ちます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. Media Import の処理完了&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;このアドオン Media Import の簡単な利用例を&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_2006541756_image_occlusion_2_0_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/2006541756&#34;&gt;Image Occlusion 2.0&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;暗記ペンを Anki 上で実現するアドオン。
+地図、解剖図、反応回路図などのキャプションの一部をマスクして出題できます。&lt;/p&gt;
+&lt;p&gt;詳しい設定は&lt;a target=&#34;_new&#34; href=&#34;http://tmbb.bitbucket.org/image-occlusion-2/index.html&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_162313389_power_format_pack_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/162313389&#34;&gt;Power format pack&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;ノートエディタで指定できる書式を強化するアドオンです。
+ツールバーボタンから表やリスト、コードブロック、取り消し線、罫線などが利用できます。Markdown を使ったノートの書式設定も可能です。&lt;/p&gt;
+&lt;p&gt;ツールバーボタンの表示は、メニューバー [ツール] - [Supplementary buttons add-on (options)] - [Button options] から設定できます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons-power-format-pack.png&#34; alt=&#34;Power format pack を使った表組の指定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 10. Power format pack を使った表組の指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;教材管理に役立つアドオン&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;教材管理に役立つアドオン&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;登録ノートの件数が増えてくると威力を発揮するアドオンたちです。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_46837454_export_browser_8217_s_card_list_contents_to_csv_file_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/46837454&#34;&gt;Export Browser&amp;#8217;s card list contents to CSV file Enhanced&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;ブラウザー上で選択した内容をCSV形式で書き出してくれます。
+標準の書き出し機能より、条件を絞ってデータを書き出すことができる点が重宝します。&lt;/p&gt;
+&lt;p&gt;呼び出す手順は次の通りです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ブラウザー上で検索条件を設定し、出力したいカードを選択する。
+&lt;/li&gt;
+&lt;li&gt;
+[編集] - [Export Selected to CSV] を選択する。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 入手できなくなった Export Browser&amp;#8217;s card list contents to CSV file を別の作者が問題修正したものです。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_8.png&#34; alt=&#34;Export Browser&#39;s card list contents to CSV file Enhanced の呼び出し方&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 11. Export Browser&amp;#8217;s card list contents to CSV file Enhancedの呼び出し方&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_874215009_advanced_browser_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/874215009&#34;&gt;Advanced Browser&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;フィールドやタグの内容、平均解答時間など標準では表示できない項目が、カードブラウザー内に表示できるようになります。
+カード枚数が増えて、定型的な作業が増えてくると威力を発揮します。
+Anki の標準機能に盛り込んでもおかしくない機能を提供してくれます。
+(注: 検索条件を保存する機能は、Anki 2.0.27 で本体の機能として採用されました。)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_advanced_browser.png&#34; alt=&#34;Advanced Browser&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 12. Advanced Browser Back フィールドをブラウザー内に表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1089921461_hierarchical_tags_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1089921461&#34;&gt;Hierarchical Tags&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;ブラウザー内でタグを階層化表示できるようになります。ノートの分類にタグを多用している場合、ブラウザー画面が見やすく整理できます。
+階層の指定には、コロンを重ねます。&lt;/p&gt;
+&lt;pre class=&#34;prettyprint&#34;&gt;life::植物::花&lt;/pre&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_hierarchical_tags.png&#34; alt=&#34;Hierarchical Tags&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 13. サイドバー内のタグを階層化表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;番外_ankiweb_と連携するウェブブラウザの機能拡張&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;番外: AnkiWeb と連携するウェブブラウザの機能拡張&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のアドオンではありませんが、Anki と連携して機能強化するウェブブラウザの機能拡張を紹介しましょう。&lt;/p&gt;
+&lt;p&gt;ウェブブラウザの表示内容から AnkiWeb に直接書き込んで単語帳を作成できるようになります。
+同時にオンライン辞書などのオンラインリソースから訳語を調べる機能を持っています。&lt;/p&gt;
+&lt;p&gt;オンラインの文書を読んで、語彙を拾って単語帳を作っている方に役立ちます。&lt;/p&gt;
+&lt;h2 id=&#34;a_href_https_addons_mozilla_org_ja_firefox_addon_ankifox_ankifox_a_firefox&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://addons.mozilla.org/ja/firefox/addon/ankifox/&#34;&gt;AnkiFox&lt;/a&gt; (FireFox)&lt;/h2&gt;
+&lt;p&gt;FireFox 用のアドオンで、画面上で選択した文字列から AnkiWeb の単語帳に登録するものです。
+オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は3つまで登録可能です。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+AnkiWeb にサインインした状態で、ブラウザ上で登録したい文字列を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+右クリックから[Add to Anki:(選択した文字列)]を選択すると、AnkiWeb の編集画面が開きます。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_ankifox.png&#34; alt=&#34;AnkiFox&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 14. AnkiFox&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。&lt;/p&gt;
+&lt;pre class=&#34;prettyprint&#34;&gt;http://www.wordreference.com/enja/%s&lt;/pre&gt;
+&lt;h2 id=&#34;a_href_https_chrome_google_com_webstore_detail_anki_cards_maker_ndimepifahlacmclinikbgjndgfelipb_anki_cards_maker_a_chrome&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb&#34;&gt;Anki Cards Maker&lt;/a&gt; (Chrome)&lt;/h2&gt;
+&lt;p&gt;Chrome用の機能拡張で、画面上で選択した文字列から Google 翻訳で訳語を作成し AnkiWeb の単語帳に登録するものです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+AnkiWeb にサインインした状態で、ブラウザ上で登録したい文字列を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+右クリックから [Add to Anki] を選択すると、Google 翻訳による訳語候補をポップアップで表示します。
+&lt;/li&gt;
+&lt;li&gt;
+訳語を選択して [Add] ボタンを押すと、AnkiWeb の編集画面が開きます。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_anki_cards_maker.png&#34; alt=&#34;Anki Cards Maker 項目選択&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 15. Anki Cards Maker 項目選択&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;こちらの機能拡張については、使いこなすには調整が必要で次のブログの記事に詳しく説明が載っています。
+興味のある方は是非参考にしてください。
+&lt;a target=&#34;_new&#34; href=&#34;http://boulder.blog.so-net.ne.jp/2013-10-07&#34;&gt;Anki Cards Maker : Capricious POV&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;アドオンを使い続けるのに必要なこと&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;アドオンを使い続けるのに必要なこと&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;気に入って使い続けているアドオンがあれば、ぜひ AnkiWeb のダウンロードサイトでレイティングやコメントを付けてください。
+ユーザーからの反応がアドオン作者が開発を継続する意欲に繋がります。
+アドオンの開発作業には、性能の向上や機能の追加だけではなく、問題や障害の解決も含まれます。&lt;/p&gt;
+&lt;p&gt;ユーザーがアドオンをインストールした時には正常に動作し、その後アドオンに全く変更を加えなかったとしても、次の様な原因から障害が発生することが考えられます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Anki 本体や同梱しているライブラリーを更新した時
+&lt;/li&gt;
+&lt;li&gt;
+別の Anki アドオンを追加、更新した時
+&lt;/li&gt;
+&lt;li&gt;
+Anki を使っている PC のシステムを更新した時
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;アドオンの作者に直接的な原因はありませんが、正常動作のためにはアドオンの修正が必要になる場合があります。
+このため、作者に常に自分のアドオンの動作に関心を持ってもらうことが継続利用に大切なのです。
+一人の作者の複数のアドオンで同時に問題が発生した場合、評価の高いアドオンから修正作業を行う事例も見受けられました。&lt;/p&gt;
+&lt;h2 id=&#34;アドオンにフィードバックするには&#34;&gt;アドオンにフィードバックするには&lt;/h2&gt;
+&lt;p&gt;AnkiWeb にサインインすると当該アドオンのページでレイティングやコメントをつけることができます。
+レイティングを記録する場所は、アドオンの個別メージの右上にあります。☆ をクリックすると評価を保存します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addons_guide_2.png&#34; alt=&#34;レイティングを付ける場所&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 16. レイティングを付ける場所&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;それでは、作者のやる気を引き出す評価基準を参考までにあげておきましょう。
+日本人の標準的な感覚としては中間が基準と考えがちですが、Anki のアドオン開発者コミュニティを観察した所では満点の ☆☆☆☆☆ が基準点と考えるのがよいと思います。&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;col class=&#34;span1&#34;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;☆☆☆☆☆&lt;/td&gt;
+&lt;td&gt;問題もなく継続使用している場合&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;☆☆☆☆&lt;/td&gt;
+&lt;td&gt;動作には支障ないが、修正が必要な問題がある場合&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;☆☆☆&lt;/td&gt;
+&lt;td&gt;以下は、アドオンが動作しない、Anki が起動できない、データが破損した場合&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;なお、AnkiWeb のアドオンページへのコメントに対してアドオン作者は直接返事ができません。
+返事が必要な連絡には &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/add-ons&#34;&gt;Anki サポートサイト (Add-ons カテゴリ)&lt;/a&gt;が利用できます。全てではありませんが、アドオンの作者と直接連絡を取ることができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;まとめ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;まとめ&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki の機能をもうすこし変えれば自分のやりたいことに一致するのにと思ったことはありませんか。
+自分と同じことを考えている人が世の中にいて、共有のアドオンを公開してくれたりします。&lt;/p&gt;
+&lt;p&gt;Anki はアドオンの形でユーザーが機能拡張する機会を与えてくれています。
+また、アドオンを作りやすい仕組みを持っています。Anki の使いやすさは、アドオンの質や量が向上することでさらに高められます。&lt;/p&gt;
+&lt;p&gt;自分もアドオンを作ってみようと思った方、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;という作成ガイドの日本語訳がありますので参考にして作ってみてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/04/14: 初出&lt;/p&gt;
+&lt;p&gt;2014/04/26: 追加: Hierarchical Tags&lt;/p&gt;
+&lt;p&gt;2014/10/04: 更新: AwesomeTTS&lt;/p&gt;
+&lt;p&gt;2014/10/07: 追加: Power format pack&lt;/p&gt;
+&lt;p&gt;2015/02/08: 追加: Download audio 他3件&lt;/p&gt;
+&lt;p&gt;2015/10/31: 更新: Image Occlusion&lt;/p&gt;
+&lt;p&gt;2016/02/09: 追加: Zoom、Audio Playback Speed&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiの共有リソースを使ってみる</title>
+      <link>http://rs.luminousspice.com/how-to-use-shared-resources/</link>
+      <pubDate>Sat, 27 Apr 2013 06:00:26 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-use-shared-resources/</guid>
+      <description>既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログラムの形で記録して共有してくれています。共有の単語帳やアドオンを通してAnkiの使い方を慣れてみましょう。How to use shared decks and Addons for Anki. </description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第3回&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログラムの形で記録して共有してくれています。共有の単語帳やアドオンを通してAnkiの使い方を慣れてみましょう。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+共有データの内容は、大部分は英語で記述しています。このため今回の記事は、Ankiサイトの内容が読める程度の英文読解能力が前提になります。
+&lt;/li&gt;
+&lt;li&gt;
+今回取り上げるAnkiサイトで共有している単語帳やアドオンのダウンロード、利用にはアカウント登録の必要はありません。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;sidebarblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;この記事の目標&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;この記事の目標&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiサイトで共有している、単語帳とアドオンの取得方法、使い方になれましょう。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;使うもの&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;使うもの&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki2&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+中学校程度の英文読解能力
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;共有単語帳の使い方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;共有単語帳の使い方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;共有単語帳とは、Ankiサイトでユーザー同士が共有している単語帳(デッキ)です。
+自分で教材データを用意しなくてもすぐに学習を開始できる利点があります。&lt;/p&gt;
+&lt;p&gt;現在は、言語の単語帳は英語対他言語のものがほとんどですが、日本語対他言語のものも含まれています。収録語彙数や画像数、音声データの収録数は多岐にわたります。分野別の専門用語の共有単語帳は、英語のものがほとんどです。&lt;/p&gt;
+&lt;p&gt;機能の面では、自家製の単語帳と差はありません。カスタマイズ可能な単語帳も多いので、自分の単語帳の素材として利用したり、単語帳の作り方自体を学ぶ教材としても利用できます。&lt;/p&gt;
+&lt;h2 id=&#34;共有単語帳の取得&#34;&gt;共有単語帳の取得&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;共有単語帳一覧を開く&lt;/h3&gt;
+&lt;p&gt;メインウィンドウ左下の[共有単語帳を取得]ボタン(図 1)を押すと、ウェブブラウザ上に&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;共有単語帳の分類表&lt;/a&gt;を表示します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_11.png&#34; alt=&#34;[共有単語帳を取得]ボタンを押す&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 画面下の[共有単語帳を取得]ボタンを押す&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;カテゴリー選択&lt;/h3&gt;
+&lt;p&gt;自分が探している分野の項目を選択すると、分野別の一覧表を表示します。
+この一覧にない分野の単語帳を探すには、右上の検索フォームから検索します。検索キーワードには日本語が使えます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-category.png&#34; alt=&#34;AnkiWeb 共有単語帳の分類表&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. AnkiWeb 共有単語帳の分類表&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;単語帳ダウンロードページの表示&lt;/h3&gt;
+&lt;p&gt;単語帳の一覧表はタイトル (Title)、評価 (Stars)、更新日 (Modified)で並び替えることが出来ます。
+Notes は、収録しているノートの項目数、Audio は音声データの数、Images は画像データの数を示します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 音声データや画像データを多数収録している単語帳の中には、ファイル容量が大きくダウンロードに非常に時間がかかるものが含まれていますので注意が必要です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-list.png&#34; alt=&#34;分類項目「Russian」に登録の単語帳一覧&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 分類項目「Russian」に登録の単語帳一覧&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;一覧の中から関心を持った単語帳があれば、タイトルの左にある[Info]ボタンを押して、単語帳の個別ページに移動します。&lt;/p&gt;
+&lt;h3&gt;単語帳ファイルのダウンロード&lt;/h3&gt;
+&lt;p&gt;単語帳の説明ページには、単語帳の説明と収録データ (テキスト、画像、音声) のサンプルを確認することができます。mp3 形式の音声の場合には、[Play] リンクをクリックすると再生します。&lt;/p&gt;
+&lt;p&gt;単語帳の説明を読んで、この単語帳をインストールしようと決めたら、ページ下の[Download]ボタンを押してください。apkg形式のファイルのダウンロードが始まります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-button.png&#34; alt=&#34;ダウンロードボタン&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. ダウンロードボタン&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;ダウンロードファイルのインストール&lt;/h3&gt;
+&lt;p&gt;ダウンロードしたapkgファイルをダブルクリックしてください。インストールが始まり、完了すると読み込んだカードの枚数を表示(図 5)し、メインウィンドウにその単語帳名が現れます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_2.png&#34; alt=&#34;共有単語帳インストール終了報告&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 共有単語帳インストール終了報告&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;ダウンロードファイルに関する注意事項&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+ダウンロードファイルがダブルクリックしても読み込めない場合は、図 1あるいは図 6の画面下にある [ファイルを読み込む] ボタンを押して、ダウンロードファイルを選択してください。
+ファイルを読み込む詳しい手順は前回の記事「&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;」で説明しています。
+&lt;/li&gt;
+&lt;li&gt;
+システムによってはダウンロードファイルの拡張子が zip になる場合があります。上で説明した読み込み機能でもインストールすることもできます。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なおこのapkgファイルは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Ankiから書き出す&lt;/a&gt;ことができます。上で説明した共有単語帳のダウンロードサイトからものでなくても、友達や先生からもらったapkgファイルでも同じように読み込めます。&lt;/p&gt;
+&lt;h2 id=&#34;共有単語帳の削除&#34;&gt;共有単語帳の削除&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;メインウィンドウの単語帳一覧から単語帳名の右のプルダウンリストから[削除]を選択します。(図 6)この処理は、Ankiの読み込みが解除するだけで、ダウンロードしたapkg形式のファイルが削除になる訳ではありません。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_3.png&#34; alt=&#34;共有単語帳の削除&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. 共有単語帳の削除&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;decksearh&#34;&gt;日本語ユーザーのための共有単語帳検索機能&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザー向けの共有単語帳検索機能&lt;/a&gt;は、たくさんのデータの中から極力日本語だけで必要な単語帳を見つけたい方のために、これまで説明してきた Anki の標準機能とは別にこのサイト独自で用意しました。
+日本語のコンテンツと、日本語の説明がなくても音声や画像、数式、記号だけで利用できる単語帳を選抜し、そのデータが検索できるようになっています。この検索結果から単語帳のダウンロードページへ直接移動します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-search.png&#34; alt=&#34;共有単語帳検索画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳検索画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;テキストを入力したり、分類項目をクリックして表示項目を絞り込むことができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;アドオンの使い方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;アドオンの使い方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;アドオンとは、標準機能を拡張変更するプログラムのことです。Anki1.2まではプラグインという名前でした。
+アドオンを使うと、標準機能に自分の目的や興味に合わせてAnkiを簡単に変更することができます。&lt;/p&gt;
+&lt;p&gt;現在のAnkiアドオンの一覧には、非常に完成度の高いものもありますが、開発途中のもの、試作的なアドオンも含まれています。その点を理解した上でお使いください。ダウンロード数が多く、評価の高いものを中心に使うのが無難だと思います。&lt;/p&gt;
+&lt;h2 id=&#34;アドオンの取得&#34;&gt;アドオンの取得&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;アドオン一覧を開く&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+メニューバーから[ツール]&amp;gt;[アドオン]&amp;gt;[検索とインストール]を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+[アドオンをインストールする]という名前のウィンドウが開いたら、左下の[ブラウザー]ボタンを押します。(図 8)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_4.png&#34; alt=&#34;アドオンインストール用ウィンドウ&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. アドオンインストール用ウィンドウ&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;インストール用コードの取得&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ウェブブラウザーにAnkiアドオンの一覧ページを表示します。ここで、[アドオンをインストールする]ウィンドウは閉じないで開いたままにしておいてください。
+&lt;/li&gt;
+&lt;li&gt;
+タイトルを読んで関心を持ったアドオンがあったら、タイトルの左にある[Info]ボタンを押して、アドオンの個別ページに移動します。
+全てのアドオンに分かりやすいタイトルがついている訳ではないので、このボタンを押してみないことにはアドオンの機能が分からないのがこの一覧の難点です。
+&lt;/li&gt;
+&lt;li&gt;
+アドオンの説明や使い方を読んで、このアドオンをインストールすることに決めたら、Download項目にある、黄色の囲みの数字をコピーしてください。(図 9)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_5.png&#34; alt=&#34;アドオンインストール用コード&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. アドオンインストール用コード&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;アドオンのインストール&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+先ほどの[アドオンをインストールする]ウィンドウのコードフィールドに、この数字を入力して、[OK]ボタンを押すと、アドオンのダウンロードのダウンロードとインストールが始まります。
+&lt;/li&gt;
+&lt;li&gt;
+アドオンのインストールが終わると、Ankiの再起動を促すダイアログが表示されます。(図 10)Ankiを再起動すると、アドオンが使えるようになります。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_6.png&#34; alt=&#34;アドオンインストールの終了&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 10. アドオンインストールの終了&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ankiアドオンを使ってみる&#34;&gt;Ankiアドオンを使ってみる&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;ほとんどのアドオンはインストール用コードの掲載しているページに説明が載っていますので、使う前によく確認しておきましょう。&lt;/p&gt;
+&lt;p&gt;それでもAnkiのアドオンを使い始めた時、本当に機能しているか、使うにはどのような操作をすれば良いのか分からず戸惑うことがよくあります。&lt;/p&gt;
+&lt;p&gt;Ankiのアドオンの動作の仕方はおおよそ次のように分類できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+設定画面がなく機能するもの (例: Maturing Cards)
+&lt;/li&gt;
+&lt;li&gt;
+メニューから設定画面を開いて、機能設定できるもの (例: AwesomeTTS)
+&lt;/li&gt;
+&lt;li&gt;
+Ankiの設定画面の中に追加されたアドオン用項目から、機能設定できるもの (例: load balancer)
+&lt;/li&gt;
+&lt;li&gt;
+設定画面がなく、メニューから項目を選択したり、キーボードを押して始めて機能するもの (例: Export Browser&amp;#8217;s card list contents to CSV file)
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この点を理解しておくと、標準機能からどのような変化が起ったか見つけやすくなります。また、日本語ユーザーインターフェースを使っている場合は、英語表記が現れている箇所は、アドオンの影響を受けていると考えてまず間違いないです。&lt;/p&gt;
+&lt;p&gt;経験上、使い方が書いていないアドオンは上の「設定画面がなく機能するもの」であることが多いです。&lt;/p&gt;
+&lt;p&gt;それでも分からない時には[ツール]&amp;gt;[アドオン]&amp;gt;[&lt;strong&gt;削除したいアドオンの名前&lt;/strong&gt;]&amp;gt;[編集]を選択します。ソースコードの先頭にコメントとして使い方が書いてあるものもあります。ここにウェブページには載っていない、バージョンアップ後の使い方の変更点や新しい機能が載っている場合もあります。&lt;/p&gt;
+&lt;h2 id=&#34;アドオンの削除&#34;&gt;アドオンの削除&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;メニューバーから[ツール]&amp;gt;[アドオン]&amp;gt;[&lt;strong&gt;削除したいアドオンの名前&lt;/strong&gt;]&amp;gt;[削除]を選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_7.png&#34; alt=&#34;アドオンの削除&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 11. アドオンの削除&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;アドオンをインストールしてエラーが出たら&#34;&gt;アドオンをインストールしてエラーが出たら&lt;/h2&gt;
+&lt;p&gt;一旦 Anki を終了し、[Shift] キーを押しながら Anki を起動します。アドオンは読み込まれないので今度はエラーが出ないはずです。前に紹介した手順でインストールしたアドオンを削除します。&lt;/p&gt;
+&lt;h2 id=&#34;addonguide&#34;&gt;Ankiアドオンガイド&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち&lt;/a&gt;では、私の知る限りではありますが、Ankiを使っている人に幅広く役立つようなアドオンを日本語で紹介しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiweb_オンラインストレージ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiWeb オンラインストレージ&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;無料のサービス　AnkiWeb は、Ankiの学習データ専用のオンラインストレージサービスです。
+アカウントを作成するとこのオンラインストレージに保存したデータに
+他の PC や Anki の iPhone アプリ、Android アプリからアクセスでき、同期することが出来ます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で作業手順を紹介しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;おわりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;おわりに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiは、データ追加や機能拡張によって、ユーザーの興味や経験に対して柔軟に対応できます。また、標準機能に加えた変更をユーザー間で簡単に交換、共有することができます。人と経験や知識を交換しあう楽しさを感じてもらえると、Ankiを使った学習がもっと楽しくなるのではないかと思います。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/04/27: 初出&lt;/p&gt;
+&lt;p&gt;2014/09/21: 再構成&lt;/p&gt;
+&lt;p&gt;2015/02/15: 共有単語帳のダウンロード手順を改訂&lt;/p&gt;
+&lt;p&gt;2016/02/08: 共有単語帳の日本語ユーザー向け検索機能を追加&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki 2.0 アドオンの作成 日本語訳</title>
+      <link>http://rs.luminousspice.com/anki2addons/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki2addons/</guid>
+      <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
+      <content>&lt;hr /&gt;
+
+&lt;p&gt;&lt;h2&gt;日本語版をご覧いただく前に&lt;/h2&gt;
+この文書は、&lt;a href=&#34;http://ankisrs.net/docs/dev/addons.html&#34; title=&#34;Writing Anki 2.0 Add-ons&#34; target=&#34;_blank&#34;&gt;Writing Anki 2.0 Add-ons (&lt;a href=&#34;http://ankisrs.net/docs/dev/addons.html&#34;&gt;http://ankisrs.net/docs/dev/addons.html&lt;/a&gt;)&lt;/a&gt; 2014-02-14 版の日本語訳です。&lt;/p&gt;
+
+&lt;p&gt;この文書は、簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。&lt;/p&gt;
+
+&lt;p&gt;Anki 2.0 は 2014年2月15日現在、最新バージョンは 2.0.22 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;section id=&#34;原文&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;原文&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+英語: &lt;a href=&#34;http://ankisrs.net/docs/addons.html&#34;&gt;http://ankisrs.net/docs/addons.html&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;概要&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;概要&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、ユーザーフレンドリーなプログラミング言語 Python で作成しています。
+Python についてあまり詳しくない方は、この文書の先を読む前に
+&lt;a href=&#34;http://docs.python.org/tutorial/&#34;&gt;Python tutorial&lt;/a&gt; をお読みください。
+(訳注: &lt;a href=&#34;http://www.python.jp/doc/release/tutorial/index.html&#34;&gt;Python チュートリアル
+日本語版&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Python は動的言語なため、Anki ではアドオンが極めて強力に機能します。アドオンは Anki の処理
+を拡張するだけでなく、Anki の任意の側面に変更を加えることができます。例えば、スケジュール
+設定の処理を変更したり、ユーザーインターフェイスを修正したりすることができます。&lt;/p&gt;
+&lt;p&gt;プラグインの開発には、特定の開発環境は必要ありません。テキストエディタがあれば十分です。
+WindowsやMacをお使いの方は、このサイトからパッケージ版のAnkiをお使いください。これらの
+プラットフォーム上で、ゼロからAnkiを構築するために入手可能な説明はないからです。&lt;/p&gt;
+&lt;p&gt;メモ帳のような単純なテキストエディタでプラグインを作成できますが、シンタックスハイライト
+機能 (コードの色分け) を持ったエディタを探してみると、作業がより簡単になります。&lt;/p&gt;
+&lt;p&gt;Anki を構成する2つの要素&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;libanki&lt;/em&gt; には、「背後」で動作する全てのコードが含まれています。コレクションを開いたり、
+カードを取得し、回答する処理などです。これは、Anki の GUI が使用していますが、GUI を使わず
+に Anki 単語帳にアクセスするコマンドラインプログラムに含めることもできます。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ankiqt&lt;/em&gt; には、Anki のユーザーインターフェイス部分が含まれています。Anki のユーザー
+インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
+ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
+します。&lt;a href=&#34;http://doc.qt.io/qt-4.8/index.html&#34;&gt;Qt documentation&lt;/a&gt; は、特定の GUI
+コンポーネントの使い方を調べたい時に、非常に役立ちます。&lt;/p&gt;
+&lt;p&gt;Anki が起動すると、Anki は、Documents/Anki/addons フォルダの中にある .py ファイルを
+探し、見つけたら一つずつ実行します。アドオンが実行されると、通常は既存のコードを修正したり、
+新しい機能を提供する新しいメニュー項目を増やしたりします。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;簡単なアドオンの一例&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;簡単なアドオンの一例&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;次に示す test.py ファイルを、自分の add-ons フォルダーに追加してみてください:&lt;/p&gt;
+&lt;pre&gt;# ankiqt からメインウィンドウオブジェクト (mw) を読み込みます
+from aqt import mw
+# utils.py から &#34;show info&#34; ツールを読み込みます
+from aqt.utils import showInfo
+# Qt GUI ライブラリの全てを読み込みます
+from aqt.qt import *
+
+# 次のようなメニュー項目を追加してみましょう。まず最初にメニュー項目が利用可能になったら
+# 呼び出される関数を作ります。
+
+def testFunction():
+    # 現在使用中のコレクションの中のカードの枚数を取得します
+    # このコレクションはメインウィンドウの中に保存しています
+    cardCount = mw.col.cardCount()
+    # メッセージボックスを表示します
+    showInfo(&#34;Card count: %d&#34; % cardCount)
+
+# 新しいメニュー項目 &#34;test&#34; を作成します。
+action = QAction(&#34;test&#34;, mw)
+# この項目をクリックしたら testFunction が呼び出されるように設定します。
+mw.connect(action, SIGNAL(&#34;triggered()&#34;), testFunction)
+# そして、この設定をツールメニューに反映します。
+mw.form.menuTools.addAction(action)&lt;/pre&gt;
+&lt;p&gt;Anki を再起動すると、ツールメニューの中に &lt;em&gt;test&lt;/em&gt; 項目が追加されていることに気づくでしょう。
+この項目を選択して実行するとカード枚数を表示するダイアログが現れます。&lt;/p&gt;
+&lt;p&gt;プラグインの入力中に間違いがあった場合には、Anki は起動時にエラーメッセージを表示して
+どこに問題があるか指摘します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;コレクション&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;コレクション&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;コレクションファイル上の全ての操作は、mw.col を通じてアクセスします。基本的な例で
+何ができるがご紹介します。注意してほしいのは、上の例のように testFunction() の中で行ってください。
+アドオンの中で直接実行することはできません。それは、Ankiを起動中に、コレクションやプロファイルを
+読み込む前にアドオンが初期化されるからです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;復習時期のカードの取得:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;card = mw.col.sched.getCard()
+if not card:
+    # 現在の単語帳は復習済み&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;カードを解答する:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;mw.col.sched.answerCard(card, ease)&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;ノートを編集する (各フィールドの最後に &#34; new&#34; を追加):&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;note = card.note()
+for (name, value) in note.items():
+    note[name] = value + &#34; new&#34;
+note.flush()&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;ノートにタグ x を持つカードの ID を取得する:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;ids = mw.col.findCards(&#34;tag:x&#34;)&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;指定したカード ID から質問と解答を取得する:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;for id in ids:
+    card = mw.col.getCard(id)
+    question = card.q()
+    answer = card.a()&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;データベースの変更後にスケジュールをリセットする。GUI も更新しなければならないので、
+メインウィンドウ上で reset() を呼び出すことに注意してください:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;mw.reset()&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;テキストファイルをコレクションに読み込む&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;from anki.importing import TextImporter
+file = u&#34;/path/to/text.txt&#34;
+# 単語帳を選択
+did = mw.col.decks.id(&#34;ImportDeck&#34;)
+mw.col.decks.select(did)
+# 単語帳にノートタイプを設定
+m = mw.col.models.byName(&#34;Basic&#34;)
+deck = mw.col.decks.get(did)
+deck[&#39;mid&#39;] = m[&#39;id&#39;]
+mw.col.decks.save(deck)
+# コレクションに読み込む
+ti = TextImporter(mw.col, file)
+ti.initMapping()
+ti.run()&lt;/pre&gt;
+&lt;p&gt;ほとんど全ての GUI 処理は libanki 内に関連する関数を持っています。このため、Anki が利用
+できるどんな処理でも、アドオンの中で同様に呼び出すことができます。&lt;/p&gt;
+&lt;p&gt;GUI の外側のコレクションにアクセスする場合は、次のようなコードを使います:&lt;/p&gt;
+&lt;pre&gt;from anki import Collection
+col = Collection(&#34;/path/to/collection.anki2&#34;)&lt;/pre&gt;
+&lt;p&gt;Ankiの外部のコレクションに何らかの修正を加えたときは、修正が済んだら col.close() を必ず呼び出さなければなりません。
+これを怠ると修正点は失われます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;データベース&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;データベース&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;libanki がサポートしていない処理を実行する必要がある場合は、データベースに直接アクセスする
+ことができます。Anki コレクションは、SQLite ファイル内に保存されています。詳しい情報は、
+&lt;a href=&#34;http://www.sqlite.org/lang.html&#34;&gt;SQLite documentation&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;Anki のデータベースオブジェクトは次のような関数をサポートしています:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;execute() は、挿入と更新処理を実行します。指定した引数は ? を一緒に使います。例えば:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;mw.col.db.execute(&#34;update cards set ivl = ? where id = ?&#34;, newIvl, cardId)&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;executemany() は、更新と挿入を一括処理します。大規模な更新にはこの関数の方が、
+execute() で個別にデータを処理するよりも非常に高速に処理します。例えば:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;data = [[newIvl1, cardId1], [newIvl2, cardId2]]
+mw.col.db.executemany(same_sql_as_above, data)&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;scalar() は、単一の項目を返します:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;showInfo(&#34;card count: %d&#34; % mw.col.db.scalar(&#34;select count() from cards&#34;))&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;list() は、各行の最初の列をリストで返します。次のコードの戻り値は [1, 2, 3]です:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;ids = mw.col.db.list(&#34;select id from cards limit 3&#34;)&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;all() は、各行がリストの場合、行のリストを返します:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;ids_and_ivl = mw.col.db.all(&#34;select id, ivl from cards&#34;)&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;execute() は、中間リストを作らずに結果の集まりへの処理を繰り返すのに使えます。例:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;for id, ivl in mw.col.db.execute(&#34;select id, ivl from cards limit 3&#34;):
+    showInfo(&#34;card id %d has ivl %d&#34; % (id, ivl))&lt;/pre&gt;
+&lt;p&gt;アドオンが、コレクションの中のテーブルを修正することが決してないように注意してください。
+このことは、Anki 将来のバージョンで変更になる場合があります。プラグイン専用のデータを保存する
+必要がある時には、衝突を避けて新しいテーブルを作るか、別のファイルにデータを保存するようにして
+ください。小さい設定項目は、mw.col.conf の中に保存できますが、同期の度にコピーするため、
+大規模なデータを保存しないでください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;フック&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;フック&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;フックは、アドオンの作成がもっと簡単になるように、コードのほんのわずかな箇所に追加されました。
+フックは 2 種類あります。&lt;em&gt;hook&lt;/em&gt; は引数を取り、戻り値はありませんが、&lt;em&gt;filter&lt;/em&gt; は引数を取り、
+(おそらく何らかの修正を加えて) 値を返します。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;hook&lt;/em&gt; の簡単な例は、記憶困難なカード (leech) の処理の中に見つかります。スケジューラー
+(libanki/sched.py) が、記憶困難なカードを見つけると、&lt;em&gt;hook&lt;/em&gt; を呼び出します。&lt;/p&gt;
+&lt;pre&gt;runHook(&#34;leech&#34;, card)&lt;/pre&gt;
+&lt;p&gt;記憶困難なカードが現れた時に、特定の処理を行いたい場合、例えばそのカードを &#34;Difficult&#34;
+という名前の単語帳に移動する場合、次のようなコードで実現できます。&lt;/p&gt;
+&lt;pre&gt;from anki.hooks import addHook
+from aqt.mw import mw
+
+def onLeech(card):
+    # スケジューラーが修正する際には、 .flush() を使わずに修正できます。
+    card.did = mw.col.decks.id(&#34;Difficult&#34;)
+    # カードが詰め込み単語帳の中にある場合は、元の復習時期で元の単語帳に戻さなければ
+    # なりません
+    card.odid = 0
+    if card.odue:
+        card.due = card.odue
+        card.odue = 0
+
+addHook(&#34;leech&#34;, onLeech)&lt;/pre&gt;
+&lt;p&gt;aqt/editor.py の中に &lt;em&gt;filter&lt;/em&gt; の例があります。エディターは、入力欄からフォーカスが外れる
+と &#34;editFocusLost&#34; filter を呼び出します。そして、アドオンはノートに変更を加えます。&lt;/p&gt;
+&lt;pre&gt;if runFilter(
+    &#34;editFocusLost&#34;, False, self.note, self.currentField):
+    # ノートを更新して、スケジュールを再度読み込む
+    def onUpdate():
+        self.loadNote()
+        self.checkValid()
+    self.mw.progress.timer(100, onUpdate, False)&lt;/pre&gt;
+&lt;p&gt;filter は 3 つの引数を指定できます。修正フラグ、ノート、現在のフィールドです。
+filter が変更を加えない場合は、修正フラグは受け取った値と同じ値を返します。
+変更を加えた場合は、True を返します。このようにして、どんな単一のアドオンでも変更を加えると
+ユーザーインターフェイスは、ノートを読み込み直して、更新内容を表示します。&lt;/p&gt;
+&lt;p&gt;Japanese Support アドオンは、このフックを使って別の欄から新しい欄を自動的に生成します。
+単純化したものを次に示します。&lt;/p&gt;
+&lt;pre&gt;def onFocusLost(flag, n, fidx):
+    from aqt import mw
+    # japanese model か?
+    if &#34;japanese&#34; not in n.model()[&#39;name&#39;].lower():
+        return flag
+    # src 欄と dst 欄を持つか?
+    for c, name in enumerate(mw.col.models.fieldNames(n.model())):
+        for f in srcFields:
+            if name == f:
+                src = f
+                srcIdx = c
+        for f in dstFields:
+            if name == f:
+                dst = f
+    if not src or not dst:
+        return flag
+    # dst 欄は入力済みか?
+    if n[dst]:
+        return flag
+    # イベントは src 欄で発生したか?
+    if fidx != srcIdx:
+        return flag
+    # ソーステキストを取得
+    srcTxt = mw.col.media.strip(n[src])
+    if not srcTxt:
+        return flag
+    # 欄を更新
+    try:
+        n[dst] = mecab.reading(srcTxt)
+    except Exception, e:
+        mecab = None
+        raise
+    return True
+
+addHook(&#39;editFocusLost&#39;, onFocusLost)&lt;/pre&gt;
+&lt;p&gt;filter の第一引数は、必ず返される引数です。このフォーカスを失った時の filter の中では、
+引数はフラグですが、別のオブジェクトになる場合もあります。例えば、libanki/collection.py
+の中では、_renderQA() は、カードの表面と裏面用に生成した HTML を持つ &#34;mungeQA&#34; filter
+を呼び出します。latex.py は、この filter を LaTeX タグの中のテキストを画像に変換する
+のに使っています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;モンキーパッチとメソッドの隠蔽&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;モンキーパッチとメソッドの隠蔽&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;フックを持っていない関数を修正したい場合には、カスタム版の関数で上書きすることが可能です。
+このことを、「モンキーパッチ」を呼ぶことがあります&lt;/p&gt;
+&lt;p&gt;aqt/editor.py には、setupButtons() という関数があり、エディターの中にある太字ボタン、
+斜字体ボタンのようなボタンを生成します。自分のアドオンに違ったボタンを追加することを考えて
+みましょう。&lt;/p&gt;
+&lt;p&gt;一番簡単な方法は、Anki のソースコードからその関数をコピーペーストして、自分のテキストを
+ボタンに追加します。そして、元の関数を上書きします。次の通りです。&lt;/p&gt;
+&lt;pre&gt;from aqt.editor import Editor
+
+def mySetupButtons(self):
+    &amp;lt;オリジナルからコピーペーストしたコード&amp;gt;
+    &amp;lt;カスタムアドオンのコード&amp;gt;
+
+Editor.setupButtons = mySetupButtons&lt;/pre&gt;
+&lt;p&gt;この方法は、将来の Anki のバージョンで元のコードが更新されるような場合に、自分のアドオンも
+更新する必要になる問題をはらんでいます。もっと良い方法は、オリジナルの関数を保存しておいて
+自分のカスタムバージョンの中で呼び出すことです。&lt;/p&gt;
+&lt;pre&gt;from aqt.editor import Editor
+
+def mySetupButtons(self):
+    origSetupButtons(self)
+    &amp;lt;カスタムアドオンのコード&amp;gt;
+
+origSetupButtons = Editor.setupButtons
+Editor.setupButtons = mySetupButtons&lt;/pre&gt;
+&lt;p&gt;これはよく行われる処理なので、Anki では wrap() という関数を提供して、もう少し使いやすく
+しています。実際の例をご紹介します。&lt;/p&gt;
+&lt;pre&gt;from anki.hooks import wrap
+from aqt.editor import Editor
+from aqt.utils import showInfo
+
+def buttonPressed(self):
+    showInfo(&#34;pressed &#34; + `self`)
+
+def mySetupButtons(self):
+    # - size=False は、小さいボタンは使わない
+    # - lambda は、予め設定されているメソッドの代わりに関数の中で
+    #    エディタインスタンスをコールバックに渡す時に必要
+    self._addButton(&#34;mybutton&#34;, lambda s=self: buttonPressed(self),
+                    text=&#34;PressMe&#34;, size=False)
+
+Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons)&lt;/pre&gt;
+&lt;p&gt;既定では、wrap() は元のコードの後にカスタムコードを実行します。第3引数 &#34;before&#34; を渡すと
+これを逆転できます。元のバージョンの前と後の両方で実行する必要がある場合は、次のようにします。&lt;/p&gt;
+&lt;pre&gt;from anki.hooks import wrap
+from aqt.editor import Editor
+
+def mySetupButtons(self, _old):
+    &amp;lt;オリジナルの前で実行するコード&amp;gt;
+    ret = _old(self)
+    &amp;lt;オリジナルの後で実行するコード&amp;gt;
+    return ret
+
+Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, &#34;around&#34;)&lt;/pre&gt;
+&lt;p&gt;関数の前後でコードを実行するのではなく、関数の中を修正する必要がある場合には、元のコードの
+中の対象とする関数にフックを追加するのが良い方法かも知れません。このような場合には、
+追加するフックについての質問をフォーラムに投稿してください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;qt&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Qt&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;上記にあるとおり、&lt;a href=&#34;http://doc.qt.io/qt-4.8/index.html&#34;&gt;Qt documentation&lt;/a&gt; が
+色々な GUI を表示する方法を学ぶのに非常に貴重な文書です。&lt;/p&gt;
+&lt;p&gt;一つ覚えておいてほしいことは、Python ではオブジェクトはガベージコレクションされます。
+次のように記述するとどうなるでしょうか。&lt;/p&gt;
+&lt;pre&gt;def myfunc():
+    widget = QWidget()
+    widget.show()&lt;/pre&gt;
+&lt;p&gt;すると、この関数を終了するとすぐにウェジットは消えてしまいます。これを避けるには、
+トップレベルのウェジットに既存のオブジェクトを割り当てます。次の通りです。&lt;/p&gt;
+&lt;pre&gt;def myfunc():
+    mw.myWidget = widget = QWidget()
+    widget.show()&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section id=&#34;標準モジュール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;標準モジュール&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、このプログラムの実行に必要な標準モジュールだけを含めて提供しています。Python
+の完全な複製を含んではいません。このために、Anki が含んでいない標準モジュールを使う必要が
+ある場合には、自分のアドオンに同梱する必要があります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;デバッグ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;デバッグ&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;自分のコードから例外が発生した時には、Anki の標準例外ハンドラー (標準エラー出力に書き出さ
+れるものは何でも) が補足します。デバッグ目的のために、情報を出力する必要がある場合は、
+aqt.utils.showInfo を使うか、sys.stderr.write(&#34;text\n&#34;) で標準エラー出力に書き出す
+必要があります。&lt;/p&gt;
+&lt;p&gt;Anki には、REPL が含まれています。プログラムの中から Ctrl+: または Command+: を押すと
+ウィンドウが立ち上がります。上の欄に式や文を入力し、ctrl+return/command+return を押すと
+評価します。セッション例を次に挙げます。&lt;/p&gt;
+&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; mw
+&amp;lt;no output&amp;gt;
+
+&amp;gt;&amp;gt;&amp;gt; print mw
+&amp;lt;aqt.main.AnkiQt object at 0x10c0ddc20&amp;gt;
+
+&amp;gt;&amp;gt;&amp;gt; invalidName
+Traceback (most recent call last):
+  File &#34;/Users/dae/Lib/anki/qt/aqt/main.py&#34;, line 933, in onDebugRet
+    exec text
+  File &#34;&amp;lt;string&amp;gt;&#34;, line 1, in &amp;lt;module&amp;gt;
+NameError: name &#39;invalidName&#39; is not defined
+
+&amp;gt;&amp;gt;&amp;gt; a = [a for a in dir(mw.form) if a.startswith(&#34;action&#34;)]
+... print a
+... print
+... pp(a)
+[&#39;actionAbout&#39;, &#39;actionCheckMediaDatabase&#39;, ...]
+
+[&#39;actionAbout&#39;,
+ &#39;actionCheckMediaDatabase&#39;,
+ &#39;actionDocumentation&#39;,
+ &#39;actionDonate&#39;,
+ ...]
+
+&amp;gt;&amp;gt;&amp;gt; pp(mw.reviewer.card)
+&amp;lt;anki.cards.Card object at 0x112181150&amp;gt;
+
+&amp;gt;&amp;gt;&amp;gt; pp(card()) # mw.reviewer.card.__dict__ へのショートカット
+{&#39;_note&#39;: &amp;lt;anki.notes.Note object at 0x11221da90&amp;gt;,
+ &#39;_qa&#39;: [...]
+ &#39;col&#39;: &amp;lt;anki.collection._Collection object at 0x1122415d0&amp;gt;,
+ &#39;data&#39;: u&#39;&#39;,
+ &#39;did&#39;: 1,
+ &#39;due&#39;: -1,
+ &#39;factor&#39;: 2350,
+ &#39;flags&#39;: 0,
+ &#39;id&#39;: 1307820012852L,
+ [...]
+}
+
+&amp;gt;&amp;gt;&amp;gt; pp(bcard()) # ブラウザで選択したカードへのショートカット
+&amp;lt;as above&amp;gt;&lt;/pre&gt;
+&lt;p&gt;何が評価されたか知るためには、式を明示的に出力する必要があることに注意してください。Anki では
+pp() (pretty print) がスコープの中でオブジェクトの詳細を素早くダンプすることが簡単に
+できるようになっています。ショートカット ctrl+shift+return は上の欄中の現在のテキストを
+pp() で囲んで実行し結果を表示します。&lt;/p&gt;
+&lt;p&gt;Linux を使っているかソースコードから Anki を実行している場合は、自分のスクリプトを pdb を
+使ってデバッグすることも可能です。次の行を自分のコードのどこかに置けば、Anki がその場所に
+達するとターミナルにデバッガーが立ち上がります。&lt;/p&gt;
+&lt;pre&gt;from aqt.qt import debug; debug()&lt;/pre&gt;
+&lt;p&gt;別の方法としては、export DEBUG=1 と自分のシェルで実行すれば、補足していない例外個所で
+デバッガーが立ち上がります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;もっと詳しく学びたい場合には&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;もっと詳しく学びたい場合には&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;libanki と ankiqt の両方が &lt;a href=&#34;http://github.com/dae/&#34;&gt;http://github.com/dae/&lt;/a&gt; で入手できます。コレクション
+オブジェクトは、libanki の collection.py の中で定義されています。他に調べる価値のある
+ファイルは、cards.py、notes.py、sched.py、models.py や decks.py があります。&lt;/p&gt;
+&lt;p&gt;ankiqt のソースコード見ることも、特定の処理のための libanki の呼び出し方や GUI の詳細
+を理解するのに役立ちます。&lt;/p&gt;
+&lt;p&gt;多くの GUI は、designer ファイルの中で定義されてます。Qt Designer というプログラムを
+使えば .ui ファイルを開いて、GUI をブラウズすることが簡単にできます。&lt;/p&gt;
+&lt;p&gt;最後になりますが、他のアドオンが何かを実現している方法を見ることも、非常に役立つことです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_1_2_プラグインからの移植&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;Anki 1.2 プラグインからの移植&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;注意すべき主な変更点:&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+テーブルの変更: facts&amp;#8594;notes、reviewHistory&amp;#8594;revlog
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+フィールドは、現在 notes テーブルに &lt;em&gt;flds&lt;/em&gt; という単体のテキストフィールドに保存している。
+   各フィールドは \x1f で区切られている。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+cardTags テーブルは廃止になりました。以前と同様の方法で検索するには
+   col.findCards(&#34;tag:x note:y card:z&#34;) をお使いください。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+スケジュールのコードは全て sched.py にあります。単語帳のコードは collection.py です。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+notes テーブルを一括更新する場合は、findReplace() を使わないでください。
+   必ず col.updateFieldCache() を呼び出してください。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Q/A キャッシュは廃止になりました。このため質問か解答を生成していないカードの中を
+   テキスト検索することはできません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+変更の前にコレクションを保存するには、古いやり直しシステムの代わりに
+   mw.checkpoint(&#34;Undo Name&#34;) を呼び出してください。ユーザーが操作をやり直す場合、
+   保存済みの状態に戻ります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+変更の同期を確実にするには、ノートやカードをデータベース内で修正した場合に、mod の更新と
+   usn が col.usn() に設定を必ず行ってください。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+同様に、モデルや単語帳を修正した場合は、適切なマネージャで必ず save() を呼んでください。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+タイマーを設定する場合は、mw.progress.timer() を使って、データベース処理の最中に
+   タイマーが起動することが決して起らないようにしてください。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+stats テーブルは廃止されました。同期中のマージはできなくなりました。統計は revlog
+   テーブルから引き出す必要があります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;アドオンの共有&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;アドオンの共有&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;単純な一つのファイルからなるアドオンは、その .py をアップロードできます。複数のファイルの
+アドオンは、Python パッケージとして動作するようにサブホルダーを作って、パッケージを読み込む
+小さな .py ファイルを作ってください。Japanese support アドオンを使って説明しますと
+次のような構造になります。&lt;/p&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content monospaced&#34;&gt;
+&lt;pre&gt;japanese/file1.py
+japanese/file2.py
+japanese/__init__.py # 空も可能。このフォルダーがパッケージであることを示す
+japanese/&amp;lt;バイナリーのサポートファイル&amp;gt;
+jp.py&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;複数ファイルのアドオンをアップロードするには、フォルダーとローダー .py ファイルを zip
+ファイルにして、その zip ファイルをアップロードしてください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/addons/&#34;&gt;https://ankiweb.net/shared/addons/&lt;/a&gt; にアドオンをアップロードしてください。&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;h2&gt;日本語版訳注&lt;/h2&gt;
+&lt;p&gt;Anki 2 の変更点を知るには、&lt;a href=&#34;http://rs.luminousspice.com/2013/02/changeinanki2/&#34; target=&#34;_blank&#34;&gt;Anki 2の変更点&lt;/a&gt; が役立ちます。&lt;/p&gt;
+&lt;p&gt;更に、アプリケーションの個々の機能や処理を詳しく理解するには &lt;a href=&#34;http://ankisrs.net/docs/manual.html&#34; target=&#34;_blank&#34;&gt;Anki User Manual&lt;/a&gt; をご覧ください。&lt;/p&gt;
+&lt;p&gt;アドオン開発の簡単なチュートリアルとして &lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;日本語版更新履歴&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2012/09/16 Anki 2 Release Candidate 4準拠 (2012/09/08版)&lt;/li&gt;
+&lt;li&gt;2013/02/03 Anki 2.0.5準拠 (2012/12/20版)&lt;/li&gt;
+&lt;li&gt;2013/05/07 Anki 2.0.8準拠 (2013/05/07版)&lt;/li&gt;
+&lt;li&gt;2013/06/07 Anki 2.0.8準拠 (2013/05/13版)&lt;/li&gt;
+&lt;li&gt;2014/02/15 Anki 2.0.22準拠 (2014/02/14版)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

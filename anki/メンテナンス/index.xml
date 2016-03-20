@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>メンテナンス on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</link>
+    <description>メンテナンス | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 Sep 2013 18:00:18 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ankiのインストール</title>
+      <link>http://rs.luminousspice.com/install_anki/</link>
+      <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <description>最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。AnkiのデスクトップPC版(Mac, Windows, Linux/BSD)については、ダウンロードからインストールまでの手順を、Apple機器(ipod touch, ipad, iPhone)とAndroid(アンドロイド)機器、Chromebookについては、最新版Ankiのダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。Anki のデスクトップ PC 版 (OS X, Windows, Linux/BSD) については、ダウンロードからインストールまでの手順を、Apple 機器 (ipod touch, ipad, iPhone) とAndroid (アンドロイド) 機器、Chromebook については、最新版 Anki のダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_のダウンロードとインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki のダウンロードとインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki は、デスクトップ PC 版とモバイルデバイス版で機能に違いがあります。
+モバイルデバイス版は主に学習に特化した機能制限版です。
+また OS 毎にダウンロードファイルが異なり、入手先も異なります。
+デスクトップ PC 版は、&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki サイト&lt;/a&gt;からアプリケーションをローカルにダウンロードしてインストールします。
+モバイルデバイス版は、iOS 版 AnkiMobile は iTunes App Store、Android 版 Ankidroid は Google Play よりインストールします。
+この記事では、デスクトップ版のダウンロード先とインストール方法、モバイルデバイス版の入手先について紹介します。
+また、インストールの際に役立つ参考文書についても紹介します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+この記事の作成時のデスクトップ版の最新バージョンは、Anki 2.0.31 です。今後のアップグレードで、URLやファイル名が変更になる可能性があります。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップ版を AnkiWeb サーバーとデータを同期する場合は、Anki 2.0.24 以降が必須条件になりました。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;デスクトップpcの場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;デスクトップPCの場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;デスクトップ PC 版はダウンロードファイルは別々ですが、一つのプロジェクトとして開発していて OS は違ってもドキュメントは共通です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.luminousspice.com/2013/02/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
+&lt;/li&gt;
+&lt;li&gt;
+前回の記事、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;では Anki の環境設定の初期化、クリーンインストールする際の注意点をまとめています。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/download/mirror/&#34;&gt;最新版以外のアプリケーションを含むアーカイブ&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;os_x_へインストール&#34;&gt;OS X へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+起動中の Anki があれば終了します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Mac]ボタンを押し、&lt;code&gt;anki-2.0.31.dmg&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+ダウンロードした dmg ファイルを開き、Anki ファイルをアプリケーションフォルダーかデスクトップにドラッグしてコピーします。
+&lt;/li&gt;
+&lt;li&gt;
+コピーしたファイルを開くと Anki は起動します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+OS X 版 Anki をお使いになるには、OS X 10.7 以降の Intel Mac が必要です。
+&lt;/li&gt;
+&lt;li&gt;
+OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate Version) を用意しています。&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;の[Alternate Version]というリンクをクリックして入手できます。ダウンロードファイルは &lt;code&gt;anki-2.0.31.qt47.dmg&lt;/code&gt; です。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;windows_へインストール&#34;&gt;Windows へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#windows&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Windows]ボタンを押し、&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダブルクリックしてインストーラーを実行します。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップ上の Anki のショートカットアイコンをダブルクリックすると、Anki は起動します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ubuntu_debian_へインストール&#34;&gt;Ubuntu/Debian へインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Ubuntu/Debian]ボタンを押し、&lt;code&gt;anki-2.0.31.deb&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+お使いになっているシステムのパッケージマネージャーを使ってダウンロードした deb ファイルをインストールします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki サイトで提供しているバージョンに比べて、Ubuntu/Debian の正式リポジトリに含まれている配布パッケージのバージョンは古いため、Anki サイトから直接アプリケーションを入手することをお勧めします。&lt;/p&gt;
+&lt;h2 id=&#34;fedora_へインストール&#34;&gt;Fedora へインストール&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo yum install anki&lt;/code&gt; を実行するだけでインストールできます。&lt;/p&gt;
+&lt;h2 id=&#34;その他の_linux_bsd_システムへインストール&#34;&gt;その他の Linux/BSD システムへインストール&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki Source]ボタンを押し、&lt;code&gt;anki-2.0.31.tgz&lt;/code&gt; をダウンロードします。
+&lt;/li&gt;
+&lt;li&gt;
+ダウンロードした tarball(tgz) を解凍し、&lt;code&gt;README&lt;/code&gt; ファイルに記載している指示に従ってインストールします。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;モバイルデバイスの場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;モバイルデバイスの場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;モバイルデバイス版のアプリケーションは iOS と Android でそれぞれ別々のプロジェクトで開発しています。
+名称も、iOS 版は AnkiMobile、Android 版は AnkiDroid といったデスクトップ版とは違った名称を使っています。
+必ずしも PC 版と同じ機能が使える訳ではありません。また、バージョン番号も一致していません。
+ドキュメントもそれぞれ独自に作成しており、デスクトップ PC 版のドキュメントがそのまま使える訳ではないことに注意してください。&lt;/p&gt;
+&lt;h2 id=&#34;ios_端末_ipod_touch_ipad_iphone_へ_ankimobile_をインストール&#34;&gt;iOS 端末 (iPod Touch, iPad, iPhone) へ AnkiMobile をインストール&lt;/h2&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile は有料アプリケーションです。
+このアプリケーションを購入すると、将来のAnkiの開発を支援することができます。&lt;/p&gt;
+&lt;p&gt;AnkiMobile は、&lt;a target=&#34;new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;iTunes App Store&lt;/a&gt; から購入できます。&lt;/p&gt;
+&lt;p&gt;どうしても無償のアプリケーションを使いたい場合は、&lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; が利用できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/docs/am-upgrade.html&#34;&gt;AnkiMobile2へのアップグレード&lt;/a&gt; (英文)
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;android_端末へ_ankidroid_をインストール&#34;&gt;Android 端末へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;p&gt;AnkiDroid (アンキドロイド) は、Anki の開発者 Damien Elmes とは別のグループが独自に開発している無償のアプリケーションです。&lt;/p&gt;
+&lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://play.google.com/store/apps/details?id=com.ichi2.anki&#34;&gt;Google Play&lt;/a&gt;から入手できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;https://ankidroid.org/docs/manual-ja.html&#34;&gt;AnkiDroid 2 取扱説明書&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;new&#34; href=&#34;http://code.google.com/p/ankidroid/wiki/Upgrading?wl=ja&#34;&gt;AnkiDroid 2.0へのアップグレード方法&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chromebook_へ_ankidroid_をインストール&#34;&gt;Chromebook へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;p&gt;AnkiDroid 2.4 以降で Chromebook がサポートされています。&lt;/p&gt;
+&lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://chrome.google.com/webstore/detail/ankidroid/ckmbkodkbmkmdjdimeiddeljndcneifo&#34;&gt;Chrome ウェブストア&lt;/a&gt;から入手できます。&lt;/p&gt;
+&lt;h2 id=&#34;その他の端末&#34;&gt;その他の端末&lt;/h2&gt;
+&lt;p&gt;その他の端末には専用のクライアントソフトはありませんが &lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;が利用できます。
+&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#other&#34;&gt;Ankiサイト&lt;/a&gt;の　Download Anki 項目の Other タブの内容をご覧ください。
+このページでは、携帯電話、Blackberry 端末、Maemo、Windows Phone/Windows Mobile/Windows RT、ニンテンドーDS、Sony PSP、Palm端末の情報を掲載しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Knowledge Base &lt;a target=&#34;new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/windows-phone-windows-rt&#34;&gt;Windows Phone &amp;amp; Windows RT&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_のアンインストール&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki のアンインストール&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のアンインストールをするには、Anki のアプリケーション本体と Anki フォルダー &lt;code&gt;Documents/Anki/&lt;/code&gt; を削除します。
+Anki フォルダーに含まれている単語帳、学習履歴、ユーザープロファイル、バックアップファイルも削除されます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;さっそく_anki_を使ってみよう&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;さっそく Anki を使ってみよう&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;インストールしてどこから手をつけたら良いか分からない方には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;をお勧めします。デスクトップPC版を例にして、Ankiの使い方の基本的な流れが体験できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/09/29: 初出&lt;/p&gt;
+&lt;p&gt;2014/04/13: Anki 2.0.24 からの提供ファイルの変更に対応&lt;/p&gt;
+&lt;p&gt;2014/04/24: Anki 2.0.26 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2014/09/22: Anki 2.0.29 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2015/01/15: AnkiDroid 日本語マニュアル、Anki 2.0.31 リリースへの対応&lt;/p&gt;
+&lt;p&gt;2015/01/29: AnkiDroid の Chromebook サポートへの対応&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiと初期化</title>
+      <link>http://rs.luminousspice.com/anki_reset/</link>
+      <pubDate>Sat, 28 Sep 2013 22:00:25 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki_reset/</guid>
+      <description>Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を紹介します。復習間隔や学習履歴を初期化、リセットする方法を取り上げます。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を紹介します。復習間隔や学習履歴を初期化、リセットする方法を取り上げます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiの環境設定を初期化する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Ankiの環境設定を初期化する&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiの環境設定を初期化するには設定ファイル &lt;strong&gt;prefs.db&lt;/strong&gt; (Documents/Anki/prefs.db) を削除します。
+この削除作業はAnkiを終了してから行います。
+なお、&lt;strong&gt;prefs.db&lt;/strong&gt; を削除しても単語帳の内容や学習履歴は影響を受けません。&lt;/p&gt;
+&lt;p&gt;安全のため、&lt;strong&gt;prefs.db&lt;/strong&gt; を削除するよりも別のファイル名に変更する方法がよいでしょう。
+もし、元の設定に戻したくなったら名前を &lt;strong&gt;prefs.db&lt;/strong&gt; 戻せば設定を復元できます。
+この場合も、名前の変更はAnkiを終了してから行います。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;prefs.db&lt;/strong&gt; がない状態でAnkiを起動すると、言語設定画面が開きます。これでAnkiの設定が初期化したことが分かります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_1.png&#34; alt=&#34;言語設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 言語設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ankiの設定を初期化する際の詳しい注意点は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;で説明しています。あわせてご覧ください。&lt;/p&gt;
+&lt;h2 id=&#34;ankiの再インストールと設定初期化&#34;&gt;Ankiの再インストールと設定初期化&lt;/h2&gt;
+&lt;p&gt;Ankiを再インストールと同時に設定も初期化したいのであれば、事前にAnkiのアプリケーション本体に加えて設定ファイル &lt;strong&gt;prefs.db&lt;/strong&gt; も削除します。&lt;/p&gt;
+&lt;p&gt;この場合、既存のユーザプロファイル、ユーザープロファイル、単語帳、学習履歴、バックアップファイルは残ります。&lt;/p&gt;
+&lt;h2 id=&#34;ankiのクリーンインストール&#34;&gt;Ankiのクリーンインストール&lt;/h2&gt;
+&lt;p&gt;Ankiのクリーンインストールを実行して、設定したユーザープロファイルや単語帳、学習履歴、バックアップファイルも消去するには、Ankiの再インストールの前にAnkiのアプリケーション本体と、Ankiフォルダー (Documents/Anki/) を削除します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードの復習間隔を初期化する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;カードの復習間隔を初期化する&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;ブラウザーでカードを選択し、メニューバーから[編集]-[スケジュールを変更]-[新規カードの最後に設定]を選択します。
+この処理では、復習間隔とカードの易しさの指標を初期化します。学習後の復習期日の設定は追加したばかりの新規カードと同じになります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/reset_1.png&#34; alt=&#34;復習間隔の初期化の手順&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 復習間隔の初期化の手順&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ただし、学習履歴はそのまま残ります。この項目も削除したい場合は次の項目をご覧ください。&lt;/p&gt;
+&lt;p&gt;この処理は、単語帳をスケジュール情報を含めずにAnki単語帳パッケージ(apkg)で書き出して、再度読み込んだ時と同じ結果になります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードの学習履歴を初期化する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;カードの学習履歴を初期化する&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;概略としては、ノートの内容をテキストファイルに書き出し、再度読み込んでカードを再作成する作業になります。
+この説明では、安全を見込んでバックアップファイルを作りながら行っていきます。&lt;/p&gt;
+&lt;p&gt;安全で確実な手順は次の通りです。&lt;/p&gt;
+&lt;h2 id=&#34;ノートの書き出し&#34;&gt;ノートの書き出し&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+直近の自動バックアップファイルを取ります(a)。一旦Ankiを終了し、再起動します。複数のプロファイルを使用している場合は、一旦別のプロファイル変更して戻る処理でも良いです。
+&lt;/li&gt;
+&lt;li&gt;
+履歴を初期化したいカードだけを集めた単語帳を作ります。複数のノートタイプがある場合はノートタイプ毎に分割します。ノートタイプの名前は記録しておいてください。
+&lt;/li&gt;
+&lt;li&gt;
+この単語帳の内容をテキストファイルに書き出します。
+メニューバーから[ファイル]-[書き出す](図3-1)を選択するか、ショートカット(Mac OS X: Command+E, Windows: Ctrl+E)を使います。
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+書き出しオプション　(図3-2)
+&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+ファイルの形式: [テキストファイル形式のノート(*.txt)]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+対象: [書き出す単語帳名]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+さらにバックアップとしてAnki単語帳パッケージで書き出します(b)。
+メニューバーから[ファイル]-[書き出す] \(Mac OS X: Command+E; Windows: Ctrl+E)
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+書き出しオプション
+&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+ファイルの形式: [Anki単語帳パッケージ(*.apkg)]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+対象: [書き出す単語帳名]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+書き出しが終わった単語帳を削除します(図3-3)。単語帳一覧から単語帳名右のドロップダウンリストで[削除]を選択します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/reset_2.png&#34; alt=&#34;ノートを書き出す手順&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. ノートを書き出す手順&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ankiのノートを書き出す方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;でさらに詳しく説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;テキストファイルの読み込み&#34;&gt;テキストファイルの読み込み&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+書き出したテキストファイルを読み込みます。
+[ファイルを読み込む]ボタン(図4-1)を押すか、メニューバーから[ファイル]-[読み込む]を選択するか、ショートカット(Mac OS X: Command+I; Windows: Ctrl+I)を使います。
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み込みファイルの指定(図4-2)
+&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+ファイルの種類 [タブ区切りまたはセミコロン区切り(*)]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み込みオプション(図4-3)
+&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+種類 [ノートタイプの名前]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳 [読み込み先の単語帳名]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ankiのブラウザーを開き、読み込み先の単語帳を選択して、カードが正しく作成されているか確認します。
+読み込み先の単語帳が分からなくなった場合は、ブラウザーのサイドバーから[今日追加したカード]を選択してみてください。&lt;/p&gt;
+&lt;p&gt;いずれの場合も、正しく作成していれば、期日と易しさは初期化され、学習履歴は消えているはずです。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/reset_3.png&#34; alt=&#34;テキストファイルを読み込む手順&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. テキストファイルを読み込む手順&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;テキストファイルの読み込み方の詳しい設定は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;読み込みに失敗したときのバックアップの使い方&#34;&gt;読み込みに失敗したときのバックアップの使い方&lt;/h2&gt;
+&lt;p&gt;何らかのトラブルで書き出したテキストファイルの読み込みができなかった場合、(b)で作成した単語帳を読み込むと、元の単語帳が修復できます。apkgファイルをダブルクリックすると読み込まれます。&lt;/p&gt;
+&lt;p&gt;(b)のバックアップ単語帳を作らなかった時、読み込みに失敗したときは、(a)の自動バックアップファイルから修復すると(a)の時点での単語帳コレクションの状態まで復元できます。&lt;/p&gt;
+&lt;p&gt;バックアップファイルについては、&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;Anki自動バックアップ機能の使い方&lt;/a&gt;で詳しく説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;元のカードを上書きしない理由&#34;&gt;元のカードを上書きしない理由&lt;/h2&gt;
+&lt;p&gt;学習履歴を消去したいカードを削除してから読み込んだのは、読み込み時にカードを上書きしても、学習履歴は消去できないためです。&lt;/p&gt;
+&lt;p&gt;読み込みのオプションで[最初のフィールドが既存ノートと同じであっても読み込む]を選択した場合は、古いカードが残り、重複することになります。
+[最初のフィールドが一致した場合、既存のノートを更新する]を選択した場合は、学習履歴の変更が行われません。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>破損したAnkiデータの修復</title>
+      <link>http://rs.luminousspice.com/restore_corrupt_data/</link>
+      <pubDate>Sat, 06 Jul 2013 21:00:07 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/restore_corrupt_data/</guid>
+      <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。起動後に大量のデータ更新を行ったりして、自動バックアップからの復元では対応できない場合の手順を説明します。&lt;/p&gt;
+&lt;p&gt;注意: この作業はデスクトップPC上でのみ作業が可能です。また、コマンドラインツールの操作が必要となります。なお、モバイル機器での作業は対象外です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;コレクションデータの破損と確認&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;コレクションデータの破損と確認&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;メニューバーから[ツール]&amp;gt;[データベースをチェック]を実行すると、データが破損していないか確認できます。&lt;/p&gt;
+&lt;p&gt;データの破損が発生した場合、一番簡単な復旧方法は最新の&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;自動バックアップファイルから復旧する&lt;/a&gt;ことです。&lt;/p&gt;
+&lt;p&gt;Ankiは、アプリケーション終了時、ユーザープロファイル変更時に自動バックアップを行います。まずは、自動バックアップファイルの復元を試みて、問題発生の直前の状況と比較してみましょう。&lt;/p&gt;
+&lt;p&gt;この記事で紹介するデータ修復の手順は、最新の自動バックアップ以降に、大量のデータの読み込みを行った場合など、最新のデータと自動バックアップファイルの間に差が大きい場合に有効です。&lt;/p&gt;
+&lt;p&gt;Ankiは、プロファイル毎にコレクションファイルを作成します。データの破損が発生しているのはどのプロファイルか改めて確認してください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;修復作業の準備&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;修復作業の準備&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+プロファイルフォルダーの中にある &lt;code&gt;collection.anki2&lt;/code&gt; のバックアップを取ってください。
+このファイルが、修復対象のファイルです。
+なお、プロファイルフォルダーは、Ankiフォルダーの中に、プロファイル名を使って作成しています。
+&lt;/li&gt;
+&lt;li&gt;
+つぎに &lt;code&gt;sqlite3&lt;/code&gt; がインストール済みか確認してください。
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Mac OS Xの場合は、既定でインストール済みです。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Linuxの場合は、パッケージ管理システムを使ってインストール済みか確かめることができます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Windowsの場合は、&lt;a href=&#34;http://www.sqlite.org/download.html&#34; target=&#34;_new&#34;&gt;SQLite サイト&lt;/a&gt;からWindows用の最新のコマンドラインシェル(command-line shell)をダウンロードします。
+2013/10/16時点で、最新版は&lt;a href=&#34;http://www.sqlite.org/2013/sqlite-shell-win32-x86-3080002.zip&#34;&gt;sqlite-shell-win32-x86-3080002.zip&lt;/a&gt;です。なお、Ankiユーザーマニュアルでは、&lt;a href=&#34;http://www.sqlite.org/sqlite-3_6_23.zip&#34;&gt;sqlite-3_6_23.zip&lt;/a&gt;を指定しています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;コレクションファイルのダンプ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;コレクションファイルのダンプ&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;SQLite3のコマンドラインシェルを使って、コレクションのダンプファイルを作ります。作業に使用するプラットフォームによって手順が異なりますのでご注意ください。&lt;/p&gt;
+&lt;h2 id=&#34;mac_os_x_または_linuxの場合&#34;&gt;Mac OS X または Linuxの場合&lt;/h2&gt;
+&lt;p&gt;ターミナルを開き、Ankiフォルダーの中のプロファイルフォルダーに移動して次のコマンドを実行します。&lt;/p&gt;
+&lt;pre&gt;sqlite3 collection.anki2 .dump &amp;gt; dump.txt&lt;/pre&gt;
+&lt;p&gt;生成したファイル &lt;code&gt;dump.txt&lt;/code&gt; をテキストエディタで開きます。
+最終行に &#34;rollback;&#34; という記述があれば、&#34;commit;&#34; に変更します。&lt;/p&gt;
+&lt;p&gt;さらに、ターミナルで次のコマンドを実行します。&lt;/p&gt;
+&lt;pre&gt;cat dump.txt | sqlite3 temp.file&lt;/pre&gt;
+&lt;p&gt;注意: コレクションファイルを上書きせず、必ず &lt;code&gt;temp.file&lt;/code&gt; とテンポラリーファイルを指定してください。&lt;/p&gt;
+&lt;h2 id=&#34;windowsの場合&#34;&gt;Windowsの場合&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ダウンロードしたSqliteファイルを解凍すると、&lt;code&gt;sqlite3.exe&lt;/code&gt; が生成します。これをAnkiフォルダーの中のプロファイルフォルダーにコピーします。
+&lt;/li&gt;
+&lt;li&gt;
+コマンドプロンプトを起動して次のコマンドを実行します。
+コマンドプロンプトを開くには、[スタート]ボタンを押し、[プログラムとファイルの検索]フィールドに &lt;code&gt;cmd&lt;/code&gt; と入力して、&lt;code&gt;cmd.exe&lt;/code&gt; を実行します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;sqlite3 collection.anki2 .dump &amp;gt; dump.txt&lt;/pre&gt;
+&lt;p&gt;生成したファイル &lt;code&gt;dump.txt&lt;/code&gt; をテキストエディタで開きます。
+最終行に &#34;rollback;&#34; という記述があれば、&#34;commit;&#34; に変更します。&lt;/p&gt;
+&lt;p&gt;さらに、ターミナルで次のコマンドを実行します。&lt;/p&gt;
+&lt;pre&gt;cat dump.txt | sqlite3 temp.file&lt;/pre&gt;
+&lt;p&gt;注意: コレクションファイルを上書きせず、必ず &lt;code&gt;temp.file&lt;/code&gt; とテンポラリーファイルを指定してください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiに読み込む&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Ankiに読み込む&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ダンプファイル作成時にエラーメッセージを表示しないこと、ダンプファイルが空でないことを確認します。
+&lt;/li&gt;
+&lt;li&gt;
+コレクションファイル &lt;code&gt;collection.anki2&lt;/code&gt; を別の名前に変更し、ダンプファイル &lt;code&gt;temp.file&lt;/code&gt; を &lt;code&gt;collection.anki2&lt;/code&gt; に変更します。
+&lt;/li&gt;
+&lt;li&gt;
+Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベースをチェック]を実行します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;問題がなければ修復作業は成功です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/10/16: Anki 2.0.14のリリースと同時に行われた&lt;a href=&#34;http://ankisrs.net/docs/manual.html#corrupt-collections&#34; target=&#34;_new&#34;&gt;マニュアル&lt;/a&gt;の変更に基づいて、内容を更新しました。&lt;/p&gt;
+&lt;p&gt;2013/7/6: 初出&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki自動バックアップ機能の使い方</title>
+      <link>http://rs.luminousspice.com/anki_automatic_backup/</link>
+      <pubDate>Fri, 05 Jul 2013 23:00:59 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
+      <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</description>
+      <content>&lt;section id=&#34;自動バックアップとは&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;自動バックアップとは&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成します。
+Ankiがコレクションファイルを閉じるタイミングとは、Ankiを終了する時、プロファイルを変更する時、単語帳を同期する時です。
+既定では過去30ファイル分保存していて、障害や操作ミスなどの不測の事態に備えています。&lt;/p&gt;
+&lt;p&gt;このバックアップファイルを使った復旧方法を説明します。&lt;/p&gt;
+&lt;p&gt;さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;自動バックアップの注意点&#34;&gt;自動バックアップの注意点&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;自動バックアップでは、ディスクの障害やコンピュータの故障には対応できません。また、メディアファイルは対象としていません。
+データを安全に保管するには、定期的に手動でバックアップを行う必要があります。&lt;/p&gt;
+&lt;p&gt;最も簡単な手動バックアップの方法は、Ankiフォルダーを丸ごとバックアップすることです。その場合、必ずAnkiを終了してから行ってください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;自動バックアップの設定&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;自動バックアップの設定&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;バックアップファイルの設定は、メニューバーから[Anki]&amp;gt;[環境設定]を選択し、[バックアップ]タブをクリックします。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/automatic_backup_1.png&#34; alt=&#34;環境設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 環境設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この設定画面で、保存するファイル数を指定できます。既定では30です。&lt;/p&gt;
+&lt;p&gt;バックアップファイルを見つけるには、[バックアップフォルダを開く]リンクをクリックすると、保存しているフォルダにアクセスできます。 実際のパスは既定では、 &lt;code&gt;(書類, ドキュメントフォルダ)/Anki/(プロファイル名)/backups&lt;/code&gt; になります。
+バックアップファイルは &lt;code&gt;backup-(連番).apkg&lt;/code&gt; という名前で保存しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;自動バックアップからの復旧方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;自動バックアップからの復旧方法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;バックアップフォルダーの中の最新のバックアップファイルをダブルクリックすると、読み込みを行いコレクションデータを復旧します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;削除ログからの復旧方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;削除ログからの復旧方法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Anki2.0.9からはプロファイルディレクトリ内の &lt;code&gt;deleted.txt&lt;/code&gt; ファイルに削除したカードのフィールドの内容を保存するようになりました。&lt;/p&gt;
+&lt;p&gt;このファイルに記録している削除したノートをテキストファイルの読み込み機能を使って復旧することができます。
+一度に一種類のノートタイプの読み込みしかできませんので、ノートタイプ毎に読み込み処理を行う必要があります。&lt;/p&gt;
+&lt;p&gt;読み込み機能の詳しい内容については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki2の言語設定を変更する</title>
+      <link>http://rs.luminousspice.com/how-to-change-lang/</link>
+      <pubDate>Sun, 28 Apr 2013 00:00:22 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-change-lang/</guid>
+      <description>Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;はじめに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki2からインストール直後の初期設定でユーザーインターフェースの使用言語を選択した後、設定画面から言語設定を変更することができなくなりました。複数の言語を学習にAnkiの言語設定を切り替えながら使ってきたユーザーの方々は、この変更点にとまどっているのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;そこで、今回はインストール後にAnkiの言語設定を切り替える方法をまとめて紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;一時的に変更&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;一時的に変更&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Anki2からは&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html#startup-options&#34;&gt;Startup Options(起動オプション)&lt;/a&gt;で言語設定を指定できるようになりました。&lt;/p&gt;
+&lt;pre&gt;インターフェースの言語は&#34;-l&#34;オプションで指定できます。-l &amp;lt;ISO言語名コード&amp;gt;を指定して起動します。&lt;/pre&gt;
+&lt;p&gt;例: Windowsで英語を指定して起動&lt;/p&gt;
+&lt;pre&gt;&#34;C:\Program Files\Anki\anki.exe&#34; -l en&lt;/pre&gt;
+&lt;p&gt;例: Mac OS Xで日本語を指定して起動&lt;/p&gt;
+&lt;pre&gt;/Applications/Anki.app/Contents/MacOS/anki -l ja&lt;/pre&gt;
+&lt;p&gt;実際には皆さんお使いのAnkiのインストール場所を指定してください。&lt;/p&gt;
+&lt;div class=&#34;alert alert-info alert-block&#34;&gt;
+&lt;table cellpadding=&#34;10&#34;&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34; nowrap&gt;
+&lt;div class=&#34;title&#34;&gt;NOTE&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;使用可能な言語&lt;/div&gt;
+&lt;p&gt;Ankiマニュアルでは、&#34;iso country code&#34; と記述していますが、正しくは言語名コード(Language code)です。ISO 639に掲載している全ての言語で使用できるとはとても思えないので調べてみました。&lt;/p&gt;
+&lt;p&gt;使用可能な言語は、Ankiのソースコード&lt;a target=&#34;_new&#34; href=&#34;https://github.com/dae/anki/blob/master/anki/lang.py&#34;&gt;anki/lang.py&lt;/a&gt;の先頭で定義しています。言語リソースの翻訳状況は様々ですがAnki2.0.8時点で、&lt;strong&gt;50言語&lt;/strong&gt; サポートしています。これ以外の言語を指定した場合は英語で代用します。&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;コマンドプロンプトから毎回起動オプションを使うのは面倒な場合もあります。でどうするかというのがこの先の話題です。&lt;/p&gt;
+&lt;h3 id=&#34;windows_のショートカットを利用&#34;&gt;Windows のショートカットを利用&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;code&gt;anki.exe&lt;/code&gt; のショートカットを右クリックし、プロパティを選択
+&lt;/li&gt;
+&lt;li&gt;
+ショートカットタブを選択
+&lt;/li&gt;
+&lt;li&gt;
+リンク先項目の最後に起動オプションを追加する。例: &lt;code&gt;&#34;C:\Program Files\Anki\anki.exe&#34; -l en&lt;/code&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;初期設定し直す&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;初期設定し直す&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;インストール直後の初期状態に戻して言語設定し直すというのが次のアプローチです。Ankiの初期設定ファイルを削除すれば良いのです。Ankiの再インストールでは、初期設定はそのまま残りますので、言語設定し直すことができません。&lt;/p&gt;
+&lt;p&gt;Ankiは既定でドキュメントフォルダーの中に単語帳を保存するAnkiフォルダーを作成します。この中にある &lt;code&gt;prefs.db (Documents/Anki/prefs.db)&lt;/code&gt; が初期設定ファイルです。Ankiを終了してから &lt;code&gt;prefs.db&lt;/code&gt; を削除し、Ankiを起動すると言語設定し直すことができます。
+当然のことながら他の設定もなくなってしまいます。&lt;/p&gt;
+&lt;p&gt;より安全に作業するには、Ankiを終了してから &lt;code&gt;prefs.db&lt;/code&gt; を別のファイル名に変更します。元のファイルの名前を &lt;code&gt;prefs.db&lt;/code&gt; に変更すればいつでも元の設定に戻すことができます。&lt;/p&gt;
+&lt;p&gt;頻繁ではないにしても継続的に言語設定を切り替えるのであれば、あらかじめ言語別に &lt;code&gt;prefs.db&lt;/code&gt; を保存しておいて使い分けるのも効率的な方法だと思います。&lt;/p&gt;
+&lt;p&gt;Mac OS Xの場合の保存場所&lt;/p&gt;
+&lt;pre&gt;[書類]&amp;gt;[Anki] prefs.db (/Users/[ユーザー名]/Documents/Anki/prefs.db)&lt;/pre&gt;
+&lt;p&gt;Windows7の場合の保存場所&lt;/p&gt;
+&lt;pre&gt;[マイ ドキュメント]&amp;gt;[Anki] prefs.db (&#34;C:\Users\user name\Documents\Anki\prefs.db&#34;)&lt;/pre&gt;
+&lt;p&gt;Windowsの場合バージョン毎にドキュメントフォルダーの位置が異なります。&lt;a target=&#34;_new&#34; href=&#34;http://windows.microsoft.com/ja-jp/windows7/where-are-my-files-and-folders-after-upgrading-from-windows-xp-or-windows-vista&#34;&gt;Windows XP または Windows Vista からのアップグレード後のファイルおよびフォルダーの場所&lt;/a&gt;の「Windows 7 で共通のフォルダーを見つける方法」を参考にしてください。&lt;/p&gt;
+&lt;h3 id=&#34;注意_ユーザープロフィールを複数使っている場合&#34;&gt;注意: ユーザープロフィールを複数使っている場合&lt;/h3&gt;
+&lt;p&gt;この方法を行うと、既定で作成するプロファイル&#34;ユーザー 1&#34;以外のプロファイルが消えてしまいます。ここで慌てないでください。再度、これまで使っていたプロファイル名でプロファイルを作成すると元に戻ります。プロファイル名を忘れてしまった方は、ドキュメントフォルダー内のAnkiフォルダーを見てください。プロファイル名がフォルダー名として残っています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;設定ファイルを編集&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;設定ファイルを編集&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;code&gt;prefs.db&lt;/code&gt; はsqliteファイルです。開発経験が必要になりますが、sqliteファイルを書き換えることでも言語設定は変更できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;どう使い分けるか&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;どう使い分けるか&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;まず最も頻繁に使う言語にAnkiの言語設定をすることです。現在そうなっていないのなら、初期設定からし直すのがよいでしょう。その上で一時的に使う言語は起動プションで呼び出すのがおすすめの方法の方法です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/4/28: 初出&lt;/p&gt;
+&lt;p&gt;2013/5/5: AnkiサポートサイトのKnowledge Baseの記事&#34;&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/interface/changing-the-interface-language&#34;&gt;Changing the interface language&lt;/a&gt;&#34;に基づいて、内容を更新しました。&lt;/p&gt;
+&lt;p&gt;2014/09/28 再構成&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

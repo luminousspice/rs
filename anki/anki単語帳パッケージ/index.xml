@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anki単語帳パッケージ on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/anki%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8/</link>
+    <description>Anki単語帳パッケージ | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 30 May 2013 00:30:22 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/anki%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki単語帳を共有する方法</title>
+      <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
+      <pubDate>Thu, 30 May 2013 00:30:22 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
+      <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の最終回は、単語帳の共有方法について紹介します。Ankiは色々な出力機能で、ユーザー間のデータ共有を支援しています。自分の単語帳を友達と交換して、Ankiの楽しみを広げましょう。How to share your Anki decks.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第8回目 最終回 Anki単語帳を共有する方法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ankiを使っている人なら知っている使い方をあえて紹介する連載の最終回は、単語帳の共有方法について紹介します。Ankiは色々な出力機能で、ユーザー間のデータ共有を支援しています。自分の単語帳を友達と交換して、Ankiの楽しみを広げましょう。&lt;/p&gt;
+&lt;div class=&#34;sidebarblock well&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://ankisrs.net/&#34; target=&#34;_new&#34;&gt;Anki&lt;/a&gt;とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;この記事の目標&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;この記事の目標&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;単語帳を書き出す色々な方法に慣れる。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;使うもの&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;使うもの&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://ankisrs.net/&#34; target=&#34;_new&#34;&gt;Anki2&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;単語帳を共有する方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;単語帳を共有する方法&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiには共有する相手や、目的に応じてさまざまな共有方法が選択できます。Ankiから単語データだけを取り出して共有する方法、Anki単語帳のカスタマイズしたカードとして共有する方法、AnkiWebから共有単語帳を提供する方法があります。
+それぞれの方法を簡単にご紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;export&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Ankiの単語帳書き出し機能&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Ankiの単語帳の書き出し方は、メニューバーから[ファイル]&amp;gt;[書き出す]を選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_1.png&#34; alt=&#34;書き出し設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 書き出し設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;[ファイルの形式]でAnki単語帳パッケージ、フィールド内容の出力(ノート)、出題画面の出力(カード)を選択することができます。&lt;/p&gt;
+&lt;table cellpadding=&#34;4&#34; class=&#34;table table-striped&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. 書き出すファイルの形式の説明&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ファイルの形式&lt;/th&gt;
+&lt;th&gt;設定内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anki 単語帳パッケージ(*.apkg)&lt;/td&gt;
+&lt;td&gt;フィールド、タグの内容の出力に加えてスケジュール情報やメディアファイルを含めることができます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;テキストファイル形式のノート(*.txt)&lt;/td&gt;
+&lt;td&gt;フィールドの内容を出力します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;テキストファイル形式のカード(*.txt)&lt;/td&gt;
+&lt;td&gt;画面の内容を出力します(htmlでマークアップ)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;[対象]項目では、書き出す単語帳を指定します。
+単語帳全体のコレクションを書き出す場合には[全ての単語帳]を指定します。
+単語帳パッケージで書き出すと、カードタイプやカードテンプレート、フィルター単語帳も一緒に書き出してくれます。&lt;/p&gt;
+&lt;p&gt;単語データだけを書き出したい時には、テキストファイル形式のノートを選択し、単語データに加えてレイアウトやリンクも含めたAnki単語帳のカードとして書き出したい時には単語帳パッケージを選ぶのが良いでしょう。&lt;/p&gt;
+&lt;p&gt;自分の学習データを他のPCやデバイスに持ち込む時には、[スケジュール情報を含める]を選択すると学習履歴も含めることができます。&lt;/p&gt;
+&lt;pre&gt;memory  記憶  Grade4
+remember        思い出す    Grade6&lt;/pre&gt;
+&lt;p&gt;この例では、Front、Back、タグの順にタブで区切って出力しています。&lt;/p&gt;
+&lt;pre&gt;memory  辞書: &amp;lt;a href=&#34;dict://memory&#34;&amp;gt;rmemory&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br&amp;gt;Vocabulary.com: &amp;lt;a href=&#34;http://www.vocabulary.com/dictionary/memory&#34; target=&#34;vocabcom&#34;&amp;gt;memory&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;記憶
+remember        辞書: &amp;lt;a href=&#34;dict://remember&#34;&amp;gt;remember&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br&amp;gt;Vocabulary.com: &amp;lt;a href=&#34;http://www.vocabulary.com/dictionary/remember&#34; target=&#34;vocabcom&#34;&amp;gt;remember&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;思い出す&lt;/pre&gt;
+&lt;p&gt;この例では、表面の内容、裏面の内容をタブで区切って出力しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;アドオンを使った書き出し方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;アドオンを使った書き出し方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介した、アドオン &lt;a href=&#34;https://ankiweb.net/shared/info/46837454&#34; target=&#34;_new&#34;&gt;Export Browser&#39;s card list contents to CSV file Enhanced&lt;/a&gt;でも単語帳内容を書き出すことができます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_2.png&#34; alt=&#34;ブラウザーで選択した項目を出力&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. ブラウザーで選択した項目を出力&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;内容としては、単語帳パッケージとテキストファイル出力の中間ぐらいの機能になります。
+このアドオンの場合、ブラウザーで選択した内容をCSVで出力してくれます。ブラウザーの表示項目をカスタマイズすれば、Anki本体の書き出し機能より豊富な情報を出力できます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ブラウザー上で出力したいカードを選択する。
+&lt;/li&gt;
+&lt;li&gt;
+[編集]&amp;gt;[Export Selected to CSV]
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;a,辞書と読み上げ,2013-05-20,中学英単語,基本
+a.m.,辞書と読み上げ,2013-05-20,中学英単語,基本
+Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
+&lt;p&gt;この例では、ソートフィールド、カードタイプ、期日、単語帳名、ノートタイプの順に書き出しています。&lt;/p&gt;
+&lt;p&gt;単語帳の中から特定のグループの単語を絞り込んで出力したい場合は、この機能が便利です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiに書き出したデータを読み込むには&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Ankiに書き出したデータを読み込むには&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiへの読み込み処理を呼び出す方法は、次の2通りあります。単語帳パッケージ形式(&lt;strong&gt;.apkg)でも、テキストファイル形式(&lt;/strong&gt;.txt)でも呼び出し方は同じです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+メインウィンドウ右下の[ファイルを読み込む]ボタンを押す。
+&lt;/li&gt;
+&lt;li&gt;
+メニューバーから[ファイル]&amp;gt;[読み込む](Command + I)を選択する。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;更に詳しい手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;単語帳をankiwebへの共有する方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;単語帳をAnkiWebへの共有する方法&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;AnkiWebにある共有単語帳どうやって作っているのか、ご紹介しましょう。&lt;/p&gt;
+&lt;p&gt;まずは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWebにアカウントを作って単語帳を同期&lt;/a&gt;します。
+次にログイン先の単語帳一覧の右側のプルダウンメニューから[Share]を選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_3.png&#34; alt=&#34;AnkiWeb単語帳一覧から選択&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. AnkiWeb単語帳一覧から選択&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;共有単語帳の提出フォームが開きますので、内容を入力して送信すると共有単語帳一覧に追加になります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_4.png&#34; alt=&#34;共有単語帳の提出フォーム&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 共有単語帳の提出フォーム&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;自分の作った単語帳・デッキを世界中のAnkiユーザーと共有する方が皆さんの中から現れるのを期待しています。きっと今までとは違う喜びが得られるはずです。&lt;/p&gt;
+&lt;h2 id=&#34;単語帳内容の登録について注意点&#34;&gt;単語帳内容の登録について注意点&lt;/h2&gt;
+&lt;p&gt;全ての項目に日本語が入力可能です。単語帳の内容を日本語で具体的に説明しましょう。&lt;/p&gt;
+&lt;p&gt;このサイトの共有単語帳の検索機能は、Title と Tag を対象にして検索します。
+日本語キーワードが使えますので、Title や Tag に日本語を使えばその内容も検索できます。&lt;/p&gt;
+&lt;p&gt;なお、共有単語帳トップページの分類項目 &#34;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/decks/japanese&#34;&gt;Japanese&lt;/a&gt;&#34; に掲載するには、Tag に &#34;Japanese&#34; を指定します。&lt;/p&gt;
+&lt;h2 id=&#34;共有単語帳とプライバシー&#34;&gt;共有単語帳とプライバシー&lt;/h2&gt;
+&lt;p&gt;クライアント上で共有単語帳に設定した単語帳を更新し、同期しても自動的に内容は公開しません。
+また、AnkiWeb 上で直接編集した場合も同様です。
+再度提出フォームを送信しない限り、共有単語帳の内容は更新しません。&lt;/p&gt;
+&lt;p&gt;カードに未使用であっても、メディアフォルダーに存在するファイルは共有単語帳に含めて公開します。
+意図しないメディアデータを公開する可能性がありますので注意してください。
+メニューバーから [ツール]-[メディアをチェック] を選択して、不要なデータが残っていないか、公開前に確認すると良いでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;共有単語帳を更新&#34;&gt;共有単語帳を更新&lt;/h2&gt;
+&lt;p&gt;更新した単語帳を AnkiWeb に同期し、単語帳名を変更せずに再度共有します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+更新した単語帳を AnkiWeb に同期します。
+&lt;/li&gt;
+&lt;li&gt;
+AnkiWeb にサインインします。
+&lt;/li&gt;
+&lt;li&gt;
+単語帳一覧の右側のプルダウンメニューから[Share]を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+提出フォームを送信します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;共有単語帳を削除&#34;&gt;共有単語帳を削除&lt;/h2&gt;
+&lt;p&gt;サインイン後の単語帳一覧の右側のプルダウンメニューから[Delete]を選択します。
+この場合、AnkiWeb に同期している単語帳データも同時に削除するので注意してください。&lt;/p&gt;
+&lt;h2 id=&#34;共有単語帳の有効期限&#34;&gt;共有単語帳の有効期限&lt;/h2&gt;
+&lt;p&gt;共有単語帳の有効期限は、公開したアカウントが削除される時までです。
+なお、AnkiWeb のアカウントは 3 か月間アクセスがないと自動削除対象になるので注意が必要です。&lt;/p&gt;
+&lt;p&gt;参考情報: Anki Support Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/ankiweb-account-removal&#34;&gt;AnkiWeb account removal&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;まとめ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;まとめ&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;単語帳の共有方法は色々用意されています。それぞれの方法の特徴を良く理解しておくと、自分の目的にあった方法が見つかるはずです。
+自分で作った単語帳を友だちと交換し合うと、Ankiの学習はもっと楽しくなると思います。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;連載の終わりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;連載の終わりに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;アプリケーションソフトウェアはたとえ完全なマニュアルやチュートリアルがあっても、はじめて使う時には非常に戸惑うものです。
+このような時には、まずアプリケーションに触れてみて、その反応からそのアプリ独自の使い方を体感するのが有効だと考えています。
+体感から基本的な使い方を理解した上で、再びチュートリアルやマニュアルに戻るとはじめて理解できる内容も多いです。&lt;/p&gt;
+&lt;p&gt;Ankiはこの分野のアプリとしては、独自の強力な機能を提供してくれます。
+同じようなソフトを使った経験のない方、暗記法についての一般的な知識のない方にとって、最初に触れた時に無力感に苛まれるのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;そこでこの連載ではAnkiに触れながら覚えた経験を再現しました。Ankiを使った学習全般を体験できるよう内容を構成しました。
+使い方の勘所を感じていただけたらと思います。&lt;/p&gt;
+&lt;p&gt;この体験があれば、ユーザーマニュアルやウェブ上の色々な情報を参考にして、自分独自の使い方を編み出していけると思います。&lt;/p&gt;
+&lt;p&gt;最後にこの連載の応用例として、テキストデータの集まりから頻出単語を抽出してAnki単語帳に仕上げる方法を「&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;」という記事にしました。頻度表を作成するアプリケーションの使い方以外は、この連載の内容だけで実現できます。
+皆様の専門分野ならではの単語帳作成にお役立てください。&lt;/p&gt;
+&lt;p&gt;Ankiは単なるフラッシュカードにとどまらない機能を提供しています。作者や既存ユーザーも意図しないような使い方をする方がたくさん現れると予想しています。この連載で分かりやすく書こうと心がけましたが、全ての人の状況に当てはまるとは考えていません。&lt;/p&gt;
+&lt;p&gt;友だちにAnkiの使い方を説明したとき、この連載よりもっと分かりやすい説明に気がついたら、ぜひその方法を共有してください。&lt;/p&gt;
+&lt;p&gt;この連載を最後までお読みくださいましてありがとうございました。Ankiで暗記を楽しんでください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/05/30: 初出&lt;/p&gt;
+&lt;p&gt;2014/09/10: 共有単語帳のプライバシー、更新、削除を追加&lt;/p&gt;
+&lt;p&gt;2015/01/17: 単語帳内容の登録について注意点&lt;/p&gt;
+&lt;p&gt;2016/01/27: AnkiWeb アカウントの自動削除について追加&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

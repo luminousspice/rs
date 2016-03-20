@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。'>
+<meta name="keywords" content="Anki">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。'/>
+<meta property="og:title" content="Anki自動バックアップ機能の使い方" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/anki_automatic_backup/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-07-05T23:00:59Z"/>
+<meta property="article:modified_time" content="2013-07-05T23:00:59Z"/>
+
+
+
+<meta property="article:tag" content="Anki">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Anki自動バックアップ機能の使い方">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Anki自動バックアップ機能の使い方 | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/anki_automatic_backup/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Anki自動バックアップ機能の使い方</h1>
+  <span class="post-date">2013-07-05</span>
+  <section id="自動バックアップとは">
+  <div class="page-header">
+    <h2>自動バックアップとは</h2>
+  </div>
+<p>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成します。
+Ankiがコレクションファイルを閉じるタイミングとは、Ankiを終了する時、プロファイルを変更する時、単語帳を同期する時です。
+既定では過去30ファイル分保存していて、障害や操作ミスなどの不測の事態に備えています。</p>
+<p>このバックアップファイルを使った復旧方法を説明します。</p>
+<p>さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</p>
+<h2 id="自動バックアップの注意点">自動バックアップの注意点</h2>
+<p></p>
+<p>自動バックアップでは、ディスクの障害やコンピュータの故障には対応できません。また、メディアファイルは対象としていません。
+データを安全に保管するには、定期的に手動でバックアップを行う必要があります。</p>
+<p>最も簡単な手動バックアップの方法は、Ankiフォルダーを丸ごとバックアップすることです。その場合、必ずAnkiを終了してから行ってください。</p>
+</section>
+<section id="自動バックアップの設定">
+  <div class="page-header">
+    <h2>自動バックアップの設定</h2>
+  </div>
+<p></p>
+<p>バックアップファイルの設定は、メニューバーから[Anki]&gt;[環境設定]を選択し、[バックアップ]タブをクリックします。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/automatic_backup_1.png" alt="環境設定画面">
+</div>
+<div class="title">図 1. 環境設定画面</div>
+</div>
+<p>この設定画面で、保存するファイル数を指定できます。既定では30です。</p>
+<p>バックアップファイルを見つけるには、[バックアップフォルダを開く]リンクをクリックすると、保存しているフォルダにアクセスできます。 実際のパスは既定では、 <code>(書類, ドキュメントフォルダ)/Anki/(プロファイル名)/backups</code> になります。
+バックアップファイルは <code>backup-(連番).apkg</code> という名前で保存しています。</p>
+</section>
+<section id="自動バックアップからの復旧方法">
+  <div class="page-header">
+    <h2>自動バックアップからの復旧方法</h2>
+  </div>
+<p></p>
+<p>バックアップフォルダーの中の最新のバックアップファイルをダブルクリックすると、読み込みを行いコレクションデータを復旧します。</p>
+</section>
+<section id="削除ログからの復旧方法">
+  <div class="page-header">
+    <h2>削除ログからの復旧方法</h2>
+  </div>
+<p></p>
+<p>Anki2.0.9からはプロファイルディレクトリ内の <code>deleted.txt</code> ファイルに削除したカードのフィールドの内容を保存するようになりました。</p>
+<p>このファイルに記録している削除したノートをテキストファイルの読み込み機能を使って復旧することができます。
+一度に一種類のノートタイプの読み込みしかできませんので、ノートタイプ毎に読み込み処理を行う必要があります。</p>
+<p>読み込み機能の詳しい内容については、<a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>で説明しています。</p>
+</section>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

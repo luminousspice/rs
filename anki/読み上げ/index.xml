@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>読み上げ on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92/</link>
+    <description>読み上げ | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 15 Jul 2014 19:00:04 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
+      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <description>語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。</description>
+      <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;はじめに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;はじめに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Anki の iPhone アプリ AnkiMoble Flashcards を買っては見たものの、上手く使いこなせていない方のために、投資しただけの価値を見いだせる方法を紹介しましょう。&lt;/p&gt;
+&lt;p&gt;Anki ユーザーが公開している日本語情報の多くは、デスクトップPC 版の Anki と連携して語学習得のために辞書や単語帳などの電子データから、何千枚ものカードを一括で作成しているようです。カード作成の時間を圧縮して、復習時間を最大化する上手い方法です。
+このような使い方で順調に学習している方は、このままその方法で学習を続けてください。&lt;/p&gt;
+&lt;p&gt;この方法はつまずくのは次のような理由が考えられます。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+データの準備が煩雑なため、その結果カードができたところで達成感に浸ってしまう。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+登録するデータの選択にこだわりすぎて、Anki で学習を始めるまでに、最初の意欲を使い尽くしてしまう。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+実際に学習をはじめると作ったカードの多さに気落ちしてしまう。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+許容範囲を超えた復習ノルマを発生させてしまう。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;あまりにも便利すぎるツールを手にした時に陥りがちな障害と言えるでしょう。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;iphone_を利用したゆるい_anki_のはじめ方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;iPhone を利用したゆるい Anki のはじめ方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiMobile ユーザーのために提案する方法の特徴をまとめると次のようになります。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+気負わず、脱力してゆるくはじめる。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+単語帳、辞書データいらず。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+片手でどこでも出来る。寝ながらでも出来る。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;この方法は覚えたい単語や文章だけ準備できれば継続できます。必要なのは表面に覚えたい項目が載っているカードです。
+iPhone アプリを使った場合、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。
+iPhone だけで完結できるので、PC は不要です。&lt;/p&gt;
+&lt;h2 id=&#34;ゆるい_anki_の使い方の原則&#34;&gt;ゆるい Anki の使い方の原則&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Anki で学習、復習することに最大限の労力を割り当てる。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+学習以外の作業は極力省略する。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+カードには自分が重要だと判断した項目だけを掲載する。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+AnkiMobile
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+学習教材 (教科書、単語帳、雑誌など)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;毎日の作業手順&#34;&gt;毎日の作業手順&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+その日の Anki の復習ノルマをこなします。
+&lt;/li&gt;
+&lt;li&gt;
+教材を読み、最も重要な暗記したい単語や文だけを &lt;strong&gt;10個&lt;/strong&gt; 選び新規カードとして登録します。
+&lt;/li&gt;
+&lt;li&gt;
+時間がある時は教材の読み、登録した項目が載っている箇所を復習します。Anki 学習と間隔が空いてもよいです。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
+&lt;p&gt;毎日の手順を継続して実践する上で注意すべき項目をまとめました。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+意味や発音が分かっているなら回答は確認しません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+分からない意味や発音が見つかったら、あとで紹介する方法で iPhone を使って調べます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+登録するのは表面のみ。例えば英語を覚えるなら英単語や英文だけ。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+復習ノルマがこなせない場合は新規カードは追加しない。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+新規カードは10個以下でもよいが、10個以上にしない。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ゆるい方法の良い点&#34;&gt;ゆるい方法の良い点&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+本当に学びたい項目だけ選択してカードに登録するので、必要な項目に時間を集中できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+答えが分かっているカードを読む時間ゼロにできるため学習時間を圧縮できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+毎日必要な数だけ単語や文から新規カードを作成するのでほとんど時間を使いません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+一日の学習の最後には常に新規カードがゼロになっているので心理的な負担がなくなります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;この先は、iPhone を使った単語の意味の調べ方、テキストの読み上げ方、AnkiMobile のノートの作り方を順番に紹介していきます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;単語の意味を調べる&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;単語の意味を調べる&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;学習中にわからない言葉が出てきたら、直接辞書で調べることができます。
+画面をダブルタップして調べたい単語を選択し、メニューから [Define] を選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/selection.png&#34; alt=&#34;selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 選択範囲を指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;当該する項目を含む辞書の一覧と項目の概要を表示します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-list.png&#34; alt=&#34;dictionary-list.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 辞書別検索結果&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;更に項目を選択すると、それぞれの辞書に収録している詳しい記述内容を読むことが出来ます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-item.png&#34; alt=&#34;dictionary-item.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 英和辞典の内容表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;標準設定では、日本語-英語(ウィズダム英和辞典/ウィズダム和英辞典)、日本語(スーパー大辞林)が利用できます。&lt;/p&gt;
+&lt;p&gt;画面右上 [Done] をタップすると AnkiMobile の画面に戻ります。(図 2, 3)&lt;/p&gt;
+&lt;h2 id=&#34;検索辞書の追加&#34;&gt;検索辞書の追加&lt;/h2&gt;
+&lt;p&gt;iOS 7 の場合は、9言語、14種類の辞書を必要に応じて追加ダウンロードすることが出来ます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+内蔵辞書の検索結果の画面左下の [Manage] をタップ (図 2, 3)
+&lt;/li&gt;
+&lt;li&gt;
+辞書の一覧から追加したい辞書をタップします。
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+はじめて選択した場合は辞書のダウンロードを開始します。所要時間はネットワーク環境によって異なります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+選択済みの辞書をタップすると検索対象から除外出来ます。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-selection.png&#34; alt=&#34;dictionary-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 辞書の選択&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;利用可能な辞書&#34;&gt;利用可能な辞書&lt;/h3&gt;
+&lt;p&gt;日本語-英語、日本語、ドイツ語、イタリア語、韓国語、フランス語、スペイン語、オランダ語、韓国語-英語、イギリス英語、アメリカ英語、簡体中国語、簡体中国語-英語、Apple Dictionary&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;テキストを読み上げる&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;テキストを読み上げる&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;選択項目を読み上げ機能が有効にしていると、テキストを合成音声で読み上げることが出来ます。
+学習中に単語の発音を調べたり、テキストの聴き取りができます。&lt;/p&gt;
+&lt;p&gt;設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;読み上げ機能の使い方&#34;&gt;読み上げ機能の使い方&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+画面をダブルタップして調べたい単語を選択し、メニューから [Speak] を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+複数の言語の候補がある場合は、読み上げたい言語をメニューの中から選択します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 選択範囲を指定して読み上げる&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;なお、音声は次の 26 言語に対応しています。&lt;/p&gt;
+&lt;p&gt;日本語、アラビア語、イタリア語、インドネシア語、オランダ語、ギリシャ語、スウェーデン語、スペイン語、スロバキア語、タイ語、チェコ語、デンマーク語、ドイツ語、トルコ語、ノルウェー語[ブークモール]、ハンガリー語、ヒンディー語、フィンランド語、フランス語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、英語、韓国語、中国語&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;単純なカードの作り方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;単純なカードの作り方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;カードに表示する内容、ノートは次の手順で追加します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+学習画面の上部 [Quickbar] -[Add] で追加画面を開く。
+&lt;/li&gt;
+&lt;li&gt;
+フィールドを選択して、キーボードを表示。
+&lt;/li&gt;
+&lt;li&gt;
+カードに表示したいデータを登録。
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Type (ノートタイプ) が [基本] の場合は、Front フィールドに表面の内容を、Back フィールドに裏面の内容を入力します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+画面右上の [Save] を押して入力内容を保存。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;メディアの追加&#34;&gt;メディアの追加&lt;/h2&gt;
+&lt;p&gt;キーボードの左上のアイコンから、追加する画像や音声 (メディア) を指定できます。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+カメラのアイコンを選択すると画像が追加できます。iPhoneのカメラで撮影して直接取り込めます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+マイクのアイコンを選択すると音声を録音できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-newnote.png&#34; alt=&#34;add-newnote.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. メディアの種類を指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;画像追加の場合は、保存済みのデータかカメラで直接撮影するか指定します。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+[from Photo Library]を指定すると、撮影済みのファイルの中から選択できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[from Camera]を指定すると、カメラで追加する画像の撮影ができます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-media.png&#34; alt=&#34;add-media.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 画像の追加方法を指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;おわりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;おわりに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;iPhone のシステム iOS の特長を生かし、覚えたい項目や Anki で行う作業手順を絞り込むと Anki を活用した語学学習がもっと楽に継続できるようになります。&lt;/p&gt;
+&lt;p&gt;大量のデータを暗記するような本格的な学習を始める前に、この記事で紹介した方法で Anki の使い方に慣れてはいかがでしょうか。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;さらにくわしく&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
+はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
+カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
+この記事では取り上げなかった、図 2. 重要なポイント 右下の [Synchronize] のボタンの使い方を説明しています。
+無料のオンラインサービス AnkiWeb の同期機能を使うと、他の iOS 機器やアンドロイド端末、PC にインストールした Anki とコンテンツを同期して学習を複数の機器にまたがって継続することができます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
+AnkiMobile で使用している特別な意味を持つ用語が理解できます。
+Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Damien Elmes&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2014.5.13&lt;/span&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>iPhone 版 Anki でテキストを読み上げるには</title>
+      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; 
+とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone などの iOS 機器は、システム自体は音声認識や音声合成などの豊富なアクセシビリティ機能を持っています。iOS 版の Anki からアプリの標準設定では直接呼び出すことが出来ませんので、テキストから音声合成する、読み上げる方法を紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;次の 2 通りの方法を紹介します。テキストを読み上げる用途に適したものをお使いください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+選択項目を読み上げ機能の利用
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み上げ機能を持つカードテンプレートの作成
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile の最低限な使用方法を理解していることを前提として説明します。
+文中にもし不明な項目が出てきたら &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_選択項目を読み上げ&#34;&gt;選択項目を読み上げ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードの好きな場所を選択して、読み上げる方法を紹介します。読み上げるタイミングも自分で決めることが出来ます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;選択項目を読み上げ (Speak Selection) は、iPhoneの設定項目を一か所変更するだけですぐ利用できるようになります。
+呼び出す手順は、一見複雑そうに思うかもしれませんが、使ってみると意外に簡単です。
+自分ではこちらの方法を通常使っています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_設定の手順&#34;&gt;設定の手順&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+[設定]-[一般]-[アクセシビリティ]-[選択項目の読み上げ]
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[選択項目の読み上げ] 項目を [オン] (1) にします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/setting-selectionspeech.png&#34; alt=&#34;setting-selectionspeech.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 選択項目を読み上げ設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_設定の調整&#34;&gt;設定の調整&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+[声] (2) の項目をタップして表示する設定する言語選択できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[読み上げ速度] (3) のスライダーで設定を変更すると、読み上げ速度のプレビューを聴くことが出来ます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_音声の詳細設定&#34;&gt;音声の詳細設定&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[声] (2) で表示した言語の一覧から、言語をタップして指定すると言語別に音声の種類(a)、品質(b)、読み上げ速度(c) を設定できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/setting-voice.png&#34; alt=&#34;setting-voice.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 声の詳細設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_iphoneで読み上げ可能な言語&#34;&gt;iPhoneで読み上げ可能な言語&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、音声は次の 26 言語に対応しています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;日本語、アラビア語、イタリア語、インドネシア語、オランダ語、ギリシャ語、スウェーデン語、スペイン語、スロバキア語、タイ語、チェコ語、デンマーク語、ドイツ語、トルコ語、ノルウェー語[ブークモール]、ハンガリー語、ヒンディー語、フィンランド語、フランス語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、英語、韓国語、中国語&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_テキストを読み上げる方法&#34;&gt;テキストを読み上げる方法&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+読み上げたいテキストをダブルタップして、選択項目を指定します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[Speak]をタップします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 選択範囲を指定して読み上げる&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ノートを読み上げるカードテンプレートの作り方&#34;&gt;ノートを読み上げるカードテンプレートの作り方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile でカードを表示した時に自動的にテキストを読み上げる方法を紹介しましょう。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki の作者は Anki のサポートサイトの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile/890-req-text-to-speech-in-ankimobile-for-ios7&#34;&gt;Req: Text to speech in AnkiMobile for ios7..&lt;/a&gt; の中でノートを読み上げるカードテンプレートの作り方を紹介しています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この方法は、テキスト読み上げ機能を呼び出す JavaScript をカードテンプレートに導入する方法です。テキストの読み上げには &lt;a target=&#34;_new&#34; href=&#34;https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html&#34;&gt;Web Speech API&lt;/a&gt; という Web 標準を使います。
+なお、AnkiMobile ではカートテンプレートの編集できませんので、PC 版 Anki で編集します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードの表面に配置した &lt;span class=&#34;monospaced&#34;&gt;Front&lt;/span&gt; フィールドを読み上げるには、表面のテンプレートを次のように設定します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Front フィールドを読み上げる設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;word&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;{{Front}}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getElementById&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;word&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;speak(w.innerHTML)&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;500&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;speak&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;SpeechSynthesisUtterance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;volume&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 音量: 0 to 1 (1)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 速度: 0.1 to 9 (2)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pitch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ピッチ: 0 to 2, 1=normal (3)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lang&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;en-US&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 言語: アメリカ英語、日本語なら ja-JP (4)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speechSynthesis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cancel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;speechSynthesis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;speak&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;speech&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声の読み上げ速度(1)、音量(2)、ピッチ(3)、言語(4)を指定することが出来ます。
+カードテンプレートの編集方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_anki_と_ankimobile_を同期している場合&#34;&gt;Anki と AnkiMobile を同期している場合&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;読み込み機能を使いたいカードのカードテンプレートに上の設定を追加し、AnkiMobile と同期します。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ankimobile_単独で利用している場合&#34;&gt;AnkiMobile 単独で利用している場合&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;新規のノートのみに読み上げ機能を設定できます。
+このカードテンプレートを含んだ共有単語帳を使います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;
+共有単語帳 &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/810249417&#34;&gt;Speech Text template for iOS (AnkiMobile)&lt;/a&gt;を ダウンロードします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ダウンロードファイルを AnkiMobile で開くと、読み込み機能を持つノートタイプ (Note Type) を導入できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+ノート追加画面の [Type] 項目でノートタイプ指定します。アメリカ英語を読み上げる場合は [Basic (iOS Speech en-US;アメリカ英語)]へ変更します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-note.png&#34; alt=&#34;add-note.png&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. ノート追加画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;共有単語帳のインストール手順やノートの追加方法は &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;をご覧下さい。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声データをカードに使いたい方は、&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone のシステム iOS 自体は音声に関する豊富な機能を持っています。AnkiMobile から呼び出す方法さえ理解すれば、Anki の学習を妨げることなく簡単に呼び出すことが出来るようになります。
+テキストの読み上げ機能をどのように使うか、その用途によって紹介した 2 つの方法を使い分けて頂ければと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2014/06/21: 初出&lt;br&gt;2015/11/20: 共有単語帳リンク先変更&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiのカード表示を編集する</title>
+      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ 第4回&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。&lt;/p&gt;
+&lt;div class=&#34;sidebarblock well&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;この記事の目標&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;この記事の目標&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;カードテンプレートを編集して学習画面をカスタマイズする方法になれましょう。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;使うもの&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;使うもの&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki2&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;第2回目の記事で作った中学英語の単語帳&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+HTML, CSSの基本的な知識
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;オフィシャルビデオでカード編集の全体の流れを知る&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;オフィシャルビデオでカード編集の全体の流れを知る&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;まず最初に、Ankiの作者Damien Elmesが作成した、Styling Cards というYouTubeのビデオをご覧ください。&lt;/p&gt;
+&lt;p&gt;このビデオでは、カードのカスタマイズ法について紹介しています。
+カードのフォント 種類、色、大きさ、配置、カード背景色を設定し、フィールドの追加を行います。更に学習中のカードから直接編集する方法を説明しています。&lt;/p&gt;
+&lt;p&gt;説明の英語が分からなくても、カード編集の全体の流れを感じを掴んでいただけると思います。&lt;/p&gt;
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/F1j1Zx0mXME&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードの編集画面&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;カードの編集画面&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;カードの編集画面を開いて、カードの表示はどのように設定しているか見ていきましょう。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;開く手順&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+Ankiメインウィンドウで編集したい単語帳を選択し、上部の[追加]ボタンを押して追加ウィンドウ開きます。
+&lt;/li&gt;
+&lt;li&gt;
+更に追加ウィンドウの上部の[カード&amp;#8230;]ボタンを押します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. カード編集画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;図1のような画面が開きます。左側が表示内容を編集する画面です。表面のテンプレート欄と裏面のテンプレート欄で学習面の表示内容を設定します。書式欄は、画面の書式をCSSで設定します。
+右側は左で設定した内容をプレビューする画面です。データの位置は(フィールド名)で示します。&lt;/p&gt;
+&lt;p&gt;学習面のテンプレートを更に詳しく見ていきましょう。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;表面のテンプレート (既定)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;{{Front}}&lt;/pre&gt;
+&lt;p&gt;表面には&#34;Front&#34;フィールドの項目を{{Front}}の位置に表示します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;裏面のテンプレート (既定)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;{{FrontSide}} &lt;b&gt;&amp;lt;1&amp;gt;&lt;/b&gt;
+
+&amp;lt;hr id=answer&amp;gt;
+
+{{Back}} &lt;b&gt;&amp;lt;2&amp;gt;&lt;/b&gt;&lt;/pre&gt;
+&lt;p&gt;裏面には &amp;lt;1&amp;gt; &#34;Front&#34;フィールドの項目に表面のテンプレートを適用して{{FrontSide}}の位置に、&amp;lt;2&amp;gt; &#34;Back&#34;フィールドが{{Back}}を位置に表示します。&lt;/p&gt;
+&lt;p&gt;&#34;Front&#34;フィールド、&#34;Back&#34;フィールドとは追加画面ではそれぞれの項目に相当します。下の図2の場合では、実際の学習画面では&#34;remember&#34;は、表面の{{Front}}と裏面の{{FrontSide}} に、&#34;思い出す&#34;は、裏面の{{Back}}に差し込んで表示します。もし表面のテンプレートが &lt;code&gt;&amp;lt;b&amp;gt;{{Front}}&amp;lt;/b&amp;gt;&lt;/code&gt; だったら、{{FrontSide}}には &lt;code&gt;&amp;lt;b&amp;gt;remember&amp;lt;/b&amp;gt;&lt;/code&gt; が入ります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_3.png&#34; alt=&#34;追加画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 追加画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;それでは、裏面のテンプレートを編集して解答面を作成していきましょう。一旦追加画面を閉じてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;新しいノートタイプの作成&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;新しいノートタイプの作成&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;図2の右上、種類の項目をご覧ください。既定では[基本]と表示しています。このまま編集を続けると[基本]ノートを使ってる既存の全ての単語帳に編集内容が反映してしまいます。そこで、新しいノートを作ります。&lt;/p&gt;
+&lt;p&gt;単語帳は一つしかなくて、既定のノートを書き換えても差し支えない場合はこの項目は飛ばしても結構です。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+[基本]ボタンを押すとノートの種類を選択する画面が現れます。
+&lt;/li&gt;
+&lt;li&gt;
+画面の下にある[ノートタイプの管理]ボタンを押します。(図3)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. ノートの種類&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ノートタイプウィンドウが開きますので右側一番上の[追加]ボタンを押します。(図4)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_4.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. ノートタイプの追加&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+[追加:基本]を選択して[OK]を押してください。(図5)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_5.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 基本ノートの追加&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+新しいノートの名前を入力する画面が出てきますの入力します。今回は「英語単語」にしました。(図6)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_6.png&#34; alt=&#34;新しいノートの名前&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. 新しいノートの名前&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これで新しいノートタイプが完成です。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+このウィンドウには[閉じる]ボタンがないのでウィンドウ左上の[x]ボタンを押して閉じましょう。ここは、はまりやすい注意点です。私は何度もここから抜ける方法が分からなくてはまりました。
+&lt;/li&gt;
+&lt;li&gt;
+先ほどのノートタイプ選択画面に戻りました。「英語単語」を選択して[選択]ボタンを押します。(図7)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_7.png&#34; alt=&#34;ノートタイプの選択&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. ノートタイプの選択&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;再び追加画面に戻ります。画面左の種類項目に作成したノート「英語単語」が表示されています。(図8)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_8.png&#34; alt=&#34;追加画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. 追加画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードへの項目追加&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;カードへの項目追加&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;編集準備が整いましたので項目追加をしていきましょう。[カード&amp;#8230;]ボタンを押すと編集画面が現れます。(図9)&lt;/p&gt;
+&lt;p&gt;カードの名前を分かりやすいものに変えましょう。
+画面下のドロップダウンリスト[もっと]から[名前を変更]を選択して「辞書と読み上げ」という名前に変えます。(図9)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_9.png&#34; alt=&#34;カードの名前を変更&#34; width=&#34;80%&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. カードの名前を変更&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;それでは、裏面のテンプレートにリンクを設定していきます。&lt;/p&gt;
+&lt;h3 id=&#34;辞書へのリンク設定&#34;&gt;辞書へのリンク設定&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4 id=&#34;mac_os_x標準搭載の辞書を開く&#34;&gt;Mac OS X標準搭載の辞書を開く&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Mac OS Xの場合 &lt;code&gt;dict://remember&lt;/code&gt; というURLにアクセスすると&#34;remember&#34;で標準辞書を引くことができます。この機能を呼び出すリンクを設定します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;辞書へのリンク設定例&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;辞書: &amp;lt;a href=&#34;dict://{{text:Front}}&#34;&amp;gt;{{Front}}&amp;lt;/a&amp;gt;&lt;/pre&gt;
+&lt;p&gt;リンクの項目では &lt;code&gt;{{text:Front}}&lt;/code&gt; と記述して、&#34;Front&#34;フィールドにHTMLが含まれている時にもテキストだけを取り出す設定をしています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;div class=&#34;title&#34;&gt;Mac OS X 収録辞書の一例&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+プログレッシブ英和中辞典／和英中辞典
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+New Oxford American Dictionary 3rd edition
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;OSのバージョンによって収録辞書の違いがあります。詳しくは、辞書アプリの環境設定で確認ください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;項目内に空白が入っている場合、正しく辞書が引けません。この場合、空白をダッシュ&#34;-&#34;で置き換える回避策があります。但しこの方法は、句と複合語の区別がつかなくなります。&lt;/pre&gt;
+&lt;h4 id=&#34;オンライン辞書サイトへのリンク&#34;&gt;オンライン辞書サイトへのリンク&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;オンライン辞書サイトへのリンクも設定しましょう。辞書アプリにない機能を提供してくれる &lt;a target=&#34;_new&#34; href=&#34;http://www.vocabulary.com/dictionary/remember&#34;&gt;Vocabulary.com&lt;/a&gt;へリンクします。このオンライン辞書は語義に加えて、ワードファミリー、最新の例文(分野別: News, Medicine/Science, Business, Arts/Culture, Sports, Fiction, Tech)を表示してくれます。ニュースだと今日の記事から抜粋してくれる場合もあります。このサイト上でも自分の単語帳を作ることができ、テスト問題を自動生成してくれます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;オンライン辞書へのリンク設定例&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;Vocabulary.com: &amp;lt;a href=&#34;http://www.vocabulary.com/dictionary/{{text:Front}}&#34; target=&#34;vocabcom&#34;&amp;gt;{{Front}}&amp;lt;/a&amp;gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section id=&#34;読み上げ設定&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;読み上げ設定&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;単語を音声で読み上げる機能を追加しましょう。そのためには&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;というアドオンをインストールします。アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;に紹介していますので参考にしてください。&lt;/p&gt;
+&lt;p&gt;読み上げ設定をするフィールドを &lt;code&gt;TTS&lt;/code&gt; タグで囲みます。さらに使用するシステムの読み上げサービスに応じた属性を指定します。詳しい設定内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTSサイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;具体的な記述例を次に紹介します。既にオンライン辞書へのリンクで &lt;code&gt;Front&lt;/code&gt; フィールドを表示していますので、読み上げる &lt;code&gt;Front&lt;/code&gt; フィールドをインラインスタイルシートで非表示にする追加設定をしています。
+表面の文字を非表示にして読み上げを設定すれば、聴き取りやリプロダクション、ディクテーションのためのカードが作成できます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mac OS Xの読み上げ機能(VoiceOver)でAlex(英語 アメリカ合衆国 男性)を使う場合&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;TTS service=&#34;say&#34; voice=&#34;Alex&#34; style=&#34;display: none;&#34;&amp;gt;{{Front}}&amp;lt;/TTS&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Mac OS Xの読み上げ機能(VoiceOver)でMilena(ロシア語)を使う場合&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;TTS service=&#34;say&#34; voice=&#34;Milena&#34; style=&#34;display: none;&#34;&amp;gt;{{Front}}&amp;lt;/TTS&amp;gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;GoogleTTS(英語)を使う場合&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;lt;TTS service=&#34;g&#34; voice=&#34;en&#34; style=&#34;display: none;&#34;&amp;gt;{{Front}}&amp;lt;/TTS&amp;gt;&lt;/pre&gt;
+&lt;h3 id=&#34;読み上げ音声の確認&#34;&gt;読み上げ音声の確認&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;カードの編集画面から、入力フィールドの上にあるボタンの列から[スピーカーの画像のボタン]を押してください。
+[AwesomeTTS::MP3 File Generator]が開きます。&lt;/p&gt;
+&lt;p&gt;左側の項目から利用するサービス(OSX Say, Googleなど)とその詳細項目を設定します。&lt;/p&gt;
+&lt;p&gt;右側の入力フィールドに発音させたい文字を入力して[プレビュー]ボタンを押すと音声が確認できます。&lt;/p&gt;
+&lt;p&gt;[プレビュー]ボタンの代わりに、[OK]ボタンを押すと、指定した内容のmp3ファイルをメディアフォルダーに作成して、フィールドに読み込みます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;音声サンプルの再生&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 10. AwesomeTTSでの読み上げ音声の確認再生&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;awesomettsの設定&#34;&gt;AwesomeTTSの設定&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;アドオンを機能させる設定をしましょう。メニューバーから[ツール]&amp;gt;[AwesomeTTS]を開くと設定画面が開きます。(図11)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-config.png&#34; alt=&#34;AwesomeTTSの設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 11. AwesomeTTSの設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;表面を自動再生したい場合、[Automatically recite &amp;lt;TTS&amp;gt; tags on Questions]をチェックします。&lt;/p&gt;
+&lt;p&gt;裏面を自動再生したい場合、[Automatically recite &amp;lt;TTS&amp;gt; tags on Answers]をチェックします。&lt;/p&gt;
+&lt;p&gt;再生キーの設定は、[Keyboad Shortcuts]の項目で設定します。&lt;/p&gt;
+&lt;p&gt;更に詳しい設定内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTSサイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;h3 id=&#34;awesomettsを使った学習画面上のテキストの読み上げ&#34;&gt;AwesomeTTSを使った学習画面上のテキストの読み上げ&lt;/h3&gt;
+&lt;p&gt;学習画面上でカード表面に設定したテキストを読み上げるには &#34;F3&#34; を、カード裏面に設定したテキストを読み上げるには &#34;F4&#34; を押します。
+ただし、裏面のカードに &lt;code&gt;{{FrontSide}}&lt;/code&gt; テンプレートを使っている場合は、&#34;F4&#34; を押すと表面と裏面の音声を再生します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意: Mac OS X版ユーザーへ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;私の環境(AwesomeTTS 1.0 beta 10, Mac OS X 10.7.5, Anki 2.0.22)では、既定の再生キー &#34;F3&#34;、&#34;F4&#34; を機能させるために設定が必要です。&lt;/p&gt;
+&lt;p&gt;[システム環境設定]&amp;gt;[キーボード]&amp;gt;[キーボード]タブを選択し、[F1、F2 などのすべてのキーを標準のファンクションキーとして使用]を選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_16.png&#34; alt=&#34;Mac OS X キーボード設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 12. Mac OS X キーボード設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;なお、ショートカットの付け替えは機能していません。皆さんの環境でも何らかの使用制限が発生する可能性があります。&lt;/p&gt;
+&lt;h3 id=&#34;読み上げる_url_スキームを設定する_mac_os_x_限定&#34;&gt;読み上げる URL スキームを設定する (Mac OS X 限定)&lt;/h3&gt;
+&lt;div class=&#34;sidebarblock well&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;p&gt;この項目はMac OS X版限定です。前提としてAppleScriptと &lt;a target=&#34;_new&#34; href=&#34;http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/say.1.html&#34;&gt;say&lt;/a&gt;コマンドの理解を必要とします。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;dict://&lt;/code&gt; で辞書が引けるなら、&lt;code&gt;say://&lt;/code&gt; で読み上げるようにしたい。この項目での目標です。&lt;/p&gt;
+&lt;p&gt;AppleのAppleScriptサイトの記事&#34;&lt;a target=&#34;_new&#34; href=&#34;http://www.macosxautomation.com/applescript/linktrigger/index.html&#34;&gt;Launch Scripts from Webpage Links&lt;/a&gt;&#34;では、&lt;code&gt;WebpageHelper://&lt;/code&gt; を定義してWebページを開く方法を解説しています。&lt;/p&gt;
+&lt;p&gt;このページを参考にして、&lt;code&gt;say://com.luminousspice.sayalex?remember&lt;/code&gt; を呼び出すと &lt;code&gt;say -v alex remember&lt;/code&gt; を実行するように作り替えます。当該箇所のAppleScriptは次のように記述します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AppleScriptでsayコマンドを呼び出す記述例&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;on open location this_URL
+
+        set x to the offset of &#34;?&#34; in this_URL
+        set the argument_string to text from (x + 1) to -1 of this_URL
+
+        say argument_string using &#34;alex&#34; speaking rate 43 modulation 40 pitch 11
+
+end open location&lt;/pre&gt;
+&lt;p&gt;テンプレートには次のようにリンクを設定しました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;テンプレートの記載例&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;Alex: &amp;lt;a href=&#34;say://com.luminousspice.say?{{text:Front}}&#34;&amp;gt;{{Front}}&amp;lt;/a&amp;gt;&lt;/pre&gt;
+&lt;p&gt;これで裏面にはAlexが読み上げてくれるリンクができました。
+私は自分の学習には、AwesomeTTSアドオンの代わりにこの方法を使っています。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;但しこのままでは、URLエンコードされる言語では正しく発音されません。&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section id=&#34;既存のカードに新しいカードテンプレートを設定する&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;既存のカードに新しいカードテンプレートを設定する&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;テンプレートの編集が完了したら、編集画面を閉じ、Ankiを起動した時に最初に表示する単語帳選択の画面まで戻ります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+ウィンドウ上の[ブラウザー]リンクを押して、ブラウザーを開きます。
+&lt;/li&gt;
+&lt;li&gt;
+左のリストから「中学英単語」をクリックします。または検索欄に&lt;code&gt;deck:中学英単語&lt;/code&gt; と入力して検索します。
+&lt;/li&gt;
+&lt;li&gt;
+[編集]&amp;gt;[全てを選択]で全ての項目を選択します。(Mac OS X: Command+A, Windows: Ctrl+A)
+&lt;/li&gt;
+&lt;li&gt;
+[編集]&amp;gt;[ノートタイプを変更&amp;#8230;]を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+変更先ノートタイプの項目を先ほど作成した「英語単語」に設定し、[OK]を押します。(図12)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_12.png&#34; alt=&#34;ノートタイプの変更&#34; width=&#34;80%&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 13. ノートタイプの変更&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これで設定が終了です。(図13)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_13.png&#34; alt=&#34;完成図&#34; width=&#34;80%&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 14. 完成図&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードテンプレート完成品&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;カードテンプレート完成品&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;この記事で作成したカードテンプレートは、&lt;a href=&#34;http://rs.luminousspice.com/apkg/how2anki4.apkg&#34;&gt;Anki単語帳パッケージ  how2anki4.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;このファイルをダブルクリックするか、[ファイル]&amp;gt;[読み込む]からこのファイルを選択すると、単語帳「中学英単語」(&#34;remember&#34;というカード1枚を含みます)とノートタイプ「英語単語」が読み込まれます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_14.png&#34; alt=&#34;読み込み完了&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 15. 読み込み完了&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;コレクション内に項目&#34;remember&#34;が既にある場合は次のようなメッセージを表示しますが、ノートタイプ「英語単語」は追加されています。&lt;/p&gt;
+&lt;pre&gt;既にコレクションの中に存在します: 1 個のノート
+0 枚のカードを読み込みました。&lt;/pre&gt;
+&lt;p&gt;上で説明したノートタイプの変更処理を行うと、この記事で設定したテンプレートを適用できます。読み上げ機能をお使いいただくには、AwesomeTTSの設定が必要です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;おわりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Ankiの学習画面は、汎用的なHTMLとCSSでカスタマイズすることができます。更に、テンプレートを利用するとカードの表示を一括管理できます。自分の用途や好みに合わせて書き換えて、楽しく暗記してください。&lt;/p&gt;
+&lt;p&gt;使われていない&#34;Back&#34;フィールドですが、私はメモ欄として使っています。語彙の暗記の場合は例文や、反義語、同義語、同音異義語などを書き留めています。Ankiのブラウザーから検索を掛けることができ重宝しています。&lt;/p&gt;
+&lt;p&gt;詳しい情報は、ユーザーマニュアルの&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html#cards-and-templates&#34;&gt;Cards and Templates&lt;/a&gt;をご覧ください。日本語情報としては、Anki1のマニュアルの翻訳になりますが&lt;a target=&#34;_new&#34; href=&#34;http://wikiwiki.jp/rage2050/?CardLayout&#34;&gt;カード・レイアウト&lt;/a&gt;が参考になります。テンプレートの書き方などは特に役立つと思います。&lt;/p&gt;
+&lt;p&gt;暗記用データの作り方は、これでほとんど説明し終わりました。これからはAnkiを利用した学習方法について紹介していきたいと思います。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/05/04: 初出&lt;/p&gt;
+&lt;p&gt;2014/03/24: 読み上げ設定を更新&lt;/p&gt;
+&lt;p&gt;2014/09/21: 再構成&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;/li&gt;
+&lt;li&gt;
+Ankiのカード表示を編集する (カード編集、外部リンク設定、読み上げ)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

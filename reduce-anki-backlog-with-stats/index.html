@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.'>
+<meta name="keywords" content="Anki, 統計">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.'/>
+<meta property="og:title" content="Anki統計情報を活用したバックログ解消法" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/reduce-anki-backlog-with-stats/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-05-19T20:00:04Z"/>
+<meta property="article:modified_time" content="2013-05-19T20:00:04Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="統計">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Anki統計情報を活用したバックログ解消法">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Anki統計情報を活用したバックログ解消法 | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/reduce-anki-backlog-with-stats/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Anki統計情報を活用したバックログ解消法</h1>
+  <span class="post-date">2013-05-19</span>
+  <p><p><strong>連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目</strong></p>
+<p>Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。</p>
+<table frame="void" bgcolor="#ffffee" width="100%" style="margin:0.2em 0;">
+<tr><td style="padding:0.5em;">
+<p><a href="http://ankisrs.net/" target="_new">Anki</a>とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。</p>
+</td></tr></table>
+<h2><a name="_この記事の目標"></a>この記事の目標</h2>
+<p>統計情報の読み方に慣れる。
+統計情報を活用して学習の進捗状況の把握と学習計画ができるようになる。</p>
+<h2><a name="_使うもの"></a>使うもの</h2>
+<ul>
+<li>
+<a href="http://ankisrs.net/" target="_new">Anki2</a>
+</li>
+</ul>
+<h2><a name="stats"></a>統計情報を表示する</h2>
+<p></p>
+<p>Ankiは復習アルゴリズムに加えて、学習継続を支援してくれる色々な機能を提供してくれます。統計情報もその機能の一つです。自分の学習結果を統計情報として確認することは、学習の進捗状況を管理するのに役立ちます。</p>
+<p>Ankiの統計情報はメインウィンドウから単語帳を選択し、ウィンドウ右上の棒グラフのボタンを押すと表示されます。</p>
+<div>
+<img src="http://rs.luminousspice.com/images/how2anki_2_11.png" style="border-width: 0;" alt="メインウィンドウ">
+<p><b>図 1. </b>メインウィンドウ</p>
+</div>
+<p>既定では図2のような情報が得られます。</p>
+<div style="float:right;">
+<img src="http://rs.luminousspice.com/images/how2anki_7_2.png" style="border-width: 0;" alt="統計情報" width="240">
+<p><b>図 2. </b>統計情報</p>
+</div>
+<p><b>統計情報の項目</b></p><ol type="1">
+<li>
+<strong>今日</strong> その日学習結果。枚数と時間。
+</li>
+<li>
+<strong>予測</strong> 1か月先までの復習カードの予想発生枚数。
+</li>
+<li>
+<strong>復習した回数</strong> 過去1か月間の平均復習回数。
+</li>
+<li>
+<strong>学習した時間</strong> 過去1ヶ月間の平均学習時間。
+</li>
+<li>
+<strong>間隔</strong> カードの復習間隔の分布。
+</li>
+<li>
+<strong>時間毎の分析</strong> 時間帯別の解答数と正解率。
+</li>
+<li>
+<strong>答えたボタン</strong> ボタンの選択状況。成熟度別正解率。
+</li>
+<li>
+<strong>カードの種類</strong> カードの成熟度の比率。
+</li>
+</ol>
+<p>ウィンドウの一番下のラジオボタンを選択すると、コレクション全体、1年間、全期間に統計情報の取得範囲を広げることができます。</p>
+<p>それぞれの単語帳の進捗の理解に役立つ、一日あたりの学習枚数、学習時間、復習カードの期日の分布、正解率、成熟カードの比率などの情報を提供してくれます。</p>
+<p>統計情報を拡張するアドオンも公開されています。 <a href="https://ankiweb.net/shared/info/1147586609">Maturing Cards</a> は成熟カードの発生枚数の推移を統計情報に追加してくれます。</p>
+<p>カードの枚数に目が奪われがちですが、更に多角的な視点から学習の進捗状況、成熟状況を知ることができます。</p>
+<h2><a name="_バックログ解消の方針"></a>バックログ解消の方針</h2>
+<p>Anki学習を始めると、最初の意欲の高いうちは学習が順調に進むのですが、連休や長期休暇、旅行などの間に復習が中断しがちになると、復習カードの山、バックログが膨大に積み上って途方に暮れていることがあります。</p>
+<p>危機感からバックログの山から無理に長時間掛けてたくさんの枚数の復習すると、結果として3、4日後にもう一度同じ数復習するように設定することになります。無理も繰り返すとなると辛いです。</p>
+<p>無理な学習は、Anki学習のスケジュール設定の中に急激なスパイクを取り込むことになります。統計情報の「予測」の項目を見てください。</p>
+<p>毎日安定した枚数復習している場合は、棒グラフの高さがそろって滑らかに推移しています。
+断続的に集中して学習した場合には、ギザギザな山がたくさんできていると思います。
+このような状況では、毎日のAnkiの学習体験が極端なストレスを感じるものになっているはずです。</p>
+<p>復習期日の分布を平滑に管理することは、Anki学習を「毎日のささやかな儀式」に保ち、「断続的に訪れる拷問」に陥ることから防いでくれます。</p>
+<table frame="void" bgcolor="#ffffee" width="100%" style="margin:0.2em 0;">
+<tr><td style="padding:0.5em;">
+<p style="margin-top:0;"><b>バックログを解消する原則</b></p>
+<p>「闇雲に無理をしない。少しずつ削り取る。」</p>
+</td></tr></table>
+<p>統計情報を使えば、明確な見通しが立ち、バックログの大きさに立ち向かっていく意欲もわきます。学習継続の動機にもつながります。</p>
+<p>わたしが1,500枚のバックログを解消した、Ankiの統計情報の力を借りた方法を紹介します。イメージとしては大根の桂剥きのようにバックログを少しずつはがしていく方法です。
+図2は、バックログ解消直前の残り50枚の時点で記録したものです。</p>
+<h2><a name="_統計情報を読む"></a>統計情報を読む</h2>
+<p>それでは、具体的にバックログを解消するのに必要な情報を、統計情報から読み取っていきましょう。</p>
+<h3><a name="_学習状況を確認する"></a>学習状況を確認する</h3>
+<p>統計情報の一番最初の項目「今日」では、その日の学習結果について情報を提供してくれます。新規カードの枚数(学習)、復習枚数、間違えたカードの枚数(再学習)、スケジュール外で追加学習した枚数(フィルター)です。それはどれだけ時間がかかって、記憶の定着の度合いはどうだったか(正解率)知らせてくれます。</p>
+<p>これは体温計とか体重計のような一日の学習状況の基本情報です。</p>
+<p>次に2番目の項目「予測」を見てみましょう。今後の発生する復習カード分布が分かります。一日の学習が終わった時、0日のところにカードが積み上っているカードの枚数がバックログになります。</p>
+<p>最終的な目標は、既定の学習枚数が終るとこの数が0になる状態になることです。
+日々の目標としては、この山が昨日より縮小していけばいいわけです。</p>
+<p>そのためには、今日何枚学習すれば良いのでしょうか。</p>
+<h3><a name="_バックログを減らす一日の最低学習量"></a>バックログを減らす一日の最低学習量</h3>
+<p>話を単純化するために新規カードは0として説明します。</p>
+<p><code>今日の学習対象カード = 昨日のバックログ + 今日が期日のカード (1)</code></p>
+<p>また、次のようにも表現できます。</p>
+<p><code>今日の学習対象カード = 今日復習したカード　+ 今日のバックログ (2)</code></p>
+<p>(1)と(2)からバックログの変化が計算できます。</p>
+<p><code>今日のバックログの変化量 = 今日のバックログ　-　昨日のバックログ　= 今日が期日のカード - 今日復習したカード</code></p>
+<p>つまり、「今日が期日のカード」の枚数以上に復習すればバックログは削減できます。</p>
+<table frame="void" bgcolor="#ffffee" width="100%" style="margin:0.2em 0;">
+<tr><td style="padding:0.5em;">
+<p>バックログが減少する一日の最低学習量は、<strong>今日が期日のカードの枚数 + 1</strong> です。</p>
+</td></tr></table>
+<p>統計情報を使うと、例えばバックログが1000枚あって、100枚のバックログを減らす枚数を毎日復習すれば10日で実現可能という予測ができるようになります。これでかなり見通しが明るくなってきました。</p>
+<p><code>100枚のバックログを減らす枚数 = 今日が期日のカードの枚数 + 100</code></p>
+<h3><a name="_今日が期日のカードの枚数を知る方法"></a>今日が期日のカードの枚数を知る方法</h3>
+<p><b>統計情報を利用する</b><br>一番手っ取り早いのは、前日に統計情報から「予測」項目の[明日が期日のカード]を書き留めておくことです。</p>
+<p>いま始めようとする人には、この方法は使えないので別の方法を紹介します。どちらも、今日の学習をまだしていないという条件があります。今日学習済みカードは、既に新しい期日が設定されています。</p>
+<p><b>ブラウザーを利用する</b><br>ブラウザーのカード一覧から表示することができます。ブラウザーから期日でソート表示して、期日が今日のカードを選択するとタイトルバーに枚数が表示されます。</p>
+<div>
+<img src="http://rs.luminousspice.com/images/how2anki_7_3.png" style="border-width: 0;" alt="ブラウザー表示" width="600">
+<p><b>図 3. </b>ブラウザー表示</p>
+</div>
+<p><b>フィルター単語帳を利用する</b><br>今日が期日のカードを検索するフィルター単語帳を作って調べることもできます。</p>
+<p><b>今日が期日のカードを検索する条件</b><br><code>deck:&ldquo;単語帳名&rdquo; prop:due=0</code></p>
+<div>
+<img src="http://rs.luminousspice.com/images/how2anki_7_4.png" style="border-width: 0;" alt="フィルター単語帳">
+<p><b>図 4. </b>フィルター単語帳</p>
+</div>
+<p>学習が済んでいない「今日が期日のカード」が取得できます。</p>
+<h3><a name="_バックログ解消の学習手順"></a>バックログ解消の学習手順</h3>
+<p>復習の中断を挟んでいる場合は、毎日新たに期日に達するカードの枚数は大きく上下します。この様子は、統計情報の「予測」の項目のグラフで確認できます。単語帳のオプション変更して、一律に一日の上限を引き上げる方法は現実的ではありません。</p>
+<p>一日の学習後に、翌日の学習枚数を決定していく方法になります。</p>
+<p><b>毎日の作業手順</b></p><ol type="1">
+<li>
+毎日学習終了時に、統計情報の「予測」項目から[明日が期日のカード]枚数を確認して、次の日の学習枚数を予め決定します。<code>翌日バックログから削減したい枚数 + [明日が期日のカード]枚数</code> になります。
+</li>
+<li>
+翌日は既定枚数の復習します。
+</li>
+<li>
+前日計算した予定枚数に満たない場合は、カスタム学習セッションで追加学習を行います。
+</li>
+</ol>
+<p><b>追加学習の方法</b><br>メインウィンドウ下の[カスタム学習]ボタンを押して[今日の復習カードの上限を上げる]を選択します。上で計算した枚数を設定します。</p>
+<div>
+<img src="http://rs.luminousspice.com/images/how2anki_6_1.png" style="border-width: 0;" alt="カスタム学習設定画面">
+<p><b>図 5. </b>カスタム学習で復習カードの上限を引き上げる</p>
+</div>
+<p><b>前日の記録を忘れた場合</b></p><ol type="1">
+<li>
+前の項目「今日が期日のカードの枚数を知る方法」のブラウザーかフィルター単語帳による確認方法で、[今日が期日のカード]の残数を確認します。
+</li>
+<li>
+<code>今日バックログから削減したい枚数 + [今日が期日のカード]の残数</code> を追加学習します。
+</li>
+</ol>
+<h2><a name="_バックログを分割処理する方法_マニュアルより"></a>バックログを分割処理する方法 (マニュアルより)</h2>
+<p>マニュアルにも、<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳</a>を使った<a href="http://ankisrs.net/docs/manual.html#catching-up">バックログの解消法の例</a>が載っています。この項目はまだ翻訳されていないようですので、簡単に説明します。</p>
+<p>バックログからストレスのない適正な学習ができる量だけ取り出して選択的に学習しようと言う考え方です。上で紹介した方法より穏当な方法になります。</p>
+<p>期日に達して間もない「新鮮なカード」はAnkiの復習スケジュールアルゴリズムを強く反映した復習間隔が設定されています。そこで、選択基準として復習期日に達してからの経過時間を使っています。</p>
+<h3><a name="_優先カードの選別方法"></a>優先カードの選別方法</h3>
+<p>期日に達して一週間以内の「新鮮なカード」と、もっと前に期日に達した「古いカード」に分割するフィルター単語帳の子単語帳を作ります。</p>
+<p><b>フィルター単語帳の設定例</b></p><ol type="1">
+<li>
+<strong>期日に達して一週間以内:</strong> <code>deck:&ldquo;親単語帳名&rdquo; &ldquo;is:due prop:due&gt;-7&rdquo;</code>
+</li>
+<li>
+<strong>期日に達して一週間以上:</strong> <code>deck:&ldquo;親単語帳名&rdquo; &ldquo;is:due prop:due&lt;=-7&rdquo;</code>
+</li>
+</ol>
+<p>2つのフィルター単語帳をつくると、カードはそれぞれの子単語帳に移動します。なお、フィルター単語帳内での学習が終わると、親の単語帳に戻ります。</p>
+<p><b>新鮮なカードの作業手順</b><br>期日に達して間もない「新鮮なカード」は、通常の学習を続けます。バックログを分離したので、大きなバックログを気にすることなく学習できます。</p>
+<p>経過日7日の設定は自分の環境に合わせてカスタマイズします。「新鮮なカード」の単語帳に適正な学習ができる量だけ残るように設定します。</p>
+<p><strong>注意</strong>:
+フィルター単語帳内のカードは復習が終わると親の単語帳に戻ります。一日の学習の前に[再構築]ボタンを押して、カードをフィルター単語帳内に集め直す作業が必要です。</p>
+<p><b>古いカードの作業手順</b><br>期日に達してから時間が経ったは「古いカード」は、新規カードと同じように扱い、「新鮮なカード」の学習が負担にならない程度に順次追加いきます。</p>
+<p>こちらは、再構築の必要はありません。「新鮮なカード」の学習状況を見ながら、この子単語帳が空になるまで学習していけば良いです。</p>
+<h2><a name="_バックログ分割処理法の改善案"></a>バックログ分割処理法の改善案</h2>
+<p>上の方法をもっと簡潔にする方法があります。「古いカード」をフィルター単語帳を作って元の単語帳外に隔離します。子単語帳にしません。</p>
+<p><b>フィルター単語帳設定</b><br><code>deck:&ldquo;元の単語帳名&rdquo; &ldquo;is:due prop:due&lt;=-7&rdquo;</code></p>
+<p>元の単語帳には「新鮮なカード」が残ります。元の単語帳のカードの学習を通常通り続けます。</p>
+<p>余力がある日は、「古い単語帳」のフィルター単語帳の中のカードを学習します。この中のカードは学習が済むと、元の単語帳に戻ります。フィルター単語帳が空になったところで、バックログは解消です。</p>
+<h2><a name="_強行突破したい方へ"></a>強行突破したい方へ</h2>
+<p>最短時間でバックログをどうしても解消したいという、意欲と学習時間に恵まれた方もいらっしゃるかと思います。</p>
+<p>その方には <a href="https://ankiweb.net/shared/info/1417170896">load balancer</a> アドオンをお勧めします。特定の日に復習カードが偏らないようにならしてくれます。一日の復習カードの中の成熟カードと未熟カードの比率を固定する機能を持っています。</p>
+<p>平準化するがゆえ、本来翌日に学習したい間違えたカードの復習期日が、翌々日以降に設定になるなどの副作用が出る場合もあります。</p>
+<p>現在の学習ペースで安定的にバックログが削減できているか、常に統計情報を確認することをお勧めします。がんばっていること自体が目的とならないように注意しましょう。
+辛くなったら、上で説明した穏当な方法への転換も検討してみてください。</p>
+<p>私自身も、最初強行突破の方針で取り組んでいたのですが、毎回学習後に統計情報を眺めていたところ、最初に紹介した方法を思いつき方針転換しました。見通しが立つと、バックログ削減のスピート感が体感できるようになり、作業が楽になりました。</p>
+<h2><a name="_まとめ"></a>まとめ</h2>
+<p>バックログの解消方法は、バックログの規模や単語帳の内容、一日の学習時間などによって、最適な方法は様々だと思います。</p>
+<p>いずれの方法でも、Ankiの統計情報を活用すれば、その方法を最適化することができます。</p>
+<p>安定期に達したAnki学習ではどのような統計データになるのか、図2のその後のデータとして今日のデータの抜粋を図6に参考までに紹介します。</p>
+<p>通常の学習でも、カードの枚数の変化以外の多面的な進捗情報が統計情報から得られます。ぜひ、この統計情報を活用してAnkiをもっと楽しんでください。次回は最終回、単語帳の共有方法を説明します。</p>
+<div>
+<img src="http://rs.luminousspice.com/images/how2anki_7_5.png" style="border-width: 0;" alt="今日の統計情報" width="600">
+<p><b>図 6. </b>今日の統計情報</p>
+</div>
+<h2 id="連載_ankiの使い方_覚えるために忘れろ_記事一覧" class="section">連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧</h2>
+<div class="olist"><ol>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/how-to-anki/">はじめてのAnki – まず使ってみる</a>(インストール、問題入力、学習の流れ)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>(テキストデータの一括登録)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>(アドオン、共有単語帳)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/how-to-edit-cards/">Ankiのカード表示を編集する</a>(カード編集、外部リンク設定、読み上げ)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/browser-overview/">Ankiのブラウザーの使い方とデータ検索 </a>(ブラウザー、検索条件)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう </a>(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/reduce-anki-backlog-with-stats/">Anki統計情報を活用したバックログ解消法</a>(統計情報の見方、たまった復習カードの解決法)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/how-to-share-anki-decks/">Anki単語帳を共有する方法 </a>(単語帳の書き出し、AnkiWebへの共有)
+</p>
+</li>
+<li>
+<p>
+<a href="http://rs.luminousspice.com/index-how-to-anki/">はじめてAnkiを使う人のための索引</a>(連載内容の索引)
+</p>
+</li>
+</ol></div></p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

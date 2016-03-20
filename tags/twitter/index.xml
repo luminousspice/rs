@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/twitter/</link>
+    <description>Twitter | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 22 Jan 2015 22:00:52 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki の基本知識をつぶやきます</title>
+      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;この_bot_のつぶやく内容&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;この Bot のつぶやく内容&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/Ankigene&#34;&gt;@Ankigene&lt;/a&gt; のつぶやきの内容は、Anki の使い方、Anki Tips、Anki 用語、Anki ショートカット、Anki アドオンから構成しています。さらに詳しい情報へのリンクも含んでいます。
+つぶやきの頻度は、一日 4 回です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/category/anki/how_to_anki2/&#34;&gt;Anki の使い方&lt;/a&gt;と&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips&lt;/a&gt;からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語&lt;/a&gt;は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカット&lt;/a&gt;は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオン&lt;/a&gt;は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。&lt;/p&gt;
+&lt;p&gt;なお不定期的に、アプリケーションのアップグレード情報や、障害情報をつぶやくことがあります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_の中からも検索可能&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki の中からも検索可能&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;このつぶやきの内容が共有単語帳 &lt;a href=&#34;https://ankiweb.net/shared/info/206033178&#34;&gt;Ankiの基礎知識&lt;/a&gt; になりました。
+この単語帳をインストールすれば Anki のブラウザーからもいつでもネットワーク接続がなくて簡単に検索できるようになります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;最新のツイート内容&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;最新のツイート内容&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;a class=&#34;twitter-timeline&#34;  href=&#34;https://twitter.com/Ankigene&#34; data-widget-id=&#34;558234290119380992&#34;&gt;@Ankigeneさんのツイート&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id))d.createElement(s);js.id=id;js.src=p+&#34;://platform.twitter.com/widgets.js&#34;;fjs.parentNode.insertBefore(js,fjs);}(document,&#34;script&#34;,&#34;twitter-wjs&#34;);&lt;/script&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

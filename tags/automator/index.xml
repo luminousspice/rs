@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automator on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/automator/</link>
+    <description>Automator | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 06 Aug 2012 20:49:29 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/automator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Zencoding Automator Services</title>
+      <link>http://rs.luminousspice.com/zencoding-automator-services/</link>
+      <pubDate>Mon, 06 Aug 2012 20:49:29 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/zencoding-automator-services/</guid>
+      <description>ZenCodingサービスをautomatorと既存のPerl実装を利用して作ったよ。</description>
+      <content>&lt;p&gt;Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/zen-coding-with-mi/&#34;&gt;前回の記事&lt;/a&gt;のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img c src=&#34;http://rs.luminousspice.com/images/zencoding-service.png&#34; alt=&#34;完成図&#34; /&gt;&lt;/a&gt;
+&lt;strong&gt;図 1. 完成図&lt;/strong&gt;
+&lt;h2&gt;はじめにご理解いただきたいこと&lt;/h2&gt;
+&lt;p&gt;この記事で作成するアプリケーションは、Mac OS X 10.7.4、このOSに付属しているPerl 5.12.3とAutomator 2.2.4を使って作成しました。利用環境の違いによっては動作しない場合も予想されます。この記事は、自分の環境で動作するように一人で修正できる方に向けて書いています。&lt;/p&gt;
+&lt;h2&gt;準備作業&lt;/h2&gt;
+&lt;p&gt;前提条件としてOtchyさん作&lt;a href=&#34;http://www.otchy.net/20100225/zen-coding-for-perl/&#34;&gt;SSSCoding.pm&lt;/a&gt;のインストールが必要です。
+のPerlモジュールのインストール先は、たとえばターミナルから次のコマンドで調べることが出来ます。&lt;/p&gt;
+&lt;pre&gt;perl -e &amp;lsquo;print $i++ . &amp;ldquo;:&amp;rdquo; . &amp;ldquo;$_\n&amp;rdquo; foreach @INC&amp;rsquo;&lt;/pre&gt;
+&lt;p&gt;Mac OS X 10.7 では、/Library/Perl/5.12 でした。&lt;/p&gt;
+&lt;h2&gt;Automatorでサービスを作る&lt;/h2&gt;
+&lt;p&gt;automatorでサービス ワークフローを作成します。&lt;/p&gt;
+&lt;p&gt;サービスは次の項目を選択項目を受け取ります：の項目は、&lt;strong&gt;テキスト&lt;/strong&gt;、検索対象：&lt;strong&gt;全てのアプリケーション&lt;/strong&gt;　にします。&lt;/p&gt;
+&lt;p&gt;次に&lt;strong&gt;シェルスクリプトを実行&lt;/strong&gt;というアクションを追加し、Perlのコードを入力します。
+    次の画像のようになります。&lt;/p&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/zencoding-services-workflow.png&#34; alt=&#34;Automatorワークフロー画面&#34; /&gt;&lt;/a&gt;
+&lt;strong&gt;図 2. Automatorワークフロー画面&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;中身のコードは次のように書きました。
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;use SSSCoding;&lt;/p&gt;
+
+&lt;p&gt;@tags = split(/\x0d|\x0a/, @ARGV[0]);&lt;/p&gt;
+
+&lt;p&gt;foreach (@tags) {
+    print SSSCoding::expand($_).&amp;rdquo;\x0d&amp;rdquo;;
+}&lt;/pre&gt;&lt;/div&gt;
+&lt;strong&gt;List. ZenCoding.workflow&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;このワークフローを保存すれば、サービスとして使えるようになります。この際に指定した名前がサービスの中で表示される名前になります。文字列を選択すると、サービスのメニューにその名前が表示されます。システム環境 - キーボードでショートカットを登録することも出来ます。&lt;/p&gt;
+&lt;h2&gt;完成品のワークフローファイルをそのままインストールする&lt;/h2&gt;
+&lt;p&gt;完成品のworkflowファイルは、&lt;a title=&#34;github&#34; href=&#34;https://github.com/luminousspice/Zen-Coding-Services&#34; target=&#34;_blank&#34;&gt;githubからダウンロードできるようにしました&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;このファイルを開くと、インストールのためのダイアログが表示されます。手作業でインストールするのであれば、~/Library/Services/ に置くと機能するようになります。&lt;/p&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/zencofing-services-installer.png&#34; alt=&#34;インストールダイアログ&#34; /&gt;
+&lt;strong&gt;図 3. インストールダイアログ&lt;/strong&gt;
+
+&lt;h2&gt;どこでも使えるよ&lt;/h2&gt;
+&lt;p&gt;これで、miでも、テキストエディットでも、スティッキーズでも、このブログを書いているFireforx上の入力画面でも、Mac OS Xのサービスが利用できるところはどこでも、ZenCodingの省略記法の展開が出来るようになりました。なんて素晴らしいんでしょう。&lt;/p&gt;
+
+&lt;p&gt;WordPress上での編集については、&lt;a href=&#34;http://code.google.com/p/zen-coding/&#34;&gt;Zen Coding for &amp;lt;textarea&amp;gt;&lt;/a&gt;をWordPressのプラグイン化した&lt;a href=&#34;http://wordpress.org/extend/plugins/wp-zen-coding/&#34;&gt;WP Zen-Coding&lt;/a&gt;が公開されています。これを使うと今回作成した省略記法の展開以外の全ての機能が使えるようです。&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;ありがとう&lt;/h2&gt;
+Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&gt;、ありがとうございます。たったPerl7行でやりたいことが出来てしまった。&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>ZenCoding with mi</title>
+      <link>http://rs.luminousspice.com/zen-coding-with-mi/</link>
+      <pubDate>Sun, 05 Aug 2012 23:20:40 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/zen-coding-with-mi/</guid>
+      <description>miでZenCodingする方法。既存のPerl実装を利用して、ツールをAppleScriptで書きます。</description>
+      <content>&lt;hr&gt;
+
+&lt;p&gt;&lt;h3&gt;ご注意:&lt;/h3&gt;
+2013.5.30追記
+miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blank&#34;&gt;mi3&lt;/a&gt;ではZencodingの機能が実装になりました。この記事で取り上げている内容よりも豊富な機能を提供しています。ぜひmi3を使ってください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi3.png&#34; alt=&#34;mi3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;mi3のZencoding機能を使う方法&lt;/h4&gt;
+&lt;p&gt;機能の呼び出し方は、ドキュメントモードを[HTML]か[HTML5]に設定した上で、展開したい箇所を選択して(Control+Command+E)を押します。&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ドキュメントモードの設定方法はドキュメントウィンドウ上部のプルダウンリストから選択するか、メニューバーから[ドキュメント]&gt;[モード]&gt;[HTML5]/[HTML]を選択します。
+    &lt;/p&gt;
+&lt;p&gt;メニューバーから[ツール]&gt;[HTML]&gt;[_zencoding]を選択すると、下図のような展開以外の機能を呼び出すことができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi3zencoding.png&#34; alt=&#34;mi3zencoding&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;この記事は、役割を終えたことになります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;miでもZenCodingしたい&lt;/h2&gt;
+&lt;p&gt;と思い続けていたところ、&lt;a href=&#34;http://d.hatena.ne.jp/makog/20110706/1309969364&#34;&gt;Jedit Xで動作させている記事&lt;/a&gt;を発見しました。&lt;/p&gt;
+&lt;p&gt;この記事によれば、作者のmakogさんは、OtchyさんのZencodingの&lt;a href=&#34;http://www.otchy.net/20100225/zen-coding-for-perl/&#34;&gt;Perlモジュール実装&lt;/a&gt;を使って、Jedit XのマクロをAppleScriptで作成したそうです。アクションの内、省略記法の展開が使えるようになっています。
+おお、素晴らしい、miで使うのに一気に敷居が下がりました。&lt;/p&gt;
+
+&lt;p&gt;そこで、この記事を参考にmi用にAppleScriptを書き起こしました。miのツールにzencodingの機能を追加できました。&lt;/p&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mi-zencoding.png&#34; alt=&#34;完成図&#34; /&gt;
+&lt;strong&gt;図 1. 完成図&lt;/strong&gt;
+
+
+&lt;h2&gt;はじめにご理解いただきたいこと&lt;/h2&gt;
+
+&lt;p&gt;この記事で作成するアプリケーションは、Mac OS X 10.7.4、このOSに付属しているPerl 5.12.3とAutomator 2.2.4を使って作成し、mi 2.1.12r1で動作確認しました。利用環境の違いによっては動作しない場合も予想されます。この記事は、自分の環境で動作するように一人で修正できる方に向けて書いています。&lt;/p&gt;
+
+&lt;h2&gt;準備作業&lt;/h2&gt;
+
+&lt;p&gt;前提条件として&lt;a href=&#34;http://www.otchy.net/20100225/zen-coding-for-perl/&#34;&gt;SSSCoding.pm&lt;/a&gt;のインストールが必要です。
+    このPerlモジュールのインストール先は、たとえばターミナルから次のコマンドで調べることが出来ます。&lt;/p&gt;
+&lt;pre&gt;perl -e &#39;print $i++ . &#34;:&#34; . &#34;$_\n&#34; foreach @INC&#39;&lt;/pre&gt;
+Mac OS X 10.7 では、/Library/Perl/5.12 でした。
+
+&lt;h2&gt;mi用AppleScriptの作成&lt;/h2&gt;
+
+&lt;p&gt;miのヘルプの説明を参考にAppleScriptを次のように書きました。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;tell document 1 of application &#34;mi&#34;
+    set startP to index of paragraph 1 of selection object 1
+    set endP to startP + (count paragraph of selection object 1) - 1
+    repeat with i from startP to endP
+        set str to paragraph i
+        set res1 to do shell script &#34;perl -e &#39;chomp($ARGV[0]);print $ARGV[0];&#39;&#34; &amp;amp; &#34; &#34; &amp;amp; quoted form of str
+        set res to do shell script &#34;perl -MSSSCoding -e &#39;print SSSCoding::expand($ARGV[0]);&#39;&#34; &amp;amp; &#34; &#34; &amp;amp; quoted form of res1
+        set paragraph i to res &amp;amp; (ASCII character 10)
+    end repeat
+end tell&lt;/pre&gt;&lt;/div&gt;
+&lt;strong&gt;表 1. zencoding.scpt&lt;/strong&gt;
+
+&lt;h2&gt;インストール&lt;/h2&gt;
+&lt;p&gt;このスクリプトをAppleScript エディタで、スクリプト(.scpt)形式で保存します。
+そのファイルを、モード設定ウインドウ→ツールタブの左側のツール一覧にドラッグすると使えるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi-mode-setting.png&#34; alt=&#34;インストール先-モード設定ウィンドウ&#34;  /&gt;
+&lt;strong&gt;図 2. インストール先-モード設定ウィンドウ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;手作業でインストールする場合は、標準モードのツールとして使うなら、
+    &lt;code&gt;~/Library/Application Support/mi/mode/Normal/tool&lt;/code&gt;
+になります。 &lt;/p&gt;
+
+&lt;p&gt;ZenCodingの省略記法した箇所を選択して、メニューから&lt;strong&gt;ツール&lt;/strong&gt;-&lt;strong&gt;zencoding&lt;/strong&gt;と選択してツールを実行するすると、選択範囲が展開されます。また、コンテクストメニューからも同様に選択して実行できます。(図 1. 完成図 参照)
+    これで、miでZenCodingするという目的が達成できました。&lt;/p&gt;
+
+&lt;p&gt;なお、今回実装した省略記法の展開以外にも、ZenCodingの&lt;a href=&#34;http://code.google.com/p/zen-coding/wiki/Actions&#34;&gt;アクション&lt;/a&gt;には、編集箇所の移動など便利な機能が含まれています。&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;完成品も用意しました&lt;/h2&gt;
+&lt;a href=&#34;https://github.com/luminousspice/zencoding-mi&#34;&gt;GitHubにscptファイルの完成品を置きました&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;ところが&lt;/h2&gt;
+&lt;p&gt;作っているうちに、これをautomatorのサービスにした方が便利なのでは感じるようになりました。miに限らずどこでも使えるし。そこで次の記事では、&lt;a href=&#34;http://rs.luminousspice.com/zencoding-automator-services/&#34;&gt;automatorサービスを作る方法&lt;/a&gt;を紹介します。&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;ありがとう&lt;/h2&gt;
+&lt;p&gt;Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&gt;、Jedit Xマクロを書いた&lt;a href=&#34;http://d.hatena.ne.jp/makog/&#34;&gt;makogさん&lt;/a&gt;、素晴らしい。
+たったAppleScript10行でやりたいことが出来てしまった。ありがとうございます。&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;このブログを建てて記事を書いたのは、お二方に対する感謝の気持ちであります。&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

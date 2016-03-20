@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='今回は、LWTの基本的な使い方として、テキストを登録し、語句の分類をし、学習するまでの流れを紹介したいと思います。'>
+<meta name="keywords" content="Anki, Learning with Texts, LWT">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='今回は、LWTの基本的な使い方として、テキストを登録し、語句の分類をし、学習するまでの流れを紹介したいと思います。'/>
+<meta property="og:title" content="はじめてのLWT 基本的な使い方" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/lwt_basics/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-07-20T23:00:39Z"/>
+<meta property="article:modified_time" content="2013-07-20T23:00:39Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="Learning with Texts"><meta property="article:tag" content="LWT">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="はじめてのLWT 基本的な使い方">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='今回は、LWTの基本的な使い方として、テキストを登録し、語句の分類をし、学習するまでの流れを紹介したいと思います。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>はじめてのLWT 基本的な使い方 | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/lwt_basics/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">はじめてのLWT 基本的な使い方</h1>
+  <span class="post-date">2013-07-20</span>
+  <p><section id="preamble">
+<div class="paragraph"><p><strong>連載: はじめてのLearning with Texts(LWT)</strong></p></div>
+<div class="paragraph"><p><strong>第2回目 Learning with Texts(LWT) 基本的な使い方</strong></p></div>
+</section>
+<h2 id="はじめに" class="section">はじめに</h2>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p><a href="http://lwt.sourceforge.net/">Learning with Texts(LWT)</a>とは、テキストの読解を基本とした、パブリックドメインの語学学習の分散学習システムです。
+基本的には自分で収集したテキストから自動生成する空欄補充問題を学習します。
+オンライン辞書や辞書APIと連携していますので、簡単に語彙の定義や訳語を記録することができます。</p></div>
+<div class="paragraph"><p>テキストを多読しながら効率的に自動的に未知の語彙を収集し、分散学習する機能を提供してくれます。</p></div>
+<div class="paragraph"><p>前回の記事 <a href="http://rs.luminousspice.com/how_to_lwt_install/">はじめてのLearning with Texts(LWT) インストール</a>では、インストール方法と設定方法を紹介しました。</p></div>
+<div class="paragraph"><p>今回は、基本的な使い方として、テキストを登録し、語句の分類をし、学習するまでの流れを紹介したいと思います。</p></div>
+<div class="paragraph"><p>この記事は、LWT 1.5.12 (July 16 2013)に基づいて作成しています。
+作業環境は、Mac OS X です。他のプラットフォームをお使いの方は適宜読み替えてください。</p></div>
+<h2 id="テキストの登録" class="section">テキストの登録</h2>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>テキスト登録画面を開くには、
+LWTのホームスクリーンからリンク[My Texts]をクリックするか <code><a href="http://localhost/lwt/edit_texts.php">http://localhost/lwt/edit_texts.php</a></code> にアクセスします。</p></div>
+<div class="paragraph"><p>テキストの登録方法は2種類あります。画面上のリンクをクリックして選択します。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+<strong>New Text</strong> は基本的な単体ファイルを作成する機能です。最大半角65,000文字まで記録できます。テキストの登録はコピーペーストです。音声データの設定ができます。
+</p>
+</li>
+<li>
+<p>
+<strong>Long Text Import</strong> は、複数のファイルを作成する機能です。指定した文章数でファイルを分割できます。コピーペーストの加えて、ローカルのテキストデータを読み込んで登録できます。音声データは、テキストの登録後、個別のテキストファイルを編集する際に登録できます。
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>Long Text Importを使って、テキストを登録してみましょう。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_1.png" border="1" alt="テキスト登録画面">
+</div>
+<div class="title">図 1. テキスト登録画面</div>
+</div>
+<div class="paragraph"><p>最初の画面の設定項目は次の通りです。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+<strong>Language</strong> に使用する言語設定を指定します。
+</p>
+</li>
+<li>
+<p>
+<strong>Tiltle</strong> にテキストの題名を入力します。分割後、タイトルの最後に連番を振ってくれます。
+</p>
+</li>
+<li>
+<p>
+<strong>Text</strong> では、フィールドにテキストをペーストするか[ファイルを選択]ボタンを押して、登録するテキストファイルを指定します。
+</p>
+</li>
+<li>
+<p>
+<strong>Maximum Sentences per Text</strong> では、一つのファイルの最大文章数を指定します。既定は50です。
+</p>
+</li>
+<li>
+<p>
+<strong>Tags</strong> で文章にタグを振ることができます。
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>入力が済んだら、[NEXT STEP: Check the Texts]ボタンを押します。
+すると分割したテキストが表示されます。
+残念なことにここではテキストの編集ができません。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_2.png" border="1" alt="テキスト登録画面">
+</div>
+<div class="title">図 2. 分割後のテキスト登録画面</div>
+</div>
+<div class="paragraph"><p>[Create # Texts]ボタンを押すと登録が完了します。(# は分割したテキストの数です)</p></div>
+<div class="paragraph"><p>[Show Texts]ボタンを押すと、登録済みテキストの一覧が表示されます。
+個別のテキストファイルをさらに編集するには、一覧表の[Actions]列のペンと紙のアイコンの[Edit]ボタンを押します。</p></div>
+<div class="paragraph"><p>この画面は、[New Text]を選択した時に開く単体ファイルの作成画面と同じものです。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_3.png" border="1" alt="テキスト編集画面">
+</div>
+<div class="title">図 3. テキスト編集画面</div>
+</div>
+<div class="paragraph"><p>Audio-URLで音声ファイルの指定ができます。 lwtがあるディレクトリの直下のmediaディレクトリ <code>/lwt/media</code> に保存しているデータは、プルダウンリストから選択することができます。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+[Check]ボタンを押すと、登録テキストと、その中に含まれる文章、語彙の一覧を確認することができます。
+</p>
+</li>
+<li>
+<p>
+[Change]ボタンを押すと、編集内容を保存し、テキスト一覧に戻ります。
+</p>
+</li>
+<li>
+<p>
+[Change and Open]ボタンを押すと、編集内容を保存した後に、閲覧画面(Read)が開きます。
+</p>
+</li>
+</ul></div>
+<h2 id="テキストの閲覧" class="section">テキストの閲覧</h2>
+<div class="paragraph"><p>テキストを閲覧するには[Read &amp; Test]列の本のアイコンの[Read]ボタンを押します。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_4.png" border="1" alt="テキスト編集画面">
+</div>
+<div class="title">図 4. テキスト編集画面</div>
+</div>
+<div class="paragraph"><p>フレームで左右上下に四分割したウィンドウが開きます。左下にテキストが、左上が操作ボタン類が表示されます。音声データを登録している場合は、再生ボタンが追加になります。右側半分は空欄になります。</p></div>
+<div class="paragraph"><p>はじめてLWTを使った場合は、テキストの単語の背景が水色になっていると思います。
+これはその単語が未登録(UnKnown)だということを示しています。</p></div>
+<div class="paragraph"><p>その中の単語をどれかクリックしてみましょう。
+図のようにツールチップが開き、右上フレームに単語登録画面、右下にGlosbe APIを使った辞書情報が現れます。</p></div>
+<div class="paragraph"><p>図の例では左上のフレームに <code>TO DO: 492</code> という項目が表示されています。この例では、テキスト内に未登録(UnKnown) な単語が492あるということを示しています。</p></div>
+<h3>単語の登録</h3>
+<div class="paragraph"><p></p></div>
+<div class="paragraph"><p>右上のフレームで単語の登録内容を設定します。
+各項目を入力し、[Save]ボタンを押すと、この単語の登録をします。</p></div>
+<h4>意味</h4>
+<div class="paragraph"><p>[Translation]項目に訳を必要であれば記入します。
+右下の辞書情報から、この単語の訳にふさわしいものがあれば、緑のチェックマークをクリックしてください。
+この[Translation]項目に記入できます。</p></div>
+<h4>例文</h4>
+<div class="paragraph"><p>[Sentence Term in {&#8230;}] では、この単語が使われている文が自動的に入力されています。単語自体は{}で囲まれていることに注意してください。</p></div>
+<div class="paragraph"><p>この単語がテキスト内に何回も使われていて、別の文を登録したい場合は、リンク[Show Sentences]をクリックします。
+全ての文が現れます。登録したい文の先頭の緑のチェックマーククリックすると、指定の文を入力することができます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_5.png" border="1" alt="例文の選択">
+</div>
+<div class="title">図 5. 例文の選択</div>
+</div>
+<h4>習熟度 (Status)</h4>
+<div class="paragraph"><p>[Status] 項目は、ラジオボタンで[1]が選択されていると思います。この単語を学習し始めるのであれば、このままにしておきます。
+このラジオボタンのそれぞれの項目の背景書式が、左下のテキスト表示の単語と[Status]</p></div>
+<div class="paragraph"><div class="title">Status設定の注意</div><p>YouTubeに上がっているLWTのチュートリアル動画の中には、この項目をその時点での単語の理解度を設定しているものがあります。
+それはライトナーシステム(<a href="http://en.wikipedia.org/wiki/Leitner_system">Leitner System</a>)の使い方としては間違っています。
+最初に1を設定し、復習段階で正解なら+1、不正解なら-1する使い方がライトナーシステムの学習方法あるいは分散学習として、正しい使い方です。</p></div>
+<div class="paragraph"><p>ドキュメントには、この点の詳しい説明がないので注意すべき点です。
+単語の抽出だけをLWTで行って、全ての復習はAnkiに読み込んでからSM2アルゴリズムで行う場合は気にすることはありません。</p></div>
+<h3>登録後の変化</h3>
+<div class="paragraph"><p>単語登録が完了すると、単語の背景が習熟度(Status)に応じて変わります。</p></div>
+<div class="paragraph"><p>まず、単語にカーソルを重ねてください。すると登録した単語の意味と習熟度が現れます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_6.png" border="1" alt="単語登録後のホバー">
+</div>
+<div class="title">図 6. 単語登録後のホバー</div>
+</div>
+<div class="paragraph"><p>さらに、単語をクリックしてツールチップを表示してみてください。
+ツールチップの中にも登録した単語の意味が現れます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_7.png" border="1" alt="単語登録後のツールチップ">
+</div>
+<div class="title">図 7. 単語登録後のツールチップ</div>
+</div>
+<h3>句の登録</h3>
+<div class="paragraph"><p>単語をクリックして表示するツールチップの[Expr]項目をクリックすると単語の代わりに句を登録できます。
+各項目の先頭の数字は、句の単語数です。最後の2文字は最後の単語の末尾2文字です。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_8.png" border="1" alt="句の登録">
+</div>
+<div class="title">図 8. 句の登録</div>
+</div>
+<div class="paragraph"><p>上の図では、[5..ed]を選択して&rdquo;extended to the remotest kindred&rdquo;という句を登録する画面を開きました。</p></div>
+<div class="paragraph"><p>登録が完了すると、表示が次のように変わります。句全体をひとつなぎにして背景が変わります。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_9.png" border="1" alt="登録後の句">
+</div>
+<div class="title">図 9. 登録後の句</div>
+</div>
+<div class="paragraph"><p>この表示は変更することができ、左上のフレームの[Show All]という項目のチェックボックスをクリックすると、句の先頭に数字が現れます。
+下の例では、&rdquo;extend&rdquo; から5単語分が句として登録していて、習熟度は1だということを示しています。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_10.png" border="1" alt="句の表示例">
+</div>
+<div class="title">図 10. 句の表示例</div>
+</div>
+<div class="paragraph"><p>この場合、&rdquo;extended to the remotest kindred&rdquo; に含まれる5つの単語も個別に設定すれば、それぞれの習熟度に応じた背景書式が設定されます。</p></div>
+<h3>単語を学習対象から除外する</h3>
+<div class="paragraph"><p>既知の単語の場合は、単語をクリックして表示するツールチップ内で、[I know this term well]をクリックします。
+また、固有名詞、記号などで学習対象から除外する場合は、同様にツールチップを表示し[Ignore this term]をクリックします。</p></div>
+<div class="paragraph"><p>また、右上の登録画面の [Status]項目で、既知の場合は[Wkn]を、無視する場合は[Ign]を選択しても同じ設定ができます。</p></div>
+<div class="paragraph"><p>いずれの場合も登録後、元に戻すには、再度単語をクリックし、ツールチップを開いて[Delete term]をクリックします。</p></div>
+<h4>全ての単語を既知にする</h4>
+<div class="paragraph"><p>左上画面の[I KNOW ALL]ボタンを押すと、未登録の単語を全て既知に設定します。
+この図の例では491ワードの文章ですが、全ての単語を確認するのは手間です。
+このボタンを使って一旦全ての単語を既知にして、一読して未知の単語だけ学習用に設定する方法が実践的だと思います。</p></div>
+<div class="paragraph"><p>下の例は、固有名詞を無視する設定にした上で、[I KNOW ALL]ボタンを押した結果です。
+既知の単語は緑の下線が、無視する単語には破線の下線が引いて表示します。
+TO DO項目が 0 になっていますので、このテキストの単語は全て登録済みだといういことを示しています。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_11.png" border="1" alt="句の表示例">
+</div>
+<div class="title">図 11. 既知の例</div>
+</div>
+<h2 id="テスト_test" class="section">テスト(Test)</h2>
+<div class="paragraph"><p>登録日の翌日以降に、登録した単語や句のテスト(Test)ができます。
+復習のタイミングは、Status(習熟度)別に異なります。詳しい内容はドキュメントの<a href="http://lwt.sourceforge.net/#termscores">Term Scores</a>に説明しています。</p></div>
+<div class="ulist"><div class="title">復習時期</div><ul>
+<li>
+<p>
+Status 1:  新規登録の場合と間違えた場合は1日後、その他の場合は当日
+</p>
+</li>
+<li>
+<p>
+Status 2:  2日後
+</p>
+</li>
+<li>
+<p>
+Status 3:  9日後
+</p>
+</li>
+<li>
+<p>
+Status 4: 27日後
+</p>
+</li>
+<li>
+<p>
+Status 5: 72日後
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>テスト画面の表示方法は、次のいずれかです。</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+ホームスクリーンに直近のテキスト情報が表示している場合は、リンク[Test]をクリック。
+</p>
+</li>
+<li>
+<p>
+ホームスクリーンから[My Texts]をクリックし、テストしたい文章の[Read&amp; Test]列の?マークの[Test]ボタンをクリック。
+</p>
+</li>
+<li>
+<p>
+ホームスクリーンから[My Languages]をし、テストしたい言語の[Test]ボタンをクリック。この場合は全てのテキストが対象になります。
+</p>
+</li>
+</ul></div>
+<h3>テスト画面</h3>
+<div class="paragraph"><p>テスト画面では左上フレームしたのボタン列から6種類のテストが選択できます。
+文脈に沿ったテストと語句を個別に問うテストを行うことができます。</p></div>
+<h4>[..[L2]..] ボタン</h4>
+<div class="paragraph"><p><strong>[..[L2]..]</strong> ボタンは登録した単語を含む文章全体表示し、登録した単語の訳の記憶をテストします。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_12.png" border="1" alt="..[L2]..">
+</div>
+</div>
+<h4>[..[L1]..] ボタン</h4>
+<div class="paragraph"><p><strong>[..[L1]..]</strong> ボタンは登録した単語を含む文章の中で、テストする単語だけ訳を表示し、登録した単語の記憶をテストします。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_13.png" border="1" alt="..[L1]..">
+</div>
+</div>
+<h4>[..[・・]..] ボタン</h4>
+<div class="paragraph"><p><strong>[..[・・]..]</strong> ボタンは登録した文章を使った空欄補充問題です。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_14.png" border="1" alt="..[・・]..">
+</div>
+</div>
+<h4>[[L2]] ボタン</h4>
+<div class="paragraph"><p><strong><a id="L2"></a></strong> ボタンは、単語を表示し、訳の記憶をテストします。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_15.png" border="1" alt="[L2]">
+</div>
+</div>
+<h4>[[L1]] ボタン</h4>
+<div class="paragraph"><p><strong><a id="L1"></a></strong> ボタンは、単語の訳を表示し、元の単語の記憶をテストします。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_16.png" border="1" alt="[L1]">
+</div>
+</div>
+<h4>[Table] ボタン</h4>
+<div class="paragraph"><p><strong>[Table]</strong> ボタンは、一覧表示で記憶内容をテストします。左下フレーム、一番上のチェックボックスで表示内容を選択することができます。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_17.png" border="1" alt="[Table]">
+</div>
+</div>
+<h4>正解表示</h4>
+<div class="paragraph"><p>[Table]ボタン以外は、背景が変わっているテスト項目をクリックすると、ツールチップで正解を表示します。</p></div>
+<div class="paragraph"><p>正解なら[Got it!]、間違えたら[Oops!]をクリックしStatusを変更します。</p></div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt02_18.png" border="1" alt="..[L2]..">
+</div>
+<div class="title">図 12. [..[L2]..]テストの正解表示</div>
+</div>
+<div class="paragraph"><p>Statusを変更すると、新たなTerm Scoreが割り当てられ次の復習時期が決まります。
+Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わらず、Term Scoreだけが変更になり72日後に復習することになります。</p></div>
+<h2 id="まとめ" class="section">まとめ</h2>
+<div class="paragraph"><p>LWTは、一カ所に豊富な機能を盛り込んでいるため、使い方を文書にすると長くなりますが、実際に使ってみると操作はかんたんです。</p></div>
+<div class="paragraph"><p>基本的には比較的長い文章を読んで、文脈の中で語句の理解を深める学習ができる点が、他の語学系暗記ソフトと異なるLWT独自の特長です。</p></div>
+<div class="paragraph"><p>また、LWTは多量のテキストを読むことを前提として作られているため、テキストからの語句抽出が得意です。
+テキストを読みながら語彙や表現を取り出してAnkiに持ち込む場合、項目を入力したり、辞書を引いたり手作業の部分が多数発生します。
+このため、LWTを経由すると色々な作業がクリック一つで代行でき、データ作成を効率化することができます。</p></div>
+<div class="paragraph"><p>次回は<a href="http://rs.luminousspice.com/how_to_export_for_anki/">実際にデータ出力し、Ankiへ読み込む方法</a>を紹介します。</p></div></p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

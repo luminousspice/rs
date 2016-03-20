@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。'>
+<meta name="keywords" content="Anki">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。'/>
+<meta property="og:title" content="Ankiにおける空欄補充問題の作り方" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/cloze-deletion/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2013-06-18T00:00:00Z"/>
+<meta property="article:modified_time" content="2013-06-18T00:00:00Z"/>
+
+
+
+<meta property="article:tag" content="Anki">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Ankiにおける空欄補充問題の作り方">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Ankiにおける空欄補充問題の作り方 | The Right Stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="http://rs.luminousspice.com/cloze-deletion/">
+
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Ankiにおける空欄補充問題の作り方</h1>
+  <span class="post-date">2013-06-18</span>
+  <section id="preamble">
+<p>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。</p>
+</section>
+<section id="ノートタイプの設定">
+  <div class="page-header">
+    <h2>ノートタイプの設定</h2>
+  </div>
+<p>まず基本的な、空欄補充(穴埋め)問題を作ってみましょう。
+穴埋め問題を作るには、ノートタイプを[穴埋め(cloze)]に設定する必要があります。追加ウィンドウの左上のボタンを押して設定します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_4_3.png" alt="ノートタイプを穴埋めに設定">
+</div>
+<div class="title">図 1. ノートタイプを穴埋めに設定</div>
+</div>
+</section>
+<section id="一番単純な例">
+  <div class="page-header">
+    <h2>一番単純な例</h2>
+  </div>
+<p>かんたんな例として次の引用文から"many"を問う空欄補充問題を作ってみましょう。</p>
+<blockquote>
+<p>If you want to have good ideas you must have many ideas.</p>
+<small><a target="_new" href="http://en.wikiquote.org/wiki/Linus_Pauling">Linus Pauling</a></small>
+</blockquote>
+<p>設定の仕方は、追加ウィンドウで、"many"を選択し、[&#8230;]ボタンを押します。
+すると"many"は、<code>{{c1::many}}</code> に変わります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/cloze1.png" alt="追加ウィンドウ">
+</div>
+<div class="title">図 2. 追加ウィンドウ</div>
+</div>
+<p>この部分は自分でタイプしても構いません。</p>
+<pre>If you want to have good ideas you must have {{c1::many}} ideas.</pre>
+<p>このカードを実際に表示すると <code>{{c1::many}}</code> が[&#8230;]に置き換わります。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/cloze2.png" alt="空欄補充問題の表示例">
+</div>
+<div class="title">図 3. 空欄補充問題の表示例</div>
+</div>
+</section>
+<section id="ヒントを加える">
+  <div class="page-header">
+    <h2>ヒントを加える</h2>
+  </div>
+<p></p>
+<p>穴埋めの設定は単語毎に設定する必要はありません。</p>
+<p><strong>manyの先頭の"m"は表示する例</strong></p>
+<pre>If you want to have good ideas you must have m{{c1::any}} ideas.</pre>
+<p>カードには次のように表示します。</p>
+<p><strong>mだけを残して空欄表示する</strong></p>
+<pre>If you want to have good ideas you must have m[...] ideas.</pre>
+<p>[&#8230;]の内容をヒントに置き換えることもできます。</p>
+<p><strong>空欄表示[&#8230;]を[how much]に置き換えた例</strong></p>
+<pre>If you want to have good ideas you must have {{c1::many::how much}} ideas.</pre>
+<p>カード面の空欄表示の中にヒント[how much]が表示されます。</p>
+<p><strong>空欄内にヒントを表示</strong></p>
+<pre>If you want to have good ideas you must have [how much] ideas.</pre>
+</section>
+<section id="複数の空欄を設定する">
+  <div class="page-header">
+    <h2>複数の空欄を設定する</h2>
+  </div>
+<p></p>
+<p>一つの文に複数の空欄を設定することもできます。先ほどの文に"good"を空欄に設定を追加してみましょう。</p>
+<pre>If you want to have {{c2::good::quality}} ideas you must have {{c1::many::how much}} ideas.</pre>
+<p>この場合、一つのカードに空欄が2つできるのではなく、空欄を一つ含むカードが2枚できます。</p>
+<p><strong>"many"を問うカード</strong></p>
+<pre>If you want to have good ideas you must have [how much] ideas.</pre>
+<p><strong>"good"を問うカード</strong></p>
+<pre>If you want to have [quality] ideas you must have many ideas.</pre>
+<p><strong>注意</strong>
+複数の空欄を設定する時、入れ子にすることはできません。</p>
+</section>
+<section id="キー入力機能を追加する">
+  <div class="page-header">
+    <h2>キー入力機能を追加する</h2>
+  </div>
+<p></p>
+<p>解答をキー入力する問題も作成できます。
+この場合は、カードテンプレートの編集が必要になります。</p>
+<p>穴埋め問題の下に、解答を入力するフィールドを設定できます。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/anki209_3.png" alt="キー入力内容と正解の比較">
+</div>
+<div class="title">図 4. 表面の解答キー入力画面</div>
+</div>
+<p>穴埋め問題の解答をテキストフィールドにキー入力し、[解答を表示]ボタンを押します。
+間違っている場合は正解と比較結果を表示します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/anki209_4.png" alt="入力内容と正解の比較">
+</div>
+<div class="title">図 5. 裏面のキー入力した解答と正解の比較</div>
+</div>
+<p>具体的な設定例は、<a href="http://rs.luminousspice.com/type_answer/">Anki解答キー入力機能の使い方</a>で説明しています。</p>
+<p>穴埋め問題の詳しい説明は、ユーザーマニュアル<a target="_new" href="http://wikiwiki.jp/rage2050/?ClozeDeletion">穴埋め問題</a>をご覧ください。</p>
+</section>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/github/</link>
+    <description>Github | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 30 Nov 2013 23:00:44 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>日本語で読める Free Programming Books</title>
+      <link>http://rs.luminousspice.com/japanese-free-programming-books/</link>
+      <pubDate>Sat, 30 Nov 2013 23:00:44 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/japanese-free-programming-books/</guid>
+      <description>List of Free Programming Books 日本語版は、インターネット上で自由にアクセスできる日本語のプログラミング書籍の一覧です。日本語版独自の特徴、英語版との違い、このプロジェクトへの貢献の仕方について紹介します。</description>
+      <content>&lt;section id=&#34;list_of_free_programming_books_とは&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;List of Free Programming Books とは&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://resrc.io/list/10/list-of-free-programming-books/&#34;&gt;List of Free Programming Books&lt;/a&gt; とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の &lt;a href=&#34;http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/&#34;&gt;List of freely available programming books&lt;/a&gt; が元になっています。
+現在は、&lt;a href=&#34;https://github.com/vhf/free-programming-books&#34;&gt;GitHub にホスティングしているリポジトリ&lt;/a&gt;を vhf / victor felder が管理しています。&lt;/p&gt;
+&lt;p&gt;現在では、オリジナルの英語版に加えて、&lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books-ja.md&#34;&gt;日本語版&lt;/a&gt;をはじめとした13か国語版のリストを収録しています。&lt;/p&gt;
+&lt;p&gt;GitHub のアカウントをもっていれば誰でも追加編集リクエストを出すことができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;貢献する方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;貢献する方法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://github.com/&#34;&gt;GitHub&lt;/a&gt; のアカウントを作る。
+&lt;/li&gt;
+&lt;li&gt;
+Fork する。
+&lt;/li&gt;
+&lt;li&gt;
+編集する。
+&lt;/li&gt;
+&lt;li&gt;
+PR (Pull Request) を投げる。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;日本語版の内容&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;日本語版の内容&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books-ja.md&#34;&gt;List of Free Programming Books 日本語版&lt;/a&gt; は、インターネット上で自由にアクセスできる日本語のプログラミング書籍の一覧です。内訳は次の通りです。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+List of Free Programming Books 英語版掲載書籍の日本語版
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+日本語版独自の自由にアクセス可能なプログラミング書籍
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;英語版のリストの翻訳ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;日本語版のリストを追加した動機&#34;&gt;日本語版のリストを追加した動機&lt;/h3&gt;
+&lt;p&gt;最初にこのリストを見た時には、まだ英仏独伊のヨーロッパ系言語版だけを収録している状況でした。お祭りなので、まずは日本語開発者のコミュニティの存在感を示したかったこと、将来的にこのリストを利用したシステムやアプリケーションを作るようなことがあった時に、日本語での利便性が考慮されるようにしたかったためです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;英語版との違い&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;英語版との違い&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;現在日本語版には、219のアイテムを登録しています。そのうち200位を私が追加したもので、情報の選択に英語版よりも制限が加えました。今後、誤解を招かないようにその制限の内容を説明します。
+その制限が維持すべきものと考えていませんし、拡張の余地が大いにあると考えています。&lt;/p&gt;
+&lt;h3 id=&#34;電子書籍あるいは電子書籍に限りなく近い形態の情報に限定しました&#34;&gt;電子書籍あるいは電子書籍に限りなく近い形態の情報に限定しました。&lt;/h3&gt;
+&lt;p&gt;CodeAcademy のようなコースウェア、SlideShare にホスティングしているような共有スライド、ブログ記事は掲載していません。&lt;/p&gt;
+&lt;p&gt;これは、オリジナル List of Free Programming Books 公開に対する日本語での反響が、「フリーにアクセスできるプログラミング書籍がたくさんある」ことに対する期待であったため、日本語版の情報の選択に際して、その期待を裏切らないよう制限を加えました。&lt;/p&gt;
+&lt;p&gt;英語書籍の翻訳を分割連載しているブログ記事だけは例外的に取り上げました。&lt;/p&gt;
+&lt;h3 id=&#34;著作者_翻訳者を原則表記しました&#34;&gt;著作者、翻訳者を原則表記しました。&lt;/h3&gt;
+&lt;p&gt;情報共有してくれている方に対する謝意を示すためです。氏名が不明な場合は、はてなやtwitter、GitHubのアカウント名で代用しました。それでも分からない場合は空欄にしています。&lt;/p&gt;
+&lt;p&gt;Creative Commons のようなライセンス表記を検討しましたが、表記方法とレイアウトに結論が出せなかったため、盛り込みませんでした。&lt;/p&gt;
+&lt;h3 id=&#34;入手に個人情報の提供が必要なものは除外しました&#34;&gt;入手に個人情報の提供が必要なものは除外しました。&lt;/h3&gt;
+&lt;p&gt;自分としては、個人情報が対価として要求するならフリーではないと考えました。他の方がこのような情報を追加リクエストすることは否定しません。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;日本語版に現在不足している分野&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;日本語版に現在不足している分野&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;情報が大量にあって選択の判断に迷うもの、自分の得意分野以外の情報が大きく欠落しています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+.NET アプリ開発 (C# や Visual Basic)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+モバイル機器用アプリ開発 (Android や iOS)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Web アプリ開発 (Ruby on Rails、ASP.NET、PHP)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+情報工学一般
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;まだ、多数の情報が見逃されているのではないかと思います。たくさんの皆さんからの貢献を期待しています。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>起動オプション on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E8%B5%B7%E5%8B%95%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+    <description>起動オプション | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 28 Apr 2013 00:00:22 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E8%B5%B7%E5%8B%95%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki2の言語設定を変更する</title>
+      <link>http://rs.luminousspice.com/how-to-change-lang/</link>
+      <pubDate>Sun, 28 Apr 2013 00:00:22 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-change-lang/</guid>
+      <description>Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。How to change lang settings for Anki2.</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki2では、初回起動直後の言語設定以後、言語設定のユーザーインターフェイスを用意していません。起動オプションで言語を指定する方法と、初期設定ファイルを削除して言語設定をやり直す方法の手順を紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;はじめに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki2からインストール直後の初期設定でユーザーインターフェースの使用言語を選択した後、設定画面から言語設定を変更することができなくなりました。複数の言語を学習にAnkiの言語設定を切り替えながら使ってきたユーザーの方々は、この変更点にとまどっているのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;そこで、今回はインストール後にAnkiの言語設定を切り替える方法をまとめて紹介します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;一時的に変更&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;一時的に変更&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Anki2からは&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html#startup-options&#34;&gt;Startup Options(起動オプション)&lt;/a&gt;で言語設定を指定できるようになりました。&lt;/p&gt;
+&lt;pre&gt;インターフェースの言語は&#34;-l&#34;オプションで指定できます。-l &amp;lt;ISO言語名コード&amp;gt;を指定して起動します。&lt;/pre&gt;
+&lt;p&gt;例: Windowsで英語を指定して起動&lt;/p&gt;
+&lt;pre&gt;&#34;C:\Program Files\Anki\anki.exe&#34; -l en&lt;/pre&gt;
+&lt;p&gt;例: Mac OS Xで日本語を指定して起動&lt;/p&gt;
+&lt;pre&gt;/Applications/Anki.app/Contents/MacOS/anki -l ja&lt;/pre&gt;
+&lt;p&gt;実際には皆さんお使いのAnkiのインストール場所を指定してください。&lt;/p&gt;
+&lt;div class=&#34;alert alert-info alert-block&#34;&gt;
+&lt;table cellpadding=&#34;10&#34;&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34; nowrap&gt;
+&lt;div class=&#34;title&#34;&gt;NOTE&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;使用可能な言語&lt;/div&gt;
+&lt;p&gt;Ankiマニュアルでは、&#34;iso country code&#34; と記述していますが、正しくは言語名コード(Language code)です。ISO 639に掲載している全ての言語で使用できるとはとても思えないので調べてみました。&lt;/p&gt;
+&lt;p&gt;使用可能な言語は、Ankiのソースコード&lt;a target=&#34;_new&#34; href=&#34;https://github.com/dae/anki/blob/master/anki/lang.py&#34;&gt;anki/lang.py&lt;/a&gt;の先頭で定義しています。言語リソースの翻訳状況は様々ですがAnki2.0.8時点で、&lt;strong&gt;50言語&lt;/strong&gt; サポートしています。これ以外の言語を指定した場合は英語で代用します。&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;コマンドプロンプトから毎回起動オプションを使うのは面倒な場合もあります。でどうするかというのがこの先の話題です。&lt;/p&gt;
+&lt;h3 id=&#34;windows_のショートカットを利用&#34;&gt;Windows のショートカットを利用&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;code&gt;anki.exe&lt;/code&gt; のショートカットを右クリックし、プロパティを選択
+&lt;/li&gt;
+&lt;li&gt;
+ショートカットタブを選択
+&lt;/li&gt;
+&lt;li&gt;
+リンク先項目の最後に起動オプションを追加する。例: &lt;code&gt;&#34;C:\Program Files\Anki\anki.exe&#34; -l en&lt;/code&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;初期設定し直す&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;初期設定し直す&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;インストール直後の初期状態に戻して言語設定し直すというのが次のアプローチです。Ankiの初期設定ファイルを削除すれば良いのです。Ankiの再インストールでは、初期設定はそのまま残りますので、言語設定し直すことができません。&lt;/p&gt;
+&lt;p&gt;Ankiは既定でドキュメントフォルダーの中に単語帳を保存するAnkiフォルダーを作成します。この中にある &lt;code&gt;prefs.db (Documents/Anki/prefs.db)&lt;/code&gt; が初期設定ファイルです。Ankiを終了してから &lt;code&gt;prefs.db&lt;/code&gt; を削除し、Ankiを起動すると言語設定し直すことができます。
+当然のことながら他の設定もなくなってしまいます。&lt;/p&gt;
+&lt;p&gt;より安全に作業するには、Ankiを終了してから &lt;code&gt;prefs.db&lt;/code&gt; を別のファイル名に変更します。元のファイルの名前を &lt;code&gt;prefs.db&lt;/code&gt; に変更すればいつでも元の設定に戻すことができます。&lt;/p&gt;
+&lt;p&gt;頻繁ではないにしても継続的に言語設定を切り替えるのであれば、あらかじめ言語別に &lt;code&gt;prefs.db&lt;/code&gt; を保存しておいて使い分けるのも効率的な方法だと思います。&lt;/p&gt;
+&lt;p&gt;Mac OS Xの場合の保存場所&lt;/p&gt;
+&lt;pre&gt;[書類]&amp;gt;[Anki] prefs.db (/Users/[ユーザー名]/Documents/Anki/prefs.db)&lt;/pre&gt;
+&lt;p&gt;Windows7の場合の保存場所&lt;/p&gt;
+&lt;pre&gt;[マイ ドキュメント]&amp;gt;[Anki] prefs.db (&#34;C:\Users\user name\Documents\Anki\prefs.db&#34;)&lt;/pre&gt;
+&lt;p&gt;Windowsの場合バージョン毎にドキュメントフォルダーの位置が異なります。&lt;a target=&#34;_new&#34; href=&#34;http://windows.microsoft.com/ja-jp/windows7/where-are-my-files-and-folders-after-upgrading-from-windows-xp-or-windows-vista&#34;&gt;Windows XP または Windows Vista からのアップグレード後のファイルおよびフォルダーの場所&lt;/a&gt;の「Windows 7 で共通のフォルダーを見つける方法」を参考にしてください。&lt;/p&gt;
+&lt;h3 id=&#34;注意_ユーザープロフィールを複数使っている場合&#34;&gt;注意: ユーザープロフィールを複数使っている場合&lt;/h3&gt;
+&lt;p&gt;この方法を行うと、既定で作成するプロファイル&#34;ユーザー 1&#34;以外のプロファイルが消えてしまいます。ここで慌てないでください。再度、これまで使っていたプロファイル名でプロファイルを作成すると元に戻ります。プロファイル名を忘れてしまった方は、ドキュメントフォルダー内のAnkiフォルダーを見てください。プロファイル名がフォルダー名として残っています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;設定ファイルを編集&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;設定ファイルを編集&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;code&gt;prefs.db&lt;/code&gt; はsqliteファイルです。開発経験が必要になりますが、sqliteファイルを書き換えることでも言語設定は変更できます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;どう使い分けるか&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;どう使い分けるか&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;まず最も頻繁に使う言語にAnkiの言語設定をすることです。現在そうなっていないのなら、初期設定からし直すのがよいでしょう。その上で一時的に使う言語は起動プションで呼び出すのがおすすめの方法の方法です。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/4/28: 初出&lt;/p&gt;
+&lt;p&gt;2013/5/5: AnkiサポートサイトのKnowledge Baseの記事&#34;&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/interface/changing-the-interface-language&#34;&gt;Changing the interface language&lt;/a&gt;&#34;に基づいて、内容を更新しました。&lt;/p&gt;
+&lt;p&gt;2014/09/28 再構成&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>プロファイル on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link>
+    <description>プロファイル | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 23 Sep 2014 17:00:10 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
+      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。How to use User Profile for Anki.</description>
+      <content>&lt;p&gt;&lt;p&gt;Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。&lt;/p&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;Anki のプロファイルとは、同じマシンで Anki を共同利用する場合に利用できるユーザープロファイルです。
+プロファイルを利用すると、プロファイル毎に独自の設定をして、独自の教材で学習を進めることが出来ます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;プロファイルとは&#34;&gt;プロファイルとは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;プロファイルを作成すると、Anki のドキュメントファイルの中に、プロファイル名のフォルダーを作成します。
+その中に、コレクションファイルやメディアファイルを保存して使います。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+統計情報はプロファイル別に表示します。全プロファイルのデータをまとめて表示することは出来ません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+アドオンは、全てのプロファイルに共通に使用します。(PC 版の場合)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;プロファイルの作り方&#34;&gt;プロファイルの作り方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;プロファイル設定画面を呼び出すにはメニューバーから [ファイル]-[プロファイルを変える] を選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. プロファイルダイアログ&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この画面の右のボタンから、プロファイルの新規作成、名称変更、削除することができます。&lt;/p&gt;
+&lt;p&gt;複数のプロファイルを作っている場合は、起動直後にこのプロファイルダイアログが開きます。
+ここでプロファイルを選択すると、Anki のメインウィンドウが開きます。&lt;/p&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;パスワード設定&#34;&gt;パスワード設定&lt;/h3&gt;
+&lt;p&gt;プロファイルにパスワードを設定することが出来ます。
+設定したいプロファイルを開き、メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[一般] タブを選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. デスクトップ版 Anki　環境設定 一般&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;[プロファイルパスワード] ボタンを押すと表示する入力画面にパスワードを入力します。&lt;/p&gt;
+&lt;p&gt;解除したい場合は、この入力画面に何も入力せずに [OK] ボタンを押せば、パスワードは解除します。&lt;/p&gt;
+&lt;p&gt;プロファイルダイアログの中でパスワード設定しているプロファイルを選択すると、パスワード入力欄を表示します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. プロファイルダイアログ パスワード入力&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;自動同期の設定&#34;&gt;自動同期の設定&lt;/h3&gt;
+&lt;p&gt;初期設定では、プロファイルを変更する時に自動同期が行われます。この機能の設定画面は、環境設定の中にあります。
+メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+[プロファイルを開閉する際に自動的に同期する] を無効にすると、AnkiWeb と自動同期しなくなります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobile_の設定方法&#34;&gt;AnkiMobile の設定方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;iPhone などで Anki の iOS アプリ AnkiMobile を使っている場合もプロファイルを利用できます。
+ 単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. AnkiMobile 環境設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;[Profiles] をタップするとプロファイル設定画面が開きます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile プロファイル画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;このプロファイル一覧の中で現在使用中のプロファイルは、名前の右にチェックマークが付いています。
+使用するプロファイルを変更したい場合は、そのプロファイルをタップします。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;新規作成&lt;/strong&gt; 画面右上 [+] ボタンをタップ。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;名前変更&lt;/strong&gt; プロファイル名を長押し (タッチアンドホールド) して、[Rename] をタップ。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;削除&lt;/strong&gt; プロファイル名を長押しして、[Remove] をタップ。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile プロファイル名長押し後の選択項目&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;ankimobile_プロファイルの注意点&#34;&gt;AnkiMobile プロファイルの注意点&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+AnkiMobile のプロファイルには、パスワードが設定できません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+プロファイル変更時の自動同期の機能はありません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+使用中のプロファイルの名前変更や削除はできません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出す操作がスワイプから長押しに変更になりました。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankiweb_を利用する場合の注意事項&#34;&gt;AnkiWeb を利用する場合の注意事項&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;AnkiWeb の一つのアカウントにアクセスできるプロファイルは一つの機器に一つだけです。
+すでに同じ機器の別のプロファイルからアクセスしている場合は、そのプロファイルから [認証解除] をする必要があります。&lt;/p&gt;
+&lt;p&gt;Anki と AnkiMobile を同期する場合、プロファイル情報は同期しません。それぞれ別々に設定する必要があります。&lt;/p&gt;
+&lt;p&gt;AnkiWeb のアカウントに割り当てたプロファイル同士で同期します。
+名前が同じプロファイルであっても自動認識する訳ではありません。&lt;/p&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;認証解除の仕方&#34;&gt;認証解除の仕方&lt;/h3&gt;
+&lt;p&gt;PC 版 Anki は、環境設定画面の [ネットワーク] タブを選択し、[認証解除] ボタンを押します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;AnkiMobile は、環境設定画面から [Syncing] を選択し、[Deauth] ボタンを押します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 同期設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;プロファイル機能を使うと、一つの機器に独自の Anki 学習環境を別々に作ることが出来ます。
+この機能によって家族や研究室内でマシンを共有している環境でも、それぞれが競合することなく Anki 学習を進めることが出来ます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;p&gt;2014/09/23: 初出&lt;/p&gt;
+&lt;p&gt;2014/10/31: 更新 AnkiMobile 2.0.12 の変更点を反映&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Ankiが同期できない問題について</title>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
+      <content>&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;設定の再確認&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;設定の再確認&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki と AnkiWeb との同期で最初につまづく原因は、AnkiWeb のアカウント作成の失敗していること、Anki や連携して使用する AnkiMobile や AnkiDroid の設定が正しく行われていないことです。&lt;/p&gt;
+&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;プロキシ認証の失敗_mac_os_x_および_windows&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;プロキシ認証の失敗 (Mac OS X および Windows)&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/04/23 更新の &lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html#proxies&#34;&gt;Anki Manual Proxies&lt;/a&gt;によれば、Mac OS X および Windows 版の Anki ではツールキットの原因で、システム設定からユーザー名とパスワードの取得ができずプロキシ認証に失敗するとのことです。
+このため、Anki を認証が必要なプロキシ経由で同期するには、環境変数 HTTP_PROXY の設定が必要です。&lt;/p&gt;
+&lt;pre class=&#34;prettyprint&#34;&gt;http://user:pass@proxy.example.com:8080&lt;/pre&gt;
+&lt;p&gt;その際にユーザー名やパスワードに @ を使用している場合には、%40 で置き換える必要があります。&lt;/p&gt;
+&lt;pre class=&#34;prettyprint&#34;&gt;http://user%40workspace:pass@proxy.example.com:8080&lt;/pre&gt;
+&lt;p&gt;Mac OS X および Windows ともにそれぞれのバージョンによって環境変数の設定方法が異なります。お使いになっている環境に適した方法で設定ください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;同期に必須なバージョン&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;同期に必須なバージョン&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki サポートサイトの告知、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/60-anki-and-heartbleed&#34;&gt;Anki and Heartbleed&lt;/a&gt; によれば、Heartbleed 問題の対応のため、AnkiWeb と同期して Anki を使い続けるには、Anki 2.0.24 以降に変更になりました。&lt;/p&gt;
+&lt;h2 id=&#34;mac_os_x_10_5_10_6_用代替ビルドを使用している場合&#34;&gt;Mac OS X 10.5, 10.6 用代替ビルドを使用している場合&lt;/h2&gt;
+&lt;p&gt;Anki サポートサイト Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/problems/syncing-errors-with-older-macs&#34;&gt;Syncing errors with older Macs&lt;/a&gt; によれば、Anki 2.0.30 が必須になりました。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;同期中にタイムアウトが発生する場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;同期中にタイムアウトが発生する場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/#_2031&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ファイル容量制限&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;ファイル容量制限&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;ファイル容量が 100MB を超えるファイルをアップロードすることは出来ません。サーバーエラーが発生します。&lt;/p&gt;
+&lt;p&gt;Anki 2.0.29 Beta 2 (Sep 15) 以降では、100MB を超えるファイルは同期対象外になります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;複数のプロファイルを使用している場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;複数のプロファイルを使用している場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb の特定のアカウントに、特定の機器からは一つのプロファイルだけが接続できます。&lt;/p&gt;
+&lt;p&gt;一つの機器で複数のプロファイルを使っている場合、認証済みのプロファイルを認証解除して、アクセスしたいプロファイルに変更して認証し直します。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;複数の機器からアクセスする場合&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;複数の機器からアクセスする場合&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;一つのアカウントに同時に複数の機器からアクセスすることはできません。&lt;/p&gt;
+&lt;p&gt;それぞれの機器から順番にアクセスしてください。また、同期中の機器がないか確認してみてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;サポートからのよくある回答&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;サポートからのよくある回答&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のサポートサイトで AnkiWeb の接続障害にする質問に対する、よくある回答は
+アンチウィルス、ファイアウォールなどのセキュリティソフトの設定、VPN ソフトの設定、ISP によるフィルタリングを原因として指摘しています。&lt;/p&gt;
+&lt;p&gt;セキュリティソフトの例外設定のために、Anki の再インストールを勧めている場合もあります。
+また、古いバージョンの Anki を使用していることを指摘されることも多いです。&lt;/p&gt;
+&lt;p&gt;サポートサイトへ質問する前に、これらの項目を事前に確認しておくと良いでしよう。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankiweb_の障害情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiWeb の障害情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki と同期する AnkiWeb に障害発生により、同期に失敗したり遅延したりする場合があります。&lt;/p&gt;
+&lt;p&gt;最新情報の確認は、Anki サポートサイトの&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements&#34;&gt;Announcements&lt;/a&gt;の告知をご覧下さい。&lt;/p&gt;
+&lt;p&gt;Anki サポートサイトの&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34;&gt;AnkiWeb&lt;/a&gt;カテゴリでは、AnkiWebについて障害報告したり、他のユーザーからの報告を読むことができます合わせてご利用ください。&lt;/p&gt;
+&lt;h2 id=&#34;主な障害情報の履歴&#34;&gt;主な障害情報の履歴&lt;/h2&gt;
+&lt;h3&gt;2015/02/26&lt;/h3&gt;
+&lt;p&gt;AnkiWeb サーバーにパフォーマンス上の問題が発生していましたが、2015/03/02 に最終的な復旧報告がありました。&lt;/p&gt;
+&lt;p&gt;Anki サポート情報:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/80-ankiweb-performance-updates&#34;&gt;AnkiWeb performance updates&lt;/a&gt; (2015/03/02)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12070-slow-to-synchronise-last-few-days-could-you-check-it-for-me&#34;&gt;Slow to synchronise last few days - could you check it for me?&lt;/a&gt; (2015/03/01)
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb/928-ankiweb-too-busy-right-now&#34;&gt;AnkiWeb too busy right now&lt;/a&gt; (2015/02/26)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;2014/09/16&lt;/h3&gt;
+&lt;p&gt;数時間にわたって発生していたサーバーのメンテナンスエラーが、6時40分過ぎに復旧しました。
+Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb/721-ankiweb-maintenance&#34;&gt;AnkiWeb maintenance?&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;2014/04/04&lt;/h3&gt;
+&lt;p&gt;数日前から発生していた AnkiWeb サーバーに発生していたパフォーマンス上の問題を、サーバーのアップグレードで解決しました。
+Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/58-ankiweb-servers-upgraded&#34;&gt;AnkiWeb servers upgraded&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;2013/11/21&lt;/h3&gt;
+&lt;p&gt;13時頃から、AnkiWeb サーバーにネットワーク上の問題が発生し、Anki クライアントアプリケーションとの同期ができなくなっていましが、16時20分過ぎに復旧しました。
+Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/40-ankiweb-problems-again&#34;&gt;AnkiWeb Problems Again&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;anki_の同期に関する修正履歴&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;Anki の同期に関する修正履歴&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankimobile_固有の問題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiMobile 固有の問題&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;iOS アプリ &lt;a target=&#34;_new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;ign-mpt=uo%3D4&#34;&gt;AnkiMobile&lt;/a&gt; の過去のバージョンが原因で発生した問題点を紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;同期中にクラッシュ&#34;&gt;同期中にクラッシュ&lt;/h2&gt;
+&lt;p&gt;AnkiMobile 2.0.14 では、AnkiMobile 2.0.13 へ以前のバージョンからアップグレードすると、多数のメディアファイルを同期した場合にアプリケーションがクラッシュする問題を解決しました。&lt;/p&gt;
+&lt;p&gt;参考情報: Anki サポート Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/problems/ankimobile-2013-may-crash-when-syncing&#34;&gt;AnkiMobile 2.0.13 may crash when syncing&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;不要な完全同期を求めるメッセージ&#34;&gt;不要な完全同期を求めるメッセージ&lt;/h2&gt;
+&lt;p&gt;AnkiMobile 2.0.15 では、不要な場合にも完全同期を促すメッセージを表示する問題を修正しました。&lt;/p&gt;
+&lt;p&gt;参考情報: AnkiMobile サポートフォーラム &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile/2117-deck-needs-total-upload-download-all-the-time&#34;&gt;Inconsistent state upload/download messages&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankidroid_固有の問題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiDroid 固有の問題&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiWeb との同期の障害が、クライアント側の AnkiDroid が原因で発生する場合もあります。&lt;/p&gt;
+&lt;p&gt;AnkiWeb との同期に必須なバージョンは、AnkiDroid 2.3.2 以降です。&lt;/p&gt;
+&lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;https://code.google.com/p/ankidroid/wiki/FAQ#I_get_a_sync_error_about_the_time_of_my_device_when_syncing_with&#34;&gt;AnkiDroid FAQ&lt;/a&gt; によれば、タイムゾーン選択と時刻設定が正しくないと、AnkiWeb との同期でエラーが発生するそうです。&lt;/p&gt;
+&lt;p&gt;AnkiDroid の障害に関する最新情報は、&lt;a target=&#34;_new&#34; href=&#34;http://groups.google.com/group/anki-android&#34;&gt;AnkiDroid Forum&lt;/a&gt;で確認できます。&lt;/p&gt;
+&lt;p&gt;また、Issue Tracker (障害案件一覧) を開発者サイトで検索することもできます。
+&lt;a target=&#34;_new&#34; href=&#34;https://code.google.com/p/ankidroid/issues/list?can=2&amp;amp;q=sync%20status=Accepted%20type=Defect&amp;amp;sort=-id%20-milestone&amp;amp;colspec=ID%20Type%20Priority%20Status%20Milestone%20Owner%20Summary&#34;&gt;検索例: キーワード sync 優先順位 High 状況 Accepted&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2013/11/21: 初出&lt;/p&gt;
+&lt;p&gt;2014/04/24: 追加: プロキシ認証失敗、必須条件 2.0.24 以上&lt;/p&gt;
+&lt;p&gt;2014/09/08: 追加: 複数のプロファイルや機器からの接続、サポートからのよくある回答&lt;/p&gt;
+&lt;p&gt;2014/09/11: 追加: AnkiDroid 固有の問題&lt;/p&gt;
+&lt;p&gt;2014/09/15: 追加: ファイル容量制限&lt;/p&gt;
+&lt;p&gt;2014/10/19: 追加: Anki 2.0.30、2.0.31 の変更点&lt;/p&gt;
+&lt;p&gt;201M/10/30: 追加: AnkiMobile 2.0.13 が同期中にクラッシュする問題&lt;/p&gt;
+&lt;p&gt;2014/11/11: 追加: AnkiMobile 2.0.14 の変更点、AnkiDroid の必須バージョン&lt;/p&gt;
+&lt;p&gt;2014/11/12: 追加: AnkiMobile 2.0.15 の変更点&lt;/p&gt;
+&lt;p&gt;2015/02/26: 追加: AnkiWeb 処理能力の問題&lt;/p&gt;
+&lt;p&gt;2015/03/02: 更新: AnkiWeb 処理能力の問題&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki2.0.9の注目すべき変更点</title>
+      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
+      <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sidebarblock well&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9が公開されました。このアップデートでは、多くの問題点が修正されました。
+全てのユーザーがAnkiを快適に使える機能が追加されています。タイトルバーにプロファイル名を表示、ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェース変更、解答キー入力機能の強化、起動オプションや削除したノートの記録などです。これらの機能について簡単に紹介したいと思います。
+全ての変更内容をご覧になりたい方は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;タイトルバーにプロファイル名を表示&#34; class=&#34;section&#34;&gt;タイトルバーにプロファイル名を表示&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;タイトルバーの中に現在使用中のプロファイル名を表示するようになりました。何種類かのプロファイルを使い分けている人、共有PCで個人別にプロファイルを作っている人には非常に便利な機能強化だと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;個人的には、今回のアップデートで最高の機能強化だと思っています。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ブラウザー内でのプレビュー機能&#34; class=&#34;section&#34;&gt;ブラウザー内でのプレビュー機能&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ブラウザー内でノートを選択した状態で、ウインドウ上部の[プレビュー]ボタンを押すとカードのプレビューを見ることができます。ウィンドウ下の[&amp;lt;]、[&amp;gt;]ボタンを押すとブラウザー内のノートを順次めくってみることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_1.png&#34; alt=&#34;プレビュー画面&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;カスタム学習のユーザーインターフェースの変更&#34; class=&#34;section&#34;&gt;カスタム学習のユーザーインターフェースの変更&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;「特定のタグに限定する」と「カードを無作為に選んで学習する」は、一つのオプション「カードの状態やタグを選んで学習する」に統合しました。
+カードの状態の選択を選択肢の中から選べるようになったので、今までより簡単にフィルター単語帳を作成できるようになりました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. カスタム学習設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;解答キー入力機能の強化&#34; class=&#34;section&#34;&gt;解答キー入力機能の強化&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://ankisrs.net/docs/manual.html#checking-your-answer&#34;&gt;解答キー入力(Type Answer)&lt;/a&gt;機能については下の動画を見てください。説明は英語ですが、音声は分からなくても見ているだけで内容は分かるものです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/5tYObQ3ocrw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この動画の内容は、今回の改善前の様子です。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;どう変わったかというと、キー入力した解答と正解の比較が分かりやすくなりました。
+穴埋め問題と組み合わせると、下の図のようなカードを作ることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 表面の解答キー入力画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、&lt;code&gt;{{type:close:テキスト}}&lt;/code&gt; とテンプレートを設定して、「テキスト」フィールドの穴埋めを設定した内容を、解答キー入力機能でチェックしています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このアップデートでは、等幅フォントで入力データと正解を上下に並べて比較するようにレイアウトが変更になりました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;アドオンのAwesomeTTSと組み合わせれば、ディクテーション用のカードも簡単に作れます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;更にカードウィンドウでのプレビュー機能が強化されました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;解答キー入力機能を設定したカードのプレビュー&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 解答キー入力機能を設定したカードのプレビュー&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;にご用意しました。関心のある方はお読みください。&lt;/p&gt;&lt;/div&gt;
+&lt;h3 id=&#34;サンプルのダウンロード&#34;&gt;サンプルのダウンロード&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 &lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34;&gt;anki209.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;その他の注目すべき変更項目&#34; class=&#34;section&#34;&gt;その他の注目すべき変更項目&lt;/h2&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+アドオンの読み込みと自動的な同期を回避した起動
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;シフトキーを押したままAnkiを起動すると、アドオンの読み込みと自動的な同期を行わなくなりました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+削除したノートの記録
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ノートを削除すると、そのコンテンツはプロファイルフォルダー内のファイル deleted.txt に記録するようになりました。 フィールドの内容が記録されます。タグは記録されません。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+完全同期の設定場所の変更
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;メニュー([ツール]&amp;gt;[メンテナンス]&amp;gt;[完全同期])から環境設定([ネットワーク]タブ)に移動しました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+タイムボックス機能の変更
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ツールチップの表示から、ダイアログ表示に変わりました。ダイアログの選択肢に解答するまで学習が一時中断します。&lt;/p&gt;&lt;/div&gt;
+&lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;今回のアップデートは主として問題点の修正が行われています。数ある変更点の中にも、通常のユーザーがAnkiをもっと快適に使える注目すべき機能が追加になりました。ぜひこの機能を活用して、Ankiを楽しく使ってください。&lt;/p&gt;&lt;/div&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
