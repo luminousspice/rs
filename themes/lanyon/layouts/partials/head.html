@@ -1,0 +1,23 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{ partial "meta.html" . }}
+
+  <base href="{{ .Site.BaseURL }}">
+  <title>{{ if eq .URL "/" }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.Title }}{{ end }}</title>
+
+  <link rel="stylesheet" href="/css/rs.css">
+
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="canonical" href="{{ .Permalink }}">
+{{ if .RSSlink }}
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+</head>

@@ -1,0 +1,26 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">{{ if .Site.Params.description }}
+    {{ .Site.Params.description | safeHTML }}{{ end }}
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/table-of-contents/" }} active {{ end }}" href="/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/index-how-to-anki/" }} active {{ end }}" href="/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post/">アーカイブ</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/categories/" }} active {{ end }}" href="/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/tags/" }} active {{ end }}" href="/tags/">タグ分類</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/anki/" }} active {{ end }}" href="/anki/">Ankiインデックス</a>
+    {{ $thisperma := .Permalink }}{{ range .Site.Pages.ByWeight }}{{ if isset .Params "sidebar" }}<a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}{{ end }}{{ if .Site.Params.Githubname }}
+    <a class="sidebar-nav-item" href="http://github.com/{{ .Site.Params.Githubname }}">GitHub project</a>{{ end }}
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; {{ .Site.LastChange.Year }} luminousspice.com. All rights reserved.</p>
+  </div>
+</div>

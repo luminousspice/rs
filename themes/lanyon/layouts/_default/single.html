@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<div class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+  {{ .Content }}
+</div>
+
+{{ partial "footer.html" . }}

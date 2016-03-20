@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<div class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+   {{ $data := .Data }}
+    {{ range $key,$value := .Data.Terms.Alphabetical }}
+    <h2>{{ $value.Name | humanize }}</h2>
+      <ul id="list">
+      {{ range $value.Pages.ByDate }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      </ul>
+    {{ end }}
+</div>
+
+{{ partial "footer.html" . }}
