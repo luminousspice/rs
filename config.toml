@@ -1,0 +1,38 @@
+baseurl = "http://rs.luminousspice.com"
+languageCode = "ja"
+title = "the Right Stuff"
+author = "luminosspice"
+theme = "lanyon"
+paginate = 5
+canonifyurls = true
+hasCJKLanguage = true
+pygmentsuseclasses = true
+
+[permalinks] 
+	post = "/:filename/"
+	article = "/:section/:filename/"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	anki = "anki"
+
+[params]
+	description = "ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。"
+	topitem = 5
+	author = "luminosspice"
+	googleAnalyticsUserID = ""
+	githubName = "luminosspice"
+	twitterName = "luminosspice"
+	siteImage = "apple-touch-icon.png"
+	twitterCardImage = "apple-touch-icon.png"
+	feeditem = 5
+
+#laynon
+	Title = "The Right Stuff"
+	Tagline = ""
+	Author = "luminousspice"
+	DateForm = "2006-01-02"
+
+[params.github]
+	url = "http://github.com/luminousspice/"
