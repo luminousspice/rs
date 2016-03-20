@@ -1471,7 +1471,7 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;と&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;
+ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;と&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -1537,7 +1537,7 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;より作成)&lt;/p&gt;
+&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;より作成)&lt;/p&gt;
 &lt;p&gt;K8=98.5%でMSDN Word Listを作成した時に検証した記事と同程度の結果を得ました。頻出8000ワードファミリーの語彙力があれば、使用語彙の98%をカバーできることに変わりありません。&lt;/p&gt;
 &lt;p&gt;ネイティブ並みの2万語の語彙力を持ってしても1%は未知語になります。&lt;/p&gt;
 &lt;p&gt;MSDN Magazineのバックナンバーから作成した、頻出語彙表MSDN word listの効果を見てみましょう。&lt;/p&gt;
@@ -1612,7 +1612,7 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;より作成)&lt;/p&gt;
+&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;より作成)&lt;/p&gt;
 &lt;p&gt;99.38%という結果を得ました。&lt;code&gt;GSL(2000)+AWL(570)+MSDN Word list(720)=3300&lt;/code&gt; ですから、MSDN Magazineを読む場合には、MSDN Magazineに特化した頻出3300語で英語全体の頻出8000語と同じパフォーマンスを発揮します。&lt;/p&gt;
 &lt;p&gt;日本の高校生の語彙水準が3000語レベルとの研究発表が多数出ていますので、GSL+AWLの中の不足分をチェックして、更にMSDN Word listを学習すれば、MSDNを読む分には98%のカバーが実現できます。&lt;/p&gt;
 &lt;h3 id=&#34;gslとbnc_top2000について&#34;&gt;GSLとBNC Top2000について&lt;/h3&gt;

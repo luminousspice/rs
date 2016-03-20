@@ -210,7 +210,7 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;と&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;
+ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;と&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -276,7 +276,7 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;より作成)&lt;/p&gt;
+&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;より作成)&lt;/p&gt;
 &lt;p&gt;K8=98.5%でMSDN Word Listを作成した時に検証した記事と同程度の結果を得ました。頻出8000ワードファミリーの語彙力があれば、使用語彙の98%をカバーできることに変わりありません。&lt;/p&gt;
 &lt;p&gt;ネイティブ並みの2万語の語彙力を持ってしても1%は未知語になります。&lt;/p&gt;
 &lt;p&gt;MSDN Magazineのバックナンバーから作成した、頻出語彙表MSDN word listの効果を見てみましょう。&lt;/p&gt;
@@ -351,7 +351,7 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;より作成)&lt;/p&gt;
+&lt;p&gt;(Cobb,T. &lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;より作成)&lt;/p&gt;
 &lt;p&gt;99.38%という結果を得ました。&lt;code&gt;GSL(2000)+AWL(570)+MSDN Word list(720)=3300&lt;/code&gt; ですから、MSDN Magazineを読む場合には、MSDN Magazineに特化した頻出3300語で英語全体の頻出8000語と同じパフォーマンスを発揮します。&lt;/p&gt;
 &lt;p&gt;日本の高校生の語彙水準が3000語レベルとの研究発表が多数出ていますので、GSL+AWLの中の不足分をチェックして、更にMSDN Word listを学習すれば、MSDNを読む分には98%のカバーが実現できます。&lt;/p&gt;
 &lt;h3 id=&#34;gslとbnc_top2000について&#34;&gt;GSLとBNC Top2000について&lt;/h3&gt;
@@ -481,7 +481,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;p&gt;一つの例として、MSDN Magazine最新号(May 2013 Volume 28 Number 5)に収録の記事&lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn198241.aspx&#34;&gt;Parse JSON Strings in Windows Runtime Components&lt;/a&gt;の使用語彙について調べてみましょう。&lt;/p&gt;
 &lt;p&gt;VP(Vocabulary Profile)という分析方法があります。コーパス(Corpus)から求めたある言語全体の語彙頻度表に、ある文章の中の語彙をあてはめた時の分布が得られます。&lt;/p&gt;
 &lt;p&gt;一般的によく使われている語彙をたくさん使っている文章なのか、まれにしか使わない単語をたくさん使っている文章なのか知ることができます。&lt;/p&gt;
-&lt;p&gt;ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;を使います。
+&lt;p&gt;ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;Web VP / BNC-20 v 3.2&lt;/a&gt;を使います。
 このプログラムは、英語の頻出2万語(ワードファミリー;Word Family)の使用分布を調べてくれます。頻出語句は、書き言葉と話し言葉の約1億語を収録するイギリス英語のコーパス、BNC(British National Corpus)の頻度上位2万語を使用しています。英語のコーパスとしては、代表的なものです。Oxford University PressやLongmanはBNCのプロジェクトに資金提供し、それぞれの辞書にこのコーパスを利用しています。&lt;/p&gt;
 &lt;p&gt;様々な研究結果がありますが、英語の成人ネイティブスピーカーの語彙数は2−3万ワードファミリーと言われています。&lt;/p&gt;
 &lt;p&gt;調査結果は1000ワードファミリー毎に20分割して使用語彙数を表示します。最初の1000語つまり1-1000番目までの範囲をK1を表現します。以後K2(1001-2000)というように表示し、最後はK20(19001-20000)になります。&lt;/p&gt;
@@ -627,7 +627,7 @@ BNCの上位1000番目に含まれている単語(K1)がこの文章内の単語
 &lt;td&gt;K11&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;ラム &lt;a href=&#34;http://shakespeare.palomar.edu/lambtales/LTROMEO.HTM&#34;&gt;シェークスピア物語 ロミオとジュリエット&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ラム シェークスピア物語 ロミオとジュリエット&lt;/td&gt;
 &lt;td&gt;90.44%&lt;/td&gt;
 &lt;td&gt;K6&lt;/td&gt;
 &lt;td&gt;K11&lt;/td&gt;
@@ -797,7 +797,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
 &lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
 &lt;p&gt;本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
 対象は、コーパスには含んでいないMSDN Magazineの最新号とMSDNライブラリのWindows 8のホワイトペーパーです。&lt;/p&gt;
-&lt;p&gt;Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、MSDN word listを追加した場合どれだけカバーできるか調べてみました。&lt;/p&gt;
+&lt;p&gt;Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、MSDN word listを追加した場合どれだけカバーできるか調べてみました。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 4. 頻出語彙集　MSDN word listの効果&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -824,7 +824,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
 &lt;td&gt;98.87%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;http://download.microsoft.com/download/0/E/5/0E5ECE25-D240-435E-9FD6-6092896A3F5F/PackagingandBinding.docx&#34;&gt;Packaging and assembly binding in the .NET Framework for Windows Store apps&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Packaging and assembly binding in the .NET Framework for Windows Store apps&lt;/td&gt;
 &lt;td&gt;92.44%&lt;/td&gt;
 &lt;td&gt;5.83%&lt;/td&gt;
 &lt;td&gt;98.27%&lt;/td&gt;

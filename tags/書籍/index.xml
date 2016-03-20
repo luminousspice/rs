@@ -177,7 +177,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;List of Free Programming Books とは&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;http://resrc.io/list/10/list-of-free-programming-books/&#34;&gt;List of Free Programming Books&lt;/a&gt; とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の &lt;a href=&#34;http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/&#34;&gt;List of freely available programming books&lt;/a&gt; が元になっています。
+&lt;p&gt;&lt;a href=&#34;http://resrc.io/list/10/list-of-free-programming-books/&#34;&gt;List of Free Programming Books&lt;/a&gt; とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の &#34;List of freely available programming books&#34; が元になっています。
 現在は、&lt;a href=&#34;https://github.com/vhf/free-programming-books&#34;&gt;GitHub にホスティングしているリポジトリ&lt;/a&gt;を vhf / victor felder が管理しています。&lt;/p&gt;
 &lt;p&gt;現在では、オリジナルの英語版に加えて、&lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books-ja.md&#34;&gt;日本語版&lt;/a&gt;をはじめとした13か国語版のリストを収録しています。&lt;/p&gt;
 &lt;p&gt;GitHub のアカウントをもっていれば誰でも追加編集リクエストを出すことができます。&lt;/p&gt;

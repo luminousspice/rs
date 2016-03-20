@@ -310,7 +310,7 @@ Codex右上パネルの表示しているカテゴリ(WordPress Lessons、Gettin
 &lt;p&gt;本当にこの語彙表、WordPress Codex Word listは有効なのか、確認して見ました。
 WordPress Codexのページを選んで分析しました。
 どのページが代表性を持っているか判断できなかったため、全く恣意的に2ページ選びました。&lt;/p&gt;
-&lt;p&gt;ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、WordPress Codex word listを追加した場合どれだけカバーできるか調べてみました。&lt;/p&gt;
+&lt;p&gt;ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している&lt;a href=&#34;http://www.lextutor.ca/vp/comp/&#34;&gt;VocabProfilers Classic VP English v.3&lt;/a&gt;を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、WordPress Codex word listを追加した場合どれだけカバーできるか調べてみました。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 2. 頻出語彙集 WordPress Codex Word listの効果&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -389,7 +389,7 @@ WordPress Codexのページを選んで分析しました。
 &lt;/div&gt;
 &lt;p&gt;この単語帳は2000ワードファミリーレベルの頻出語彙とAWLとの組み合わせて使用することを前提にしています。
 この単語帳の学習の前に、あるいは並行して基本語彙を確認することをお勧めします。&lt;/p&gt;
-&lt;p&gt;頻出語彙2000語については、&lt;a href=&#34;http://www.lextutor.ca/vp/bnc/nation_14/&#34;&gt;BNC(British National Corpus)の頻出2000語&lt;/a&gt;や英英辞典の定義語集&lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/oxford3000/&#34;&gt;Oxford 3000&lt;/a&gt;、Longman Defining Vocabulary、&lt;a href=&#34;http://simple.wiktionary.org/wiki/Wiktionary:General_Service_List&#34;&gt;GSL(General Service List)&lt;/a&gt;などの入手しやすいものをお使いください。&lt;/p&gt;
+&lt;p&gt;頻出語彙2000語については、&lt;a href=&#34;http://www.lextutor.ca/vp/comp/nation_14/&#34;&gt;BNC(British National Corpus)の頻出2000語&lt;/a&gt;や英英辞典の定義語集&lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/oxford3000/&#34;&gt;Oxford 3000&lt;/a&gt;、Longman Defining Vocabulary、&lt;a href=&#34;http://simple.wiktionary.org/wiki/Wiktionary:General_Service_List&#34;&gt;GSL(General Service List)&lt;/a&gt;などの入手しやすいものをお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexを情報源として常時利用するための学習戦略&#34; class=&#34;section&#34;&gt;WordPress Codexを情報源として常時利用するための学習戦略&lt;/h2&gt;
 &lt;p&gt;学習戦略については、&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;

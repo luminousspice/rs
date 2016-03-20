@@ -42,9 +42,10 @@
 
   <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
   <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
-
+  
   <link rel="canonical" href="http://rs.luminousspice.com/words-in-msdn/">
-
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
 </head>
 
 
@@ -113,7 +114,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。</p>
 <p>一つの例として、MSDN Magazine最新号(May 2013 Volume 28 Number 5)に収録の記事<a href="http://msdn.microsoft.com/en-us/magazine/dn198241.aspx">Parse JSON Strings in Windows Runtime Components</a>の使用語彙について調べてみましょう。</p>
 <p>VP(Vocabulary Profile)という分析方法があります。コーパス(Corpus)から求めたある言語全体の語彙頻度表に、ある文章の中の語彙をあてはめた時の分布が得られます。</p>
 <p>一般的によく使われている語彙をたくさん使っている文章なのか、まれにしか使わない単語をたくさん使っている文章なのか知ることができます。</p>
-<p>ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している<a href="http://www.lextutor.ca/vp/bnc/">Web VP / BNC-20 v 3.2</a>を使います。
+<p>ケベック大学モントリオール校(UQAM)のTom Cobb教授が公開している<a href="http://www.lextutor.ca/vp/comp/">Web VP / BNC-20 v 3.2</a>を使います。
 このプログラムは、英語の頻出2万語(ワードファミリー;Word Family)の使用分布を調べてくれます。頻出語句は、書き言葉と話し言葉の約1億語を収録するイギリス英語のコーパス、BNC(British National Corpus)の頻度上位2万語を使用しています。英語のコーパスとしては、代表的なものです。Oxford University PressやLongmanはBNCのプロジェクトに資金提供し、それぞれの辞書にこのコーパスを利用しています。</p>
 <p>様々な研究結果がありますが、英語の成人ネイティブスピーカーの語彙数は2−3万ワードファミリーと言われています。</p>
 <p>調査結果は1000ワードファミリー毎に20分割して使用語彙数を表示します。最初の1000語つまり1-1000番目までの範囲をK1を表現します。以後K2(1001-2000)というように表示し、最後はK20(19001-20000)になります。</p>
@@ -259,7 +260,7 @@ BNCの上位1000番目に含まれている単語(K1)がこの文章内の単語
 <td>K11</td>
 </tr>
 <tr>
-<td>ラム <a href="http://shakespeare.palomar.edu/lambtales/LTROMEO.HTM">シェークスピア物語 ロミオとジュリエット</a></td>
+<td>ラム シェークスピア物語 ロミオとジュリエット</td>
 <td>90.44%</td>
 <td>K6</td>
 <td>K11</td>
@@ -429,7 +430,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。</p>
 <h2 id="作成データの検証" class="section">作成データの検証</h2>
 <p>本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
 対象は、コーパスには含んでいないMSDN Magazineの最新号とMSDNライブラリのWindows 8のホワイトペーパーです。</p>
-<p>Cobb教授が公開している<a href="http://www.lextutor.ca/vp/bnc/">VocabProfilers Classic VP English v.3</a>を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、MSDN word listを追加した場合どれだけカバーできるか調べてみました。</p>
+<p>Cobb教授が公開している<a href="http://www.lextutor.ca/vp/comp/">VocabProfilers Classic VP English v.3</a>を使い、それぞれの記事の使用語彙に対して、高頻度な語句(GSL)と学術的な語句(AWL)に、MSDN word listを追加した場合どれだけカバーできるか調べてみました。</p>
 <table rules="rows"frame="hsides"cellspacing="0" cellpadding="4">
 <caption class="title">表 4. 頻出語彙集　MSDN word listの効果</caption>
 <colgroup>
@@ -456,7 +457,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。</p>
 <td>98.87%</td>
 </tr>
 <tr>
-<td><a href="http://download.microsoft.com/download/0/E/5/0E5ECE25-D240-435E-9FD6-6092896A3F5F/PackagingandBinding.docx">Packaging and assembly binding in the .NET Framework for Windows Store apps</a></td>
+<td>Packaging and assembly binding in the .NET Framework for Windows Store apps</td>
 <td>92.44%</td>
 <td>5.83%</td>
 <td>98.27%</td>
