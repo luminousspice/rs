@@ -1,2 +1,2 @@
 source "https://rubygems.org"
-gem 'html-proofer'
+gem "html-proofer", "2.6.4" 
