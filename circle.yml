@@ -18,20 +18,20 @@ dependencies:
     - git config --global user.email "circleci@example.com"
   override:
     # http://stackoverflow.com/a/31032379
-    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
+#    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
 
 test:
   post:
-    - git clone --depth=1 git@github.com:luminousspice/rs.git public
+    - git clone --depth=1 -b gh-pages git@github.com:luminousspice/rs.git public
     - cd public && rm -rf * && git rm -rf .
     - hugo version
     - hugo
-    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
+#    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
 
 deployment:
   master:
-    branch: develop
+    branch: dev
     commands:
       - cd public && git add -A
       - cd public && git commit -m "[ci skip] publish build ${CIRCLE_BUILD_NUM} (${CIRCLE_SHA1})"
-      - cd public && git push origin master
+      - cd public && git push origin gh-pages
