@@ -207,7 +207,7 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
 &lt;h2&gt;完成品のワークフローファイルをそのままインストールする&lt;/h2&gt;
 &lt;p&gt;完成品のworkflowファイルは、&lt;a title=&#34;github&#34; href=&#34;https://github.com/luminousspice/Zen-Coding-Services&#34; target=&#34;_blank&#34;&gt;githubからダウンロードできるようにしました&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;このファイルを開くと、インストールのためのダイアログが表示されます。手作業でインストールするのであれば、~/Library/Services/ に置くと機能するようになります。&lt;/p&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/zencofing-services-installer.png&#34; alt=&#34;インストールダイアログ&#34; /&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/zencoding-services-installer.png&#34; alt=&#34;インストールダイアログ&#34; /&gt;
 &lt;strong&gt;図 3. インストールダイアログ&lt;/strong&gt;
 
 &lt;h2&gt;どこでも使えるよ&lt;/h2&gt;

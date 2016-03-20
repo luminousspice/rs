@@ -48,7 +48,7 @@
 &lt;p&gt;デスクトップ PC 版はダウンロードファイルは別々ですが、一つのプロジェクトとして開発していて OS は違ってもドキュメントは共通です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.luminousspice.com/2013/02/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
+Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
 &lt;/li&gt;
 &lt;li&gt;
 前回の記事、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;では Anki の環境設定の初期化、クリーンインストールする際の注意点をまとめています。

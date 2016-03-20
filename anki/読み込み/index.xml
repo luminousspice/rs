@@ -50,7 +50,7 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 また、カードのレイアウト変更や機能追加をするには、Anki が必要になります。&lt;/p&gt;
 &lt;p&gt;両者を連携して使う場合は、PC 版の iTunes と　iPod の関係のように Anki はコンテンツの作成や管理、AnkiMobile はコンテンツの学習に役割分担した設計になっています。&lt;/p&gt;
 &lt;h2 id=&#34;この記事の構成&#34;&gt;この記事の構成&lt;/h2&gt;
-&lt;p&gt;PC 版 Anki についてはすでに、&lt;a href=&#34;http://rs.luminousspice.com/category/anki/how_to_anki2/&#34;&gt;Ankiの使い方 〜覚えるために忘れろ〜&lt;/a&gt;という連載記事で利用するのに必要な最低限の情報を網羅しています。
+&lt;p&gt;PC 版 Anki についてはすでに、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;Ankiの使い方 〜覚えるために忘れろ〜&lt;/a&gt;という連載記事で利用するのに必要な最低限の情報を網羅しています。
 この記事は、この公開済み情報に AnkiMobile に固有の情報の注釈をつける形で内容を圧縮する構成にしました。
 読み通すだけで手早く全体像が理解でき、公開済みの内容の中から興味のある情報だけを参照すれば済むようになっています。&lt;/p&gt;
 &lt;p&gt;AnkiMobile にしかできないこと、Anki の利用が必要なこと、Anki と AnkiMobile で異なる場合などを強調して説明していきます。&lt;/p&gt;
@@ -244,7 +244,7 @@ AnkiMobile の読み込み機能を使って読み込みます。単語帳一覧
     &lt;h1&gt;共有リソースの使い方&lt;/h1&gt;
   &lt;/div&gt;
 &lt;p&gt;自作の教材以外に、Anki ユーザーが共有している単語帳を AnkiWeb から入手できます。
-&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/#i-6&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;のデータ入出力、共有単語帳のインストール手順を説明しています。&lt;/p&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;のデータ入出力、共有単語帳のインストール手順を説明しています。&lt;/p&gt;
 &lt;p&gt;なお AnkiMobile では、Anki PC 版のアドオンプログラムは利用できません。&lt;/p&gt;
 &lt;h2 id=&#34;共有単語帳の作成&#34;&gt;共有単語帳の作成&lt;/h2&gt;
 &lt;p&gt;作成した単語帳データを共有単語帳として公開するには AnkiWeb を通じて行います。この作業は AnkiMobile 内から行うのではなく、ウェブブラウザ上でフォームを送信して行うことができます。
