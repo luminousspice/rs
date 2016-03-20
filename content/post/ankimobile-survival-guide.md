@@ -90,7 +90,6 @@ AnkiMobile を使うのに必要なことが全て記載されています。</p
 </div>
 <div class="title">図 3. マニュアルを表示</div>
 </div>
-<p>このマニュアルの中に、<a target="_new" href="https://anki.tenderapp.com/">サポートサイト</a>と<a target="_new" href="http://ankisrs.net/docs/am-changes.html">更新履歴</a>へのリンクが含まれています。</p>
 <h2 id="サポート">サポート</h2>
 <p>iPhone ユーザーにとってサポートサイトに問題があります。iPhoneの解像度に対応した画面ではないので、必要な項目が見つけにくいのです。
 AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります。</p>
