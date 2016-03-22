@@ -146,8 +146,6 @@ function find(v){
 	}
 	var end = new Date().getTime();
 	window.status = (end-start) + " ms";
-	var status = window.status;
-	console.log("1:"+status);
 	return result;
 }
 function time2date(time){
@@ -240,8 +238,6 @@ for(var i=0;i<data.length;i++){
 var bodyidx = bodylist.join("<>");
 var end = new Date().getTime();
 window.status = (end-start) + " ms";
-var status = window.status;
-console.log("2:"+status);
 </script>
 
 {{ partial "footer.html" . }}
