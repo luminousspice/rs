@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ankiweb on the Right Stuff</title>
-    <link>/anki/ankiweb/</link>
+    <link>http://rs.luminousspice.com/anki/ankiweb/</link>
     <description>Ankiweb | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 22 Jan 2015 22:00:52 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/ankiweb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/ankiweb/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
-      <link>/ankigene-bot-guide/</link>
+      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
       <pubDate>Thu, 22 Jan 2015 22:00:52 +0900</pubDate>
-      <guid>/ankigene-bot-guide/</guid>
+      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。&lt;/p&gt;
@@ -26,10 +26,10 @@
   &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/Ankigene&#34;&gt;@Ankigene&lt;/a&gt; のつぶやきの内容は、Anki の使い方、Anki Tips、Anki 用語、Anki ショートカット、Anki アドオンから構成しています。さらに詳しい情報へのリンクも含んでいます。
 つぶやきの頻度は、一日 4 回です。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/how-to-anki/&#34;&gt;Anki の使い方&lt;/a&gt;と&lt;a href=&#34;/anki-tips/&#34;&gt;Anki Tips&lt;/a&gt;からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語&lt;/a&gt;は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/anki-shortcuts/&#34;&gt;Anki ショートカット&lt;/a&gt;は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/anki-addons-guide/&#34;&gt;Anki アドオン&lt;/a&gt;は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;Anki の使い方&lt;/a&gt;と&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips&lt;/a&gt;からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語&lt;/a&gt;は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカット&lt;/a&gt;は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオン&lt;/a&gt;は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。&lt;/p&gt;
 &lt;p&gt;なお不定期的に、アプリケーションのアップグレード情報や、障害情報をつぶやくことがあります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;anki_の中からも検索可能&#34;&gt;
@@ -51,9 +51,9 @@
     
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
-      <link>/how-to-use-profile/</link>
+      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
       <pubDate>Tue, 23 Sep 2014 17:00:10 +0900</pubDate>
-      <guid>/how-to-use-profile/</guid>
+      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。How to use User Profile for Anki.</description>
       <content>&lt;p&gt;&lt;p&gt;Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。&lt;/p&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -88,7 +88,7 @@
 &lt;p&gt;プロファイル設定画面を呼び出すにはメニューバーから [ファイル]-[プロファイルを変える] を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. プロファイルダイアログ&lt;/div&gt;
 &lt;/div&gt;
@@ -101,7 +101,7 @@
 設定したいプロファイルを開き、メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[一般] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. デスクトップ版 Anki　環境設定 一般&lt;/div&gt;
 &lt;/div&gt;
@@ -110,7 +110,7 @@
 &lt;p&gt;プロファイルダイアログの中でパスワード設定しているプロファイルを選択すると、パスワード入力欄を表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. プロファイルダイアログ パスワード入力&lt;/div&gt;
 &lt;/div&gt;
@@ -121,7 +121,7 @@
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
@@ -142,14 +142,14 @@
  単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. AnkiMobile 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[Profiles] をタップするとプロファイル設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile プロファイル画面&lt;/div&gt;
 &lt;/div&gt;
@@ -174,7 +174,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile プロファイル名長押し後の選択項目&lt;/div&gt;
 &lt;/div&gt;
@@ -218,14 +218,14 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;p&gt;PC 版 Anki は、環境設定画面の [ネットワーク] タブを選択し、[認証解除] ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AnkiMobile は、環境設定画面から [Syncing] を選択し、[Deauth] ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
@@ -251,9 +251,9 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
     
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
-      <link>/how-to-sync-with-ankiweb/</link>
+      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
       <pubDate>Sun, 31 Aug 2014 22:00:26 +0900</pubDate>
-      <guid>/how-to-sync-with-ankiweb/</guid>
+      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。How to sync data through AnkiWeb for Anki, AnkiMobile, AnkiDroid.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。&lt;/p&gt;
@@ -273,21 +273,21 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;p&gt;まず、ウェブブラウサーを使って &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;へアクセスし、右上の [Sign Up]ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-aw-top.png&#34; alt=&#34;AnkiWeb トップページ アカウント登録ボタン&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-top.png&#34; alt=&#34;AnkiWeb トップページ アカウント登録ボタン&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. AnkiWeb トップページ アカウント登録ボタン&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;登録画面が出たら、メールアドレス (Your Email) とパスワード (New Password) を入力し、[Sign Up] を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-aw-signup.png&#34; alt=&#34;登録画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-signup.png&#34; alt=&#34;登録画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 登録画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;登録完了すると確認画面が現れます。もう一度、登録したばかりのメールアドレス (Confirm Email) とパスワード (Confirm Password) を入力して、[Sign Up] を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-aw-signup-confirmation.png&#34; alt=&#34;確認画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-signup-confirmation.png&#34; alt=&#34;確認画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 確認画面&lt;/div&gt;
 &lt;/div&gt;
@@ -307,7 +307,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-signin.png&#34; alt=&#34;Anki 上でのアカウント設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-signin.png&#34; alt=&#34;Anki 上でのアカウント設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Anki 上でのアカウント設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -318,7 +318,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
@@ -340,14 +340,14 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile Flashcards から AnkiWeb へ同期&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AnkiWeb で登録したメールアドレス (Login) とパスワード (Password) を入力してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-signin.png&#34; alt=&#34;AnkiMobile 上でのアカウント設定画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-signin.png&#34; alt=&#34;AnkiMobile 上でのアカウント設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 上でのアカウント設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -355,14 +355,14 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;p&gt;同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. AnkiMobile Flashcards から AnkiWeb へ同期&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;次に、[Syncing] 項目をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -380,7 +380,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;/ul&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
@@ -394,7 +394,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の循環する矢印ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-ad-mainscreen.png&#34; alt=&#34;同期の呼び出し&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-ad-mainscreen.png&#34; alt=&#34;同期の呼び出し&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. AnkiDroid の同期の呼び出し&lt;/div&gt;
 &lt;/div&gt;
@@ -402,7 +402,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 [AnkiWeb アカウント] をタップすると、アカウントの登録や解除ができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-ad-pref-sync.png&#34; alt=&#34;一般設定&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-ad-pref-sync.png&#34; alt=&#34;一般設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. AnkiDroid 一般設定&lt;/div&gt;
 &lt;/div&gt;
@@ -435,7 +435,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
 呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。&lt;/p&gt;
-&lt;p&gt;なお、AnkiWeb との同期が上手く行かない場合、&lt;a href=&#34;/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
+&lt;p&gt;なお、AnkiWeb との同期が上手く行かない場合、&lt;a href=&#34;http://rs.luminousspice.com/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
 に注意すべき点をまとめていますので、参考にしてください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
@@ -450,9 +450,9 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
     
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>/anki-tips/</link>
+      <link>http://rs.luminousspice.com/anki-tips/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
-      <guid>/anki-tips/</guid>
+      <guid>http://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。
@@ -473,7 +473,7 @@ Shift キーを押しながら起動する。
 &lt;p&gt;ツールチップ「シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。」と表示が出る。(図 1)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_1.png&#34; alt=&#34;セーブブート成功時のメッセージ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_1.png&#34; alt=&#34;セーブブート成功時のメッセージ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. セーブブート成功時のメッセージ&lt;/div&gt;
 &lt;/div&gt;
@@ -502,7 +502,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_2.png&#34; alt=&#34;検索結果&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_2.png&#34; alt=&#34;検索結果&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 重複カードの検索結果&lt;/div&gt;
 &lt;/div&gt;
@@ -522,7 +522,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_3.png&#34; alt=&#34;延期を解除&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_3.png&#34; alt=&#34;延期を解除&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 延期を解除&lt;/div&gt;
 &lt;/div&gt;
@@ -554,7 +554,7 @@ Shift キーを押しながら起動する。
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_4.png&#34; alt=&#34;学習スケジュールを変更&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_4.png&#34; alt=&#34;学習スケジュールを変更&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 学習スケジュールを変更&lt;/div&gt;
 &lt;/div&gt;
@@ -574,7 +574,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_5.png&#34; alt=&#34;新規カードを並び替える&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_5.png&#34; alt=&#34;新規カードを並び替える&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 新規カードを並び替える&lt;/div&gt;
 &lt;/div&gt;
@@ -603,7 +603,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_6.png&#34; alt=&#34;一括置換画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_6.png&#34; alt=&#34;一括置換画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 一括置換画面&lt;/div&gt;
 &lt;/div&gt;
@@ -640,11 +640,11 @@ Shift キーを押しながら起動する。
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/learn_in_original_squence_1.png&#34; alt=&#34;フィルター単語帳の設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learn_in_original_squence_1.png&#34; alt=&#34;フィルター単語帳の設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. フィルター単語帳の設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;無駄なカード_leech_になっても保留にしない&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -669,11 +669,11 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 単語帳のオプション設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;裏返しのカードを追加&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -694,7 +694,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_1.png&#34; alt=&#34;裏面カード付きノートタイプを設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_1.png&#34; alt=&#34;裏面カード付きノートタイプを設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 裏面カード付きノートタイプを設定&lt;/div&gt;
 &lt;/div&gt;
@@ -735,7 +735,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tips_cardlayout.png&#34; alt=&#34;カードレイアウト&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tips_cardlayout.png&#34; alt=&#34;カードレイアウト&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. カードレイアウト&lt;/div&gt;
 &lt;/div&gt;
@@ -743,12 +743,12 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -765,15 +765,15 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
-      <link>/how_to_create_anki_add-ons/</link>
+      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
-      <guid>/how_to_create_anki_add-ons/</guid>
+      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることができます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことができます。この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「Anki 2.0 アドオンの作成」を補足する内容です。&lt;/p&gt;
 &lt;p&gt;この記事は、АnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/1299246957&#34; target=&#34;_new&#34;&gt;Mature Tag&lt;/a&gt;を例にとって、解説します。
 完成品をインストールして動作させることができますし、ソースコードを見ることもできます。最後に作成したアドオンを AnkiWeb の共有アドオン一覧に登録する方法を紹介します。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法は、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;p&gt;また、ソースコードの表示方法は、インストールが完了した後、メニューバーの[ツール]-[アドオン]-[Mature_Tag]-[編集&amp;#8230;]を選択してください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;前提知識&#34;&gt;
@@ -796,7 +796,7 @@ Python による開発経験
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
+&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
 本文中のサンプルコードを実際に動かしてアドオンを作成する経験があると理解に役立ちます。
 &lt;/p&gt;
 &lt;/li&gt;
@@ -914,14 +914,14 @@ addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
 まず、&lt;a href=&#34;https://ankiweb.net/shared/addons/&#34; target=&#34;_new&#34;&gt;共有アドオン一覧&lt;/a&gt;を開き、AnkiWeb にサインインします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki_addon_tutorial_1.png&#34; alt=&#34;アドオン一覧&#34; width=&#34;60%&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_1.png&#34; alt=&#34;アドオン一覧&#34; width=&#34;60%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 共有アドオン一覧&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;登録フォームは画面右上の [Upload Add-on] ボタンをクリックすると表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki_addon_tutorial_2.png&#34; alt=&#34;登録フォーム&#34; width=&#34;60%&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_2.png&#34; alt=&#34;登録フォーム&#34; width=&#34;60%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. アドオン登録フォーム&lt;/div&gt;
 &lt;/div&gt;
@@ -948,7 +948,7 @@ addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;公開したアドオンのページの下にある [Update] ボタンを押すと登録内容の編集ができ、[Remove] ボタンを押すとアドオンを削除することができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki_addon_tutorial_3.png&#34; alt=&#34;アドオンページ 編集、削除ボタン&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_3.png&#34; alt=&#34;アドオンページ 編集、削除ボタン&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. アドオンページ 編集、削除ボタン&lt;/div&gt;
 &lt;/div&gt;
@@ -1006,7 +1006,7 @@ Anki に Python インタープリタが含まれているため、アドオン�
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;フックを見つけるには、Anki のソースコードを　&#34;runHook&#34;、&#34;runFilter&#34; で検索します。Anki 2.0.20 現在　36 のフックが存在します。&lt;/p&gt;
-&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34; target=&#34;_new&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
+&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34; target=&#34;_new&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

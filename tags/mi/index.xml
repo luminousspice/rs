@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mi on the Right Stuff</title>
-    <link>/tags/mi/</link>
+    <link>http://rs.luminousspice.com/tags/mi/</link>
     <description>Mi | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 05 Aug 2012 23:20:40 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/mi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/mi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ZenCoding with mi</title>
-      <link>/zen-coding-with-mi/</link>
+      <link>http://rs.luminousspice.com/zen-coding-with-mi/</link>
       <pubDate>Sun, 05 Aug 2012 23:20:40 +0900</pubDate>
-      <guid>/zen-coding-with-mi/</guid>
+      <guid>http://rs.luminousspice.com/zen-coding-with-mi/</guid>
       <description>miでZenCodingする方法。既存のPerl実装を利用して、ツールをAppleScriptで書きます。</description>
       <content>&lt;hr&gt;
 
@@ -23,7 +23,7 @@
 2013.5.30追記
 miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blank&#34;&gt;mi3&lt;/a&gt;ではZencodingの機能が実装になりました。この記事で取り上げている内容よりも豊富な機能を提供しています。ぜひmi3を使ってください。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/mi3.png&#34; alt=&#34;mi3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi3.png&#34; alt=&#34;mi3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h4&gt;mi3のZencoding機能を使う方法&lt;/h4&gt;
 &lt;p&gt;機能の呼び出し方は、ドキュメントモードを[HTML]か[HTML5]に設定した上で、展開したい箇所を選択して(Control+Command+E)を押します。&lt;/p&gt;&lt;/p&gt;
@@ -32,7 +32,7 @@ miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blan
     &lt;/p&gt;
 &lt;p&gt;メニューバーから[ツール]&gt;[HTML]&gt;[_zencoding]を選択すると、下図のような展開以外の機能を呼び出すことができます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/mi3zencoding.png&#34; alt=&#34;mi3zencoding&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi3zencoding.png&#34; alt=&#34;mi3zencoding&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;この記事は、役割を終えたことになります。&lt;/p&gt;
 &lt;hr&gt;
@@ -42,7 +42,7 @@ miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blan
 おお、素晴らしい、miで使うのに一気に敷居が下がりました。&lt;/p&gt;
 
 &lt;p&gt;そこで、この記事を参考にmi用にAppleScriptを書き起こしました。miのツールにzencodingの機能を追加できました。&lt;/p&gt;
-&lt;img src=&#34;/images/mi-zencoding.png&#34; alt=&#34;完成図&#34; /&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mi-zencoding.png&#34; alt=&#34;完成図&#34; /&gt;
 &lt;strong&gt;図 1. 完成図&lt;/strong&gt;
 
 
@@ -76,7 +76,7 @@ end tell&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;このスクリプトをAppleScript エディタで、スクリプト(.scpt)形式で保存します。
 そのファイルを、モード設定ウインドウ→ツールタブの左側のツール一覧にドラッグすると使えるようになります。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/mi-mode-setting.png&#34; alt=&#34;インストール先-モード設定ウィンドウ&#34;  /&gt;
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi-mode-setting.png&#34; alt=&#34;インストール先-モード設定ウィンドウ&#34;  /&gt;
 &lt;strong&gt;図 2. インストール先-モード設定ウィンドウ&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;手作業でインストールする場合は、標準モードのツールとして使うなら、
@@ -92,7 +92,7 @@ end tell&lt;/pre&gt;&lt;/div&gt;
 &lt;a href=&#34;https://github.com/luminousspice/zencoding-mi&#34;&gt;GitHubにscptファイルの完成品を置きました&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt;ところが&lt;/h2&gt;
-&lt;p&gt;作っているうちに、これをautomatorのサービスにした方が便利なのでは感じるようになりました。miに限らずどこでも使えるし。そこで次の記事では、&lt;a href=&#34;/zencoding-automator-services/&#34;&gt;automatorサービスを作る方法&lt;/a&gt;を紹介します。&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;作っているうちに、これをautomatorのサービスにした方が便利なのでは感じるようになりました。miに限らずどこでも使えるし。そこで次の記事では、&lt;a href=&#34;http://rs.luminousspice.com/zencoding-automator-services/&#34;&gt;automatorサービスを作る方法&lt;/a&gt;を紹介します。&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt;ありがとう&lt;/h2&gt;
 &lt;p&gt;Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&gt;、Jedit Xマクロを書いた&lt;a href=&#34;http://d.hatena.ne.jp/makog/&#34;&gt;makogさん&lt;/a&gt;、素晴らしい。

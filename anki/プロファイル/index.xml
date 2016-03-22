@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>プロファイル on the Right Stuff</title>
-    <link>/anki/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link>
+    <link>http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link>
     <description>プロファイル | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 23 Sep 2014 17:00:10 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
-      <link>/how-to-use-profile/</link>
+      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
       <pubDate>Tue, 23 Sep 2014 17:00:10 +0900</pubDate>
-      <guid>/how-to-use-profile/</guid>
+      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。How to use User Profile for Anki.</description>
       <content>&lt;p&gt;&lt;p&gt;Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。&lt;/p&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;プロファイル設定画面を呼び出すにはメニューバーから [ファイル]-[プロファイルを変える] を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. プロファイルダイアログ&lt;/div&gt;
 &lt;/div&gt;
@@ -63,7 +63,7 @@
 設定したいプロファイルを開き、メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[一般] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. デスクトップ版 Anki　環境設定 一般&lt;/div&gt;
 &lt;/div&gt;
@@ -72,7 +72,7 @@
 &lt;p&gt;プロファイルダイアログの中でパスワード設定しているプロファイルを選択すると、パスワード入力欄を表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. プロファイルダイアログ パスワード入力&lt;/div&gt;
 &lt;/div&gt;
@@ -83,7 +83,7 @@
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
@@ -104,14 +104,14 @@
  単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. AnkiMobile 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[Profiles] をタップするとプロファイル設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile プロファイル画面&lt;/div&gt;
 &lt;/div&gt;
@@ -136,7 +136,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile プロファイル名長押し後の選択項目&lt;/div&gt;
 &lt;/div&gt;
@@ -180,14 +180,14 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;p&gt;PC 版 Anki は、環境設定画面の [ネットワーク] タブを選択し、[認証解除] ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AnkiMobile は、環境設定画面から [Syncing] を選択し、[Deauth] ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
@@ -213,9 +213,9 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
     
     <item>
       <title>Ankiが同期できない問題について</title>
-      <link>/anki-fail-to-sync/</link>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
       <pubDate>Thu, 21 Nov 2013 16:17:56 +0900</pubDate>
-      <guid>/anki-fail-to-sync/</guid>
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。&lt;/p&gt;
@@ -225,7 +225,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
     &lt;h1&gt;設定の再確認&lt;/h1&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki と AnkiWeb との同期で最初につまづく原因は、AnkiWeb のアカウント作成の失敗していること、Anki や連携して使用する AnkiMobile や AnkiDroid の設定が正しく行われていないことです。&lt;/p&gt;
-&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
+&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;プロキシ認証の失敗_mac_os_x_および_windows&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -250,7 +250,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;同期中にタイムアウトが発生する場合&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ファイル容量制限&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -319,7 +319,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;Anki の同期に関する修正履歴&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_固有の問題&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -365,9 +365,9 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
-      <link>/changes-in-anki209/</link>
+      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
       <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
-      <guid>/changes-in-anki209/</guid>
+      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。&lt;/p&gt;&lt;/div&gt;
@@ -378,7 +378,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9が公開されました。このアップデートでは、多くの問題点が修正されました。
 全てのユーザーがAnkiを快適に使える機能が追加されています。タイトルバーにプロファイル名を表示、ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェース変更、解答キー入力機能の強化、起動オプションや削除したノートの記録などです。これらの機能について簡単に紹介したいと思います。
-全ての変更内容をご覧になりたい方は、&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;&lt;/div&gt;
+全ての変更内容をご覧になりたい方は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;&lt;/div&gt;
 &lt;h2 id=&#34;タイトルバーにプロファイル名を表示&#34; class=&#34;section&#34;&gt;タイトルバーにプロファイル名を表示&lt;/h2&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;タイトルバーの中に現在使用中のプロファイル名を表示するようになりました。何種類かのプロファイルを使い分けている人、共有PCで個人別にプロファイルを作っている人には非常に便利な機能強化だと思います。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;個人的には、今回のアップデートで最高の機能強化だと思っています。&lt;/p&gt;&lt;/div&gt;
@@ -386,7 +386,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ブラウザー内でノートを選択した状態で、ウインドウ上部の[プレビュー]ボタンを押すとカードのプレビューを見ることができます。ウィンドウ下の[&amp;lt;]、[&amp;gt;]ボタンを押すとブラウザー内のノートを順次めくってみることができます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_1.png&#34; alt=&#34;プレビュー画面&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_1.png&#34; alt=&#34;プレビュー画面&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
 &lt;/div&gt;
@@ -395,7 +395,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 カードの状態の選択を選択肢の中から選べるようになったので、今までより簡単にフィルター単語帳を作成できるようになりました。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. カスタム学習設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -409,14 +409,14 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 穴埋め問題と組み合わせると、下の図のようなカードを作ることができます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 表面の解答キー入力画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、&lt;code&gt;{{type:close:テキスト}}&lt;/code&gt; とテンプレートを設定して、「テキスト」フィールドの穴埋めを設定した内容を、解答キー入力機能でチェックしています。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
 &lt;/div&gt;
@@ -425,13 +425,13 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;更にカードウィンドウでのプレビュー機能が強化されました。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_5.png&#34; alt=&#34;解答キー入力機能を設定したカードのプレビュー&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;解答キー入力機能を設定したカードのプレビュー&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 解答キー入力機能を設定したカードのプレビュー&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;にご用意しました。関心のある方はお読みください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;にご用意しました。関心のある方はお読みください。&lt;/p&gt;&lt;/div&gt;
 &lt;h3 id=&#34;サンプルのダウンロード&#34;&gt;サンプルのダウンロード&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 &lt;a href=&#34;/apkg/anki209.apkg&#34;&gt;anki209.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 &lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34;&gt;anki209.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;&lt;/div&gt;
 &lt;h2 id=&#34;その他の注目すべき変更項目&#34; class=&#34;section&#34;&gt;その他の注目すべき変更項目&lt;/h2&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;

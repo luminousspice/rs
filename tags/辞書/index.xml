@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>辞書 on the Right Stuff</title>
-    <link>/tags/%E8%BE%9E%E6%9B%B8/</link>
+    <link>http://rs.luminousspice.com/tags/%E8%BE%9E%E6%9B%B8/</link>
     <description>辞書 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Jul 2014 19:00:04 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/%E8%BE%9E%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/%E8%BE%9E%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
-      <link>/start-up-anki-for-iphone-users/</link>
+      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
       <pubDate>Tue, 15 Jul 2014 19:00:04 +0900</pubDate>
-      <guid>/start-up-anki-for-iphone-users/</guid>
+      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。&lt;/p&gt;
@@ -106,7 +106,7 @@ AnkiMobile
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;)
+AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -189,21 +189,21 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;/anki
 画面をダブルタップして調べたい単語を選択し、メニューから [Define] を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/selection.png&#34; alt=&#34;selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/selection.png&#34; alt=&#34;selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 選択範囲を指定&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;当該する項目を含む辞書の一覧と項目の概要を表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/dictionary-list.png&#34; alt=&#34;dictionary-list.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-list.png&#34; alt=&#34;dictionary-list.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 辞書別検索結果&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;更に項目を選択すると、それぞれの辞書に収録している詳しい記述内容を読むことが出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/dictionary-item.png&#34; alt=&#34;dictionary-item.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-item.png&#34; alt=&#34;dictionary-item.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 英和辞典の内容表示&lt;/div&gt;
 &lt;/div&gt;
@@ -231,7 +231,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;/anki
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/dictionary-selection.png&#34; alt=&#34;dictionary-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-selection.png&#34; alt=&#34;dictionary-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 辞書の選択&lt;/div&gt;
 &lt;/div&gt;
@@ -244,7 +244,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;/anki
   &lt;/div&gt;
 &lt;p&gt;選択項目を読み上げ機能が有効にしていると、テキストを合成音声で読み上げることが出来ます。
 学習中に単語の発音を調べたり、テキストの聴き取りができます。&lt;/p&gt;
-&lt;p&gt;設定方法は、&lt;a href=&#34;/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;読み上げ機能の使い方&#34;&gt;読み上げ機能の使い方&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -256,7 +256,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;/anki
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 選択範囲を指定して読み上げる&lt;/div&gt;
 &lt;/div&gt;
@@ -305,7 +305,7 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/add-newnote.png&#34; alt=&#34;add-newnote.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-newnote.png&#34; alt=&#34;add-newnote.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. メディアの種類を指定&lt;/div&gt;
 &lt;/div&gt;
@@ -324,7 +324,7 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/add-media.png&#34; alt=&#34;add-media.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-media.png&#34; alt=&#34;add-media.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 画像の追加方法を指定&lt;/div&gt;
 &lt;/div&gt;
@@ -343,26 +343,26 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
 はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
 カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
 この記事では取り上げなかった、図 2. 重要なポイント 右下の [Synchronize] のボタンの使い方を説明しています。
 無料のオンラインサービス AnkiWeb の同期機能を使うと、他の iOS 機器やアンドロイド端末、PC にインストールした Anki とコンテンツを同期して学習を複数の機器にまたがって継続することができます。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
 AnkiMobile で使用している特別な意味を持つ用語が理解できます。
 Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
 &lt;/p&gt;

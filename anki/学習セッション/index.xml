@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学習セッション on the Right Stuff</title>
-    <link>/anki/%E5%AD%A6%E7%BF%92%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+    <link>http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/</link>
     <description>学習セッション | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E5%AD%A6%E7%BF%92%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki ショートカットキー</title>
-      <link>/anki-shortcuts/</link>
+      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
       <pubDate>Sat, 09 Jan 2016 11:20:37 +0900</pubDate>
-      <guid>/anki-shortcuts/</guid>
+      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
       <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。&lt;/p&gt;
 &lt;p&gt;このショートカット集は、Anki の正式なドキュメントの翻訳ではありません。
 筆者が独自に Anki 2.0.33 のソースコードより主なユーザーインターフェイスについてショートカットキーをまとめたものです。このため、文書化されていない機能も含んでおり、将来のバージョンで機能しなくなる場合もあります。また、広く使われているテキスト読み上げ用アドオン AwesomeTTS のショートカットについても一部取り上げました。
 ショートカットキーの表記は、OS X の基準に従っています。他のプラットフォームで利用する場合は適宜読み替えください。また、動作確認は Mac 版でのみで行っております。&lt;/p&gt;
-&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;メインウィンドウ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -32,7 +32,7 @@
 &lt;p&gt;ウィンドウ上のモードは変化しますが、ショートカットで呼び出せる機能自体は共通して使えるものが大半です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 単語帳一覧&lt;/div&gt;
 &lt;/div&gt;
@@ -129,7 +129,7 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 単語帳概要&lt;/div&gt;
 &lt;/div&gt;
@@ -174,7 +174,7 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 学習画面&lt;/div&gt;
 &lt;/div&gt;
@@ -253,7 +253,7 @@
 &lt;p&gt;ノートを編集するには三つの方法があります。ノートを新規追加する、学習画面で表示中カードのノートを編集する、ブラウザーで選択したカードのノートを編集するになります。呼び出し方や終了の仕方は、それぞれ異なりますが、ノートの編集に関する機能は共通です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 新規追加&lt;/div&gt;
 &lt;/div&gt;
@@ -398,7 +398,7 @@
 &lt;p&gt;カードブラウザーはメインウィンドウから呼び出す、カードのさまざまな属性を一括管理する画面です。カードを一つ選択すると、ウィンドウ右下にノートエディタを表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. カードブラウザー&lt;/div&gt;
 &lt;/div&gt;
@@ -525,7 +525,7 @@
 &lt;p&gt;プレビューとは、ブラウザで選択したカードを学習画面での表示イメージをプレビューする機能です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. プレビュー&lt;/div&gt;
 &lt;/div&gt;
@@ -563,11 +563,11 @@
   &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 動画再生ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>医学 on the Right Stuff</title>
-    <link>/tags/%E5%8C%BB%E5%AD%A6/</link>
+    <link>http://rs.luminousspice.com/tags/%E5%8C%BB%E5%AD%A6/</link>
     <description>医学 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 21 Apr 2014 06:00:34 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/%E5%8C%BB%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/%E5%8C%BB%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>/ems-mnemonics/</link>
+      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
       <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
-      <guid>/ems-mnemonics/</guid>
+      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
       <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -52,18 +52,18 @@
   &lt;/div&gt;
 &lt;p&gt;この単語帳は、AnkiWeb上の共有単語帳ページからダウンロードいただけます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34; target=&#34;_new&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-share-alt icon-white&#34;&gt;&lt;/i&gt; AnkiWeb 共有単語帳ダウンロードサイト&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考: &lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;共有単語帳の使い方&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;共有単語帳の使い方&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;使用上の注意&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;使用上の注意&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
+&lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h2&gt;
 &lt;p&gt;Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。&lt;/p&gt;
 &lt;p&gt;ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
 単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。&lt;/p&gt;
-&lt;p&gt;参考: &lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;anki_をインストールせずに使いたい方へ&#34;&gt;Anki をインストールせずに使いたい方へ&lt;/h2&gt;
 &lt;p&gt;上に表示しているスライドショー形式のプレビューをお使いください。全てのカードをランダムに表示しています。&lt;/p&gt;
 &lt;/section&gt;

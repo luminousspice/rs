@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>統計 on the Right Stuff</title>
-    <link>/tags/%E7%B5%B1%E8%A8%88/</link>
+    <link>http://rs.luminousspice.com/tags/%E7%B5%B1%E8%A8%88/</link>
     <description>統計 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 06 Sep 2014 19:00:09 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/%E7%B5%B1%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/%E7%B5%B1%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>長続きする Anki 単語帳の作り方</title>
-      <link>/how-to-make-anki-decks-sustainable/</link>
+      <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
       <pubDate>Sat, 06 Sep 2014 19:00:09 +0900</pubDate>
-      <guid>/how-to-make-anki-decks-sustainable/</guid>
+      <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
       <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜単語帳、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。How to make Anki decks sustainable.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜単語帳、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。&lt;/p&gt;
@@ -65,7 +65,7 @@
 つまり、私が使った場合この単語帳の平均学習時間は 12 分です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sustainable-decks-stats.png&#34; alt=&#34;Anki 統計情報 学習時間&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sustainable-decks-stats.png&#34; alt=&#34;Anki 統計情報 学習時間&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Anki 統計情報 学習時間&lt;/div&gt;
 &lt;/div&gt;
@@ -107,7 +107,7 @@
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sustainable-decks-settings.png&#34; alt=&#34;Anki 環境設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sustainable-decks-settings.png&#34; alt=&#34;Anki 環境設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. Anki 環境設定&lt;/div&gt;
 &lt;/div&gt;
@@ -131,22 +131,22 @@
 &lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
+&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
+&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
+&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
+&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
+&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -155,9 +155,9 @@
     
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
-      <link>/reduce-anki-backlog-with-stats/</link>
+      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
       <pubDate>Sun, 19 May 2013 20:00:04 +0900</pubDate>
-      <guid>/reduce-anki-backlog-with-stats/</guid>
+      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.</description>
       <content>&lt;p&gt;&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。&lt;/p&gt;
@@ -179,12 +179,12 @@
 &lt;p&gt;Ankiは復習アルゴリズムに加えて、学習継続を支援してくれる色々な機能を提供してくれます。統計情報もその機能の一つです。自分の学習結果を統計情報として確認することは、学習の進捗状況を管理するのに役立ちます。&lt;/p&gt;
 &lt;p&gt;Ankiの統計情報はメインウィンドウから単語帳を選択し、ウィンドウ右上の棒グラフのボタンを押すと表示されます。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_2_11.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;メインウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_11.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;メインウィンドウ&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 1. &lt;/b&gt;メインウィンドウ&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;既定では図2のような情報が得られます。&lt;/p&gt;
 &lt;div style=&#34;float:right;&#34;&gt;
-&lt;img src=&#34;/images/how2anki_7_2.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;統計情報&#34; width=&#34;240&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_2.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;統計情報&#34; width=&#34;240&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 2. &lt;/b&gt;統計情報&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;b&gt;統計情報の項目&lt;/b&gt;&lt;/p&gt;&lt;ol type=&#34;1&#34;&gt;
@@ -261,13 +261,13 @@
 &lt;p&gt;いま始めようとする人には、この方法は使えないので別の方法を紹介します。どちらも、今日の学習をまだしていないという条件があります。今日学習済みカードは、既に新しい期日が設定されています。&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;ブラウザーを利用する&lt;/b&gt;&lt;br&gt;ブラウザーのカード一覧から表示することができます。ブラウザーから期日でソート表示して、期日が今日のカードを選択するとタイトルバーに枚数が表示されます。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_7_3.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;ブラウザー表示&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_3.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;ブラウザー表示&#34; width=&#34;600&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 3. &lt;/b&gt;ブラウザー表示&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;b&gt;フィルター単語帳を利用する&lt;/b&gt;&lt;br&gt;今日が期日のカードを検索するフィルター単語帳を作って調べることもできます。&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;今日が期日のカードを検索する条件&lt;/b&gt;&lt;br&gt;&lt;code&gt;deck:&amp;ldquo;単語帳名&amp;rdquo; prop:due=0&lt;/code&gt;&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_7_4.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;フィルター単語帳&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_4.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;フィルター単語帳&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 4. &lt;/b&gt;フィルター単語帳&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;学習が済んでいない「今日が期日のカード」が取得できます。&lt;/p&gt;
@@ -287,7 +287,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;b&gt;追加学習の方法&lt;/b&gt;&lt;br&gt;メインウィンドウ下の[カスタム学習]ボタンを押して[今日の復習カードの上限を上げる]を選択します。上で計算した枚数を設定します。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_6_1.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_6_1.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 5. &lt;/b&gt;カスタム学習で復習カードの上限を引き上げる&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;b&gt;前日の記録を忘れた場合&lt;/b&gt;&lt;/p&gt;&lt;ol type=&#34;1&#34;&gt;
@@ -299,7 +299,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;&lt;a name=&#34;_バックログを分割処理する方法_マニュアルより&#34;&gt;&lt;/a&gt;バックログを分割処理する方法 (マニュアルより)&lt;/h2&gt;
-&lt;p&gt;マニュアルにも、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使った&lt;a href=&#34;http://ankisrs.net/docs/manual.html#catching-up&#34;&gt;バックログの解消法の例&lt;/a&gt;が載っています。この項目はまだ翻訳されていないようですので、簡単に説明します。&lt;/p&gt;
+&lt;p&gt;マニュアルにも、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使った&lt;a href=&#34;http://ankisrs.net/docs/manual.html#catching-up&#34;&gt;バックログの解消法の例&lt;/a&gt;が載っています。この項目はまだ翻訳されていないようですので、簡単に説明します。&lt;/p&gt;
 &lt;p&gt;バックログからストレスのない適正な学習ができる量だけ取り出して選択的に学習しようと言う考え方です。上で紹介した方法より穏当な方法になります。&lt;/p&gt;
 &lt;p&gt;期日に達して間もない「新鮮なカード」はAnkiの復習スケジュールアルゴリズムを強く反映した復習間隔が設定されています。そこで、選択基準として復習期日に達してからの経過時間を使っています。&lt;/p&gt;
 &lt;h3&gt;&lt;a name=&#34;_優先カードの選別方法&#34;&gt;&lt;/a&gt;優先カードの選別方法&lt;/h3&gt;
@@ -337,54 +337,54 @@
 &lt;p&gt;安定期に達したAnki学習ではどのような統計データになるのか、図2のその後のデータとして今日のデータの抜粋を図6に参考までに紹介します。&lt;/p&gt;
 &lt;p&gt;通常の学習でも、カードの枚数の変化以外の多面的な進捗情報が統計情報から得られます。ぜひ、この統計情報を活用してAnkiをもっと楽しんでください。次回は最終回、単語帳の共有方法を説明します。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_7_5.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;今日の統計情報&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_5.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;今日の統計情報&#34; width=&#34;600&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 6. &lt;/b&gt;今日の統計情報&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34; class=&#34;section&#34;&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h2&gt;
 &lt;div class=&#34;olist&#34;&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索 &lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索 &lt;/a&gt;(ブラウザー、検索条件)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法 &lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法 &lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;&lt;/p&gt;

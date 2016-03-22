@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on the Right Stuff</title>
-    <link>/tags/mac/</link>
+    <link>http://rs.luminousspice.com/tags/mac/</link>
     <description>Mac | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 Jun 2013 22:30:38 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0900</pubDate>
-      <guid>/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]</description>
       <content>&lt;section id=&#34;msdn_magazine過去10年分の頻出語彙からanki単語帳を作る&#34;&gt;
 &lt;p&gt;以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析します。前回作成したMSDN Word Listからの差分は102語になりました。&lt;/p&gt;
@@ -54,7 +54,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;以前の記事、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
+&lt;p&gt;以前の記事、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
 コンコーダンサーソフトに読み込む作業の煩雑さから、CHM(Microsoft Compiled HTML Help)形式のファイルは対象としませんでした。&lt;/p&gt;
 &lt;p&gt;今回は、CHMファイルをPDFに変換してコンコーダンサーに読み込む方法に挑戦します。&lt;/p&gt;
 &lt;p&gt;2003年のバックナンバーを改めて読んでみました。.NET Framework 1.1とWindows XP SP2(Springboard)という現在のWindowsプラットフォームの基盤となる製品がリリースした頃です。ここまで遡ってコーパスデータを分析すれば、ほぼWindowsプラットフォームの技術文書に特有な語彙は網羅できるだろうと考えました。&lt;/p&gt;
@@ -73,7 +73,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 この場合は、頻度表をカウントする時に複数のデータベースを指定する必要があります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. CasualConc ファイルツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -90,13 +90,13 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ここで、登録済みのデータを重複して登録するかというダイアログが表示される場合があります。ディレクトリ内に以前作業したファイルが残っている場合などですが、[すべていいえ]を選択してください。&lt;/p&gt;
-&lt;p&gt;その後の手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
+&lt;p&gt;その後の手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
 &lt;h2 id=&#34;10年分に対象を拡大した結果&#34; class=&#34;section&#34;&gt;10年分に対象を拡大した結果&lt;/h2&gt;
 &lt;p&gt;頻度順に語彙を並べて、コーパス全体に占める割合を足していくと2754番目に98%に達します。登場回数は77が最小値です。
 そこから、一般的に高頻度な語彙(GSL+BNC2K)と学術的に高頻度な語彙を除き、MSDN Magazineに特有な頻出語彙662語を抽出しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. MSDN Magazine 過去10年分の使用語彙の内訳&lt;/div&gt;
 &lt;/div&gt;
@@ -110,17 +110,17 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 ほとんど無駄な努力だったかもです。この脱力感がたまらない。同時に直近3年分のデータからの結果に自信を持ちました。&lt;/p&gt;
 &lt;p&gt;直近3年の頻出語句からもれた102語を補足データとして、&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;単語帳のパッケージデータにしました。Level3というタグを付加しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
-&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
+&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
 子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。&lt;/p&gt;
-&lt;p&gt;全体の単語帳は、&lt;a href=&#34;/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;全体の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34; class=&#34;section&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;テキストデータをより広範に収集できれば、頻度表の品質を向上させることができます。
 その際には目的にかなった対象を選ぶことが大切です。&lt;/p&gt;
@@ -169,14 +169,14 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
     
     <item>
       <title>Zencoding Automator Services</title>
-      <link>/zencoding-automator-services/</link>
+      <link>http://rs.luminousspice.com/zencoding-automator-services/</link>
       <pubDate>Mon, 06 Aug 2012 20:49:29 +0900</pubDate>
-      <guid>/zencoding-automator-services/</guid>
+      <guid>http://rs.luminousspice.com/zencoding-automator-services/</guid>
       <description>ZenCodingサービスをautomatorと既存のPerl実装を利用して作ったよ。</description>
       <content>&lt;p&gt;Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/zen-coding-with-mi/&#34;&gt;前回の記事&lt;/a&gt;のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/zen-coding-with-mi/&#34;&gt;前回の記事&lt;/a&gt;のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。&lt;/p&gt;
 
-&lt;p&gt;&lt;img c src=&#34;/images/zencoding-service.png&#34; alt=&#34;完成図&#34; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img c src=&#34;http://rs.luminousspice.com/images/zencoding-service.png&#34; alt=&#34;完成図&#34; /&gt;&lt;/a&gt;
 &lt;strong&gt;図 1. 完成図&lt;/strong&gt;
 &lt;h2&gt;はじめにご理解いただきたいこと&lt;/h2&gt;
 &lt;p&gt;この記事で作成するアプリケーションは、Mac OS X 10.7.4、このOSに付属しているPerl 5.12.3とAutomator 2.2.4を使って作成しました。利用環境の違いによっては動作しない場合も予想されます。この記事は、自分の環境で動作するように一人で修正できる方に向けて書いています。&lt;/p&gt;
@@ -190,7 +190,7 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
 &lt;p&gt;サービスは次の項目を選択項目を受け取ります：の項目は、&lt;strong&gt;テキスト&lt;/strong&gt;、検索対象：&lt;strong&gt;全てのアプリケーション&lt;/strong&gt;　にします。&lt;/p&gt;
 &lt;p&gt;次に&lt;strong&gt;シェルスクリプトを実行&lt;/strong&gt;というアクションを追加し、Perlのコードを入力します。
     次の画像のようになります。&lt;/p&gt;
-&lt;img src=&#34;/images/zencoding-services-workflow.png&#34; alt=&#34;Automatorワークフロー画面&#34; /&gt;&lt;/a&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/zencoding-services-workflow.png&#34; alt=&#34;Automatorワークフロー画面&#34; /&gt;&lt;/a&gt;
 &lt;strong&gt;図 2. Automatorワークフロー画面&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;中身のコードは次のように書きました。
@@ -207,7 +207,7 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
 &lt;h2&gt;完成品のワークフローファイルをそのままインストールする&lt;/h2&gt;
 &lt;p&gt;完成品のworkflowファイルは、&lt;a title=&#34;github&#34; href=&#34;https://github.com/luminousspice/Zen-Coding-Services&#34; target=&#34;_blank&#34;&gt;githubからダウンロードできるようにしました&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;このファイルを開くと、インストールのためのダイアログが表示されます。手作業でインストールするのであれば、~/Library/Services/ に置くと機能するようになります。&lt;/p&gt;
-&lt;img src=&#34;/images/zencoding-services-installer.png&#34; alt=&#34;インストールダイアログ&#34; /&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/zencoding-services-installer.png&#34; alt=&#34;インストールダイアログ&#34; /&gt;
 &lt;strong&gt;図 3. インストールダイアログ&lt;/strong&gt;
 
 &lt;h2&gt;どこでも使えるよ&lt;/h2&gt;
@@ -222,9 +222,9 @@ Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&
     
     <item>
       <title>ZenCoding with mi</title>
-      <link>/zen-coding-with-mi/</link>
+      <link>http://rs.luminousspice.com/zen-coding-with-mi/</link>
       <pubDate>Sun, 05 Aug 2012 23:20:40 +0900</pubDate>
-      <guid>/zen-coding-with-mi/</guid>
+      <guid>http://rs.luminousspice.com/zen-coding-with-mi/</guid>
       <description>miでZenCodingする方法。既存のPerl実装を利用して、ツールをAppleScriptで書きます。</description>
       <content>&lt;hr&gt;
 
@@ -232,7 +232,7 @@ Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&
 2013.5.30追記
 miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blank&#34;&gt;mi3&lt;/a&gt;ではZencodingの機能が実装になりました。この記事で取り上げている内容よりも豊富な機能を提供しています。ぜひmi3を使ってください。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/mi3.png&#34; alt=&#34;mi3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi3.png&#34; alt=&#34;mi3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h4&gt;mi3のZencoding機能を使う方法&lt;/h4&gt;
 &lt;p&gt;機能の呼び出し方は、ドキュメントモードを[HTML]か[HTML5]に設定した上で、展開したい箇所を選択して(Control+Command+E)を押します。&lt;/p&gt;&lt;/p&gt;
@@ -241,7 +241,7 @@ miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blan
     &lt;/p&gt;
 &lt;p&gt;メニューバーから[ツール]&gt;[HTML]&gt;[_zencoding]を選択すると、下図のような展開以外の機能を呼び出すことができます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/mi3zencoding.png&#34; alt=&#34;mi3zencoding&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi3zencoding.png&#34; alt=&#34;mi3zencoding&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;この記事は、役割を終えたことになります。&lt;/p&gt;
 &lt;hr&gt;
@@ -251,7 +251,7 @@ miの最新版、&lt;a href=&#34;http://www.mimikaki.net/&#34; target=&#34;_blan
 おお、素晴らしい、miで使うのに一気に敷居が下がりました。&lt;/p&gt;
 
 &lt;p&gt;そこで、この記事を参考にmi用にAppleScriptを書き起こしました。miのツールにzencodingの機能を追加できました。&lt;/p&gt;
-&lt;img src=&#34;/images/mi-zencoding.png&#34; alt=&#34;完成図&#34; /&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mi-zencoding.png&#34; alt=&#34;完成図&#34; /&gt;
 &lt;strong&gt;図 1. 完成図&lt;/strong&gt;
 
 
@@ -285,7 +285,7 @@ end tell&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;このスクリプトをAppleScript エディタで、スクリプト(.scpt)形式で保存します。
 そのファイルを、モード設定ウインドウ→ツールタブの左側のツール一覧にドラッグすると使えるようになります。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/mi-mode-setting.png&#34; alt=&#34;インストール先-モード設定ウィンドウ&#34;  /&gt;
+&lt;p&gt;&lt;img src=&#34;http://rs.luminousspice.com/images/mi-mode-setting.png&#34; alt=&#34;インストール先-モード設定ウィンドウ&#34;  /&gt;
 &lt;strong&gt;図 2. インストール先-モード設定ウィンドウ&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;手作業でインストールする場合は、標準モードのツールとして使うなら、
@@ -301,7 +301,7 @@ end tell&lt;/pre&gt;&lt;/div&gt;
 &lt;a href=&#34;https://github.com/luminousspice/zencoding-mi&#34;&gt;GitHubにscptファイルの完成品を置きました&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt;ところが&lt;/h2&gt;
-&lt;p&gt;作っているうちに、これをautomatorのサービスにした方が便利なのでは感じるようになりました。miに限らずどこでも使えるし。そこで次の記事では、&lt;a href=&#34;/zencoding-automator-services/&#34;&gt;automatorサービスを作る方法&lt;/a&gt;を紹介します。&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;作っているうちに、これをautomatorのサービスにした方が便利なのでは感じるようになりました。miに限らずどこでも使えるし。そこで次の記事では、&lt;a href=&#34;http://rs.luminousspice.com/zencoding-automator-services/&#34;&gt;automatorサービスを作る方法&lt;/a&gt;を紹介します。&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt;ありがとう&lt;/h2&gt;
 &lt;p&gt;Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&gt;、Jedit Xマクロを書いた&lt;a href=&#34;http://d.hatena.ne.jp/makog/&#34;&gt;makogさん&lt;/a&gt;、素晴らしい。

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>テキストファイル on the Right Stuff</title>
-    <link>/anki/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link>
+    <link>http://rs.luminousspice.com/anki/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link>
     <description>テキストファイル | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 13 Apr 2014 00:00:27 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
-      <link>/bulk-import-media-files-into-anki/</link>
+      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
       <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
-      <guid>/bulk-import-media-files-into-anki/</guid>
+      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。&lt;/p&gt;
@@ -24,7 +24,7 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;データの一括登録&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
+&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
 この記事では学習データの一括登録の一般的な方法については説明しています。
 今回は、この記事をさらに発展させてテキストにメディアファイル (音声、画像、動画) を添付して一括登録する方法を紹介します。&lt;/p&gt;
 &lt;/section&gt;
@@ -33,7 +33,7 @@
     &lt;h2&gt;前提知識&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のデータ読み込みの方法についての理解
-または、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
+または、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;メディアファイル利用の基本&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -48,7 +48,7 @@
 フィールドに添付ファイルが反映されたら、HTML エディタを開いてその内容を確認します。(Mac OS X: Command+Shift+X, Windows: Ctrl+Shift+X)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで内容を確認&lt;/div&gt;
 &lt;/div&gt;
@@ -145,7 +145,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 読み込みオプション&lt;/div&gt;
 &lt;/div&gt;
@@ -163,21 +163,21 @@
 &lt;p&gt;メニューバーから [ツール] - [Media Import&amp;#8230;] を選択して登録するメディアデータが入っているフォルダーを指定します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. Media Import の呼び出し&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;テキストファイルの用意は不要で、ファイル名を Front フィールドに使いたい文字列を設定すれば、メディアファイルをつくるだけで 単語帳 &lt;code&gt;MediaImport&lt;/code&gt; へ一括登録できてしまうところです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Media Import の処理完了&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;処理毎に基本ノートタイプのクローンを作成するので、同じフォルダーを繰り返し処理しても上書きされることはありません。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. Media Import を使用した読み込み例&lt;/div&gt;
 &lt;/div&gt;
@@ -195,7 +195,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
+実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -225,7 +225,7 @@ Front フィールドに単語が入力済みで、その単語に拡張子 mp3(
 入力条件に正規表現を使う: 有効&lt;/pre&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 検索置換条件&lt;/div&gt;
 &lt;/div&gt;
@@ -237,7 +237,7 @@ Front フィールドに単語が入力済みで、その単語に拡張子 mp3(
   &lt;/div&gt;
 &lt;p&gt;音声ファイルを持っていない場合に、音声データ (mp3) を自動生成する方法を紹介します。
 TTS サービスが使えない別の機器用に音声データを自作するのにも利用できます。&lt;/p&gt;
-&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
+&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
@@ -251,14 +251,14 @@ TTS サービスが使えない別の機器用に音声データを自作する�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AwesomeTTS MP3 Mass Generator の呼び出し方&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AwesomeTTS MP3 Mass Generator の設定画面では次のように設定します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. AwesomeTTS MP3 Mass Generator の設定例&lt;/div&gt;
 &lt;/div&gt;
@@ -333,9 +333,9 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
     
     <item>
       <title>Anki単語帳を共有する方法</title>
-      <link>/how-to-share-anki-decks/</link>
+      <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
       <pubDate>Thu, 30 May 2013 00:30:22 +0900</pubDate>
-      <guid>/how-to-share-anki-decks/</guid>
+      <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の最終回は、単語帳の共有方法について紹介します。Ankiは色々な出力機能で、ユーザー間のデータ共有を支援しています。自分の単語帳を友達と交換して、Ankiの楽しみを広げましょう。How to share your Anki decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜&lt;/strong&gt;&lt;/p&gt;
@@ -379,7 +379,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
 &lt;p&gt;Ankiの単語帳の書き出し方は、メニューバーから[ファイル]&amp;gt;[書き出す]を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_1.png&#34; alt=&#34;書き出し設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_1.png&#34; alt=&#34;書き出し設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 書き出し設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -424,10 +424,10 @@ remember        辞書: &amp;lt;a href=&#34;dict://remember&#34;&amp;gt;remember
     &lt;h1&gt;アドオンを使った書き出し方&lt;/h1&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介した、アドオン &lt;a href=&#34;https://ankiweb.net/shared/info/46837454&#34; target=&#34;_new&#34;&gt;Export Browser&#39;s card list contents to CSV file Enhanced&lt;/a&gt;でも単語帳内容を書き出すことができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介した、アドオン &lt;a href=&#34;https://ankiweb.net/shared/info/46837454&#34; target=&#34;_new&#34;&gt;Export Browser&#39;s card list contents to CSV file Enhanced&lt;/a&gt;でも単語帳内容を書き出すことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_2.png&#34; alt=&#34;ブラウザーで選択した項目を出力&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_2.png&#34; alt=&#34;ブラウザーで選択した項目を出力&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. ブラウザーで選択した項目を出力&lt;/div&gt;
 &lt;/div&gt;
@@ -460,7 +460,7 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
 メニューバーから[ファイル]&amp;gt;[読み込む](Command + I)を選択する。
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;更に詳しい手順は、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;更に詳しい手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;単語帳をankiwebへの共有する方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -468,18 +468,18 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;AnkiWebにある共有単語帳どうやって作っているのか、ご紹介しましょう。&lt;/p&gt;
-&lt;p&gt;まずは、&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWebにアカウントを作って単語帳を同期&lt;/a&gt;します。
+&lt;p&gt;まずは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWebにアカウントを作って単語帳を同期&lt;/a&gt;します。
 次にログイン先の単語帳一覧の右側のプルダウンメニューから[Share]を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_3.png&#34; alt=&#34;AnkiWeb単語帳一覧から選択&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_3.png&#34; alt=&#34;AnkiWeb単語帳一覧から選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. AnkiWeb単語帳一覧から選択&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;共有単語帳の提出フォームが開きますので、内容を入力して送信すると共有単語帳一覧に追加になります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_4.png&#34; alt=&#34;共有単語帳の提出フォーム&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_4.png&#34; alt=&#34;共有単語帳の提出フォーム&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 共有単語帳の提出フォーム&lt;/div&gt;
 &lt;/div&gt;
@@ -539,7 +539,7 @@ AnkiWeb にサインインします。
 &lt;p&gt;そこでこの連載ではAnkiに触れながら覚えた経験を再現しました。Ankiを使った学習全般を体験できるよう内容を構成しました。
 使い方の勘所を感じていただけたらと思います。&lt;/p&gt;
 &lt;p&gt;この体験があれば、ユーザーマニュアルやウェブ上の色々な情報を参考にして、自分独自の使い方を編み出していけると思います。&lt;/p&gt;
-&lt;p&gt;最後にこの連載の応用例として、テキストデータの集まりから頻出単語を抽出してAnki単語帳に仕上げる方法を「&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;」という記事にしました。頻度表を作成するアプリケーションの使い方以外は、この連載の内容だけで実現できます。
+&lt;p&gt;最後にこの連載の応用例として、テキストデータの集まりから頻出単語を抽出してAnki単語帳に仕上げる方法を「&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;」という記事にしました。頻度表を作成するアプリケーションの使い方以外は、この連載の内容だけで実現できます。
 皆様の専門分野ならではの単語帳作成にお役立てください。&lt;/p&gt;
 &lt;p&gt;Ankiは単なるフラッシュカードにとどまらない機能を提供しています。作者や既存ユーザーも意図しないような使い方をする方がたくさん現れると予想しています。この連載で分かりやすく書こうと心がけましたが、全ての人の状況に当てはまるとは考えていません。&lt;/p&gt;
 &lt;p&gt;友だちにAnkiの使い方を説明したとき、この連載よりもっと分かりやすい説明に気がついたら、ぜひその方法を共有してください。&lt;/p&gt;
@@ -560,31 +560,31 @@ AnkiWeb にサインインします。
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -593,9 +593,9 @@ AnkiWeb にサインインします。
     
     <item>
       <title>Ankiにデータをまとめて取り込む</title>
-      <link>/how-to-import/</link>
+      <link>http://rs.luminousspice.com/how-to-import/</link>
       <pubDate>Sat, 20 Apr 2013 09:00:02 +0900</pubDate>
-      <guid>/how-to-import/</guid>
+      <guid>http://rs.luminousspice.com/how-to-import/</guid>
       <description>今回はまとまったリストを暗記教材として登録する方法を紹介します。単語の一覧表をテキストデータ CSV に加工に、Ankiへ読み込む方法を紹介します。How to import CSV data into Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第2回&lt;/strong&gt;&lt;/p&gt;
@@ -664,7 +664,7 @@ Anki2
 フィールドにHTMLのタグを含めることができますし、テキストファイルのフィールドとAnkiファイルのフィールドの対応を読み込みの際に画面から設定することができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_1.png&#34; alt=&#34;読み込み設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_1.png&#34; alt=&#34;読み込み設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 読み込み設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -681,7 +681,7 @@ Anki2
 &lt;p&gt;ダウンロードした &#34;h24-eitango-1.xls&#34; を開いてみると図2のようになります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_2.png&#34; alt=&#34;単語データの内容&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_2.png&#34; alt=&#34;単語データの内容&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 単語データの内容&lt;/div&gt;
 &lt;/div&gt;
@@ -693,7 +693,7 @@ A列をFrontフィールドに、I列を頻度表示を示すタグに割り当�
 図3からcanは助動詞と名詞で同綴異義語として別々の項目で登録されていることが分かります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_3.png&#34; alt=&#34;重複データ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_3.png&#34; alt=&#34;重複データ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 重複データ&lt;/div&gt;
 &lt;/div&gt;
@@ -710,7 +710,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 &lt;p&gt;最終的に見出し語と頻度の2列からなるデータにまとめました。(図 4)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_4.png&#34; alt=&#34;加工済みデータ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_4.png&#34; alt=&#34;加工済みデータ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 加工済みデータ&lt;/div&gt;
 &lt;/div&gt;
@@ -719,7 +719,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 &lt;p&gt;テキストファイルを開いて中を確認すると、カンマで区切られたテキストファイルになっていることが分かります。(図 5)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_5.png&#34; alt=&#34;読み込み用テキストファイル&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_5.png&#34; alt=&#34;読み込み用テキストファイル&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 読み込み用テキストファイル&lt;/div&gt;
 &lt;/div&gt;
@@ -735,7 +735,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 &lt;p&gt;ファイル選択画面が開きますので、これまで作成してきたテキストファイルを選択し、ファイルの種類の指定に[テキスト(タブ区切りまたはセミコロン区切り)(*)]を選択して[開く]ボタンを押してください (図 6)。作成したファイルはカンマ区切りですが読み込むことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_import.png&#34; alt=&#34;読み込むファイルの選択&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_import.png&#34; alt=&#34;読み込むファイルの選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 読み込むファイルの選択&lt;/div&gt;
 &lt;/div&gt;
@@ -746,7 +746,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 他の区切り文字を指定したい場合はこのボタンを押すと他の文字を指定できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_6.png&#34; alt=&#34;読み込み設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_6.png&#34; alt=&#34;読み込み設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 読み込み設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -755,7 +755,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 &lt;p&gt;[Default]ボタンを押すと単語帳指定ウィンドウが表示されます。このウィンドウの左下[追加]ボタンを押すと、単語帳の新規作成ができます。(図 8)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_7.png&#34; alt=&#34;単語帳の新規作成&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_7.png&#34; alt=&#34;単語帳の新規作成&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 単語帳の新規作成&lt;/div&gt;
 &lt;/div&gt;
@@ -765,7 +765,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 図 7のフィールドの割り当てを見ていただくと、1列目はFrontフィールドに、2列目はBackフィールドに設定しています。2列目が、1列目の解答やヒントであればこのままでよいのですが、今回はタグに割り当てるため、設定を変更します。フィールド設定の[変更]ボタンを押すと、対象フィールドを選択する画面が開きますので [タグに割り当てる]を選択してください。(図 9)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_8.png&#34; alt=&#34;読み込み用テキストファイル&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_8.png&#34; alt=&#34;読み込み用テキストファイル&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 読み込み用テキストファイル&lt;/div&gt;
 &lt;/div&gt;
@@ -774,7 +774,7 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 これは、読み込みデータに既に登録済みの単語があった場合、既存ノートを書き換えることなく別のデータとして読み込む設定になります。(図 10)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_9.png&#34; alt=&#34;読み込み用テキストファイル&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_9.png&#34; alt=&#34;読み込み用テキストファイル&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. 読み込み用テキストファイル&lt;/div&gt;
 &lt;/div&gt;
@@ -782,14 +782,14 @@ can, close, fall, felt, found, kid, kind,last, light, like, live, read, rest, ri
 &lt;p&gt;既存のノートを更新した場合、読み込まなかったデータがあった場合などもここで表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_10.png&#34; alt=&#34;読み込み処理ログ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_10.png&#34; alt=&#34;読み込み処理ログ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. 読み込み処理ログ&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;報告画面を閉じて、メインウィンドウに戻ります。単語帳「中学英単語」が現れ、新規学習20件が早速割り当てられていることが分かります。(図 12)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_11.png&#34; alt=&#34;新規単語帳が追加された&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_11.png&#34; alt=&#34;新規単語帳が追加された&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. 新規単語帳が追加された&lt;/div&gt;
 &lt;/div&gt;
@@ -805,21 +805,21 @@ actuallyという単語を選択した状態で、下のタグ欄に&#34;Grade5&
 また、検索欄に&#34;deck:中学英単語&#34;という文字が現れていることも注意してください。これは、左のメニューをクリックしなくても、検索欄に文字入力しても同じ結果が得られることを意味します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_12.png&#34; alt=&#34;ブラウザー 単語帳「中学英単語」を選択&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_12.png&#34; alt=&#34;ブラウザー 単語帳「中学英単語」を選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. ブラウザー 単語帳「中学英単語」を選択(deck:中学英単語)&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;左のメニューから&#34;Grade2&#34;を選択すると、このタグを持つデータ一覧が得られます。Grade2のタグを持つカードは、470枚あり、&#34;tag:Grade2&#34;でも検索できることが分かります。(図 14)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_13.png&#34; alt=&#34;ブラウザー タグ Grade2を選択&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_13.png&#34; alt=&#34;ブラウザー タグ Grade2を選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. ブラウザー タグ Grade2を選択(tag:Grade2)&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;左のメニューから「今日追加したカード」を選択すると、その日追加したカードの一覧が表示されます。中学英単語のカード3254枚を表示します。&#34;added:1&#34;でも検索できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_2_14.png&#34; alt=&#34;ブラウザー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_14.png&#34; alt=&#34;ブラウザー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. ブラウザー&lt;/div&gt;
 &lt;/div&gt;
@@ -829,9 +829,9 @@ actuallyという単語を選択した状態で、下のタグ欄に&#34;Grade5&
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;データをテキスト形式に変換できれば、簡単にAnkiに取り込めます。その点を分かっていただけるとうれしいです。たくさん問題を作りすぎて困るくらいです。皆さんの作った専門性あふれる&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有&lt;/a&gt;していただけると、もっと楽しくなるのではないかと思います。&lt;/p&gt;
-&lt;p&gt;学習方法については、&lt;a href=&#34;/how-to-anki/&#34;&gt;前回説明した内容&lt;/a&gt;の通りです。いろいろな事柄の暗記をして、Ankiを楽しんでください。&lt;/p&gt;
-&lt;p&gt;この記事には、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;解答へのリンクを設定していく続編&lt;/a&gt;と&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像や音声、動画もまとめて取り込む続編&lt;/a&gt;を用意しています。合わせてご利用ください。&lt;/p&gt;
+&lt;p&gt;データをテキスト形式に変換できれば、簡単にAnkiに取り込めます。その点を分かっていただけるとうれしいです。たくさん問題を作りすぎて困るくらいです。皆さんの作った専門性あふれる&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有&lt;/a&gt;していただけると、もっと楽しくなるのではないかと思います。&lt;/p&gt;
+&lt;p&gt;学習方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;前回説明した内容&lt;/a&gt;の通りです。いろいろな事柄の暗記をして、Ankiを楽しんでください。&lt;/p&gt;
+&lt;p&gt;この記事には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;解答へのリンクを設定していく続編&lt;/a&gt;と&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像や音声、動画もまとめて取り込む続編&lt;/a&gt;を用意しています。合わせてご利用ください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -846,31 +846,31 @@ actuallyという単語を選択した状態で、下のタグ欄に&#34;Grade5&
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
 Ankiにデータをまとめて取り込む (テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

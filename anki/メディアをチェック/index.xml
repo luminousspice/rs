@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>メディアをチェック on the Right Stuff</title>
-    <link>/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/</link>
+    <link>http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/</link>
     <description>メディアをチェック | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 08 Oct 2013 00:30:08 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki2.0.13の注目すべき変更点</title>
-      <link>/changes-in-anki2013/</link>
+      <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
       <pubDate>Tue, 08 Oct 2013 00:30:08 +0900</pubDate>
-      <guid>/changes-in-anki2013/</guid>
+      <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
       <description>Anki 2.0.13は、Anki2.0.9以来の大規模なアップデートです。最も重要な変更点は、同じノートから作成した関連カード同士の間隔設定の処理は、新たに書き直されて生まれ変わったことです。更に、更新した既存コンテンツを再度読み込む処理の改善、フィルター単語帳の出題方法の追加、重複検索の結果にタグを付加する機能の追加が行われました。</description>
       <content>&lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -27,7 +27,7 @@
 その他にも、更新した既存コンテンツを外部から再度読み込んだ場合の処理を改善し、
 フィルター単語帳に期日超過が相対的に大きい順という新しい出題方法が追加し、
 重複検索の結果をタグで記録できるようになりました。これらの機能について簡単に紹介したいと思います。
-全ての変更内容をご覧になりたい方は、&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;
+全ての変更内容をご覧になりたい方は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;関連カード同士の間隔設定に延期を利用&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -41,7 +41,7 @@
 &lt;p&gt;延長を解除したい場合は、単語帳の概要スクリーンの右下にある[延期を解除]ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_1.png&#34; alt=&#34;延期したカードがあれば延期を解除ボタンを表示&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_1.png&#34; alt=&#34;延期したカードがあれば延期を解除ボタンを表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 延期したカードがあれば延期を解除ボタンを表示&lt;/div&gt;
 &lt;/div&gt;
@@ -49,7 +49,7 @@
 単語帳のオプション設定を開き、[新規カード]タブの[関連する新規カードを翌日まで延期する]の項目を解除します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_2.png&#34; alt=&#34;新規の関連カードの延期は単語帳オプションで設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_2.png&#34; alt=&#34;新規の関連カードの延期は単語帳オプションで設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 新規の関連カードの延期は単語帳オプションで設定&lt;/div&gt;
 &lt;/div&gt;
@@ -77,7 +77,7 @@
 簡単に説明すると &lt;code&gt;期日の超過/復習間隔&lt;/code&gt; を計算して降順に並び替えています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_3.png&#34; alt=&#34;出題方法に期日超過が相対的に大きい順が追加&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_3.png&#34; alt=&#34;出題方法に期日超過が相対的に大きい順が追加&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 出題方法に期日超過が相対的に大きい順が追加&lt;/div&gt;
 &lt;/div&gt;
@@ -107,7 +107,7 @@
 &lt;p&gt;これまでは、検索結果のリンクを一つづつ開いて処理しなければなりませんでしたが、タグを付けることで重複した項目の一括処理がしやすくなりました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_4.png&#34; alt=&#34;重複項目に重複にタグを付けるボタンが追加&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_4.png&#34; alt=&#34;重複項目に重複にタグを付けるボタンが追加&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 重複項目に重複にタグを付けるボタンが追加&lt;/div&gt;
 &lt;/div&gt;
@@ -121,7 +121,7 @@
 &lt;p&gt;つまりこの機能は、カードのメディア指定の記述とメディアフォルダーの内容が一致しているか検査します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_5.png&#34; alt=&#34;メニューバーの変更箇所&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_5.png&#34; alt=&#34;メニューバーの変更箇所&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. メニューバーの変更箇所&lt;/div&gt;
 &lt;/div&gt;
@@ -132,13 +132,13 @@
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;前回の大規模なアップグレードAnki 2.0.9の後、多くのユーザーに関係する変更点がいくつかAnki 2.0.12で行われていますので参考までに紹介します。
-Anki 2.0.9の変更点については、&lt;a href=&#34;/changes-in-anki209/&#34;&gt;Anki2.0.9の注目すべき変更点&lt;/a&gt;で説明しています。&lt;/p&gt;
+Anki 2.0.9の変更点については、&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9の注目すべき変更点&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h3 id=&#34;フィルター単語帳の統計情報&#34;&gt;フィルター単語帳の統計情報&lt;/h3&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;フィルター単語帳の統計情報を見ることができるようになりました。
 カードの学習が済んでフィルター単語帳から元の単語帳に戻ると、当然情報は見えなくなります。&lt;/p&gt;
 &lt;p&gt;検索条件を設計してフィルター単語帳を作れば、通常の単語帳の統計情報では得られなかった詳細な情報を得ることができます。&lt;/p&gt;
-&lt;p&gt;検索条件の詳しい設定と、フィルター単語帳の作り方は、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;検索条件の詳しい設定と、フィルター単語帳の作り方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h3 id=&#34;易しさの初期値の下限&#34;&gt;易しさの初期値の下限&lt;/h3&gt;
 &lt;p&gt;易しさの初期値を130%以下に設定できないようにしました。
 それ以下に設定すると、進歩が非常に困難だとの理由です。&lt;/p&gt;

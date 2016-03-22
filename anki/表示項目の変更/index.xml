@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>表示項目の変更 on the Right Stuff</title>
-    <link>/anki/%E8%A1%A8%E7%A4%BA%E9%A0%85%E7%9B%AE%E3%81%AE%E5%A4%89%E6%9B%B4/</link>
+    <link>http://rs.luminousspice.com/anki/%E8%A1%A8%E7%A4%BA%E9%A0%85%E7%9B%AE%E3%81%AE%E5%A4%89%E6%9B%B4/</link>
     <description>表示項目の変更 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 May 2013 23:30:40 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E8%A1%A8%E7%A4%BA%E9%A0%85%E7%9B%AE%E3%81%AE%E5%A4%89%E6%9B%B4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E8%A1%A8%E7%A4%BA%E9%A0%85%E7%9B%AE%E3%81%AE%E5%A4%89%E6%9B%B4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
-      <link>/browser-overview/</link>
+      <link>http://rs.luminousspice.com/browser-overview/</link>
       <pubDate>Fri, 10 May 2013 23:30:40 +0900</pubDate>
-      <guid>/browser-overview/</guid>
+      <guid>http://rs.luminousspice.com/browser-overview/</guid>
       <description>Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると、計画的な学習が設計でき、きめ細かな学習設定しやすくなります。特にカードの検索条件は、他の機能でも共通に使用する基本情報です。How to use card browser and build search queries on Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ 第5回&lt;/strong&gt;&lt;/p&gt;
@@ -39,7 +39,7 @@
 &lt;p&gt;まずは、ブラウザーを開いてみましょう。Ankiの起動し、学習画面の上部のリンク[ブラウザー]をクリックします。図1のようなウィンドウが現れます。左側のメニューは絞り込み条件を選択できます。右側のテーブルには検索条件に一致するデータを表示します。上部のボタンはデータを操作する機能を提供しています。テーブルの下は、データを編集する機能を提供しています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_5_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_5_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ブラウザー画面 (テーブルヘッダーをControl+クリック/右クリック)&lt;/div&gt;
 &lt;/div&gt;
@@ -140,7 +140,7 @@
 この赤いアイコンをクリックすると、検索条件を削除できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki-save-searchterm.png&#34; alt=&#34;検索条件の保存&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-save-searchterm.png&#34; alt=&#34;検索条件の保存&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 検索条件の保存&lt;/div&gt;
 &lt;/div&gt;
@@ -171,7 +171,7 @@
 (OS X のショートカットは Command+Shift+P)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/shared-decks-preview.png&#34; alt=&#34;プレビュー画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. プレビュー画面&lt;/div&gt;
 &lt;/div&gt;
@@ -197,7 +197,7 @@
 &lt;p&gt;単語帳の新規作成でサブ単語帳を作ることができます。例えば「中学英単語」の中に「今日の失敗」というサブ単語帳を含めるなら、&lt;code&gt;中学英単語::今日の失敗&lt;/code&gt; と入力します。親と子の区切りに&#34;::&#34;を使います。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_5_2.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_5_2.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. カードを新規作成のサブ単語帳に移動&lt;/div&gt;
 &lt;/div&gt;
@@ -208,7 +208,7 @@
   &lt;/div&gt;
 &lt;p&gt;Ankiのブラウザーを使った単語帳のデータの選択方法に慣れると、データの管理、分類が簡単になります。
 さらにこの知識を元にして、学習計画の設定をきめ細かくカスタマイズできるようになります。&lt;/p&gt;
-&lt;p&gt;次回は、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;今回の応用としてカスタム学習の方法&lt;/a&gt;を説明します。自分の好みに合わせた学習設定を作っていきたいと思います。&lt;/p&gt;
+&lt;p&gt;次回は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;今回の応用としてカスタム学習の方法&lt;/a&gt;を説明します。自分の好みに合わせた学習設定を作っていきたいと思います。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -223,31 +223,31 @@
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
 Ankiのブラウザーの使い方とデータ検索 (ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

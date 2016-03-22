@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>サンプル単語帳 on the Right Stuff</title>
-    <link>/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
+    <link>http://rs.luminousspice.com/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
     <description>サンプル単語帳 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Apr 2014 00:00:30 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>/sample-decks/</link>
+      <link>http://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0900</pubDate>
-      <guid>/sample-decks/</guid>
+      <guid>http://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で公開してきた Anki 単語帳を紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。List of Anki Deck Samples.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;これまでの投稿で公開してきた Anki 単語帳のサンプルを紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。&lt;/p&gt;
@@ -24,35 +24,35 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;辞書を開くリンクと読み上げ機能&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;では、カードにフィールドの文字を辞書検索するリンクを追加する方法、アドオン AwesomeTTS を使って読み上げる方法を説明しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;では、カードにフィールドの文字を辞書検索するリンクを追加する方法、アドオン AwesomeTTS を使って読み上げる方法を説明しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_4_13.png&#34; alt=&#34;カード表示&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_13.png&#34; alt=&#34;カード表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. カード表示例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Mac OS X の場合は、内蔵の辞書アプリからテキストを検索して表示します。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/how2anki4.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ how2anki4.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/how2anki4.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ how2anki4.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;解答キー入力機能と空欄補充&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;解答キー入力機能と空欄補充&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;では、解答をキー入力するカードのつくり方、さらに空欄補充問題と組み合わせた応用例を紹介しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;では、解答をキー入力するカードのつくり方、さらに空欄補充問題と組み合わせた応用例を紹介しています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_5.png&#34; alt=&#34;カードのプレビュー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;カードのプレビュー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. カードのプレビュー&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;空欄補充問題の解答をカードの穴埋め欄に記入するカードです。解答を表示すると入力内容と正解の比較ができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;widows_開発者のための頻出語彙_msdn_word_list&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;Widows 開発者のための頻出語彙 MSDN Word List&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;では Windows アプリケーション開発者が技術文書を読むための語彙集を作成しました。
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;では Windows アプリケーション開発者が技術文書を読むための語彙集を作成しました。
 一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、MSDN Magazineの使用語彙の98%がカバーできる語彙824を収録しています。
 なお、この分析には固有名詞は除外して計算しています。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
@@ -99,18 +99,18 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sample_deck_msdnwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sample_deck_msdnwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 単語帳使用例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;amp;refinement=118%2C117&amp;amp;ac=2&#34;&gt;MSDNオンライン検索&lt;/a&gt;(MSDN MagazineとMSDN Library限定)、&lt;a target=&#34;_new&#34; href=&#34;http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;amp;langID=ja-jp&#34;&gt;マイクロソフト用語集&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;wordpress_開発者のための_wordpress_codex_頻出語彙&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;WordPress 開発者のための WordPress Codex 頻出語彙&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;では、WordPress 開発者が技術文書を読むための語彙集を作成しました。
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;では、WordPress 開発者が技術文書を読むための語彙集を作成しました。
 一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、WordPress Codex の使用語彙の98%がカバーできる語彙445を収録しています。
 なお、この分析には固有名詞は除外して計算しています。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
@@ -142,12 +142,12 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sample_deck_wpcxwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sample_deck_wpcxwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 単語帳使用例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://codex.wordpress.org/&#34;&gt;WordPress Codex&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

@@ -16,9 +16,9 @@
 <meta property="og:description" content='ZenCodingサービスをautomatorと既存のPerl実装を利用して作ったよ。'/>
 <meta property="og:title" content="Zencoding Automator Services" />
 <meta property="og:site_name" content="the Right Stuff" />
-<meta property="og:url" content="/zencoding-automator-services/">
+<meta property="og:url" content="http://rs.luminousspice.com/zencoding-automator-services/">
 <meta property="og:locale" content="ja">
-<meta property="og:image" content="/apple-touch-icon.png" />
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
 
 <meta property="article:published_time" content="2012-08-06T20:49:29Z"/>
 <meta property="article:modified_time" content="2012-08-06T20:49:29Z"/>
@@ -32,20 +32,20 @@
 <meta name="twitter:title" content="Zencoding Automator Services">
 <meta name="twitter:creator" content="@luminousspice">
 <meta name="twitter:description" content='ZenCodingサービスをautomatorと既存のPerl実装を利用して作ったよ。'>
-<meta name="twitter:image:src" content="/apple-touch-icon.png">
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
-  <base href="/">
+  <base href="http://rs.luminousspice.com">
   <title>Zencoding Automator Services | The Right Stuff</title>
 
-  <link rel="stylesheet" href="/css/rs.css">
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
 
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
   
-  <link rel="canonical" href="/zencoding-automator-services/">
-  <link href="//index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
-  <link href="//index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+  <link rel="canonical" href="http://rs.luminousspice.com/zencoding-automator-services/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
 </head>
 
 
@@ -61,13 +61,13 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="/">Home</a>
-    <a class="sidebar-nav-item " href="/table-of-contents/">目次</a>
-    <a class="sidebar-nav-item " href="/index-how-to-anki/">Anki 索引</a>
-    <a class="sidebar-nav-item " href="/post/">アーカイブ</a>
-    <a class="sidebar-nav-item " href="/categories">カテゴリ分類</a>
-    <a class="sidebar-nav-item " href="/tags/">タグ分類</a>
-    <a class="sidebar-nav-item " href="/anki/">Ankiインデックス</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/tags/">タグ分類</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/anki/">Ankiインデックス</a>
     
   </nav>
 
@@ -82,7 +82,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">the Right Stuff</a>
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
             <small></small>
           </h3>
         </div>
@@ -95,9 +95,9 @@
   <h1 class="post-title">Zencoding Automator Services</h1>
   <span class="post-date">2012-08-06</span>
   <p>Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。</p>
-<p><a href="/zen-coding-with-mi/">前回の記事</a>のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。</p>
+<p><a href="http://rs.luminousspice.com/zen-coding-with-mi/">前回の記事</a>のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。</p>
 
-<p><img c src="/images/zencoding-service.png" alt="完成図" /></a>
+<p><img c src="http://rs.luminousspice.com/images/zencoding-service.png" alt="完成図" /></a>
 <strong>図 1. 完成図</strong>
 <h2>はじめにご理解いただきたいこと</h2>
 <p>この記事で作成するアプリケーションは、Mac OS X 10.7.4、このOSに付属しているPerl 5.12.3とAutomator 2.2.4を使って作成しました。利用環境の違いによっては動作しない場合も予想されます。この記事は、自分の環境で動作するように一人で修正できる方に向けて書いています。</p>
@@ -111,7 +111,7 @@
 <p>サービスは次の項目を選択項目を受け取ります：の項目は、<strong>テキスト</strong>、検索対象：<strong>全てのアプリケーション</strong>　にします。</p>
 <p>次に<strong>シェルスクリプトを実行</strong>というアクションを追加し、Perlのコードを入力します。
     次の画像のようになります。</p>
-<img src="/images/zencoding-services-workflow.png" alt="Automatorワークフロー画面" /></a>
+<img src="http://rs.luminousspice.com/images/zencoding-services-workflow.png" alt="Automatorワークフロー画面" /></a>
 <strong>図 2. Automatorワークフロー画面</strong></p>
 
 <p>中身のコードは次のように書きました。
@@ -128,7 +128,7 @@
 <h2>完成品のワークフローファイルをそのままインストールする</h2>
 <p>完成品のworkflowファイルは、<a title="github" href="https://github.com/luminousspice/Zen-Coding-Services" target="_blank">githubからダウンロードできるようにしました</a>。</p>
 <p>このファイルを開くと、インストールのためのダイアログが表示されます。手作業でインストールするのであれば、~/Library/Services/ に置くと機能するようになります。</p>
-<img src="/images/zencoding-services-installer.png" alt="インストールダイアログ" />
+<img src="http://rs.luminousspice.com/images/zencoding-services-installer.png" alt="インストールダイアログ" />
 <strong>図 3. インストールダイアログ</strong>
 
 <h2>どこでも使えるよ</h2>

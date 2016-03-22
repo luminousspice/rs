@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ノートを追加 on the Right Stuff</title>
-    <link>/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/</link>
+    <link>http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/</link>
     <description>ノートを追加 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki ショートカットキー</title>
-      <link>/anki-shortcuts/</link>
+      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
       <pubDate>Sat, 09 Jan 2016 11:20:37 +0900</pubDate>
-      <guid>/anki-shortcuts/</guid>
+      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
       <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。&lt;/p&gt;
 &lt;p&gt;このショートカット集は、Anki の正式なドキュメントの翻訳ではありません。
 筆者が独自に Anki 2.0.33 のソースコードより主なユーザーインターフェイスについてショートカットキーをまとめたものです。このため、文書化されていない機能も含んでおり、将来のバージョンで機能しなくなる場合もあります。また、広く使われているテキスト読み上げ用アドオン AwesomeTTS のショートカットについても一部取り上げました。
 ショートカットキーの表記は、OS X の基準に従っています。他のプラットフォームで利用する場合は適宜読み替えください。また、動作確認は Mac 版でのみで行っております。&lt;/p&gt;
-&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;メインウィンドウ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -32,7 +32,7 @@
 &lt;p&gt;ウィンドウ上のモードは変化しますが、ショートカットで呼び出せる機能自体は共通して使えるものが大半です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 単語帳一覧&lt;/div&gt;
 &lt;/div&gt;
@@ -129,7 +129,7 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 単語帳概要&lt;/div&gt;
 &lt;/div&gt;
@@ -174,7 +174,7 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 学習画面&lt;/div&gt;
 &lt;/div&gt;
@@ -253,7 +253,7 @@
 &lt;p&gt;ノートを編集するには三つの方法があります。ノートを新規追加する、学習画面で表示中カードのノートを編集する、ブラウザーで選択したカードのノートを編集するになります。呼び出し方や終了の仕方は、それぞれ異なりますが、ノートの編集に関する機能は共通です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 新規追加&lt;/div&gt;
 &lt;/div&gt;
@@ -398,7 +398,7 @@
 &lt;p&gt;カードブラウザーはメインウィンドウから呼び出す、カードのさまざまな属性を一括管理する画面です。カードを一つ選択すると、ウィンドウ右下にノートエディタを表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. カードブラウザー&lt;/div&gt;
 &lt;/div&gt;
@@ -525,7 +525,7 @@
 &lt;p&gt;プレビューとは、ブラウザで選択したカードを学習画面での表示イメージをプレビューする機能です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. プレビュー&lt;/div&gt;
 &lt;/div&gt;
@@ -563,24 +563,24 @@
   &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 動画再生ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
     
     <item>
       <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
-      <link>/ankimobile-survival-guide/</link>
+      <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
       <pubDate>Sun, 11 May 2014 04:00:03 +0900</pubDate>
-      <guid>/ankimobile-survival-guide/</guid>
+      <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
       <description>Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。</description>
       <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;後注:&lt;/strong&gt; AnkiMobile の基本的な使い方全般を日本語で説明した&lt;a href=&#34;/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;を公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;後注:&lt;/strong&gt; AnkiMobile の基本的な使い方全般を日本語で説明した&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;を公開しました。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -598,7 +598,7 @@ iOS 機器の特長を生かした機能拡張が行われており、学習機�
 これが iphone の場合のインストール直後の画面です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/mainscreen.png&#34; alt=&#34;mainscreen.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen.png&#34; alt=&#34;mainscreen.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. インストール直後&lt;/div&gt;
 &lt;/div&gt;
@@ -641,7 +641,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/mainscreen-mark.png&#34; alt=&#34;重要なポイント&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen-mark.png&#34; alt=&#34;重要なポイント&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 重要なポイント&lt;/div&gt;
 &lt;/div&gt;
@@ -656,7 +656,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 AnkiMobile を使うのに必要なことが全て記載されています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/manual2.png&#34; alt=&#34;マニュアルを表示&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/manual2.png&#34; alt=&#34;マニュアルを表示&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. マニュアルを表示&lt;/div&gt;
 &lt;/div&gt;
@@ -695,7 +695,7 @@ AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります
 画面左上 [Back] をタップすると元の画面に戻ります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/preferences.png&#34; alt=&#34;preferences.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/preferences.png&#34; alt=&#34;preferences.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -706,7 +706,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 &lt;p&gt;Anki (PC 版) が画面上に表示したボタンとキーボードショートカットから決まった機能を呼び出すことと比較すると、AnkiMobile は iOS 版のアプリならではの強力な機能を持っていることが分かります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/preferences-review.png&#34; alt=&#34;preferences-review.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/preferences-review.png&#34; alt=&#34;preferences-review.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 学習方法設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -722,7 +722,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/deck-io.png&#34; alt=&#34;共有単語帳ダウンロード&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-io.png&#34; alt=&#34;共有単語帳ダウンロード&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 共有単語帳ダウンロード&lt;/div&gt;
 &lt;/div&gt;
@@ -731,7 +731,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 もし、探したい情報が決まっているのなら、右上の検索欄を活用しましょう。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/shareddeck.png&#34; alt=&#34;共有単語帳 リポジトリ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck.png&#34; alt=&#34;共有単語帳 リポジトリ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳 リポジトリ&lt;/div&gt;
 &lt;/div&gt;
@@ -740,21 +740,21 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 「歌舞伎」をキーワードにして検索します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/deck-search.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-search.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 検索結果&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[Info] をタップすると、単語帳の詳細ページへ移動します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/deck-kabuki.png&#34; alt=&#34;詳細ページ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-kabuki.png&#34; alt=&#34;詳細ページ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 詳細ページ&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[Download] をタップすると、単語帳をダウンロードします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/deck-download.png&#34; alt=&#34;完了&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-download.png&#34; alt=&#34;完了&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. ダウンロード完了&lt;/div&gt;
 &lt;/div&gt;
@@ -762,7 +762,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 単語帳 default は収録しているカードがなく、他の単語帳が追加になると表示しなくなります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/deck-list.png&#34; alt=&#34;共有単語帳の読み込み例&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-list.png&#34; alt=&#34;共有単語帳の読み込み例&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. 共有単語帳の読み込み例&lt;/div&gt;
 &lt;/div&gt;
@@ -777,7 +777,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 解答を見るには、画面中央の白い部分をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/learn-q.png&#34; alt=&#34;出題&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learn-q.png&#34; alt=&#34;出題&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. 出題 (赤枠内をタップすると回答表示)&lt;/div&gt;
 &lt;/div&gt;
@@ -801,7 +801,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/learn-a.png&#34; alt=&#34;学習の解答&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learn-a.png&#34; alt=&#34;学習の解答&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. 学習の解答&lt;/div&gt;
 &lt;/div&gt;
@@ -830,7 +830,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/review.png&#34; alt=&#34;復習の解答&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/review.png&#34; alt=&#34;復習の解答&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. 復習の解答&lt;/div&gt;
 &lt;/div&gt;
@@ -853,7 +853,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;p&gt;また、画面上部のバーにあるボタンに呼び出したいアクションを割り当てることもできます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/learnscreen-button.png&#34; alt=&#34;学習画面上部のボタン&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learnscreen-button.png&#34; alt=&#34;学習画面上部のボタン&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. 学習画面上部のボタン&lt;/div&gt;
 &lt;/div&gt;
@@ -875,7 +875,7 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;p&gt;画面右上 [Tools] (図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/tools.png&#34; alt=&#34;Tools 画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tools.png&#34; alt=&#34;Tools 画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 16. Tools 画面&lt;/div&gt;
 &lt;/div&gt;
@@ -883,7 +883,7 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;p&gt;[More] からは AnkiMobile のアクション一覧が呼び出せます。アルファベット順にソートされていますので見つけやすくなっています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/actions.png&#34; alt=&#34;アクション一覧&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/actions.png&#34; alt=&#34;アクション一覧&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 17. アクション一覧&lt;/div&gt;
 &lt;/div&gt;
@@ -899,14 +899,14 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [Save] をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/edit.png&#34; alt=&#34;ノートの編集&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/edit.png&#34; alt=&#34;ノートの編集&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 17. ノートの編集&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;学習中のノート以外のカードを編集したい場合は、学習画面から [Tools] - [More] - [Find] を選択して検索し、選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/find.png&#34; alt=&#34;ノートを検索&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;ノートを検索&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 18. 「桜」を含むノートを検索&lt;/div&gt;
 &lt;/div&gt;
@@ -917,7 +917,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 入力内容の保存は、右上の [保存] をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/add.png&#34; alt=&#34;ノートの追加&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add.png&#34; alt=&#34;ノートの追加&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 19. ノートの追加&lt;/div&gt;
 &lt;/div&gt;
@@ -939,32 +939,32 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;&lt;br /&gt;
 このアプリを使い始めた方を対象に、長続きする学習方法を提案しています。教材の準備に極力手間をかけずに、カードの学習に集中できる使い方を取り上げています。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
 はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
 カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
 この記事では取り上げなかった、図 2. 重要なポイント 右下の [Synchronize] のボタンの使い方を説明しています。
 無料のオンラインサービス AnkiWeb の同期機能を使うと、他の iOS 機器やアンドロイド端末、PC にインストールした Anki とコンテンツを同期して学習を複数の機器にまたがって継続することができます。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
 AnkiMobile で使用している特別な意味を持つ用語が理解できます。
 Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
 &lt;/p&gt;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>裏面カード付き on the Right Stuff</title>
-    <link>/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/</link>
+    <link>http://rs.luminousspice.com/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/</link>
     <description>裏面カード付き | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 12 Oct 2013 23:30:56 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
-      <link>/cardtype/</link>
+      <link>http://rs.luminousspice.com/cardtype/</link>
       <pubDate>Sat, 12 Oct 2013 23:30:56 +0900</pubDate>
-      <guid>/cardtype/</guid>
+      <guid>http://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動作成できます。この記事では、まず最初に表裏を逆転したカードを追加する方法を説明します。更にカードタイプを追加して色々な出題方法を増やす手順を簡単に紹介します。&lt;/p&gt;
@@ -28,22 +28,22 @@
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -69,7 +69,7 @@
 &lt;p&gt;ブラウザーから裏返しのカードを作りたいカードを選択し、メニューバーから[ノートタイプを変更](Mac OS X: Command+Shift+M, Windows: Ctrl+Shift+M)を選択し、設定画面で変更先ノートタイプを[基本(裏面カード付き)]に指定します(図 1)。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_1.png&#34; alt=&#34;ノートタイプの変更&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_1.png&#34; alt=&#34;ノートタイプの変更&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ノートタイプの変更&lt;/div&gt;
 &lt;/div&gt;
@@ -77,14 +77,14 @@
 元のカード(カードタイプ: カード1)には、期日は元のまま残っているのに対して、追加した裏返しカード(カードタイプ: カード2)は、期日は初期化され新規カードになっていることに注目してください(図 2)。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_2.png&#34; alt=&#34;裏返しカードの確認&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_2.png&#34; alt=&#34;裏返しカードの確認&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 裏返しカードの確認&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;また、サイドバーの[今日追加したカード]を選択してみてください。追加したカードはここにも現れます。&lt;/p&gt;
 &lt;h3 id=&#34;関連カードの取り扱い&#34;&gt;関連カードの取り扱い&lt;/h3&gt;
 &lt;p&gt;なお、Ankiはこの元のカードと新たに作成した裏返しのカードを両方をまとめて関連カードとして扱います。関連カード同士を連続して出題すると答えが簡単に分かってしまうので、あるカードを解答したら、そのカードの関連カードが出題キューに入っている場合は延期処理が行われます。この機能はAnki2.0.13で実装し直したものです。
-詳しくは、&lt;a href=&#34;/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;をご覧ください。&lt;/p&gt;
+詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;さらに複雑な出題方法を追加する&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -121,7 +121,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_3.png&#34; alt=&#34;ノートタイプウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_3.png&#34; alt=&#34;ノートタイプウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. ノートタイプウィンドウ&lt;/div&gt;
 &lt;/div&gt;
@@ -134,7 +134,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_4.png&#34; alt=&#34;ノート追加ウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_4.png&#34; alt=&#34;ノート追加ウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノート追加ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
@@ -147,7 +147,7 @@
 &lt;p&gt;テンプレートに追加表示するフィールドは、手入力でも設定できますが、ウィンドウ下の[フィールドを追加]ボタンを押すとノートタイプに設定済みのフィールドの中から選択できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_5.png&#34; alt=&#34;カードレイアウト&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_5.png&#34; alt=&#34;カードレイアウト&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. カードレイアウト&lt;/div&gt;
 &lt;/div&gt;
@@ -163,7 +163,7 @@
 &amp;lt;TTS service=&#34;say&#34; voice=&#34;Alex&#34; style=&#34;display:none&#34;&amp;gt;{{Front}}&amp;lt;/TTS&amp;gt;&lt;/pre&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/cardtype_6.png&#34; alt=&#34;書き取りカードのカードレイアウト&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_6.png&#34; alt=&#34;書き取りカードのカードレイアウト&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 書き取りカードのカードレイアウト&lt;/div&gt;
 &lt;/div&gt;
@@ -180,9 +180,9 @@
     
     <item>
       <title>Ankiのノートタイプの選び方</title>
-      <link>/how-to-choose-notetype/</link>
+      <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
       <pubDate>Sun, 16 Jun 2013 10:00:37 +0900</pubDate>
-      <guid>/how-to-choose-notetype/</guid>
+      <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
       <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。&lt;/p&gt;
@@ -242,7 +242,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_4_3.png&#34; alt=&#34;ノートタイプ選択画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートタイプ選択画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ノートタイプ選択画面&lt;/div&gt;
 &lt;/div&gt;
@@ -267,13 +267,13 @@
 &lt;p&gt;Add Reverseが空でない時に[Back]フィールドを表示する条件式を設定しています。&lt;/p&gt;
 &lt;h3 id=&#34;穴埋め_cloze_とは&#34;&gt;穴埋め(Cloze)とは&lt;/h3&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;穴埋め問題を作るのに必要な特別のノートタイプです。穴埋め問題の作成方法は、&lt;a href=&#34;/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;で説明しています。穴埋め問題の詳しい説明は、&lt;a target=&#34;_new&#34; href=&#34;http://wikiwiki.jp/rage2050/?ClozeDeletion&#34;&gt;ユーザーマニュアル&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;穴埋め問題を作るのに必要な特別のノートタイプです。穴埋め問題の作成方法は、&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;で説明しています。穴埋め問題の詳しい説明は、&lt;a target=&#34;_new&#34; href=&#34;http://wikiwiki.jp/rage2050/?ClozeDeletion&#34;&gt;ユーザーマニュアル&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ノートタイプの拡張法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;ノートタイプの拡張法&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;既定のノートタイプを編集して独自のノートタイプを作成する手順は&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。関心のある方はご覧ください。&lt;/p&gt;
+&lt;p&gt;既定のノートタイプを編集して独自のノートタイプを作成する手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。関心のある方はご覧ください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;スマホアプリ版の制限事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -282,7 +282,7 @@
 &lt;p&gt;最新版の iOS アプリ AnkiMobile 2.0.11、アンドロイドアプリ AnkiDroid 2.2.3 は、ノート作成時にこの投稿で説明した既定の 4 種類のノートタイプから選択できます。
 ただし、登録後の変更が出来ません。PC 版で変更する必要があります。
 また、既定のノートタイプの編集もできません。&lt;/p&gt;
-&lt;p&gt;PC 版で作業したノートタイプを AnkiMobile や AnkiDroid に持ち込むには、持ち込みたいノートタイプを使っているカードを &lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 経由で同期する&lt;/a&gt;か、&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;apkg ファイルに書き出して&lt;/a&gt;からスマホに読み込みます。&lt;/p&gt;
+&lt;p&gt;PC 版で作業したノートタイプを AnkiMobile や AnkiDroid に持ち込むには、持ち込みたいノートタイプを使っているカードを &lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 経由で同期する&lt;/a&gt;か、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;apkg ファイルに書き出して&lt;/a&gt;からスマホに読み込みます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>録音 on the Right Stuff</title>
-    <link>/anki/%E9%8C%B2%E9%9F%B3/</link>
+    <link>http://rs.luminousspice.com/anki/%E9%8C%B2%E9%9F%B3/</link>
     <description>録音 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Dec 2015 23:45:15 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E9%8C%B2%E9%9F%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E9%8C%B2%E9%9F%B3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mac で再生中の音声を Anki に直接録音する</title>
-      <link>/audio-stdout-into-anki-for-mac/</link>
+      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
       <pubDate>Sun, 27 Dec 2015 23:45:15 +0900</pubDate>
-      <guid>/audio-stdout-into-anki-for-mac/</guid>
+      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
       <description> Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。&lt;/p&gt;
@@ -57,7 +57,7 @@
 &lt;p&gt;OS X 付属の [Audio MIDI 設定] というアプリケーションを起動します。Spotlight に &lt;code&gt;midi&lt;/code&gt; と打って検索するのが簡単です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/audio-stdout-spotlight-audiomidi.png&#34; alt=&#34;Spotlight から Audio MIDI 設定を起動&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-spotlight-audiomidi.png&#34; alt=&#34;Spotlight から Audio MIDI 設定を起動&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Spotlight から Audio MIDI 設定を起動&lt;/div&gt;
 &lt;/div&gt;
@@ -71,7 +71,7 @@
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/audio-stdout-audiomidi.png&#34; alt=&#34;複数出力装置を作成&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-audiomidi.png&#34; alt=&#34;複数出力装置を作成&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 複数出力装置を作成&lt;/div&gt;
 &lt;/div&gt;
@@ -86,7 +86,7 @@
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/audio-stdout-sound-settings.png&#34; alt=&#34;入出力装置を割り当てる&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-sound-settings.png&#34; alt=&#34;入出力装置を割り当てる&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 入出力装置を割り当てる&lt;/div&gt;
 &lt;/div&gt;
@@ -99,7 +99,7 @@
 &lt;p&gt;ノートエディタを立ち上げ、音声を取り込みたいフィールドを選択し、取り込みたい音声を再生し、[F5] を押すか、ツールバーの [録音ボタン] (図　4 参照) を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/audio-stdout-add-sound.png&#34; alt=&#34;ノートエディタで録音&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-add-sound.png&#34; alt=&#34;ノートエディタで録音&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノートエディタで録音&lt;/div&gt;
 &lt;/div&gt;
@@ -112,7 +112,7 @@
 &lt;p&gt;RussianPod101.com のような字幕付きの動画であれば、画面キャプチャだけで文字を打つ必要もなく簡単にカードを作成できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/audio-stdout-russianpod-card.png&#34; alt=&#34;作成例&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-russianpod-card.png&#34; alt=&#34;作成例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 作成例&lt;/div&gt;
 &lt;/div&gt;

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Msdn on the Right Stuff</title>
-    <link>/tags/msdn/</link>
+    <link>http://rs.luminousspice.com/tags/msdn/</link>
     <description>Msdn | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 09 Jun 2013 20:00:25 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
-      <link>/words_in_msdn_20130601/</link>
+      <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
       <pubDate>Sun, 09 Jun 2013 20:00:25 +0900</pubDate>
-      <guid>/words_in_msdn_20130601/</guid>
+      <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
       <description>この連載では、頻出語句(2000&#43;AWL&#43;MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォローアップを目的としています。最新号の記事から、頻出語句に漏れた語彙を紹介します。</description>
       <content>&lt;section id=&#34;msdnの英語_1_june_2013_a_modern_c_library_for_directx_programming_から&#34;&gt;
 &lt;p&gt;この連載では、頻出語句(2000+AWL+MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォローアップを目的としています。最新号の記事から、頻出語句に漏れた語彙を紹介します。今回は2013年6月号の&#34;A Modern C++ Library for DirectX Programming&#34;を取り上げます。&lt;/p&gt;
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN Magazineの過去の記事からコーパスを作り、MSDNに特有な語彙の頻出表を作りました。
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN Magazineの過去の記事からコーパスを作り、MSDNに特有な語彙の頻出表を作りました。
 一般的な英語の頻出語彙表(頻出2000語とAWL)と組み合わせると、MSDNの記事の98%をカバーできるものです。&lt;/p&gt;
 &lt;p&gt;日本の高校で英語教育を受けた方にとっては、このリストが非常に物足りなく感じるかもしれません。
 実は、このリストを超えた98%以降頻度の語彙に興味深い語彙が多数含まれています。&lt;/p&gt;
@@ -297,10 +297,10 @@ Kenny Kerr. &lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/dn201741.as
 MSDN Magazineはこの目的に最適な専門誌です。
 もちろん開発者ブログもおすすめです。&lt;/p&gt;
 &lt;h2 id=&#34;未知語彙の学習単語帳&#34; class=&#34;section&#34;&gt;未知語彙の学習単語帳&lt;/h2&gt;
-&lt;p&gt;この記事で紹介した最初の未知語13語は、Anki単語帳にしました。Ankiを使って学習することができます。&lt;a href=&#34;/apkg/wordsinmsdn.apkg&#34;&gt;Anki単語帳パッケージ wordsinmsdn.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;この記事で紹介した最初の未知語13語は、Anki単語帳にしました。Ankiを使って学習することができます。&lt;a href=&#34;http://rs.luminousspice.com/apkg/wordsinmsdn.apkg&#34;&gt;Anki単語帳パッケージ wordsinmsdn.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;連載毎に単語帳のノートが追加できるような仕組みを作っていきたいです。&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
-&lt;p&gt;このAnkiの使い方全般については、&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki &lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;このAnkiの使い方全般については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki &lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
 &lt;p&gt;子どもの頃、補助輪を外して自転車を乗り始めたことを思い出してください。
 きっと、ご両親や兄弟、友だちが後ろで支えてくれたのではないかと思います。
@@ -316,9 +316,9 @@ MSDN Magazineはこの目的に最適な専門誌です。
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0900</pubDate>
-      <guid>/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]</description>
       <content>&lt;section id=&#34;msdn_magazine過去10年分の頻出語彙からanki単語帳を作る&#34;&gt;
 &lt;p&gt;以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析します。前回作成したMSDN Word Listからの差分は102語になりました。&lt;/p&gt;
@@ -357,7 +357,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;以前の記事、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
+&lt;p&gt;以前の記事、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
 コンコーダンサーソフトに読み込む作業の煩雑さから、CHM(Microsoft Compiled HTML Help)形式のファイルは対象としませんでした。&lt;/p&gt;
 &lt;p&gt;今回は、CHMファイルをPDFに変換してコンコーダンサーに読み込む方法に挑戦します。&lt;/p&gt;
 &lt;p&gt;2003年のバックナンバーを改めて読んでみました。.NET Framework 1.1とWindows XP SP2(Springboard)という現在のWindowsプラットフォームの基盤となる製品がリリースした頃です。ここまで遡ってコーパスデータを分析すれば、ほぼWindowsプラットフォームの技術文書に特有な語彙は網羅できるだろうと考えました。&lt;/p&gt;
@@ -376,7 +376,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 この場合は、頻度表をカウントする時に複数のデータベースを指定する必要があります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. CasualConc ファイルツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -393,13 +393,13 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ここで、登録済みのデータを重複して登録するかというダイアログが表示される場合があります。ディレクトリ内に以前作業したファイルが残っている場合などですが、[すべていいえ]を選択してください。&lt;/p&gt;
-&lt;p&gt;その後の手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
+&lt;p&gt;その後の手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
 &lt;h2 id=&#34;10年分に対象を拡大した結果&#34; class=&#34;section&#34;&gt;10年分に対象を拡大した結果&lt;/h2&gt;
 &lt;p&gt;頻度順に語彙を並べて、コーパス全体に占める割合を足していくと2754番目に98%に達します。登場回数は77が最小値です。
 そこから、一般的に高頻度な語彙(GSL+BNC2K)と学術的に高頻度な語彙を除き、MSDN Magazineに特有な頻出語彙662語を抽出しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. MSDN Magazine 過去10年分の使用語彙の内訳&lt;/div&gt;
 &lt;/div&gt;
@@ -413,17 +413,17 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 ほとんど無駄な努力だったかもです。この脱力感がたまらない。同時に直近3年分のデータからの結果に自信を持ちました。&lt;/p&gt;
 &lt;p&gt;直近3年の頻出語句からもれた102語を補足データとして、&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;単語帳のパッケージデータにしました。Level3というタグを付加しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
-&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
+&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
 子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。&lt;/p&gt;
-&lt;p&gt;全体の単語帳は、&lt;a href=&#34;/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;全体の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34; class=&#34;section&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;テキストデータをより広範に収集できれば、頻度表の品質を向上させることができます。
 その際には目的にかなった対象を選ぶことが大切です。&lt;/p&gt;
@@ -472,9 +472,9 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
     
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
-      <link>/words-in-msdn/</link>
+      <link>http://rs.luminousspice.com/words-in-msdn/</link>
       <pubDate>Sat, 01 Jun 2013 23:00:37 +0900</pubDate>
-      <guid>/words-in-msdn/</guid>
+      <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</description>
       <content>&lt;section id=&#34;msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略&#34;&gt;
 &lt;p&gt;ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。&lt;/p&gt;
@@ -674,7 +674,7 @@ BNCの上位1000番目に含まれている単語(K1)がこの文章内の単語
 &lt;p&gt;最初に取り上げたMSDN Magazineの記事&#34;Parse JSON Strings in Windows Runtime Components&#34;の使用語彙をこの分類に基づいて図示にすると次のようになります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/msdnwords1.png&#34; alt=&#34;語彙の分布&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwords1.png&#34; alt=&#34;語彙の分布&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 語彙の分布&lt;/div&gt;
 &lt;/div&gt;
@@ -807,7 +807,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
 このデータを一番出現しているデータから降順にソートし、個々の単語の被覆率を足し合わせて98%になる順位を求めたところ、3182番目になり、出現回数25回でした。こうして98%被覆するMSDN頻出語句を得ました。&lt;/p&gt;
 &lt;p&gt;この中には、前の項目で説明した、高頻度な語彙(GSL)と学術的な語彙(AWL)が含まれていますので取り除きました。さらに固有名詞も除きました。&lt;/p&gt;
 &lt;p&gt;最後に残ったのが723語の語彙表です。この語彙表のことを仮にMSDN Word listと呼びます。&lt;/p&gt;
-&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で説明しましたので興味のある方はお読みください。Anki単語帳にしたMSDN Word listもダウンロードできます。&lt;/p&gt;
+&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で説明しましたので興味のある方はお読みください。Anki単語帳にしたMSDN Word listもダウンロードできます。&lt;/p&gt;
 &lt;p&gt;この方法以外にも、Cobb教授が&lt;a href=&#34;http://www.lextutor.ca/vp/how_to_techlist.html&#34;&gt;How and why to make a technical (domain-specific) vocabulary list&lt;/a&gt;という記事で専門用語集の作り方を説明していますので紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
 &lt;p&gt;本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
@@ -861,7 +861,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
 Nation教授は、基本語彙を習得した後、使用言語が98%既知のする文章を集中的に読む学習方法を勧めています。
 もし難しいと感じた場合は、その記事は日本語で読んだ場合でも難しいはずです。ガッカリしないでください。気分転換に別の記事を読みましょう。&lt;/p&gt;
 &lt;h3 id=&#34;3000_8000語の場合&#34;&gt;3000-8000語の場合&lt;/h3&gt;
-&lt;p&gt;MSDN Word Listを暗記しましょう。暗記学習用ソフトAnki用の単語帳を用意しました。&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;からダウンロードできます。&lt;/p&gt;
+&lt;p&gt;MSDN Word Listを暗記しましょう。暗記学習用ソフトAnki用の単語帳を用意しました。&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;からダウンロードできます。&lt;/p&gt;
 &lt;p&gt;暗記と並行して、始めのうちは通読するのは辛いかもしれませんがMSDN Magazineには常時触れましょう。関心のある記事の一部で構わないので常時読む習慣をつけましょう。
 文中のソースコードもよく読みましょう。ソースコードを説明している文章がたくさん出てきます。
 ソースコードと英語のバイリンガル表記だと思ってください。&lt;/p&gt;
@@ -883,8 +883,8 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
 &lt;h3 id=&#34;更に語彙を増やすなら&#34;&gt;更に語彙を増やすなら&lt;/h3&gt;
 &lt;p&gt;同じ手法で更に被覆率を1%上げるのには、つまり99%にするには基本語彙と固有名詞を除くと500語追加すると実現できます。&lt;/p&gt;
 &lt;p&gt;自分の専門分野、例えばデータベースアクセス、ユーザーインターフェースなど、狭い分野の文書を集めてコーパスを作り、頻出の専門用語表作り出しても良いでしょう。&lt;/p&gt;
-&lt;p&gt;それぞれの方法は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で紹介しているコーパス作成から頻度表を作る方法も参考にしてみてください。&lt;/p&gt;
-&lt;p&gt;MSDN Word Listのフォローアップ企画として、MSDN Magazineの最新の記事から、MSDN Word Listの範囲で実際どれだけカバーできて、どんなものが未知語になるか紹介する&lt;a href=&#34;/?cat=34&#34;&gt;連載記事: MSDNの英語&lt;/a&gt;を始めました。&lt;/p&gt;
+&lt;p&gt;それぞれの方法は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で紹介しているコーパス作成から頻度表を作る方法も参考にしてみてください。&lt;/p&gt;
+&lt;p&gt;MSDN Word Listのフォローアップ企画として、MSDN Magazineの最新の記事から、MSDN Word Listの範囲で実際どれだけカバーできて、どんなものが未知語になるか紹介する&lt;a href=&#34;http://rs.luminousspice.com/?cat=34&#34;&gt;連載記事: MSDNの英語&lt;/a&gt;を始めました。&lt;/p&gt;
 &lt;h3 id=&#34;内容理解に努める&#34;&gt;内容理解に努める&lt;/h3&gt;
 &lt;p&gt;アプリケーション開発の経験や知識の深さが、MSDN文書の理解を高めます。実務経験なしには理解は向上しません。たとえネイティブ並みの語彙量があっても、この分野の経験が全くなければ、MSDNの文書は全く理解できないでしょう。&lt;/p&gt;
 &lt;p&gt;ソフトウェア開発の経験を積むこと、ソースコードを読んで理解することも大切です。

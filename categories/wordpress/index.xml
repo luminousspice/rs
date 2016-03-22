@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on the Right Stuff</title>
-    <link>/categories/wordpress/</link>
+    <link>http://rs.luminousspice.com/categories/wordpress/</link>
     <description>Wordpress | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Apr 2014 00:00:30 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>/sample-decks/</link>
+      <link>http://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0900</pubDate>
-      <guid>/sample-decks/</guid>
+      <guid>http://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で公開してきた Anki 単語帳を紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。List of Anki Deck Samples.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;これまでの投稿で公開してきた Anki 単語帳のサンプルを紹介します。既定のテンプレートを拡張した機能を含んでいます。新しい教材をつくる時の参考として役立て下さい。&lt;/p&gt;
@@ -24,35 +24,35 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;辞書を開くリンクと読み上げ機能&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;では、カードにフィールドの文字を辞書検索するリンクを追加する方法、アドオン AwesomeTTS を使って読み上げる方法を説明しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;では、カードにフィールドの文字を辞書検索するリンクを追加する方法、アドオン AwesomeTTS を使って読み上げる方法を説明しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_4_13.png&#34; alt=&#34;カード表示&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_13.png&#34; alt=&#34;カード表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. カード表示例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Mac OS X の場合は、内蔵の辞書アプリからテキストを検索して表示します。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/how2anki4.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ how2anki4.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/how2anki4.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ how2anki4.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;解答キー入力機能と空欄補充&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;解答キー入力機能と空欄補充&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;では、解答をキー入力するカードのつくり方、さらに空欄補充問題と組み合わせた応用例を紹介しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;では、解答をキー入力するカードのつくり方、さらに空欄補充問題と組み合わせた応用例を紹介しています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_5.png&#34; alt=&#34;カードのプレビュー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;カードのプレビュー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. カードのプレビュー&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;空欄補充問題の解答をカードの穴埋め欄に記入するカードです。解答を表示すると入力内容と正解の比較ができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;widows_開発者のための頻出語彙_msdn_word_list&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;Widows 開発者のための頻出語彙 MSDN Word List&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;では Windows アプリケーション開発者が技術文書を読むための語彙集を作成しました。
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;では Windows アプリケーション開発者が技術文書を読むための語彙集を作成しました。
 一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、MSDN Magazineの使用語彙の98%がカバーできる語彙824を収録しています。
 なお、この分析には固有名詞は除外して計算しています。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
@@ -99,18 +99,18 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sample_deck_msdnwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sample_deck_msdnwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 単語帳使用例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;amp;refinement=118%2C117&amp;amp;ac=2&#34;&gt;MSDNオンライン検索&lt;/a&gt;(MSDN MagazineとMSDN Library限定)、&lt;a target=&#34;_new&#34; href=&#34;http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;amp;langID=ja-jp&#34;&gt;マイクロソフト用語集&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;wordpress_開発者のための_wordpress_codex_頻出語彙&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;WordPress 開発者のための WordPress Codex 頻出語彙&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;では、WordPress 開発者が技術文書を読むための語彙集を作成しました。
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;では、WordPress 開発者が技術文書を読むための語彙集を作成しました。
 一般的な英語学習者が取得すべき基本語彙2570語(GSL+AWL)に追加して覚えれば、WordPress Codex の使用語彙の98%がカバーできる語彙445を収録しています。
 なお、この分析には固有名詞は除外して計算しています。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
@@ -142,21 +142,21 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sample_deck_wpcxwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sample_deck_wpcxwl.png&#34; alt=&#34;単語帳使用例&#34; width=&#34;800&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 単語帳使用例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://codex.wordpress.org/&#34;&gt;WordPress Codex&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>/frequent-words-in-wordpress-codex/</link>
+      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0900</pubDate>
-      <guid>/frequent-words-in-wordpress-codex/</guid>
+      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。 An [&amp;hellip;]</description>
       <content>&lt;section id=&#34;wordpress_codexの英語_wordpress開発者のためのanki単語帳&#34;&gt;
 &lt;p&gt;日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。&lt;/p&gt;
@@ -178,7 +178,7 @@
 &lt;p&gt;大半の情報は、日本語化された部分を手がかりに、英文を読み進めることができる様になっています。&lt;/p&gt;
 &lt;p&gt;日本に住んで、日常的に日本語でコミュニケーションしているWordPress開発者が、WordPress Codexを読むのに必要な最低限の語彙を身につければ、原典にもっと多くの人がアクセスでき、結果として日本語化の速度も進むであろうと考えました。&lt;/p&gt;
 &lt;p&gt;ネイティブ並みの語彙力を目指して膨大なリソースを掛けることなく、開発者としての業務をこなしながら実行可能な語彙学習を提案できれば、多くの人がWordPress Codexを読むための英語学習に取り組むの動機付けができます。&lt;/p&gt;
-&lt;p&gt;データの規模や扱っている技術分野の広さに違いはありますが、同じような性質の情報を収録するマイクロソフトの開発情報リポジトリのMSDNが存在します。MSDNの読解に特化した頻出語彙の抽出を以前の記事&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で行いました。同じ方法をWordPress Codexに適用して、頻出語句の抽出を試みました。&lt;/p&gt;
+&lt;p&gt;データの規模や扱っている技術分野の広さに違いはありますが、同じような性質の情報を収録するマイクロソフトの開発情報リポジトリのMSDNが存在します。MSDNの読解に特化した頻出語彙の抽出を以前の記事&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で行いました。同じ方法をWordPress Codexに適用して、頻出語句の抽出を試みました。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexのデータ取得&#34; class=&#34;section&#34;&gt;WordPress Codexのデータ取得&lt;/h2&gt;
 &lt;p&gt;WordPress Codexは、MediaWikiを利用しています。MediaWikiからのデータの取得方法は、StackExchangeの&lt;a href=&#34;http://wordpress.stackexchange.com/questions/211/local-copy-of-wordpress-codex&#34;&gt;Local copy of WordPress Codex?&lt;/a&gt;という記事を参考にしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://codex.wordpress.org/Special:Export&#34;&gt;Export pages&lt;/a&gt;からXMLデータを取得しました。&lt;/p&gt;
@@ -301,11 +301,11 @@ Codex右上パネルの表示しているカテゴリ(WordPress Lessons、Gettin
 &lt;p&gt;最後に残ったのが446語の語彙表です。この語彙表のことを仮にWordPress Codex Word listと呼びます。図1では専門用語として示しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/wpcx1.png&#34; alt=&#34;WordPress Codexコーパスの内訳&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/wpcx1.png&#34; alt=&#34;WordPress Codexコーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. WordPress Codexコーパスの内訳&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;を参考にしてください。MediaWikiからXMLデータを取り出して後のCasualConcでの処理を具体的に紹介しています。&lt;/p&gt;
+&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;を参考にしてください。MediaWikiからXMLデータを取り出して後のCasualConcでの処理を具体的に紹介しています。&lt;/p&gt;
 &lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
 &lt;p&gt;本当にこの語彙表、WordPress Codex Word listは有効なのか、確認して見ました。
 WordPress Codexのページを選んで分析しました。
@@ -344,7 +344,7 @@ WordPress Codexのページを選んで分析しました。
 &lt;p&gt;抽出した単語データからAnki単語帳にするCSVファイルを作ります。&lt;/p&gt;
 &lt;p&gt;更に、使用頻度が高いものから優先して学習できるように頻度別にタグを付けました。95%被覆が可能な最高頻度のもの(WPCX1, 205個 )と、それ以外の98%被覆が可能な高頻度なもの(WPCX2, 241個)に二分してタグを振りました。&lt;/p&gt;
 &lt;p&gt;Ankiに読み込むCSVファイルは、頻度順に並べました。既定では出現頻度の高いものから出題するようにしました。&lt;/p&gt;
-&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 3. 単語帳の内訳&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -375,15 +375,15 @@ WordPress Codexのページを選んで分析しました。
 &lt;h2 id=&#34;カードの編集&#34; class=&#34;section&#34;&gt;カードの編集&lt;/h2&gt;
 &lt;p&gt;解答面には、オンライン英和和英辞典&lt;a href=&#34;http://ejje.weblio.jp/content/taxonomy&#34;&gt;weblio&lt;/a&gt;、オンライン英英辞典&lt;a href=&#34;https://www.vocabulary.com/dictionary/taxonomy&#34;&gt;Vocabulary.com&lt;/a&gt;、&lt;a href=&#34;http://wordpress.org/search/taxonomy&#34;&gt;WordPress.org Search&lt;/a&gt;へのリンクを追加しました。&lt;/p&gt;
 &lt;p&gt;また、解答面ではGoogleTTSを使用した読み上げ機能を設定しました。実際に動作させるにはアドオンAwesomeTTSのインストールと設定が必要です。&lt;/p&gt;
-&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した単語帳は、Anki単語帳パッケージ wpcxwl.apkgをダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/wpcx2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/wpcx2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
@@ -391,7 +391,7 @@ WordPress Codexのページを選んで分析しました。
 この単語帳の学習の前に、あるいは並行して基本語彙を確認することをお勧めします。&lt;/p&gt;
 &lt;p&gt;頻出語彙2000語については、&lt;a href=&#34;http://www.lextutor.ca/vp/comp/nation_14/&#34;&gt;BNC(British National Corpus)の頻出2000語&lt;/a&gt;や英英辞典の定義語集&lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/oxford3000/&#34;&gt;Oxford 3000&lt;/a&gt;、Longman Defining Vocabulary、&lt;a href=&#34;http://simple.wiktionary.org/wiki/Wiktionary:General_Service_List&#34;&gt;GSL(General Service List)&lt;/a&gt;などの入手しやすいものをお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexを情報源として常時利用するための学習戦略&#34; class=&#34;section&#34;&gt;WordPress Codexを情報源として常時利用するための学習戦略&lt;/h2&gt;
-&lt;p&gt;学習戦略については、&lt;a href=&#34;/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
+&lt;p&gt;学習戦略については、&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
 &lt;p&gt;WordPressが2003年5月27日にリリースしてから丁度10年が過ぎました。
 WordPressプロジェクトに関わる全ての方々の努力で、素晴らしい成果を上げました。&lt;/p&gt;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ankidroid on the Right Stuff</title>
-    <link>/tags/ankidroid/</link>
+    <link>http://rs.luminousspice.com/tags/ankidroid/</link>
     <description>Ankidroid | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 31 Aug 2014 22:00:26 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/ankidroid/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/ankidroid/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
-      <link>/how-to-sync-with-ankiweb/</link>
+      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
       <pubDate>Sun, 31 Aug 2014 22:00:26 +0900</pubDate>
-      <guid>/how-to-sync-with-ankiweb/</guid>
+      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。How to sync data through AnkiWeb for Anki, AnkiMobile, AnkiDroid.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、iPad iPod touch、 Android など機器から Anki データを保存し、複数のデバイス間で同期できる無料のサービス です。この機能の使い方を活用すると学習履歴を最新に保ちながら、利用場面に最適な機器で Anki を使うことができ、学習効率を高めることができます。&lt;/p&gt;
@@ -35,21 +35,21 @@
 &lt;p&gt;まず、ウェブブラウサーを使って &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;へアクセスし、右上の [Sign Up]ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-aw-top.png&#34; alt=&#34;AnkiWeb トップページ アカウント登録ボタン&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-top.png&#34; alt=&#34;AnkiWeb トップページ アカウント登録ボタン&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. AnkiWeb トップページ アカウント登録ボタン&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;登録画面が出たら、メールアドレス (Your Email) とパスワード (New Password) を入力し、[Sign Up] を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-aw-signup.png&#34; alt=&#34;登録画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-signup.png&#34; alt=&#34;登録画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 登録画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;登録完了すると確認画面が現れます。もう一度、登録したばかりのメールアドレス (Confirm Email) とパスワード (Confirm Password) を入力して、[Sign Up] を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-aw-signup-confirmation.png&#34; alt=&#34;確認画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-aw-signup-confirmation.png&#34; alt=&#34;確認画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 確認画面&lt;/div&gt;
 &lt;/div&gt;
@@ -69,7 +69,7 @@
 先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-signin.png&#34; alt=&#34;Anki 上でのアカウント設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-signin.png&#34; alt=&#34;Anki 上でのアカウント設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Anki 上でのアカウント設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -80,7 +80,7 @@
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
@@ -102,14 +102,14 @@
 AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile Flashcards から AnkiWeb へ同期&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AnkiWeb で登録したメールアドレス (Login) とパスワード (Password) を入力してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-signin.png&#34; alt=&#34;AnkiMobile 上でのアカウント設定画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-signin.png&#34; alt=&#34;AnkiMobile 上でのアカウント設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 上でのアカウント設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -117,14 +117,14 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;p&gt;同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-mainscreen.png&#34; alt=&#34;AnkiMobile Flashcards から AnkiWeb へ同期&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. AnkiMobile Flashcards から AnkiWeb へ同期&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;次に、[Syncing] 項目をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -142,7 +142,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;/ul&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
@@ -156,7 +156,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の循環する矢印ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-ad-mainscreen.png&#34; alt=&#34;同期の呼び出し&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-ad-mainscreen.png&#34; alt=&#34;同期の呼び出し&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. AnkiDroid の同期の呼び出し&lt;/div&gt;
 &lt;/div&gt;
@@ -164,7 +164,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 [AnkiWeb アカウント] をタップすると、アカウントの登録や解除ができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/sync-ad-pref-sync.png&#34; alt=&#34;一般設定&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/sync-ad-pref-sync.png&#34; alt=&#34;一般設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. AnkiDroid 一般設定&lt;/div&gt;
 &lt;/div&gt;
@@ -197,7 +197,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
 呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。&lt;/p&gt;
-&lt;p&gt;なお、AnkiWeb との同期が上手く行かない場合、&lt;a href=&#34;/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
+&lt;p&gt;なお、AnkiWeb との同期が上手く行かない場合、&lt;a href=&#34;http://rs.luminousspice.com/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
 に注意すべき点をまとめていますので、参考にしてください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
@@ -212,9 +212,9 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
     
     <item>
       <title>Ankiが同期できない問題について</title>
-      <link>/anki-fail-to-sync/</link>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
       <pubDate>Thu, 21 Nov 2013 16:17:56 +0900</pubDate>
-      <guid>/anki-fail-to-sync/</guid>
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。&lt;/p&gt;
@@ -224,7 +224,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
     &lt;h1&gt;設定の再確認&lt;/h1&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki と AnkiWeb との同期で最初につまづく原因は、AnkiWeb のアカウント作成の失敗していること、Anki や連携して使用する AnkiMobile や AnkiDroid の設定が正しく行われていないことです。&lt;/p&gt;
-&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
+&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;プロキシ認証の失敗_mac_os_x_および_windows&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -249,7 +249,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;同期中にタイムアウトが発生する場合&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ファイル容量制限&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -318,7 +318,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;Anki の同期に関する修正履歴&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_固有の問題&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;

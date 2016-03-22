@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on the Right Stuff</title>
-    <link>/tags/javascript/</link>
+    <link>http://rs.luminousspice.com/tags/javascript/</link>
     <description>Javascript | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>/speech-text-on-ankimobile/</link>
+      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0900</pubDate>
-      <guid>/speech-text-on-ankimobile/</guid>
+      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
@@ -43,7 +43,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile の最低限な使用方法を理解していることを前提として説明します。
-文中にもし不明な項目が出てきたら &lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+文中にもし不明な項目が出てきたら &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -69,7 +69,7 @@
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/setting-selectionspeech.png&#34; alt=&#34;setting-selectionspeech.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/setting-selectionspeech.png&#34; alt=&#34;setting-selectionspeech.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 選択項目を読み上げ設定&lt;/div&gt;
 &lt;/div&gt;
@@ -94,7 +94,7 @@
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[声] (2) で表示した言語の一覧から、言語をタップして指定すると言語別に音声の種類(a)、品質(b)、読み上げ速度(c) を設定できます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/setting-voice.png&#34; alt=&#34;setting-voice.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/setting-voice.png&#34; alt=&#34;setting-voice.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 声の詳細設定&lt;/div&gt;
 &lt;/div&gt;
@@ -120,7 +120,7 @@
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 選択範囲を指定して読み上げる&lt;/div&gt;
 &lt;/div&gt;
@@ -155,7 +155,7 @@
 &lt;span class=&#34;nt&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声の読み上げ速度(1)、音量(2)、ピッチ(3)、言語(4)を指定することが出来ます。
-カードテンプレートの編集方法については、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;&lt;/div&gt;
+カードテンプレートの編集方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_anki_と_ankimobile_を同期している場合&#34;&gt;Anki と AnkiMobile を同期している場合&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;読み込み機能を使いたいカードのカードテンプレートに上の設定を追加し、AnkiMobile と同期します。&lt;/p&gt;&lt;/div&gt;
@@ -183,12 +183,12 @@
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/add-note.png&#34; alt=&#34;add-note.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add-note.png&#34; alt=&#34;add-note.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノート追加画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;共有単語帳のインストール手順やノートの追加方法は &lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;をご覧下さい。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声データをカードに使いたい方は、&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;共有単語帳のインストール手順やノートの追加方法は &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;をご覧下さい。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声データをカードに使いたい方は、&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

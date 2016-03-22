@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anki2の使い方 on the Right Stuff</title>
-    <link>/categories/anki2%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</link>
+    <link>http://rs.luminousspice.com/categories/anki2%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</link>
     <description>Anki2の使い方 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Oct 2013 19:30:55 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/categories/anki2%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/categories/anki2%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 用語集 - Anki Glossary</title>
-      <link>/anki_glossary/</link>
+      <link>http://rs.luminousspice.com/anki_glossary/</link>
       <pubDate>Sun, 27 Oct 2013 19:30:55 +0900</pubDate>
-      <guid>/anki_glossary/</guid>
+      <guid>http://rs.luminousspice.com/anki_glossary/</guid>
       <description>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。用語を日英併記し、英語版しか存在しない iOS 版 Anki (AnkiMobile)、ウェブ版 Anki (AnkiWeb) ユーザーにも配慮しました。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
@@ -168,13 +168,13 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
     
     <item>
       <title>はじめてAnkiを使う人のための索引</title>
-      <link>/index-how-to-anki/</link>
+      <link>http://rs.luminousspice.com/index-how-to-anki/</link>
       <pubDate>Wed, 19 Jun 2013 00:00:48 +0900</pubDate>
-      <guid>/index-how-to-anki/</guid>
+      <guid>http://rs.luminousspice.com/index-how-to-anki/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集めました。連載終了後行われた Anki のバージョンアップの内容を考慮し、Anki の基本的な機能について項目追加しました。Index of basic features in Anki for beginners, extracted from &#39;How to Anki&#39; tutorial series.</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;/how-to-anki/&#34;&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜&lt;/a&gt; の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集めました。連載終了後行われた Anki のバージョンアップの内容を考慮し、Anki の基本的な機能について項目追加しました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜&lt;/a&gt; の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集めました。連載終了後行われた Anki のバージョンアップの内容を考慮し、Anki の基本的な機能について項目追加しました。&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;columns&#34;&gt;
@@ -184,12 +184,12 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;Anki2.0.9&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki2013/&#34;&gt;Anki2.0.13&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;Anki2.0.13&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -201,17 +201,17 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;AnkiWeb&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;AnkiWeb&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;完全同期&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;完全同期&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki-tips/&#34;&gt;自動同期の回避&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;自動同期の回避&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -223,27 +223,27 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;アドオン&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;アドオン&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;アドオンガイド&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;アドオンガイド&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;AwesomeTTS&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;AwesomeTTS&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Export Browser’s card list contents to CSV file&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Export Browser’s card list contents to CSV file&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;load balancer&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;load balancer&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -255,17 +255,17 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/install_anki/&#34;&gt;アンインストール&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;アンインストール&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_reset/&#34;&gt;クリーンインストール&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;クリーンインストール&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -277,17 +277,17 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;カードを延期&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;カードを延期&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;ノートを延期&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;ノートを延期&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;延期を解除&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期を解除&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -299,62 +299,62 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;カードウィンドウ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;カードウィンドウ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/cardtype/&#34;&gt;カードタイプ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cardtype/&#34;&gt;カードタイプ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;カードテンプレート&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;カードテンプレート&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;カードテンプレートの追加&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;カードテンプレートの追加&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;リンク設定&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;リンク設定&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/cloze-deletion/&#34;&gt;穴埋め&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;穴埋め&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/type_answer/&#34;&gt;解答キー入力&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;解答キー入力&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/hint_field/&#34;&gt;ヒント&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/hint_field/&#34;&gt;ヒント&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;プレビュー&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;プレビュー&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;カードを保留&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;カードを保留&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;カードの保留を解除&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;カードの保留を解除&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;読み上げ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;読み上げ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -366,61 +366,61 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;学習&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;学習&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;復習&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;復習&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;
 &lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;上限を変更&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;上限を変更&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;学習の中断&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;学習の中断&lt;/a&gt;
 &lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;カードを保留&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;カードを保留&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;ノートを保留&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;ノートを保留&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;ノートを延期&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;ノートを延期&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;解答ボタン押し間違え&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;解答ボタン押し間違え&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/learn_in_original_sequence/&#34;&gt;追加順に学習&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;追加順に学習&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;間違えたカードの処理&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;間違えたカードの処理&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -432,24 +432,24 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;書き出し&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;書き出し&lt;/a&gt;
 &lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;CSV&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;CSV&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;テキストファイル&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;テキストファイル&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Export Browser’s card list contents to CSV file&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Export Browser’s card list contents to CSV file&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -461,7 +461,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/cardtype/&#34;&gt;関連カード&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/cardtype/&#34;&gt;関連カード&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -473,7 +473,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;起動オプション&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;起動オプション&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -485,7 +485,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki-tips/&#34;&gt;スケジュール変更&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;スケジュール変更&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -497,7 +497,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-change-lang/&#34;&gt;言語設定&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;言語設定&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -509,12 +509,12 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki-tips/&#34;&gt;重複を検索&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;重複を検索&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki2013/&#34;&gt;重複にタグ追加&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;重複にタグ追加&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -526,17 +526,17 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_reset/&#34;&gt;学習履歴の初期化&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;学習履歴の初期化&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_reset/&#34;&gt;環境設定の初期化&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;環境設定の初期化&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_reset/&#34;&gt;復習間隔の初期化&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;復習間隔の初期化&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -548,7 +548,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;タイムボックス&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;タイムボックス&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -560,7 +560,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/install_anki/&#34;&gt;Ankiのダウンロード&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのダウンロード&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -572,12 +572,12 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;タグ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;タグ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki-tips/&#34;&gt;未使用タグの削除&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;未使用タグの削除&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -589,42 +589,42 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;apkg&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;apkg&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳パッケージ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳パッケージ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;共有単語帳&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;共有単語帳&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;書き出し&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;書き出し&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;単語帳の作成&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;単語帳の作成&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;子単語帳&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;子単語帳&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;読み込み&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;読み込み&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -636,12 +636,12 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;完全同期&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;完全同期&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki-tips/&#34;&gt;自動同期の回避&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;自動同期の回避&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -653,7 +653,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;統計&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;統計&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -665,32 +665,32 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;読み込み&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;読み込み&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;ノートの登録&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;ノートの登録&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;ノートを削除&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;ノートを削除&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;ノートを保留&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;ノートを保留&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;ノートを延期&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;ノートを延期&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/restore_corrupt_data/&#34;&gt;削除したノートの修復&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/restore_corrupt_data/&#34;&gt;削除したノートの修復&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -702,32 +702,32 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;ノートタイプ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;ノートタイプ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;ノートタイプの追加&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;ノートタイプの追加&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;ノートタイプの変更&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;ノートタイプの変更&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;裏面カードを任意選択&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;裏面カードを任意選択&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;裏面カード付き&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;裏面カード付き&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;Add Reverse&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Add Reverse&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -739,7 +739,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_automatic_backup/&#34;&gt;自動バックアップ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;自動バックアップ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -751,7 +751,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;バックログ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;バックログ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -763,7 +763,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/hint_field/&#34;&gt;ヒント&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/hint_field/&#34;&gt;ヒント&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -775,22 +775,22 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;ブラウザー&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザー&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;プレビュー&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;プレビュー&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;検索条件&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;検索条件&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;表示項目の変更&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;表示項目の変更&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -802,7 +802,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/changes-in-anki209/&#34;&gt;プロファイル表示&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;プロファイル表示&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -814,7 +814,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -826,44 +826,44 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;メディアの登録&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;メディアの登録&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;メディアの一括登録&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;メディアの一括登録&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;動画&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;動画&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;画像&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;画像&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;音声&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;音声&lt;/a&gt;
 &lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;音声の再生&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;音声の再生&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;読み上げ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;読み上げ&lt;/a&gt;
 &lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;AwesomeTTS&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;AwesomeTTS&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -877,12 +877,12 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_automatic_backup/&#34;&gt;自動バックアップ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;自動バックアップ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/restore_corrupt_data/&#34;&gt;データ修復&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/restore_corrupt_data/&#34;&gt;データ修復&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -894,22 +894,22 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;読み込み&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;読み込み&lt;/a&gt;
 &lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;タグ&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;タグ&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;CSV&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;CSV&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;テキストファイル&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;テキストファイル&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -923,7 +923,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/anki_reset/&#34;&gt;リセット&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;リセット&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -942,9 +942,9 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
     
     <item>
       <title>Anki単語帳を共有する方法</title>
-      <link>/how-to-share-anki-decks/</link>
+      <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
       <pubDate>Thu, 30 May 2013 00:30:22 +0900</pubDate>
-      <guid>/how-to-share-anki-decks/</guid>
+      <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の最終回は、単語帳の共有方法について紹介します。Ankiは色々な出力機能で、ユーザー間のデータ共有を支援しています。自分の単語帳を友達と交換して、Ankiの楽しみを広げましょう。How to share your Anki decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜&lt;/strong&gt;&lt;/p&gt;
@@ -988,7 +988,7 @@ PC 版 Anki を元にしているため、Android (アンドロイド) 版 Ankid
 &lt;p&gt;Ankiの単語帳の書き出し方は、メニューバーから[ファイル]&amp;gt;[書き出す]を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_1.png&#34; alt=&#34;書き出し設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_1.png&#34; alt=&#34;書き出し設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 書き出し設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1033,10 +1033,10 @@ remember        辞書: &amp;lt;a href=&#34;dict://remember&#34;&amp;gt;remember
     &lt;h1&gt;アドオンを使った書き出し方&lt;/h1&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介した、アドオン &lt;a href=&#34;https://ankiweb.net/shared/info/46837454&#34; target=&#34;_new&#34;&gt;Export Browser&#39;s card list contents to CSV file Enhanced&lt;/a&gt;でも単語帳内容を書き出すことができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介した、アドオン &lt;a href=&#34;https://ankiweb.net/shared/info/46837454&#34; target=&#34;_new&#34;&gt;Export Browser&#39;s card list contents to CSV file Enhanced&lt;/a&gt;でも単語帳内容を書き出すことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_2.png&#34; alt=&#34;ブラウザーで選択した項目を出力&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_2.png&#34; alt=&#34;ブラウザーで選択した項目を出力&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. ブラウザーで選択した項目を出力&lt;/div&gt;
 &lt;/div&gt;
@@ -1069,7 +1069,7 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
 メニューバーから[ファイル]&amp;gt;[読み込む](Command + I)を選択する。
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;更に詳しい手順は、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;更に詳しい手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;単語帳をankiwebへの共有する方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -1077,18 +1077,18 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;AnkiWebにある共有単語帳どうやって作っているのか、ご紹介しましょう。&lt;/p&gt;
-&lt;p&gt;まずは、&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWebにアカウントを作って単語帳を同期&lt;/a&gt;します。
+&lt;p&gt;まずは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWebにアカウントを作って単語帳を同期&lt;/a&gt;します。
 次にログイン先の単語帳一覧の右側のプルダウンメニューから[Share]を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_3.png&#34; alt=&#34;AnkiWeb単語帳一覧から選択&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_3.png&#34; alt=&#34;AnkiWeb単語帳一覧から選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. AnkiWeb単語帳一覧から選択&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;共有単語帳の提出フォームが開きますので、内容を入力して送信すると共有単語帳一覧に追加になります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_8_4.png&#34; alt=&#34;共有単語帳の提出フォーム&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_4.png&#34; alt=&#34;共有単語帳の提出フォーム&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 共有単語帳の提出フォーム&lt;/div&gt;
 &lt;/div&gt;
@@ -1148,7 +1148,7 @@ AnkiWeb にサインインします。
 &lt;p&gt;そこでこの連載ではAnkiに触れながら覚えた経験を再現しました。Ankiを使った学習全般を体験できるよう内容を構成しました。
 使い方の勘所を感じていただけたらと思います。&lt;/p&gt;
 &lt;p&gt;この体験があれば、ユーザーマニュアルやウェブ上の色々な情報を参考にして、自分独自の使い方を編み出していけると思います。&lt;/p&gt;
-&lt;p&gt;最後にこの連載の応用例として、テキストデータの集まりから頻出単語を抽出してAnki単語帳に仕上げる方法を「&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;」という記事にしました。頻度表を作成するアプリケーションの使い方以外は、この連載の内容だけで実現できます。
+&lt;p&gt;最後にこの連載の応用例として、テキストデータの集まりから頻出単語を抽出してAnki単語帳に仕上げる方法を「&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;」という記事にしました。頻度表を作成するアプリケーションの使い方以外は、この連載の内容だけで実現できます。
 皆様の専門分野ならではの単語帳作成にお役立てください。&lt;/p&gt;
 &lt;p&gt;Ankiは単なるフラッシュカードにとどまらない機能を提供しています。作者や既存ユーザーも意図しないような使い方をする方がたくさん現れると予想しています。この連載で分かりやすく書こうと心がけましたが、全ての人の状況に当てはまるとは考えていません。&lt;/p&gt;
 &lt;p&gt;友だちにAnkiの使い方を説明したとき、この連載よりもっと分かりやすい説明に気がついたら、ぜひその方法を共有してください。&lt;/p&gt;
@@ -1169,31 +1169,31 @@ AnkiWeb にサインインします。
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -1202,9 +1202,9 @@ AnkiWeb にサインインします。
     
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
-      <link>/reduce-anki-backlog-with-stats/</link>
+      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
       <pubDate>Sun, 19 May 2013 20:00:04 +0900</pubDate>
-      <guid>/reduce-anki-backlog-with-stats/</guid>
+      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。How to reduce Anki backlog with stats.</description>
       <content>&lt;p&gt;&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Ankiを使っている人なら知っている使い方をあえて紹介する連載の7回目は、統計情報について解説します。統計情報の知識を使って、バックログを解消する方法を紹介します。&lt;/p&gt;
@@ -1226,12 +1226,12 @@ AnkiWeb にサインインします。
 &lt;p&gt;Ankiは復習アルゴリズムに加えて、学習継続を支援してくれる色々な機能を提供してくれます。統計情報もその機能の一つです。自分の学習結果を統計情報として確認することは、学習の進捗状況を管理するのに役立ちます。&lt;/p&gt;
 &lt;p&gt;Ankiの統計情報はメインウィンドウから単語帳を選択し、ウィンドウ右上の棒グラフのボタンを押すと表示されます。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_2_11.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;メインウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_11.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;メインウィンドウ&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 1. &lt;/b&gt;メインウィンドウ&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;既定では図2のような情報が得られます。&lt;/p&gt;
 &lt;div style=&#34;float:right;&#34;&gt;
-&lt;img src=&#34;/images/how2anki_7_2.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;統計情報&#34; width=&#34;240&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_2.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;統計情報&#34; width=&#34;240&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 2. &lt;/b&gt;統計情報&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;b&gt;統計情報の項目&lt;/b&gt;&lt;/p&gt;&lt;ol type=&#34;1&#34;&gt;
@@ -1308,13 +1308,13 @@ AnkiWeb にサインインします。
 &lt;p&gt;いま始めようとする人には、この方法は使えないので別の方法を紹介します。どちらも、今日の学習をまだしていないという条件があります。今日学習済みカードは、既に新しい期日が設定されています。&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;ブラウザーを利用する&lt;/b&gt;&lt;br&gt;ブラウザーのカード一覧から表示することができます。ブラウザーから期日でソート表示して、期日が今日のカードを選択するとタイトルバーに枚数が表示されます。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_7_3.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;ブラウザー表示&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_3.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;ブラウザー表示&#34; width=&#34;600&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 3. &lt;/b&gt;ブラウザー表示&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;b&gt;フィルター単語帳を利用する&lt;/b&gt;&lt;br&gt;今日が期日のカードを検索するフィルター単語帳を作って調べることもできます。&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;今日が期日のカードを検索する条件&lt;/b&gt;&lt;br&gt;&lt;code&gt;deck:&amp;ldquo;単語帳名&amp;rdquo; prop:due=0&lt;/code&gt;&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_7_4.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;フィルター単語帳&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_4.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;フィルター単語帳&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 4. &lt;/b&gt;フィルター単語帳&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;学習が済んでいない「今日が期日のカード」が取得できます。&lt;/p&gt;
@@ -1334,7 +1334,7 @@ AnkiWeb にサインインします。
 &lt;/ol&gt;
 &lt;p&gt;&lt;b&gt;追加学習の方法&lt;/b&gt;&lt;br&gt;メインウィンドウ下の[カスタム学習]ボタンを押して[今日の復習カードの上限を上げる]を選択します。上で計算した枚数を設定します。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_6_1.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_6_1.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 5. &lt;/b&gt;カスタム学習で復習カードの上限を引き上げる&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;b&gt;前日の記録を忘れた場合&lt;/b&gt;&lt;/p&gt;&lt;ol type=&#34;1&#34;&gt;
@@ -1346,7 +1346,7 @@ AnkiWeb にサインインします。
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;&lt;a name=&#34;_バックログを分割処理する方法_マニュアルより&#34;&gt;&lt;/a&gt;バックログを分割処理する方法 (マニュアルより)&lt;/h2&gt;
-&lt;p&gt;マニュアルにも、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使った&lt;a href=&#34;http://ankisrs.net/docs/manual.html#catching-up&#34;&gt;バックログの解消法の例&lt;/a&gt;が載っています。この項目はまだ翻訳されていないようですので、簡単に説明します。&lt;/p&gt;
+&lt;p&gt;マニュアルにも、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使った&lt;a href=&#34;http://ankisrs.net/docs/manual.html#catching-up&#34;&gt;バックログの解消法の例&lt;/a&gt;が載っています。この項目はまだ翻訳されていないようですので、簡単に説明します。&lt;/p&gt;
 &lt;p&gt;バックログからストレスのない適正な学習ができる量だけ取り出して選択的に学習しようと言う考え方です。上で紹介した方法より穏当な方法になります。&lt;/p&gt;
 &lt;p&gt;期日に達して間もない「新鮮なカード」はAnkiの復習スケジュールアルゴリズムを強く反映した復習間隔が設定されています。そこで、選択基準として復習期日に達してからの経過時間を使っています。&lt;/p&gt;
 &lt;h3&gt;&lt;a name=&#34;_優先カードの選別方法&#34;&gt;&lt;/a&gt;優先カードの選別方法&lt;/h3&gt;
@@ -1384,54 +1384,54 @@ AnkiWeb にサインインします。
 &lt;p&gt;安定期に達したAnki学習ではどのような統計データになるのか、図2のその後のデータとして今日のデータの抜粋を図6に参考までに紹介します。&lt;/p&gt;
 &lt;p&gt;通常の学習でも、カードの枚数の変化以外の多面的な進捗情報が統計情報から得られます。ぜひ、この統計情報を活用してAnkiをもっと楽しんでください。次回は最終回、単語帳の共有方法を説明します。&lt;/p&gt;
 &lt;div&gt;
-&lt;img src=&#34;/images/how2anki_7_5.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;今日の統計情報&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_7_5.png&#34; style=&#34;border-width: 0;&#34; alt=&#34;今日の統計情報&#34; width=&#34;600&#34;&gt;
 &lt;p&gt;&lt;b&gt;図 6. &lt;/b&gt;今日の統計情報&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34; class=&#34;section&#34;&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h2&gt;
 &lt;div class=&#34;olist&#34;&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索 &lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索 &lt;/a&gt;(ブラウザー、検索条件)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法 &lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法 &lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;&lt;/p&gt;
@@ -1440,9 +1440,9 @@ AnkiWeb にサインインします。
     
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
-      <link>/how-to-customize-learning/</link>
+      <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
       <pubDate>Sat, 11 May 2013 20:00:43 +0900</pubDate>
-      <guid>/how-to-customize-learning/</guid>
+      <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回&lt;/strong&gt;&lt;/p&gt;
@@ -1470,7 +1470,7 @@ AnkiWeb にサインインします。
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;第5回目の記事のデータ検索の知識&lt;/a&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;第5回目の記事のデータ検索の知識&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -1483,7 +1483,7 @@ AnkiWeb にサインインします。
 &lt;p&gt;カスタム学習セッションとは、標準の学習スケジュールから外れて設定する学習セッションのことです。学習対象を絞り込んで集中的に学習することができます。設定画面を表示するには、メインウィンドウで単語帳を選択し、画面下の[カスタム学習]ボタンを押します。(図1)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. カスタム学習設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1504,7 +1504,7 @@ AnkiWeb にサインインします。
 それ以外の項目を選択した場合には、[カスタム学習セッション]という名前の単語帳に移動します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_6_2.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_6_2.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. フィルター単語帳設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1523,13 +1523,13 @@ AnkiWeb にサインインします。
 &lt;p&gt;フィルター単語帳を開いて[オプション]ボタンを押すと、設定画面を呼び出すことができます。(図3)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;/images/how2anki_6_3.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_6_3.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. フィルター単語帳設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;この画面では、検索条件、抽出枚数、出題順の基本情報と、オプションとしてカスタム学習セッションでの学習結果を通常のスケジュールに反映するか、独自の学習ステップを設定するか指定することができます。&lt;/p&gt;
 &lt;p&gt;既定の検索条件を表1に書き出しました。この条件を自分でカスタマイズすることができます。この5つの項目は、それぞれ別の設定をしている訳ではなく、Ankiが典型的な検索条件のテンプレートを示してくれていると考えてよいです。例えば最初に[先取りして復習する]を選んでも、検索条件を書き換えて、[忘却したカードを復習する]と同じ内容に書き換えても動作します。&lt;/p&gt;
-&lt;p&gt;また、既定では選択中の単語帳の名前が検索条件に自動的に入ります。図2の場合は、&lt;code&gt;deck:&#34;中学英単語&#34;&lt;/code&gt; です。単語帳の指定を消せばコレクション全体が抽出条件になります。AND や OR を設定して複数の単語帳から抽出することもできます。基本的なデータ抽出の知識は&lt;a href=&#34;/browser-overview/&#34;&gt;前回の記事&lt;/a&gt;で説明した通りです。&lt;/p&gt;
+&lt;p&gt;また、既定では選択中の単語帳の名前が検索条件に自動的に入ります。図2の場合は、&lt;code&gt;deck:&#34;中学英単語&#34;&lt;/code&gt; です。単語帳の指定を消せばコレクション全体が抽出条件になります。AND や OR を設定して複数の単語帳から抽出することもできます。基本的なデータ抽出の知識は&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;前回の記事&lt;/a&gt;で説明した通りです。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; class=&#34;table table-striped&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 1. カスタム学習セッションの既定の検索条件 (単語帳を&#34;中学英単語&#34;に指定した場合)&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -1654,31 +1654,31 @@ AnkiWeb にサインインします。
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
 フィルター単語帳でAnki学習をカスタマイズしよう (カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
