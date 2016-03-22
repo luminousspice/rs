@@ -26,7 +26,7 @@ excerpt: "Anki2では、初回起動直後の言語設定以後、言語設定�
 <p>Anki2からは<a target="_new" href="http://ankisrs.net/docs/manual.html#startup-options">Startup Options(起動オプション)</a>で言語設定を指定できるようになりました。</p>
 <pre>インターフェースの言語は"-l"オプションで指定できます。-l &lt;ISO言語名コード&gt;を指定して起動します。</pre>
 <p>例: Windowsで英語を指定して起動</p>
-<pre>"C:\Program Files\Anki\anki.exe" -l en</pre>
+<pre>"C:¥Program Files¥Anki¥anki.exe" -l en</pre>
 <p>例: Mac OS Xで日本語を指定して起動</p>
 <pre>/Applications/Anki.app/Contents/MacOS/anki -l ja</pre>
 <p>実際には皆さんお使いのAnkiのインストール場所を指定してください。</p>
@@ -54,7 +54,7 @@ excerpt: "Anki2では、初回起動直後の言語設定以後、言語設定�
 ショートカットタブを選択
 </li>
 <li>
-リンク先項目の最後に起動オプションを追加する。例: <code>"C:\Program Files\Anki\anki.exe" -l en</code>
+リンク先項目の最後に起動オプションを追加する。例: <code>"C:¥Program Files¥Anki¥anki.exe" -l en</code>
 </li>
 </ol>
 </section>
@@ -71,7 +71,7 @@ excerpt: "Anki2では、初回起動直後の言語設定以後、言語設定�
 <p>Mac OS Xの場合の保存場所</p>
 <pre>[書類]&gt;[Anki] prefs.db (/Users/[ユーザー名]/Documents/Anki/prefs.db)</pre>
 <p>Windows7の場合の保存場所</p>
-<pre>[マイ ドキュメント]&gt;[Anki] prefs.db ("C:\Users\user name\Documents\Anki\prefs.db")</pre>
+<pre>[マイ ドキュメント]&gt;[Anki] prefs.db ("C:¥Users¥user name¥Documents¥Anki¥prefs.db")</pre>
 <p>Windowsの場合バージョン毎にドキュメントフォルダーの位置が異なります。<a target="_new" href="http://windows.microsoft.com/ja-jp/windows7/where-are-my-files-and-folders-after-upgrading-from-windows-xp-or-windows-vista">Windows XP または Windows Vista からのアップグレード後のファイルおよびフォルダーの場所</a>の「Windows 7 で共通のフォルダーを見つける方法」を参考にしてください。</p>
 <h3 id="注意_ユーザープロフィールを複数使っている場合">注意: ユーザープロフィールを複数使っている場合</h3>
 <p>この方法を行うと、既定で作成するプロファイル"ユーザー 1"以外のプロファイルが消えてしまいます。ここで慌てないでください。再度、これまで使っていたプロファイル名でプロファイルを作成すると元に戻ります。プロファイル名を忘れてしまった方は、ドキュメントフォルダー内のAnkiフォルダーを見てください。プロファイル名がフォルダー名として残っています。</p>
