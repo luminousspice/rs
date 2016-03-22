@@ -26,7 +26,7 @@ test:
     - cd public && rm -rf * && git rm -rf .
     - hugo version
     - hugo
-    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/rs.luminousspice.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
+    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/ --url-ignore '/rs.luminousspice.com//'
 
 deployment:
   master:
