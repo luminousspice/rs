@@ -4,13 +4,15 @@ title = "the Right Stuff"
 author = "luminosspice"
 theme = "lanyon"
 paginate = 5
+paginatePath ="p"
 canonifyurls = true
 hasCJKLanguage = true
-pygmentsuseclasses = true
+googleAnalytics = "UA-29141274-5"
 
 [permalinks] 
 	post = "/:filename/"
 	article = "/:section/:filename/"
+	page = "/:section/:filename/"
 
 [taxonomies]
 	tag = "tags"
@@ -21,7 +23,6 @@ pygmentsuseclasses = true
 	description = "ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。"
 	topitem = 5
 	author = "luminosspice"
-	googleAnalyticsUserID = ""
 	githubName = "luminosspice"
 	twitterName = "luminosspice"
 	siteImage = "apple-touch-icon.png"
