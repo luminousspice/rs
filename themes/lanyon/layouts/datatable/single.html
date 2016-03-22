@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<div class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+  {{ .Content }}
+</div>
+
+      </div><!-- wrap -->
+    </div><!-- container content -->
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.css">  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="/js/datatables-fix.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/datatables-fix.css">
+<script src="/assets/js/jquery.get-word-by-event.js"></script>
+	{{ partial "js.html" . }}
+
+  </body>
+</html>

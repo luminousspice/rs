@@ -1,6 +1,7 @@
 ---
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
+type: "datatable"
 lastmod: "2016-02-08T16:42:30+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 categories: ["Anki"]
