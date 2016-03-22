@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>利用事例 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E5%88%A9%E7%94%A8%E4%BA%8B%E4%BE%8B/</link>
+    <link>/tags/%E5%88%A9%E7%94%A8%E4%BA%8B%E4%BE%8B/</link>
     <description>利用事例 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/%E5%88%A9%E7%94%A8%E4%BA%8B%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E5%88%A9%E7%94%A8%E4%BA%8B%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
-      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <link>/learn-with-anki/</link>
       <pubDate>Sun, 03 Jan 2016 23:00:16 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <guid>/learn-with-anki/</guid>
       <description>暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。&lt;/p&gt;
@@ -55,7 +55,7 @@
 &lt;p&gt;Anki を使い始めるときの方針は、「初めから決まった量の情報を教材とし、教材の理解は最初から丁寧に行い、新規の情報追加は教材に慣れるまで抑制的にする」です。&lt;/p&gt;
 &lt;p&gt;このような条件に合う教材とは、「音声付きの薄い本」です。&lt;/p&gt;
 &lt;p&gt;Anki に持ち込む前に、本で学べる点が有利です。完成度の高い紙面で学習することが出来、Anki のカードは必要最小限の情報で済ませられるからです。作業に手間がかからないことと、紙面、モニタ、音声の三種類のインターフェイスで同じ内容を学習できることです。分量が限られているので、予定が立てやすく、達成感と満足感が早く得られます。&lt;/p&gt;
-&lt;p&gt;なお、音声がない場合には &lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Anki 上で TTS を使ってテキストを読み上げる&lt;/a&gt;ことも出来ます。&lt;/p&gt;
+&lt;p&gt;なお、音声がない場合には &lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Anki 上で TTS を使ってテキストを読み上げる&lt;/a&gt;ことも出来ます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;モデル教材はフレーズと発音&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -71,12 +71,12 @@
 &lt;p&gt;別のことをしながら、話している内容を確実に聴き取れたかを判断基準に学習しました。&lt;/p&gt;
 &lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51KZQQT259L._SL160_.jpg&#34; alt=&#34;英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]&#34; style=&#34;border: none&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%;margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;スティーブ ソレイシィ Steve Soresi ロビン ソレイシィ Robin Soresi &lt;br /&gt;アルク &lt;br /&gt;売り上げランキング: 1,280&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Anki のカードは、音声だけをカードに埋め込んだシンプルなものを使いました。
-詳しい作り方は、&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;で紹介しています。&lt;/p&gt;
+詳しい作り方は、&lt;a href=&#34;/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;p&gt;百個のファイルの中から毎日 3 件を新規追加して、28日で全て聴き終えた時のデータが次のファイルです。
 一日平均 10 分程度の Anki での学習時間でしたが、三週間を超えた所でブレイクスルーが起り、新規カードの数も学習時間の増加も苦にならなくなりました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-biz100.png&#34; alt=&#34;統計情報 (英会話ペラペラビジネス100)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-biz100.png&#34; alt=&#34;統計情報 (英会話ペラペラビジネス100)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 統計情報 (英会話ペラペラビジネス100)&lt;/div&gt;
 &lt;/div&gt;
@@ -87,7 +87,7 @@
 &lt;p&gt;一日 1 Unit のペースで聴き 14 日で完了しました。その結果を下に記しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-clearspeech.png&#34; alt=&#34;統計情報 (Clear Speech)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-clearspeech.png&#34; alt=&#34;統計情報 (Clear Speech)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 統計情報 (Clear Speech)&lt;/div&gt;
 &lt;/div&gt;
@@ -99,7 +99,7 @@
 &lt;p&gt;Anki 用のカードは、前の本で使ったのと同じシンプルなものを使いました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-audio-card.png&#34; alt=&#34;実際に使用したカード&#34;&gt;
+&lt;img src=&#34;/images/audio-material-audio-card.png&#34; alt=&#34;実際に使用したカード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 実際に使用したカード&lt;/div&gt;
 &lt;/div&gt;
@@ -108,7 +108,7 @@
 &lt;p&gt;一日平均 12 分程度の Anki での学習時間でしたが、二週間過ぎた所で出演者の声に慣れて聴き取りやすくなってきました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-detective.png&#34; alt=&#34;統計情報 (映画英語のリスニング)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-detective.png&#34; alt=&#34;統計情報 (映画英語のリスニング)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 統計情報 (ボトムアップ式 映画英語のリスニング)&lt;/div&gt;
 &lt;/div&gt;
@@ -126,12 +126,12 @@ Anki では TTS を使って発音させながら、綴りを見て意味が瞬�
 &lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51Eolqic2GL._SL160_.jpg&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34; style=&#34;border: none&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%;margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Merriam-Webster&#39;s Vocabulary Builder&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;Mary W. Cornog &lt;br /&gt;Merriam Webster Mass Market &lt;br /&gt;売り上げランキング: 151&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;元の本を読んで、復習クイズを全問解き、さらにわからない見出し語を Anki に入れて復習した結果です。
 二日で 1 Unit のペースで学習し、65 日で終わりました。
-Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;テンプレートから Mac 内蔵の辞書を引ける設定&lt;/a&gt;にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。&lt;/p&gt;
+Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;テンプレートから Mac 内蔵の辞書を引ける設定&lt;/a&gt;にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。&lt;/p&gt;
 &lt;p&gt;毎日平均 8 分 Anki で学習し、三週間経ったところで一日の定型ルーチンが決まり作業が楽になりました。なお、Anki で意味を思い出すよりも、元の本の復習用クイズの方が数段難しく、本での学習に 30 分程度の時間を使いました。
 復習の枚数は最高で 110 枚、100 枚を超えたのは三日でした。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-mwvb.png&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-mwvb.png&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 統計情報 (Merriam-Webster&amp;#8217;s Vocabulary Builder)&lt;/div&gt;
 &lt;/div&gt;
@@ -141,10 +141,10 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     &lt;h2&gt;応用例 ネットのビデオを使用&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;ネットに上がっているビデオでも、完結している動画シリーズであれば、この投稿で紹介したアプローチが使えるでしょう。例えば、RussianPod101.com の &lt;a href=&#34;https://www.youtube.com/playlist?list=PL_knbQpx9pBetwxup_IHr47cQsYvnQhRF&#34;&gt;Russian Weekly Words&lt;/a&gt; は、一回につきロシア語の単語を五個ずつテーマ別に学習する 63 回完結のコースです。英語とロシア語の字幕付きで、例文や会話例も学ぶことが出来ます。&lt;/p&gt;
-&lt;p&gt;Mac を使っている場合は、&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt; を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。&lt;/p&gt;
+&lt;p&gt;Mac を使っている場合は、&lt;a href=&#34;/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt; を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-russianpod-card.png&#34; alt=&#34;Russian Weekly Words を利用したカード&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-russianpod-card.png&#34; alt=&#34;Russian Weekly Words を利用したカード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. Russian Weekly Words を利用したカード&lt;/div&gt;
 &lt;/div&gt;
@@ -155,7 +155,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
   &lt;/div&gt;
 &lt;p&gt;新しい道具を使う時に何から始めればよいか。得意分野では道具の使い方が分かれば自律的に進めますが、そうでない場合は素材とお手本を選ぶ支援が必要となるでしょう。&lt;/p&gt;
 &lt;p&gt;Anki は学習心理学の研究結果に基づいたアルゴリズムを使っていますので、教材を学習することが前提となっています。理解のないまま繰り返し見た内容を無意識の内に覚えるような洗脳の技術を使っている訳ではありません。そこで、Anki での最初の学習を大切にして、後々復習の泥沼はまることのないよう心掛けてモデル学習の事例を作りました。&lt;/p&gt;
-&lt;p&gt;この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 &lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめての Anki&lt;/a&gt;という記事も参考になると思います。&lt;/p&gt;
+&lt;p&gt;この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 &lt;a href=&#34;/how-to-anki/&#34;&gt;はじめての Anki&lt;/a&gt;という記事も参考になると思います。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;

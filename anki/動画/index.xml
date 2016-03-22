@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>動画 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%8B%95%E7%94%BB/</link>
+    <link>/anki/%E5%8B%95%E7%94%BB/</link>
     <description>動画 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 31 Dec 2015 23:00:39 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E5%8B%95%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E5%8B%95%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。&lt;/p&gt;
@@ -24,7 +24,7 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;はじめに&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
+&lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
 &lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;注意事項&#34;&gt;
@@ -53,14 +53,14 @@
 &lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-htmleditor.png&#34; alt=&#34;HTML エディタで HTML5 Video 要素を入力する&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-htmleditor.png&#34; alt=&#34;HTML エディタで HTML5 Video 要素を入力する&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで HTML5 Video 要素を入力する&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;完成品は次の通りです。動画下部に再生コントロールが現れます。左から、再生ボタン、再生時間、再生位置表示、全画面表示、音量が調節できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-card.png&#34; alt=&#34;HTML5 Video で動画をカードに埋め込む&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-card.png&#34; alt=&#34;HTML5 Video で動画をカードに埋め込む&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. HTML5 Video で動画をカードに埋め込む&lt;/div&gt;
 &lt;/div&gt;
@@ -85,14 +85,14 @@
 &lt;p&gt;動画の場合は、動画の真ん中のボタンをタップすると &lt;code&gt;[sound:]&lt;/code&gt; タグで埋め込んだときと同様のコントロールが立ち上がって、動画を再生します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-video.png&#34; alt=&#34;HTML5 Video を iPhone 上で表示&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-iphone-video.png&#34; alt=&#34;HTML5 Video を iPhone 上で表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. HTML5 Video を iPhone 上で表示&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;音声の場合は、再生コントロールを表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-audio.png&#34; alt=&#34;HTML5 Audio を iPhone 上で表示&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-iphone-audio.png&#34; alt=&#34;HTML5 Audio を iPhone 上で表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. HTML5 Audio を iPhone 上で表示&lt;/div&gt;
 &lt;/div&gt;
@@ -116,9 +116,9 @@
     
     <item>
       <title>Anki の動画再生に使えるショートカットキー</title>
-      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <link>/mplayer-shortcut-for-anki-video/</link>
       <pubDate>Wed, 30 Dec 2015 18:30:52 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <guid>/mplayer-shortcut-for-anki-video/</guid>
       <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できる MPlayer のショートカットキーをまとめました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。&lt;/p&gt;
@@ -126,7 +126,7 @@
 実は、速度を変えたり、巻き戻しや早送りをするショートカットキーが存在するのです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
+&lt;img src=&#34;/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ショートカットキーで動画の再生速度 91％ に変更&lt;/div&gt;
 &lt;/div&gt;
@@ -209,16 +209,16 @@
 &lt;/table&gt;
 &lt;p&gt;なお、動作確認は Mac でのみ行いました。&lt;/p&gt;
 &lt;p&gt;詳しい情報はオリジナルの&lt;a href=&#34;http://www.mplayerhq.hu/DOCS/man/en/mplayer.1.html#INTERACTIVE%20CONTROL&#34;&gt;MPlayer ドキュメント&lt;/a&gt;に掲載されています。なお、Anki から呼び出した場合に、動作しない機能もあるようです。&lt;/p&gt;
-&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
     
     <item>
       <title>Mac で再生中の音声を Anki に直接録音する</title>
-      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
+      <link>/audio-stdout-into-anki-for-mac/</link>
       <pubDate>Sun, 27 Dec 2015 23:45:15 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
+      <guid>/audio-stdout-into-anki-for-mac/</guid>
       <description> Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。&lt;/p&gt;
@@ -260,7 +260,7 @@
 &lt;p&gt;OS X 付属の [Audio MIDI 設定] というアプリケーションを起動します。Spotlight に &lt;code&gt;midi&lt;/code&gt; と打って検索するのが簡単です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-spotlight-audiomidi.png&#34; alt=&#34;Spotlight から Audio MIDI 設定を起動&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-spotlight-audiomidi.png&#34; alt=&#34;Spotlight から Audio MIDI 設定を起動&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Spotlight から Audio MIDI 設定を起動&lt;/div&gt;
 &lt;/div&gt;
@@ -274,7 +274,7 @@
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-audiomidi.png&#34; alt=&#34;複数出力装置を作成&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-audiomidi.png&#34; alt=&#34;複数出力装置を作成&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 複数出力装置を作成&lt;/div&gt;
 &lt;/div&gt;
@@ -289,7 +289,7 @@
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-sound-settings.png&#34; alt=&#34;入出力装置を割り当てる&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-sound-settings.png&#34; alt=&#34;入出力装置を割り当てる&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 入出力装置を割り当てる&lt;/div&gt;
 &lt;/div&gt;
@@ -302,7 +302,7 @@
 &lt;p&gt;ノートエディタを立ち上げ、音声を取り込みたいフィールドを選択し、取り込みたい音声を再生し、[F5] を押すか、ツールバーの [録音ボタン] (図　4 参照) を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-add-sound.png&#34; alt=&#34;ノートエディタで録音&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-add-sound.png&#34; alt=&#34;ノートエディタで録音&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノートエディタで録音&lt;/div&gt;
 &lt;/div&gt;
@@ -315,7 +315,7 @@
 &lt;p&gt;RussianPod101.com のような字幕付きの動画であれば、画面キャプチャだけで文字を打つ必要もなく簡単にカードを作成できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-russianpod-card.png&#34; alt=&#34;作成例&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-russianpod-card.png&#34; alt=&#34;作成例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 作成例&lt;/div&gt;
 &lt;/div&gt;
@@ -334,9 +334,9 @@
     
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
-      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <link>/bulk-import-media-files-into-anki/</link>
       <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <guid>/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。&lt;/p&gt;
@@ -345,7 +345,7 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;データの一括登録&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
+&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
 この記事では学習データの一括登録の一般的な方法については説明しています。
 今回は、この記事をさらに発展させてテキストにメディアファイル (音声、画像、動画) を添付して一括登録する方法を紹介します。&lt;/p&gt;
 &lt;/section&gt;
@@ -354,7 +354,7 @@
     &lt;h2&gt;前提知識&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のデータ読み込みの方法についての理解
-または、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
+または、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;メディアファイル利用の基本&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -369,7 +369,7 @@
 フィールドに添付ファイルが反映されたら、HTML エディタを開いてその内容を確認します。(Mac OS X: Command+Shift+X, Windows: Ctrl+Shift+X)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで内容を確認&lt;/div&gt;
 &lt;/div&gt;
@@ -466,7 +466,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 読み込みオプション&lt;/div&gt;
 &lt;/div&gt;
@@ -484,21 +484,21 @@
 &lt;p&gt;メニューバーから [ツール] - [Media Import&amp;#8230;] を選択して登録するメディアデータが入っているフォルダーを指定します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. Media Import の呼び出し&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;テキストファイルの用意は不要で、ファイル名を Front フィールドに使いたい文字列を設定すれば、メディアファイルをつくるだけで 単語帳 &lt;code&gt;MediaImport&lt;/code&gt; へ一括登録できてしまうところです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Media Import の処理完了&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;処理毎に基本ノートタイプのクローンを作成するので、同じフォルダーを繰り返し処理しても上書きされることはありません。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. Media Import を使用した読み込み例&lt;/div&gt;
 &lt;/div&gt;
@@ -516,7 +516,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
+実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -546,7 +546,7 @@ Front フィールドに単語が入力済みで、その単語に拡張子 mp3(
 入力条件に正規表現を使う: 有効&lt;/pre&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 検索置換条件&lt;/div&gt;
 &lt;/div&gt;
@@ -558,7 +558,7 @@ Front フィールドに単語が入力済みで、その単語に拡張子 mp3(
   &lt;/div&gt;
 &lt;p&gt;音声ファイルを持っていない場合に、音声データ (mp3) を自動生成する方法を紹介します。
 TTS サービスが使えない別の機器用に音声データを自作するのにも利用できます。&lt;/p&gt;
-&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
+&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
@@ -572,14 +572,14 @@ TTS サービスが使えない別の機器用に音声データを自作する�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AwesomeTTS MP3 Mass Generator の呼び出し方&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AwesomeTTS MP3 Mass Generator の設定画面では次のように設定します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. AwesomeTTS MP3 Mass Generator の設定例&lt;/div&gt;
 &lt;/div&gt;
@@ -654,9 +654,9 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
     
     <item>
       <title>はじめてのAnki – まず使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-anki/</link>
+      <link>/how-to-anki/</link>
       <pubDate>Fri, 12 Apr 2013 23:30:03 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-anki/</guid>
+      <guid>/how-to-anki/</guid>
       <description>分散学習システム Anki を今すぐ使い始めるのに最低限必要な使い方を紹介します。最新版 Anki 2.0.33 に準拠しています。Ankiをダウンロードして、記憶するカードを作成し、学習してみましょう。画像や動画、音声を追加する方法、学習中に音声ファイルを再生する方法も取り上げています。Survival skill to learn with Anki.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回&lt;/strong&gt;&lt;/p&gt;
@@ -678,7 +678,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
 他のプラットフォーム版をお使いの方は、適宜読み替えてください。&lt;/p&gt;
 &lt;p&gt;特に PC 版と、iOS アプリ AnkiMobile や Android(アンドロイド)アプリ AnkiDroid の間では、データの互換性はありますが、ユーザーインターフェイスや機能に違いがあります。&lt;/p&gt;
 &lt;h3 id=&#34;ios_アプリ向け情報&#34;&gt;iOS アプリ向け情報&lt;/h3&gt;
-&lt;p&gt;iPhone や iPad などで AnkiMobile をお使いの方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;をご覧下さい。はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。&lt;/p&gt;
+&lt;p&gt;iPhone や iPad などで AnkiMobile をお使いの方は、&lt;a href=&#34;/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;をご覧下さい。はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。&lt;/p&gt;
 &lt;h3 id=&#34;android_アプリ向け情報&#34;&gt;Android アプリ向け情報&lt;/h3&gt;
 &lt;p&gt;AnkiDroid の使い方については、&lt;a target=&#34;_new&#34; href=&#34;https://ankidroid.org/docs/manual-ja.html&#34;&gt;AnkiDroid 2 取扱説明書&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
@@ -707,7 +707,7 @@ Ankiでは思い出しやすさで次の復習のタイミングが決まりま�
     &lt;h2&gt;入手方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki2は、&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Ankiオフィシャルサイト&lt;/a&gt;からMac、Windows、Linux/BSD版がダウンロードできます。モバイルデバイス用のアプリケーションのダウンロード先もこちらで紹介しています。&lt;/p&gt;
-&lt;p&gt;「&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;」では、アプリケーションのダウンロードからインストールまでを利用システム別に簡単に説明しています。ダウンロードサイトの英文に気後れするような方はこちら記事をご覧ください。&lt;/p&gt;
+&lt;p&gt;「&lt;a href=&#34;/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;」では、アプリケーションのダウンロードからインストールまでを利用システム別に簡単に説明しています。ダウンロードサイトの英文に気後れするような方はこちら記事をご覧ください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;言語設定&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -716,21 +716,21 @@ Ankiでは思い出しやすさで次の復習のタイミングが決まりま�
 &lt;p&gt;ダウンロードファイルを解凍し、最初に起動すると言語設定の画面が出ます。ここでユーザーインターフェースに使いたい言語を選択してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_1.png&#34; alt=&#34;言語設定画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_1.png&#34; alt=&#34;言語設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 言語設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;次に確認ウィンドウを表示しますので、自分が使用したい言語を選択しているか確認してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_15.png&#34; alt=&#34;言語設定 確認ウィンドウ&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_15.png&#34; alt=&#34;言語設定 確認ウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 言語設定 確認ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[No]を選択すると、先ほどの選択画面に戻ります。&lt;/p&gt;
 &lt;p&gt;後から変更するのは大変なので、慎重に選択項目を確認してください。
 Anki1.2のように環境設定画面から変更することができません。
-具体的な方法は、「&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;」で紹介しています。&lt;/p&gt;
+具体的な方法は、「&lt;a href=&#34;/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;」で紹介しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;起動直後に開くメインウィンドウ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -740,7 +740,7 @@ Anki1.2のように環境設定画面から変更することができません�
 メインウィンドウには、使用中の単語帳一覧を表示します。学習中でもウィンドウ上部の[単語帳]リンクをクリックすると、この画面に戻ります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_2.png&#34; alt=&#34;初回起動直後のメインウィンドウ&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_2.png&#34; alt=&#34;初回起動直後のメインウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 初回起動直後のメインウィンドウ&lt;/div&gt;
 &lt;/div&gt;
@@ -755,7 +755,7 @@ Anki1.2のように環境設定画面から変更することができません�
 [追加]リンクをクリックすると、ノート追加ウィンドウを表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_3.png&#34; alt=&#34;問題を登録&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_3.png&#34; alt=&#34;問題を登録&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノート追加ウィンドウで問題を登録&lt;/div&gt;
 &lt;/div&gt;
@@ -768,7 +768,7 @@ Anki1.2のように環境設定画面から変更することができません�
 &lt;p&gt;また、Frontフィールド、Backフィールドにカーソルを合わせて、追加ウィンドウの上部のボタンの並びから[クリップの画像]ボタン (Mac OS X: fn+F3, Windows: F3) を押して現れた画面からメディアファイルを選択して読み込むこともできます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_12.png&#34; alt=&#34;メディアを登録&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_12.png&#34; alt=&#34;メディアを登録&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. メディアを登録&lt;/div&gt;
 &lt;/div&gt;
@@ -776,16 +776,16 @@ Anki1.2のように環境設定画面から変更することができません�
 &lt;p&gt;問題を全て登録し終わったら、今度は問題を出題させてみましょう。
 [閉じる]ボタンを押して追加ウィンドウを閉じると、元のホームページに戻ります。&lt;/p&gt;
 &lt;h3 id=&#34;テキストの読み上げ&#34;&gt;テキストの読み上げ&lt;/h3&gt;
-&lt;p&gt;音声ファイルを用意するのではなく、フィールドのテキストをPCに読んでもらう (発音する) こともできます。それにはAwesomeTTSというアドオンファイルが必要になります。具体的な設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
-&lt;p&gt;フィールドは追加削除、名前の変更もできます。また、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;カードを編集すると表面、裏面のどこに表示するか設定&lt;/a&gt;できます。またカードに表示しないフィールドを設定することもできます。
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;CSVファイル形式などに保存した複数の問題を一括で読み込む&lt;/a&gt;ことができます。&lt;/p&gt;
+&lt;p&gt;音声ファイルを用意するのではなく、フィールドのテキストをPCに読んでもらう (発音する) こともできます。それにはAwesomeTTSというアドオンファイルが必要になります。具体的な設定方法は、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;p&gt;フィールドは追加削除、名前の変更もできます。また、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;カードを編集すると表面、裏面のどこに表示するか設定&lt;/a&gt;できます。またカードに表示しないフィールドを設定することもできます。
+&lt;a href=&#34;/how-to-import/&#34;&gt;CSVファイル形式などに保存した複数の問題を一括で読み込む&lt;/a&gt;ことができます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;登録したカードの確認&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;登録したカードの確認&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki は、一日の学習の上限値20を設定しているので、20以上登録した場合は、このあとすぐに学習をはじめても全部のカードを見ることが出来ません。&lt;/p&gt;
-&lt;p&gt;登録したカードを確認したい場合は、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザーのプレビュー機能&lt;/a&gt;を利用すると便利です。&lt;/p&gt;
+&lt;p&gt;登録したカードを確認したい場合は、&lt;a href=&#34;/browser-overview/&#34;&gt;ブラウザーのプレビュー機能&lt;/a&gt;を利用すると便利です。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;新規の問題を学習&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -795,7 +795,7 @@ Anki1.2のように環境設定画面から変更することができません�
 この画面では、単語帳の概要と学習キューに入っているカードの内訳を表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_4.png&#34; alt=&#34;単語帳のトップページ&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_4.png&#34; alt=&#34;単語帳のトップページ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 単語帳のトップページ&lt;/div&gt;
 &lt;/div&gt;
@@ -804,14 +804,14 @@ Anki1.2のように環境設定画面から変更することができません�
 &lt;h3 id=&#34;学習の進め方&#34;&gt;学習の進め方&lt;/h3&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_5.png&#34; alt=&#34;出題画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_5.png&#34; alt=&#34;出題画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 出題画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[解答を表示]ボタンを押すと、罫線をはさんで問題と解答が現れます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_6.png&#34; alt=&#34;解答表示&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_6.png&#34; alt=&#34;解答表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 解答表示&lt;/div&gt;
 &lt;/div&gt;
@@ -836,7 +836,7 @@ Anki1.2のように環境設定画面から変更することができません�
 &lt;p&gt;問題を解答していき、全ての問題の復習期日を翌日以降に設定したところで、その日の学習が終了します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_7.png&#34; alt=&#34;一日の学習終了&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_7.png&#34; alt=&#34;一日の学習終了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 一日の学習終了&lt;/div&gt;
 &lt;/div&gt;
@@ -845,14 +845,14 @@ Anki1.2のように環境設定画面から変更することができません�
 &lt;p&gt;単語帳のオプション設定は、メインウィンドウの単語帳一覧から設定したい単語帳をクリックし、画面下の[オプション]ボタンを押すか、キーボードの[O]を押してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_13.png&#34; alt=&#34;音声ファイルについての単語帳のオプション設定&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_13.png&#34; alt=&#34;音声ファイルについての単語帳のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. 音声ファイルについての単語帳のオプション設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;一度再生した音声ファイルをもう一度聴きたい場合は、キーボードの[R]を押すか、画面右下のドロップダウンリスト[もっと]から、[オーディオを再生]を選択してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_14.png&#34; alt=&#34;音声ファイルの再生&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_14.png&#34; alt=&#34;音声ファイルの再生&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. 音声ファイルの再生&lt;/div&gt;
 &lt;/div&gt;
@@ -866,7 +866,7 @@ Anki1.2のように環境設定画面から変更することができません�
 &lt;p&gt;既定では、普通と答えた場合の新規カードの復習期日は1日後です。一日経ったらAnkiを起動し、単語帳一覧から単語帳Default(保存指定した単語帳)をクリックして、出題してみましょう。前の日に学習した問題を出題します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_9.png&#34; alt=&#34;復習問題の解答画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_9.png&#34; alt=&#34;復習問題の解答画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. 復習問題の解答画面&lt;/div&gt;
 &lt;/div&gt;
@@ -912,7 +912,7 @@ Anki学習できる短い時間がもっとたくさん増えるはずです。&
 &lt;p&gt;上の2つの方法で中断した後に、その日の内に再開すれば残りのカードを学習できます。再開した時に、一日の上限までカードを取得しなおすことはありません。&lt;/p&gt;
 &lt;p&gt;翌日以降にセッションを再開した場合は、残りのカードにその日の上限までカードが追加になります。&lt;/p&gt;
 &lt;h3 id=&#34;特定のカードだけ学習をやめる&#34;&gt;特定のカードだけ学習をやめる&lt;/h3&gt;
-&lt;p&gt;特定のカードだけを学習対象から外して、他のカードはそのまま継続したい場合もあります。画面右下のドロップダウンリスト[もっと]から[ノートを延期]、[カードを保留]、[ノートを保留]のいずれか適切なものを選びます(図 11)。この3つの処理の違いについては、&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;で詳しく説明しています。&lt;/p&gt;
+&lt;p&gt;特定のカードだけを学習対象から外して、他のカードはそのまま継続したい場合もあります。画面右下のドロップダウンリスト[もっと]から[ノートを延期]、[カードを保留]、[ノートを保留]のいずれか適切なものを選びます(図 11)。この3つの処理の違いについては、&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;で詳しく説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;出題上限の変更&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -922,7 +922,7 @@ Anki学習できる短い時間がもっとたくさん増えるはずです。&
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-一時的に上限を変更する場合は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習セッション&lt;/a&gt;を使います。
+一時的に上限を変更する場合は、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;カスタム学習セッション&lt;/a&gt;を使います。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -968,7 +968,7 @@ Anki学習できる短い時間がもっとたくさん増えるはずです。&
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_8.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_8.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. 単語帳のオプション設定&lt;/div&gt;
 &lt;/div&gt;
@@ -983,7 +983,7 @@ Anki学習できる短い時間がもっとたくさん増えるはずです。&
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_10.png&#34; alt=&#34;復習のオプション設定&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_10.png&#34; alt=&#34;復習のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. 復習のオプション設定&lt;/div&gt;
 &lt;/div&gt;
@@ -998,13 +998,13 @@ Anki学習できる短い時間がもっとたくさん増えるはずです。&
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_11.png&#34; alt=&#34;忘却のオプション設定&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_11.png&#34; alt=&#34;忘却のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. 忘却のオプション設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;忘却回数が設定値を超えると無駄なカード (Leech) の扱いを受け、保留するか、タグをつけるかどちらかの処理が行われます。&lt;/p&gt;
 &lt;p&gt;初期設定では[保留]に設定され、復習スケジュールから外されます。
-&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;で、復習スケジュールに復帰する方法を説明しています。&lt;/p&gt;
+&lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;で、復習スケジュールに復帰する方法を説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -1018,14 +1018,14 @@ Ankiがスケジュール管理しているので安心して忘れることが�
 &lt;p&gt;この8回の連載では実際の使用手順に基づいた活用方法を紹介します。
 Ankiを使った学習全般を体験できるよう内容を構成しました。
 簡単なものから難しいものにステップアップしていく順番に配置しています。&lt;/p&gt;
-&lt;p&gt;Ankiは、このアプリケーションで特別な意味を持つ用語を多数使用しています。&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集&lt;/a&gt;をまとめていますので、もしAnkiを使っている時に意味の分からない用語にであったら、調べてみてください。&lt;/p&gt;
+&lt;p&gt;Ankiは、このアプリケーションで特別な意味を持つ用語を多数使用しています。&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語集&lt;/a&gt;をまとめていますので、もしAnkiを使っている時に意味の分からない用語にであったら、調べてみてください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;この連載について&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;この連載について&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;はじめてAnkiを使おうとして、何から始めて良いか分からず途方に暮れている人のためにこの連載を書きました。Ankiを使うのに最低限必要な操作を取り上げました。Ankiを使っている人なら誰でも知っていて、常に使っている機能、マニュアルにも当然書いてある機能を説明しています。&lt;/p&gt;
-&lt;p&gt;この連載で取り上げたAnkiの機能は、&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;としてまとめています。調べたい機能が決まっている場合はこの索引も活用してみてください。&lt;/p&gt;
+&lt;p&gt;この連載で取り上げたAnkiの機能は、&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;としてまとめています。調べたい機能が決まっている場合はこの索引も活用してみてください。&lt;/p&gt;
 &lt;p&gt;Ankiの慣れ親しんで、使い方の感覚が掴めれば、&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html&#34;&gt;ユーザーマニュアル&lt;/a&gt;やネット上の情報を活用して、読者の皆さんの専門分野が発揮できるような使い方ができるようになると思います。
 学習する教科、分野によって最適な使い方に違いがあるはずです。その時はぜひ皆さんの高度な技を共有してくださいです。&lt;/p&gt;
 &lt;h3 id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34;&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h3&gt;
@@ -1034,31 +1034,31 @@ Ankiを使った学習全般を体験できるよう内容を構成しました�
 はじめてのAnki – まず使ってみる(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索 &lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索 &lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法 &lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法 &lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集&lt;/a&gt;(Ankiの基本概念の説明)
+&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語集&lt;/a&gt;(Ankiの基本概念の説明)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ユーザーマニュアルやウェブ上の色々な情報を参考にして、自分独自の使い方を見つけられる程度までAnkiの使い方に慣れていただくのが目標です。&lt;/p&gt;
@@ -1067,7 +1067,7 @@ Ankiを使った学習全般を体験できるよう内容を構成しました�
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;Ankiの使い方になれるためのボット&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;ツイッターアカウント Ankigene (@Ankigene) は、&lt;a href=&#34;http://rs.luminousspice.com/ankigene-bot-guide/&#34;&gt;Anki を使い始めた時に、知っておくと役立つ知識&lt;/a&gt;を定期的につぶやきます。
+&lt;p&gt;ツイッターアカウント Ankigene (@Ankigene) は、&lt;a href=&#34;/ankigene-bot-guide/&#34;&gt;Anki を使い始めた時に、知っておくと役立つ知識&lt;/a&gt;を定期的につぶやきます。
 事前に基本的な使い方を目にしていれば、いざという時に情報を探す時間を短縮できます。全ての投稿が20日で一周するスケジュールです。&lt;/p&gt;
 https://twitter.com/Ankigene/status/563269272017711105
 &lt;/section&gt;

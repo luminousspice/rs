@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/github/</link>
+    <link>/tags/github/</link>
     <description>Github | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 30 Nov 2013 23:00:44 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>日本語で読める Free Programming Books</title>
-      <link>http://rs.luminousspice.com/japanese-free-programming-books/</link>
+      <link>/japanese-free-programming-books/</link>
       <pubDate>Sat, 30 Nov 2013 23:00:44 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/japanese-free-programming-books/</guid>
+      <guid>/japanese-free-programming-books/</guid>
       <description>List of Free Programming Books 日本語版は、インターネット上で自由にアクセスできる日本語のプログラミング書籍の一覧です。日本語版独自の特徴、英語版との違い、このプロジェクトへの貢献の仕方について紹介します。</description>
       <content>&lt;section id=&#34;list_of_free_programming_books_とは&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;

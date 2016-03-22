@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mplayer on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/mplayer/</link>
+    <link>/tags/mplayer/</link>
     <description>Mplayer | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 30 Dec 2015 18:30:52 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/mplayer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/mplayer/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki の動画再生に使えるショートカットキー</title>
-      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <link>/mplayer-shortcut-for-anki-video/</link>
       <pubDate>Wed, 30 Dec 2015 18:30:52 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <guid>/mplayer-shortcut-for-anki-video/</guid>
       <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できる MPlayer のショートカットキーをまとめました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。&lt;/p&gt;
@@ -23,7 +23,7 @@
 実は、速度を変えたり、巻き戻しや早送りをするショートカットキーが存在するのです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
+&lt;img src=&#34;/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ショートカットキーで動画の再生速度 91％ に変更&lt;/div&gt;
 &lt;/div&gt;
@@ -106,7 +106,7 @@
 &lt;/table&gt;
 &lt;p&gt;なお、動作確認は Mac でのみ行いました。&lt;/p&gt;
 &lt;p&gt;詳しい情報はオリジナルの&lt;a href=&#34;http://www.mplayerhq.hu/DOCS/man/en/mplayer.1.html#INTERACTIVE%20CONTROL&#34;&gt;MPlayer ドキュメント&lt;/a&gt;に掲載されています。なお、Anki から呼び出した場合に、動作しない機能もあるようです。&lt;/p&gt;
-&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

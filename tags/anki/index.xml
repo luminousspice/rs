@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anki on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/anki/</link>
+    <link>/tags/anki/</link>
     <description>Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/anki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/anki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki ショートカットキー</title>
-      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
+      <link>/anki-shortcuts/</link>
       <pubDate>Sat, 09 Jan 2016 11:20:37 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
+      <guid>/anki-shortcuts/</guid>
       <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。&lt;/p&gt;
 &lt;p&gt;このショートカット集は、Anki の正式なドキュメントの翻訳ではありません。
 筆者が独自に Anki 2.0.33 のソースコードより主なユーザーインターフェイスについてショートカットキーをまとめたものです。このため、文書化されていない機能も含んでおり、将来のバージョンで機能しなくなる場合もあります。また、広く使われているテキスト読み上げ用アドオン AwesomeTTS のショートカットについても一部取り上げました。
 ショートカットキーの表記は、OS X の基準に従っています。他のプラットフォームで利用する場合は適宜読み替えください。また、動作確認は Mac 版でのみで行っております。&lt;/p&gt;
-&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;なお、動画再生ウィンドウのショートカットについては、&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;メインウィンドウ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -32,7 +32,7 @@
 &lt;p&gt;ウィンドウ上のモードは変化しますが、ショートカットで呼び出せる機能自体は共通して使えるものが大半です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
+&lt;img src=&#34;/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 単語帳一覧&lt;/div&gt;
 &lt;/div&gt;
@@ -129,7 +129,7 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
+&lt;img src=&#34;/images/anki2013_1.png&#34; alt=&#34;単語帳概要&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 単語帳概要&lt;/div&gt;
 &lt;/div&gt;
@@ -174,7 +174,7 @@
 &lt;/table&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
+&lt;img src=&#34;/images/cloze2.png&#34; alt=&#34;学習画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 学習画面&lt;/div&gt;
 &lt;/div&gt;
@@ -253,7 +253,7 @@
 &lt;p&gt;ノートを編集するには三つの方法があります。ノートを新規追加する、学習画面で表示中カードのノートを編集する、ブラウザーで選択したカードのノートを編集するになります。呼び出し方や終了の仕方は、それぞれ異なりますが、ノートの編集に関する機能は共通です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_12.png&#34; alt=&#34;新規追加&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 新規追加&lt;/div&gt;
 &lt;/div&gt;
@@ -398,7 +398,7 @@
 &lt;p&gt;カードブラウザーはメインウィンドウから呼び出す、カードのさまざまな属性を一括管理する画面です。カードを一つ選択すると、ウィンドウ右下にノートエディタを表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
+&lt;img src=&#34;/images/cardtype_2.png&#34; alt=&#34;カードブラウザー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. カードブラウザー&lt;/div&gt;
 &lt;/div&gt;
@@ -525,7 +525,7 @@
 &lt;p&gt;プレビューとは、ブラウザで選択したカードを学習画面での表示イメージをプレビューする機能です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
+&lt;img src=&#34;/images/shared-decks-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. プレビュー&lt;/div&gt;
 &lt;/div&gt;
@@ -563,20 +563,20 @@
   &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
+&lt;img src=&#34;/images/mplayer-shortcut.png&#34; alt=&#34;動画再生ウィンドウ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 動画再生ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;動画再生ウィンドウのショートカットについては、&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
     
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
-      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <link>/learn-with-anki/</link>
       <pubDate>Sun, 03 Jan 2016 23:00:16 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <guid>/learn-with-anki/</guid>
       <description>暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。&lt;/p&gt;
@@ -616,7 +616,7 @@
 &lt;p&gt;Anki を使い始めるときの方針は、「初めから決まった量の情報を教材とし、教材の理解は最初から丁寧に行い、新規の情報追加は教材に慣れるまで抑制的にする」です。&lt;/p&gt;
 &lt;p&gt;このような条件に合う教材とは、「音声付きの薄い本」です。&lt;/p&gt;
 &lt;p&gt;Anki に持ち込む前に、本で学べる点が有利です。完成度の高い紙面で学習することが出来、Anki のカードは必要最小限の情報で済ませられるからです。作業に手間がかからないことと、紙面、モニタ、音声の三種類のインターフェイスで同じ内容を学習できることです。分量が限られているので、予定が立てやすく、達成感と満足感が早く得られます。&lt;/p&gt;
-&lt;p&gt;なお、音声がない場合には &lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Anki 上で TTS を使ってテキストを読み上げる&lt;/a&gt;ことも出来ます。&lt;/p&gt;
+&lt;p&gt;なお、音声がない場合には &lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Anki 上で TTS を使ってテキストを読み上げる&lt;/a&gt;ことも出来ます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;モデル教材はフレーズと発音&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -632,12 +632,12 @@
 &lt;p&gt;別のことをしながら、話している内容を確実に聴き取れたかを判断基準に学習しました。&lt;/p&gt;
 &lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51KZQQT259L._SL160_.jpg&#34; alt=&#34;英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]&#34; style=&#34;border: none&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%;margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;スティーブ ソレイシィ Steve Soresi ロビン ソレイシィ Robin Soresi &lt;br /&gt;アルク &lt;br /&gt;売り上げランキング: 1,280&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Anki のカードは、音声だけをカードに埋め込んだシンプルなものを使いました。
-詳しい作り方は、&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;で紹介しています。&lt;/p&gt;
+詳しい作り方は、&lt;a href=&#34;/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;p&gt;百個のファイルの中から毎日 3 件を新規追加して、28日で全て聴き終えた時のデータが次のファイルです。
 一日平均 10 分程度の Anki での学習時間でしたが、三週間を超えた所でブレイクスルーが起り、新規カードの数も学習時間の増加も苦にならなくなりました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-biz100.png&#34; alt=&#34;統計情報 (英会話ペラペラビジネス100)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-biz100.png&#34; alt=&#34;統計情報 (英会話ペラペラビジネス100)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 統計情報 (英会話ペラペラビジネス100)&lt;/div&gt;
 &lt;/div&gt;
@@ -648,7 +648,7 @@
 &lt;p&gt;一日 1 Unit のペースで聴き 14 日で完了しました。その結果を下に記しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-clearspeech.png&#34; alt=&#34;統計情報 (Clear Speech)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-clearspeech.png&#34; alt=&#34;統計情報 (Clear Speech)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 統計情報 (Clear Speech)&lt;/div&gt;
 &lt;/div&gt;
@@ -660,7 +660,7 @@
 &lt;p&gt;Anki 用のカードは、前の本で使ったのと同じシンプルなものを使いました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-audio-card.png&#34; alt=&#34;実際に使用したカード&#34;&gt;
+&lt;img src=&#34;/images/audio-material-audio-card.png&#34; alt=&#34;実際に使用したカード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 実際に使用したカード&lt;/div&gt;
 &lt;/div&gt;
@@ -669,7 +669,7 @@
 &lt;p&gt;一日平均 12 分程度の Anki での学習時間でしたが、二週間過ぎた所で出演者の声に慣れて聴き取りやすくなってきました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-detective.png&#34; alt=&#34;統計情報 (映画英語のリスニング)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-detective.png&#34; alt=&#34;統計情報 (映画英語のリスニング)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 統計情報 (ボトムアップ式 映画英語のリスニング)&lt;/div&gt;
 &lt;/div&gt;
@@ -687,12 +687,12 @@ Anki では TTS を使って発音させながら、綴りを見て意味が瞬�
 &lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51Eolqic2GL._SL160_.jpg&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34; style=&#34;border: none&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%;margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Merriam-Webster&#39;s Vocabulary Builder&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;Mary W. Cornog &lt;br /&gt;Merriam Webster Mass Market &lt;br /&gt;売り上げランキング: 151&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;元の本を読んで、復習クイズを全問解き、さらにわからない見出し語を Anki に入れて復習した結果です。
 二日で 1 Unit のペースで学習し、65 日で終わりました。
-Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;テンプレートから Mac 内蔵の辞書を引ける設定&lt;/a&gt;にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。&lt;/p&gt;
+Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;テンプレートから Mac 内蔵の辞書を引ける設定&lt;/a&gt;にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。&lt;/p&gt;
 &lt;p&gt;毎日平均 8 分 Anki で学習し、三週間経ったところで一日の定型ルーチンが決まり作業が楽になりました。なお、Anki で意味を思い出すよりも、元の本の復習用クイズの方が数段難しく、本での学習に 30 分程度の時間を使いました。
 復習の枚数は最高で 110 枚、100 枚を超えたのは三日でした。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-mwvb.png&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-mwvb.png&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 統計情報 (Merriam-Webster&amp;#8217;s Vocabulary Builder)&lt;/div&gt;
 &lt;/div&gt;
@@ -702,10 +702,10 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     &lt;h2&gt;応用例 ネットのビデオを使用&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;ネットに上がっているビデオでも、完結している動画シリーズであれば、この投稿で紹介したアプローチが使えるでしょう。例えば、RussianPod101.com の &lt;a href=&#34;https://www.youtube.com/playlist?list=PL_knbQpx9pBetwxup_IHr47cQsYvnQhRF&#34;&gt;Russian Weekly Words&lt;/a&gt; は、一回につきロシア語の単語を五個ずつテーマ別に学習する 63 回完結のコースです。英語とロシア語の字幕付きで、例文や会話例も学ぶことが出来ます。&lt;/p&gt;
-&lt;p&gt;Mac を使っている場合は、&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt; を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。&lt;/p&gt;
+&lt;p&gt;Mac を使っている場合は、&lt;a href=&#34;/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt; を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-russianpod-card.png&#34; alt=&#34;Russian Weekly Words を利用したカード&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-russianpod-card.png&#34; alt=&#34;Russian Weekly Words を利用したカード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. Russian Weekly Words を利用したカード&lt;/div&gt;
 &lt;/div&gt;
@@ -716,7 +716,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
   &lt;/div&gt;
 &lt;p&gt;新しい道具を使う時に何から始めればよいか。得意分野では道具の使い方が分かれば自律的に進めますが、そうでない場合は素材とお手本を選ぶ支援が必要となるでしょう。&lt;/p&gt;
 &lt;p&gt;Anki は学習心理学の研究結果に基づいたアルゴリズムを使っていますので、教材を学習することが前提となっています。理解のないまま繰り返し見た内容を無意識の内に覚えるような洗脳の技術を使っている訳ではありません。そこで、Anki での最初の学習を大切にして、後々復習の泥沼はまることのないよう心掛けてモデル学習の事例を作りました。&lt;/p&gt;
-&lt;p&gt;この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 &lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめての Anki&lt;/a&gt;という記事も参考になると思います。&lt;/p&gt;
+&lt;p&gt;この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 &lt;a href=&#34;/how-to-anki/&#34;&gt;はじめての Anki&lt;/a&gt;という記事も参考になると思います。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -730,9 +730,9 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
-      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <link>/learn-audio-material-with-anki/</link>
       <pubDate>Fri, 01 Jan 2016 23:15:03 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <guid>/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。&lt;/p&gt;
@@ -758,7 +758,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;アドオンの設定画面は、メニューバーから [ツール] - [Media Import] で呼び出すことが出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-media-import.png&#34; alt=&#34;Media Import&#34;&gt;
+&lt;img src=&#34;/images/audio-material-media-import.png&#34; alt=&#34;Media Import&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Media Import&lt;/div&gt;
 &lt;/div&gt;
@@ -766,7 +766,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 そして Back フィールドにファイル名 (File Name) を指定したときに作ったカードが下の図になります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-audio-card.png&#34; alt=&#34;カード表示例&#34;&gt;
+&lt;img src=&#34;/images/audio-material-audio-card.png&#34; alt=&#34;カード表示例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. カード表示例&lt;/div&gt;
 &lt;/div&gt;
@@ -774,11 +774,11 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;実際にフィールドの内容を表示すると次のようになります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-noteeditor.png&#34; alt=&#34;ノートエディタ&#34;&gt;
+&lt;img src=&#34;/images/audio-material-noteeditor.png&#34; alt=&#34;ノートエディタ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. ノートエディタ&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;このアドオンの詳しい使い方は、&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt; で説明しています。&lt;/p&gt;
+&lt;p&gt;このアドオンの詳しい使い方は、&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt; で説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;学習の進め方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -788,15 +788,15 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
 &lt;h2 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h2&gt;
 &lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
-毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
+毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
 &lt;h2 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h2&gt;
 &lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
-何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
+何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
 &lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
-&lt;p&gt;また、単語帳のオプション [忘却] 項目で、&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード&lt;/a&gt;になる回数を 2 回、無駄なカードの処理を [カードを保留] に設定しておけば、[もう一回] を 2 回押したら自動的に保留処理を行うので、さらに手数を減らすことが出来ます。&lt;/p&gt;
+&lt;p&gt;また、単語帳のオプション [忘却] 項目で、&lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード&lt;/a&gt;になる回数を 2 回、無駄なカードの処理を [カードを保留] に設定しておけば、[もう一回] を 2 回押したら自動的に保留処理を行うので、さらに手数を減らすことが出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定 (忘却)&#34;&gt;
+&lt;img src=&#34;/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定 (忘却)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 単語帳のオプション設定 (忘却)&lt;/div&gt;
 &lt;/div&gt;
@@ -816,9 +816,9 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。&lt;/p&gt;
@@ -827,7 +827,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;はじめに&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
+&lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
 &lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;注意事項&#34;&gt;
@@ -856,14 +856,14 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-htmleditor.png&#34; alt=&#34;HTML エディタで HTML5 Video 要素を入力する&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-htmleditor.png&#34; alt=&#34;HTML エディタで HTML5 Video 要素を入力する&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで HTML5 Video 要素を入力する&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;完成品は次の通りです。動画下部に再生コントロールが現れます。左から、再生ボタン、再生時間、再生位置表示、全画面表示、音量が調節できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-card.png&#34; alt=&#34;HTML5 Video で動画をカードに埋め込む&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-card.png&#34; alt=&#34;HTML5 Video で動画をカードに埋め込む&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. HTML5 Video で動画をカードに埋め込む&lt;/div&gt;
 &lt;/div&gt;
@@ -888,14 +888,14 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;動画の場合は、動画の真ん中のボタンをタップすると &lt;code&gt;[sound:]&lt;/code&gt; タグで埋め込んだときと同様のコントロールが立ち上がって、動画を再生します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-video.png&#34; alt=&#34;HTML5 Video を iPhone 上で表示&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-iphone-video.png&#34; alt=&#34;HTML5 Video を iPhone 上で表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. HTML5 Video を iPhone 上で表示&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;音声の場合は、再生コントロールを表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-audio.png&#34; alt=&#34;HTML5 Audio を iPhone 上で表示&#34;&gt;
+&lt;img src=&#34;/images/html5-anki-iphone-audio.png&#34; alt=&#34;HTML5 Audio を iPhone 上で表示&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. HTML5 Audio を iPhone 上で表示&lt;/div&gt;
 &lt;/div&gt;
@@ -919,9 +919,9 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     
     <item>
       <title>Anki の動画再生に使えるショートカットキー</title>
-      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <link>/mplayer-shortcut-for-anki-video/</link>
       <pubDate>Wed, 30 Dec 2015 18:30:52 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <guid>/mplayer-shortcut-for-anki-video/</guid>
       <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できる MPlayer のショートカットキーをまとめました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。&lt;/p&gt;
@@ -929,7 +929,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 実は、速度を変えたり、巻き戻しや早送りをするショートカットキーが存在するのです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
+&lt;img src=&#34;/images/mplayer-shortcut.png&#34; alt=&#34;ショートカットキーで動画の再生速度 91％ に変更&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ショートカットキーで動画の再生速度 91％ に変更&lt;/div&gt;
 &lt;/div&gt;
@@ -1012,7 +1012,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/table&gt;
 &lt;p&gt;なお、動作確認は Mac でのみ行いました。&lt;/p&gt;
 &lt;p&gt;詳しい情報はオリジナルの&lt;a href=&#34;http://www.mplayerhq.hu/DOCS/man/en/mplayer.1.html#INTERACTIVE%20CONTROL&#34;&gt;MPlayer ドキュメント&lt;/a&gt;に掲載されています。なお、Anki から呼び出した場合に、動作しない機能もあるようです。&lt;/p&gt;
-&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;p&gt;Anki 本体の機能についてのショートカットキーは、&lt;a href=&#34;/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;にまとめています。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

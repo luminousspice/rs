@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>上限を変更 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E4%B8%8A%E9%99%90%E3%82%92%E5%A4%89%E6%9B%B4/</link>
+    <link>/anki/%E4%B8%8A%E9%99%90%E3%82%92%E5%A4%89%E6%9B%B4/</link>
     <description>上限を変更 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 11 May 2013 20:00:43 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E4%B8%8A%E9%99%90%E3%82%92%E5%A4%89%E6%9B%B4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E4%B8%8A%E9%99%90%E3%82%92%E5%A4%89%E6%9B%B4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
-      <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
+      <link>/how-to-customize-learning/</link>
       <pubDate>Sat, 11 May 2013 20:00:43 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
+      <guid>/how-to-customize-learning/</guid>
       <description>単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカードを集中して復習したい時や、時間に余裕がある時にいつもより多めに学習する場合に使います。前回学んだデータ検索の知識を使って、Ankiの学習方法をカスタマイズしていきましょう。How to customize Anki learning with filterd decks and search query.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回&lt;/strong&gt;&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;第5回目の記事のデータ検索の知識&lt;/a&gt;
+&lt;a href=&#34;/browser-overview/&#34;&gt;第5回目の記事のデータ検索の知識&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -56,7 +56,7 @@
 &lt;p&gt;カスタム学習セッションとは、標準の学習スケジュールから外れて設定する学習セッションのことです。学習対象を絞り込んで集中的に学習することができます。設定画面を表示するには、メインウィンドウで単語帳を選択し、画面下の[カスタム学習]ボタンを押します。(図1)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
+&lt;img src=&#34;/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. カスタム学習設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -77,7 +77,7 @@
 それ以外の項目を選択した場合には、[カスタム学習セッション]という名前の単語帳に移動します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_6_2.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_6_2.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. フィルター単語帳設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -96,13 +96,13 @@
 &lt;p&gt;フィルター単語帳を開いて[オプション]ボタンを押すと、設定画面を呼び出すことができます。(図3)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_6_3.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_6_3.png&#34; alt=&#34;フィルター単語帳設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. フィルター単語帳設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;この画面では、検索条件、抽出枚数、出題順の基本情報と、オプションとしてカスタム学習セッションでの学習結果を通常のスケジュールに反映するか、独自の学習ステップを設定するか指定することができます。&lt;/p&gt;
 &lt;p&gt;既定の検索条件を表1に書き出しました。この条件を自分でカスタマイズすることができます。この5つの項目は、それぞれ別の設定をしている訳ではなく、Ankiが典型的な検索条件のテンプレートを示してくれていると考えてよいです。例えば最初に[先取りして復習する]を選んでも、検索条件を書き換えて、[忘却したカードを復習する]と同じ内容に書き換えても動作します。&lt;/p&gt;
-&lt;p&gt;また、既定では選択中の単語帳の名前が検索条件に自動的に入ります。図2の場合は、&lt;code&gt;deck:&#34;中学英単語&#34;&lt;/code&gt; です。単語帳の指定を消せばコレクション全体が抽出条件になります。AND や OR を設定して複数の単語帳から抽出することもできます。基本的なデータ抽出の知識は&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;前回の記事&lt;/a&gt;で説明した通りです。&lt;/p&gt;
+&lt;p&gt;また、既定では選択中の単語帳の名前が検索条件に自動的に入ります。図2の場合は、&lt;code&gt;deck:&#34;中学英単語&#34;&lt;/code&gt; です。単語帳の指定を消せばコレクション全体が抽出条件になります。AND や OR を設定して複数の単語帳から抽出することもできます。基本的なデータ抽出の知識は&lt;a href=&#34;/browser-overview/&#34;&gt;前回の記事&lt;/a&gt;で説明した通りです。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; class=&#34;table table-striped&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 1. カスタム学習セッションの既定の検索条件 (単語帳を&#34;中学英単語&#34;に指定した場合)&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -227,31 +227,31 @@
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
+&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;(カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
 フィルター単語帳でAnki学習をカスタマイズしよう (カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

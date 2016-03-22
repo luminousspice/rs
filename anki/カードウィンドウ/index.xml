@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>カードウィンドウ on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/</link>
+    <link>/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/</link>
     <description>カードウィンドウ | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 08 Jun 2013 22:00:56 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <link>/changes-in-anki209/</link>
       <pubDate>Sat, 08 Jun 2013 22:00:56 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <guid>/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。</description>
       <content>&lt;section id=&#34;anki2_0_9の注目すべき変更点&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェースの変更、解答キー入力機能の強化を中心に紹介します。&lt;/p&gt;&lt;/div&gt;
@@ -26,7 +26,7 @@
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki 2.0.9が公開されました。このアップデートでは、多くの問題点が修正されました。
 全てのユーザーがAnkiを快適に使える機能が追加されています。タイトルバーにプロファイル名を表示、ブラウザーのプレビュー機能、カスタム学習のユーザーインターフェース変更、解答キー入力機能の強化、起動オプションや削除したノートの記録などです。これらの機能について簡単に紹介したいと思います。
-全ての変更内容をご覧になりたい方は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;&lt;/div&gt;
+全ての変更内容をご覧になりたい方は、&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki2 の変更点&lt;/a&gt;をお読みください。&lt;/p&gt;&lt;/div&gt;
 &lt;h2 id=&#34;タイトルバーにプロファイル名を表示&#34; class=&#34;section&#34;&gt;タイトルバーにプロファイル名を表示&lt;/h2&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;タイトルバーの中に現在使用中のプロファイル名を表示するようになりました。何種類かのプロファイルを使い分けている人、共有PCで個人別にプロファイルを作っている人には非常に便利な機能強化だと思います。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;個人的には、今回のアップデートで最高の機能強化だと思っています。&lt;/p&gt;&lt;/div&gt;
@@ -34,7 +34,7 @@
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ブラウザー内でノートを選択した状態で、ウインドウ上部の[プレビュー]ボタンを押すとカードのプレビューを見ることができます。ウィンドウ下の[&amp;lt;]、[&amp;gt;]ボタンを押すとブラウザー内のノートを順次めくってみることができます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_1.png&#34; alt=&#34;プレビュー画面&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/anki209_1.png&#34; alt=&#34;プレビュー画面&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
 &lt;/div&gt;
@@ -43,7 +43,7 @@
 カードの状態の選択を選択肢の中から選べるようになったので、今までより簡単にフィルター単語帳を作成できるようになりました。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/anki209_2.png&#34; alt=&#34;カスタム学習設定画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. カスタム学習設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -57,14 +57,14 @@
 穴埋め問題と組み合わせると、下の図のようなカードを作ることができます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 表面の解答キー入力画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、&lt;code&gt;{{type:close:テキスト}}&lt;/code&gt; とテンプレートを設定して、「テキスト」フィールドの穴埋めを設定した内容を、解答キー入力機能でチェックしています。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
 &lt;/div&gt;
@@ -73,13 +73,13 @@
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;更にカードウィンドウでのプレビュー機能が強化されました。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_5.png&#34; alt=&#34;解答キー入力機能を設定したカードのプレビュー&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/anki209_5.png&#34; alt=&#34;解答キー入力機能を設定したカードのプレビュー&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 解答キー入力機能を設定したカードのプレビュー&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;にご用意しました。関心のある方はお読みください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Anki2.0.9に基づいた解答キー入力機能の簡単な説明を&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;にご用意しました。関心のある方はお読みください。&lt;/p&gt;&lt;/div&gt;
 &lt;h3 id=&#34;サンプルのダウンロード&#34;&gt;サンプルのダウンロード&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 &lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34;&gt;anki209.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 &lt;a href=&#34;/apkg/anki209.apkg&#34;&gt;anki209.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;&lt;/div&gt;
 &lt;h2 id=&#34;その他の注目すべき変更項目&#34; class=&#34;section&#34;&gt;その他の注目すべき変更項目&lt;/h2&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -121,9 +121,9 @@
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ 第4回&lt;/strong&gt;&lt;/p&gt;
@@ -151,7 +151,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;第2回目の記事で作った中学英語の単語帳&lt;/a&gt;
+&lt;a href=&#34;/how-to-import/&#34;&gt;第2回目の記事で作った中学英語の単語帳&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -187,7 +187,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. カード編集画面&lt;/div&gt;
 &lt;/div&gt;
@@ -207,7 +207,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;p&gt;&#34;Front&#34;フィールド、&#34;Back&#34;フィールドとは追加画面ではそれぞれの項目に相当します。下の図2の場合では、実際の学習画面では&#34;remember&#34;は、表面の{{Front}}と裏面の{{FrontSide}} に、&#34;思い出す&#34;は、裏面の{{Back}}に差し込んで表示します。もし表面のテンプレートが &lt;code&gt;&amp;lt;b&amp;gt;{{Front}}&amp;lt;/b&amp;gt;&lt;/code&gt; だったら、{{FrontSide}}には &lt;code&gt;&amp;lt;b&amp;gt;remember&amp;lt;/b&amp;gt;&lt;/code&gt; が入ります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_3.png&#34; alt=&#34;追加画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_3.png&#34; alt=&#34;追加画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 追加画面&lt;/div&gt;
 &lt;/div&gt;
@@ -230,7 +230,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_3.png&#34; alt=&#34;ノートの種類&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. ノートの種類&lt;/div&gt;
 &lt;/div&gt;
@@ -241,7 +241,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_4.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_4.png&#34; alt=&#34;ノートの種類&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノートタイプの追加&lt;/div&gt;
 &lt;/div&gt;
@@ -252,7 +252,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_5.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_5.png&#34; alt=&#34;ノートの種類&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 基本ノートの追加&lt;/div&gt;
 &lt;/div&gt;
@@ -263,7 +263,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_6.png&#34; alt=&#34;新しいノートの名前&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_6.png&#34; alt=&#34;新しいノートの名前&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 新しいノートの名前&lt;/div&gt;
 &lt;/div&gt;
@@ -278,14 +278,14 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_7.png&#34; alt=&#34;ノートタイプの選択&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_7.png&#34; alt=&#34;ノートタイプの選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. ノートタイプの選択&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;再び追加画面に戻ります。画面左の種類項目に作成したノート「英語単語」が表示されています。(図8)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_8.png&#34; alt=&#34;追加画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_8.png&#34; alt=&#34;追加画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 追加画面&lt;/div&gt;
 &lt;/div&gt;
@@ -299,7 +299,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 画面下のドロップダウンリスト[もっと]から[名前を変更]を選択して「辞書と読み上げ」という名前に変えます。(図9)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_9.png&#34; alt=&#34;カードの名前を変更&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_9.png&#34; alt=&#34;カードの名前を変更&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. カードの名前を変更&lt;/div&gt;
 &lt;/div&gt;
@@ -343,7 +343,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
     &lt;h2&gt;読み上げ設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;単語を音声で読み上げる機能を追加しましょう。そのためには&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;というアドオンをインストールします。アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;に紹介していますので参考にしてください。&lt;/p&gt;
+&lt;p&gt;単語を音声で読み上げる機能を追加しましょう。そのためには&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;というアドオンをインストールします。アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;に紹介していますので参考にしてください。&lt;/p&gt;
 &lt;p&gt;読み上げ設定をするフィールドを &lt;code&gt;TTS&lt;/code&gt; タグで囲みます。さらに使用するシステムの読み上げサービスに応じた属性を指定します。詳しい設定内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTSサイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;p&gt;具体的な記述例を次に紹介します。既にオンライン辞書へのリンクで &lt;code&gt;Front&lt;/code&gt; フィールドを表示していますので、読み上げる &lt;code&gt;Front&lt;/code&gt; フィールドをインラインスタイルシートで非表示にする追加設定をしています。
 表面の文字を非表示にして読み上げを設定すれば、聴き取りやリプロダクション、ディクテーションのためのカードが作成できます。&lt;/p&gt;
@@ -362,7 +362,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
 &lt;p&gt;[プレビュー]ボタンの代わりに、[OK]ボタンを押すと、指定した内容のmp3ファイルをメディアフォルダーに作成して、フィールドに読み込みます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;音声サンプルの再生&#34;&gt;
+&lt;img src=&#34;/images/how2anki-awesometts-preview.png&#34; alt=&#34;音声サンプルの再生&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. AwesomeTTSでの読み上げ音声の確認再生&lt;/div&gt;
 &lt;/div&gt;
@@ -371,7 +371,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
 &lt;p&gt;アドオンを機能させる設定をしましょう。メニューバーから[ツール]&amp;gt;[AwesomeTTS]を開くと設定画面が開きます。(図11)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-config.png&#34; alt=&#34;AwesomeTTSの設定&#34;&gt;
+&lt;img src=&#34;/images/how2anki-awesometts-config.png&#34; alt=&#34;AwesomeTTSの設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. AwesomeTTSの設定&lt;/div&gt;
 &lt;/div&gt;
@@ -387,7 +387,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
 &lt;p&gt;[システム環境設定]&amp;gt;[キーボード]&amp;gt;[キーボード]タブを選択し、[F1、F2 などのすべてのキーを標準のファンクションキーとして使用]を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_16.png&#34; alt=&#34;Mac OS X キーボード設定画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_16.png&#34; alt=&#34;Mac OS X キーボード設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. Mac OS X キーボード設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -442,14 +442,14 @@ end open location&lt;/pre&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_12.png&#34; alt=&#34;ノートタイプの変更&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_12.png&#34; alt=&#34;ノートタイプの変更&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. ノートタイプの変更&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;これで設定が終了です。(図13)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_13.png&#34; alt=&#34;完成図&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_13.png&#34; alt=&#34;完成図&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. 完成図&lt;/div&gt;
 &lt;/div&gt;
@@ -458,11 +458,11 @@ end open location&lt;/pre&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;カードテンプレート完成品&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;この記事で作成したカードテンプレートは、&lt;a href=&#34;http://rs.luminousspice.com/apkg/how2anki4.apkg&#34;&gt;Anki単語帳パッケージ  how2anki4.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;この記事で作成したカードテンプレートは、&lt;a href=&#34;/apkg/how2anki4.apkg&#34;&gt;Anki単語帳パッケージ  how2anki4.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;このファイルをダブルクリックするか、[ファイル]&amp;gt;[読み込む]からこのファイルを選択すると、単語帳「中学英単語」(&#34;remember&#34;というカード1枚を含みます)とノートタイプ「英語単語」が読み込まれます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_14.png&#34; alt=&#34;読み込み完了&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_14.png&#34; alt=&#34;読み込み完了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. 読み込み完了&lt;/div&gt;
 &lt;/div&gt;
@@ -494,31 +494,31 @@ end open location&lt;/pre&gt;
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
 Ankiのカード表示を編集する (カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Python | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 17 Jan 2014 22:55:53 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
-      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
+      <link>/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
+      <guid>/how_to_create_anki_add-ons/</guid>
       <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることができます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことができます。この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「Anki 2.0 アドオンの作成」を補足する内容です。&lt;/p&gt;
 &lt;p&gt;この記事は、АnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/1299246957&#34; target=&#34;_new&#34;&gt;Mature Tag&lt;/a&gt;を例にとって、解説します。
 完成品をインストールして動作させることができますし、ソースコードを見ることもできます。最後に作成したアドオンを AnkiWeb の共有アドオン一覧に登録する方法を紹介します。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法は、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;p&gt;また、ソースコードの表示方法は、インストールが完了した後、メニューバーの[ツール]-[アドオン]-[Mature_Tag]-[編集&amp;#8230;]を選択してください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;前提知識&#34;&gt;
@@ -44,7 +44,7 @@ Python による開発経験
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
+&lt;a href=&#34;/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
 本文中のサンプルコードを実際に動かしてアドオンを作成する経験があると理解に役立ちます。
 &lt;/p&gt;
 &lt;/li&gt;
@@ -162,14 +162,14 @@ addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
 まず、&lt;a href=&#34;https://ankiweb.net/shared/addons/&#34; target=&#34;_new&#34;&gt;共有アドオン一覧&lt;/a&gt;を開き、AnkiWeb にサインインします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_1.png&#34; alt=&#34;アドオン一覧&#34; width=&#34;60%&#34;&gt;
+&lt;img src=&#34;/images/anki_addon_tutorial_1.png&#34; alt=&#34;アドオン一覧&#34; width=&#34;60%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 共有アドオン一覧&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;登録フォームは画面右上の [Upload Add-on] ボタンをクリックすると表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_2.png&#34; alt=&#34;登録フォーム&#34; width=&#34;60%&#34;&gt;
+&lt;img src=&#34;/images/anki_addon_tutorial_2.png&#34; alt=&#34;登録フォーム&#34; width=&#34;60%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. アドオン登録フォーム&lt;/div&gt;
 &lt;/div&gt;
@@ -196,7 +196,7 @@ addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;公開したアドオンのページの下にある [Update] ボタンを押すと登録内容の編集ができ、[Remove] ボタンを押すとアドオンを削除することができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_3.png&#34; alt=&#34;アドオンページ 編集、削除ボタン&#34;&gt;
+&lt;img src=&#34;/images/anki_addon_tutorial_3.png&#34; alt=&#34;アドオンページ 編集、削除ボタン&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. アドオンページ 編集、削除ボタン&lt;/div&gt;
 &lt;/div&gt;
@@ -254,16 +254,16 @@ Anki に Python インタープリタが含まれているため、アドオン�
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;フックを見つけるには、Anki のソースコードを　&#34;runHook&#34;、&#34;runFilter&#34; で検索します。Anki 2.0.20 現在　36 のフックが存在します。&lt;/p&gt;
-&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34; target=&#34;_new&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
+&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34; target=&#34;_new&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
     
     <item>
       <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>
-      <link>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
+      <link>/ipython-notebook-installation-on-macosx/</link>
       <pubDate>Mon, 02 Dec 2013 00:00:49 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
+      <guid>/ipython-notebook-installation-on-macosx/</guid>
       <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。&lt;/p&gt;
@@ -287,9 +287,9 @@ pip install matplotlib
     
     <item>
       <title>静的サイトジェネレータ Pelican で AsciiDoc を使う方法</title>
-      <link>http://rs.luminousspice.com/pelican_with_asciidoc/</link>
+      <link>/pelican_with_asciidoc/</link>
       <pubDate>Sun, 01 Dec 2013 21:00:53 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/pelican_with_asciidoc/</guid>
+      <guid>/pelican_with_asciidoc/</guid>
       <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。AsciiDoc API  のインストール方法と、日本語を処理した時に発生するユニコードエラーの対応について説明しています。&lt;/p&gt;
@@ -350,9 +350,9 @@ Done: Processed 1 articles and 0 pages in 0.40 seconds.
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]</description>
       <content>&lt;section id=&#34;msdn_magazine過去10年分の頻出語彙からanki単語帳を作る&#34;&gt;
 &lt;p&gt;以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析します。前回作成したMSDN Word Listからの差分は102語になりました。&lt;/p&gt;
@@ -391,7 +391,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;以前の記事、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
+&lt;p&gt;以前の記事、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
 コンコーダンサーソフトに読み込む作業の煩雑さから、CHM(Microsoft Compiled HTML Help)形式のファイルは対象としませんでした。&lt;/p&gt;
 &lt;p&gt;今回は、CHMファイルをPDFに変換してコンコーダンサーに読み込む方法に挑戦します。&lt;/p&gt;
 &lt;p&gt;2003年のバックナンバーを改めて読んでみました。.NET Framework 1.1とWindows XP SP2(Springboard)という現在のWindowsプラットフォームの基盤となる製品がリリースした頃です。ここまで遡ってコーパスデータを分析すれば、ほぼWindowsプラットフォームの技術文書に特有な語彙は網羅できるだろうと考えました。&lt;/p&gt;
@@ -410,7 +410,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 この場合は、頻度表をカウントする時に複数のデータベースを指定する必要があります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. CasualConc ファイルツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -427,13 +427,13 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ここで、登録済みのデータを重複して登録するかというダイアログが表示される場合があります。ディレクトリ内に以前作業したファイルが残っている場合などですが、[すべていいえ]を選択してください。&lt;/p&gt;
-&lt;p&gt;その後の手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
+&lt;p&gt;その後の手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
 &lt;h2 id=&#34;10年分に対象を拡大した結果&#34; class=&#34;section&#34;&gt;10年分に対象を拡大した結果&lt;/h2&gt;
 &lt;p&gt;頻度順に語彙を並べて、コーパス全体に占める割合を足していくと2754番目に98%に達します。登場回数は77が最小値です。
 そこから、一般的に高頻度な語彙(GSL+BNC2K)と学術的に高頻度な語彙を除き、MSDN Magazineに特有な頻出語彙662語を抽出しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
+&lt;img src=&#34;/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. MSDN Magazine 過去10年分の使用語彙の内訳&lt;/div&gt;
 &lt;/div&gt;
@@ -447,17 +447,17 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 ほとんど無駄な努力だったかもです。この脱力感がたまらない。同時に直近3年分のデータからの結果に自信を持ちました。&lt;/p&gt;
 &lt;p&gt;直近3年の頻出語句からもれた102語を補足データとして、&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;単語帳のパッケージデータにしました。Level3というタグを付加しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
-&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
+&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
 子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。&lt;/p&gt;
-&lt;p&gt;全体の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;全体の単語帳は、&lt;a href=&#34;/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34; class=&#34;section&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;テキストデータをより広範に収集できれば、頻度表の品質を向上させることができます。
 その際には目的にかなった対象を選ぶことが大切です。&lt;/p&gt;
@@ -506,9 +506,9 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
     
     <item>
       <title>Anki 2.0 アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/anki2addons/</link>
+      <link>/anki2addons/</link>
       <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki2addons/</guid>
+      <guid>/anki2addons/</guid>
       <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
       <content>&lt;hr /&gt;
 
@@ -1020,9 +1020,9 @@ jp.py&lt;/pre&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;h2&gt;日本語版訳注&lt;/h2&gt;
-&lt;p&gt;Anki 2 の変更点を知るには、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34; target=&#34;_blank&#34;&gt;Anki 2の変更点&lt;/a&gt; が役立ちます。&lt;/p&gt;
+&lt;p&gt;Anki 2 の変更点を知るには、&lt;a href=&#34;/changeinanki2/&#34; target=&#34;_blank&#34;&gt;Anki 2の変更点&lt;/a&gt; が役立ちます。&lt;/p&gt;
 &lt;p&gt;更に、アプリケーションの個々の機能や処理を詳しく理解するには &lt;a href=&#34;http://ankisrs.net/docs/manual.html&#34; target=&#34;_blank&#34;&gt;Anki User Manual&lt;/a&gt; をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオン開発の簡単なチュートリアルとして &lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;アドオン開発の簡単なチュートリアルとして &lt;a href=&#34;/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt;日本語版更新履歴&lt;/h2&gt;
 &lt;ul&gt;

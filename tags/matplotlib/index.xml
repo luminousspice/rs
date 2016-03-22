@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matplotlib on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/matplotlib/</link>
+    <link>/tags/matplotlib/</link>
     <description>Matplotlib | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 02 Dec 2013 00:00:49 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>
-      <link>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
+      <link>/ipython-notebook-installation-on-macosx/</link>
       <pubDate>Mon, 02 Dec 2013 00:00:49 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
+      <guid>/ipython-notebook-installation-on-macosx/</guid>
       <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。&lt;/p&gt;

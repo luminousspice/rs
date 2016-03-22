@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>コーパス on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9/</link>
+    <link>/tags/%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9/</link>
     <description>コーパス | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 07 Apr 2014 18:30:27 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。&lt;/p&gt;
@@ -27,10 +27,10 @@
 &lt;p&gt;マニュアルを補足する文書の日本語訳。バージョン間での機能の違いを調べたりや機能を独自にカスタマイズしたり拡張したりするのに役立ちます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;
+&lt;a href=&#34;/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成 日本語訳&lt;/a&gt;
+&lt;a href=&#34;/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成 日本語訳&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -43,57 +43,57 @@
 Anki 2 はベータ版から2年近く毎日使っていますが、この連載の範囲を超える機能はほとんど使ったことがありません。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;
+&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;
+&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
+&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
+&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;
+&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;
+&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;
+&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;
+&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;
 知りたい機能や使い方を紹介している記事へ誘導する索引です。簡単な逆引き辞典です。
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;
+&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;
 Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips - 知っておくとお得な機能たち&lt;/a&gt;
+&lt;a href=&#34;/anki-tips/&#34;&gt;Anki Tips - 知っておくとお得な機能たち&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;
+&lt;a href=&#34;/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオンガイド – Anki をもっと使いやすくするアドオンたち&lt;/a&gt;
+&lt;a href=&#34;/anki-addons-guide/&#34;&gt;Anki アドオンガイド – Anki をもっと使いやすくするアドオンたち&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザーのための Anki 共有単語帳リスト&lt;/a&gt;
+&lt;a href=&#34;/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザーのための Anki 共有単語帳リスト&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/sample-decks/&#34;&gt;Anki 単語帳サンプル一覧&lt;/a&gt;
+&lt;a href=&#34;/sample-decks/&#34;&gt;Anki 単語帳サンプル一覧&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ems-mnemonics/&#34;&gt;Anki 単語帳: 救急診療に役立つ暗記メモ集&lt;/a&gt;
+&lt;a href=&#34;/ems-mnemonics/&#34;&gt;Anki 単語帳: 救急診療に役立つ暗記メモ集&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ankigene-bot-guide/&#34;&gt;Anki の基本知識をつぶやきます&lt;/a&gt;
+&lt;a href=&#34;/ankigene-bot-guide/&#34;&gt;Anki の基本知識をつぶやきます&lt;/a&gt;
 ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、機能拡張するアドオンの説明を取り上げます。
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -106,101 +106,101 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 &lt;h3 id=&#34;anki_の設定とメンテナンス&#34;&gt;Anki の設定とメンテナンス&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;
+&lt;a href=&#34;/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;
+&lt;a href=&#34;/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;
+&lt;a href=&#34;/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;Anki自動バックアップ機能の使い方&lt;/a&gt;
+&lt;a href=&#34;/anki_automatic_backup/&#34;&gt;Anki自動バックアップ機能の使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/restore_corrupt_data/&#34;&gt;破損したAnkiデータの修復&lt;/a&gt;
+&lt;a href=&#34;/restore_corrupt_data/&#34;&gt;破損したAnkiデータの修復&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9の注目すべき変更点&lt;/a&gt;
+&lt;a href=&#34;/changes-in-anki209/&#34;&gt;Anki2.0.9の注目すべき変更点&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;
+&lt;a href=&#34;/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
+&lt;a href=&#34;/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
+&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
+&lt;a href=&#34;/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-timebox-time-limit/&#34;&gt;時間制限して Anki 学習するタイムボックス機能&lt;/a&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/study-session-with-the-unexpected/&#34;&gt;Anki 学習セッション中の予測とは異なる体感&lt;/a&gt;
+&lt;a href=&#34;/anki-timebox-time-limit/&#34;&gt;時間制限して Anki 学習するタイムボックス機能&lt;/a&gt;
+&lt;a href=&#34;/study-session-with-the-unexpected/&#34;&gt;Anki 学習セッション中の予測とは異なる体感&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;anki_の学習方法&#34;&gt;Anki の学習方法&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;
+&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;
+&lt;a href=&#34;/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;
+&lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/suitable-deck/&#34;&gt;おすすめ Anki 単語帳について&lt;/a&gt;
+&lt;a href=&#34;/suitable-deck/&#34;&gt;おすすめ Anki 単語帳について&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-restore-guide/&#34;&gt;転んでもタダでは起きない Anki 再履修の手引き&lt;/a&gt;
+&lt;a href=&#34;/anki-restore-guide/&#34;&gt;転んでもタダでは起きない Anki 再履修の手引き&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/learn-with-anki/&#34;&gt;暗記に強くなるために Anki から上手くサポートを得るには&lt;/a&gt;
+&lt;a href=&#34;/learn-with-anki/&#34;&gt;暗記に強くなるために Anki から上手くサポートを得るには&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;anki_の教材作成&#34;&gt;Anki の教材作成&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
+&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
+&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;
+&lt;a href=&#34;/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/hint_field/&#34;&gt;Ankiのカードにヒントを付ける方法&lt;/a&gt;
+&lt;a href=&#34;/hint_field/&#34;&gt;Ankiのカードにヒントを付ける方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cardtype/&#34;&gt;Ankiのカードタイプと出題方法の増やし方&lt;/a&gt;
+&lt;a href=&#34;/cardtype/&#34;&gt;Ankiのカードタイプと出題方法の増やし方&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;メディアファイルとの連携&#34;&gt;メディアファイルとの連携&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;
+&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;
+&lt;a href=&#34;/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;
+&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt;
+&lt;a href=&#34;/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;
+&lt;a href=&#34;/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;anki_アドオンの作成&#34;&gt;Anki アドオンの作成&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;
+&lt;a href=&#34;/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -211,25 +211,25 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 &lt;p&gt;iPhone、iPad、iPod touch ユーザのために Anki の iOS アプリ AnkiMobile Flashcards のスマホの特性を活用した使い方を紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;
+&lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
+&lt;a href=&#34;/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;
+&lt;a href=&#34;/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;a href=&#34;/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
+&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
+&lt;a href=&#34;/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-study-options/&#34;&gt;AnkiMobile の学習オプションを最適化する&lt;/a&gt;
+&lt;a href=&#34;/ankimobile-study-options/&#34;&gt;AnkiMobile の学習オプションを最適化する&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -240,22 +240,22 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 &lt;p&gt;連載: Art of Anki では、Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;
+&lt;a href=&#34;/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt;
+&lt;a href=&#34;/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt;
+&lt;a href=&#34;/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt;
+&lt;a href=&#34;/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt;
+&lt;a href=&#34;/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt;
+&lt;a href=&#34;/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -273,19 +273,19 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 基本語彙を習得した後に、自分の専門分野に特化した語彙学習の方法をAnkiを使って説明しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;
+&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;
+&lt;a href=&#34;/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;
+&lt;a href=&#34;/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;
+&lt;a href=&#34;/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/words_in_msdn_20130601/&#34;&gt;MSDNの英語[1]&lt;/a&gt; - &#34;A Modern C++ Library for DirectX Programming&#34; June 2013から
+&lt;a href=&#34;/words_in_msdn_20130601/&#34;&gt;MSDNの英語[1]&lt;/a&gt; - &#34;A Modern C++ Library for DirectX Programming&#34; June 2013から
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -296,13 +296,13 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 &lt;p&gt;実際のテキスト購読を進めながら、学習語彙を抽出し Anki と連携する方法について紹介しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how_to_lwt_install/&#34;&gt;はじめてのLearning with Texts(LWT) インストール&lt;/a&gt;
+&lt;a href=&#34;/how_to_lwt_install/&#34;&gt;はじめてのLearning with Texts(LWT) インストール&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/lwt_basics/&#34;&gt;はじめてのLWT 基本的な使い方&lt;/a&gt;
+&lt;a href=&#34;/lwt_basics/&#34;&gt;はじめてのLWT 基本的な使い方&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how_to_export_for_anki/&#34;&gt;はじめてのLWT データ出力&lt;/a&gt;
+&lt;a href=&#34;/how_to_export_for_anki/&#34;&gt;はじめてのLWT データ出力&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -313,19 +313,19 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 &lt;p&gt;本来書くつもりだった普通の個人的なブログの話題です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/zen-coding-with-mi/&#34;&gt;ZenCoding with mi&lt;/a&gt;
+&lt;a href=&#34;/zen-coding-with-mi/&#34;&gt;ZenCoding with mi&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/zencoding-automator-services/&#34;&gt;Zencoding Automator Services&lt;/a&gt;
+&lt;a href=&#34;/zencoding-automator-services/&#34;&gt;Zencoding Automator Services&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/japanese-free-programming-books/&#34;&gt;日本語で読める Free Programming Books&lt;/a&gt;
+&lt;a href=&#34;/japanese-free-programming-books/&#34;&gt;日本語で読める Free Programming Books&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/pelican_with_asciidoc/&#34;&gt;静的サイトジェネレータ Pelican で AsciiDoc を使う方法&lt;/a&gt;
+&lt;a href=&#34;/pelican_with_asciidoc/&#34;&gt;静的サイトジェネレータ Pelican で AsciiDoc を使う方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/&#34;&gt;Mac OS X に IPython Notebook をインストールする場合の注意点&lt;/a&gt;
+&lt;a href=&#34;/ipython-notebook-installation-on-macosx/&#34;&gt;Mac OS X に IPython Notebook をインストールする場合の注意点&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -347,9 +347,9 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析し [&amp;hellip;]</description>
       <content>&lt;section id=&#34;msdn_magazine過去10年分の頻出語彙からanki単語帳を作る&#34;&gt;
 &lt;p&gt;以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析します。前回作成したMSDN Word Listからの差分は102語になりました。&lt;/p&gt;
@@ -388,7 +388,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;h2 id=&#34;はじめに&#34; class=&#34;section&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;以前の記事、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
+&lt;p&gt;以前の記事、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;ではMSDN MagazineのバックナンバーのうちPDF化されている過去3年分について、コーパス分析を行いました。
 コンコーダンサーソフトに読み込む作業の煩雑さから、CHM(Microsoft Compiled HTML Help)形式のファイルは対象としませんでした。&lt;/p&gt;
 &lt;p&gt;今回は、CHMファイルをPDFに変換してコンコーダンサーに読み込む方法に挑戦します。&lt;/p&gt;
 &lt;p&gt;2003年のバックナンバーを改めて読んでみました。.NET Framework 1.1とWindows XP SP2(Springboard)という現在のWindowsプラットフォームの基盤となる製品がリリースした頃です。ここまで遡ってコーパスデータを分析すれば、ほぼWindowsプラットフォームの技術文書に特有な語彙は網羅できるだろうと考えました。&lt;/p&gt;
@@ -407,7 +407,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 この場合は、頻度表をカウントする時に複数のデータベースを指定する必要があります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/msdnwl1.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. CasualConc ファイルツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -424,13 +424,13 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ここで、登録済みのデータを重複して登録するかというダイアログが表示される場合があります。ディレクトリ内に以前作業したファイルが残っている場合などですが、[すべていいえ]を選択してください。&lt;/p&gt;
-&lt;p&gt;その後の手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
+&lt;p&gt;その後の手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;の通りです。&lt;/p&gt;
 &lt;h2 id=&#34;10年分に対象を拡大した結果&#34; class=&#34;section&#34;&gt;10年分に対象を拡大した結果&lt;/h2&gt;
 &lt;p&gt;頻度順に語彙を並べて、コーパス全体に占める割合を足していくと2754番目に98%に達します。登場回数は77が最小値です。
 そこから、一般的に高頻度な語彙(GSL+BNC2K)と学術的に高頻度な語彙を除き、MSDN Magazineに特有な頻出語彙662語を抽出しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
+&lt;img src=&#34;/images/msdnwl10y1.png&#34; alt=&#34;MSDN Magazine コーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. MSDN Magazine 過去10年分の使用語彙の内訳&lt;/div&gt;
 &lt;/div&gt;
@@ -444,17 +444,17 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 ほとんど無駄な努力だったかもです。この脱力感がたまらない。同時に直近3年分のデータからの結果に自信を持ちました。&lt;/p&gt;
 &lt;p&gt;直近3年の頻出語句からもれた102語を補足データとして、&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;単語帳のパッケージデータにしました。Level3というタグを付加しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
-&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
+&lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
 子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。&lt;/p&gt;
-&lt;p&gt;全体の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;全体の単語帳は、&lt;a href=&#34;/apkg/msdnwl.apkg&#34;&gt;Anki単語帳パッケージ msdnwl.apkg (80.6KB)&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/msdnwl10y2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;このAnki単語帳の使い方については、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34; class=&#34;section&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;テキストデータをより広範に収集できれば、頻度表の品質を向上させることができます。
 その際には目的にかなった対象を選ぶことが大切です。&lt;/p&gt;
@@ -503,9 +503,9 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。 An [&amp;hellip;]</description>
       <content>&lt;section id=&#34;wordpress_codexの英語_wordpress開発者のためのanki単語帳&#34;&gt;
 &lt;p&gt;日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。&lt;/p&gt;
@@ -527,7 +527,7 @@ Pythonはシステムに付属しているものではなく、&lt;a href=&#34;h
 &lt;p&gt;大半の情報は、日本語化された部分を手がかりに、英文を読み進めることができる様になっています。&lt;/p&gt;
 &lt;p&gt;日本に住んで、日常的に日本語でコミュニケーションしているWordPress開発者が、WordPress Codexを読むのに必要な最低限の語彙を身につければ、原典にもっと多くの人がアクセスでき、結果として日本語化の速度も進むであろうと考えました。&lt;/p&gt;
 &lt;p&gt;ネイティブ並みの語彙力を目指して膨大なリソースを掛けることなく、開発者としての業務をこなしながら実行可能な語彙学習を提案できれば、多くの人がWordPress Codexを読むための英語学習に取り組むの動機付けができます。&lt;/p&gt;
-&lt;p&gt;データの規模や扱っている技術分野の広さに違いはありますが、同じような性質の情報を収録するマイクロソフトの開発情報リポジトリのMSDNが存在します。MSDNの読解に特化した頻出語彙の抽出を以前の記事&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で行いました。同じ方法をWordPress Codexに適用して、頻出語句の抽出を試みました。&lt;/p&gt;
+&lt;p&gt;データの規模や扱っている技術分野の広さに違いはありますが、同じような性質の情報を収録するマイクロソフトの開発情報リポジトリのMSDNが存在します。MSDNの読解に特化した頻出語彙の抽出を以前の記事&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で行いました。同じ方法をWordPress Codexに適用して、頻出語句の抽出を試みました。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexのデータ取得&#34; class=&#34;section&#34;&gt;WordPress Codexのデータ取得&lt;/h2&gt;
 &lt;p&gt;WordPress Codexは、MediaWikiを利用しています。MediaWikiからのデータの取得方法は、StackExchangeの&lt;a href=&#34;http://wordpress.stackexchange.com/questions/211/local-copy-of-wordpress-codex&#34;&gt;Local copy of WordPress Codex?&lt;/a&gt;という記事を参考にしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://codex.wordpress.org/Special:Export&#34;&gt;Export pages&lt;/a&gt;からXMLデータを取得しました。&lt;/p&gt;
@@ -650,11 +650,11 @@ Codex右上パネルの表示しているカテゴリ(WordPress Lessons、Gettin
 &lt;p&gt;最後に残ったのが446語の語彙表です。この語彙表のことを仮にWordPress Codex Word listと呼びます。図1では専門用語として示しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/wpcx1.png&#34; alt=&#34;WordPress Codexコーパスの内訳&#34;&gt;
+&lt;img src=&#34;/images/wpcx1.png&#34; alt=&#34;WordPress Codexコーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. WordPress Codexコーパスの内訳&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;を参考にしてください。MediaWikiからXMLデータを取り出して後のCasualConcでの処理を具体的に紹介しています。&lt;/p&gt;
+&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;を参考にしてください。MediaWikiからXMLデータを取り出して後のCasualConcでの処理を具体的に紹介しています。&lt;/p&gt;
 &lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
 &lt;p&gt;本当にこの語彙表、WordPress Codex Word listは有効なのか、確認して見ました。
 WordPress Codexのページを選んで分析しました。
@@ -693,7 +693,7 @@ WordPress Codexのページを選んで分析しました。
 &lt;p&gt;抽出した単語データからAnki単語帳にするCSVファイルを作ります。&lt;/p&gt;
 &lt;p&gt;更に、使用頻度が高いものから優先して学習できるように頻度別にタグを付けました。95%被覆が可能な最高頻度のもの(WPCX1, 205個 )と、それ以外の98%被覆が可能な高頻度なもの(WPCX2, 241個)に二分してタグを振りました。&lt;/p&gt;
 &lt;p&gt;Ankiに読み込むCSVファイルは、頻度順に並べました。既定では出現頻度の高いものから出題するようにしました。&lt;/p&gt;
-&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 3. 単語帳の内訳&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -724,15 +724,15 @@ WordPress Codexのページを選んで分析しました。
 &lt;h2 id=&#34;カードの編集&#34; class=&#34;section&#34;&gt;カードの編集&lt;/h2&gt;
 &lt;p&gt;解答面には、オンライン英和和英辞典&lt;a href=&#34;http://ejje.weblio.jp/content/taxonomy&#34;&gt;weblio&lt;/a&gt;、オンライン英英辞典&lt;a href=&#34;https://www.vocabulary.com/dictionary/taxonomy&#34;&gt;Vocabulary.com&lt;/a&gt;、&lt;a href=&#34;http://wordpress.org/search/taxonomy&#34;&gt;WordPress.org Search&lt;/a&gt;へのリンクを追加しました。&lt;/p&gt;
 &lt;p&gt;また、解答面ではGoogleTTSを使用した読み上げ機能を設定しました。実際に動作させるにはアドオンAwesomeTTSのインストールと設定が必要です。&lt;/p&gt;
-&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した単語帳は、Anki単語帳パッケージ wpcxwl.apkgをダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/wpcx2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/wpcx2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
@@ -740,7 +740,7 @@ WordPress Codexのページを選んで分析しました。
 この単語帳の学習の前に、あるいは並行して基本語彙を確認することをお勧めします。&lt;/p&gt;
 &lt;p&gt;頻出語彙2000語については、&lt;a href=&#34;http://www.lextutor.ca/vp/comp/nation_14/&#34;&gt;BNC(British National Corpus)の頻出2000語&lt;/a&gt;や英英辞典の定義語集&lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/oxford3000/&#34;&gt;Oxford 3000&lt;/a&gt;、Longman Defining Vocabulary、&lt;a href=&#34;http://simple.wiktionary.org/wiki/Wiktionary:General_Service_List&#34;&gt;GSL(General Service List)&lt;/a&gt;などの入手しやすいものをお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexを情報源として常時利用するための学習戦略&#34; class=&#34;section&#34;&gt;WordPress Codexを情報源として常時利用するための学習戦略&lt;/h2&gt;
-&lt;p&gt;学習戦略については、&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
+&lt;p&gt;学習戦略については、&lt;a href=&#34;/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
 &lt;p&gt;WordPressが2003年5月27日にリリースしてから丁度10年が過ぎました。
 WordPressプロジェクトに関わる全ての方々の努力で、素晴らしい成果を上げました。&lt;/p&gt;
@@ -755,9 +755,9 @@ WordPressプロジェクトに関わる全ての方々の努力で、素晴ら�
     
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
-      <link>http://rs.luminousspice.com/words-in-msdn/</link>
+      <link>/words-in-msdn/</link>
       <pubDate>Sat, 01 Jun 2013 23:00:37 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
+      <guid>/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</description>
       <content>&lt;section id=&#34;msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略&#34;&gt;
 &lt;p&gt;ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。&lt;/p&gt;
@@ -957,7 +957,7 @@ BNCの上位1000番目に含まれている単語(K1)がこの文章内の単語
 &lt;p&gt;最初に取り上げたMSDN Magazineの記事&#34;Parse JSON Strings in Windows Runtime Components&#34;の使用語彙をこの分類に基づいて図示にすると次のようになります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwords1.png&#34; alt=&#34;語彙の分布&#34;&gt;
+&lt;img src=&#34;/images/msdnwords1.png&#34; alt=&#34;語彙の分布&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 語彙の分布&lt;/div&gt;
 &lt;/div&gt;
@@ -1090,7 +1090,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
 このデータを一番出現しているデータから降順にソートし、個々の単語の被覆率を足し合わせて98%になる順位を求めたところ、3182番目になり、出現回数25回でした。こうして98%被覆するMSDN頻出語句を得ました。&lt;/p&gt;
 &lt;p&gt;この中には、前の項目で説明した、高頻度な語彙(GSL)と学術的な語彙(AWL)が含まれていますので取り除きました。さらに固有名詞も除きました。&lt;/p&gt;
 &lt;p&gt;最後に残ったのが723語の語彙表です。この語彙表のことを仮にMSDN Word listと呼びます。&lt;/p&gt;
-&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で説明しましたので興味のある方はお読みください。Anki単語帳にしたMSDN Word listもダウンロードできます。&lt;/p&gt;
+&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で説明しましたので興味のある方はお読みください。Anki単語帳にしたMSDN Word listもダウンロードできます。&lt;/p&gt;
 &lt;p&gt;この方法以外にも、Cobb教授が&lt;a href=&#34;http://www.lextutor.ca/vp/how_to_techlist.html&#34;&gt;How and why to make a technical (domain-specific) vocabulary list&lt;/a&gt;という記事で専門用語集の作り方を説明していますので紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
 &lt;p&gt;本当にこの語彙表、MSDN word listは有効なのか、確認して見ました。
@@ -1144,7 +1144,7 @@ MSDN Magazine(2009.8-2013.3)の45冊分のPDFファイルです。&lt;/p&gt;
 Nation教授は、基本語彙を習得した後、使用言語が98%既知のする文章を集中的に読む学習方法を勧めています。
 もし難しいと感じた場合は、その記事は日本語で読んだ場合でも難しいはずです。ガッカリしないでください。気分転換に別の記事を読みましょう。&lt;/p&gt;
 &lt;h3 id=&#34;3000_8000語の場合&#34;&gt;3000-8000語の場合&lt;/h3&gt;
-&lt;p&gt;MSDN Word Listを暗記しましょう。暗記学習用ソフトAnki用の単語帳を用意しました。&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;からダウンロードできます。&lt;/p&gt;
+&lt;p&gt;MSDN Word Listを暗記しましょう。暗記学習用ソフトAnki用の単語帳を用意しました。&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;からダウンロードできます。&lt;/p&gt;
 &lt;p&gt;暗記と並行して、始めのうちは通読するのは辛いかもしれませんがMSDN Magazineには常時触れましょう。関心のある記事の一部で構わないので常時読む習慣をつけましょう。
 文中のソースコードもよく読みましょう。ソースコードを説明している文章がたくさん出てきます。
 ソースコードと英語のバイリンガル表記だと思ってください。&lt;/p&gt;
@@ -1166,8 +1166,8 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
 &lt;h3 id=&#34;更に語彙を増やすなら&#34;&gt;更に語彙を増やすなら&lt;/h3&gt;
 &lt;p&gt;同じ手法で更に被覆率を1%上げるのには、つまり99%にするには基本語彙と固有名詞を除くと500語追加すると実現できます。&lt;/p&gt;
 &lt;p&gt;自分の専門分野、例えばデータベースアクセス、ユーザーインターフェースなど、狭い分野の文書を集めてコーパスを作り、頻出の専門用語表作り出しても良いでしょう。&lt;/p&gt;
-&lt;p&gt;それぞれの方法は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で紹介しているコーパス作成から頻度表を作る方法も参考にしてみてください。&lt;/p&gt;
-&lt;p&gt;MSDN Word Listのフォローアップ企画として、MSDN Magazineの最新の記事から、MSDN Word Listの範囲で実際どれだけカバーできて、どんなものが未知語になるか紹介する&lt;a href=&#34;http://rs.luminousspice.com/?cat=34&#34;&gt;連載記事: MSDNの英語&lt;/a&gt;を始めました。&lt;/p&gt;
+&lt;p&gt;それぞれの方法は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で紹介しているコーパス作成から頻度表を作る方法も参考にしてみてください。&lt;/p&gt;
+&lt;p&gt;MSDN Word Listのフォローアップ企画として、MSDN Magazineの最新の記事から、MSDN Word Listの範囲で実際どれだけカバーできて、どんなものが未知語になるか紹介する&lt;a href=&#34;/?cat=34&#34;&gt;連載記事: MSDNの英語&lt;/a&gt;を始めました。&lt;/p&gt;
 &lt;h3 id=&#34;内容理解に努める&#34;&gt;内容理解に努める&lt;/h3&gt;
 &lt;p&gt;アプリケーション開発の経験や知識の深さが、MSDN文書の理解を高めます。実務経験なしには理解は向上しません。たとえネイティブ並みの語彙量があっても、この分野の経験が全くなければ、MSDNの文書は全く理解できないでしょう。&lt;/p&gt;
 &lt;p&gt;ソフトウェア開発の経験を積むこと、ソースコードを読んで理解することも大切です。
@@ -1195,9 +1195,9 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
     
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <link>/frequent-words-in-msdn/</link>
       <pubDate>Mon, 27 May 2013 00:30:32 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <guid>/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。MSDN Magazine バックナンバーのコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介します。GSL頻出2000語とAWLを理解した上で、作成したMSDN word listを学習すれば、使用語彙の98%をカバーできます。</description>
       <content>&lt;section id=&#34;ankiを使ってwindows開発者の必須語彙を習得しよう&#34;&gt;
 &lt;p&gt;Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介します。&lt;/p&gt;
@@ -1242,7 +1242,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 対象とする文字資料のデータベース(コーパス)を作成し、その語彙の頻度分析から、Anki単語帳に加工する方法を紹介します。&lt;/p&gt;
 &lt;p&gt;この方法を使えば、テキストデータさえ手に入れば自分の好みに合うニッチな単語帳をどんどん作り出せます。&lt;/p&gt;
 &lt;p&gt;その一例として、Windowsアプリケーション開発の正式なリファレンス &lt;a href=&#34;http://msdn.microsoft.com&#34;&gt;MSDN&lt;/a&gt;の使用語彙の頻度表をコーパスから作成し、Anki単語帳に加工する手順を紹介します。&lt;/p&gt;
-&lt;p&gt;なお、&lt;a href=&#34;http://codex.wordpress.org&#34;&gt;WordPress Codex&lt;/a&gt;の頻出語彙を同様にAnki単語帳に加工する方法を&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;に書きました。こちらは、MediaWikiからデータを取り出す方法を説明しています。&lt;/p&gt;
+&lt;p&gt;なお、&lt;a href=&#34;http://codex.wordpress.org&#34;&gt;WordPress Codex&lt;/a&gt;の頻出語彙を同様にAnki単語帳に加工する方法を&lt;a href=&#34;/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;に書きました。こちらは、MediaWikiからデータを取り出す方法を説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;収集データの選択&#34; class=&#34;section&#34;&gt;収集データの選択&lt;/h2&gt;
 &lt;p&gt;まずは、コーパス作成用の元データを準備します。MSDN全体のテキストデータを入手することは不可能ですので、代表サンプルとして過去3年分のMSDN Magazineのバックナンバーを使います。&lt;/p&gt;
 &lt;p&gt;MSDN Magazineは、Windowsプラットフォームの開発者のためのQuality Paperです。&lt;/p&gt;
@@ -1250,7 +1250,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;p&gt;有償の定期購読者のために決められた紙面の量を出版することを前提としているので、編集者が非常に高い質の編集をしています。文章の内容と質ともにMSDN内では傑出しています。また、電子データの形で公開されています。&lt;/p&gt;
 &lt;p&gt;MSDN収録文書に対して代表性を持ち、コーパス分析ソフトによる検索可能な可読性を持っています。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/ee310108.aspx&#34;&gt;MSDN Magazine Issues and Downloads&lt;/a&gt;からMSDN Magazineのバックナンバーがダウンロード可能です。最新のPDF形式のものだけ(2009.08-2013.03)を抽出しました。それ以前のものは、CHM形式で変換が手間が増えるので対象にはしませんでした。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2013/6/7 追記:&lt;/strong&gt; 全てのCHMファイルを対象として過去10年間のMSDN Magazineの記事データを分析した内容を、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;に書きました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2013/6/7 追記:&lt;/strong&gt; 全てのCHMファイルを対象として過去10年間のMSDN Magazineの記事データを分析した内容を、&lt;a href=&#34;/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;に書きました。&lt;/p&gt;
 &lt;h2 id=&#34;コーパスの作成と頻度表の生成&#34; class=&#34;section&#34;&gt;コーパスの作成と頻度表の生成&lt;/h2&gt;
 &lt;p&gt;一般的なコンコーダンサーアプリケーションであれば、コーパスから頻度表を作成する機能を持っています。この記事では、Mac OS X上で動作するアプリとして&lt;a href=&#34;https://sites.google.com/site/casualconcj/Home&#34;&gt;CasualConc&lt;/a&gt;を選択しました。Mac OS Xの場合には、ほとんど選択肢がないのですが、WindowsやLinuxのアプリは多数に存在します。&lt;/p&gt;
 &lt;p&gt;CasualConcの良い点は、PDFのまま処理できる点です。コーパス作成から頻度表の作り方の具体的な手順は、&lt;a href=&#34;https://sites.google.com/site/casualconcj/tsukaikata&#34;&gt;CasualConcの使い方&lt;/a&gt;をご覧ください。&lt;/p&gt;
@@ -1282,7 +1282,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 &lt;p&gt;画面右上の[データベース]ボタンを押す。(図1)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl2.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/msdnwl2.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. CasualConc ファイルツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1300,7 +1300,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl1.png&#34; alt=&#34;最初の画像&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/msdnwl1.png&#34; alt=&#34;最初の画像&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. CasualConc 頻度分析の結果表示&lt;/div&gt;
 &lt;/div&gt;
@@ -1377,7 +1377,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 &lt;/table&gt;
 &lt;p&gt;一般的な基本語彙(GSL+AWL)を理解している場合、使用語彙の10%程度が未知の語句を含むテキストが、このMSDN word listを加えることで、未知の語句を2%にまで圧縮できる結果を得ました。&lt;/p&gt;
 &lt;p&gt;今回の記事では、Anki単語帳を作成する手順を重視して作成しています。
-MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;で行っています。&lt;/p&gt;
+MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href=&#34;/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;で行っています。&lt;/p&gt;
 &lt;h3 id=&#34;msdn_word_listの内訳の検討&#34;&gt;MSDN word listの内訳の検討&lt;/h3&gt;
 &lt;p&gt;抽出したデータを検討すると、Agileなどアプリケーション開発のコミュニケーションでカタカナ英語として既に流通しているものが221個見られました。また、翻訳しようのないGUIなど略語も51個ありました。&lt;/p&gt;
 &lt;p&gt;これらの用語については、区別のため「カタカナ」、「略語」というタグを付けることにしました。
@@ -1387,11 +1387,11 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 。&lt;/p&gt;
 &lt;p&gt;更に、使用頻度が高いものから優先して学習できるように頻度別にタグを付けました。95%被覆が可能な最高頻度のもの(Level1, 344個 )と、それ以外の98%被覆が可能な高頻度なもの(Level2, 378個)に二分してタグを振りました。&lt;/p&gt;
 &lt;p&gt;Ankiに読み込むCSVファイルは、頻度順に並べました。既定では出現頻度の高いものから出題するようにしました。&lt;/p&gt;
-&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
 &lt;p&gt;最終的には722個のデータをAnkiに読み込んでから4分割して子単語帳に収めました。子単語帳に分割する具体的な手順は
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2013/6/7注:&lt;/strong&gt;
-過去10年分まで分析対象を拡大した場合、新たに頻出語句に加わる102語をLevel3として追加しました。詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;をご覧ください。&lt;/p&gt;
+過去10年分まで分析対象を拡大した場合、新たに頻出語句に加わる102語をLevel3として追加しました。詳しくは、&lt;a href=&#34;/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 2. 単語帳の内訳&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -1437,15 +1437,15 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 &lt;h2 id=&#34;カードの編集&#34; class=&#34;section&#34;&gt;カードの編集&lt;/h2&gt;
 &lt;p&gt;解答面には、オンライン英和和英辞典&lt;a href=&#34;http://ejje.weblio.jp/content/retrieve&#34;&gt;weblio&lt;/a&gt;、オンライン英英辞典&lt;a href=&#34;https://www.vocabulary.com/dictionary/retrieve&#34;&gt;Vocabulary.com&lt;/a&gt;、&lt;a href=&#34;http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;amp;refinement=118%2C117&amp;amp;ac=2&#34;&gt;MSDNオンライン検索&lt;/a&gt;(MSDN MagazineとMSDN Library限定)、&lt;a href=&#34;http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;amp;langID=ja-jp&#34;&gt;マイクロソフト用語集&lt;/a&gt;へのリンクを追加しました。&lt;/p&gt;
 &lt;p&gt;また、解答面ではGoogleTTSを使用した読み上げ機能を設定しました。実際に動作させるにはアドオンAwesomeTTSのインストールと設定が必要です。&lt;/p&gt;
-&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した単語帳は、Anki単語帳パッケージ msdnwl.apkg をダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl3.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/msdnwl3.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1458,7 +1458,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 &lt;p&gt;親単語帳「MSDNWords」を学習した場合は、Level1&amp;gt;Level2&amp;gt;カタカナ英語&amp;gt;略語の優先順で新規カードの取得が行われます。&lt;/p&gt;
 &lt;p&gt;子の単語帳を学習するとそれぞれの項目を選択的に学習することができます。&lt;/p&gt;
 &lt;p&gt;全ての単語をランダムに学習したい場合は、子単語帳のカードを全て親単語帳に戻すか、フィルター単語帳を作成してください。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;では、カスタム学習の設定方法を詳しく紹介しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;では、カスタム学習の設定方法を詳しく紹介しています。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34; class=&#34;section&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;共有の頻度データがない場合でも、文字資料が入手できればコンコーダンサーソフトを使うと簡単に語彙頻度リストを得ることができます。&lt;/p&gt;
 &lt;p&gt;既存のコーパスデータは、その目的から汎用性を重視した内容となっています。

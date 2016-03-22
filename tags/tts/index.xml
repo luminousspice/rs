@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tts on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/tts/</link>
+    <link>/tags/tts/</link>
     <description>Tts | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/tts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/tts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>/speech-text-on-ankimobile/</guid>
       <description>iPhone 版 Anki では、システムのアクセシビリティ機能を利用するとテキストを読み上げることが出来ます。この機能の呼び出し方を紹介します。How to use text-to-speech on iOS (AnkiMobile)</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
@@ -43,7 +43,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile の最低限な使用方法を理解していることを前提として説明します。
-文中にもし不明な項目が出てきたら &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+文中にもし不明な項目が出てきたら &lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -69,7 +69,7 @@
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/setting-selectionspeech.png&#34; alt=&#34;setting-selectionspeech.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/setting-selectionspeech.png&#34; alt=&#34;setting-selectionspeech.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 選択項目を読み上げ設定&lt;/div&gt;
 &lt;/div&gt;
@@ -94,7 +94,7 @@
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[声] (2) で表示した言語の一覧から、言語をタップして指定すると言語別に音声の種類(a)、品質(b)、読み上げ速度(c) を設定できます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/setting-voice.png&#34; alt=&#34;setting-voice.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/setting-voice.png&#34; alt=&#34;setting-voice.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 声の詳細設定&lt;/div&gt;
 &lt;/div&gt;
@@ -120,7 +120,7 @@
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 選択範囲を指定して読み上げる&lt;/div&gt;
 &lt;/div&gt;
@@ -155,7 +155,7 @@
 &lt;span class=&#34;nt&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声の読み上げ速度(1)、音量(2)、ピッチ(3)、言語(4)を指定することが出来ます。
-カードテンプレートの編集方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;&lt;/div&gt;
+カードテンプレートの編集方法については、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_anki_と_ankimobile_を同期している場合&#34;&gt;Anki と AnkiMobile を同期している場合&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;読み込み機能を使いたいカードのカードテンプレートに上の設定を追加し、AnkiMobile と同期します。&lt;/p&gt;&lt;/div&gt;
@@ -183,12 +183,12 @@
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/add-note.png&#34; alt=&#34;add-note.png&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/add-note.png&#34; alt=&#34;add-note.png&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノート追加画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;共有単語帳のインストール手順やノートの追加方法は &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;をご覧下さい。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声データをカードに使いたい方は、&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;共有単語帳のインストール手順やノートの追加方法は &lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;をご覧下さい。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;音声データをカードに使いたい方は、&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;を参考にしてください。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -211,9 +211,9 @@
     
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
-      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <link>/bulk-import-media-files-into-anki/</link>
       <pubDate>Sun, 13 Apr 2014 00:00:27 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <guid>/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。How to bulk import media files (images, audios and videos) into Anki Decks.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオンをつかった自動化、既存のテキストデータにメディアデータを追加する方法、最後にアドオンを使った音声データの自動作成方法を取り上げます。&lt;/p&gt;
@@ -222,7 +222,7 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;データの一括登録&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
+&lt;p&gt;テキストデータの一括登録方法は、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介しました。
 この記事では学習データの一括登録の一般的な方法については説明しています。
 今回は、この記事をさらに発展させてテキストにメディアファイル (音声、画像、動画) を添付して一括登録する方法を紹介します。&lt;/p&gt;
 &lt;/section&gt;
@@ -231,7 +231,7 @@
     &lt;h2&gt;前提知識&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のデータ読み込みの方法についての理解
-または、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
+または、&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;の内容の理解&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;メディアファイル利用の基本&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -246,7 +246,7 @@
 フィールドに添付ファイルが反映されたら、HTML エディタを開いてその内容を確認します。(Mac OS X: Command+Shift+X, Windows: Ctrl+Shift+X)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_1.png&#34; alt=&#34;HTML エディタで内容を確認&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで内容を確認&lt;/div&gt;
 &lt;/div&gt;
@@ -343,7 +343,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_2.png&#34; alt=&#34;読み込みオプション&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 読み込みオプション&lt;/div&gt;
 &lt;/div&gt;
@@ -361,21 +361,21 @@
 &lt;p&gt;メニューバーから [ツール] - [Media Import&amp;#8230;] を選択して登録するメディアデータが入っているフォルダーを指定します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_3.png&#34; alt=&#34;Media Import の呼び出し&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. Media Import の呼び出し&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;テキストファイルの用意は不要で、ファイル名を Front フィールドに使いたい文字列を設定すれば、メディアファイルをつくるだけで 単語帳 &lt;code&gt;MediaImport&lt;/code&gt; へ一括登録できてしまうところです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Media Import の処理完了&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;処理毎に基本ノートタイプのクローンを作成するので、同じフォルダーを繰り返し処理しても上書きされることはありません。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_5.png&#34; alt=&#34;Media Import を使用した読み込み例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. Media Import を使用した読み込み例&lt;/div&gt;
 &lt;/div&gt;
@@ -393,7 +393,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
+実際の教材では、Front と Back の表示場所を反転する必要があるかも知れません。カードテンプレートの編集方法は、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
@@ -423,7 +423,7 @@ Front フィールドに単語が入力済みで、その単語に拡張子 mp3(
 入力条件に正規表現を使う: 有効&lt;/pre&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_6.png&#34; alt=&#34;検索置換条件&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 検索置換条件&lt;/div&gt;
 &lt;/div&gt;
@@ -435,7 +435,7 @@ Front フィールドに単語が入力済みで、その単語に拡張子 mp3(
   &lt;/div&gt;
 &lt;p&gt;音声ファイルを持っていない場合に、音声データ (mp3) を自動生成する方法を紹介します。
 TTS サービスが使えない別の機器用に音声データを自作するのにも利用できます。&lt;/p&gt;
-&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
+&lt;p&gt;アドオン &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;フィールドのテキストを読み上げる機能&lt;/a&gt;に加えて、音声ファイルを保存する機能をがあります。読み上げたデータを保存する機能になるのではないかと思います。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 まずブラウザを開き、検索条件を設定して編集したいカードを絞り込みます。
@@ -449,14 +449,14 @@ TTS サービスが使えない別の機器用に音声データを自作する�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_7.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の呼び出し方&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AwesomeTTS MP3 Mass Generator の呼び出し方&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AwesomeTTS MP3 Mass Generator の設定画面では次のように設定します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. AwesomeTTS MP3 Mass Generator の設定例&lt;/div&gt;
 &lt;/div&gt;
@@ -531,9 +531,9 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。 An [&amp;hellip;]</description>
       <content>&lt;section id=&#34;wordpress_codexの英語_wordpress開発者のためのanki単語帳&#34;&gt;
 &lt;p&gt;日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。&lt;/p&gt;
@@ -555,7 +555,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
 &lt;p&gt;大半の情報は、日本語化された部分を手がかりに、英文を読み進めることができる様になっています。&lt;/p&gt;
 &lt;p&gt;日本に住んで、日常的に日本語でコミュニケーションしているWordPress開発者が、WordPress Codexを読むのに必要な最低限の語彙を身につければ、原典にもっと多くの人がアクセスでき、結果として日本語化の速度も進むであろうと考えました。&lt;/p&gt;
 &lt;p&gt;ネイティブ並みの語彙力を目指して膨大なリソースを掛けることなく、開発者としての業務をこなしながら実行可能な語彙学習を提案できれば、多くの人がWordPress Codexを読むための英語学習に取り組むの動機付けができます。&lt;/p&gt;
-&lt;p&gt;データの規模や扱っている技術分野の広さに違いはありますが、同じような性質の情報を収録するマイクロソフトの開発情報リポジトリのMSDNが存在します。MSDNの読解に特化した頻出語彙の抽出を以前の記事&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で行いました。同じ方法をWordPress Codexに適用して、頻出語句の抽出を試みました。&lt;/p&gt;
+&lt;p&gt;データの規模や扱っている技術分野の広さに違いはありますが、同じような性質の情報を収録するマイクロソフトの開発情報リポジトリのMSDNが存在します。MSDNの読解に特化した頻出語彙の抽出を以前の記事&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;で行いました。同じ方法をWordPress Codexに適用して、頻出語句の抽出を試みました。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexのデータ取得&#34; class=&#34;section&#34;&gt;WordPress Codexのデータ取得&lt;/h2&gt;
 &lt;p&gt;WordPress Codexは、MediaWikiを利用しています。MediaWikiからのデータの取得方法は、StackExchangeの&lt;a href=&#34;http://wordpress.stackexchange.com/questions/211/local-copy-of-wordpress-codex&#34;&gt;Local copy of WordPress Codex?&lt;/a&gt;という記事を参考にしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://codex.wordpress.org/Special:Export&#34;&gt;Export pages&lt;/a&gt;からXMLデータを取得しました。&lt;/p&gt;
@@ -678,11 +678,11 @@ Codex右上パネルの表示しているカテゴリ(WordPress Lessons、Gettin
 &lt;p&gt;最後に残ったのが446語の語彙表です。この語彙表のことを仮にWordPress Codex Word listと呼びます。図1では専門用語として示しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/wpcx1.png&#34; alt=&#34;WordPress Codexコーパスの内訳&#34;&gt;
+&lt;img src=&#34;/images/wpcx1.png&#34; alt=&#34;WordPress Codexコーパスの内訳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. WordPress Codexコーパスの内訳&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;を参考にしてください。MediaWikiからXMLデータを取り出して後のCasualConcでの処理を具体的に紹介しています。&lt;/p&gt;
+&lt;p&gt;詳しい作成手順は、&lt;a href=&#34;/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;を参考にしてください。MediaWikiからXMLデータを取り出して後のCasualConcでの処理を具体的に紹介しています。&lt;/p&gt;
 &lt;h2 id=&#34;作成データの検証&#34; class=&#34;section&#34;&gt;作成データの検証&lt;/h2&gt;
 &lt;p&gt;本当にこの語彙表、WordPress Codex Word listは有効なのか、確認して見ました。
 WordPress Codexのページを選んで分析しました。
@@ -721,7 +721,7 @@ WordPress Codexのページを選んで分析しました。
 &lt;p&gt;抽出した単語データからAnki単語帳にするCSVファイルを作ります。&lt;/p&gt;
 &lt;p&gt;更に、使用頻度が高いものから優先して学習できるように頻度別にタグを付けました。95%被覆が可能な最高頻度のもの(WPCX1, 205個 )と、それ以外の98%被覆が可能な高頻度なもの(WPCX2, 241個)に二分してタグを振りました。&lt;/p&gt;
 &lt;p&gt;Ankiに読み込むCSVファイルは、頻度順に並べました。既定では出現頻度の高いものから出題するようにしました。&lt;/p&gt;
-&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 3. 単語帳の内訳&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -752,15 +752,15 @@ WordPress Codexのページを選んで分析しました。
 &lt;h2 id=&#34;カードの編集&#34; class=&#34;section&#34;&gt;カードの編集&lt;/h2&gt;
 &lt;p&gt;解答面には、オンライン英和和英辞典&lt;a href=&#34;http://ejje.weblio.jp/content/taxonomy&#34;&gt;weblio&lt;/a&gt;、オンライン英英辞典&lt;a href=&#34;https://www.vocabulary.com/dictionary/taxonomy&#34;&gt;Vocabulary.com&lt;/a&gt;、&lt;a href=&#34;http://wordpress.org/search/taxonomy&#34;&gt;WordPress.org Search&lt;/a&gt;へのリンクを追加しました。&lt;/p&gt;
 &lt;p&gt;また、解答面ではGoogleTTSを使用した読み上げ機能を設定しました。実際に動作させるにはアドオンAwesomeTTSのインストールと設定が必要です。&lt;/p&gt;
-&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した単語帳は、Anki単語帳パッケージ wpcxwl.apkgをダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/apkg/wpcxwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ wpcxwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/wpcx2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/wpcx2.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
@@ -768,7 +768,7 @@ WordPress Codexのページを選んで分析しました。
 この単語帳の学習の前に、あるいは並行して基本語彙を確認することをお勧めします。&lt;/p&gt;
 &lt;p&gt;頻出語彙2000語については、&lt;a href=&#34;http://www.lextutor.ca/vp/comp/nation_14/&#34;&gt;BNC(British National Corpus)の頻出2000語&lt;/a&gt;や英英辞典の定義語集&lt;a href=&#34;http://oald8.oxfordlearnersdictionaries.com/oxford3000/&#34;&gt;Oxford 3000&lt;/a&gt;、Longman Defining Vocabulary、&lt;a href=&#34;http://simple.wiktionary.org/wiki/Wiktionary:General_Service_List&#34;&gt;GSL(General Service List)&lt;/a&gt;などの入手しやすいものをお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;wordpress_codexを情報源として常時利用するための学習戦略&#34; class=&#34;section&#34;&gt;WordPress Codexを情報源として常時利用するための学習戦略&lt;/h2&gt;
-&lt;p&gt;学習戦略については、&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
+&lt;p&gt;学習戦略については、&lt;a href=&#34;/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;の中で、MSDNについて解説した方法と変わりません。MSDNをWordPress Codexと読み替えてお使いください。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34; class=&#34;section&#34;&gt;おわりに&lt;/h2&gt;
 &lt;p&gt;WordPressが2003年5月27日にリリースしてから丁度10年が過ぎました。
 WordPressプロジェクトに関わる全ての方々の努力で、素晴らしい成果を上げました。&lt;/p&gt;
@@ -783,9 +783,9 @@ WordPressプロジェクトに関わる全ての方々の努力で、素晴ら�
     
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <link>/frequent-words-in-msdn/</link>
       <pubDate>Mon, 27 May 2013 00:30:32 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <guid>/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。MSDN Magazine バックナンバーのコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介します。GSL頻出2000語とAWLを理解した上で、作成したMSDN word listを学習すれば、使用語彙の98%をカバーできます。</description>
       <content>&lt;section id=&#34;ankiを使ってwindows開発者の必須語彙を習得しよう&#34;&gt;
 &lt;p&gt;Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介します。&lt;/p&gt;
@@ -830,7 +830,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 対象とする文字資料のデータベース(コーパス)を作成し、その語彙の頻度分析から、Anki単語帳に加工する方法を紹介します。&lt;/p&gt;
 &lt;p&gt;この方法を使えば、テキストデータさえ手に入れば自分の好みに合うニッチな単語帳をどんどん作り出せます。&lt;/p&gt;
 &lt;p&gt;その一例として、Windowsアプリケーション開発の正式なリファレンス &lt;a href=&#34;http://msdn.microsoft.com&#34;&gt;MSDN&lt;/a&gt;の使用語彙の頻度表をコーパスから作成し、Anki単語帳に加工する手順を紹介します。&lt;/p&gt;
-&lt;p&gt;なお、&lt;a href=&#34;http://codex.wordpress.org&#34;&gt;WordPress Codex&lt;/a&gt;の頻出語彙を同様にAnki単語帳に加工する方法を&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;に書きました。こちらは、MediaWikiからデータを取り出す方法を説明しています。&lt;/p&gt;
+&lt;p&gt;なお、&lt;a href=&#34;http://codex.wordpress.org&#34;&gt;WordPress Codex&lt;/a&gt;の頻出語彙を同様にAnki単語帳に加工する方法を&lt;a href=&#34;/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;に書きました。こちらは、MediaWikiからデータを取り出す方法を説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;収集データの選択&#34; class=&#34;section&#34;&gt;収集データの選択&lt;/h2&gt;
 &lt;p&gt;まずは、コーパス作成用の元データを準備します。MSDN全体のテキストデータを入手することは不可能ですので、代表サンプルとして過去3年分のMSDN Magazineのバックナンバーを使います。&lt;/p&gt;
 &lt;p&gt;MSDN Magazineは、Windowsプラットフォームの開発者のためのQuality Paperです。&lt;/p&gt;
@@ -838,7 +838,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;p&gt;有償の定期購読者のために決められた紙面の量を出版することを前提としているので、編集者が非常に高い質の編集をしています。文章の内容と質ともにMSDN内では傑出しています。また、電子データの形で公開されています。&lt;/p&gt;
 &lt;p&gt;MSDN収録文書に対して代表性を持ち、コーパス分析ソフトによる検索可能な可読性を持っています。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/magazine/ee310108.aspx&#34;&gt;MSDN Magazine Issues and Downloads&lt;/a&gt;からMSDN Magazineのバックナンバーがダウンロード可能です。最新のPDF形式のものだけ(2009.08-2013.03)を抽出しました。それ以前のものは、CHM形式で変換が手間が増えるので対象にはしませんでした。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2013/6/7 追記:&lt;/strong&gt; 全てのCHMファイルを対象として過去10年間のMSDN Magazineの記事データを分析した内容を、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;に書きました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2013/6/7 追記:&lt;/strong&gt; 全てのCHMファイルを対象として過去10年間のMSDN Magazineの記事データを分析した内容を、&lt;a href=&#34;/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;に書きました。&lt;/p&gt;
 &lt;h2 id=&#34;コーパスの作成と頻度表の生成&#34; class=&#34;section&#34;&gt;コーパスの作成と頻度表の生成&lt;/h2&gt;
 &lt;p&gt;一般的なコンコーダンサーアプリケーションであれば、コーパスから頻度表を作成する機能を持っています。この記事では、Mac OS X上で動作するアプリとして&lt;a href=&#34;https://sites.google.com/site/casualconcj/Home&#34;&gt;CasualConc&lt;/a&gt;を選択しました。Mac OS Xの場合には、ほとんど選択肢がないのですが、WindowsやLinuxのアプリは多数に存在します。&lt;/p&gt;
 &lt;p&gt;CasualConcの良い点は、PDFのまま処理できる点です。コーパス作成から頻度表の作り方の具体的な手順は、&lt;a href=&#34;https://sites.google.com/site/casualconcj/tsukaikata&#34;&gt;CasualConcの使い方&lt;/a&gt;をご覧ください。&lt;/p&gt;
@@ -870,7 +870,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 &lt;p&gt;画面右上の[データベース]ボタンを押す。(図1)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl2.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/msdnwl2.png&#34; alt=&#34;ファイルツール&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. CasualConc ファイルツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -888,7 +888,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl1.png&#34; alt=&#34;最初の画像&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;/images/msdnwl1.png&#34; alt=&#34;最初の画像&#34; width=&#34;600&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. CasualConc 頻度分析の結果表示&lt;/div&gt;
 &lt;/div&gt;
@@ -965,7 +965,7 @@ Lemma: [Lemma の扱い]と[異綴り処理]の項目を全てチェック。
 &lt;/table&gt;
 &lt;p&gt;一般的な基本語彙(GSL+AWL)を理解している場合、使用語彙の10%程度が未知の語句を含むテキストが、このMSDN word listを加えることで、未知の語句を2%にまで圧縮できる結果を得ました。&lt;/p&gt;
 &lt;p&gt;今回の記事では、Anki単語帳を作成する手順を重視して作成しています。
-MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;で行っています。&lt;/p&gt;
+MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href=&#34;/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;で行っています。&lt;/p&gt;
 &lt;h3 id=&#34;msdn_word_listの内訳の検討&#34;&gt;MSDN word listの内訳の検討&lt;/h3&gt;
 &lt;p&gt;抽出したデータを検討すると、Agileなどアプリケーション開発のコミュニケーションでカタカナ英語として既に流通しているものが221個見られました。また、翻訳しようのないGUIなど略語も51個ありました。&lt;/p&gt;
 &lt;p&gt;これらの用語については、区別のため「カタカナ」、「略語」というタグを付けることにしました。
@@ -975,11 +975,11 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 。&lt;/p&gt;
 &lt;p&gt;更に、使用頻度が高いものから優先して学習できるように頻度別にタグを付けました。95%被覆が可能な最高頻度のもの(Level1, 344個 )と、それ以外の98%被覆が可能な高頻度なもの(Level2, 378個)に二分してタグを振りました。&lt;/p&gt;
 &lt;p&gt;Ankiに読み込むCSVファイルは、頻度順に並べました。既定では出現頻度の高いものから出題するようにしました。&lt;/p&gt;
-&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;実際のAnkiへの読み込み手順は&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で紹介していますので、詳しく知りたい方はこちらをご覧ください。&lt;/p&gt;
 &lt;p&gt;最終的には722個のデータをAnkiに読み込んでから4分割して子単語帳に収めました。子単語帳に分割する具体的な手順は
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2013/6/7注:&lt;/strong&gt;
-過去10年分まで分析対象を拡大した場合、新たに頻出語句に加わる102語をLevel3として追加しました。詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;をご覧ください。&lt;/p&gt;
+過去10年分まで分析対象を拡大した場合、新たに頻出語句に加わる102語をLevel3として追加しました。詳しくは、&lt;a href=&#34;/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;table rules=&#34;rows&#34;width=&#34;&#34;frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 2. 単語帳の内訳&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -1025,15 +1025,15 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 &lt;h2 id=&#34;カードの編集&#34; class=&#34;section&#34;&gt;カードの編集&lt;/h2&gt;
 &lt;p&gt;解答面には、オンライン英和和英辞典&lt;a href=&#34;http://ejje.weblio.jp/content/retrieve&#34;&gt;weblio&lt;/a&gt;、オンライン英英辞典&lt;a href=&#34;https://www.vocabulary.com/dictionary/retrieve&#34;&gt;Vocabulary.com&lt;/a&gt;、&lt;a href=&#34;http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;amp;refinement=118%2C117&amp;amp;ac=2&#34;&gt;MSDNオンライン検索&lt;/a&gt;(MSDN MagazineとMSDN Library限定)、&lt;a href=&#34;http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;amp;langID=ja-jp&#34;&gt;マイクロソフト用語集&lt;/a&gt;へのリンクを追加しました。&lt;/p&gt;
 &lt;p&gt;また、解答面ではGoogleTTSを使用した読み上げ機能を設定しました。実際に動作させるにはアドオンAwesomeTTSのインストールと設定が必要です。&lt;/p&gt;
-&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;カードの具体的な編集方法とAwesomeTTSの設定方法は&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した単語帳は、Anki単語帳パッケージ msdnwl.apkg をダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/msdnwl3.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
+&lt;img src=&#34;/images/msdnwl3.png&#34; alt=&#34;完成品画面&#34; width=&#34;400&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 完成品画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1046,7 +1046,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 &lt;p&gt;親単語帳「MSDNWords」を学習した場合は、Level1&amp;gt;Level2&amp;gt;カタカナ英語&amp;gt;略語の優先順で新規カードの取得が行われます。&lt;/p&gt;
 &lt;p&gt;子の単語帳を学習するとそれぞれの項目を選択的に学習することができます。&lt;/p&gt;
 &lt;p&gt;全ての単語をランダムに学習したい場合は、子単語帳のカードを全て親単語帳に戻すか、フィルター単語帳を作成してください。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;では、カスタム学習の設定方法を詳しく紹介しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;では、カスタム学習の設定方法を詳しく紹介しています。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34; class=&#34;section&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;共有の頻度データがない場合でも、文字資料が入手できればコンコーダンサーソフトを使うと簡単に語彙頻度リストを得ることができます。&lt;/p&gt;
 &lt;p&gt;既存のコーパスデータは、その目的から汎用性を重視した内容となっています。
@@ -1059,9 +1059,9 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>/how-to-edit-cards/</guid>
       <description>カードテンプレートを編集すると、カードの学習画面が一括でカスタマイズできます。連載第2回目の記事で作成した中学英語の単語帳に問題のデータから解答を表示するリンクを自動生成したいと思います。How to edit card templates for Anki2.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ 第4回&lt;/strong&gt;&lt;/p&gt;
@@ -1089,7 +1089,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;第2回目の記事で作った中学英語の単語帳&lt;/a&gt;
+&lt;a href=&#34;/how-to-import/&#34;&gt;第2回目の記事で作った中学英語の単語帳&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1125,7 +1125,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_1.png&#34; alt=&#34;カード編集画面&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. カード編集画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1145,7 +1145,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;p&gt;&#34;Front&#34;フィールド、&#34;Back&#34;フィールドとは追加画面ではそれぞれの項目に相当します。下の図2の場合では、実際の学習画面では&#34;remember&#34;は、表面の{{Front}}と裏面の{{FrontSide}} に、&#34;思い出す&#34;は、裏面の{{Back}}に差し込んで表示します。もし表面のテンプレートが &lt;code&gt;&amp;lt;b&amp;gt;{{Front}}&amp;lt;/b&amp;gt;&lt;/code&gt; だったら、{{FrontSide}}には &lt;code&gt;&amp;lt;b&amp;gt;remember&amp;lt;/b&amp;gt;&lt;/code&gt; が入ります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_3.png&#34; alt=&#34;追加画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_3.png&#34; alt=&#34;追加画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 追加画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1168,7 +1168,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_3.png&#34; alt=&#34;ノートの種類&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. ノートの種類&lt;/div&gt;
 &lt;/div&gt;
@@ -1179,7 +1179,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_4.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_4.png&#34; alt=&#34;ノートの種類&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. ノートタイプの追加&lt;/div&gt;
 &lt;/div&gt;
@@ -1190,7 +1190,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_5.png&#34; alt=&#34;ノートの種類&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_5.png&#34; alt=&#34;ノートの種類&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 基本ノートの追加&lt;/div&gt;
 &lt;/div&gt;
@@ -1201,7 +1201,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_6.png&#34; alt=&#34;新しいノートの名前&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_6.png&#34; alt=&#34;新しいノートの名前&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 新しいノートの名前&lt;/div&gt;
 &lt;/div&gt;
@@ -1216,14 +1216,14 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_7.png&#34; alt=&#34;ノートタイプの選択&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_7.png&#34; alt=&#34;ノートタイプの選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. ノートタイプの選択&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;再び追加画面に戻ります。画面左の種類項目に作成したノート「英語単語」が表示されています。(図8)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_8.png&#34; alt=&#34;追加画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_8.png&#34; alt=&#34;追加画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 追加画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1237,7 +1237,7 @@ Ankiメインウィンドウで編集したい単語帳を選択し、上部の[
 画面下のドロップダウンリスト[もっと]から[名前を変更]を選択して「辞書と読み上げ」という名前に変えます。(図9)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_9.png&#34; alt=&#34;カードの名前を変更&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_9.png&#34; alt=&#34;カードの名前を変更&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. カードの名前を変更&lt;/div&gt;
 &lt;/div&gt;
@@ -1281,7 +1281,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
     &lt;h2&gt;読み上げ設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;単語を音声で読み上げる機能を追加しましょう。そのためには&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;というアドオンをインストールします。アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;に紹介していますので参考にしてください。&lt;/p&gt;
+&lt;p&gt;単語を音声で読み上げる機能を追加しましょう。そのためには&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;というアドオンをインストールします。アドオンのインストール方法については、&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;に紹介していますので参考にしてください。&lt;/p&gt;
 &lt;p&gt;読み上げ設定をするフィールドを &lt;code&gt;TTS&lt;/code&gt; タグで囲みます。さらに使用するシステムの読み上げサービスに応じた属性を指定します。詳しい設定内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTSサイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;p&gt;具体的な記述例を次に紹介します。既にオンライン辞書へのリンクで &lt;code&gt;Front&lt;/code&gt; フィールドを表示していますので、読み上げる &lt;code&gt;Front&lt;/code&gt; フィールドをインラインスタイルシートで非表示にする追加設定をしています。
 表面の文字を非表示にして読み上げを設定すれば、聴き取りやリプロダクション、ディクテーションのためのカードが作成できます。&lt;/p&gt;
@@ -1300,7 +1300,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
 &lt;p&gt;[プレビュー]ボタンの代わりに、[OK]ボタンを押すと、指定した内容のmp3ファイルをメディアフォルダーに作成して、フィールドに読み込みます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;音声サンプルの再生&#34;&gt;
+&lt;img src=&#34;/images/how2anki-awesometts-preview.png&#34; alt=&#34;音声サンプルの再生&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. AwesomeTTSでの読み上げ音声の確認再生&lt;/div&gt;
 &lt;/div&gt;
@@ -1309,7 +1309,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
 &lt;p&gt;アドオンを機能させる設定をしましょう。メニューバーから[ツール]&amp;gt;[AwesomeTTS]を開くと設定画面が開きます。(図11)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-config.png&#34; alt=&#34;AwesomeTTSの設定&#34;&gt;
+&lt;img src=&#34;/images/how2anki-awesometts-config.png&#34; alt=&#34;AwesomeTTSの設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. AwesomeTTSの設定&lt;/div&gt;
 &lt;/div&gt;
@@ -1325,7 +1325,7 @@ Oxford American Writer&amp;#8217;s Thesaurus 2nd edition
 &lt;p&gt;[システム環境設定]&amp;gt;[キーボード]&amp;gt;[キーボード]タブを選択し、[F1、F2 などのすべてのキーを標準のファンクションキーとして使用]を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_16.png&#34; alt=&#34;Mac OS X キーボード設定画面&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_16.png&#34; alt=&#34;Mac OS X キーボード設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. Mac OS X キーボード設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1380,14 +1380,14 @@ end open location&lt;/pre&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_12.png&#34; alt=&#34;ノートタイプの変更&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_12.png&#34; alt=&#34;ノートタイプの変更&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. ノートタイプの変更&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;これで設定が終了です。(図13)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_13.png&#34; alt=&#34;完成図&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_13.png&#34; alt=&#34;完成図&#34; width=&#34;80%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. 完成図&lt;/div&gt;
 &lt;/div&gt;
@@ -1396,11 +1396,11 @@ end open location&lt;/pre&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;カードテンプレート完成品&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;この記事で作成したカードテンプレートは、&lt;a href=&#34;http://rs.luminousspice.com/apkg/how2anki4.apkg&#34;&gt;Anki単語帳パッケージ  how2anki4.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;この記事で作成したカードテンプレートは、&lt;a href=&#34;/apkg/how2anki4.apkg&#34;&gt;Anki単語帳パッケージ  how2anki4.apkg&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;このファイルをダブルクリックするか、[ファイル]&amp;gt;[読み込む]からこのファイルを選択すると、単語帳「中学英単語」(&#34;remember&#34;というカード1枚を含みます)とノートタイプ「英語単語」が読み込まれます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_14.png&#34; alt=&#34;読み込み完了&#34;&gt;
+&lt;img src=&#34;/images/how2anki_4_14.png&#34; alt=&#34;読み込み完了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. 読み込み完了&lt;/div&gt;
 &lt;/div&gt;
@@ -1432,31 +1432,31 @@ end open location&lt;/pre&gt;
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
+&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
+&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
+&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
 &lt;/li&gt;
 &lt;li&gt;
 Ankiのカード表示を編集する (カード編集、外部リンク設定、読み上げ)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
+&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
+&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
+&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
+&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
+&lt;a href=&#34;/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

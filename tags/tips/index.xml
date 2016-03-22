@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tips on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/tips/</link>
+    <link>/tags/tips/</link>
     <description>Tips | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 22 Jan 2015 22:00:52 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
-      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <link>/ankigene-bot-guide/</link>
       <pubDate>Thu, 22 Jan 2015 22:00:52 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <guid>/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張するアドオンの説明を取り上げます。&lt;/p&gt;
@@ -26,10 +26,10 @@
   &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/Ankigene&#34;&gt;@Ankigene&lt;/a&gt; のつぶやきの内容は、Anki の使い方、Anki Tips、Anki 用語、Anki ショートカット、Anki アドオンから構成しています。さらに詳しい情報へのリンクも含んでいます。
 つぶやきの頻度は、一日 4 回です。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;Anki の使い方&lt;/a&gt;と&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips&lt;/a&gt;からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語&lt;/a&gt;は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカット&lt;/a&gt;は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオン&lt;/a&gt;は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/how-to-anki/&#34;&gt;Anki の使い方&lt;/a&gt;と&lt;a href=&#34;/anki-tips/&#34;&gt;Anki Tips&lt;/a&gt;からは、日常の利用で頻繁に使う Anki の基本的な機能を取り上げます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語&lt;/a&gt;は、Anki の機能や環境設定、マニュアルの内容を理解するのに役立ちます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/anki-shortcuts/&#34;&gt;Anki ショートカット&lt;/a&gt;は、よく使うユーザーインターフェイスから手早く必要な機能を呼び出すショートカットキーをまとめました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/anki-addons-guide/&#34;&gt;Anki アドオン&lt;/a&gt;は、機能拡張プログラムの中から多くのユーザーに共通して役立つアドオンを選抜して紹介しています。&lt;/p&gt;
 &lt;p&gt;なお不定期的に、アプリケーションのアップグレード情報や、障害情報をつぶやくことがあります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;anki_の中からも検索可能&#34;&gt;
@@ -51,9 +51,9 @@
     
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>http://rs.luminousspice.com/anki-tips/</link>
+      <link>/anki-tips/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-tips/</guid>
+      <guid>/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。
@@ -74,7 +74,7 @@ Shift キーを押しながら起動する。
 &lt;p&gt;ツールチップ「シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。」と表示が出る。(図 1)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_1.png&#34; alt=&#34;セーブブート成功時のメッセージ&#34;&gt;
+&lt;img src=&#34;/images/tips_1.png&#34; alt=&#34;セーブブート成功時のメッセージ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. セーブブート成功時のメッセージ&lt;/div&gt;
 &lt;/div&gt;
@@ -103,7 +103,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_2.png&#34; alt=&#34;検索結果&#34;&gt;
+&lt;img src=&#34;/images/tips_2.png&#34; alt=&#34;検索結果&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 重複カードの検索結果&lt;/div&gt;
 &lt;/div&gt;
@@ -123,7 +123,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_3.png&#34; alt=&#34;延期を解除&#34;&gt;
+&lt;img src=&#34;/images/tips_3.png&#34; alt=&#34;延期を解除&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 延期を解除&lt;/div&gt;
 &lt;/div&gt;
@@ -155,7 +155,7 @@ Shift キーを押しながら起動する。
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_4.png&#34; alt=&#34;学習スケジュールを変更&#34;&gt;
+&lt;img src=&#34;/images/tips_4.png&#34; alt=&#34;学習スケジュールを変更&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 学習スケジュールを変更&lt;/div&gt;
 &lt;/div&gt;
@@ -175,7 +175,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_5.png&#34; alt=&#34;新規カードを並び替える&#34;&gt;
+&lt;img src=&#34;/images/tips_5.png&#34; alt=&#34;新規カードを並び替える&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 新規カードを並び替える&lt;/div&gt;
 &lt;/div&gt;
@@ -204,7 +204,7 @@ Shift キーを押しながら起動する。
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_6.png&#34; alt=&#34;一括置換画面&#34;&gt;
+&lt;img src=&#34;/images/tips_6.png&#34; alt=&#34;一括置換画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 一括置換画面&lt;/div&gt;
 &lt;/div&gt;
@@ -241,11 +241,11 @@ Shift キーを押しながら起動する。
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/learn_in_original_squence_1.png&#34; alt=&#34;フィルター単語帳の設定&#34;&gt;
+&lt;img src=&#34;/images/learn_in_original_squence_1.png&#34; alt=&#34;フィルター単語帳の設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. フィルター単語帳の設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;無駄なカード_leech_になっても保留にしない&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -270,11 +270,11 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
+&lt;img src=&#34;/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. 単語帳のオプション設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;裏返しのカードを追加&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -295,7 +295,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_1.png&#34; alt=&#34;裏面カード付きノートタイプを設定&#34;&gt;
+&lt;img src=&#34;/images/cardtype_1.png&#34; alt=&#34;裏面カード付きノートタイプを設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 裏面カード付きノートタイプを設定&lt;/div&gt;
 &lt;/div&gt;
@@ -336,7 +336,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_cardlayout.png&#34; alt=&#34;カードレイアウト&#34;&gt;
+&lt;img src=&#34;/images/tips_cardlayout.png&#34; alt=&#34;カードレイアウト&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. カードレイアウト&lt;/div&gt;
 &lt;/div&gt;
@@ -344,12 +344,12 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
+&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
+&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;

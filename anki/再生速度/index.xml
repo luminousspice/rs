@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>再生速度 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%86%8D%E7%94%9F%E9%80%9F%E5%BA%A6/</link>
+    <link>/anki/%E5%86%8D%E7%94%9F%E9%80%9F%E5%BA%A6/</link>
     <description>再生速度 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 14 Apr 2014 05:00:17 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E5%86%8D%E7%94%9F%E9%80%9F%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E5%86%8D%E7%94%9F%E9%80%9F%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki アドオンガイド &amp;#8211; Anki をもっと使いやすくするアドオンたち</title>
-      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <link>/anki-addons-guide/</link>
       <pubDate>Mon, 14 Apr 2014 05:00:17 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <guid>/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。共有アドオンの中から自分で使ってみて誰にでも役立つようなアドオンを紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki は、ユーザーが独自に標準機能を拡張したり、変更したりするアドオン機能を提供しています。さらに、アドオンを AnkiWeb で共有することができます。Anki を使う目的はさまざまで、作者とは違った観点からの機能追加が行われていて、感心するアドオンがたくさんあります。アドオン作者と自分の要求が重なると驚くほど Anki が使いやすくなります。自分で使ってみた共有アドオンの中から誰にでも役立つようなアドオンを選んで紹介します。&lt;/p&gt;
@@ -24,7 +24,7 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;このアドオンガイドを使う前に&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;では、Anki の共有アドオンの取得、インストール、削除など基本的な説明しています。もし、まだアドオンを使ったことがない方はそちらも参考にしてみてください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;では、Anki の共有アドオンの取得、インストール、削除など基本的な説明しています。もし、まだアドオンを使ったことがない方はそちらも参考にしてみてください。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki のアドオンは、PC (Desktop) 版でのみ動作します。Ankimoblie (iOS) や AnkiDroid (Android) では動作しません。&lt;/p&gt;
 &lt;p&gt;このガイドで紹介するそれぞれのアドオンのタイトルは、AnkiWeb のダウンロードページにリンクしています。&lt;/p&gt;
 &lt;/section&gt;
@@ -35,7 +35,7 @@
 &lt;p&gt;小さいけどあると絶対に手放せないニッチなアドオンたち。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_guide_1.png&#34; alt=&#34;かゆいところに手が届くアドオンたち&#34;&gt;
+&lt;img src=&#34;/images/addons_guide_1.png&#34; alt=&#34;かゆいところに手が届くアドオンたち&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. かゆいところに手が届くアドオンたち&lt;/div&gt;
 &lt;/div&gt;
@@ -55,7 +55,7 @@
 次に紹介する Zoom とキーの割り当てが重複しています。同時使用すると、正しく動作しない可能性があります。
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;動画再生のショートカットキー&lt;/a&gt;は標準で用意されています。
+&lt;a href=&#34;/mplayer-shortcut-for-anki-video/&#34;&gt;動画再生のショートカットキー&lt;/a&gt;は標準で用意されています。
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1956318463_zoom_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1956318463&#34;&gt;Zoom&lt;/a&gt;&lt;/h2&gt;
@@ -73,7 +73,7 @@
 &lt;p&gt;メニューバーから [ツール] - [New/Max Cards Configuration] を開くと設定ウィンドウが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_newmax_cards.png&#34; alt=&#34;New/Max Cards 設定画面&#34;&gt;
+&lt;img src=&#34;/images/addons_newmax_cards.png&#34; alt=&#34;New/Max Cards 設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. New/Max Cards 設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -84,7 +84,7 @@
 &lt;p&gt;このアドオンの設定項目は、メニューバーから [Anki] - [環境設定] - [load balancer] タブを選択すると呼び出せます。インストールしたら必ず確認しておきましょう。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_10.png&#34; alt=&#34;load balancer&#34;&gt;
+&lt;img src=&#34;/images/how2anki_3_10.png&#34; alt=&#34;load balancer&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. load balancer 設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -92,7 +92,7 @@
 &lt;p&gt;成熟したカードの枚数の履歴を統計情報の一番最後に表示してくれる。学習の進捗状況を見る一つの指標として使っています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_11.png&#34; alt=&#34;Maturing Cards&#34;&gt;
+&lt;img src=&#34;/images/how2anki_3_11.png&#34; alt=&#34;Maturing Cards&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Maturing Cards&lt;/div&gt;
 &lt;/div&gt;
@@ -101,7 +101,7 @@
 熟知したカードの枚数にどうしても目が行きがちがちですが、安定して新規追加できているか確認することが出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_progress_graph.png&#34; alt=&#34;Progress graph&#34;&gt;
+&lt;img src=&#34;/images/addons_progress_graph.png&#34; alt=&#34;Progress graph&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. Progress graph&lt;/div&gt;
 &lt;/div&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;このアドオンは、統計情報のボタンの選択状況から、新規カードの学習と復習カードの再学習の結果を分離します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-learn-relearn.png&#34; alt=&#34;Separate Learn and Relearn in the Answer Buttons graph&#34;&gt;
+&lt;img src=&#34;/images/addon-learn-relearn.png&#34; alt=&#34;Separate Learn and Relearn in the Answer Buttons graph&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. Separate Learn and Relearn in the Answer Buttons graph&lt;/div&gt;
 &lt;/div&gt;
@@ -124,18 +124,18 @@
 &lt;p&gt;さらに指定したノートのフィールドから一括してテキストを読み込んで、音声ファイルを自動生成してフィールドに書き込んでくれる AwesomeTTS MP3 Mass Generator という機能も含まれています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_8.png&#34; alt=&#34;AwesomeTTS MP3 Mass Generator の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AwesomeTTS MP3 Mass Generator の設定例&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;カードテンプレートを編集してAwesomeTTSを機能させる方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で、音声ファイルの自動生成については&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;カードテンプレートを編集してAwesomeTTSを機能させる方法は、&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で、音声ファイルの自動生成については&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;p&gt;機能の詳しい内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiatts.appspot.com/&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
 &lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_3100585138_download_audio_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3100585138&#34;&gt;Download audio&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;オンライン辞書などで公開している音声データを検索してダウンロードするアドオンです。&lt;/p&gt;
 &lt;p&gt;このアドオンを動作させるには、ノートに Audio という名前のフィールドを追加するか、ノートタイプ [Standard with audio fields] あるいは [Japanese with audio fields] を指定することが必要です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-download-audio.png&#34; alt=&#34;Download audio&#34;&gt;
+&lt;img src=&#34;/images/addon-download-audio.png&#34; alt=&#34;Download audio&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. Download audio&lt;/div&gt;
 &lt;/div&gt;
@@ -145,11 +145,11 @@
 大量のメディアデータから教材を作成する時に非常に役立ちます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
+&lt;img src=&#34;/images/media_bulk_import_4.png&#34; alt=&#34;Media Import の処理完了&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. Media Import の処理完了&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;このアドオン Media Import の簡単な利用例を&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;p&gt;このアドオン Media Import の簡単な利用例を&lt;a href=&#34;/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_2006541756_image_occlusion_2_0_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/2006541756&#34;&gt;Image Occlusion 2.0&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;暗記ペンを Anki 上で実現するアドオン。
 地図、解剖図、反応回路図などのキャプションの一部をマスクして出題できます。&lt;/p&gt;
@@ -160,7 +160,7 @@
 &lt;p&gt;ツールバーボタンの表示は、メニューバー [ツール] - [Supplementary buttons add-on (options)] - [Button options] から設定できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons-power-format-pack.png&#34; alt=&#34;Power format pack を使った表組の指定&#34;&gt;
+&lt;img src=&#34;/images/addons-power-format-pack.png&#34; alt=&#34;Power format pack を使った表組の指定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. Power format pack を使った表組の指定&lt;/div&gt;
 &lt;/div&gt;
@@ -185,7 +185,7 @@
 &lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 入手できなくなった Export Browser&amp;#8217;s card list contents to CSV file を別の作者が問題修正したものです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_8.png&#34; alt=&#34;Export Browser&#39;s card list contents to CSV file Enhanced の呼び出し方&#34;&gt;
+&lt;img src=&#34;/images/how2anki_3_8.png&#34; alt=&#34;Export Browser&#39;s card list contents to CSV file Enhanced の呼び出し方&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. Export Browser&amp;#8217;s card list contents to CSV file Enhancedの呼び出し方&lt;/div&gt;
 &lt;/div&gt;
@@ -196,7 +196,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 (注: 検索条件を保存する機能は、Anki 2.0.27 で本体の機能として採用されました。)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_advanced_browser.png&#34; alt=&#34;Advanced Browser&#34;&gt;
+&lt;img src=&#34;/images/addons_advanced_browser.png&#34; alt=&#34;Advanced Browser&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. Advanced Browser Back フィールドをブラウザー内に表示&lt;/div&gt;
 &lt;/div&gt;
@@ -206,7 +206,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;pre class=&#34;prettyprint&#34;&gt;life::植物::花&lt;/pre&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_hierarchical_tags.png&#34; alt=&#34;Hierarchical Tags&#34;&gt;
+&lt;img src=&#34;/images/addons_hierarchical_tags.png&#34; alt=&#34;Hierarchical Tags&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. サイドバー内のタグを階層化表示&lt;/div&gt;
 &lt;/div&gt;
@@ -232,7 +232,7 @@ AnkiWeb にサインインした状態で、ブラウザ上で登録したい文
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_ankifox.png&#34; alt=&#34;AnkiFox&#34;&gt;
+&lt;img src=&#34;/images/addons_ankifox.png&#34; alt=&#34;AnkiFox&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. AnkiFox&lt;/div&gt;
 &lt;/div&gt;
@@ -253,7 +253,7 @@ AnkiWeb にサインインした状態で、ブラウザ上で登録したい文
 &lt;/ol&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_anki_cards_maker.png&#34; alt=&#34;Anki Cards Maker 項目選択&#34;&gt;
+&lt;img src=&#34;/images/addons_anki_cards_maker.png&#34; alt=&#34;Anki Cards Maker 項目選択&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. Anki Cards Maker 項目選択&lt;/div&gt;
 &lt;/div&gt;
@@ -288,7 +288,7 @@ Anki を使っている PC のシステムを更新した時
 レイティングを記録する場所は、アドオンの個別メージの右上にあります。☆ をクリックすると評価を保存します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_guide_2.png&#34; alt=&#34;レイティングを付ける場所&#34;&gt;
+&lt;img src=&#34;/images/addons_guide_2.png&#34; alt=&#34;レイティングを付ける場所&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 16. レイティングを付ける場所&lt;/div&gt;
 &lt;/div&gt;
@@ -325,7 +325,7 @@ Anki を使っている PC のシステムを更新した時
 自分と同じことを考えている人が世の中にいて、共有のアドオンを公開してくれたりします。&lt;/p&gt;
 &lt;p&gt;Anki はアドオンの形でユーザーが機能拡張する機会を与えてくれています。
 また、アドオンを作りやすい仕組みを持っています。Anki の使いやすさは、アドオンの質や量が向上することでさらに高められます。&lt;/p&gt;
-&lt;p&gt;自分もアドオンを作ってみようと思った方、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;という作成ガイドの日本語訳がありますので参考にして作ってみてください。&lt;/p&gt;
+&lt;p&gt;自分もアドオンを作ってみようと思った方、&lt;a href=&#34;/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;という作成ガイドの日本語訳がありますので参考にして作ってみてください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;

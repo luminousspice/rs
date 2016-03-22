@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ipad on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/ipad/</link>
+    <link>/tags/ipad/</link>
     <description>Ipad | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/ipad/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ipad/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
-      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <link>/learn-with-anki/</link>
       <pubDate>Sun, 03 Jan 2016 23:00:16 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <guid>/learn-with-anki/</guid>
       <description>暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;暗記についての方法論が確立していない人のために Anki  のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理の統計情報をまとめた学習事例を作りました。&lt;/p&gt;
@@ -55,7 +55,7 @@
 &lt;p&gt;Anki を使い始めるときの方針は、「初めから決まった量の情報を教材とし、教材の理解は最初から丁寧に行い、新規の情報追加は教材に慣れるまで抑制的にする」です。&lt;/p&gt;
 &lt;p&gt;このような条件に合う教材とは、「音声付きの薄い本」です。&lt;/p&gt;
 &lt;p&gt;Anki に持ち込む前に、本で学べる点が有利です。完成度の高い紙面で学習することが出来、Anki のカードは必要最小限の情報で済ませられるからです。作業に手間がかからないことと、紙面、モニタ、音声の三種類のインターフェイスで同じ内容を学習できることです。分量が限られているので、予定が立てやすく、達成感と満足感が早く得られます。&lt;/p&gt;
-&lt;p&gt;なお、音声がない場合には &lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Anki 上で TTS を使ってテキストを読み上げる&lt;/a&gt;ことも出来ます。&lt;/p&gt;
+&lt;p&gt;なお、音声がない場合には &lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Anki 上で TTS を使ってテキストを読み上げる&lt;/a&gt;ことも出来ます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;モデル教材はフレーズと発音&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -71,12 +71,12 @@
 &lt;p&gt;別のことをしながら、話している内容を確実に聴き取れたかを判断基準に学習しました。&lt;/p&gt;
 &lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51KZQQT259L._SL160_.jpg&#34; alt=&#34;英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]&#34; style=&#34;border: none&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%;margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;英会話ペラペラビジネス100 － ビジネスコミュニケーションを成功させる知的な大人の会話術 [CD2枚付]&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;スティーブ ソレイシィ Steve Soresi ロビン ソレイシィ Robin Soresi &lt;br /&gt;アルク &lt;br /&gt;売り上げランキング: 1,280&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4757405804/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Anki のカードは、音声だけをカードに埋め込んだシンプルなものを使いました。
-詳しい作り方は、&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;で紹介しています。&lt;/p&gt;
+詳しい作り方は、&lt;a href=&#34;/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;p&gt;百個のファイルの中から毎日 3 件を新規追加して、28日で全て聴き終えた時のデータが次のファイルです。
 一日平均 10 分程度の Anki での学習時間でしたが、三週間を超えた所でブレイクスルーが起り、新規カードの数も学習時間の増加も苦にならなくなりました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-biz100.png&#34; alt=&#34;統計情報 (英会話ペラペラビジネス100)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-biz100.png&#34; alt=&#34;統計情報 (英会話ペラペラビジネス100)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 統計情報 (英会話ペラペラビジネス100)&lt;/div&gt;
 &lt;/div&gt;
@@ -87,7 +87,7 @@
 &lt;p&gt;一日 1 Unit のペースで聴き 14 日で完了しました。その結果を下に記しました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-clearspeech.png&#34; alt=&#34;統計情報 (Clear Speech)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-clearspeech.png&#34; alt=&#34;統計情報 (Clear Speech)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 統計情報 (Clear Speech)&lt;/div&gt;
 &lt;/div&gt;
@@ -99,7 +99,7 @@
 &lt;p&gt;Anki 用のカードは、前の本で使ったのと同じシンプルなものを使いました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-audio-card.png&#34; alt=&#34;実際に使用したカード&#34;&gt;
+&lt;img src=&#34;/images/audio-material-audio-card.png&#34; alt=&#34;実際に使用したカード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 実際に使用したカード&lt;/div&gt;
 &lt;/div&gt;
@@ -108,7 +108,7 @@
 &lt;p&gt;一日平均 12 分程度の Anki での学習時間でしたが、二週間過ぎた所で出演者の声に慣れて聴き取りやすくなってきました。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-detective.png&#34; alt=&#34;統計情報 (映画英語のリスニング)&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-detective.png&#34; alt=&#34;統計情報 (映画英語のリスニング)&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 統計情報 (ボトムアップ式 映画英語のリスニング)&lt;/div&gt;
 &lt;/div&gt;
@@ -126,12 +126,12 @@ Anki では TTS を使って発音させながら、綴りを見て意味が瞬�
 &lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51Eolqic2GL._SL160_.jpg&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34; style=&#34;border: none&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%;margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Merriam-Webster&#39;s Vocabulary Builder&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 16.01.02&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;Mary W. Cornog &lt;br /&gt;Merriam Webster Mass Market &lt;br /&gt;売り上げランキング: 151&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0877798559/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;元の本を読んで、復習クイズを全問解き、さらにわからない見出し語を Anki に入れて復習した結果です。
 二日で 1 Unit のペースで学習し、65 日で終わりました。
-Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;テンプレートから Mac 内蔵の辞書を引ける設定&lt;/a&gt;にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。&lt;/p&gt;
+Anki に入れたのは覚えたい単語のみで、忘れた時には本を読み直しました。実際に登録した単語は一日当たり十個、合計 600 個程度です。&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;テンプレートから Mac 内蔵の辞書を引ける設定&lt;/a&gt;にしましたが、辞書よりも元の本の言葉の説明が詳しいので本を頼りにしました。&lt;/p&gt;
 &lt;p&gt;毎日平均 8 分 Anki で学習し、三週間経ったところで一日の定型ルーチンが決まり作業が楽になりました。なお、Anki で意味を思い出すよりも、元の本の復習用クイズの方が数段難しく、本での学習に 30 分程度の時間を使いました。
 復習の枚数は最高で 110 枚、100 枚を超えたのは三日でした。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/with-anki-stats-mwvb.png&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34;&gt;
+&lt;img src=&#34;/images/with-anki-stats-mwvb.png&#34; alt=&#34;Merriam-Webster&#39;s Vocabulary Builder&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 統計情報 (Merriam-Webster&amp;#8217;s Vocabulary Builder)&lt;/div&gt;
 &lt;/div&gt;
@@ -141,10 +141,10 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     &lt;h2&gt;応用例 ネットのビデオを使用&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;ネットに上がっているビデオでも、完結している動画シリーズであれば、この投稿で紹介したアプローチが使えるでしょう。例えば、RussianPod101.com の &lt;a href=&#34;https://www.youtube.com/playlist?list=PL_knbQpx9pBetwxup_IHr47cQsYvnQhRF&#34;&gt;Russian Weekly Words&lt;/a&gt; は、一回につきロシア語の単語を五個ずつテーマ別に学習する 63 回完結のコースです。英語とロシア語の字幕付きで、例文や会話例も学ぶことが出来ます。&lt;/p&gt;
-&lt;p&gt;Mac を使っている場合は、&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt; を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。&lt;/p&gt;
+&lt;p&gt;Mac を使っている場合は、&lt;a href=&#34;/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt; を参考にしてビデオの覚えたい所だけを録音してカードにすることもできます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-russianpod-card.png&#34; alt=&#34;Russian Weekly Words を利用したカード&#34;&gt;
+&lt;img src=&#34;/images/audio-stdout-russianpod-card.png&#34; alt=&#34;Russian Weekly Words を利用したカード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. Russian Weekly Words を利用したカード&lt;/div&gt;
 &lt;/div&gt;
@@ -155,7 +155,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
   &lt;/div&gt;
 &lt;p&gt;新しい道具を使う時に何から始めればよいか。得意分野では道具の使い方が分かれば自律的に進めますが、そうでない場合は素材とお手本を選ぶ支援が必要となるでしょう。&lt;/p&gt;
 &lt;p&gt;Anki は学習心理学の研究結果に基づいたアルゴリズムを使っていますので、教材を学習することが前提となっています。理解のないまま繰り返し見た内容を無意識の内に覚えるような洗脳の技術を使っている訳ではありません。そこで、Anki での最初の学習を大切にして、後々復習の泥沼はまることのないよう心掛けてモデル学習の事例を作りました。&lt;/p&gt;
-&lt;p&gt;この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 &lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめての Anki&lt;/a&gt;という記事も参考になると思います。&lt;/p&gt;
+&lt;p&gt;この投稿を読んで具体的な教材が決まり、Anki 自身の使い方を知りたくなったら、 &lt;a href=&#34;/how-to-anki/&#34;&gt;はじめての Anki&lt;/a&gt;という記事も参考になると思います。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -168,1237 +168,10 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
     </item>
     
     <item>
-      <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
-      <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
-      <pubDate>Sun, 15 Feb 2015 05:00:57 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
-      <description>日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;日本語ユーザー向けに共有単語帳の検索画面を作成しました。キーワードを入力して情報を絞り込むことが出来ます。より詳しく調べたい方のために、日本語での説明を含んだ Anki 共有単語帳の日本語の分類表も用意しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;日本語の共有単語帳を見つけやすく&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;日本語の共有単語帳を見つけやすく&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;p&gt;AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;AnkiWeb に登録されている単語帳一覧&lt;/a&gt;は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。&lt;/p&gt;
-&lt;p&gt;そこで、独自に AnkiWeb の内容を検索閲覧し、日本人にとって利用可能な単語帳をまとめ、そのデータを簡単に検索できる画面を作りました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;共有単語帳検索&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳検索&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;table id=&#34;decklist&#34; class=&#34;display&#34; frame=&#34;hsides&#34;&gt; 
-&lt;colgroup&gt;
-&lt;col class=&#34;span2&#34;&gt;
-&lt;col class=&#34;span1&#34;&gt;
-&lt;col class=&#34;span2&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;題名&lt;/th&gt;
-&lt;th&gt;分類&lt;/th&gt;
-&lt;th&gt;タグ&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/206033178&#34;&gt;Ankiの基礎知識&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;Tips 用語 ショートカット&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/810249417&#34;&gt;Speech Text template for iOS (AnkiMobile)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 フランス語 ドイツ語 TTS 読み上げ&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34;&gt;救急診療に役立つ暗記メモ集&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;医学 医療&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/833115970&#34;&gt;十六進数掛け算&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;算数 16進 情報&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1112109660&#34;&gt;数え方・数助詞&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 数助詞&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/329800646&#34;&gt;変体仮名 Hentaigana Variant Kana&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 古文 かな 変体仮名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/587958922&#34;&gt;Man&amp;#8217;yougana 万葉仮名&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 古文 かな 万葉仮名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/69487830&#34;&gt;日本史資料 十七条憲法&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;歴史 日本史 古文 政治 法律&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1639232676&#34;&gt;日本史資料 武家諸法度&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;歴史 日本史 古文 政治 法律&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/69487830&#34;&gt;日本史資料 五箇条の御誓文&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;歴史 日本史 古文 政治 法律&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/25909930&#34;&gt;宮内庁用語集&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;国語 儀式 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/818749478&#34;&gt;歌舞伎の演目名&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;日本史 演劇 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/333780058&#34;&gt;重要古文単語315&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 古文&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/641220595&#34;&gt;古文単語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 古文&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/643386433&#34;&gt;難読漢字（一般）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1432056637&#34;&gt;難読漢字（昆虫、動物、鳥類、爬虫類の名前）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1286270423&#34;&gt;難読漢字（植物、果実、野菜の名前）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/458314799&#34;&gt;難読漢字（物、職業、色の名前）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/538946132&#34;&gt;難読漢字（魚類、水生動物の名前）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2020347104&#34;&gt;まいにちロシア語（入門編）：大人のためのロシア語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1871538034&#34;&gt;身体を表す単語 Russian-Japanese&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3372203342&#34;&gt;簡単フランス語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1194828453&#34;&gt;フランス語単語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3245135572&#34;&gt;Rosetta stone ドイツ語(German) Level 3&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/485323808&#34;&gt;Rosetta stone ドイツ語(German) Level 4&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/396806471&#34;&gt;ポルトガル語ー日本語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポルトガル語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1981573963&#34;&gt;ポルトガル語ー日本語 複数形&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポルトガル語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1785823362&#34;&gt;ポルトガル語ー日本語p&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポルトガル語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/788807830&#34;&gt;ソマリ語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ソマリ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2946080634&#34;&gt;日本人の為のペルシア語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ペルシア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1252765692&#34;&gt;ベトナム語666&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ベトナム語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/625959472&#34;&gt;越語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ベトナム語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1235147594&#34;&gt;越語2700&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ベトナム語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1238396573&#34;&gt;簡単中国語（北京語）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;中国語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/771647964&#34;&gt;簡単韓国語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;韓国語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1030183555&#34;&gt;旧字体新字体 Kyuujitai Shinjitai&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;国語 漢字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/799735887&#34;&gt;說文部首：楷體與小篆&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;漢字 説文解字&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1037174978&#34;&gt;電気通信主任技術者_伝送交換設備及び設備管理&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;電気 通信 電気通信主任技術者 資格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/4091424041&#34;&gt;電験三種_法規&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;電気 電気主任技術者 資格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1087111583&#34;&gt;電験三種_電力&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;電気 電気主任技術者 資格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3985963857&#34;&gt;電験三種_機械&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;電気 電気主任技術者 資格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/614725473&#34;&gt;公害防止管理者（公害総論）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;環境 公害防止管理者 資格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1585384509&#34;&gt;公害管理者試験（振動・騒音概論）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;環境 公害防止管理者 資格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/611525897&#34;&gt;確定給付企業年金法の法令解釈&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;法律&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/417940470&#34;&gt;英語発音聞き取り改善（日本人のための）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 発音 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/676760195&#34;&gt;英語Boost! ‐ 200 Common Phrasal Verbs (句動詞・熟語)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1503073102&#34;&gt;TOEIC Vocab - English for Japanese - 日本人のための英語コース&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 TOEIC 検定 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/258609336&#34;&gt;英単語 頻出順 15000語 Level 1 （1－2000）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1924742385&#34;&gt;英単語 頻出順 15000語 Level 2 （2001－3000）&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/226773917&#34;&gt;Duo3.0 Tango&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/159860789&#34;&gt;中学英語(English Japanese)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1955159956&#34;&gt;TARGET ターゲット 1400 頻出単語 1-1100 English&amp;#8594;Japanese&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1794720435&#34;&gt;GRE Quant英単語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 GRE 数的推論 度量衡 検定&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2041494066&#34;&gt;800ベーシック英単語[CC4.0]&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 ベーシック・イングリッシュ&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/333469572&#34;&gt;Books of the Bible in Japanese&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 宗教 聖書&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/87825824&#34;&gt;LSI Japanisch Aufbaukurs&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1871575935&#34;&gt;日本語会話・和独 Japanisch Konversation・Japanisch-Deutsch&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3239288653&#34;&gt;毎日１５分の漢字練習&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1594205371&#34;&gt;Hindi-Japanese 200&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ヒンディー語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/113704501&#34;&gt;Japanese-Hindi 200&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ヒンディー語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1364084349&#34;&gt;Bộ Thủ Chữ Hán (Tiếng Nhật)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ベトナム語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2095212688&#34;&gt;Hán Tự Thường Dùng (Tiếng Nhật)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ベトナム語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1781457420&#34;&gt;Japonština LEDA&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;チェコ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/231402903&#34;&gt;Polski-japonski by Adam&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポーランド語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/398382772&#34;&gt;Yhdyssanoja Basic Kanji book 2 (Finnish/Japanese)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フィンランド語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1384794163&#34;&gt;Vocaboli ed espressioni giapponesi&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;イタリア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/4036197163&#34;&gt;Italiano-Giapponese&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;イタリア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1056471432&#34;&gt;kotoba&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スペイン語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/93980248&#34;&gt;Japanese everyday words and phrases, translated into Russian&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 日本語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/794286705&#34;&gt;Выражения 1 урока An Integrated Approach to Intermediate Jap&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/196511944&#34;&gt;Выражения 6 урока An Integrated Approach to Intermediate Jap&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2872379547&#34;&gt;慣用句(あ行)　Идиоматические выражения (а-ряд)(rus)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2447397931&#34;&gt;Japanisch/Deutsch Vokabular I und II&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/249991587&#34;&gt;Japanisch/Deutsch Vokabular II und III&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1625541380&#34;&gt;Health and Medical Pictures with English and Japanese&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;術語 英語 日本語 医学 医療&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1082920264&#34;&gt;Japanese Radiological Terms&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;術語 医学 医療 放射線 英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/214864764&#34;&gt;Japanese Math Pictures&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;術語 英語 日本語 数学 算数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/63102099&#34;&gt;Japanese Programming&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;術語 英語 日本語 プログラミング 情報&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1944071542&#34;&gt;Japanese and English Fruit Pictures&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 果物 フルーツ 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2107766673&#34;&gt;Japanese and English School Pictures&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 学校 教室 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/414459136&#34;&gt;Japanese Counters&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 数助詞&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1771382918&#34;&gt;Japanese Counters&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 数助詞&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1036098926&#34;&gt;Japanese Counters&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 数助詞&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/115255341&#34;&gt;Japanese Counting Systems Version 1.01 (mostly JTMW)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 数助詞&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/188437368&#34;&gt;Japanese Newspaper 4560&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 新聞 報道 ニュース&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1073450896&#34;&gt;Japanese Newspaper 4560 Additional News&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 新聞 報道 ニュース&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/135266511&#34;&gt;Japanese signs&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語 標識 ピクトグラム 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2754914665&#34;&gt;55k WordNet Definitions &amp;amp; Sentences (Monolingual, Bilingual)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/615343093&#34;&gt;sentenças em japonês&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポルトガル語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/651475745&#34;&gt;słówka japońskie&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポーランド語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/224108184&#34;&gt;Vocabulaire Japonais-Français&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/722824598&#34;&gt;Vocabulaire français-japonais&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 日本語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1215022603&#34;&gt;Great works of art&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;英語 美術 絵画 歴史 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/311374406&#34;&gt;Classical Music Themes - Re-uploaded&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;英語 音楽 歴史 音源&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/58419656&#34;&gt;Notes of the chromatic scale&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;英語 音楽 半音階 音源&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/946752090&#34;&gt;Chord Symbols to piano keys&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;音楽 ピアノ 和音 コード キー 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/395734601&#34;&gt;Guitar Chords With Sound by ReinOwader&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;音楽 ギター 和音 コード 音源&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1646233599&#34;&gt;Birds of Great Britain, with images and sounds&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;生物 分類学 鳥類 鳴き声 英語 画像 音源&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/940243165&#34;&gt;Dutch birds&amp;#8201;&amp;#8212;&amp;#8201;sounds, appearance and taxonomy&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;生物 分類学 鳥類 鳴き声 英語 オランダ語 画像 音源&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1680286867&#34;&gt;Multiplication Table 2x1 through 20x20 Spreadsheet-built&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;算数 掛け算&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/715012449&#34;&gt;2-digit Times Table&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;算数 掛け算&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1546703997&#34;&gt;Mental Arithmetic Practice&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;算数 暗算&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/405506694&#34;&gt;Hexadecimal Multiplication Table&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;算数 掛け算 16進 情報&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/736754132&#34;&gt;rot13&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;情報 暗号 ROT13&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1975673825&#34;&gt;Electronics: Resistor Color Coding&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;電子 抵抗 カラーコード&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1291257745&#34;&gt;Geography - Oceans &amp;amp; Seas&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;地理 英語 地図 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2263258759&#34;&gt;Countries of the World&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;地理 英語 統計 GDP 人口 通貨 地図 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3066506982&#34;&gt;Chinese provinces and more&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;地理 英語 中国 ピンイン 語源 地図 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1874254267&#34;&gt;Latitudes and longitudes of some major cities&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;地理 経度 緯度 英語&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2343964336&#34;&gt;Amino acids study deck&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;生化学 英語 アミノ酸&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/274734459&#34;&gt;Amino Acid Flashcards&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;生化学 英語 アミノ酸 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/129986190&#34;&gt;Chemical elements — number, name, symbol, mass&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;化学 英語 元素 陽子数 原子量&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/275584315&#34;&gt;Perodic table with atomic data&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;化学 英語 ドイツ語 元素 周期表 融点 電子配置&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1472635709&#34;&gt;Ashtanga Yoga&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;ヨガ アシュタンガ 英語 サンスクリット アサナ 画像&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/441595417&#34;&gt;Physical Exam: Heart Sounds&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;医学 医療 心音 英語 音源&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1475716870&#34;&gt;Mathematical terms&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;科学技術&lt;/td&gt;
-&lt;td&gt;術語 英語 数学 算数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1085268504&#34;&gt;American english pronunciation&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 発音 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/168692952&#34;&gt;Pronunciation practice phonetics (US accent+extra UK) M.F&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 発音 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/644151027&#34;&gt;Portuguese Phrase Book (Continental pronunciation)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポルトガル語 発音 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/428194897&#34;&gt;Quranic Arabic Verses word for word SIA (+ audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;人文社会&lt;/td&gt;
-&lt;td&gt;アラビア語 宗教 コーラン 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3396002907&#34;&gt;Russian Alphabet with Handwritten and Print fonts and sounds&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 発音 キリル文字 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/534801471&#34;&gt;Visual Spanish Plus Sound Files from Forvo&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スペイン語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/629972372&#34;&gt;French 500 coloured words with pictures and audio&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1529958967&#34;&gt;Norwegian Sentences with Audio&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ノルウェー語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/822208674&#34;&gt;Top 5000 - 1,395 Russian Verbs +audio +perfective +conjugati&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/733910527&#34;&gt;500 English words(with pictures and audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1693270835&#34;&gt;German FSI Vocab &amp;amp; Basic Sentences (with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/124854924&#34;&gt;FSI Hungarian I Vocab &amp;amp; Basic Sentences (with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ハンガリー語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1875520915&#34;&gt;FSI II Hungarian Basic Sentences (with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ハンガリー語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/2530965591&#34;&gt;Hangul (Korean Alphabet)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;韓国語 ハングル 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/281628775&#34;&gt;Norwegian with Audio&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ノルウェー語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1126003944&#34;&gt;German-English top 1000 words - usage frequency (with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/3004519841&#34;&gt;French Numbers 0-99 - Audio Drill&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 数字 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1836502846&#34;&gt;Spanish numbers 1-200 with audio&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スペイン語 数字 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1197265380&#34;&gt;Spanish numbers 200-400 with audio&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スペイン語 数字 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1644949726&#34;&gt;Spanish numbers 400-1000 with audio random&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スペイン語 数字 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1364481455&#34;&gt;US Postal Abbreviations&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;英語 アメリカ 郵便 州 略称&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1018410050&#34;&gt;Finnish Core 100 - Basic words (EN FI with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フィンランド語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1082291730&#34;&gt;German Core 100 - Basic words (EN DE with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ドイツ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1183137635&#34;&gt;Farsi Core 100 - Basic words (EN FA with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ペルシア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/120195518&#34;&gt;Swedish Core 100 - Basic words (EN SV with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スウェーデン語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1534310908&#34;&gt;Turkish Core 100 - Basic words (EN TR with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;トルコ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1540956544&#34;&gt;Russian Core 100 - Basic words (EN RU with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ロシア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1558401647&#34;&gt;Cantonese Core 100 - Basic words (EN YUE with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;広東語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1758160103&#34;&gt;Korean Core 100 - Basic words (EN KO with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;韓国語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/186112735&#34;&gt;Polish Core 100 - Basic words (EN PL with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポーランド語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1880481633&#34;&gt;Dutch Core 100 - Basic words (EN NL with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;オランダ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1910069300&#34;&gt;Danish Core 100 - Basic words (EN DA with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;デンマーク語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1951512042&#34;&gt;Norwegian Core 100 - Basic words (EN NO with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ノルウェー語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1965697482&#34;&gt;Vietnamese Core 100 - Basic words (EN VI with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ベトナム語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/264662891&#34;&gt;Spanish Core 100 - Basic words (EN ES with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スペイン語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/291616264&#34;&gt;Indonesian Core 100 - Basic words (EN ID with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;インドネシア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/33786403&#34;&gt;French Core 100 - Basic words (EN FR with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フランス語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/454628379&#34;&gt;Hindi Core 100 - Basic words (EN HI with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ヒンディー語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/50460602&#34;&gt;Swahili Core 100 - Basic words (EN SW with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;スワヒリ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/556661775&#34;&gt;Filipino Core 100 - Basic words (EN TL with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;フィリピン語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/697918796&#34;&gt;Mandarin Chinese Core 100 - Basic words (EN ZH with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;中国語 普通話 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/72104535&#34;&gt;Italian Core 100 - Basic words (EN IT with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;イタリア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/738192852&#34;&gt;Arabic Core 100 - Basic words (EN AR with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;アラビア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/790604009&#34;&gt;Thai Core 100 - Basic words (EN TH with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;タイ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/812639328&#34;&gt;Greek Core 100 - Basic words (EN EL with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ギリシア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/889789113&#34;&gt;Hebrew Core 100 - Basic words (EN HE with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ヘブライ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/952826225&#34;&gt;Portuguese Core 100 - Basic words (EN PT with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ポルトガル語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1320507125&#34;&gt;Czech Core 100 - Basic words (EN CS with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;チェコ語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/141464639&#34;&gt;Bulgarian Core 100 - Basic words (EN BG with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ブルガリア語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1392746304&#34;&gt;Hungarian Core 100 - Basic words (EN HU with audio)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;ハンガリー語 画像 音声&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-右上検索欄にキーワードを入力すると、情報を絞り込みます。
-&lt;/li&gt;
-&lt;li&gt;
-分類列やタグ列の単語をクリックすると、その用語で情報を絞り込みます。
-&lt;/li&gt;
-&lt;li&gt;
-左上 [検索条件解除] ボタンを押すと、全ての情報を表示します。
-&lt;/li&gt;
-&lt;li&gt;
-見出しをクリックすると、情報を並び替えます。
-&lt;/li&gt;
-&lt;li&gt;
-上部のドロップダウンから一度に表示する項目数を選択できます。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
-&lt;/li&gt;
-&lt;li&gt;
-個人的な視点に基づいて選択したデータであって、AnkiWeb 登録の日本語単語帳の一部です。
-&lt;/li&gt;
-&lt;li&gt;
-外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-共有単語帳の使い方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;をご覧下さい。
-&lt;/li&gt;
-&lt;li&gt;
-共有単語帳の作り方や AnkiWeb への登録方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;をご覧下さい。
-&lt;/li&gt;
-&lt;li&gt;
-Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点を&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt;にまとめています。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;共有単語帳への検索リンク集&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳への検索リンク集&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;p&gt;更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
-日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
-&lt;/li&gt;
-&lt;li&gt;
-AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;言語&#34;&gt;言語&lt;/h2&gt;
-&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
-&lt;colgroup&gt;
-&lt;col class=&#34;span2&#34;&gt;
-&lt;col class=&#34;span3&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;日本語キーワード&lt;/th&gt;
-&lt;th&gt;英語キーワード&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%97%A5%E6%9C%AC%E8%AA%9E&#34;&gt;日本語&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%9B%BD%E8%AA%9E&#34;&gt;国語&lt;/a&gt;,  &lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%BC%A2%E5%AD%97&#34;&gt;漢字&lt;/a&gt;,  &lt;a href=&#34;https://ankiweb.net/shared/decks/%E4%BB%AE%E5%90%8D&#34;&gt;仮名&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%8F%A4%E6%96%87&#34;&gt;古文&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E9%83%A8%E9%A6%96&#34;&gt;部首&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/japanese/&#34;&gt;Japanese&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/kanji&#34;&gt;Kanji&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;アラビア語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/arabic&#34;&gt;Arabic&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;イタリア語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Italian&#34;&gt;Italian&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ウクライナ語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Ukrainian&#34;&gt;Ukrainian&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E8%8B%B1%E8%AA%9E&#34;&gt;英語&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E8%8B%B1%E6%A4%9C&#34;&gt;英検&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/english&#34;&gt;English&lt;/a&gt;,&lt;a href=&#34;https://ankiweb.net/shared/decks/TOEFL&#34;&gt;TOEFL&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/TOEIC&#34;&gt;TOEIC&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/IELTS&#34;&gt;IELTS&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/CAE&#34;&gt;CAE&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E9%9F%93%E5%9B%BD%E8%AA%9E&#34;&gt;韓国語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/korean&#34;&gt;Korean&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ギリシャ語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/greek&#34;&gt;Greek&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;クメール語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Khmer&#34;&gt;Khmer&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;サンスクリット&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/sanskrit&#34;&gt;Sanskrit&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;スペイン語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/spanish&#34;&gt;Spanish&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E4%B8%AD%E5%9B%BD%E8%AA%9E&#34;&gt;中国語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/chinese&#34;&gt;Chinese&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/mandarin&#34;&gt;Mandarin&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;タイ語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Thai&#34;&gt;Thai&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E3%83%89%E3%82%A4%E3%83%84%E8%AA%9E&#34;&gt;ドイツ語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/german&#34;&gt;German&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;トルコ語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Turkish&#34;&gt;Turkish&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ヒンディー語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/hindi&#34;&gt;Hindi&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E8%AA%9E&#34;&gt;フランス語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/french&#34;&gt;French&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E8%AA%9E&#34;&gt;ベトナム語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Vietnamese&#34;&gt;Vietnamese&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ヘブライ語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Hebrew&#34;&gt;Hebrew&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E3%83%9A%E3%83%AB%E3%82%B7%E3%82%A2%E8%AA%9E&#34;&gt;ペルシャ語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/persian&#34;&gt;Persian&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ベンガル語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/bengal&#34;&gt;Bengal&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ポーランド語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Polish&#34;&gt;Polish&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB%E8%AA%9E&#34;&gt;ポルトガル語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/portugues&#34;&gt;Portugues&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;マラティ語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Marathi&#34;&gt;Marathi&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;マレー語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/malay&#34;&gt;Malay&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E3%83%AD%E3%82%B7%E3%82%A2%E8%AA%9E&#34;&gt;ロシア語&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/russian&#34;&gt;Russian&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ラテン語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/latin&#34;&gt;Latin&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;人文社会&#34;&gt;人文社会&lt;/h2&gt;
-&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
-&lt;colgroup&gt;
-&lt;col class=&#34;span2&#34;&gt;
-&lt;col class=&#34;span3&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;日本語キーワード&lt;/th&gt;
-&lt;th&gt;英語キーワード&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;哲学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/philosophy&#34;&gt;Philosophy&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;聖書&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/bible&#34;&gt;Bible&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;コーラン&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/quran&#34;&gt;Quran&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;仏教&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/buddha&#34;&gt;Buddha&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/buddhism&#34;&gt;Buddhism&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;心理&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Psychology&#34;&gt;Psychology&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;言語&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/linguistics&#34;&gt;Linguistics&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%AD%B4%E5%8F%B2&#34;&gt;歴史&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/history&#34;&gt;History&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/history%20of%20japan&#34;&gt;History of Japan&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%9C%B0%E7%90%86&#34;&gt;地理&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Geography&#34;&gt;Geography&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;音楽&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/music&#34;&gt;Music&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%95%99%E8%82%B2&#34;&gt;教育&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/education&#34;&gt;Education&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;学力試験&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/GCSE&#34;&gt;GCSE&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/AQA&#34;&gt;AQA&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/sat%20vocab&#34;&gt;SAT Vocab&lt;/a&gt;ulary, &lt;a href=&#34;https://ankiweb.net/shared/decks/gre%20vocab&#34;&gt;GRE Vocab&lt;/a&gt;ulary&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%B3%95%E5%BE%8B&#34;&gt;法律&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%B3%95%E4%BB%A4&#34;&gt;法令&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/law&#34;&gt;Law&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%94%BF%E6%B2%BB&#34;&gt;政治&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/politics&#34;&gt;Politics&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;経済&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Economics&#34;&gt;Economics&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;会計&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/CPA&#34;&gt;CPA&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;マーケティング&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Marketing&#34;&gt;Marketing&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;プロジェクト管理&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Project%20Management&#34;&gt;Project Management&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/PMBOK&#34;&gt;PMBOK&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;科学技術&#34;&gt;科学技術&lt;/h2&gt;
-&lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
-&lt;colgroup&gt;
-&lt;col class=&#34;span2&#34;&gt;
-&lt;col class=&#34;span3&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;日本語キーワード&lt;/th&gt;
-&lt;th&gt;英語キーワード&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;数学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/math&#34;&gt;Math&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;統計&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/statistics&#34;&gt;Statistics&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;物理&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/physics&#34;&gt;Physics&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;化学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/chemistry&#34;&gt;Chemistry&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;生物&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/biology&#34;&gt;Biology&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;解剖学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/anatomy&#34;&gt;Anatomy&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;生理学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Physiology&#34;&gt;Physiology&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%8C%BB%E5%AD%A6&#34;&gt;医学&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%8C%BB%E7%99%82&#34;&gt;医療&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/medicine&#34;&gt;Medicine&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/medical&#34;&gt;Medical&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/USMLE&#34;&gt;USMLE&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;病理学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/pathology&#34;&gt;Pathology&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;歯学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Dentistry&#34;&gt;Dentistry&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/dental&#34;&gt;Dental&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;薬学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Pharmacology&#34;&gt;Pharmacology&lt;/a&gt;,&lt;a href=&#34;https://ankiweb.net/shared/decks/drug&#34;&gt;Drug&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;獣医学&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Veterinary&#34;&gt;Veterinary&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;エンジニアリング&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Engineering&#34;&gt;Engineering&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;建築&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Architecture&#34;&gt;Architecture&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;情報&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/software&#34;&gt;Software&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/Programming&#34;&gt;Programming&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/network&#34;&gt;Network&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;金属&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/metal&#34;&gt;Metal&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;デザイン&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/design&#34;&gt;Design&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;環境, &lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%85%AC%E5%AE%B3&#34;&gt;公害&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/environment&#34;&gt;Environment&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;p&gt;2015/02/17: 初出&lt;/p&gt;
-&lt;p&gt;2015/02/26: 追加: 人文社会、科学技術&lt;/p&gt;
-&lt;p&gt;2016/01/27: 最新情報にあわせて全面更新&lt;/p&gt;
-&lt;p&gt;2016/02/05: 単語帳検索画面を追加&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
       <title>AnkiMobile の学習オプションを最適化する</title>
-      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <link>/ankimobile-study-options/</link>
       <pubDate>Sat, 24 Jan 2015 00:00:42 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <guid>/ankimobile-study-options/</guid>
       <description>AnkiWeb の同期機能は、教材や学習履歴、復習スケジュールに加えて、学習オプションも同期します。通常は iPhone や iPad などで AnkiMobile を単独で使っている場合でも、この同期機能を利用すると AnkiMobile の機能を詳細に設定することができます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;AnkiWeb の同期機能は、教材や学習履歴、復習スケジュールに加えて、学習オプションも同期します。通常は iPhone や iPad などで AnkiMobile を単独で使っている場合でも、この同期機能を利用すると AnkiMobile の機能を詳細に設定することができます。&lt;/p&gt;
@@ -1409,7 +182,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb の同期機能は、Anki デスクトップ PC 版 と iOS アプリの AnkiMobile 間で学習オプションを同期します。AnkiMobile のユーザーインターフェイスは、PC 版で設定できる項目の一部だけに限定されています。&lt;/p&gt;
 &lt;p&gt;AnkiMobile を単独で利用している場合でも、Anki デスクトップ PC 版 を利用すると自分の学習環境に最適な設定をすることができます。&lt;/p&gt;
-&lt;p&gt;デスクトップ PC 版は、OS X、Windows、Linux/BSD などの様々なプラットフォームに対応しています。インストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;p&gt;デスクトップ PC 版は、OS X、Windows、Linux/BSD などの様々なプラットフォームに対応しています。インストール方法については、&lt;a href=&#34;/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_から設定できること&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -1419,7 +192,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-studyoption.png&#34; alt=&#34;学習オプション&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-studyoption.png&#34; alt=&#34;学習オプション&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 学習オプション&lt;/div&gt;
 &lt;/div&gt;
@@ -1433,14 +206,14 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;p&gt;起動直後に表示する単語帳一覧の中から、設定したい単語帳名をクリックするその単語帳のトップページを表示します。(図 2)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
+&lt;img src=&#34;/images/study-options-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 単語帳一覧&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;単語帳のトップページ下にある[オプション]ボタン(図 3)を押すか、 [O]キーを押すと、オプション設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/study-options-cover.png&#34; alt=&#34;単語帳トップ&#34;&gt;
+&lt;img src=&#34;/images/study-options-cover.png&#34; alt=&#34;単語帳トップ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 単語帳トップ&lt;/div&gt;
 &lt;/div&gt;
@@ -1455,32 +228,32 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;p&gt;新規カードの項目では、新規カードの学習上限に加えて、学習ステップや表示順、カードの初期値を設定できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_8.png&#34; alt=&#34;新規カード&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_8.png&#34; alt=&#34;新規カード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 学習オプション 新規カード&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;復習の項目では、復習カードの枚数に加えて、復習スケジュールが調整できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_10.png&#34; alt=&#34;復習&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_10.png&#34; alt=&#34;復習&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 学習オプション 復習&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;忘却の項目では、忘却した場合の処理内容を指定できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 学習オプション 忘却&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Anki の設定項目に使用している用語の意味が分からない場合は、&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集&lt;/a&gt;が参考になります。&lt;/p&gt;
+&lt;p&gt;Anki の設定項目に使用している用語の意味が分からない場合は、&lt;a href=&#34;/anki_glossary/&#34;&gt;Anki 用語集&lt;/a&gt;が参考になります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;同期機能で設定内容を反映&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;同期機能で設定内容を反映&lt;/h1&gt;
   &lt;/div&gt;
 &lt;p&gt;設定が完了したら、Anki と AnkiWeb を同期します。次に、AnkiMobile から同期を行うと設定が反映されます。&lt;/p&gt;
-&lt;p&gt;同期機能の具体的な使用手順については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;p&gt;同期機能の具体的な使用手順については、&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h2&gt;
 &lt;p&gt;AnkiMobile で設定変更した後に、AnkiWeb 経由でデスクトップ PC 用Anki と同期すると、AnkiMobile で変更した内容が PC 側に反映されます。&lt;/p&gt;
 &lt;/section&gt;
@@ -1501,9 +274,9 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
     
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
-      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <link>/how-to-use-profile/</link>
       <pubDate>Tue, 23 Sep 2014 17:00:10 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <guid>/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。How to use User Profile for Anki.</description>
       <content>&lt;p&gt;&lt;p&gt;Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。&lt;/p&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -1538,7 +311,7 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
 &lt;p&gt;プロファイル設定画面を呼び出すにはメニューバーから [ファイル]-[プロファイルを変える] を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
+&lt;img src=&#34;/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. プロファイルダイアログ&lt;/div&gt;
 &lt;/div&gt;
@@ -1551,7 +324,7 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
 設定したいプロファイルを開き、メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[一般] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
+&lt;img src=&#34;/images/profile-password-setting.png&#34; alt=&#34;デスクトップ版 環境設定 一般&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. デスクトップ版 Anki　環境設定 一般&lt;/div&gt;
 &lt;/div&gt;
@@ -1560,7 +333,7 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
 &lt;p&gt;プロファイルダイアログの中でパスワード設定しているプロファイルを選択すると、パスワード入力欄を表示します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
+&lt;img src=&#34;/images/profile-dialog.png&#34; alt=&#34;プロファイルダイアログ パスワード入力&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. プロファイルダイアログ パスワード入力&lt;/div&gt;
 &lt;/div&gt;
@@ -1571,7 +344,7 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
@@ -1592,14 +365,14 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
  単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-preferences.png&#34; alt=&#34;AnkiMobile 環境設定画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. AnkiMobile 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[Profiles] をタップするとプロファイル設定画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
+&lt;img src=&#34;/images/profile-ankimobile-screen2013.png&#34; alt=&#34;AnkiMobile プロファイル画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile プロファイル画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1624,7 +397,7 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
+&lt;img src=&#34;/images/profile-ankimobile-rename.png&#34; alt=&#34;AnkiMobile プロファイル名長押し後の選択項目&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile プロファイル名長押し後の選択項目&lt;/div&gt;
 &lt;/div&gt;
@@ -1668,14 +441,14 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;p&gt;PC 版 Anki は、環境設定画面の [ネットワーク] タブを選択し、[認証解除] ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
+&lt;img src=&#34;/images/sync-settings.png&#34; alt=&#34;デスクトップ版 Anki ネットワーク設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. デスクトップ版 Anki ネットワーク設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;AnkiMobile は、環境設定画面から [Syncing] を選択し、[Deauth] ボタンを押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
+&lt;img src=&#34;/images/sync-am-pref-sync.png&#34; alt=&#34;同期設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
@@ -1701,9 +474,9 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。&lt;/p&gt;
@@ -1789,7 +562,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;p&gt;上で紹介した確認項目を調べてみましょう。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー画面&#34;&gt;
+&lt;img src=&#34;/images/shared-decks-preview.png&#34; alt=&#34;プレビュー画面&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1808,7 +581,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;p&gt;iOS アプリの AnkiMobile では、検索画面で共有単語帳のデータ内容を一覧することができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-ankimobile-search.png&#34; alt=&#34;AnkiMobile 検索画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/shared-decks-ankimobile-search.png&#34; alt=&#34;AnkiMobile 検索画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile 検索画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1820,7 +593,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 プレビューするカードが全てとりきれる大きい値を設定してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-ankimobile-customstudy.png&#34; alt=&#34;AnkiMobile カスタム学習設定画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/shared-decks-ankimobile-customstudy.png&#34; alt=&#34;AnkiMobile カスタム学習設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. AnkiMobile カスタム学習設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -1828,7 +601,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 表示中のカードを編集したい時は、画面上の [Edit] を選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-ankimobile-customsession.png&#34; alt=&#34;AnkiMobile カスタム学習セッション&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;/images/shared-decks-ankimobile-customsession.png&#34; alt=&#34;AnkiMobile カスタム学習セッション&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. AnkiMobile カスタム学習セッション&lt;/div&gt;
 &lt;/div&gt;
@@ -1850,25 +623,511 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
 &lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
+&lt;a href=&#34;/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
+&lt;a href=&#34;/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
+&lt;a href=&#34;/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
+&lt;a href=&#34;/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
+&lt;a href=&#34;/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
+&lt;a href=&#34;/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのためのはじめての Anki</title>
+      <link>/how-to-use-ankimobile/</link>
+      <pubDate>Sat, 13 Sep 2014 21:30:52 +0900</pubDate>
+      <guid>/how-to-use-ankimobile/</guid>
+      <description>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</description>
+      <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
+&lt;p&gt;分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;はじめに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;はじめに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile には、&lt;a href=&#34;http://ankisrs.net/docs/am-manual.html&#34; target=&#34;_new&#34;&gt;完全なマニュアル&lt;/a&gt;が用意されていますが、PC 版同様、多岐にわたる機能のすべてが通常の学習で必要ではありません。&lt;/p&gt;
+&lt;p&gt;はじめて AnkiMobile を使うときに必要な、毎日の学習が続けられる最低限の使い方だけ分かるようにまとめました。
+自分の知りたいことだけを飛ばし読みできるように構成しています。&lt;/p&gt;
+&lt;p&gt;なお、AnkiMobile は、ユーザーインターフェイスの表示言語は英語のみです。
+そこで、文書中で取り上げる画面ショットには、機能を理解するのに重要と思われる箇所に、PC 版 Anki に準拠した日本語訳を付けました。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-mainscreen.png&#34; alt=&#34;インストール直後の単語帳一覧&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. インストール直後の単語帳一覧&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ankimobile_について&#34;&gt;AnkiMobile について&lt;/h2&gt;
+&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; は、分散学習機能を持ったフラッシュカード Anki の iOS 版アプリです。
+フラッシュカードアプリとしての Anki の主な特徴は、記憶したカードを正しく記憶している限り、復習間隔どんどん広げて自動的に出題することです。
+この機能によって一枚一枚の記憶内容の強化と、カード全体の進捗管理が効率的にできます。&lt;/p&gt;
+&lt;p&gt;iOS 機器のマルチタッチスクリーンのジェスチャを利用した学習が可能で、PC を使った学習に比べて
+場所や時間を選ばずに継続できる特長を持っています。&lt;/p&gt;
+&lt;p&gt;無料のオンラインサービス AnkiWeb を利用すると、学習データのバックアップや他の機器との共有が簡単になり、iPhone 端末の利便性を更に高めることができます。&lt;/p&gt;
+&lt;h2 id=&#34;ios_アプリ版の位置づけ&#34;&gt;iOS アプリ版の位置づけ&lt;/h2&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile は、PC 版 Anki (以下 Anki) と連携して使うことを目的として設定していて、完全にPC 版を置き換えるものではありません。
+無料のオンラインサービス AnkiWeb を利用すると AnkiMobile と Anki がより緊密で効率的に連携できるようになります。&lt;/p&gt;
+&lt;p&gt;PC 版のスケジュールに関するオプションを完全にサポートしていますが、AnkiMobile 内から全てを変更できません。
+Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiMobile に反映します。
+また、カードのレイアウト変更や機能追加をするには、Anki が必要になります。&lt;/p&gt;
+&lt;p&gt;両者を連携して使う場合は、PC 版の iTunes と　iPod の関係のように Anki はコンテンツの作成や管理、AnkiMobile はコンテンツの学習に役割分担した設計になっています。&lt;/p&gt;
+&lt;h2 id=&#34;この記事の構成&#34;&gt;この記事の構成&lt;/h2&gt;
+&lt;p&gt;PC 版 Anki についてはすでに、&lt;a href=&#34;/how-to-anki/&#34;&gt;Ankiの使い方 〜覚えるために忘れろ〜&lt;/a&gt;という連載記事で利用するのに必要な最低限の情報を網羅しています。
+この記事は、この公開済み情報に AnkiMobile に固有の情報の注釈をつける形で内容を圧縮する構成にしました。
+読み通すだけで手早く全体像が理解でき、公開済みの内容の中から興味のある情報だけを参照すれば済むようになっています。&lt;/p&gt;
+&lt;p&gt;AnkiMobile にしかできないこと、Anki の利用が必要なこと、Anki と AnkiMobile で異なる場合などを強調して説明していきます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankimobile_の入手方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiMobile の入手方法&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; は、iTunes App Store から購入できます。この記事を作成している時点では 2,500 円です。&lt;/p&gt;
+&lt;p&gt;AnkiMobile と連携する他のプラットフォームの Anki を入手する方法は、&lt;a href=&#34;/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankimoblie_を使った学習&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiMoblie を使った学習&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiMobile をつかった学習の全体的な流れは、&lt;a href=&#34;/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-theme-blue.png&#34; alt=&#34;学習画面&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 学習画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;PC と iPhone の両方で学習したい場合は、&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnkまず使ってみる&lt;/a&gt;では、PC 版の学習の流れを簡単に紹介していますので参考にしてください。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;教材の新規作成と編集&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;教材の新規作成と編集&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Anki のカードは、ノートとノートタイプから生成します。ノートはカード面に表示するデータのことです。
+ノートタイプとは、このデータをカード面上の配置を指定するひな形です。
+一つのノートタイプに複数のひな形を作成すれば、同じデータからレイアウトの違うカードを生成できます。
+反転したカード両方をノートタイプを指定するだけで簡単にできます。&lt;/p&gt;
+&lt;h2 id=&#34;新規作成&#34;&gt;新規作成&lt;/h2&gt;
+&lt;p&gt;学習画面の上部 Quickbar から [Add] をタップすると追加画面が開きます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-addscreen.png&#34; alt=&#34;追加画面&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 追加画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた 単純なカードの作り方&lt;/a&gt;で、画像や音声の取り込み方を含めた詳しい手順を説明しています。&lt;/p&gt;
+&lt;h3 id=&#34;ノートタイプの指定&#34;&gt;ノートタイプの指定&lt;/h3&gt;
+&lt;p&gt;[Type] 項目では、ノートタイプの指定します。単純なカードを作る場合は Basic (基本) を選択します。
+この項目は、後で AnkiMobile 上では変更することができないので注意してください。&lt;/p&gt;
+&lt;p&gt;AnkiMobile は既定で 4 種類のノートタイプを用意しています。&lt;a href=&#34;/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;で詳しく説明しています。&lt;/p&gt;
+&lt;p&gt;空欄補充問題をつくる場合には、Type: [Cloze (穴埋め)] を選択します。
+空欄補充問題のノートの書き方は、
+&lt;a href=&#34;/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;を参考にしてください。&lt;/p&gt;
+&lt;p&gt;PC 版 Anki では、作成済みのカードのノートタイプを変更や独自のノートタイプの作成ができます。&lt;/p&gt;
+&lt;h3 id=&#34;保存先単語帳の指定&#34;&gt;保存先単語帳の指定&lt;/h3&gt;
+&lt;p&gt;[Deck] 項目では、保存先の単語帳 (デッキ) を指定します。
+単語帳選択画面から[Add] を選択すると新しい単語帳が作成できます。
+この項目は、後で AnkiMobile 上では変更することができないので注意してください。&lt;/p&gt;
+&lt;p&gt;PC 版 Anki では、単語帳名やカードの保存先の変更ができます。&lt;/p&gt;
+&lt;h2 id=&#34;編集&#34;&gt;編集&lt;/h2&gt;
+&lt;p&gt;カードの内容を編集したい場合は、編集したいカードを表示した上で学習画面の上部 Quickbar から [Edit] をタップすると編集画面を呼び出します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-editscreen.png&#34; alt=&#34;編集画面&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 編集画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;単語帳データの入出力&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;単語帳データの入出力&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;「はじめに」で触れましたがPC 版 Anki データを作成し、 AnkiMobile はそのデータの学習に特化する位置づけで設計されています。
+このため、AnkiMobile の入出力機能は、PC 版 Anki と比較すると機能が限定されます。&lt;/p&gt;
+&lt;h2 id=&#34;データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
+&lt;p&gt;AnkiMobile には、テキストデータを一括登録する機能はありません。
+まず、Anki を利用してデータを読み込む必要があります。
+&lt;a href=&#34;/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;ではテキストデータの一括登録する方法を説明しています。&lt;/p&gt;
+&lt;p&gt;その後、次の方法で AnkiMobile へ持ち込みます。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;AnkiWeb 経由と同期する。&lt;/strong&gt; この場合、更新したコレクションデータ全てが、AnkiMobile に反映されます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;iTunes 経由でコレクション全体を collection.apkg ファイルとして読み込む。&lt;/strong&gt;
+iTunes のファイル共有機能を使います。この場合、コレクション内の単語帳全てを上書きします。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;Safari 経由でapkgファイルをダウンロードする。&lt;/strong&gt; ダウンロード後、[Anki で開く] を選択すると、AnkiMobile に読み込めます。この場合は単語帳単位で読み込めます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;データの書き出し&#34;&gt;データの書き出し&lt;/h2&gt;
+&lt;p&gt;AnkiMobile からデータを書き出す方法では細かい設定ができません。&lt;/p&gt;
+&lt;p&gt;AnkiMobile からのデータの出力方法は 2 通りです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+AnkiWeb 経由で Anki と同期する。この場合、コレクションの更新内容全てを同期することになります。
+&lt;/li&gt;
+&lt;li&gt;
+iTunes を経由でコレクションを書き出す。この場合、コレクション全体を書き出すことになります。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;残念ながら、読み込みのように単語帳単位で書き出す方法はありません。&lt;/p&gt;
+&lt;h2 id=&#34;ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h2&gt;
+&lt;p&gt;AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
+くわしくは、&lt;a href=&#34;/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;h2 id=&#34;itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h2&gt;
+&lt;p&gt;iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。&lt;/p&gt;
+&lt;p&gt;iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 &lt;a target=&#34;_new&#34; href=&#34;http://support.apple.com/kb/ht1386?viewlocale=ja_JP&#34;&gt;iOS：iTunes とデータを同期する&lt;/a&gt;を参考にしてください。&lt;/p&gt;
+&lt;h3 id=&#34;ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h3&gt;
+&lt;p&gt;単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-io.png&#34; alt=&#34;データ入出力ダイアログ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. データ入出力ダイアログ&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;[Import from iTuenes]&lt;/strong&gt; を選択すると、コレクション全体を読み込んだファイルで置き換えます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;[Export to iTunes]&lt;/strong&gt; を選択すると、コレクション全体を collection.apkg として書き出します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h3 id=&#34;pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h3&gt;
+&lt;p&gt;PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+iTunes を起動し、画面右上の [iPhone] ボタンをクリックします。
+(接続している iOS 機器によってこのボタンのラベルは変わります。)
+&lt;/li&gt;
+&lt;li&gt;
+画面上のツールバーから [App] を選択します。
+&lt;/li&gt;
+&lt;li&gt;
+画面を下にスクロールし [ファイル共有] の [App] の項目一覧から Ankiを選択します。
+&lt;/li&gt;
+&lt;li&gt;
+[Anki の書類] というファイル一覧が右のパネルに表示します。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;AnkiMobile から出力すると、下図のように &lt;code&gt;collection.apkg&lt;/code&gt; が現れます。
+このファイルを選択して、画面右下の [保存先] を押すと、PC 上の任意の場所に保存できます。&lt;/p&gt;
+&lt;p&gt;画面下の [追加] を選択すると、AnkiMobile へ読み込むファイルを選択できます。
+ただし、&lt;code&gt;collection.apkg&lt;/code&gt; という名前でなければ [Import from iTuenes] コマンドが機能しません。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-itunes.png&#34; alt=&#34;iTunes ファイル共有&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. iTunes ファイル共有&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;自動バックアップの使い方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;自動バックアップの使い方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;初期設定では、AnkiMobile は、1 時間毎に自動バックアップファイルを最大 15 個作成しています。
+最後の AnkiWeb との同期の後に復活させたいデータがある場合には利用するのがよいでしょう。&lt;/p&gt;
+&lt;p&gt;自動バックアップを使うには、PC と接続して、先に説明した iTunes ファイル共有を使用します。&lt;/p&gt;
+&lt;h2 id=&#34;復旧手順&#34;&gt;復旧手順&lt;/h2&gt;
+&lt;p&gt;バックアップファイルのファイル名を &lt;code&gt;collection.apkg&lt;/code&gt; に変更して、先に説明した要領でデータ入力機能を使って読み込む作業になります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+PC の iTunes 上で、AnkiMobile とのファイル共有画面を開きます。
+&lt;/li&gt;
+&lt;li&gt;
+[Anki の書類] から復活したいバックアップファイルを選択します。ファイル名は&lt;code&gt;backup-(プロファイル名)-(連番).apkg&lt;/code&gt; です。
+&lt;/li&gt;
+&lt;li&gt;
+デスクトップにドラッグするか、画面右下の [保存先] を押して、このファイルを別の場所に保存します。
+&lt;/li&gt;
+&lt;li&gt;
+保存先でファイル名を &lt;code&gt;collection.apkg&lt;/code&gt; に変更します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;collection.apkg&lt;/code&gt; を元の [Anki の書類] へドラッグするか、iTunes の 画面右下の [追加] を押して指定します。
+&lt;/li&gt;
+&lt;li&gt;
+AnkiMobile の読み込み機能を使って読み込みます。単語帳一覧の画面左下の [Import/Export] をタップし、[Import from iTuenes]* を選択すると、バックアップファイルを読み込みます。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;共有リソースの使い方&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;共有リソースの使い方&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;自作の教材以外に、Anki ユーザーが共有している単語帳を AnkiWeb から入手できます。
+&lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;のデータ入出力、共有単語帳のインストール手順を説明しています。&lt;/p&gt;
+&lt;p&gt;なお AnkiMobile では、Anki PC 版のアドオンプログラムは利用できません。&lt;/p&gt;
+&lt;h2 id=&#34;共有単語帳の作成&#34;&gt;共有単語帳の作成&lt;/h2&gt;
+&lt;p&gt;作成した単語帳データを共有単語帳として公開するには AnkiWeb を通じて行います。この作業は AnkiMobile 内から行うのではなく、ウェブブラウザ上でフォームを送信して行うことができます。
+&lt;a href=&#34;/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;でその手順を解説しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;カードのデザイン&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;カードのデザイン&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiMobile では、カードのデザインつまりノートタイプの作成編集ができません。
+PC 版 Anki を利用することになります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;では、カードテンプレートを編集し、外部リンク設定、読み上げ設定をする方法を紹介しています。また、&lt;/p&gt;
+&lt;p&gt;PC 版 Anki を使ってカードに特別な機能をカードに追加することができます。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;/hint_field/&#34;&gt;Ankiのカードにヒントを付ける方法&lt;/a&gt;、
+では、ヒントを表示する方法を紹介しています。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;では、解答をキー入力するカードの作り方を説明しています。なお、穴埋め問題と組み合わせる方法は、現在のところ AnkiMobile では動作しません。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-type-answer.png&#34; alt=&#34;AnkiMobile 上の解答キー入力&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 上の解答キー入力&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;データの検索&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;データの検索&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;Find Screen (検索画面) を使うとカードを検索できます。
+単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
+([Tools] – [More] – [Find] を選択しても同じ結果になります。)&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-search.png&#34; alt=&#34;検索画面&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. 検索画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;既定では検索欄に　&lt;code&gt;deck:current&lt;/code&gt; (意味:選択中の単語帳) と入力済みになっています。そのまま右下の [Search (検索)] ボタンをタップすると、選択中の単語帳のカード一覧を表示します。&lt;/p&gt;
+&lt;p&gt;さらに検索条件を追加するしてカードを絞り込むことができます。&lt;code&gt;deck:current&lt;/code&gt; を削除すれば、全ての単語帳から検索できるようになります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-search-results.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. 検索結果&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;検索条件の詳細は&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;を参考にしてください。検索条件は、AnkiMobile でもそのまま使えます。&lt;/p&gt;
+&lt;h2 id=&#34;検索結果の注意点&#34;&gt;検索結果の注意点&lt;/h2&gt;
+&lt;p&gt;一つのノート (元になるデータ) から複数のカード作成した場合、Find Screen では区別がつかないので注意してください。
+既定のノートタイプ [Basic (and reversed card)] (基本 (裏面カード付き)) を指定した場合、表向きと裏向きの 2 枚のカードを表示します。ノートタイプの表示がないため、あたかも同じ項目が重複しているように誤解する可能性があります。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;学習のカスタマイズ&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;学習のカスタマイズ&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;単語帳オプションの設定で設定している学習モードをカスタマイズすることができます。
+カスタム学習セッションは、主として単語帳のオプションの上限値を超える学習ができる一時的な学習セッションです。
+フィルター単語帳は、さらにコレクション全体から検索条件に見合うカードを抽出して作成する特別な単語帳です。&lt;/p&gt;
+&lt;p&gt;試験前のおさらい、一夜漬けするのに使うと言えば分かりやすいでしょうか。&lt;/p&gt;
+&lt;h2 id=&#34;カスタム学習セッションの作成&#34;&gt;カスタム学習セッションの作成&lt;/h2&gt;
+&lt;p&gt;カスタム学習では、単語帳オプションで指定している学習上限を一時的に緩めて、新たな学習カードを取得します。&lt;/p&gt;
+&lt;p&gt;カスタム学習セッションは、[Tools] - [More] - [Custom Study] で設定画面を呼び出して始めます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-customstudy.png&#34; alt=&#34;カスタム学習&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 10. カスタム学習設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;取得条件、枚数、などの項目を設定した後に、画面右上 [OK] をタップすると作成し、学習セッションが始まります。
+新規カード、復習カードの上限を上げたとき以外は、青字で &lt;code&gt;Custom Study Session&lt;/code&gt; という名前の単語帳に取得カードが移動します。
+カスタム学習セッションの学習が終わったカードは、移動したカードも元の単語帳に戻ります。&lt;/p&gt;
+&lt;h2 id=&#34;フィルター単語帳の作成&#34;&gt;フィルター単語帳の作成&lt;/h2&gt;
+&lt;p&gt;フィルター単語帳とは、コレクション全体から検索条件で選択したカードを学習する特別な単語帳です。
+&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;で、紹介しているフィルター単語帳の検索条件はそのまま AnkiMobile でも使えますます。&lt;/p&gt;
+&lt;p&gt;フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。&lt;/p&gt;
+&lt;p&gt;フィルター単語帳は、[Tools] - [More] - [Filter/Cram] で設定画面を呼び出して作成します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-filter.png&#34; alt=&#34;フィルター単語帳設定画面&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 11. フィルター単語帳設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;検索条件、取得上限、出題順序などの項目を設定した後に、画面右上 [Build] をタップすると作成し、学習セッションが始まります。&lt;/p&gt;
+&lt;p&gt;青字で &lt;code&gt;Filterd Deck (連番)&lt;/code&gt; という名前の単語帳に取得カードが移動します。
+フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。&lt;/p&gt;
+&lt;p&gt;復習間隔再設定を無効にすれば、元の単語帳で設定した復習間隔を維持します。&lt;/p&gt;
+&lt;h2 id=&#34;カスタム学習セッション_フィルター単語帳のアクション&#34;&gt;カスタム学習セッション、フィルター単語帳のアクション&lt;/h2&gt;
+&lt;p&gt;カスタム学習セッション、フィルター単語帳を開いた状態で次のアクションが利用できます。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+[Tools] - [More] - [Empty] で、取得したカードを全て元の単語帳に戻します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[Tools] - [More] - [Rebuild] で、カードを取得し直します。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[Tools] - [More] - [Study Option] で、カスタム学習の設定条件が再編集できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+[Tools] - [More] - [Filter/Cram] で、フィルター単語帳の設定条件が再編集できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;h2 id=&#34;カスタム学習セッション_フィルター単語帳の削除&#34;&gt;カスタム学習セッション、フィルター単語帳の削除&lt;/h2&gt;
+&lt;p&gt;不要になったカスタム学習セッション、フィルター単語帳は、単語帳一覧から単語帳名を左にスワイプすると削除できます。
+中にカードが残っている状態で削除すると、カードは元の単語帳に戻ります。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-remove-deck.png&#34; alt=&#34;単語帳の削除&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 12. 単語帳の削除&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;統計情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;統計情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;単語帳一覧から単語帳をタップし、左上 [Back] をタップして戻り、画面右上のグラフのボタンを押すと、指定した単語帳の統計情報を表示します。
+画面上部から対象単語帳の範囲、対象期間が指定できます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-stats.png&#34; alt=&#34;コレクション全体の過去一年の統計&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 12. コレクション全体の過去一年の統計&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;では統計情報の見方、たまった復習カードの解決法を説明しています。このPC 版の情報をそのまま使えます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ankimobile_固有の話題&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;AnkiMobile 固有の話題&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiMobile 独自の設定や機能について紹介します。
+&lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;ではユーザーインターフェイスの特徴、オンラインマニュアルやサポートサイトの使い方を説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;学習オプション&#34;&gt;学習オプション&lt;/h2&gt;
+&lt;p&gt;AnkiMobile 上では、単語帳の学習オプションとして一日の新規カードの上限と復習の上限が設定できます。
+学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-studyoption.png&#34; alt=&#34;学習オプション&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 13. 学習オプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Anki と AnkiWeb 経由で同期すると、Anki で設定した更に詳細な学習オプションも設定できます。
+PC 版 Anki を利用した詳細な学習オプションの具体的な設定手順は、&lt;a href=&#34;/ankimobile-study-options/&#34;&gt;AnkiMobile の学習オプションを最適化する&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;環境設定&#34;&gt;環境設定&lt;/h2&gt;
+&lt;p&gt;単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。
+&lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;で詳しい設定内容を説明しています。&lt;/p&gt;
+&lt;p&gt;この中で一番重要なのは [Review] で指定できるマルチタッチスクリーンのジェスチャへの機能の割り当てです。
+PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 14. 環境設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;なお、環境設定の一日の開始時刻の設定は Anki と同期することで変更できます。&lt;/p&gt;
+&lt;h2 id=&#34;テーマファイルの設定&#34;&gt;テーマファイルの設定&lt;/h2&gt;
+&lt;p&gt;AnkiMobile は 2 種類のテーマファイルから好きなテーマを選ぶことができます。
+初期設定では落ち着いた色使いの [Dark] ですが、[Blue] を選択して明るいテーマに変更できます。
+単語帳一覧の画面右上の歯車アイコンをタップし、[Theme] でテーマを選択します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-theme-dark.png&#34; alt=&#34;テーマ Dark 初期設定&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 15. テーマ Dark 初期設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;/images/how-to-ankimobile-theme-blue.png&#34; alt=&#34;テーマ Blue&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 16. テーマ Blue&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ios_システムとの連携&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;iOS システムとの連携&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;iOS システムが提供する機能を AnkiMobile から直接利用すると Anki に元々ない機能を追加することができます。&lt;/p&gt;
+&lt;h2 id=&#34;テキストを読み上げる&#34;&gt;テキストを読み上げる&lt;/h2&gt;
+&lt;p&gt;カード内のテキストを読み上げる Anki アドオンが有名ですが、AnkiMobile ではアドオンが利用できません。
+このため、
+&lt;a href=&#34;/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
+ではシステムの読み上げ機能の使い方と読み上げ機能を持ったノートタイプの使い方を説明しています。&lt;/p&gt;
+&lt;h2 id=&#34;組み込み辞書の利用&#34;&gt;組み込み辞書の利用&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;では、カード上の選択範囲からシステム組み込み辞書を引く方法を説明しています。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;ユーザーサポート&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;ユーザーサポート&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;この記事よりさらに詳しい使い方や、問題解決のためには、ユーザーマニュアルや無料のサポートフォーラムの利用を検討してください。&lt;/p&gt;
+&lt;p&gt;英語でのコミュニケーションになりますが、AnkiMobile の開発者が直接対応していますので、使い方や障害について的確なサポートが受けられます。非公開の質問をすることも出来ます。&lt;/p&gt;
+&lt;h2 id=&#34;オンラインマニュアル&#34;&gt;オンラインマニュアル&lt;/h2&gt;
+&lt;p&gt;単語帳一覧の画面左上 ? のアイコンをクリクすると&lt;a href=&#34;http://ankisrs.net/docs/am-manual.html&#34;&gt;オンラインマニュアル&lt;/a&gt;を開きます。
+サポートフォーラムの対応内容を随時反映して更新しています。&lt;/p&gt;
+&lt;h2 id=&#34;サポートフォーラム&#34;&gt;サポートフォーラム&lt;/h2&gt;
+&lt;p&gt;サポートフォーラムの中から AnkiMobile ユーザーに関係する項目を紹介します。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements&#34; target=&#34;_new&#34;&gt;Announcements&lt;/a&gt; カテゴリ&lt;/strong&gt;: 作者からの告知が書き込まれるフォーラムです。バージョンアップや AnkiWeb の障害時に報告があります。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankimobile&#34; target=&#34;_new&#34;&gt;AnkiMobile&lt;/a&gt; カテゴリ&lt;/strong&gt;: AnkiMobile ユーザーからの使い方、障害報告サポートするフォーラムです。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34; target=&#34;_new&#34;&gt;AnkiWeb&lt;/a&gt; カテゴリ&lt;/strong&gt;: AnkiWeb と同期する方に必要なカテゴリです。但し、AnkiMobileとの同期で発生した問題は、AnkiMobile のカテゴリでも報告できます。
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;おわりに&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;おわりに&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;AnkiMobile の設計原則からPC 版 Anki の使い方を理解していれば、&lt;a href=&#34;/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;などを参考にして AnkiMobile のユーザーインターフェイスの特長を理解するだけで、すぐに使いこなすことができます。&lt;/p&gt;
+&lt;p&gt;反対に AnkiMobile から使い始めた場合は、使いたい機能や設定を実現するのに Anki の助けを借りる必要あることがなかなか気がつき難いものです。
+この記事では、最低限の使い方の中で AnkiMobile だけでは解決しない課題を、PC 版 Anki との連携で解決する方法を強調して説明しました。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;更新情報&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h1&gt;更新情報&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;p&gt;2014/09/13: 初出&lt;/p&gt;
+&lt;p&gt;2014/09/18: 追加: 自動バックアップ、カスタム学習、ユーザーサポート&lt;/p&gt;
+&lt;p&gt;2014/10/19: 追加: Wi-Fi 接続による iTunes ファイル共有方法へのリンク追加&lt;/p&gt;
+&lt;p&gt;2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Damien Elmes&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2014.5.13&lt;/span&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
     </item>
     

@@ -26,4 +26,4 @@ Disallow: /
 user-agent: Baiduspider
 Disallow: /
 
-Sitemap: http://rs.luminousspice.com/sitemap.xml
+Sitemap: //sitemap.xml

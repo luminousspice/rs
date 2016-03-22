@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>保留 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99/</link>
+    <link>/anki/%E4%BF%9D%E7%95%99/</link>
     <description>保留 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 22 Feb 2015 23:50:12 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E4%BF%9D%E7%95%99/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 学習セッション中の予測とは異なる体感</title>
-      <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
+      <link>/study-session-with-the-unexpected/</link>
       <pubDate>Sun, 22 Feb 2015 23:50:12 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
+      <guid>/study-session-with-the-unexpected/</guid>
       <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。&lt;/p&gt;
@@ -31,7 +31,7 @@
 新たに学習するカードの学習セッションでは、初回の表示で、正解であれば 1 分後と 10 分後に復習する学習ステップが初期値です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_8.png&#34; alt=&#34;新規カード&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_8.png&#34; alt=&#34;新規カード&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 学習オプション 新規カード&lt;/div&gt;
 &lt;/div&gt;
@@ -39,7 +39,7 @@
 この場合の学習ステップの初期値は 10 分後です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 学習オプション 忘却&lt;/div&gt;
 &lt;/div&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[先取り学習の限度] に時間を指定します。(図 3)&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/preference.png&#34; alt=&#34;環境設定 基本&#34;&gt;
+&lt;img src=&#34;/images/preference.png&#34; alt=&#34;環境設定 基本&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 環境設定 基本&lt;/div&gt;
 &lt;/div&gt;
@@ -85,11 +85,11 @@
 &lt;p&gt;[無駄なカードになる回数]で判定回数を変更することが出来ます。[無駄なカードの処理]では、保留扱いの処理を解除することも出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_11.png&#34; alt=&#34;忘却&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 学習オプション 忘却&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;無駄なカードについては、&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;で更に詳しく説明しています。&lt;/p&gt;
+&lt;p&gt;無駄なカードについては、&lt;a href=&#34;/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;で更に詳しく説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;延長処理で復習カードの枚数が減る&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -101,20 +101,20 @@
 [関連カードの復習を翌日まで延期する]の選択を外すとこの機能を無効に出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_10.png&#34; alt=&#34;復習&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_10.png&#34; alt=&#34;復習&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 学習オプション 復習&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;延期処理については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;で更に詳しく説明しています。&lt;/p&gt;
+&lt;p&gt;延期処理については、&lt;a href=&#34;/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;で更に詳しく説明しています。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
     
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
-      <link>http://rs.luminousspice.com/management_of_leeches/</link>
+      <link>/management_of_leeches/</link>
       <pubDate>Sat, 13 Jul 2013 23:45:22 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
+      <guid>/management_of_leeches/</guid>
       <description>無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
       <content>&lt;p&gt;&lt;h2 id=&#34;無駄なカード_leech_とは&#34; class=&#34;section&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。&lt;/p&gt;&lt;/div&gt;
@@ -187,7 +187,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
+&lt;img src=&#34;/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 単語帳のオプション設定&lt;/div&gt;
 &lt;/div&gt;
@@ -198,19 +198,19 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 出題方法で、[無作為]や[忘却回数の多い順]などが設定できます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/leech_2.png&#34; alt=&#34;無駄なカードを学習するフィルター単語帳&#34;&gt;
+&lt;img src=&#34;/images/leech_2.png&#34; alt=&#34;無駄なカードを学習するフィルター単語帳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 無駄なカードを学習するフィルター単語帳&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;フィルター単語帳の詳しい使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;フィルター単語帳の詳しい使い方については、&lt;a href=&#34;/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
     </item>
     
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
-      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <link>/how-to-suspend-this-card/</link>
       <pubDate>Sat, 15 Jun 2013 22:30:52 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <guid>/how-to-suspend-this-card/</guid>
       <description>いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -225,7 +225,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 この中から保留(Suspend)か延期(bury)、ノートかカード、どれを選べば良いか迷うところです。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_14.png&#34; alt=&#34;ドロップダウンリストの内容&#34;&gt;
+&lt;img src=&#34;/images/how2anki_1_14.png&#34; alt=&#34;ドロップダウンリストの内容&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. ドロップダウンリストの内容&lt;/div&gt;
 &lt;/div&gt;
@@ -257,7 +257,7 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
 &lt;p&gt;カードの保留は今表示しているカードだけを保留します。ノートの保留は、同じノートから生成したカード全てが保留になります。
 例えば、基本(裏面カード付き)ノートタイプを選択した時、一つのノートから表面カードと反転した裏面カードの2枚が自動生成します。いま表面カードを表示していて、[カードを保留]するとそのカード一枚が保留になります。[ノートを保留]すると、表示中の表面カードと裏面カードも一緒に保留になります。&lt;/p&gt;
 &lt;p&gt;保留したカードを解除するには、ブラウザーから保留中のカードを選択して[保留]ボタンを押します。
-ブラウザーの使い方を含めた詳しい方法は、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;をご覧ください。&lt;/p&gt;
+ブラウザーの使い方を含めた詳しい方法は、&lt;a href=&#34;/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;p&gt;そのまま、スルーして目印だけつけたいのなら、[星印をつける]を使うこともできます。
 カードを削除した場合、Anki2.0.9からはプロファイルディレクトリ内の &lt;code&gt;deleted.txt&lt;/code&gt; ファイルに削除したカードのフィールドの内容を保存するようになりました。これも知っておく良い知識だと思います。&lt;/p&gt;
 &lt;p&gt;途中で止めたくなる事情は様々ですが、ふさわしいAnkiの機能を選ぶと、もっとAnki学習が楽しくなると思います。&lt;/p&gt;

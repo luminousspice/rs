@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ダウンロード on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/</link>
+    <link>/anki/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/</link>
     <description>ダウンロード | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 29 Sep 2013 18:00:18 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ankiのインストール</title>
-      <link>http://rs.luminousspice.com/install_anki/</link>
+      <link>/install_anki/</link>
       <pubDate>Sun, 29 Sep 2013 18:00:18 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <guid>/install_anki/</guid>
       <description>最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。AnkiのデスクトップPC版(Mac, Windows, Linux/BSD)については、ダウンロードからインストールまでの手順を、Apple機器(ipod touch, ipad, iPhone)とAndroid(アンドロイド)機器、Chromebookについては、最新版Ankiのダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;最新版 Anki 2.0.31 対応。Ankiを使ってみたい方のために、入手方法とインストール方法を簡単に日本語で説明します。オフィシャルサイトの英文の内容をまとめて紹介します。Anki のデスクトップ PC 版 (OS X, Windows, Linux/BSD) については、ダウンロードからインストールまでの手順を、Apple 機器 (ipod touch, ipad, iPhone) とAndroid (アンドロイド) 機器、Chromebook については、最新版 Anki のダウンロードサイトを紹介します。最後にアンインストールの方法にも触れています。&lt;/p&gt;
@@ -48,10 +48,10 @@
 &lt;p&gt;デスクトップ PC 版はダウンロードファイルは別々ですが、一つのプロジェクトとして開発していて OS は違ってもドキュメントは共通です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
+Anki1 からアップグレードする場合は、&lt;a href=&#34;/changeinanki2/#v2&#34;&gt;Anki2の変更点&lt;/a&gt;をアップグレードの前に確認しておくことをお勧めします。
 &lt;/li&gt;
 &lt;li&gt;
-前回の記事、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;では Anki の環境設定の初期化、クリーンインストールする際の注意点をまとめています。
+前回の記事、&lt;a href=&#34;/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;では Anki の環境設定の初期化、クリーンインストールする際の注意点をまとめています。
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/download/mirror/&#34;&gt;最新版以外のアプリケーションを含むアーカイブ&lt;/a&gt;
@@ -130,7 +130,7 @@ OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate 
 &lt;p&gt;どうしても無償のアプリケーションを使いたい場合は、&lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; が利用できます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;a href=&#34;/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/docs/am-upgrade.html&#34;&gt;AnkiMobile2へのアップグレード&lt;/a&gt; (英文)
@@ -171,7 +171,7 @@ Anki フォルダーに含まれている単語帳、学習履歴、ユーザー
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h1&gt;さっそく Anki を使ってみよう&lt;/h1&gt;
   &lt;/div&gt;
-&lt;p&gt;インストールしてどこから手をつけたら良いか分からない方には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;をお勧めします。デスクトップPC版を例にして、Ankiの使い方の基本的な流れが体験できます。&lt;/p&gt;
+&lt;p&gt;インストールしてどこから手をつけたら良いか分からない方には、&lt;a href=&#34;/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;をお勧めします。デスクトップPC版を例にして、Ankiの使い方の基本的な流れが体験できます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;

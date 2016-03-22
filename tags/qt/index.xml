@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qt on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/qt/</link>
+    <link>/tags/qt/</link>
     <description>Qt | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 16 Sep 2012 00:00:47 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/qt/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 2.0 アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/anki2addons/</link>
+      <link>/anki2addons/</link>
       <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki2addons/</guid>
+      <guid>/anki2addons/</guid>
       <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
       <content>&lt;hr /&gt;
 
@@ -527,9 +527,9 @@ jp.py&lt;/pre&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;h2&gt;日本語版訳注&lt;/h2&gt;
-&lt;p&gt;Anki 2 の変更点を知るには、&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34; target=&#34;_blank&#34;&gt;Anki 2の変更点&lt;/a&gt; が役立ちます。&lt;/p&gt;
+&lt;p&gt;Anki 2 の変更点を知るには、&lt;a href=&#34;/changeinanki2/&#34; target=&#34;_blank&#34;&gt;Anki 2の変更点&lt;/a&gt; が役立ちます。&lt;/p&gt;
 &lt;p&gt;更に、アプリケーションの個々の機能や処理を詳しく理解するには &lt;a href=&#34;http://ankisrs.net/docs/manual.html&#34; target=&#34;_blank&#34;&gt;Anki User Manual&lt;/a&gt; をご覧ください。&lt;/p&gt;
-&lt;p&gt;アドオン開発の簡単なチュートリアルとして &lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;アドオン開発の簡単なチュートリアルとして &lt;a href=&#34;/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt;日本語版更新履歴&lt;/h2&gt;
 &lt;ul&gt;
