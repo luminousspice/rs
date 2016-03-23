@@ -3,6 +3,7 @@ slug: "index-how-to-anki"
 date: "2013-06-19T00:00:48+00:00"
 lastmod: "2014-04-19T20:23:36+00:00"
 title: "はじめてAnkiを使う人のための索引"
+type: "page"
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki","索引"]
 excerpt: "連載: Ankiの使い方 〜覚えるために忘れろ〜 の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集めました。連載終了後行われた Anki のバージョンアップの内容を考慮し、Anki の基本的な機能について項目追加しました。Index of basic features in Anki for beginners, extracted from 'How to Anki' tutorial series."

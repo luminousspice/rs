@@ -3,6 +3,7 @@ slug: "table-of-contents"
 date: "2014-04-07T18:30:27+00:00"
 lastmod: "2016-01-09T11:46:00+00:00"
 title: "投稿記事目次"
+type: "page"
 categories: ["Anki","コーパス","開発"]
 tags: ["Anki","Corpus","Learning with Texts","LWT","コーパス"]
 excerpt: "このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents"
