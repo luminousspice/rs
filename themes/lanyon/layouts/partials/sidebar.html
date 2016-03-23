@@ -13,9 +13,10 @@
     <a class="sidebar-nav-item {{ if eq .URL "/table-of-contents/" }} active {{ end }}" href="/table-of-contents/">目次</a>
     <a class="sidebar-nav-item {{ if eq .URL "/index-how-to-anki/" }} active {{ end }}" href="/index-how-to-anki/">Anki 索引</a>
     <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post/">アーカイブ</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/categories/" }} active {{ end }}" href="/categories">カテゴリ分類</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/search/" }} active {{ end }}" href="/search/">検索</a>
+<!--    <a class="sidebar-nav-item {{ if eq .URL "/categories/" }} active {{ end }}" href="/categories">カテゴリ分類</a>
     <a class="sidebar-nav-item {{ if eq .URL "/tags/" }} active {{ end }}" href="/tags/">タグ分類</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/anki/" }} active {{ end }}" href="/anki/">Ankiインデックス</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/anki/" }} active {{ end }}" href="/anki/">Ankiインデックス</a>-->
     {{ $thisperma := .Permalink }}{{ range .Site.Pages.ByWeight }}{{ if isset .Params "sidebar" }}<a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}{{ end }}{{ if .Site.Params.Githubname }}
     <a class="sidebar-nav-item" href="http://github.com/{{ .Site.Params.Githubname }}">GitHub project</a>{{ end }}
   </nav>
