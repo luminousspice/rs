@@ -1,5 +1,6 @@
-var data = [{{ range $index, $page := .Site.Pages }}
-{{ if eq $page.Section "post" }}{
+var data = [{{ range $index, $page := where .Site.Pages "Section" "post"}}
+{{ if ne $index 0 }},{{ end }}
+{
 url: "{{ $page.Permalink }}",
 title: "{{ $page.Title }}",
 tags: [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag }}"{{ end }}],
@@ -7,4 +8,4 @@ description: "{{ $page.Params.excerpt }}",
 date: "{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}",
 lastmod: "{{ $page.Params.lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
 content: "{{ range $page.PlainWords }}{{ . }}{{ end }}"
-},{{ end }}{{ end }}]
+}{{ end }}]
