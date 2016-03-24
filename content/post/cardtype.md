@@ -3,6 +3,7 @@ slug: "cardtype"
 date: "2013-10-12T23:30:56+00:00"
 lastmod: "2014-04-19T06:46:45+00:00"
 title: "Ankiのカードタイプと出題方法の増やし方"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki"]
 anki: ["AwesomeTTS","カードタイプ","カードテンプレート","ノートタイプ","延期","裏面カード付き","解答キー入力","関連カード"]

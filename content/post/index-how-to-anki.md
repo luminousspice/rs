@@ -3,6 +3,7 @@ slug: "index-how-to-anki"
 date: "2013-06-19T00:00:48+00:00"
 lastmod: "2014-04-19T20:23:36+00:00"
 title: "はじめてAnkiを使う人のための索引"
+weight: 10
 type: "page"
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki","索引"]

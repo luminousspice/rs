@@ -3,6 +3,7 @@ slug: "bias-free-anki-learning"
 date: "2014-09-12T22:45:57+00:00"
 lastmod: "2014-09-24T17:18:33+00:00"
 title: "もっと Anki に集中する使い方"
+weight: 10
 categories: ["Anki","Art of Anki"]
 tags: ["Anki"]
 anki: ["AnkiDroid","AnkiMobile"]

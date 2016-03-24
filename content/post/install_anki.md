@@ -3,6 +3,7 @@ slug: "install_anki"
 date: "2013-09-29T18:00:18+00:00"
 lastmod: "2015-01-30T15:32:24+00:00"
 title: "Ankiのインストール"
+weight: 30
 categories: ["Anki"]
 tags: ["Anki"]
 anki: ["AnkiDroid","AnkiMobile","AnkiWeb","アンインストール","インストール","ダウンロード","メンテナンス"]

@@ -3,6 +3,7 @@ slug: "how-to-choose-notetype"
 date: "2013-06-16T10:00:37+00:00"
 lastmod: "2014-10-01T16:27:02+00:00"
 title: "Ankiのノートタイプの選び方"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki"]
 anki: ["Add Reverse","AnkiDroid","AnkiMobile","オフィシャルビデオ","ノートタイプ","裏面カードを任意選択","裏面カード付き"]

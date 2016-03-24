@@ -3,6 +3,7 @@ slug: "how-to-sync-with-ankiweb"
 date: "2014-08-31T22:00:26+00:00"
 lastmod: "2016-01-09T11:29:42+00:00"
 title: "AnkiWeb 同期機能の使い方"
+weight: 30
 categories: ["Anki"]
 tags: ["Anki","AnkiDroid","iOS","iPad","iPhone","iPod touch"]
 anki: ["AnkiDroid","AnkiMobile","AnkiWeb","同期"]

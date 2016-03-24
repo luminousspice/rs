@@ -3,6 +3,7 @@ slug: "how-to-edit-cards"
 date: "2013-05-04T22:30:07+00:00"
 lastmod: "2014-09-28T12:30:30+00:00"
 title: "Ankiのカード表示を編集する"
+weight: 20
 categories: ["Anki","Anki2の使い方","開発"]
 tags: ["Anki","Anki 単語帳","applescript","TTS","VoiceOver"]
 anki: ["AwesomeTTS","カードウィンドウ","カードテンプレート","カードテンプレートの追加","ノートタイプ","ノートタイプの変更","ノートタイプの追加","ブラウザー","リンク設定","読み上げ"]

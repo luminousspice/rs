@@ -3,6 +3,7 @@ slug: "anki-addons-guide"
 date: "2014-04-14T05:00:17+00:00"
 lastmod: "2016-02-12T19:53:33+00:00"
 title: "Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち"
+weight: 20
 categories: ["Anki"]
 tags: ["Anki","Markdown","アドオン"]
 anki: ["アドオン","アドオンガイド","ショートカット","ノートの登録","メディアの登録","再生速度","文字サイズ","統計","音声"]

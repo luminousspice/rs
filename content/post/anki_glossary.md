@@ -3,6 +3,7 @@ slug: "anki_glossary"
 date: "2013-10-27T19:30:55+00:00"
 lastmod: "2014-10-13T05:32:46+00:00"
 title: "Anki 用語集 - Anki Glossary"
+weight: 10
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki","用語集"]
 anki: ["AnkiMobile"]

@@ -3,6 +3,7 @@ slug: "anki-fail-to-sync"
 date: "2013-11-21T16:17:56+00:00"
 lastmod: "2015-03-02T14:09:49+00:00"
 title: "Ankiが同期できない問題について"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki","AnkiDroid","iOS","iPad","iPhone","iPod touch"]
 anki: ["AnkiDroid","AnkiMobile","AnkiWeb","プロファイル","同期"]

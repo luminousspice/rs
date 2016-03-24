@@ -3,6 +3,7 @@ slug: "how-to-use-shared-resources"
 date: "2013-04-27T06:00:26+00:00"
 lastmod: "2016-02-08T21:16:00+00:00"
 title: "Ankiの共有リソースを使ってみる"
+weight: 20
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki","Anki 単語帳","アドオン"]
 anki: ["アドオン","共有単語帳"]

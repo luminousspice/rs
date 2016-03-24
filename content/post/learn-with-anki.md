@@ -3,6 +3,7 @@ slug: "learn-with-anki"
 date: "2016-01-03T23:00:16+00:00"
 lastmod: "2016-02-08T16:42:59+00:00"
 title: "暗記に強くなるために Anki から上手くサポートを得るには"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch","利用事例","書籍"]
 anki: ["メディアを登録","統計","音声"]

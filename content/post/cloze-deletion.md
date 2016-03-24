@@ -3,6 +3,7 @@ slug: "cloze-deletion"
 date: "2013-06-18T00:00:00+00:00"
 lastmod: "2014-10-03T00:02:22+00:00"
 title: "Ankiにおける空欄補充問題の作り方"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki"]
 anki: ["穴埋め","解答キー入力"]

@@ -3,6 +3,7 @@ slug: "how-to-share-anki-decks"
 date: "2013-05-30T00:30:22+00:00"
 lastmod: "2016-02-12T19:56:55+00:00"
 title: "Anki単語帳を共有する方法"
+weight: 10
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki"]
 anki: ["apkg","AnkiWeb","Anki単語帳パッケージ","CSV","Export Browser’s card list contents to CSV file","テキストファイル","共有単語帳","同期","書き出し","読み込み"]

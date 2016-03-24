@@ -3,6 +3,7 @@ slug: "ankimobile-survival-guide"
 date: "2014-05-11T04:00:03+00:00"
 lastmod: "2016-01-24T00:10:24+00:00"
 title: "iPhone ユーザーのための AnkiMobile サバイバルガイド"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
 anki: ["AnkiMobile","サポート","ジェスチャ","ノートを編集","ノートを追加","共有単語帳"]

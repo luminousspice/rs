@@ -3,6 +3,7 @@ slug: "bulk-import-media-files-into-anki"
 date: "2014-04-13T00:00:27+00:00"
 lastmod: "2015-02-02T02:06:46+00:00"
 title: "画像、音声、動画などメディアファイルを Anki へ一括登録"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki","TTS"]
 anki: ["AwesomeTTS","アドオン","テキストファイル","ノートの登録","メディアの登録","動画","読み込み","音声"]

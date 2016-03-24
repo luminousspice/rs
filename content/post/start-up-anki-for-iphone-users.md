@@ -3,6 +3,7 @@ slug: "start-up-anki-for-iphone-users"
 date: "2014-07-15T19:00:04+00:00"
 lastmod: "2014-10-08T14:38:14+00:00"
 title: "iPhone ユーザーのための Anki のゆるい始めかた"
+weight: 20
 categories: ["Anki"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch","辞書"]
 anki: ["AnkiMobile","ノートの登録","メディアの登録","読み上げ","音声"]

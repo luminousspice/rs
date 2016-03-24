@@ -3,6 +3,7 @@ slug: "browser-overview"
 date: "2013-05-10T23:30:40+00:00"
 lastmod: "2014-10-13T05:32:00+00:00"
 title: "Ankiのブラウザーの使い方とデータ検索"
+weight: 10
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki"]
 anki: ["カードを保留","タグを付ける","ブラウザー","保留を解除","検索条件","表示項目の変更","間違えたカードの処理"]

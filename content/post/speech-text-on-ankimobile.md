@@ -3,6 +3,7 @@ slug: "speech-text-on-ankimobile"
 date: "2014-06-21T23:30:03+00:00"
 lastmod: "2015-11-20T16:18:37+00:00"
 title: "iPhone 版 Anki でテキストを読み上げるには"
+weight: 10
 categories: ["Anki","開発"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch","JavaScript","TTS","Web Speech API"]
 anki: ["AnkiMobile","カードテンプレート","読み上げ","音声"]

@@ -3,6 +3,7 @@ slug: "anki-shortcuts"
 date: "2016-01-09T11:20:37+00:00"
 lastmod: "2016-01-09T23:37:36+00:00"
 title: "Anki ショートカットキー"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki","ショートカット"]
 anki: ["AwesomeTTS","ノートを追加","ブラウザ","学習セッション"]

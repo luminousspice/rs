@@ -3,6 +3,7 @@ slug: "how-to-use-ankimobile"
 date: "2014-09-13T21:30:52+00:00"
 lastmod: "2015-01-24T00:02:39+00:00"
 title: "iPhone ユーザーのためのはじめての Anki"
+weight: 30
 categories: ["Anki"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
 anki: ["AnkiMobile","iTunesファイル共有","ノートの登録","フィルター単語帳","共有単語帳","同期","書き出し","検索条件","統計","自動バックアップ","読み込み"]

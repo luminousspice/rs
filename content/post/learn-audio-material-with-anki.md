@@ -3,6 +3,7 @@ slug: "learn-audio-material-with-anki"
 date: "2016-01-01T23:15:03+00:00"
 lastmod: "2016-01-01T23:46:17+00:00"
 title: "Anki を使って音声データ付き書籍の理解を深めよう"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki"]
 anki: ["AnkiMobile","アドオン","ジェスチャ","メディア","メディアの登録","音声"]

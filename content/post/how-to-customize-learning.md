@@ -3,6 +3,7 @@ slug: "how-to-customize-learning"
 date: "2013-05-11T20:00:43+00:00"
 lastmod: "2014-10-13T05:34:36+00:00"
 title: "フィルター単語帳でAnki学習をカスタマイズしよう"
+weight: 10
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki"]
 anki: ["Anki2.0.9","カスタム学習","フィルター単語帳","上限を変更","検索条件"]

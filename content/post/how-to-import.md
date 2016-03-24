@@ -3,6 +3,7 @@ slug: "how-to-import"
 date: "2013-04-20T09:00:02+00:00"
 lastmod: "2014-09-22T04:04:52+00:00"
 title: "Ankiにデータをまとめて取り込む"
+weight: 30
 categories: ["Anki","Anki2の使い方"]
 tags: ["Anki"]
 anki: ["タグ","テキストファイル","ブラウザー","単語帳の作成","読み込み"]

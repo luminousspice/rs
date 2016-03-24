@@ -3,6 +3,7 @@ slug: "management_of_leeches"
 date: "2013-07-13T23:45:22+00:00"
 lastmod: "2013-10-17T13:03:26+00:00"
 title: "無駄なカード(Leech)になってもAnki学習を続ける方法"
+weight: 10
 categories: ["Anki"]
 tags: ["Anki"]
 anki: ["フィルター単語帳","保留","無駄なカード"]

@@ -3,6 +3,7 @@ slug: "changeinanki2"
 date: "2013-02-03T02:00:26+00:00"
 lastmod: "2015-03-25T18:00:23+00:00"
 title: "Anki 2 の変更点 日本語訳"
+weight: 10
 categories: ["Anki","AnkiDoc"]
 tags: ["Anki","更新情報","アップグレード"]
 excerpt: "Anki 2.0.32 (2015/03/25) 準拠の更新履歴日本語訳。Anki 2へアップグレードする前に知っておきたい用語や機能の変更、以前のバージョンの単語帳のアップグレード方法、新機能について説明しています。Anki2リリース以降、各アップグレードで行われた変更点についても記載しています。Anki Changelog, Japanese translation (as of Anki 2.0.32)"

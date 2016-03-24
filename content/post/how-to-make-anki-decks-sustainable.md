@@ -3,6 +3,7 @@ slug: "how-to-make-anki-decks-sustainable"
 date: "2014-09-06T19:00:09+00:00"
 lastmod: "2014-09-24T17:19:51+00:00"
 title: "長続きする Anki 単語帳の作り方"
+weight: 10
 categories: ["Anki","Art of Anki"]
 tags: ["Anki","統計"]
 anki: ["統計"]
