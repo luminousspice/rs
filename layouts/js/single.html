@@ -1,5 +1,5 @@
 var data = [{{ range $index, $page := .Site.Pages }}
-{{ if eq $page.Type "post" }}{
+{{ if eq $page.Section "post" }}{
 url: "{{ $page.Permalink }}",
 title: "{{ $page.Title }}",
 tags: [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag }}"{{ end }}],
