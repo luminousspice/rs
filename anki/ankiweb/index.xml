@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;この_bot_のつぶやく内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;この Bot のつぶやく内容&lt;/h1&gt;
+    &lt;h2&gt;この Bot のつぶやく内容&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/Ankigene&#34;&gt;@Ankigene&lt;/a&gt; のつぶやきの内容は、Anki の使い方、Anki Tips、Anki 用語、Anki ショートカット、Anki アドオンから構成しています。さらに詳しい情報へのリンクも含んでいます。
 つぶやきの頻度は、一日 4 回です。&lt;/p&gt;
@@ -34,17 +34,17 @@
 &lt;/section&gt;
 &lt;section id=&#34;anki_の中からも検索可能&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki の中からも検索可能&lt;/h1&gt;
+    &lt;h2&gt;Anki の中からも検索可能&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;このつぶやきの内容が共有単語帳 &lt;a href=&#34;https://ankiweb.net/shared/info/206033178&#34;&gt;Ankiの基礎知識&lt;/a&gt; になりました。
 この単語帳をインストールすれば Anki のブラウザーからもいつでもネットワーク接続がなくて簡単に検索できるようになります。&lt;/p&gt;
 &lt;/section&gt;
-&lt;section id=&#34;最新のツイート内容&#34;&gt;
+&lt;section id=&#34;ツイート内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;最新のツイート内容&lt;/h1&gt;
+    &lt;h2&gt;ツイート内容&lt;/h2&gt;
   &lt;/div&gt;
-&lt;a class=&#34;twitter-timeline&#34;  href=&#34;https://twitter.com/Ankigene&#34; data-widget-id=&#34;558234290119380992&#34;&gt;@Ankigeneさんのツイート&lt;/a&gt;
-&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id))d.createElement(s);js.id=id;js.src=p+&#34;://platform.twitter.com/widgets.js&#34;;fjs.parentNode.insertBefore(js,fjs);}(document,&#34;script&#34;,&#34;twitter-wjs&#34;);&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;単語帳を削除するには、[D] キーを押してから、単語帳名右のドロップダウンから[削除]を選択します。| Anki Tips &lt;a href=&#34;https://t.co/WtFRo51sAM&#34;&gt;https://t.co/WtFRo51sAM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ankigene (@Ankigene) &lt;a href=&#34;https://twitter.com/Ankigene/status/712921013919617025&#34;&gt;2016年3月24日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/section&gt;
 </content>
     </item>
@@ -768,7 +768,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
-      <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。	 	 Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
+      <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることができます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことができます。この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「Anki 2.0 アドオンの作成」を補足する内容です。&lt;/p&gt;
 &lt;p&gt;この記事は、АnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/1299246957&#34; target=&#34;_new&#34;&gt;Mature Tag&lt;/a&gt;を例にとって、解説します。

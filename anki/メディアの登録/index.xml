@@ -6,7 +6,7 @@
     <description>メディアの登録 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Jan 2016 23:15:03 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 27 Dec 2015 23:45:15 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
@@ -221,7 +221,7 @@
       <pubDate>Tue, 15 Jul 2014 19:00:04 +0900</pubDate>
       <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。</description>
-      <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
+      <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
@@ -573,8 +573,6 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/section&gt;
-&lt;hr /&gt;
-&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Damien Elmes&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2014.5.13&lt;/span&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
     </item>
     

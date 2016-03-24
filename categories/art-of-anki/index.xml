@@ -19,7 +19,7 @@
       <description>熟練者限定の Anki の使い方の基本を取り上げます。明確な目標を設定して、毎日の学習を最適化する考え方を紹介します。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;熟練者限定の Anki の使い方の基本を取り上げます。明確な目標を設定して、毎日の学習を最適化する考え方を紹介します。&lt;/p&gt;
-&lt;p&gt;Anki の利用経験が全くない、はじめて Anki を使い始める方のためには、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnkまず使ってみる&lt;/a&gt;を用意していますのでご覧下さい。&lt;/p&gt;
+&lt;p&gt;Anki の利用経験が全くない、はじめて Anki を使い始める方のためには、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki まず使ってみる&lt;/a&gt;を用意していますのでご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -159,32 +159,6 @@ Anki の復習セッションは、単語帳毎につくられるため、単語
 &lt;p&gt;そこで、最終目標を意識して、可能な限り短時間で効率的に使うための基本的な考え方を紹介しました。&lt;/p&gt;
 &lt;p&gt;独創的なアプリケーション Supermemo で分散学習のアプリケーションの分野を切り開いた Piotr Woźniak の学習に関する考え方が幸いにして「&lt;a target=&#34;_new&#34; href=&#34;http://d.hatena.ne.jp/rage2050/20110502&#34;&gt;効果的な学習法: 知識を定式化する20個のルール&lt;/a&gt;」として翻訳されています。基本中の基本です。是非ご一読ください。&lt;/p&gt;
 &lt;/section&gt;
-&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
 </content>
     </item>
     
@@ -194,7 +168,7 @@ Anki の復習セッションは、単語帳毎につくられるため、単語
       <pubDate>Mon, 15 Sep 2014 23:30:31 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
       <description>Anki に使い慣れて物足りなくなった人に iPhone をすすめたいです。iPhone アプリの AnkiMobile は、今まで使ってきた Anki と連動して使うと、PC アプリケーションの制限を超えた、より集中できるスピード感ある新しい学習環境が実現できるからです。</description>
-      <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
+      <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki に使い慣れて物足りなくなった人に iPhone をすすめたいです。iPhone アプリの AnkiMobile は、今まで使ってきた Anki と連動して使うと、PC アプリケーションの制限を超えた、より集中できるスピード感ある新しい学習環境が実現できるからです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
@@ -361,34 +335,6 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/section&gt;
-&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-&lt;hr /&gt;
-&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Damien Elmes&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2014.5.13&lt;/span&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
     </item>
     
@@ -535,32 +481,6 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 AnkiWeb に収録しているたくさんの単語帳が Anki の強みであることは疑いないです。&lt;/p&gt;
 &lt;p&gt;覚えようとする事柄の事前によく調べておくと、効果的に Anki 学習が進められます。
 この便利な共有単語帳を使い切るには、すこし準備作業が必要ですが、Anki はそのための機能も用意しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/section&gt;
 </content>
     </item>
@@ -710,41 +630,6 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 表示の設定箇所&lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki はユーザーに仕組みや機能を理解してもらうために、色々な情報をユーザーインターフェイスの至る所に表示しています。
-Anki を使い慣れてくると、学習コンテンツに無関係な情報の表示は、学習への集中を妨げる不要なものになります。
-この点を考慮して設定画面で表示選択ができるようになっています。
-学習画面から不要な情報を除くと Anki にもっと集中でき、使いこなせるようになるのです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
 </content>
     </item>
     
@@ -877,32 +762,6 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 &lt;p&gt;Anki の使用経験が長ければ統計情報を利用して、自分の最適が学習条件を求めることができます。
 仮に何らかの障害で一時期学習が続けられなくなって、バックログがたまると全ての履歴を初期化したくなるかもしれません。
 実は、過去の履歴を活用することで元の学習状態にいち早く復帰できるのです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/section&gt;
 </content>
     </item>

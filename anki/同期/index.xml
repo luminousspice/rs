@@ -212,10 +212,6 @@
 &lt;p&gt;オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。
 AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザーインターフェイスが AnkiMobile の機能を自分の学習環境に最適化するのに利用できることは、AnkiMobile  ユーザーにとって知っておきたい基礎知識ではないでしょうか。&lt;/p&gt;
 &lt;/section&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a470.phobos.apple.com/us/r30/Purple3/v4/fc/b7/18/fcb718e7-df97-a687-1566-727b93514bcd/mzl.jalihkqd.75x75-65.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Ankitects Pty Ltd&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; class=&#34;sticky-itslinkbadge&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2015.1.23&lt;/span&gt;&lt;/div&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt; 
 </content>
     </item>
     
@@ -425,7 +421,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
       <pubDate>Mon, 15 Sep 2014 23:30:31 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
       <description>Anki に使い慣れて物足りなくなった人に iPhone をすすめたいです。iPhone アプリの AnkiMobile は、今まで使ってきた Anki と連動して使うと、PC アプリケーションの制限を超えた、より集中できるスピード感ある新しい学習環境が実現できるからです。</description>
-      <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
+      <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;Anki に使い慣れて物足りなくなった人に iPhone をすすめたいです。iPhone アプリの AnkiMobile は、今まで使ってきた Anki と連動して使うと、PC アプリケーションの制限を超えた、より集中できるスピード感ある新しい学習環境が実現できるからです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
@@ -592,34 +588,6 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/section&gt;
-&lt;section id=&#34;連載_art_of_anki_熟練ユーザー限定の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Art of Anki - 熟練ユーザー限定の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt; (学習セッション最適化)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt; (学習中断からの復帰法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt; (学習に集中するためのインターフェイス設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt; (教材の全体像理解と既成教材の使い方)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt; (Anki の限界を超越する iPhone アプリの位置付け)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt; (Anki の基本的な使い方)
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-&lt;hr /&gt;
-&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Damien Elmes&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2014.5.13&lt;/span&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
     </item>
     
@@ -629,7 +597,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
       <pubDate>Sat, 13 Sep 2014 21:30:52 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</description>
-      <content>&lt;p&gt;&lt;section id=&#34;preamble&#34;&gt;
+      <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
@@ -685,7 +653,7 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 学習画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;PC と iPhone の両方で学習したい場合は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnkまず使ってみる&lt;/a&gt;では、PC 版の学習の流れを簡単に紹介していますので参考にしてください。&lt;/p&gt;
+&lt;p&gt;PC と iPhone の両方で学習したい場合は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki まず使ってみる&lt;/a&gt;では、PC 版の学習の流れを簡単に紹介していますので参考にしてください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;教材の新規作成と編集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -914,7 +882,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;p&gt;検索条件の詳細は&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;を参考にしてください。検索条件は、AnkiMobile でもそのまま使えます。&lt;/p&gt;
 &lt;h2 id=&#34;検索結果の注意点&#34;&gt;検索結果の注意点&lt;/h2&gt;
 &lt;p&gt;一つのノート (元になるデータ) から複数のカード作成した場合、Find Screen では区別がつかないので注意してください。
-既定のノートタイプ [Basic (and reversed card)] (基本 (裏面カード付き)) を指定した場合、表向きと裏向きの 2 枚のカードを表示します。ノートタイプの表示がないため、あたかも同じ項目が重複しているように誤解する可能性があります。&lt;/p&gt;
+既定のノートタイプ [Basic (and reversed card)] \(基本 (裏面カード付き)) を指定した場合、表向きと裏向きの 2 枚のカードを表示します。ノートタイプの表示がないため、あたかも同じ項目が重複しているように誤解する可能性があります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;学習のカスタマイズ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -1104,8 +1072,6 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
 &lt;p&gt;2014/10/19: 追加: Wi-Fi 接続による iTunes ファイル共有方法へのリンク追加&lt;/p&gt;
 &lt;p&gt;2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法&lt;/p&gt;
 &lt;/section&gt;
-&lt;hr /&gt;
-&lt;div class=&#34;sticky-itslink&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png&#34; style=&#34;border-style:none;float:left;margin:5px&#34; alt=&#34;AnkiMobile Flashcards&#34; title=&#34;AnkiMobile Flashcards&#34; /&gt;&lt;/a&gt;&lt;div class=&#34;sticky-itslinktext&#34;&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AnkiMobile Flashcards&lt;/a&gt;&lt;br /&gt;Damien Elmes&lt;br /&gt;価格： 2,500円 &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png&#34; alt=&#34;iTunesで見る&#34; style=&#34;border-style:none&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&#34;font-size:xx-small&#34;&gt;posted with &lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34; target=&#34;_blank&#34;&gt;sticky&lt;/a&gt; on 2014.5.13&lt;/span&gt;&lt;br style=&#34;clear:left&#34; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
     </item>
     

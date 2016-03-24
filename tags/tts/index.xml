@@ -6,7 +6,7 @@
     <description>Tts | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2013 18:00:58 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/tags/tts/index.xml" rel="self" type="application/rss+xml" />
@@ -1425,40 +1425,6 @@ end open location&lt;/pre&gt;
 &lt;p&gt;2013/05/04: 初出&lt;/p&gt;
 &lt;p&gt;2014/03/24: 読み上げ設定を更新&lt;/p&gt;
 &lt;p&gt;2014/09/21: 再構成&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;連載_ankiの使い方_覚えるために忘れろ_記事一覧&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki – まず使ってみる&lt;/a&gt;(インストール、問題入力、学習の流れ)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;(テキストデータの一括登録)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;(アドオン、共有単語帳)
-&lt;/li&gt;
-&lt;li&gt;
-Ankiのカード表示を編集する (カード編集、外部リンク設定、読み上げ)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;(ブラウザー、検索条件)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう &lt;/a&gt;(カスタム学習、フィルター単語帳、独自の学習条件を設定)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;(統計情報の見方、たまった復習カードの解決法)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;(単語帳の書き出し、AnkiWebへの共有)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;(連載内容の索引)
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/section&gt;
 </content>
     </item>
