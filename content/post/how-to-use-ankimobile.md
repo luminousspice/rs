@@ -64,7 +64,7 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 </div>
 <div class="title">図 2. 学習画面</div>
 </div>
-<p>PC と iPhone の両方で学習したい場合は、<a href="/how-to-anki/">はじめてのAnkまず使ってみる</a>では、PC 版の学習の流れを簡単に紹介していますので参考にしてください。</p>
+<p>PC と iPhone の両方で学習したい場合は、<a href="/how-to-anki/">はじめてのAnki まず使ってみる</a>では、PC 版の学習の流れを簡単に紹介していますので参考にしてください。</p>
 </section>
 <section id="教材の新規作成と編集">
   <div class="page-header">
@@ -483,7 +483,3 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
 <p>2014/10/19: 追加: Wi-Fi 接続による iTunes ファイル共有方法へのリンク追加</p>
 <p>2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法</p>
 </section>
-<hr />
-<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png" style="border-style:none;float:left;margin:5px" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Damien Elmes<br />価格： 2,500円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt="iTunesで見る" style="border-style:none" /></a><br /><span style="font-size:xx-small">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2014.5.13</span><br style="clear:left" /></div></div> 
-
-

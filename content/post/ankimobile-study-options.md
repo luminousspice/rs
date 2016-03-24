@@ -100,7 +100,3 @@ excerpt: "AnkiWeb の同期機能は、教材や学習履歴、復習スケジ�
 <p>オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。
 AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザーインターフェイスが AnkiMobile の機能を自分の学習環境に最適化するのに利用できることは、AnkiMobile  ユーザーにとって知っておきたい基礎知識ではないでしょうか。</p>
 </section>
-
-<hr />
-<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://a470.phobos.apple.com/us/r30/Purple3/v4/fc/b7/18/fcb718e7-df97-a687-1566-727b93514bcd/mzl.jalihkqd.75x75-65.png" style="border-style:none;float:left;margin:5px" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Ankitects Pty Ltd<br />価格： 2,500円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt="iTunesで見る" style="border-style:none" class="sticky-itslinkbadge" /></a><br /><span style="font-size:xx-small">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2015.1.23</span></div><br style="clear:left" /></div> 
-

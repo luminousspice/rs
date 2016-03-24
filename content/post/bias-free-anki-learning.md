@@ -147,39 +147,3 @@ Anki の得意とする本来の機能の妨げになります。</p>
 <div class="title">図 9. 表示の設定箇所</div>
 </div>
 </section>
-<section id="おわりに">
-  <div class="page-header">
-    <h1>おわりに</h1>
-  </div>
-<p>Anki はユーザーに仕組みや機能を理解してもらうために、色々な情報をユーザーインターフェイスの至る所に表示しています。
-Anki を使い慣れてくると、学習コンテンツに無関係な情報の表示は、学習への集中を妨げる不要なものになります。
-この点を考慮して設定画面で表示選択ができるようになっています。
-学習画面から不要な情報を除くと Anki にもっと集中でき、使いこなせるようになるのです。</p>
-</section>
-<section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
-  <div class="page-header">
-    <h2>連載: Art of Anki - 熟練ユーザー限定の使いこなし方</h2>
-  </div>
-<p>Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
-<ol>
-<li>
-<a href="/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a> (学習セッション最適化)
-</li>
-<li>
-<a href="/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a> (学習中断からの復帰法)
-</li>
-<li>
-<a href="/bias-free-anki-learning/">もっと Anki に集中する使い方</a> (学習に集中するためのインターフェイス設定)
-</li>
-<li>
-<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a> (教材の全体像理解と既成教材の使い方)
-</li>
-<li>
-<a href="/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a> (Anki の限界を超越する iPhone アプリの位置付け)
-</li>
-<li>
-<a href="/anki-basics/">Anki 使いの原点</a> (Anki の基本的な使い方)
-</li>
-</ol>
-</section>
-

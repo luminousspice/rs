@@ -115,31 +115,3 @@ excerpt: "Anki を使うと効率的にカードを学習できますが、大�
 単語帳のサイズ設計を慎重に行うことによって、継続するのに最適な学習セッションが実現できます。</p>
 <p>学習セッションの最適化を考慮した上で、前菜単語帳をつかって Anki を使い続ける習慣を維持し、一セッション一単語帳となる快適な時間で学習するルーチンを作り、期日の復習を全部こなせない時の優先順位を作ることを Anki の学習を長続きするコツとしてまとめて紹介しました。</p>
 </section>
-<section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
-  <div class="page-header">
-    <h2>連載: Art of Anki - 熟練ユーザー限定の使いこなし方</h2>
-  </div>
-<p>Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
-<ol>
-<li>
-<a href="/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a> (学習セッション最適化)
-</li>
-<li>
-<a href="/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a> (学習中断からの復帰法)
-</li>
-<li>
-<a href="/bias-free-anki-learning/">もっと Anki に集中する使い方</a> (学習に集中するためのインターフェイス設定)
-</li>
-<li>
-<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a> (教材の全体像理解と既成教材の使い方)
-</li>
-<li>
-<a href="/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a> (Anki の限界を超越する iPhone アプリの位置付け)
-</li>
-<li>
-<a href="/anki-basics/">Anki 使いの原点</a> (Anki の基本的な使い方)
-</li>
-</ol>
-</section>
-
-

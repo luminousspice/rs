@@ -9,7 +9,7 @@ excerpt: "熟練者限定の Anki の使い方の基本を取り上げます。�
 ---
 <section id="preamble">
 <p>熟練者限定の Anki の使い方の基本を取り上げます。明確な目標を設定して、毎日の学習を最適化する考え方を紹介します。</p>
-<p>Anki の利用経験が全くない、はじめて Anki を使い始める方のためには、<a href="/how-to-anki/">はじめてのAnkまず使ってみる</a>を用意していますのでご覧下さい。</p>
+<p>Anki の利用経験が全くない、はじめて Anki を使い始める方のためには、<a href="/how-to-anki/">はじめてのAnki まず使ってみる</a>を用意していますのでご覧下さい。</p>
 </section>
 <section id="はじめに">
   <div class="page-header">
@@ -149,31 +149,3 @@ Anki の復習セッションは、単語帳毎につくられるため、単語
 <p>そこで、最終目標を意識して、可能な限り短時間で効率的に使うための基本的な考え方を紹介しました。</p>
 <p>独創的なアプリケーション Supermemo で分散学習のアプリケーションの分野を切り開いた Piotr Woźniak の学習に関する考え方が幸いにして「<a target="_new" href="http://d.hatena.ne.jp/rage2050/20110502">効果的な学習法: 知識を定式化する20個のルール</a>」として翻訳されています。基本中の基本です。是非ご一読ください。</p>
 </section>
-<section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
-  <div class="page-header">
-    <h2>連載: Art of Anki - 熟練ユーザー限定の使いこなし方</h2>
-  </div>
-<p>Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
-<ol>
-<li>
-<a href="/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a> (学習セッション最適化)
-</li>
-<li>
-<a href="/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a> (学習中断からの復帰法)
-</li>
-<li>
-<a href="/bias-free-anki-learning/">もっと Anki に集中する使い方</a> (学習に集中するためのインターフェイス設定)
-</li>
-<li>
-<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a> (教材の全体像理解と既成教材の使い方)
-</li>
-<li>
-<a href="/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a> (Anki の限界を超越する iPhone アプリの位置付け)
-</li>
-<li>
-<a href="/anki-basics/">Anki 使いの原点</a> (Anki の基本的な使い方)
-</li>
-</ol>
-</section>
-
-

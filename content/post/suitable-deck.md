@@ -43,7 +43,7 @@ excerpt: "Anki を使い始めた人にとっては、既成の共有単語帳�
   </div>
 <ul>
 <li>
-QA 形式のカード: <a href="/how-to-anki/">はじめてのAnkまず使ってみる</a>
+QA 形式のカード: <a href="/how-to-anki/">はじめてのAnki まず使ってみる</a>
 </li>
 <li>
 穴埋め形式のカード: <a href="/cloze-deletion/">Ankiにおける空欄補充問題の作り方</a>

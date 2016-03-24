@@ -360,7 +360,3 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 </li>
 </ul></div>
 </section>
-<hr />
-<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png" style="border-style:none;float:left;margin:5px" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Damien Elmes<br />価格： 2,500円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt="iTunesで見る" style="border-style:none" /></a><br /><span style="font-size:xx-small">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2014.5.13</span><br style="clear:left" /></div></div> 
-
-

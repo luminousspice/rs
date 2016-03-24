@@ -132,30 +132,3 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 仮に何らかの障害で一時期学習が続けられなくなって、バックログがたまると全ての履歴を初期化したくなるかもしれません。
 実は、過去の履歴を活用することで元の学習状態にいち早く復帰できるのです。</p>
 </section>
-<section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
-  <div class="page-header">
-    <h2>連載: Art of Anki - 熟練ユーザー限定の使いこなし方</h2>
-  </div>
-<p>Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
-<ol>
-<li>
-<a href="/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a> (学習セッション最適化)
-</li>
-<li>
-<a href="/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a> (学習中断からの復帰法)
-</li>
-<li>
-<a href="/bias-free-anki-learning/">もっと Anki に集中する使い方</a> (学習に集中するためのインターフェイス設定)
-</li>
-<li>
-<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a> (教材の全体像理解と既成教材の使い方)
-</li>
-<li>
-<a href="/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a> (Anki の限界を超越する iPhone アプリの位置付け)
-</li>
-<li>
-<a href="/anki-basics/">Anki 使いの原点</a> (Anki の基本的な使い方)
-</li>
-</ol>
-</section>
-

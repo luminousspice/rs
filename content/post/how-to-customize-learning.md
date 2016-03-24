@@ -212,39 +212,3 @@ excerpt: "単語帳の学習オプションを一時的に変更するカスタ�
 <p>2013/05/11: 初出</p>
 <p>2014/09/21: 再構成</p>
 </section>
-<section id="連載_ankiの使い方_覚えるために忘れろ_記事一覧">
-  <div class="page-header">
-    <h2>連載: Ankiの使い方 〜覚えるために忘れろ〜 記事一覧</h2>
-  </div>
-<ol>
-<li>
-<a href="/how-to-anki/">はじめてのAnki – まず使ってみる</a>(インストール、問題入力、学習の流れ)
-</li>
-<li>
-<a href="/how-to-import/">Ankiにデータをまとめて取り込む</a>(テキストデータの一括登録)
-</li>
-<li>
-<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>(アドオン、共有単語帳)
-</li>
-<li>
-<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>(カード編集、外部リンク設定、読み上げ)
-</li>
-<li>
-<a href="/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>(ブラウザー、検索条件)
-</li>
-<li>
-フィルター単語帳でAnki学習をカスタマイズしよう (カスタム学習、フィルター単語帳、独自の学習条件を設定)
-</li>
-<li>
-<a href="/reduce-anki-backlog-with-stats/">Anki統計情報を活用したバックログ解消法</a>(統計情報の見方、たまった復習カードの解決法)
-</li>
-<li>
-<a href="/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>(単語帳の書き出し、AnkiWebへの共有)
-</li>
-<li>
-<a href="/index-how-to-anki/">はじめてAnkiを使う人のための索引</a>(連載内容の索引)
-</li>
-</ol>
-</section>
-
-

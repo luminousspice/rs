@@ -175,33 +175,3 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 </li>
 </ul></div>
 </section>
-<section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
-  <div class="page-header">
-    <h2>連載: Art of Anki - 熟練ユーザー限定の使いこなし方</h2>
-  </div>
-<p>Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
-<ol>
-<li>
-<a href="/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a> (学習セッション最適化)
-</li>
-<li>
-<a href="/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a> (学習中断からの復帰法)
-</li>
-<li>
-<a href="/bias-free-anki-learning/">もっと Anki に集中する使い方</a> (学習に集中するためのインターフェイス設定)
-</li>
-<li>
-<a href="/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a> (教材の全体像理解と既成教材の使い方)
-</li>
-<li>
-<a href="/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a> (Anki の限界を超越する iPhone アプリの位置付け)
-</li>
-<li>
-<a href="/anki-basics/">Anki 使いの原点</a> (Anki の基本的な使い方)
-</li>
-</ol>
-</section>
-<hr />
-<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://a995.phobos.apple.com/us/r30/Purple4/v4/ea/fb/8e/eafb8ebb-8d8e-b3ea-b1c4-c20fef4330fd/anki-57.png" style="border-style:none;float:left;margin:5px" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Damien Elmes<br />価格： 2,500円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt="iTunesで見る" style="border-style:none" /></a><br /><span style="font-size:xx-small">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2014.5.13</span><br style="clear:left" /></div></div> 
-
-
