@@ -57,21 +57,19 @@
 
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/">Home</a>
-    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">目次</a>
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
     <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
     <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
-    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">検索</a>
-
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
     
   </nav>
 
   <div class="sidebar-item">
-    <p>&copy; 2016 luminousspice.com. All rights reserved.</p>
   </div>
 </div>
 
@@ -91,8 +89,9 @@
 
 
 <div class="post">
+  <article class="post">
   <h1 class="post-title">フックを使った Anki アドオンのつくり方</h1>
-  <span class="post-date">2014-01-17</span>
+  <span class="post-date"><time datetime="2014-01-17T22:55:53Z">2014-01-17</time></span>
   <section id="preamble">
 <p>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることができます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことができます。この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「Anki 2.0 アドオンの作成」を補足する内容です。</p>
 <p>この記事は、АnkiWeb に公開済みの Аnki アドオン (Add-on) <a href="https://ankiweb.net/shared/info/1299246957" target="_new">Mature Tag</a>を例にとって、解説します。
@@ -333,9 +332,18 @@ Anki に Python インタープリタが含まれているため、アドオン�
 <p>フックの使い方を詳しく知るには、<a href="http://rs.luminousspice.com/anki2addons/">Anki 2.0 アドオンの作成</a>、および <a href="https://github.com/dae/anki/blob/master/anki/hooks.py" target="_new">anki/hooks.py</a> をお読みください。</p>
 </section>
 
+  </article>
+  <aside class="reference">
   
   
+  </aside>
 </div>
+
+      <footer>
+        <div class="footer">
+          &copy; <time datetime="2016-03-21T14:35:52&#43;09:00">2016</time> luminousspice.com.
+        </div>
+      </footer>
       </div>
     </div>
 
