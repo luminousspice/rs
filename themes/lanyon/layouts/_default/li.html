@@ -1,1 +1,1 @@
-<li><a href="{{ .Permalink }}">{{ .Title }}{{ if .GetParam "draft" }} DRAFT{{ end }}</a> - {{ .Date.Format .Site.Params.DateForm }}</li>
+<li><span class="post-date archive-date">{{ .Date.Format .Site.Params.DateForm }}</span><a href="{{ .Permalink }}">{{ .Title }}{{ if .GetParam "draft" }} DRAFT{{ end }}</a></li>
