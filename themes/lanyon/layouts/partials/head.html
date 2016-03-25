@@ -8,7 +8,7 @@
   {{ partial "meta.html" . }}
 
   <base href="{{ .Site.BaseURL }}">
-  <title>{{ if eq .URL "/" }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.Title }}{{ end }}</title>
+  <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
   <link rel="stylesheet" href="/css/rs.css">
 
