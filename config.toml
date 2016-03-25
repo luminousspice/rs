@@ -20,7 +20,7 @@ googleAnalytics = "UA-29141274-5"
 	anki = "anki"
 
 [params]
-	description = "ここは @luminousspice が書きためている書類の集まりです。全てのコンテンツを非同期的に更新していますので、経時的な順序に意味はありません。"
+	description = "このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。"
 	topitem = 5
 	author = "luminosspice"
 	githubName = "luminosspice"
@@ -37,3 +37,21 @@ googleAnalytics = "UA-29141274-5"
 
 [params.github]
 	url = "http://github.com/luminousspice/"
+
+[[menu.main]]
+	name = "総目次"
+	url = "/table-of-contents/"
+	weight = -200
+[[menu.main]]
+	name = "Anki 索引"
+	url = "/index-how-to-anki/"
+	weight = -180
+[[menu.main]]
+	name = "アーカイブ"
+	url = "/post/"
+	weight = -170
+[[menu.main]]
+	name = "全文検索"
+	pre = "<i class='fa fa-bullhorn'></i>"
+	url = "/search/"
+	weight = -160
