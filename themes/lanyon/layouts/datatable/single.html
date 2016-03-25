@@ -4,6 +4,7 @@
   <article class="post">
   <h1 class="post-title">{{ .Title }}</h1>
   <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+	<noscript><p class="notice">注意: このページの検索機能に JavaScript を使用しています。</p></noscript>
   {{ .Content }}
   </article>
 </div>

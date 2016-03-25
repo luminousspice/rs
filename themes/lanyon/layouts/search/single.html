@@ -4,6 +4,7 @@
   <h1 class="post-title">{{ .Title }}</h1>
   {{ .Content }}
   {{ partial "searchbox.html" . }}
+	<noscript><p class="notice">注意: この検索機能は JavaScript を使用しています。</p></noscript>
 </div>
 
 {{ partial "footer.html" . }}
