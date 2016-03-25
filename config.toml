@@ -7,7 +7,7 @@ paginate = 5
 paginatePath ="p"
 canonifyurls = true
 hasCJKLanguage = true
-googleAnalytics = "UA-29141274-5"
+googleAnalytics = "UA-29141274-4"
 
 [permalinks] 
 	post = "/:filename/"
@@ -28,11 +28,8 @@ googleAnalytics = "UA-29141274-5"
 	siteImage = "apple-touch-icon.png"
 	twitterCardImage = "apple-touch-icon.png"
 	feeditem = 5
-
 #laynon
-	Title = "The Right Stuff"
 	Tagline = ""
-	Author = "luminousspice"
 	DateForm = "2006-01-02"
 
 [params.github]
