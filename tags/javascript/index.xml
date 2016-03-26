@@ -134,6 +134,7 @@
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki の作者は Anki のサポートサイトの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile/890-req-text-to-speech-in-ankimobile-for-ios7&#34;&gt;Req: Text to speech in AnkiMobile for ios7..&lt;/a&gt; の中でノートを読み上げるカードテンプレートの作り方を紹介しています。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この方法は、テキスト読み上げ機能を呼び出す JavaScript をカードテンプレートに導入する方法です。テキストの読み上げには &lt;a target=&#34;_new&#34; href=&#34;https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html&#34;&gt;Web Speech API&lt;/a&gt; という Web 標準を使います。
 なお、AnkiMobile ではカートテンプレートの編集できませんので、PC 版 Anki で編集します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;strong&gt;注意:&lt;/strong&gt; AnkiMobile 2.0.18 にアップデート後、マナーモード (サイレントスイッチ) 設定中はこの機能は動作せず、エラーが発生します。マナーモードを切ってお使いください。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードの表面に配置した &lt;span class=&#34;monospaced&#34;&gt;Front&lt;/span&gt; フィールドを読み上げるには、表面のテンプレートを次のように設定します。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Front フィールドを読み上げる設定例&lt;/div&gt;
@@ -203,7 +204,7 @@
 &lt;div class=&#34;sect1&#34;&gt;
 &lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2014/06/21: 初出&lt;br&gt;2015/11/20: 共有単語帳リンク先変更&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2014/06/21: 初出&lt;br&gt;2015/11/20: 共有単語帳リンク先変更&lt;br&gt;2016/03/17: AnkiMobile 2.0.18 アップデートによる問題点を追加&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
