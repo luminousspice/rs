@@ -420,7 +420,8 @@ Ankiを使った学習全般を体験できるよう内容を構成しました�
   </div>
 <p>ツイッターアカウント Ankigene (@Ankigene) は、<a href="/ankigene-bot-guide/">Anki を使い始めた時に、知っておくと役立つ知識</a>を定期的につぶやきます。
 事前に基本的な使い方を目にしていれば、いざという時に情報を探す時間を短縮できます。全ての投稿が20日で一周するスケジュールです。</p>
-https://twitter.com/Ankigene/status/563269272017711105
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">単語帳を削除するには、[D] キーを押してから、単語帳名右のドロップダウンから[削除]を選択します。| Anki Tips <a href="https://t.co/WtFRo51sAM">https://t.co/WtFRo51sAM</a></p>&mdash; Ankigene (@Ankigene) <a href="https://twitter.com/Ankigene/status/712921013919617025">2016年3月24日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </section>
 <section id="もっと深く知りたい">
   <div class="page-header">
