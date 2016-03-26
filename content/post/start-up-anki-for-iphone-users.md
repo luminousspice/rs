@@ -14,7 +14,7 @@ excerpt: "語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p><a target="itunes_store" href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS">AnkiMobile</a> <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" target="itunes_store"></a> とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。</p>
 <p></p>
@@ -48,7 +48,7 @@ excerpt: "語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始
 </section>
 <section id="iphone_を利用したゆるい_anki_のはじめ方">
   <div class="page-header">
-    <h1>iPhone を利用したゆるい Anki のはじめ方</h1>
+    <h2>iPhone を利用したゆるい Anki のはじめ方</h2>
   </div>
 <p>AnkiMobile ユーザーのために提案する方法の特徴をまとめると次のようになります。</p>
 <div class="ulist"><ul>
@@ -71,7 +71,7 @@ excerpt: "語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始
 <p>この方法は覚えたい単語や文章だけ準備できれば継続できます。必要なのは表面に覚えたい項目が載っているカードです。
 iPhone アプリを使った場合、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。
 iPhone だけで完結できるので、PC は不要です。</p>
-<h2 id="ゆるい_anki_の使い方の原則">ゆるい Anki の使い方の原則</h2>
+<h3 id="ゆるい_anki_の使い方の原則">ゆるい Anki の使い方の原則</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -89,7 +89,7 @@ Anki で学習、復習することに最大限の労力を割り当てる。
 </p>
 </li>
 </ul></div>
-<h2 id="必要なもの">必要なもの</h2>
+<h3 id="必要なもの">必要なもの</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -107,7 +107,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 </p>
 </li>
 </ul></div>
-<h2 id="毎日の作業手順">毎日の作業手順</h2>
+<h3 id="毎日の作業手順">毎日の作業手順</h3>
 <ol>
 <li>
 その日の Anki の復習ノルマをこなします。
@@ -119,7 +119,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 時間がある時は教材の読み、登録した項目が載っている箇所を復習します。Anki 学習と間隔が空いてもよいです。
 </li>
 </ol>
-<h3 id="注意事項">注意事項</h3>
+<h4 id="注意事項">注意事項</h4>
 <p>毎日の手順を継続して実践する上で注意すべき項目をまとめました。</p>
 <div class="ulist"><ul>
 <li>
@@ -148,7 +148,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 </p>
 </li>
 </ul></div>
-<h2 id="ゆるい方法の良い点">ゆるい方法の良い点</h2>
+<h3 id="ゆるい方法の良い点">ゆるい方法の良い点</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -175,7 +175,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 </section>
 <section id="単語の意味を調べる">
   <div class="page-header">
-    <h1>単語の意味を調べる</h1>
+    <h2>単語の意味を調べる</h2>
   </div>
 <p>学習中にわからない言葉が出てきたら、直接辞書で調べることができます。
 画面をダブルタップして調べたい単語を選択し、メニューから [Define] を選択します。</p>
@@ -201,7 +201,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 </div>
 <p>標準設定では、日本語-英語(ウィズダム英和辞典/ウィズダム和英辞典)、日本語(スーパー大辞林)が利用できます。</p>
 <p>画面右上 [Done] をタップすると AnkiMobile の画面に戻ります。(図 2, 3)</p>
-<h2 id="検索辞書の追加">検索辞書の追加</h2>
+<h3 id="検索辞書の追加">検索辞書の追加</h3>
 <p>iOS 7 の場合は、9言語、14種類の辞書を必要に応じて追加ダウンロードすることが出来ます。</p>
 <ol>
 <li>
@@ -227,17 +227,17 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 </div>
 <div class="title">図 4. 辞書の選択</div>
 </div>
-<h3 id="利用可能な辞書">利用可能な辞書</h3>
+<h4 id="利用可能な辞書">利用可能な辞書</h4>
 <p>日本語-英語、日本語、ドイツ語、イタリア語、韓国語、フランス語、スペイン語、オランダ語、韓国語-英語、イギリス英語、アメリカ英語、簡体中国語、簡体中国語-英語、Apple Dictionary</p>
 </section>
 <section id="テキストを読み上げる">
   <div class="page-header">
-    <h1>テキストを読み上げる</h1>
+    <h2>テキストを読み上げる</h2>
   </div>
 <p>選択項目を読み上げ機能が有効にしていると、テキストを合成音声で読み上げることが出来ます。
 学習中に単語の発音を調べたり、テキストの聴き取りができます。</p>
 <p>設定方法は、<a href="/speech-text-on-ankimobile/">iPhone 版 Anki でテキストを読み上げるにはどうするか</a>で説明しています。</p>
-<h2 id="読み上げ機能の使い方">読み上げ機能の使い方</h2>
+<h3 id="読み上げ機能の使い方">読み上げ機能の使い方</h3>
 <ol>
 <li>
 画面をダブルタップして調べたい単語を選択し、メニューから [Speak] を選択します。
@@ -257,7 +257,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 <a href="/ankimobile-
 </section>
 <section id="単純なカードの作り方">
   <div class="page-header">
-    <h1>単純なカードの作り方</h1>
+    <h2>単純なカードの作り方</h2>
   </div>
 <p>カードに表示する内容、ノートは次の手順で追加します。</p>
 <ol>
@@ -281,7 +281,7 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 画面右上の [Save] を押して入力内容を保存。
 </li>
 </ol>
-<h2 id="メディアの追加">メディアの追加</h2>
+<h3 id="メディアの追加">メディアの追加</h3>
 <p>キーボードの左上のアイコンから、追加する画像や音声 (メディア) を指定できます。</p>
 <div class="ulist"><ul>
 <li>
@@ -323,14 +323,14 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>iPhone のシステム iOS の特長を生かし、覚えたい項目や Anki で行う作業手順を絞り込むと Anki を活用した語学学習がもっと楽に継続できるようになります。</p>
 <p>大量のデータを暗記するような本格的な学習を始める前に、この記事で紹介した方法で Anki の使い方に慣れてはいかがでしょうか。</p>
 </section>
 <section id="さらにくわしく">
   <div class="page-header">
-    <h1>さらにくわしく</h1>
+    <h2>さらにくわしく</h2>
   </div>
 <div class="ulist"><ul>
 <li>

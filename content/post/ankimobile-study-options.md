@@ -13,7 +13,7 @@ excerpt: "AnkiWeb の同期機能は、教材や学習履歴、復習スケジ�
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>AnkiWeb の同期機能は、Anki デスクトップ PC 版 と iOS アプリの AnkiMobile 間で学習オプションを同期します。AnkiMobile のユーザーインターフェイスは、PC 版で設定できる項目の一部だけに限定されています。</p>
 <p>AnkiMobile を単独で利用している場合でも、Anki デスクトップ PC 版 を利用すると自分の学習環境に最適な設定をすることができます。</p>
@@ -21,7 +21,7 @@ excerpt: "AnkiWeb の同期機能は、教材や学習履歴、復習スケジ�
 </section>
 <section id="ankimobile_から設定できること">
   <div class="page-header">
-    <h1>AnkiMobile から設定できること</h1>
+    <h2>AnkiMobile から設定できること</h2>
   </div>
 <p>AnkiMobile 上で設定できる単語帳の学習オプションは、一日の新規カードの上限と復習の上限です。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。</p>
@@ -35,7 +35,7 @@ excerpt: "AnkiWeb の同期機能は、教材や学習履歴、復習スケジ�
 </section>
 <section id="anki_の学習オプション設定画面の呼び出し方">
   <div class="page-header">
-    <h1>Anki の学習オプション設定画面の呼び出し方</h1>
+    <h2>Anki の学習オプション設定画面の呼び出し方</h2>
   </div>
 <p>Anki デスクトップ PC 版で学習オプションを次の手順で呼び出せます。</p>
 <p>起動直後に表示する単語帳一覧の中から、設定したい単語帳名をクリックするその単語帳のトップページを表示します。(図 2)</p>
@@ -55,7 +55,7 @@ excerpt: "AnkiWeb の同期機能は、教材や学習履歴、復習スケジ�
 </section>
 <section id="anki_から設定できる機能内容">
   <div class="page-header">
-    <h1>Anki から設定できる機能内容</h1>
+    <h2>Anki から設定できる機能内容</h2>
   </div>
 <p>タブ [新規カード]、[復習]、[忘却] を選択し、それぞれの学習段階での学習オプションが設定できます。</p>
 <p>[説明] では、単語帳のトップページの内容を記述することが出来ます。</p>
@@ -85,16 +85,16 @@ excerpt: "AnkiWeb の同期機能は、教材や学習履歴、復習スケジ�
 </section>
 <section id="同期機能で設定内容を反映">
   <div class="page-header">
-    <h1>同期機能で設定内容を反映</h1>
+    <h2>同期機能で設定内容を反映</h2>
   </div>
 <p>設定が完了したら、Anki と AnkiWeb を同期します。次に、AnkiMobile から同期を行うと設定が反映されます。</p>
 <p>同期機能の具体的な使用手順については、<a href="/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>で説明しています。</p>
-<h2 id="同期する際の注意点">同期する際の注意点</h2>
+<h3 id="同期する際の注意点">同期する際の注意点</h3>
 <p>AnkiMobile で設定変更した後に、AnkiWeb 経由でデスクトップ PC 用Anki と同期すると、AnkiMobile で変更した内容が PC 側に反映されます。</p>
 </section>
 <section id="まとめ">
   <div class="page-header">
-    <h1>まとめ</h1>
+    <h2>まとめ</h2>
   </div>
 <p>AnkiWeb は教材や学習履歴以外にも、学習オプションも同期対象になっているので、様々なデバイス間で一貫した学習環境を実現できます。</p>
 <p>オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。

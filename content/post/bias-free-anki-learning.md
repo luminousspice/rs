@@ -14,7 +14,7 @@ excerpt: "Anki に慣れている方を対象に、Anki の本来持っている
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>Anki は、学習履歴やコンテンツについてリアルタイムに色々な情報を取り出せる設計になっています。
 この機能を利用して、ユーザーインターフェイスの至る所に情報を表示しています。</p>
@@ -26,7 +26,7 @@ Anki の得意とする本来の機能の妨げになります。</p>
 </section>
 <section id="復習間隔の表示">
   <div class="page-header">
-    <h1>復習間隔の表示</h1>
+    <h2>復習間隔の表示</h2>
   </div>
 <p>Anki は、暗記したカードをどれだけの日数を空ければ覚えているか、その限界を拡張していくソフトです。
 また、毎回の復習時に、記憶している強度を 3 段階で評価して、次の復習間隔に反映しています。</p>
@@ -62,7 +62,7 @@ Anki の得意とする本来の機能の妨げになります。</p>
 </section>
 <section id="セッション中の残り枚数">
   <div class="page-header">
-    <h1>セッション中の残り枚数</h1>
+    <h2>セッション中の残り枚数</h2>
   </div>
 <p>セッション中の残り枚数も、誘惑に駆られる情報です。
 時間がない場合や、再学習の枚数が多い時に、まだ十分学習が済んでいないのに、つい妥協してセッションを終わらせたくなってしまいます。</p>
@@ -83,7 +83,7 @@ Anki の得意とする本来の機能の妨げになります。</p>
 </section>
 <section id="設定方法">
   <div class="page-header">
-    <h1>設定方法</h1>
+    <h2>設定方法</h2>
   </div>
 <ol>
 <li>
@@ -99,7 +99,7 @@ Anki の得意とする本来の機能の妨げになります。</p>
 </div>
 <div class="title">図 6. Anki 環境設定</div>
 </div>
-<h2 id="ankimobile_iphone_の場合">AnkiMobile (iPhone) の場合</h2>
+<h3 id="ankimobile_iphone_の場合">AnkiMobile (iPhone) の場合</h3>
 <p>iOS アプリを、iPhone、iPad、iPod touch で使っている場合は、
 設定画面を表示するのに画面右上の歯車のアイコンをタップし、[Review] を選択します。</p>
 <div class="ulist"><ul>
@@ -127,7 +127,7 @@ Anki の得意とする本来の機能の妨げになります。</p>
 </div>
 <div class="title">図 8. ボタンから復習間隔が消えた</div>
 </div>
-<h2 id="ankidroid_android_の場合">AnkiDroid (Android) の場合</h2>
+<h3 id="ankidroid_android_の場合">AnkiDroid (Android) の場合</h3>
 <p>アンドロイド機器の場合は、画面左上の Anki のアイコンをタップしてドロワーを開き、[設定]-[カードの復習と評価] を選択すると表示します。</p>
 <div class="ulist"><ul>
 <li>

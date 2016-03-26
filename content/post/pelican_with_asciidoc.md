@@ -14,7 +14,7 @@ excerpt: "静的サイトジェネレータ Plican で AsciiDoc を機能させ�
 </section>
 <section id="asciidoc_api_のインストール">
   <div class="page-header">
-    <h1>AsciiDoc API のインストール</h1>
+    <h2>AsciiDoc API のインストール</h2>
   </div>
 <p>Pelican で AsciiDoc を利用するには、<a href="http://www.methods.co.nz/asciidoc/asciidocapi.html">AsciiDoc API</a> をインストールする必要があります。
 Markdown を利用するには pip を使ったインストールが可能ですが、AsciiDoc の場合は別途作業になります。</p>
@@ -25,7 +25,7 @@ Markdown を利用するには pip を使ったインストールが可能です
 </section>
 <section id="ユニコードエラーの問題">
   <div class="page-header">
-    <h1>ユニコードエラーの問題</h1>
+    <h2>ユニコードエラーの問題</h2>
   </div>
 <p>利用している Python 環境によっては、Pelican で日本語の文書を処理した時にユニコードのエラーが発生することがあります。これは既定のエンコーディングが utf-8 になっていないためです。</p>
 <div class="listingblock">

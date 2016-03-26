@@ -15,7 +15,7 @@ excerpt: "日本語ユーザー向けに共有単語帳の検索画面を作成�
 </section>
 <section id="日本語の共有単語帳を見つけやすく">
   <div class="page-header">
-    <h1>日本語の共有単語帳を見つけやすく</h1>
+    <h2>日本語の共有単語帳を見つけやすく</h2>
   </div>
 <p>AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。</p>
 <p><a href="https://ankiweb.net/shared/decks/">AnkiWeb に登録されている単語帳一覧</a>は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。</p>
@@ -23,7 +23,7 @@ excerpt: "日本語ユーザー向けに共有単語帳の検索画面を作成�
 </section>
 <section id="共有単語帳検索">
   <div class="page-header">
-    <h1>共有単語帳検索</h1>
+    <h2>共有単語帳検索</h2>
   </div>
 <table id="decklist" class="display" frame="hsides"> 
 <colgroup>
@@ -871,7 +871,7 @@ excerpt: "日本語ユーザー向けに共有単語帳の検索画面を作成�
 </tr>
 </tbody>
 </table>
-<h2 id="使い方">使い方</h2>
+<h3 id="使い方">使い方</h3>
 <ul>
 <li>
 右上検索欄にキーワードを入力すると、情報を絞り込みます。
@@ -889,7 +889,7 @@ excerpt: "日本語ユーザー向けに共有単語帳の検索画面を作成�
 上部のドロップダウンから一度に表示する項目数を選択できます。
 </li>
 </ul>
-<h2 id="注意事項">注意事項</h2>
+<h3 id="注意事項">注意事項</h3>
 <ul>
 <li>
 このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
@@ -901,7 +901,7 @@ excerpt: "日本語ユーザー向けに共有単語帳の検索画面を作成�
 外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
 </li>
 </ul>
-<h2 id="共有単語帳を使う時の参考に">共有単語帳を使う時の参考に</h2>
+<h3 id="共有単語帳を使う時の参考に">共有単語帳を使う時の参考に</h3>
 <ul>
 <li>
 共有単語帳の使い方は、<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>をご覧下さい。
@@ -916,11 +916,11 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 </section>
 <section id="共有単語帳への検索リンク集">
   <div class="page-header">
-    <h1>共有単語帳への検索リンク集</h1>
+    <h2>共有単語帳への検索リンク集</h2>
   </div>
 <p>更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
 日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。</p>
-<h2 id="注意事項_2">注意事項</h2>
+<h3 id="注意事項_2">注意事項</h3>
 <ul>
 <li>
 タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
@@ -929,7 +929,7 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
 </li>
 </ul>
-<h2 id="言語">言語</h2>
+<h3 id="言語">言語</h3>
 <table class="table table-striped" width="" cellspacing="0" cellpadding="4" frame="hsides" rules="rows">
 <colgroup>
 <col class="span2">
@@ -1048,7 +1048,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 </tr>
 </tbody>
 </table>
-<h2 id="人文社会">人文社会</h2>
+<h3 id="人文社会">人文社会</h3>
 <table class="table table-striped" width="" cellspacing="0" cellpadding="4" frame="hsides" rules="rows">
 <colgroup>
 <col class="span2">
@@ -1131,7 +1131,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 </tr>
 </tbody>
 </table>
-<h2 id="科学技術">科学技術</h2>
+<h3 id="科学技術">科学技術</h3>
 <table class="table table-striped" width="" cellspacing="0" cellpadding="4" frame="hsides" rules="rows">
 <colgroup>
 <col class="span2">
@@ -1221,7 +1221,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2015/02/17: 初出</p>
 <p>2015/02/26: 追加: 人文社会、科学技術</p>

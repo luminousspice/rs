@@ -14,7 +14,7 @@ excerpt: "Ankiデータが、何らかの原因で不幸にして破損した場
 </section>
 <section id="コレクションデータの破損と確認">
   <div class="page-header">
-    <h1>コレクションデータの破損と確認</h1>
+    <h2>コレクションデータの破損と確認</h2>
   </div>
 <p></p>
 <p>メニューバーから[ツール]&gt;[データベースをチェック]を実行すると、データが破損していないか確認できます。</p>
@@ -25,7 +25,7 @@ excerpt: "Ankiデータが、何らかの原因で不幸にして破損した場
 </section>
 <section id="修復作業の準備">
   <div class="page-header">
-    <h1>修復作業の準備</h1>
+    <h2>修復作業の準備</h2>
   </div>
 <ol>
 <li>
@@ -58,10 +58,10 @@ Windowsの場合は、<a href="http://www.sqlite.org/download.html" target="_new
 </section>
 <section id="コレクションファイルのダンプ">
   <div class="page-header">
-    <h1>コレクションファイルのダンプ</h1>
+    <h2>コレクションファイルのダンプ</h2>
   </div>
 <p>SQLite3のコマンドラインシェルを使って、コレクションのダンプファイルを作ります。作業に使用するプラットフォームによって手順が異なりますのでご注意ください。</p>
-<h2 id="mac_os_x_または_linuxの場合">Mac OS X または Linuxの場合</h2>
+<h3 id="mac_os_x_または_linuxの場合">Mac OS X または Linuxの場合</h3>
 <p>ターミナルを開き、Ankiフォルダーの中のプロファイルフォルダーに移動して次のコマンドを実行します。</p>
 <pre>sqlite3 collection.anki2 .dump &gt; dump.txt</pre>
 <p>生成したファイル <code>dump.txt</code> をテキストエディタで開きます。
@@ -69,7 +69,7 @@ Windowsの場合は、<a href="http://www.sqlite.org/download.html" target="_new
 <p>さらに、ターミナルで次のコマンドを実行します。</p>
 <pre>cat dump.txt | sqlite3 temp.file</pre>
 <p>注意: コレクションファイルを上書きせず、必ず <code>temp.file</code> とテンポラリーファイルを指定してください。</p>
-<h2 id="windowsの場合">Windowsの場合</h2>
+<h3 id="windowsの場合">Windowsの場合</h3>
 <ol>
 <li>
 ダウンロードしたSqliteファイルを解凍すると、<code>sqlite3.exe</code> が生成します。これをAnkiフォルダーの中のプロファイルフォルダーにコピーします。
@@ -88,7 +88,7 @@ Windowsの場合は、<a href="http://www.sqlite.org/download.html" target="_new
 </section>
 <section id="ankiに読み込む">
   <div class="page-header">
-    <h1>Ankiに読み込む</h1>
+    <h2>Ankiに読み込む</h2>
   </div>
 <ol>
 <li>
@@ -105,7 +105,7 @@ Ankiを起動し、ツールバーから[ツール]&gt;[データベースをチ
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2013/10/16: Anki 2.0.14のリリースと同時に行われた<a href="http://ankisrs.net/docs/manual.html#corrupt-collections" target="_new">マニュアル</a>の変更に基づいて、内容を更新しました。</p>
 <p>2013/7/6: 初出</p>

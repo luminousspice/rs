@@ -13,7 +13,7 @@ excerpt: "Anki に使い慣れて物足りなくなった人に iPhone をすす
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>Anki に飽き足らなくなったかたにこそ iPhone で <a target="itunes_store" href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS">AnkiMobile</a> <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" target="itunes_store"></a> を使ってほしいです。
 AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実現する一つのソリューションです。</p>
@@ -23,7 +23,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 </section>
 <section id="さらに細かい条件">
   <div class="page-header">
-    <h1>さらに細かい条件</h1>
+    <h2>さらに細かい条件</h2>
   </div>
 <p>特に効果的だと考えられるのは、瞬時に判断すべき知識を大量に暗記しようとしている人です。
 図、表、音声、単語、文章、数値、記号などを見て、意味、解決策、身体動作などを思い出せるよう訓練している場合です。
@@ -36,7 +36,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 </section>
 <section id="マルチタッチスクリーン入力">
   <div class="page-header">
-    <h1>マルチタッチスクリーン入力</h1>
+    <h2>マルチタッチスクリーン入力</h2>
   </div>
 <p>AnkiMobile での学習は、マルチタッチスクリーンのジェスチャを使って行います。
 キーボードやマウスを使って学習するよりも、スピード感を持って進められます。</p>
@@ -46,7 +46,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 片手に iPhone を持っているだけで、毎日の学習に取り組むことが出来ます。
 iPhone6 Plusはまだ持ったことがないので、分かりません。
 iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人を選びますね。</p>
-<h2 id="ユーザーインターフェイスのカスタマイズ設定">ユーザーインターフェイスのカスタマイズ設定</h2>
+<h3 id="ユーザーインターフェイスのカスタマイズ設定">ユーザーインターフェイスのカスタマイズ設定</h3>
 <div class="imageblock">
 <div class="content">
 <img src="/images/anki-mastery-settings-review.png" alt="学習画面の設定" width="300">
@@ -101,14 +101,14 @@ iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人�
 </section>
 <section id="オプション設定の同期">
   <div class="page-header">
-    <h1>オプション設定の同期</h1>
+    <h2>オプション設定の同期</h2>
   </div>
 <p>AnkiMobile を新たに導入しても設定し直す必要はありません。</p>
 <p>PC 版の Anki と AnkiWeb を使って同期すると、単語帳オプションや環境設定オプションも同期し PC 版の設定のまますぐに使えます。</p>
 </section>
 <section id="サポート体制">
   <div class="page-header">
-    <h1>サポート体制</h1>
+    <h2>サポート体制</h2>
   </div>
 <p>AnkiMobile のユーザーサポートは、実際の開発者が直接サポートしているため的確な回答が得られます。
 自動回答メールの内容によれば、スタッフからの初動回答まで平均 8 時間です。</p>
@@ -130,7 +130,7 @@ iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人�
 </section>
 <section id="機能制限">
   <div class="page-header">
-    <h1>機能制限?</h1>
+    <h2>機能制限?</h2>
   </div>
 <p>AnkiMobile はコンテンツ作成や編集機能に制限が加えられています。
 Anki を使い込んでいる人にとってはそこが物足りないと感じるのは理解できます。</p>
@@ -143,7 +143,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>Anki に慣れた人が AnkiMobile を使い始めてみると、Anki と AnkiMobile の関係は、量産車のワゴンとカスタムメイドのスポーツカーのように思えるかもしれません。
 ひたすら速く学習するために自分用にチューニングされた学習環境を作り出せます。</p>
@@ -152,7 +152,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 </section>
 <section id="さらにくわしく">
   <div class="page-header">
-    <h1>さらにくわしく</h1>
+    <h2>さらにくわしく</h2>
   </div>
 <div class="ulist"><ul>
 <li>

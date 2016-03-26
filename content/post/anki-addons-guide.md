@@ -14,7 +14,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </section>
 <section id="このアドオンガイドを使う前に">
   <div class="page-header">
-    <h1>このアドオンガイドを使う前に</h1>
+    <h2>このアドオンガイドを使う前に</h2>
   </div>
 <p><a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>では、Anki の共有アドオンの取得、インストール、削除など基本的な説明しています。もし、まだアドオンを使ったことがない方はそちらも参考にしてみてください。</p>
 <p><strong>注意</strong>: Anki のアドオンは、PC (Desktop) 版でのみ動作します。Ankimoblie (iOS) や AnkiDroid (Android) では動作しません。</p>
@@ -22,7 +22,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </section>
 <section id="かゆいところに手が届くアドオンたち">
   <div class="page-header">
-    <h1>かゆいところに手が届くアドオンたち</h1>
+    <h2>かゆいところに手が届くアドオンたち</h2>
   </div>
 <p>小さいけどあると絶対に手放せないニッチなアドオンたち。</p>
 <div class="imageblock">
@@ -31,15 +31,15 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <div class="title">図 1. かゆいところに手が届くアドオンたち</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_1867966335_bigger_show_answer_button_a"><a target="_new" href="https://ankiweb.net/shared/info/1867966335">Bigger Show Answer Button</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1867966335_bigger_show_answer_button_a"><a target="_new" href="https://ankiweb.net/shared/info/1867966335">Bigger Show Answer Button</a></h3>
 <p>単に [解答を表示] ボタンが横長になっただけなのですが、非常に便利です。(図 1 の 1)</p>
 <p>実のところ自分でつくろうかと思っていたので、同じことを考えている人は世の中にいるんだなと感心しました。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_498789867_replay_buttons_on_card_a"><a target="_new" href="https://ankiweb.net/shared/info/498789867">Replay buttons on card</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_498789867_replay_buttons_on_card_a"><a target="_new" href="https://ankiweb.net/shared/info/498789867">Replay buttons on card</a></h3>
 <p>音声ファイルが表示フィールドに含まれていると、再生ボタンを表示してくれます。こちらも地味に便利です。(図 1 の 2)</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_234253523_audio_playback_speed_a"><a target="_new" href="https://ankiweb.net/shared/info/234253523">Audio Playback Speed</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_234253523_audio_playback_speed_a"><a target="_new" href="https://ankiweb.net/shared/info/234253523">Audio Playback Speed</a></h3>
 <p>音声を再生速度を落として再生し直すショートカットキーを設定します。
 [5]: 50%, [6]: 60%, &#8230; [9]: 90%, [0]: 100% で再生します。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_1908633307_sound_volume_control_a"><a target="_new" href="https://ankiweb.net/shared/info/1908633307">Sound volume control.</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1908633307_sound_volume_control_a"><a target="_new" href="https://ankiweb.net/shared/info/1908633307">Sound volume control.</a></h3>
 <p>音声ファイルの音量制御のショートカットキーを設定します。(Command/Ctrl++, Command/Ctrl+-)</p>
 <p><strong>注:</strong></p>
 <ul>
@@ -50,16 +50,16 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 <a href="/mplayer-shortcut-for-anki-video/">動画再生のショートカットキー</a>は標準で用意されています。
 </li>
 </ul>
-<h2 id="a_href_https_ankiweb_net_shared_info_1956318463_zoom_a"><a target="_new" href="https://ankiweb.net/shared/info/1956318463">Zoom</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1956318463_zoom_a"><a target="_new" href="https://ankiweb.net/shared/info/1956318463">Zoom</a></h3>
 <p>学習画面の文字サイズをキーボードショートカットで拡大縮小できるようになります。(Command/Ctrl++, Command/Ctrl+-)</p>
 <p><strong>注:</strong> 入手できなくなった View Size Adjust と同じ機能を持つアドオンです。</p>
 </section>
 <section id="学習管理に役立つアドオンたち">
   <div class="page-header">
-    <h1>学習管理に役立つアドオンたち</h1>
+    <h2>学習管理に役立つアドオンたち</h2>
   </div>
 <p>学習の進捗管理に役立つアドオンです。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_3179425861_new_and_max_cards_a"><a target="_new" href="https://ankiweb.net/shared/info/3179425861">New and max cards</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_3179425861_new_and_max_cards_a"><a target="_new" href="https://ankiweb.net/shared/info/3179425861">New and max cards</a></h3>
 <p>これも地味なアドオンですが、単語帳のオプショングループのうち、新規と復習の学習条件を一望できます。
 影響を受ける親単語帳の設定が横に表示される点が便利です。</p>
 <p>メニューバーから [ツール] - [New/Max Cards Configuration] を開くと設定ウィンドウが開きます。</p>
@@ -69,7 +69,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <div class="title">図 2. New/Max Cards 設定画面</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_1417170896_load_balancer_a"><a target="_new" href="https://ankiweb.net/shared/info/1417170896">load balancer</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1417170896_load_balancer_a"><a target="_new" href="https://ankiweb.net/shared/info/1417170896">load balancer</a></h3>
 <p>復習期日のピークをならしてくれます。
 復習をさぼってたくさんのカードを抱えた人限定でおすすめです。
 統計情報に難易度の予測項目 (Difficulty Forecast) が追加されます。</p>
@@ -80,7 +80,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <div class="title">図 3. load balancer 設定画面</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_1147586609_maturing_cards_a"><a target="_new" href="https://ankiweb.net/shared/info/1147586609">Maturing Cards</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1147586609_maturing_cards_a"><a target="_new" href="https://ankiweb.net/shared/info/1147586609">Maturing Cards</a></h3>
 <p>成熟したカードの枚数の履歴を統計情報の一番最後に表示してくれる。学習の進捗状況を見る一つの指標として使っています。</p>
 <div class="imageblock">
 <div class="content">
@@ -88,7 +88,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <div class="title">図 4. Maturing Cards</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_763339789_progress_graph_a"><a target="_new" href="https://ankiweb.net/shared/info/763339789">Progress graph</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_763339789_progress_graph_a"><a target="_new" href="https://ankiweb.net/shared/info/763339789">Progress graph</a></h3>
 <p>Maturing Cards とは反対にどれだけのカードを学習し始めたのか表示してくれます。
 熟知したカードの枚数にどうしても目が行きがちがちですが、安定して新規追加できているか確認することが出来ます。</p>
 <div class="imageblock">
@@ -97,7 +97,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <div class="title">図 5. Progress graph</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_1999018922_separate_learn_and_relearn_in_the_answer_buttons_graph_a"><a target="_new" href="https://ankiweb.net/shared/info/1999018922">Separate Learn and Relearn in the Answer Buttons graph</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1999018922_separate_learn_and_relearn_in_the_answer_buttons_graph_a"><a target="_new" href="https://ankiweb.net/shared/info/1999018922">Separate Learn and Relearn in the Answer Buttons graph</a></h3>
 <p>このアドオンは、統計情報のボタンの選択状況から、新規カードの学習と復習カードの再学習の結果を分離します。</p>
 <div class="imageblock">
 <div class="content">
@@ -108,10 +108,10 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </section>
 <section id="教材作成に役立つアドオン">
   <div class="page-header">
-    <h1>教材作成に役立つアドオン</h1>
+    <h2>教材作成に役立つアドオン</h2>
   </div>
 <p>凝った教材をつくる場合や、大量に教材をつくる時に役立つアドオンを紹介します。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_301952613_awesometts_a"><a target="_new" href="https://ankiweb.net/shared/info/301952613">AwesomeTTS</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_301952613_awesometts_a"><a target="_new" href="https://ankiweb.net/shared/info/301952613">AwesomeTTS</a></h3>
 <p>Text to Speech機能を追加するアドオンです。MP3データを作成しなくても、文字を読み上げてくれます。MacOS Xの読み上げ機能(say コマンド)、SAPI5、GoogleTTSに対応しています。事前に読み上げたファイルを保存しておくことも可能です。</p>
 <p>さらに指定したノートのフィールドから一括してテキストを読み込んで、音声ファイルを自動生成してフィールドに書き込んでくれる AwesomeTTS MP3 Mass Generator という機能も含まれています。</p>
 <div class="imageblock">
@@ -122,7 +122,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <p>カードテンプレートを編集してAwesomeTTSを機能させる方法は、<a href="/how-to-edit-cards/">Ankiのカード表示を編集する</a>で、音声ファイルの自動生成については<a href="/bulk-import-media-files-into-anki/">画像、音声、動画などメディアファイルを Anki へ一括登録</a>で説明しています。</p>
 <p>機能の詳しい内容は、<a target="_new" href="https://ankiatts.appspot.com/">ドキュメント</a>をお読みください。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_3100585138_download_audio_a"><a target="_new" href="https://ankiweb.net/shared/info/3100585138">Download audio</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_3100585138_download_audio_a"><a target="_new" href="https://ankiweb.net/shared/info/3100585138">Download audio</a></h3>
 <p>オンライン辞書などで公開している音声データを検索してダウンロードするアドオンです。</p>
 <p>このアドオンを動作させるには、ノートに Audio という名前のフィールドを追加するか、ノートタイプ [Standard with audio fields] あるいは [Japanese with audio fields] を指定することが必要です。</p>
 <div class="imageblock">
@@ -132,7 +132,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 <div class="title">図 8. Download audio</div>
 </div>
 <p>このアドオンを詳細に設定するための、<a target="_new" href="http://ospalh.github.io/anki-addons/Download%20audio.html">マニュアル</a>も用意されています。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_1531997860_media_import_a"><a target="_new" href="https://ankiweb.net/shared/info/1531997860">Media Import</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1531997860_media_import_a"><a target="_new" href="https://ankiweb.net/shared/info/1531997860">Media Import</a></h3>
 <p>指定したフォルダの中にあるメディアファイルからノートを書き起こしてくれるアドオン。
 大量のメディアデータから教材を作成する時に非常に役立ちます。</p>
 <div class="imageblock">
@@ -142,11 +142,11 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 <div class="title">図 9. Media Import の処理完了</div>
 </div>
 <p>このアドオン Media Import の簡単な利用例を<a href="/bulk-import-media-files-into-anki/">画像、音声、動画などメディアファイルを Anki へ一括登録</a>で紹介しています。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_2006541756_image_occlusion_2_0_a"><a target="_new" href="https://ankiweb.net/shared/info/2006541756">Image Occlusion 2.0</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_2006541756_image_occlusion_2_0_a"><a target="_new" href="https://ankiweb.net/shared/info/2006541756">Image Occlusion 2.0</a></h3>
 <p>暗記ペンを Anki 上で実現するアドオン。
 地図、解剖図、反応回路図などのキャプションの一部をマスクして出題できます。</p>
 <p>詳しい設定は<a target="_new" href="http://tmbb.bitbucket.org/image-occlusion-2/index.html">ドキュメント</a>をお読みください。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_162313389_power_format_pack_a"><a target="_new" href="https://ankiweb.net/shared/info/162313389">Power format pack</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_162313389_power_format_pack_a"><a target="_new" href="https://ankiweb.net/shared/info/162313389">Power format pack</a></h3>
 <p>ノートエディタで指定できる書式を強化するアドオンです。
 ツールバーボタンから表やリスト、コードブロック、取り消し線、罫線などが利用できます。Markdown を使ったノートの書式設定も可能です。</p>
 <p>ツールバーボタンの表示は、メニューバー [ツール] - [Supplementary buttons add-on (options)] - [Button options] から設定できます。</p>
@@ -159,10 +159,10 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </section>
 <section id="教材管理に役立つアドオン">
   <div class="page-header">
-    <h1>教材管理に役立つアドオン</h1>
+    <h2>教材管理に役立つアドオン</h2>
   </div>
 <p>登録ノートの件数が増えてくると威力を発揮するアドオンたちです。</p>
-<h2 id="a_href_https_ankiweb_net_shared_info_46837454_export_browser_8217_s_card_list_contents_to_csv_file_a"><a target="_new" href="https://ankiweb.net/shared/info/46837454">Export Browser&#8217;s card list contents to CSV file Enhanced</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_46837454_export_browser_8217_s_card_list_contents_to_csv_file_a"><a target="_new" href="https://ankiweb.net/shared/info/46837454">Export Browser&#8217;s card list contents to CSV file Enhanced</a></h3>
 <p>ブラウザー上で選択した内容をCSV形式で書き出してくれます。
 標準の書き出し機能より、条件を絞ってデータを書き出すことができる点が重宝します。</p>
 <p>呼び出す手順は次の通りです。</p>
@@ -181,7 +181,7 @@ excerpt: "Anki は、ユーザーが独自に標準機能を拡張したり、�
 </div>
 <div class="title">図 11. Export Browser&#8217;s card list contents to CSV file Enhancedの呼び出し方</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_874215009_advanced_browser_a"><a target="_new" href="https://ankiweb.net/shared/info/874215009">Advanced Browser</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_874215009_advanced_browser_a"><a target="_new" href="https://ankiweb.net/shared/info/874215009">Advanced Browser</a></h3>
 <p>フィールドやタグの内容、平均解答時間など標準では表示できない項目が、カードブラウザー内に表示できるようになります。
 カード枚数が増えて、定型的な作業が増えてくると威力を発揮します。
 Anki の標準機能に盛り込んでもおかしくない機能を提供してくれます。
@@ -192,7 +192,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 </div>
 <div class="title">図 12. Advanced Browser Back フィールドをブラウザー内に表示</div>
 </div>
-<h2 id="a_href_https_ankiweb_net_shared_info_1089921461_hierarchical_tags_a"><a target="_new" href="https://ankiweb.net/shared/info/1089921461">Hierarchical Tags</a></h2>
+<h3 id="a_href_https_ankiweb_net_shared_info_1089921461_hierarchical_tags_a"><a target="_new" href="https://ankiweb.net/shared/info/1089921461">Hierarchical Tags</a></h3>
 <p>ブラウザー内でタグを階層化表示できるようになります。ノートの分類にタグを多用している場合、ブラウザー画面が見やすく整理できます。
 階層の指定には、コロンを重ねます。</p>
 <pre class="prettyprint">life::植物::花</pre>
@@ -205,13 +205,13 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 </section>
 <section id="番外_ankiweb_と連携するウェブブラウザの機能拡張">
   <div class="page-header">
-    <h1>番外: AnkiWeb と連携するウェブブラウザの機能拡張</h1>
+    <h2>番外: AnkiWeb と連携するウェブブラウザの機能拡張</h2>
   </div>
 <p>Anki のアドオンではありませんが、Anki と連携して機能強化するウェブブラウザの機能拡張を紹介しましょう。</p>
 <p>ウェブブラウザの表示内容から AnkiWeb に直接書き込んで単語帳を作成できるようになります。
 同時にオンライン辞書などのオンラインリソースから訳語を調べる機能を持っています。</p>
 <p>オンラインの文書を読んで、語彙を拾って単語帳を作っている方に役立ちます。</p>
-<h2 id="a_href_https_addons_mozilla_org_ja_firefox_addon_ankifox_ankifox_a_firefox"><a target="_new" href="https://addons.mozilla.org/ja/firefox/addon/ankifox/">AnkiFox</a> (FireFox)</h2>
+<h3 id="a_href_https_addons_mozilla_org_ja_firefox_addon_ankifox_ankifox_a_firefox"><a target="_new" href="https://addons.mozilla.org/ja/firefox/addon/ankifox/">AnkiFox</a> (FireFox)</h3>
 <p>FireFox 用のアドオンで、画面上で選択した文字列から AnkiWeb の単語帳に登録するものです。
 オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は3つまで登録可能です。</p>
 <ol>
@@ -230,7 +230,7 @@ AnkiWeb にサインインした状態で、ブラウザ上で登録したい文
 </div>
 <p>なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。</p>
 <pre class="prettyprint">http://www.wordreference.com/enja/%s</pre>
-<h2 id="a_href_https_chrome_google_com_webstore_detail_anki_cards_maker_ndimepifahlacmclinikbgjndgfelipb_anki_cards_maker_a_chrome"><a target="_new" href="https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb">Anki Cards Maker</a> (Chrome)</h2>
+<h3 id="a_href_https_chrome_google_com_webstore_detail_anki_cards_maker_ndimepifahlacmclinikbgjndgfelipb_anki_cards_maker_a_chrome"><a target="_new" href="https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb">Anki Cards Maker</a> (Chrome)</h3>
 <p>Chrome用の機能拡張で、画面上で選択した文字列から Google 翻訳で訳語を作成し AnkiWeb の単語帳に登録するものです。</p>
 <ol>
 <li>
@@ -255,7 +255,7 @@ AnkiWeb にサインインした状態で、ブラウザ上で登録したい文
 </section>
 <section id="アドオンを使い続けるのに必要なこと">
   <div class="page-header">
-    <h1>アドオンを使い続けるのに必要なこと</h1>
+    <h2>アドオンを使い続けるのに必要なこと</h2>
   </div>
 <p>気に入って使い続けているアドオンがあれば、ぜひ AnkiWeb のダウンロードサイトでレイティングやコメントを付けてください。
 ユーザーからの反応がアドオン作者が開発を継続する意欲に繋がります。
@@ -275,7 +275,7 @@ Anki を使っている PC のシステムを更新した時
 <p>アドオンの作者に直接的な原因はありませんが、正常動作のためにはアドオンの修正が必要になる場合があります。
 このため、作者に常に自分のアドオンの動作に関心を持ってもらうことが継続利用に大切なのです。
 一人の作者の複数のアドオンで同時に問題が発生した場合、評価の高いアドオンから修正作業を行う事例も見受けられました。</p>
-<h2 id="アドオンにフィードバックするには">アドオンにフィードバックするには</h2>
+<h3 id="アドオンにフィードバックするには">アドオンにフィードバックするには</h3>
 <p>AnkiWeb にサインインすると当該アドオンのページでレイティングやコメントをつけることができます。
 レイティングを記録する場所は、アドオンの個別メージの右上にあります。☆ をクリックすると評価を保存します。</p>
 <div class="imageblock">
@@ -311,7 +311,7 @@ Anki を使っている PC のシステムを更新した時
 </section>
 <section id="まとめ">
   <div class="page-header">
-    <h1>まとめ</h1>
+    <h2>まとめ</h2>
   </div>
 <p>Anki の機能をもうすこし変えれば自分のやりたいことに一致するのにと思ったことはありませんか。
 自分と同じことを考えている人が世の中にいて、共有のアドオンを公開してくれたりします。</p>
@@ -321,7 +321,7 @@ Anki を使っている PC のシステムを更新した時
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2014/04/14: 初出</p>
 <p>2014/04/26: 追加: Hierarchical Tags</p>

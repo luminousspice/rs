@@ -13,14 +13,14 @@ excerpt: "HTML5 Video の機能を使って、Anki に埋め込んだ動画の�
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている <a href="/mplayer-shortcut-for-anki-video/">MPlayer のショートカット</a>を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。</p>
 <p>こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。</p>
 </section>
 <section id="注意事項">
   <div class="page-header">
-    <h1>注意事項</h1>
+    <h2>注意事項</h2>
   </div>
 <p>この記事は、Anki のサポート対象外の機能について説明しています。</p>
 <p>たとえば、Anki サポートフォーラムの記事 <a target="_new" href="https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos">Can I embed Youtube videos?</a> 、<a target="_new" href="https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags">Embedding external websites with iframe or object html tags</a>によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。</p>
@@ -29,7 +29,7 @@ excerpt: "HTML5 Video の機能を使って、Anki に埋め込んだ動画の�
 </section>
 <section id="html5_の記述">
   <div class="page-header">
-    <h1>HTML5 の記述</h1>
+    <h2>HTML5 の記述</h2>
   </div>
 <p>一番シンプルな書き方は、Anki のメディアフォルダに <code>myvideo.mp4</code> という動画を表示するなら、次のような HTML の記述をノートに書き込みます。<code>controls</code> 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。<code>src</code> 属性は、http サーバー上にあるコンテンツを指定しても動作します。</p>
 <div class="listingblock">
@@ -39,7 +39,7 @@ excerpt: "HTML5 Video の機能を使って、Anki に埋め込んだ動画の�
 </section>
 <section id="コードの入力">
   <div class="page-header">
-    <h1>コードの入力</h1>
+    <h2>コードの入力</h2>
   </div>
 <p>HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。</p>
 <div class="imageblock">
@@ -58,7 +58,7 @@ excerpt: "HTML5 Video の機能を使って、Anki に埋め込んだ動画の�
 </section>
 <section id="音声の埋め込み">
   <div class="page-header">
-    <h1>音声の埋め込み</h1>
+    <h2>音声の埋め込み</h2>
   </div>
 <p>なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
 この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。</p>
@@ -69,7 +69,7 @@ excerpt: "HTML5 Video の機能を使って、Anki に埋め込んだ動画の�
 </section>
 <section id="iphone_との連携">
   <div class="page-header">
-    <h1>iPhone との連携</h1>
+    <h2>iPhone との連携</h2>
   </div>
 <p>なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。</p>
 <p>また、iPhone から HTML5 のコードを直接入力しても動作します。</p>
@@ -90,13 +90,13 @@ excerpt: "HTML5 Video の機能を使って、Anki に埋め込んだ動画の�
 </section>
 <section id="同期の注意点">
   <div class="page-header">
-    <h1>同期の注意点</h1>
+    <h2>同期の注意点</h2>
   </div>
 <p>この記事では触れませんでしたが、フィールドではなくテンプレートに HTML5 のコードを直接書き込んでいる場合、iTunes および AnkiWeb 経由ともにメディアファイルの同期が行われません。この場合は、別途メディアファイルを持ち込む操作が必要になります。</p>
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。</p>
 <p>Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。

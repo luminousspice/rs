@@ -14,14 +14,14 @@ excerpt: "AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>AnkiWeb を活用すると複数の機器にまたがって学習を継続できます。コレクションデータをコピーする方法では、コピー先の機器の学習履歴が上書きされてしまいますが、AnkiWeb を経由すると、別々の機器で学習したデータの差分を統合することができます。</p>
 <p>このサービスを使うには、AnkiWeb でのアカウント作成と、アクセスする機器からの設定が必要になります。それぞれの方法を順を追って解説します。</p>
 </section>
 <section id="登録の方法">
   <div class="page-header">
-    <h1>登録の方法</h1>
+    <h2>登録の方法</h2>
   </div>
 <p><a target="_new" href="https://ankiweb.net/">AnkiWeb</a> への登録は全ての機器で共通の作業です。</p>
 <p>まず、ウェブブラウサーを使って <a target="_new" href="https://ankiweb.net/">AnkiWeb</a>へアクセスし、右上の [Sign Up]ボタンを押します。</p>
@@ -53,10 +53,10 @@ excerpt: "AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、
 </section>
 <section id="クライアントの設定">
   <div class="page-header">
-    <h1>クライアントの設定</h1>
+    <h2>クライアントの設定</h2>
   </div>
 <p>お使いになっている Anki アプリケーションから、AnkiWeb へ同期アクセスする設定を説明します。</p>
-<h2 id="デスクトップ版の場合">デスクトップ版の場合</h2>
+<h3 id="デスクトップ版の場合">デスクトップ版の場合</h3>
 <p>デスクトップ版 Anki の場合は、画面右上の循環する矢印のボタンを押す (ショートカット Y) と、AnkiWeb で作成したアカウントを入力する画面が現れます。
 先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。</p>
 <div class="imageblock">
@@ -67,7 +67,7 @@ excerpt: "AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、
 </div>
 <p>同期の際には、登録情報を使用してアクセスするので、同期の度にアカウント情報を入力することはありません。
 次に、アカウント情報を解除するなど同期機能の詳細設定を説明しましょう。</p>
-<h3>同期機能の設定</h3>
+<h4>同期機能の設定</h4>
 <p>同期機能の設定画面は、環境設定の中にあります。
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。</p>
 <div class="imageblock">
@@ -84,12 +84,12 @@ excerpt: "AnkiWeb は、デスクトップ PC (OS X, Windows, Linux)、iPhone、
 [次回の同期は、一方向に変更を強制実行する] を有効にすると、次回の同期は差分のアップデートではなく、サーバー側かクライアント側の情報のどちらかに上書きします。
 </li>
 </ul>
-<h3>アカウント情報の解除</h3>
+<h4>アカウント情報の解除</h4>
 <p>AnkiWeb のアカウントが登録済みの場合は、[認証解除] ボタンと登録メールアドレスを表示します。
 登録済みのアカウント情報を取り消すには、[認証解除] ボタンを押します。</p>
-<h3>同期してみる</h3>
+<h4>同期してみる</h4>
 <p>環境設定ウィンドウを閉じて、メインウィンドウ画面右上の循環する矢印のボタンを押す (ショートカット Y) と同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。</p>
-<h2 id="ios_アプリ_の場合">iOS アプリ の場合</h2>
+<h3 id="ios_アプリ_の場合">iOS アプリ の場合</h3>
 <p>iPhone などで iOS アプリ AnkiMobile Flashcards を使っている場合、
 AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。</p>
 <div class="imageblock">
@@ -105,7 +105,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 </div>
 <div class="title">図 7. AnkiMobile 上でのアカウント設定画面</div>
 </div>
-<h3>同期機能の設定</h3>
+<h4>同期機能の設定</h4>
 <p>同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。</p>
 <div class="imageblock">
 <div class="content">
@@ -138,12 +138,12 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 </div>
 <div class="title">図 10. AnkiMobile 同期設定</div>
 </div>
-<h3>アカウント情報の解除</h3>
+<h4>アカウント情報の解除</h4>
 <p>AnkiWeb のアカウントが登録済みの場合は、[Deauth] ボタンと登録メールアドレスを表示します。
 登録済みのアカウント情報を取り消すには、[Deauth] ボタンをタップします。</p>
-<h3>同期してみる</h3>
+<h4>同期してみる</h4>
 <p>メインスクリーンまで戻り、右下の [Synchronize] ボタンをタップすると同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。</p>
-<h2 id="android_アプリの場合">Android アプリの場合</h2>
+<h3 id="android_アプリの場合">Android アプリの場合</h3>
 <p>バージョン毎にユーザーインターフェイスに違いがありますが、現時点での最新安定板 AnkiDroid 2.2.3 を例に説明します。
 AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の循環する矢印ボタンをタップします。</p>
 <div class="imageblock">
@@ -163,10 +163,10 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 </section>
 <section id="制限事項">
   <div class="page-header">
-    <h1>制限事項</h1>
+    <h2>制限事項</h2>
   </div>
 <p>AnkiWeb には、ファイル容量と同時アクセス数に制限があります。通常の使い方をすれば、問題とならない制限です。</p>
-<h2 id="容量制限">容量制限</h2>
+<h3 id="容量制限">容量制限</h3>
 <ul>
 <li>
 コレクションファイル全体 100MB
@@ -180,12 +180,12 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 </ul>
 <p>メディアファイルは、容量全体の制限はありませんが、ファイル毎に制限を設定しています。</p>
 <p>参考資料 Anki サポート Knowledge Base <a target="_new" href="https://anki.tenderapp.com/kb/anki-ecosystem/are-there-limits-on-file-sizes-on-ankiweb">Are there limits on file sizes on AnkiWeb?</a></p>
-<h2 id="アクセス数制限">アクセス数制限</h2>
+<h3 id="アクセス数制限">アクセス数制限</h3>
 <p>一アカウント当たり、同時に一つの機器からしかアクセスできません。</p>
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
 呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。</p>
@@ -194,7 +194,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2014/08/31: 初出</p>
 <p>2014/11/26: 追加: 制限事項</p>
