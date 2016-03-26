@@ -1,0 +1,42 @@
+<!-- Add toc on #id element generating from h2 headings -->
+<script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      //toc list container
+  var widget = document.querySelector('.toc');   //nav
+  var pre1 = document.querySelector('.sect1');   //replace at the end of preamble
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="{{ .Permalink }}#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>

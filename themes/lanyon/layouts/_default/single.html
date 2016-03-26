@@ -1,11 +1,14 @@
 {{ partial "header.html" . }}
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">{{ .Title }}</h1>
   <span class="post-date"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format .Site.Params.DateForm }}</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   {{ .Content }}
-  </article>
+  </div>
   <aside class="reference">
   {{ partial "series.html" . }}
   {{ partial "ankimobile.html" . }}

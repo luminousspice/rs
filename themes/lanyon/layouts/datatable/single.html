@@ -1,12 +1,10 @@
 {{ partial "header.html" . }}
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">{{ .Title }}</h1>
   <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
 	<noscript><p class="notice">注意: このページの検索機能に JavaScript を使用しています。</p></noscript>
   {{ .Content }}
-  </article>
 </div>
 
       </div><!-- wrap -->
@@ -23,7 +21,7 @@
 <script type="text/javascript" src="/js/datatables-fix.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/datatables-fix.css">
 <script src="/assets/js/jquery.get-word-by-event.js"></script>
-{{ template "_internal/google_analytics.html" . }}
+{{ partial "js.html" . }}
 
   </body>
 </html>
