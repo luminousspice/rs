@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;日本語の共有単語帳を見つけやすく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;日本語の共有単語帳を見つけやすく&lt;/h1&gt;
+    &lt;h2&gt;日本語の共有単語帳を見つけやすく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;AnkiWeb に登録されている単語帳一覧&lt;/a&gt;は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳検索&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;table id=&#34;decklist&#34; class=&#34;display&#34; frame=&#34;hsides&#34;&gt; 
 &lt;colgroup&gt;
@@ -878,7 +878,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+&lt;h3 id=&#34;使い方&#34;&gt;使い方&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 右上検索欄にキーワードを入力すると、情報を絞り込みます。
@@ -896,7 +896,7 @@
 上部のドロップダウンから一度に表示する項目数を選択できます。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
@@ -908,7 +908,7 @@
 外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 共有単語帳の使い方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;をご覧下さい。
@@ -923,11 +923,11 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳への検索リンク集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳への検索リンク集&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳への検索リンク集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
 日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
@@ -936,7 +936,7 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;言語&#34;&gt;言語&lt;/h2&gt;
+&lt;h3 id=&#34;言語&#34;&gt;言語&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1055,7 +1055,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;人文社会&#34;&gt;人文社会&lt;/h2&gt;
+&lt;h3 id=&#34;人文社会&#34;&gt;人文社会&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1138,7 +1138,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;科学技術&#34;&gt;科学技術&lt;/h2&gt;
+&lt;h3 id=&#34;科学技術&#34;&gt;科学技術&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1228,7 +1228,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2015/02/17: 初出&lt;/p&gt;
 &lt;p&gt;2015/02/26: 追加: 人文社会、科学技術&lt;/p&gt;
@@ -1246,12 +1246,12 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
       <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
       <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;この単語帳の内容&lt;/h1&gt;
+    &lt;h2&gt;この単語帳の内容&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。&lt;/p&gt;
 &lt;p&gt;SlideShareに公開のスライド &lt;a href=&#34;http://www.slideshare.net/yuichikuroki/ss-33566632&#34; target=&#34;_new&#34;&gt;救急診療に役立つ暗記メモ集の内容&lt;/a&gt;を学習するための空欄補充問題で構成しています。作者のYuichi Kuroki様から承諾を頂いた上で作成しました。&lt;/p&gt;
 &lt;p&gt;表紙を除いた 45 枚のスライドを元に問題設定した設定した303枚のカードを収録しています。&lt;/p&gt;
-&lt;h2 id=&#34;内容についての注意点&#34;&gt;内容についての注意点&lt;/h2&gt;
+&lt;h3 id=&#34;内容についての注意点&#34;&gt;内容についての注意点&lt;/h3&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -1267,7 +1267,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;単語帳内容のプレビュー&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳内容のプレビュー&lt;/h1&gt;
+    &lt;h2&gt;単語帳内容のプレビュー&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳に収録しているカード全ての内容をスライドショー形式でご覧いただけます。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -1275,7 +1275,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;単語帳ダウンロード&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳ダウンロード&lt;/h1&gt;
+    &lt;h2&gt;単語帳ダウンロード&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この単語帳は、AnkiWeb上の共有単語帳ページからダウンロードいただけます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34; target=&#34;_new&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-share-alt icon-white&#34;&gt;&lt;/i&gt; AnkiWeb 共有単語帳ダウンロードサイト&lt;/a&gt;&lt;/p&gt;
@@ -1283,20 +1283,20 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;使用上の注意&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;使用上の注意&lt;/h1&gt;
+    &lt;h2&gt;使用上の注意&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h2&gt;
+&lt;h3 id=&#34;元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h3&gt;
 &lt;p&gt;Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。&lt;/p&gt;
 &lt;p&gt;ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
 単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。&lt;/p&gt;
 &lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;anki_をインストールせずに使いたい方へ&#34;&gt;Anki をインストールせずに使いたい方へ&lt;/h2&gt;
+&lt;h3 id=&#34;anki_をインストールせずに使いたい方へ&#34;&gt;Anki をインストールせずに使いたい方へ&lt;/h3&gt;
 &lt;p&gt;上に表示しているスライドショー形式のプレビューをお使いください。全てのカードをランダムに表示しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この&lt;a href=&#34;http://www.slideshare.net/yuichikuroki/ss-33566632&#34; target=&#34;_new&#34;&gt;救急診療に役立つ暗記メモ集の内容&lt;/a&gt;というスライドを最初に読んだ時に、題名は忘れてしまったのですが、意思決定に関する書籍に書いてあったエピソードを思い出しました。ある米国の医師が元のスライドにある様な MNEMONICSや指標を活用していて、それは非常に精度が高く、適切な意思決定を行うのに大切にしているというものでした。&lt;/p&gt;
 &lt;p&gt;これまで公開されてきた Anki の利用例は、上級学校への進学や資格取得のために外国語学習(特に英語)などの学習に関するものがほとんどです。学習教材も内容が固定した既成の教科書や参考書が多いようです。これが作者の想定内の使い方だと思います。&lt;/p&gt;
@@ -1306,7 +1306,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/04/21: 初出&lt;/p&gt;
 &lt;p&gt;2015/11/20: 共有単語帳リンク先変更&lt;/p&gt;

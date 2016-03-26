@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">Ankiにデータをまとめて取り込む</h1>
   <span class="post-date"><time datetime="2013-04-20T09:00:02Z">2013-04-20</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p><strong>連載: Ankiの使い方 〜覚えるために忘れろ〜 第2回</strong></p>
 <p>Ankiを使っている人なら知っている使い方をあえて紹介する連載の2回目は、学習教材の一括登録です。前回は、暗記したい項目に出会う度に登録する使い方を取り上げましたが、今回はまとまったリストを暗記教材として登録する方法を紹介します。</p>
@@ -336,7 +339,7 @@ actuallyという単語を選択した状態で、下のタグ欄に"Grade5"と�
 <p>2014/09/21: 再構成、ファイル読み込みの手順を更新</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
 <section id="連載_ankiの使い方_覚えるために忘れろ">
@@ -389,6 +392,49 @@ actuallyという単語を選択した状態で、下のタグ欄に"Grade5"と�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/how-to-import\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -397,6 +443,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

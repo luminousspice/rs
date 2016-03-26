@@ -89,15 +89,18 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">ためた Anki 復習カードをスライスして消化</h1>
   <span class="post-date"><time datetime="2014-09-07T23:45:40Z">2014-09-07</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。</p>
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>復習カードのバックログを抱えたときに一番注意すべきことは、慌てて一気に解消しないことです。
 一気にバックログの解消を図ると、量の多さから復習セッション途中で断念したり、
@@ -111,7 +114,7 @@
 </section>
 <section id="最適な学習セッション">
   <div class="page-header">
-    <h1>最適な学習セッション</h1>
+    <h2>最適な学習セッション</h2>
   </div>
 <p>無理なく集中して Anki で復習できる一回のセッション時間を自覚できていますか。
 十分な学習履歴があれば、統計情報を手がかりに調べることができます。
@@ -129,7 +132,7 @@
 </section>
 <section id="バックログ解消の方針">
   <div class="page-header">
-    <h1>バックログ解消の方針</h1>
+    <h2>バックログ解消の方針</h2>
   </div>
 <p>バックログ解消までの一時的に次のような手順で学習します。</p>
 <div class="ulist"><ul>
@@ -154,7 +157,7 @@
 </p>
 </li>
 </ul></div>
-<h2 id="バックログの隔離手順">バックログの隔離手順</h2>
+<h3 id="バックログの隔離手順">バックログの隔離手順</h3>
 <p>バックログの隔離に<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳</a>を使います。
 次のように設定します。</p>
 <div class="ulist"><ul>
@@ -187,7 +190,7 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 </section>
 <section id="バックログ隔離後の毎日の学習">
   <div class="page-header">
-    <h1>バックログ隔離後の毎日の学習</h1>
+    <h2>バックログ隔離後の毎日の学習</h2>
   </div>
 <p>残った本来の単語帳の復習に注力します。再び Anki を毎日学習することに慣れましょう。
 毎日の学習ルーチンが確立したところで、余裕ができたら隔離単語帳に手を付けます。
@@ -195,14 +198,14 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 </section>
 <section id="隔離単語帳の使い方">
   <div class="page-header">
-    <h1>隔離単語帳の使い方</h1>
+    <h2>隔離単語帳の使い方</h2>
   </div>
 <p>通常の単語帳の学習が終わって、余裕がある場合だけ一日一つ学習します。</p>
 <p>普通の単語帳と同じように使います。最適なセッションになるよう分割したので、一度で確実に終了できると思います。
 この単語帳を学習すると、それぞれのカードは次回の復習期日を設定した上で、元の単語帳に戻ります。
 一回セッションを終了すると空になります。使用済みなので削除して構いません。</p>
 <p>隔離用フィルター単語帳すべてを復習したところでバックログは解消です。</p>
-<h2 id="隔離単語帳の注意点">隔離単語帳の注意点</h2>
+<h3 id="隔離単語帳の注意点">隔離単語帳の注意点</h3>
 <p>この隔離単語帳を復習する毎に元の単語帳の復習枚数に加算されます。
 毎日隔離単語帳を復習すると、復習カードが積み上ってサイドバックログが発生する危険が生じます。
 例えば、100 枚のカードを復習して正解率 30% なら、翌日の復習カードに 70 枚加算です。</p>
@@ -210,14 +213,14 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>Anki の使用経験が長ければ統計情報を利用して、自分の最適が学習条件を求めることができます。
 仮に何らかの障害で一時期学習が続けられなくなって、バックログがたまると全ての履歴を初期化したくなるかもしれません。
 実は、過去の履歴を活用することで元の学習状態にいち早く復帰できるのです。</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
 <section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
@@ -262,6 +265,49 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/cutting-up-your-anki-backlog\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -270,6 +316,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

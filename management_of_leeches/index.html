@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">無駄なカード(Leech)になってもAnki学習を続ける方法</h1>
   <span class="post-date"><time datetime="2013-07-13T23:45:22Z">2013-07-13</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <p><h2 id="無駄なカード_leech_とは" class="section">無駄なカード(Leech)とは</h2>
 <div class="paragraph"><p>無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。</p></div>
 <div class="paragraph"><p>無駄なカードの詳細については、Anki日本語マニュアルの<a href="http://wikiwiki.jp/rage2050/?2.0%2FLeeches">無駄カード (Leeches)</a>をご覧ください。</p></div>
@@ -180,7 +183,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 </div>
 <div class="paragraph"><p>フィルター単語帳の詳しい使い方については、<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>をご覧ください。</p></div></p>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -198,6 +201,49 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/management_of_leeches\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -206,6 +252,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

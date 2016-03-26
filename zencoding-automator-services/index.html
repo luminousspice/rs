@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">Zencoding Automator Services</h1>
   <span class="post-date"><time datetime="2012-08-06T20:49:29Z">2012-08-06</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <p>Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。</p>
 <p><a href="http://rs.luminousspice.com/zen-coding-with-mi/">前回の記事</a>のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。</p>
 
@@ -137,7 +140,7 @@
 <p><h2>ありがとう</h2>
 Perl実装した<a href="http://www.otchy.net/">Otchyさん</a>、ありがとうございます。たったPerl7行でやりたいことが出来てしまった。</p>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -155,6 +158,49 @@ Perl実装した<a href="http://www.otchy.net/">Otchyさん</a>、ありがと�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/zencoding-automator-services\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -163,6 +209,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

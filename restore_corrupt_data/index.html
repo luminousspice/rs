@@ -89,16 +89,19 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">破損したAnkiデータの修復</h1>
   <span class="post-date"><time datetime="2013-07-06T21:00:07Z">2013-07-06</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。起動後に大量のデータ更新を行ったりして、自動バックアップからの復元では対応できない場合の手順を説明します。</p>
 <p>注意: この作業はデスクトップPC上でのみ作業が可能です。また、コマンドラインツールの操作が必要となります。なお、モバイル機器での作業は対象外です。</p>
 </section>
 <section id="コレクションデータの破損と確認">
   <div class="page-header">
-    <h1>コレクションデータの破損と確認</h1>
+    <h2>コレクションデータの破損と確認</h2>
   </div>
 <p></p>
 <p>メニューバーから[ツール]&gt;[データベースをチェック]を実行すると、データが破損していないか確認できます。</p>
@@ -109,7 +112,7 @@
 </section>
 <section id="修復作業の準備">
   <div class="page-header">
-    <h1>修復作業の準備</h1>
+    <h2>修復作業の準備</h2>
   </div>
 <ol>
 <li>
@@ -142,10 +145,10 @@ Windowsの場合は、<a href="http://www.sqlite.org/download.html" target="_new
 </section>
 <section id="コレクションファイルのダンプ">
   <div class="page-header">
-    <h1>コレクションファイルのダンプ</h1>
+    <h2>コレクションファイルのダンプ</h2>
   </div>
 <p>SQLite3のコマンドラインシェルを使って、コレクションのダンプファイルを作ります。作業に使用するプラットフォームによって手順が異なりますのでご注意ください。</p>
-<h2 id="mac_os_x_または_linuxの場合">Mac OS X または Linuxの場合</h2>
+<h3 id="mac_os_x_または_linuxの場合">Mac OS X または Linuxの場合</h3>
 <p>ターミナルを開き、Ankiフォルダーの中のプロファイルフォルダーに移動して次のコマンドを実行します。</p>
 <pre>sqlite3 collection.anki2 .dump &gt; dump.txt</pre>
 <p>生成したファイル <code>dump.txt</code> をテキストエディタで開きます。
@@ -153,7 +156,7 @@ Windowsの場合は、<a href="http://www.sqlite.org/download.html" target="_new
 <p>さらに、ターミナルで次のコマンドを実行します。</p>
 <pre>cat dump.txt | sqlite3 temp.file</pre>
 <p>注意: コレクションファイルを上書きせず、必ず <code>temp.file</code> とテンポラリーファイルを指定してください。</p>
-<h2 id="windowsの場合">Windowsの場合</h2>
+<h3 id="windowsの場合">Windowsの場合</h3>
 <ol>
 <li>
 ダウンロードしたSqliteファイルを解凍すると、<code>sqlite3.exe</code> が生成します。これをAnkiフォルダーの中のプロファイルフォルダーにコピーします。
@@ -172,7 +175,7 @@ Windowsの場合は、<a href="http://www.sqlite.org/download.html" target="_new
 </section>
 <section id="ankiに読み込む">
   <div class="page-header">
-    <h1>Ankiに読み込む</h1>
+    <h2>Ankiに読み込む</h2>
   </div>
 <ol>
 <li>
@@ -189,13 +192,13 @@ Ankiを起動し、ツールバーから[ツール]&gt;[データベースをチ
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2013/10/16: Anki 2.0.14のリリースと同時に行われた<a href="http://ankisrs.net/docs/manual.html#corrupt-collections" target="_new">マニュアル</a>の変更に基づいて、内容を更新しました。</p>
 <p>2013/7/6: 初出</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -213,6 +216,49 @@ Ankiを起動し、ツールバーから[ツール]&gt;[データベースをチ
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/restore_corrupt_data\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -221,6 +267,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

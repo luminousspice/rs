@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最近の外国語の音源付き書籍には、音声データを一分以内に分割して、本文の説明もオーディオブックのように収録しているものもあり重宝しています。ただ残念なことに、データを音楽プレイヤーで苦手なデータだけを繰り返し聴けないことが不自由でした。
 毎日音楽プレイヤーを持ち歩いて復習する時、最初から再生すると、先頭のデータに再生頻度が集中するし、ランダムに再生すると、まだ学習していないデータを先に聞かなければなりません。自分の進度に合わせて少しずつ足していくのも面倒です。
@@ -34,7 +34,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;音声データの取り込み方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声データの取り込み方&lt;/h1&gt;
+    &lt;h2&gt;音声データの取り込み方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;書籍に付属している CD データや専用ダウンロードデータは、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; というアドオンを使うと一括で Anki に登録できます。
 このアドオンは、音楽データを保存しているディレクトリと、埋め込むフィールドを指定すれば、自動的にカードを作ってくれます。&lt;/p&gt;
@@ -65,14 +65,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;学習の進め方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習の進め方&lt;/h1&gt;
+    &lt;h2&gt;学習の進め方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;教材の理解は書籍を読んで行った上で、その理解を Anki で繰り返し復習します。
 実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
-&lt;h2 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h2&gt;
+&lt;h3 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h3&gt;
 &lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
 毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h2&gt;
+&lt;h3 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h3&gt;
 &lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
 何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
 &lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
@@ -87,7 +87,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は Anki の固定観念から外れた使い方を試しているうちに生まれたものです。&lt;/p&gt;
 &lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
@@ -146,7 +146,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;このアドオンガイドを使う前に&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;このアドオンガイドを使う前に&lt;/h1&gt;
+    &lt;h2&gt;このアドオンガイドを使う前に&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;では、Anki の共有アドオンの取得、インストール、削除など基本的な説明しています。もし、まだアドオンを使ったことがない方はそちらも参考にしてみてください。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki のアドオンは、PC (Desktop) 版でのみ動作します。Ankimoblie (iOS) や AnkiDroid (Android) では動作しません。&lt;/p&gt;
@@ -154,7 +154,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;かゆいところに手が届くアドオンたち&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;かゆいところに手が届くアドオンたち&lt;/h1&gt;
+    &lt;h2&gt;かゆいところに手が届くアドオンたち&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;小さいけどあると絶対に手放せないニッチなアドオンたち。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -163,15 +163,15 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. かゆいところに手が届くアドオンたち&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1867966335_bigger_show_answer_button_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1867966335&#34;&gt;Bigger Show Answer Button&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1867966335_bigger_show_answer_button_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1867966335&#34;&gt;Bigger Show Answer Button&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;単に [解答を表示] ボタンが横長になっただけなのですが、非常に便利です。(図 1 の 1)&lt;/p&gt;
 &lt;p&gt;実のところ自分でつくろうかと思っていたので、同じことを考えている人は世の中にいるんだなと感心しました。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_498789867_replay_buttons_on_card_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/498789867&#34;&gt;Replay buttons on card&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_498789867_replay_buttons_on_card_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/498789867&#34;&gt;Replay buttons on card&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;音声ファイルが表示フィールドに含まれていると、再生ボタンを表示してくれます。こちらも地味に便利です。(図 1 の 2)&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_234253523_audio_playback_speed_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/234253523&#34;&gt;Audio Playback Speed&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_234253523_audio_playback_speed_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/234253523&#34;&gt;Audio Playback Speed&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;音声を再生速度を落として再生し直すショートカットキーを設定します。
 [5]: 50%, [6]: 60%, &amp;#8230; [9]: 90%, [0]: 100% で再生します。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1908633307_sound_volume_control_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1908633307&#34;&gt;Sound volume control.&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1908633307_sound_volume_control_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1908633307&#34;&gt;Sound volume control.&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;音声ファイルの音量制御のショートカットキーを設定します。(Command/Ctrl++, Command/Ctrl+-)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -182,16 +182,16 @@
 &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;動画再生のショートカットキー&lt;/a&gt;は標準で用意されています。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1956318463_zoom_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1956318463&#34;&gt;Zoom&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1956318463_zoom_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1956318463&#34;&gt;Zoom&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;学習画面の文字サイズをキーボードショートカットで拡大縮小できるようになります。(Command/Ctrl++, Command/Ctrl+-)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 入手できなくなった View Size Adjust と同じ機能を持つアドオンです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;学習管理に役立つアドオンたち&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習管理に役立つアドオンたち&lt;/h1&gt;
+    &lt;h2&gt;学習管理に役立つアドオンたち&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;学習の進捗管理に役立つアドオンです。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_3179425861_new_and_max_cards_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3179425861&#34;&gt;New and max cards&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_3179425861_new_and_max_cards_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3179425861&#34;&gt;New and max cards&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;これも地味なアドオンですが、単語帳のオプショングループのうち、新規と復習の学習条件を一望できます。
 影響を受ける親単語帳の設定が横に表示される点が便利です。&lt;/p&gt;
 &lt;p&gt;メニューバーから [ツール] - [New/Max Cards Configuration] を開くと設定ウィンドウが開きます。&lt;/p&gt;
@@ -201,7 +201,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. New/Max Cards 設定画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1417170896_load_balancer_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1417170896&#34;&gt;load balancer&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1417170896_load_balancer_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1417170896&#34;&gt;load balancer&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;復習期日のピークをならしてくれます。
 復習をさぼってたくさんのカードを抱えた人限定でおすすめです。
 統計情報に難易度の予測項目 (Difficulty Forecast) が追加されます。&lt;/p&gt;
@@ -212,7 +212,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. load balancer 設定画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1147586609_maturing_cards_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1147586609&#34;&gt;Maturing Cards&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1147586609_maturing_cards_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1147586609&#34;&gt;Maturing Cards&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;成熟したカードの枚数の履歴を統計情報の一番最後に表示してくれる。学習の進捗状況を見る一つの指標として使っています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -220,7 +220,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. Maturing Cards&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_763339789_progress_graph_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/763339789&#34;&gt;Progress graph&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_763339789_progress_graph_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/763339789&#34;&gt;Progress graph&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Maturing Cards とは反対にどれだけのカードを学習し始めたのか表示してくれます。
 熟知したカードの枚数にどうしても目が行きがちがちですが、安定して新規追加できているか確認することが出来ます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -229,7 +229,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. Progress graph&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1999018922_separate_learn_and_relearn_in_the_answer_buttons_graph_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1999018922&#34;&gt;Separate Learn and Relearn in the Answer Buttons graph&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1999018922_separate_learn_and_relearn_in_the_answer_buttons_graph_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1999018922&#34;&gt;Separate Learn and Relearn in the Answer Buttons graph&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;このアドオンは、統計情報のボタンの選択状況から、新規カードの学習と復習カードの再学習の結果を分離します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -240,10 +240,10 @@
 &lt;/section&gt;
 &lt;section id=&#34;教材作成に役立つアドオン&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;教材作成に役立つアドオン&lt;/h1&gt;
+    &lt;h2&gt;教材作成に役立つアドオン&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;凝った教材をつくる場合や、大量に教材をつくる時に役立つアドオンを紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_301952613_awesometts_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_301952613_awesometts_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Text to Speech機能を追加するアドオンです。MP3データを作成しなくても、文字を読み上げてくれます。MacOS Xの読み上げ機能(say コマンド)、SAPI5、GoogleTTSに対応しています。事前に読み上げたファイルを保存しておくことも可能です。&lt;/p&gt;
 &lt;p&gt;さらに指定したノートのフィールドから一括してテキストを読み込んで、音声ファイルを自動生成してフィールドに書き込んでくれる AwesomeTTS MP3 Mass Generator という機能も含まれています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -254,7 +254,7 @@
 &lt;/div&gt;
 &lt;p&gt;カードテンプレートを編集してAwesomeTTSを機能させる方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で、音声ファイルの自動生成については&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;p&gt;機能の詳しい内容は、&lt;a target=&#34;_new&#34; href=&#34;https://ankiatts.appspot.com/&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_3100585138_download_audio_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3100585138&#34;&gt;Download audio&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_3100585138_download_audio_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/3100585138&#34;&gt;Download audio&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;オンライン辞書などで公開している音声データを検索してダウンロードするアドオンです。&lt;/p&gt;
 &lt;p&gt;このアドオンを動作させるには、ノートに Audio という名前のフィールドを追加するか、ノートタイプ [Standard with audio fields] あるいは [Japanese with audio fields] を指定することが必要です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -264,7 +264,7 @@
 &lt;div class=&#34;title&#34;&gt;図 8. Download audio&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;このアドオンを詳細に設定するための、&lt;a target=&#34;_new&#34; href=&#34;http://ospalh.github.io/anki-addons/Download%20audio.html&#34;&gt;マニュアル&lt;/a&gt;も用意されています。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1531997860_media_import_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1531997860_media_import_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;指定したフォルダの中にあるメディアファイルからノートを書き起こしてくれるアドオン。
 大量のメディアデータから教材を作成する時に非常に役立ちます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -274,11 +274,11 @@
 &lt;div class=&#34;title&#34;&gt;図 9. Media Import の処理完了&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;このアドオン Media Import の簡単な利用例を&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;で紹介しています。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_2006541756_image_occlusion_2_0_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/2006541756&#34;&gt;Image Occlusion 2.0&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_2006541756_image_occlusion_2_0_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/2006541756&#34;&gt;Image Occlusion 2.0&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;暗記ペンを Anki 上で実現するアドオン。
 地図、解剖図、反応回路図などのキャプションの一部をマスクして出題できます。&lt;/p&gt;
 &lt;p&gt;詳しい設定は&lt;a target=&#34;_new&#34; href=&#34;http://tmbb.bitbucket.org/image-occlusion-2/index.html&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_162313389_power_format_pack_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/162313389&#34;&gt;Power format pack&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_162313389_power_format_pack_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/162313389&#34;&gt;Power format pack&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;ノートエディタで指定できる書式を強化するアドオンです。
 ツールバーボタンから表やリスト、コードブロック、取り消し線、罫線などが利用できます。Markdown を使ったノートの書式設定も可能です。&lt;/p&gt;
 &lt;p&gt;ツールバーボタンの表示は、メニューバー [ツール] - [Supplementary buttons add-on (options)] - [Button options] から設定できます。&lt;/p&gt;
@@ -291,10 +291,10 @@
 &lt;/section&gt;
 &lt;section id=&#34;教材管理に役立つアドオン&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;教材管理に役立つアドオン&lt;/h1&gt;
+    &lt;h2&gt;教材管理に役立つアドオン&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;登録ノートの件数が増えてくると威力を発揮するアドオンたちです。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_46837454_export_browser_8217_s_card_list_contents_to_csv_file_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/46837454&#34;&gt;Export Browser&amp;#8217;s card list contents to CSV file Enhanced&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_46837454_export_browser_8217_s_card_list_contents_to_csv_file_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/46837454&#34;&gt;Export Browser&amp;#8217;s card list contents to CSV file Enhanced&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;ブラウザー上で選択した内容をCSV形式で書き出してくれます。
 標準の書き出し機能より、条件を絞ってデータを書き出すことができる点が重宝します。&lt;/p&gt;
 &lt;p&gt;呼び出す手順は次の通りです。&lt;/p&gt;
@@ -313,7 +313,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. Export Browser&amp;#8217;s card list contents to CSV file Enhancedの呼び出し方&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_874215009_advanced_browser_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/874215009&#34;&gt;Advanced Browser&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_874215009_advanced_browser_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/874215009&#34;&gt;Advanced Browser&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;フィールドやタグの内容、平均解答時間など標準では表示できない項目が、カードブラウザー内に表示できるようになります。
 カード枚数が増えて、定型的な作業が増えてくると威力を発揮します。
 Anki の標準機能に盛り込んでもおかしくない機能を提供してくれます。
@@ -324,7 +324,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. Advanced Browser Back フィールドをブラウザー内に表示&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;a_href_https_ankiweb_net_shared_info_1089921461_hierarchical_tags_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1089921461&#34;&gt;Hierarchical Tags&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_ankiweb_net_shared_info_1089921461_hierarchical_tags_a&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1089921461&#34;&gt;Hierarchical Tags&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;ブラウザー内でタグを階層化表示できるようになります。ノートの分類にタグを多用している場合、ブラウザー画面が見やすく整理できます。
 階層の指定には、コロンを重ねます。&lt;/p&gt;
 &lt;pre class=&#34;prettyprint&#34;&gt;life::植物::花&lt;/pre&gt;
@@ -337,13 +337,13 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;/section&gt;
 &lt;section id=&#34;番外_ankiweb_と連携するウェブブラウザの機能拡張&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;番外: AnkiWeb と連携するウェブブラウザの機能拡張&lt;/h1&gt;
+    &lt;h2&gt;番外: AnkiWeb と連携するウェブブラウザの機能拡張&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のアドオンではありませんが、Anki と連携して機能強化するウェブブラウザの機能拡張を紹介しましょう。&lt;/p&gt;
 &lt;p&gt;ウェブブラウザの表示内容から AnkiWeb に直接書き込んで単語帳を作成できるようになります。
 同時にオンライン辞書などのオンラインリソースから訳語を調べる機能を持っています。&lt;/p&gt;
 &lt;p&gt;オンラインの文書を読んで、語彙を拾って単語帳を作っている方に役立ちます。&lt;/p&gt;
-&lt;h2 id=&#34;a_href_https_addons_mozilla_org_ja_firefox_addon_ankifox_ankifox_a_firefox&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://addons.mozilla.org/ja/firefox/addon/ankifox/&#34;&gt;AnkiFox&lt;/a&gt; (FireFox)&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_addons_mozilla_org_ja_firefox_addon_ankifox_ankifox_a_firefox&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://addons.mozilla.org/ja/firefox/addon/ankifox/&#34;&gt;AnkiFox&lt;/a&gt; (FireFox)&lt;/h3&gt;
 &lt;p&gt;FireFox 用のアドオンで、画面上で選択した文字列から AnkiWeb の単語帳に登録するものです。
 オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は3つまで登録可能です。&lt;/p&gt;
 &lt;ol&gt;
@@ -362,7 +362,7 @@ AnkiWeb にサインインした状態で、ブラウザ上で登録したい文
 &lt;/div&gt;
 &lt;p&gt;なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。&lt;/p&gt;
 &lt;pre class=&#34;prettyprint&#34;&gt;http://www.wordreference.com/enja/%s&lt;/pre&gt;
-&lt;h2 id=&#34;a_href_https_chrome_google_com_webstore_detail_anki_cards_maker_ndimepifahlacmclinikbgjndgfelipb_anki_cards_maker_a_chrome&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb&#34;&gt;Anki Cards Maker&lt;/a&gt; (Chrome)&lt;/h2&gt;
+&lt;h3 id=&#34;a_href_https_chrome_google_com_webstore_detail_anki_cards_maker_ndimepifahlacmclinikbgjndgfelipb_anki_cards_maker_a_chrome&#34;&gt;&lt;a target=&#34;_new&#34; href=&#34;https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb&#34;&gt;Anki Cards Maker&lt;/a&gt; (Chrome)&lt;/h3&gt;
 &lt;p&gt;Chrome用の機能拡張で、画面上で選択した文字列から Google 翻訳で訳語を作成し AnkiWeb の単語帳に登録するものです。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -387,7 +387,7 @@ AnkiWeb にサインインした状態で、ブラウザ上で登録したい文
 &lt;/section&gt;
 &lt;section id=&#34;アドオンを使い続けるのに必要なこと&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;アドオンを使い続けるのに必要なこと&lt;/h1&gt;
+    &lt;h2&gt;アドオンを使い続けるのに必要なこと&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;気に入って使い続けているアドオンがあれば、ぜひ AnkiWeb のダウンロードサイトでレイティングやコメントを付けてください。
 ユーザーからの反応がアドオン作者が開発を継続する意欲に繋がります。
@@ -407,7 +407,7 @@ Anki を使っている PC のシステムを更新した時
 &lt;p&gt;アドオンの作者に直接的な原因はありませんが、正常動作のためにはアドオンの修正が必要になる場合があります。
 このため、作者に常に自分のアドオンの動作に関心を持ってもらうことが継続利用に大切なのです。
 一人の作者の複数のアドオンで同時に問題が発生した場合、評価の高いアドオンから修正作業を行う事例も見受けられました。&lt;/p&gt;
-&lt;h2 id=&#34;アドオンにフィードバックするには&#34;&gt;アドオンにフィードバックするには&lt;/h2&gt;
+&lt;h3 id=&#34;アドオンにフィードバックするには&#34;&gt;アドオンにフィードバックするには&lt;/h3&gt;
 &lt;p&gt;AnkiWeb にサインインすると当該アドオンのページでレイティングやコメントをつけることができます。
 レイティングを記録する場所は、アドオンの個別メージの右上にあります。☆ をクリックすると評価を保存します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -443,7 +443,7 @@ Anki を使っている PC のシステムを更新した時
 &lt;/section&gt;
 &lt;section id=&#34;まとめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;まとめ&lt;/h1&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki の機能をもうすこし変えれば自分のやりたいことに一致するのにと思ったことはありませんか。
 自分と同じことを考えている人が世の中にいて、共有のアドオンを公開してくれたりします。&lt;/p&gt;
@@ -453,7 +453,7 @@ Anki を使っている PC のシステムを更新した時
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/04/14: 初出&lt;/p&gt;
 &lt;p&gt;2014/04/26: 追加: Hierarchical Tags&lt;/p&gt;
@@ -799,7 +799,7 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
 &lt;/section&gt;
 &lt;section id=&#34;自動同期しないで起動&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;自動同期しないで起動&lt;/h1&gt;
+    &lt;h2&gt;自動同期しないで起動&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -818,7 +818,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;アドオンを読み込まないで起動&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;アドオンを読み込まないで起動&lt;/h1&gt;
+    &lt;h2&gt;アドオンを読み込まないで起動&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;上の項目と同じようにセーブブートを使う&lt;/p&gt;
 &lt;ol&gt;
@@ -830,7 +830,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;重複カードの検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;重複カードの検索&lt;/h1&gt;
+    &lt;h2&gt;重複カードの検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -847,7 +847,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;延期の手動取消&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;延期の手動取消&lt;/h1&gt;
+    &lt;h2&gt;延期の手動取消&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -867,7 +867,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;カードの学習スケジュールを変更&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カードの学習スケジュールを変更&lt;/h1&gt;
+    &lt;h2&gt;カードの学習スケジュールを変更&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -899,7 +899,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;新規カードの並び替え&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;新規カードの並び替え&lt;/h1&gt;
+    &lt;h2&gt;新規カードの並び替え&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -919,7 +919,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;カードの内容を一括置換&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カードの内容を一括置換&lt;/h1&gt;
+    &lt;h2&gt;カードの内容を一括置換&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -948,7 +948,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;ブラウザーから未使用のタグを削除&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ブラウザーから未使用のタグを削除&lt;/h1&gt;
+    &lt;h2&gt;ブラウザーから未使用のタグを削除&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;ブラウザーのサイドバーから未使用のタグの表示を取り除くには、データベースをチェックして最適化します。&lt;/p&gt;
@@ -960,7 +960,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;ノートを追加順に学習&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ノートを追加順に学習&lt;/h1&gt;
+    &lt;h2&gt;ノートを追加順に学習&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;フィルター単語帳の出題方法を  [追加した順番] 設定する。&lt;/p&gt;
@@ -986,11 +986,11 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;無駄なカード_leech_になっても保留にしない&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;無駄なカード (leech) になっても保留にしない&lt;/h1&gt;
+    &lt;h2&gt;無駄なカード (leech) になっても保留にしない&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;単語帳オプションの [忘却] タブの [無駄なカードの処理] で設定します。&lt;/p&gt;
-&lt;h2 id=&#34;無駄なカードの自動処理の変更&#34;&gt;無駄なカードの自動処理の変更&lt;/h2&gt;
+&lt;h3 id=&#34;無駄なカードの自動処理の変更&#34;&gt;無駄なカードの自動処理の変更&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
@@ -1015,11 +1015,11 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/section&gt;
 &lt;section id=&#34;裏返しのカードを追加&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;裏返しのカードを追加&lt;/h1&gt;
+    &lt;h2&gt;裏返しのカードを追加&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;ノートタイプに表裏反転したカードタイプを追加する。&lt;/p&gt;
-&lt;h2 id=&#34;ノートタイプを既定_基本_のまま使っている場合&#34;&gt;ノートタイプを既定 [基本] のまま使っている場合&lt;/h2&gt;
+&lt;h3 id=&#34;ノートタイプを既定_基本_のまま使っている場合&#34;&gt;ノートタイプを既定 [基本] のまま使っている場合&lt;/h3&gt;
 &lt;p&gt;ノートタイプを設定したことのない方はこの場合に当てはまります。
 共有単語帳を使っている場合は当てはまらない場合があります。&lt;/p&gt;
 &lt;ol&gt;
@@ -1036,9 +1036,9 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 裏面カード付きノートタイプを設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;独自のノートタイプを使っている場合&#34;&gt;独自のノートタイプを使っている場合&lt;/h2&gt;
+&lt;h3 id=&#34;独自のノートタイプを使っている場合&#34;&gt;独自のノートタイプを使っている場合&lt;/h3&gt;
 &lt;p&gt;カードレイアウトを使って、表裏反転したカードタイプを追加します。&lt;/p&gt;
-&lt;h3 id=&#34;カードレイアウトの呼び出し方&#34;&gt;カードレイアウトの呼び出し方&lt;/h3&gt;
+&lt;h4 id=&#34;カードレイアウトの呼び出し方&#34;&gt;カードレイアウトの呼び出し方&lt;/h4&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -1056,7 +1056,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;カードレイアウト設定手順&#34;&gt;カードレイアウト設定手順&lt;/h3&gt;
+&lt;h4 id=&#34;カードレイアウト設定手順&#34;&gt;カードレイアウト設定手順&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 画面右上 [+] ボタンを押して、新規カードタイプを追加する。
@@ -1093,7 +1093,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/03/25: 初出&lt;/p&gt;
 &lt;p&gt;2014/04/17: 追加順に学習、無駄なカードを保留にしない、裏返しのカードを追加&lt;/p&gt;

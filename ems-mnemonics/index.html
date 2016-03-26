@@ -89,17 +89,20 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">Anki 単語帳: 救急診療に役立つ暗記メモ集</h1>
   <span class="post-date"><time datetime="2014-04-21T06:00:34Z">2014-04-21</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="この単語帳の内容">
   <div class="page-header">
-    <h1>この単語帳の内容</h1>
+    <h2>この単語帳の内容</h2>
   </div>
 <p>この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。</p>
 <p>SlideShareに公開のスライド <a href="http://www.slideshare.net/yuichikuroki/ss-33566632" target="_new">救急診療に役立つ暗記メモ集の内容</a>を学習するための空欄補充問題で構成しています。作者のYuichi Kuroki様から承諾を頂いた上で作成しました。</p>
 <p>表紙を除いた 45 枚のスライドを元に問題設定した設定した303枚のカードを収録しています。</p>
-<h2 id="内容についての注意点">内容についての注意点</h2>
+<h3 id="内容についての注意点">内容についての注意点</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -115,7 +118,7 @@
 </section>
 <section id="単語帳内容のプレビュー">
   <div class="page-header">
-    <h1>単語帳内容のプレビュー</h1>
+    <h2>単語帳内容のプレビュー</h2>
   </div>
 <p>単語帳に収録しているカード全ての内容をスライドショー形式でご覧いただけます。</p>
 <p></p>
@@ -123,7 +126,7 @@
 </section>
 <section id="単語帳ダウンロード">
   <div class="page-header">
-    <h1>単語帳ダウンロード</h1>
+    <h2>単語帳ダウンロード</h2>
   </div>
 <p>この単語帳は、AnkiWeb上の共有単語帳ページからダウンロードいただけます。</p>
 <p><a href="https://ankiweb.net/shared/info/697716450" target="_new" class="btn btn-large btn-primary"><i class="icon-share-alt icon-white"></i> AnkiWeb 共有単語帳ダウンロードサイト</a></p>
@@ -131,20 +134,20 @@
 </section>
 <section id="使用上の注意">
   <div class="page-header">
-    <h1>使用上の注意</h1>
+    <h2>使用上の注意</h2>
   </div>
 <p>この単語帳を利用するには、<a href="http://rs.luminousspice.com/install_anki/">Anki のインストール</a>が必要です。Anki の使い方については、<a href="http://rs.luminousspice.com/how-to-anki/">はじめてのAnki</a>で簡単に説明しています。</p>
-<h2 id="元スライドが同じカードの学習について">元スライドが同じカードの学習について</h2>
+<h3 id="元スライドが同じカードの学習について">元スライドが同じカードの学習について</h3>
 <p>Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。</p>
 <p>ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
 単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。</p>
 <p>参考: <a href="http://rs.luminousspice.com/how-to-suspend-this-card/">延期処理の詳しい説明</a></p>
-<h2 id="anki_をインストールせずに使いたい方へ">Anki をインストールせずに使いたい方へ</h2>
+<h3 id="anki_をインストールせずに使いたい方へ">Anki をインストールせずに使いたい方へ</h3>
 <p>上に表示しているスライドショー形式のプレビューをお使いください。全てのカードをランダムに表示しています。</p>
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>この<a href="http://www.slideshare.net/yuichikuroki/ss-33566632" target="_new">救急診療に役立つ暗記メモ集の内容</a>というスライドを最初に読んだ時に、題名は忘れてしまったのですが、意思決定に関する書籍に書いてあったエピソードを思い出しました。ある米国の医師が元のスライドにある様な MNEMONICSや指標を活用していて、それは非常に精度が高く、適切な意思決定を行うのに大切にしているというものでした。</p>
 <p>これまで公開されてきた Anki の利用例は、上級学校への進学や資格取得のために外国語学習(特に英語)などの学習に関するものがほとんどです。学習教材も内容が固定した既成の教科書や参考書が多いようです。これが作者の想定内の使い方だと思います。</p>
@@ -154,13 +157,13 @@
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2014/04/21: 初出</p>
 <p>2015/11/20: 共有単語帳リンク先変更</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -178,6 +181,49 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/ems-mnemonics\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -186,6 +232,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

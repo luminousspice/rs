@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;日本語の共有単語帳を見つけやすく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;日本語の共有単語帳を見つけやすく&lt;/h1&gt;
+    &lt;h2&gt;日本語の共有単語帳を見つけやすく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;AnkiWeb に登録されている単語帳一覧&lt;/a&gt;は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳検索&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;table id=&#34;decklist&#34; class=&#34;display&#34; frame=&#34;hsides&#34;&gt; 
 &lt;colgroup&gt;
@@ -878,7 +878,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+&lt;h3 id=&#34;使い方&#34;&gt;使い方&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 右上検索欄にキーワードを入力すると、情報を絞り込みます。
@@ -896,7 +896,7 @@
 上部のドロップダウンから一度に表示する項目数を選択できます。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
@@ -908,7 +908,7 @@
 外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 共有単語帳の使い方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;をご覧下さい。
@@ -923,11 +923,11 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳への検索リンク集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳への検索リンク集&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳への検索リンク集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
 日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
@@ -936,7 +936,7 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;言語&#34;&gt;言語&lt;/h2&gt;
+&lt;h3 id=&#34;言語&#34;&gt;言語&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1055,7 +1055,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;人文社会&#34;&gt;人文社会&lt;/h2&gt;
+&lt;h3 id=&#34;人文社会&#34;&gt;人文社会&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1138,7 +1138,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;科学技術&#34;&gt;科学技術&lt;/h2&gt;
+&lt;h3 id=&#34;科学技術&#34;&gt;科学技術&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1228,7 +1228,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2015/02/17: 初出&lt;/p&gt;
 &lt;p&gt;2015/02/26: 追加: 人文社会、科学技術&lt;/p&gt;
@@ -1249,7 +1249,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には、Anki ユーザーがつくった共有単語帳が分類して共有しています。
 この中に自分の学習したい分野の単語帳が見つかれば、すぐに学習を始めることが出来大変便利です。&lt;/p&gt;
@@ -1259,7 +1259,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;既成単語帳の注意点&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;既成単語帳の注意点&lt;/h1&gt;
+    &lt;h2&gt;既成単語帳の注意点&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳を自作した場合は、情報源となる書籍やノートなど理解しながら単語帳に登録しているので、
 Anki を使い始める時にはコンテンツの内容と全体像の十分理解できているはずです。
@@ -1273,13 +1273,13 @@ Anki を使い始める時にはコンテンツの内容と全体像の十分理
 場合によっては教材の質や整合性から復習の正解率も低めになって、
 結局毎日たくさんの復習カードを抱えることになります。&lt;/p&gt;
 &lt;p&gt;テキストデータを一括で読み込んだ自作単語帳も同じ状況が発生しているのではないかと思います。&lt;/p&gt;
-&lt;h2 id=&#34;書籍を元にした共有単語帳&#34;&gt;書籍を元にした共有単語帳&lt;/h2&gt;
+&lt;h3 id=&#34;書籍を元にした共有単語帳&#34;&gt;書籍を元にした共有単語帳&lt;/h3&gt;
 &lt;p&gt;なお、共有単語帳の中には、書籍の内容を元にしたものがあります。
 この場合は、Anki で単語帳の学習を始める前に元の書籍を繰り返し読んで内容理解を深めましょう。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;anki_を利用した事前プレビューのすすめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki を利用した事前プレビューのすすめ&lt;/h1&gt;
+    &lt;h2&gt;Anki を利用した事前プレビューのすすめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki の単語帳データからコンテンツの全体像を通常の学習セッションの中で知ることは困難ですが、
 教材の全体理解を助ける機能を別途用意しています。&lt;/p&gt;
@@ -1290,7 +1290,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;p&gt;Anki のカードブラウザーのプレビュー機能を使うと、学習セッションを始めなくても、カードの一覧表示から順番にカード内容を表示して確認できます。&lt;/p&gt;
 &lt;p&gt;この機能を使えば、全てのカードの内容を簡単に確認できます。
 5 回くらい繰り返し全てのカードを繰り返し眺めておけば、コンテンツの全体像と内容が理解できると思います。&lt;/p&gt;
-&lt;h2 id=&#34;プレビュー時の確認項目&#34;&gt;プレビュー時の確認項目&lt;/h2&gt;
+&lt;h3 id=&#34;プレビュー時の確認項目&#34;&gt;プレビュー時の確認項目&lt;/h3&gt;
 &lt;p&gt;プレビューの際に気がついたら一緒にやっておきたい作業があります。Anki で学習を始める前に自分にとって使いやすいものか確認しましょう。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -1317,12 +1317,12 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;/section&gt;
 &lt;section id=&#34;ブラウザー機能の使い方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ブラウザー機能の使い方&lt;/h1&gt;
+    &lt;h2&gt;ブラウザー機能の使い方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のメインウィンドウから、プレビューする単語帳を選択し、さらに画面上部の [ブラウザー] をクリックします。
 ブラウザーが起動したら、[Return] キーを押すか、ウィンドウ上部の検索欄の右にある [検索] ボタンを押します。
 単語帳内のカード一覧が、右上側のパネル内に表示されます。&lt;/p&gt;
-&lt;h2 id=&#34;ブラウザーのプレビュー機能の使い方&#34;&gt;ブラウザーのプレビュー機能の使い方&lt;/h2&gt;
+&lt;h3 id=&#34;ブラウザーのプレビュー機能の使い方&#34;&gt;ブラウザーのプレビュー機能の使い方&lt;/h3&gt;
 &lt;p&gt;先頭項目を選択してウィンドウ上部の [プレビュー] ボタンを押すと、プレビュー画面を表示します。
 (OS X のショートカットは Command+Shift+P)&lt;/p&gt;
 &lt;p&gt;上で紹介した確認項目を調べてみましょう。&lt;/p&gt;
@@ -1335,14 +1335,14 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;p&gt;ウィンドウ下部の [ &amp;gt; ] ボタンを押すと、一覧の上から下へカードをめくりながら移動します。
 項目を編集したい時は、ブラウザーの表示項目を編集します。&lt;/p&gt;
 &lt;p&gt;なお、ブラウザー機能には学習画面と比較すると一部制限があり、解答キー入力機能などが使えません。&lt;/p&gt;
-&lt;h2 id=&#34;ブラウザーの一覧表示を使った確認&#34;&gt;ブラウザーの一覧表示を使った確認&lt;/h2&gt;
+&lt;h3 id=&#34;ブラウザーの一覧表示を使った確認&#34;&gt;ブラウザーの一覧表示を使った確認&lt;/h3&gt;
 &lt;p&gt;一覧の先頭列を右クリックして、メニューから [質問] と [解答] を選択すると、画面にカードの質問と解答が表示できます。
 単語帳の内容によっては、質問と解答の組をこの一覧の確認で済ませることが出来ます。
 この方法は、カードのレイアウトまでは確認できません。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_を使った事前プレビュー&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile を使った事前プレビュー&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile を使った事前プレビュー&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;iOS アプリの AnkiMobile では、検索画面で共有単語帳のデータ内容を一覧することができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -1352,7 +1352,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile 検索画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;プレビュー機能も持っているのですが、PC 版のように一覧表示の内容を順番に移動する機能がありません。&lt;/p&gt;
-&lt;h2 id=&#34;カスタム学習によるプレビュー&#34;&gt;カスタム学習によるプレビュー&lt;/h2&gt;
+&lt;h3 id=&#34;カスタム学習によるプレビュー&#34;&gt;カスタム学習によるプレビュー&lt;/h3&gt;
 &lt;p&gt;レイアウトを確認するために、カスタム学習のプレビューの使用します。&lt;/p&gt;
 &lt;p&gt;カスタム学習セッションは、[Tools] - [More] - [Custom Study] で設定画面を呼び出して始めます。
 過去何日分まで遡って新規カードを取得するか数値入力する必要があります。
@@ -1375,7 +1375,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;共有単語帳はダウンロードしたらすぐ学習を始められる利便性は捨て難いです。
 AnkiWeb に収録しているたくさんの単語帳が Anki の強みであることは疑いないです。&lt;/p&gt;
@@ -1396,7 +1396,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki の iOS アプリ AnkiMobile には、&lt;a href=&#34;http://ankisrs.net/docs/am-manual.html&#34; target=&#34;_new&#34;&gt;完全なマニュアル&lt;/a&gt;が用意されていますが、PC 版同様、多岐にわたる機能のすべてが通常の学習で必要ではありません。&lt;/p&gt;
 &lt;p&gt;はじめて AnkiMobile を使うときに必要な、毎日の学習が続けられる最低限の使い方だけ分かるようにまとめました。
@@ -1409,21 +1409,21 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. インストール直後の単語帳一覧&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ankimobile_について&#34;&gt;AnkiMobile について&lt;/h2&gt;
+&lt;h3 id=&#34;ankimobile_について&#34;&gt;AnkiMobile について&lt;/h3&gt;
 &lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; は、分散学習機能を持ったフラッシュカード Anki の iOS 版アプリです。
 フラッシュカードアプリとしての Anki の主な特徴は、記憶したカードを正しく記憶している限り、復習間隔どんどん広げて自動的に出題することです。
 この機能によって一枚一枚の記憶内容の強化と、カード全体の進捗管理が効率的にできます。&lt;/p&gt;
 &lt;p&gt;iOS 機器のマルチタッチスクリーンのジェスチャを利用した学習が可能で、PC を使った学習に比べて
 場所や時間を選ばずに継続できる特長を持っています。&lt;/p&gt;
 &lt;p&gt;無料のオンラインサービス AnkiWeb を利用すると、学習データのバックアップや他の機器との共有が簡単になり、iPhone 端末の利便性を更に高めることができます。&lt;/p&gt;
-&lt;h2 id=&#34;ios_アプリ版の位置づけ&#34;&gt;iOS アプリ版の位置づけ&lt;/h2&gt;
+&lt;h3 id=&#34;ios_アプリ版の位置づけ&#34;&gt;iOS アプリ版の位置づけ&lt;/h3&gt;
 &lt;p&gt;Anki の iOS アプリ AnkiMobile は、PC 版 Anki (以下 Anki) と連携して使うことを目的として設定していて、完全にPC 版を置き換えるものではありません。
 無料のオンラインサービス AnkiWeb を利用すると AnkiMobile と Anki がより緊密で効率的に連携できるようになります。&lt;/p&gt;
 &lt;p&gt;PC 版のスケジュールに関するオプションを完全にサポートしていますが、AnkiMobile 内から全てを変更できません。
 Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiMobile に反映します。
 また、カードのレイアウト変更や機能追加をするには、Anki が必要になります。&lt;/p&gt;
 &lt;p&gt;両者を連携して使う場合は、PC 版の iTunes と　iPod の関係のように Anki はコンテンツの作成や管理、AnkiMobile はコンテンツの学習に役割分担した設計になっています。&lt;/p&gt;
-&lt;h2 id=&#34;この記事の構成&#34;&gt;この記事の構成&lt;/h2&gt;
+&lt;h3 id=&#34;この記事の構成&#34;&gt;この記事の構成&lt;/h3&gt;
 &lt;p&gt;PC 版 Anki についてはすでに、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;Ankiの使い方 〜覚えるために忘れろ〜&lt;/a&gt;という連載記事で利用するのに必要な最低限の情報を網羅しています。
 この記事は、この公開済み情報に AnkiMobile に固有の情報の注釈をつける形で内容を圧縮する構成にしました。
 読み通すだけで手早く全体像が理解でき、公開済みの内容の中から興味のある情報だけを参照すれば済むようになっています。&lt;/p&gt;
@@ -1431,14 +1431,14 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_の入手方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile の入手方法&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile の入手方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; は、iTunes App Store から購入できます。この記事を作成している時点では 2,500 円です。&lt;/p&gt;
 &lt;p&gt;AnkiMobile と連携する他のプラットフォームの Anki を入手する方法は、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimoblie_を使った学習&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMoblie を使った学習&lt;/h1&gt;
+    &lt;h2&gt;AnkiMoblie を使った学習&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile をつかった学習の全体的な流れは、&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;で紹介しています。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -1451,13 +1451,13 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 &lt;/section&gt;
 &lt;section id=&#34;教材の新規作成と編集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;教材の新規作成と編集&lt;/h1&gt;
+    &lt;h2&gt;教材の新規作成と編集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のカードは、ノートとノートタイプから生成します。ノートはカード面に表示するデータのことです。
 ノートタイプとは、このデータをカード面上の配置を指定するひな形です。
 一つのノートタイプに複数のひな形を作成すれば、同じデータからレイアウトの違うカードを生成できます。
 反転したカード両方をノートタイプを指定するだけで簡単にできます。&lt;/p&gt;
-&lt;h2 id=&#34;新規作成&#34;&gt;新規作成&lt;/h2&gt;
+&lt;h3 id=&#34;新規作成&#34;&gt;新規作成&lt;/h3&gt;
 &lt;p&gt;学習画面の上部 Quickbar から [Add] をタップすると追加画面が開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -1466,7 +1466,7 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 &lt;div class=&#34;title&#34;&gt;図 3. 追加画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた 単純なカードの作り方&lt;/a&gt;で、画像や音声の取り込み方を含めた詳しい手順を説明しています。&lt;/p&gt;
-&lt;h3 id=&#34;ノートタイプの指定&#34;&gt;ノートタイプの指定&lt;/h3&gt;
+&lt;h4 id=&#34;ノートタイプの指定&#34;&gt;ノートタイプの指定&lt;/h4&gt;
 &lt;p&gt;[Type] 項目では、ノートタイプの指定します。単純なカードを作る場合は Basic (基本) を選択します。
 この項目は、後で AnkiMobile 上では変更することができないので注意してください。&lt;/p&gt;
 &lt;p&gt;AnkiMobile は既定で 4 種類のノートタイプを用意しています。&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;で詳しく説明しています。&lt;/p&gt;
@@ -1474,12 +1474,12 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 空欄補充問題のノートの書き方は、
 &lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;を参考にしてください。&lt;/p&gt;
 &lt;p&gt;PC 版 Anki では、作成済みのカードのノートタイプを変更や独自のノートタイプの作成ができます。&lt;/p&gt;
-&lt;h3 id=&#34;保存先単語帳の指定&#34;&gt;保存先単語帳の指定&lt;/h3&gt;
+&lt;h4 id=&#34;保存先単語帳の指定&#34;&gt;保存先単語帳の指定&lt;/h4&gt;
 &lt;p&gt;[Deck] 項目では、保存先の単語帳 (デッキ) を指定します。
 単語帳選択画面から[Add] を選択すると新しい単語帳が作成できます。
 この項目は、後で AnkiMobile 上では変更することができないので注意してください。&lt;/p&gt;
 &lt;p&gt;PC 版 Anki では、単語帳名やカードの保存先の変更ができます。&lt;/p&gt;
-&lt;h2 id=&#34;編集&#34;&gt;編集&lt;/h2&gt;
+&lt;h3 id=&#34;編集&#34;&gt;編集&lt;/h3&gt;
 &lt;p&gt;カードの内容を編集したい場合は、編集したいカードを表示した上で学習画面の上部 Quickbar から [Edit] をタップすると編集画面を呼び出します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -1490,11 +1490,11 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 &lt;/section&gt;
 &lt;section id=&#34;単語帳データの入出力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳データの入出力&lt;/h1&gt;
+    &lt;h2&gt;単語帳データの入出力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;「はじめに」で触れましたがPC 版 Anki データを作成し、 AnkiMobile はそのデータの学習に特化する位置づけで設計されています。
 このため、AnkiMobile の入出力機能は、PC 版 Anki と比較すると機能が限定されます。&lt;/p&gt;
-&lt;h2 id=&#34;データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
+&lt;h3 id=&#34;データの読み込み&#34;&gt;データの読み込み&lt;/h3&gt;
 &lt;p&gt;AnkiMobile には、テキストデータを一括登録する機能はありません。
 まず、Anki を利用してデータを読み込む必要があります。
 &lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;ではテキストデータの一括登録する方法を説明しています。&lt;/p&gt;
@@ -1517,7 +1517,7 @@ iTunes のファイル共有機能を使います。この場合、コレクシ�
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;データの書き出し&#34;&gt;データの書き出し&lt;/h2&gt;
+&lt;h3 id=&#34;データの書き出し&#34;&gt;データの書き出し&lt;/h3&gt;
 &lt;p&gt;AnkiMobile からデータを書き出す方法では細かい設定ができません。&lt;/p&gt;
 &lt;p&gt;AnkiMobile からのデータの出力方法は 2 通りです。&lt;/p&gt;
 &lt;ol&gt;
@@ -1529,13 +1529,13 @@ iTunes を経由でコレクションを書き出す。この場合、コレク�
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;残念ながら、読み込みのように単語帳単位で書き出す方法はありません。&lt;/p&gt;
-&lt;h2 id=&#34;ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h2&gt;
+&lt;h3 id=&#34;ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h3&gt;
 &lt;p&gt;AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
 くわしくは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-&lt;h2 id=&#34;itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h2&gt;
+&lt;h3 id=&#34;itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h3&gt;
 &lt;p&gt;iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。&lt;/p&gt;
 &lt;p&gt;iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 &lt;a target=&#34;_new&#34; href=&#34;http://support.apple.com/kb/ht1386?viewlocale=ja_JP&#34;&gt;iOS：iTunes とデータを同期する&lt;/a&gt;を参考にしてください。&lt;/p&gt;
-&lt;h3 id=&#34;ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h3&gt;
+&lt;h4 id=&#34;ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h4&gt;
 &lt;p&gt;単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -1555,7 +1555,7 @@ iTunes を経由でコレクションを書き出す。この場合、コレク�
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h3&gt;
+&lt;h4 id=&#34;pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h4&gt;
 &lt;p&gt;PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1585,12 +1585,12 @@ iTunes を起動し、画面右上の [iPhone] ボタンをクリックします
 &lt;/section&gt;
 &lt;section id=&#34;自動バックアップの使い方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;自動バックアップの使い方&lt;/h1&gt;
+    &lt;h2&gt;自動バックアップの使い方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;初期設定では、AnkiMobile は、1 時間毎に自動バックアップファイルを最大 15 個作成しています。
 最後の AnkiWeb との同期の後に復活させたいデータがある場合には利用するのがよいでしょう。&lt;/p&gt;
 &lt;p&gt;自動バックアップを使うには、PC と接続して、先に説明した iTunes ファイル共有を使用します。&lt;/p&gt;
-&lt;h2 id=&#34;復旧手順&#34;&gt;復旧手順&lt;/h2&gt;
+&lt;h3 id=&#34;復旧手順&#34;&gt;復旧手順&lt;/h3&gt;
 &lt;p&gt;バックアップファイルのファイル名を &lt;code&gt;collection.apkg&lt;/code&gt; に変更して、先に説明した要領でデータ入力機能を使って読み込む作業になります。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1615,18 +1615,18 @@ AnkiMobile の読み込み機能を使って読み込みます。単語帳一覧
 &lt;/section&gt;
 &lt;section id=&#34;共有リソースの使い方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有リソースの使い方&lt;/h1&gt;
+    &lt;h2&gt;共有リソースの使い方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;自作の教材以外に、Anki ユーザーが共有している単語帳を AnkiWeb から入手できます。
 &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;のデータ入出力、共有単語帳のインストール手順を説明しています。&lt;/p&gt;
 &lt;p&gt;なお AnkiMobile では、Anki PC 版のアドオンプログラムは利用できません。&lt;/p&gt;
-&lt;h2 id=&#34;共有単語帳の作成&#34;&gt;共有単語帳の作成&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳の作成&#34;&gt;共有単語帳の作成&lt;/h3&gt;
 &lt;p&gt;作成した単語帳データを共有単語帳として公開するには AnkiWeb を通じて行います。この作業は AnkiMobile 内から行うのではなく、ウェブブラウザ上でフォームを送信して行うことができます。
 &lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;でその手順を解説しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;カードのデザイン&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カードのデザイン&lt;/h1&gt;
+    &lt;h2&gt;カードのデザイン&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile では、カードのデザインつまりノートタイプの作成編集ができません。
 PC 版 Anki を利用することになります。&lt;/p&gt;
@@ -1654,7 +1654,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;データの検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;データの検索&lt;/h1&gt;
+    &lt;h2&gt;データの検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Find Screen (検索画面) を使うとカードを検索できます。
 単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
@@ -1674,19 +1674,19 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 検索結果&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;検索条件の詳細は&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;を参考にしてください。検索条件は、AnkiMobile でもそのまま使えます。&lt;/p&gt;
-&lt;h2 id=&#34;検索結果の注意点&#34;&gt;検索結果の注意点&lt;/h2&gt;
+&lt;h3 id=&#34;検索結果の注意点&#34;&gt;検索結果の注意点&lt;/h3&gt;
 &lt;p&gt;一つのノート (元になるデータ) から複数のカード作成した場合、Find Screen では区別がつかないので注意してください。
 既定のノートタイプ [Basic (and reversed card)] \(基本 (裏面カード付き)) を指定した場合、表向きと裏向きの 2 枚のカードを表示します。ノートタイプの表示がないため、あたかも同じ項目が重複しているように誤解する可能性があります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;学習のカスタマイズ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習のカスタマイズ&lt;/h1&gt;
+    &lt;h2&gt;学習のカスタマイズ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳オプションの設定で設定している学習モードをカスタマイズすることができます。
 カスタム学習セッションは、主として単語帳のオプションの上限値を超える学習ができる一時的な学習セッションです。
 フィルター単語帳は、さらにコレクション全体から検索条件に見合うカードを抽出して作成する特別な単語帳です。&lt;/p&gt;
 &lt;p&gt;試験前のおさらい、一夜漬けするのに使うと言えば分かりやすいでしょうか。&lt;/p&gt;
-&lt;h2 id=&#34;カスタム学習セッションの作成&#34;&gt;カスタム学習セッションの作成&lt;/h2&gt;
+&lt;h3 id=&#34;カスタム学習セッションの作成&#34;&gt;カスタム学習セッションの作成&lt;/h3&gt;
 &lt;p&gt;カスタム学習では、単語帳オプションで指定している学習上限を一時的に緩めて、新たな学習カードを取得します。&lt;/p&gt;
 &lt;p&gt;カスタム学習セッションは、[Tools] - [More] - [Custom Study] で設定画面を呼び出して始めます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -1698,7 +1698,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;p&gt;取得条件、枚数、などの項目を設定した後に、画面右上 [OK] をタップすると作成し、学習セッションが始まります。
 新規カード、復習カードの上限を上げたとき以外は、青字で &lt;code&gt;Custom Study Session&lt;/code&gt; という名前の単語帳に取得カードが移動します。
 カスタム学習セッションの学習が終わったカードは、移動したカードも元の単語帳に戻ります。&lt;/p&gt;
-&lt;h2 id=&#34;フィルター単語帳の作成&#34;&gt;フィルター単語帳の作成&lt;/h2&gt;
+&lt;h3 id=&#34;フィルター単語帳の作成&#34;&gt;フィルター単語帳の作成&lt;/h3&gt;
 &lt;p&gt;フィルター単語帳とは、コレクション全体から検索条件で選択したカードを学習する特別な単語帳です。
 &lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;で、紹介しているフィルター単語帳の検索条件はそのまま AnkiMobile でも使えますます。&lt;/p&gt;
 &lt;p&gt;フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。&lt;/p&gt;
@@ -1713,7 +1713,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;p&gt;青字で &lt;code&gt;Filterd Deck (連番)&lt;/code&gt; という名前の単語帳に取得カードが移動します。
 フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。&lt;/p&gt;
 &lt;p&gt;復習間隔再設定を無効にすれば、元の単語帳で設定した復習間隔を維持します。&lt;/p&gt;
-&lt;h2 id=&#34;カスタム学習セッション_フィルター単語帳のアクション&#34;&gt;カスタム学習セッション、フィルター単語帳のアクション&lt;/h2&gt;
+&lt;h3 id=&#34;カスタム学習セッション_フィルター単語帳のアクション&#34;&gt;カスタム学習セッション、フィルター単語帳のアクション&lt;/h3&gt;
 &lt;p&gt;カスタム学習セッション、フィルター単語帳を開いた状態で次のアクションが利用できます。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -1737,7 +1737,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;カスタム学習セッション_フィルター単語帳の削除&#34;&gt;カスタム学習セッション、フィルター単語帳の削除&lt;/h2&gt;
+&lt;h3 id=&#34;カスタム学習セッション_フィルター単語帳の削除&#34;&gt;カスタム学習セッション、フィルター単語帳の削除&lt;/h3&gt;
 &lt;p&gt;不要になったカスタム学習セッション、フィルター単語帳は、単語帳一覧から単語帳名を左にスワイプすると削除できます。
 中にカードが残っている状態で削除すると、カードは元の単語帳に戻ります。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -1749,7 +1749,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;統計情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;統計情報&lt;/h1&gt;
+    &lt;h2&gt;統計情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳一覧から単語帳をタップし、左上 [Back] をタップして戻り、画面右上のグラフのボタンを押すと、指定した単語帳の統計情報を表示します。
 画面上部から対象単語帳の範囲、対象期間が指定できます。&lt;/p&gt;
@@ -1763,11 +1763,11 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_固有の話題&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile 固有の話題&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile 固有の話題&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile 独自の設定や機能について紹介します。
 &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;ではユーザーインターフェイスの特徴、オンラインマニュアルやサポートサイトの使い方を説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;学習オプション&#34;&gt;学習オプション&lt;/h2&gt;
+&lt;h3 id=&#34;学習オプション&#34;&gt;学習オプション&lt;/h3&gt;
 &lt;p&gt;AnkiMobile 上では、単語帳の学習オプションとして一日の新規カードの上限と復習の上限が設定できます。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -1778,7 +1778,7 @@ PC 版 Anki を利用することになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Anki と AnkiWeb 経由で同期すると、Anki で設定した更に詳細な学習オプションも設定できます。
 PC 版 Anki を利用した詳細な学習オプションの具体的な設定手順は、&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-study-options/&#34;&gt;AnkiMobile の学習オプションを最適化する&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;環境設定&#34;&gt;環境設定&lt;/h2&gt;
+&lt;h3 id=&#34;環境設定&#34;&gt;環境設定&lt;/h3&gt;
 &lt;p&gt;単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。
 &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;で詳しい設定内容を説明しています。&lt;/p&gt;
 &lt;p&gt;この中で一番重要なのは [Review] で指定できるマルチタッチスクリーンのジェスチャへの機能の割り当てです。
@@ -1790,7 +1790,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
 &lt;div class=&#34;title&#34;&gt;図 14. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;なお、環境設定の一日の開始時刻の設定は Anki と同期することで変更できます。&lt;/p&gt;
-&lt;h2 id=&#34;テーマファイルの設定&#34;&gt;テーマファイルの設定&lt;/h2&gt;
+&lt;h3 id=&#34;テーマファイルの設定&#34;&gt;テーマファイルの設定&lt;/h3&gt;
 &lt;p&gt;AnkiMobile は 2 種類のテーマファイルから好きなテーマを選ぶことができます。
 初期設定では落ち着いた色使いの [Dark] ですが、[Blue] を選択して明るいテーマに変更できます。
 単語帳一覧の画面右上の歯車アイコンをタップし、[Theme] でテーマを選択します。&lt;/p&gt;
@@ -1809,27 +1809,27 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ios_システムとの連携&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;iOS システムとの連携&lt;/h1&gt;
+    &lt;h2&gt;iOS システムとの連携&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;iOS システムが提供する機能を AnkiMobile から直接利用すると Anki に元々ない機能を追加することができます。&lt;/p&gt;
-&lt;h2 id=&#34;テキストを読み上げる&#34;&gt;テキストを読み上げる&lt;/h2&gt;
+&lt;h3 id=&#34;テキストを読み上げる&#34;&gt;テキストを読み上げる&lt;/h3&gt;
 &lt;p&gt;カード内のテキストを読み上げる Anki アドオンが有名ですが、AnkiMobile ではアドオンが利用できません。
 このため、
 &lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
 ではシステムの読み上げ機能の使い方と読み上げ機能を持ったノートタイプの使い方を説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;組み込み辞書の利用&#34;&gt;組み込み辞書の利用&lt;/h2&gt;
+&lt;h3 id=&#34;組み込み辞書の利用&#34;&gt;組み込み辞書の利用&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;では、カード上の選択範囲からシステム組み込み辞書を引く方法を説明しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ユーザーサポート&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ユーザーサポート&lt;/h1&gt;
+    &lt;h2&gt;ユーザーサポート&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事よりさらに詳しい使い方や、問題解決のためには、ユーザーマニュアルや無料のサポートフォーラムの利用を検討してください。&lt;/p&gt;
 &lt;p&gt;英語でのコミュニケーションになりますが、AnkiMobile の開発者が直接対応していますので、使い方や障害について的確なサポートが受けられます。非公開の質問をすることも出来ます。&lt;/p&gt;
-&lt;h2 id=&#34;オンラインマニュアル&#34;&gt;オンラインマニュアル&lt;/h2&gt;
+&lt;h3 id=&#34;オンラインマニュアル&#34;&gt;オンラインマニュアル&lt;/h3&gt;
 &lt;p&gt;単語帳一覧の画面左上 ? のアイコンをクリクすると&lt;a href=&#34;http://ankisrs.net/docs/am-manual.html&#34;&gt;オンラインマニュアル&lt;/a&gt;を開きます。
 サポートフォーラムの対応内容を随時反映して更新しています。&lt;/p&gt;
-&lt;h2 id=&#34;サポートフォーラム&#34;&gt;サポートフォーラム&lt;/h2&gt;
+&lt;h3 id=&#34;サポートフォーラム&#34;&gt;サポートフォーラム&lt;/h3&gt;
 &lt;p&gt;サポートフォーラムの中から AnkiMobile ユーザーに関係する項目を紹介します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -1851,7 +1851,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile の設計原則からPC 版 Anki の使い方を理解していれば、&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;などを参考にして AnkiMobile のユーザーインターフェイスの特長を理解するだけで、すぐに使いこなすことができます。&lt;/p&gt;
 &lt;p&gt;反対に AnkiMobile から使い始めた場合は、使いたい機能や設定を実現するのに Anki の助けを借りる必要あることがなかなか気がつき難いものです。
@@ -1859,7 +1859,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/09/13: 初出&lt;/p&gt;
 &lt;p&gt;2014/09/18: 追加: 自動バックアップ、カスタム学習、ユーザーサポート&lt;/p&gt;
@@ -1881,7 +1881,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -1922,7 +1922,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/section&gt;
 &lt;section id=&#34;重要な機能の呼び出し場所&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;重要な機能の呼び出し場所&lt;/h1&gt;
+    &lt;h2&gt;重要な機能の呼び出し場所&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;再びインストール直後の画面に戻ります。重要なのは 3 か所です。&lt;/p&gt;
 &lt;ol&gt;
@@ -1947,7 +1947,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/section&gt;
 &lt;section id=&#34;マニュアルとサポート&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;マニュアルとサポート&lt;/h1&gt;
+    &lt;h2&gt;マニュアルとサポート&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面左上 ? をタップすると、マニュアルを表示できます。
 AnkiMobile を使うのに必要なことが全て記載されています。&lt;/p&gt;
@@ -1957,7 +1957,7 @@ AnkiMobile を使うのに必要なことが全て記載されています。&lt
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. マニュアルを表示&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;サポート&#34;&gt;サポート&lt;/h2&gt;
+&lt;h3 id=&#34;サポート&#34;&gt;サポート&lt;/h3&gt;
 &lt;p&gt;iPhone ユーザーにとってサポートサイトに問題があります。iPhoneの解像度に対応した画面ではないので、必要な項目が見つけにくいのです。
 AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -1986,7 +1986,7 @@ AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります
 &lt;/section&gt;
 &lt;section id=&#34;環境設定&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;環境設定&lt;/h1&gt;
+    &lt;h2&gt;環境設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面右上の歯車のアイコンをタップすると環境設定画面が開きます。
 画面左上 [Back] をタップすると元の画面に戻ります。&lt;/p&gt;
@@ -2013,7 +2013,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 &lt;/section&gt;
 &lt;section id=&#34;データ入出力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;データ入出力&lt;/h1&gt;
+    &lt;h2&gt;データ入出力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
 AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。&lt;/p&gt;
@@ -2032,7 +2032,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳 リポジトリ&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h3&gt;
 &lt;p&gt;私がつくった共有単語帳「歌舞伎の演目名」をインストールする例を紹介します。
 「歌舞伎」をキーワードにして検索します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -2067,7 +2067,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/section&gt;
 &lt;section id=&#34;学習画面&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習画面&lt;/h1&gt;
+    &lt;h2&gt;学習画面&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最後に簡単に学習画面について触れておきましょう。
 単語帳一覧から単語帳名をタップすると、学習を開始します。
@@ -2133,7 +2133,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/div&gt;
 &lt;p&gt;スクリーンをタップしても、解答できます。
 画面を9分割してどこをタップするとどのような処理をするか、先ほどの環境設定画面で取り上げた、[Review] - [Taps] 項目で設定できます。&lt;/p&gt;
-&lt;h2 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h2&gt;
+&lt;h3 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h3&gt;
 &lt;p&gt;学習画面を操作するアクションはジェスチャか画面上部のボタンを押して呼び出せます。
 学習画面ではタップ、スワイプ、シェイクのジェスチャが使え、全てカスタマイズすることができます。&lt;/p&gt;
 &lt;ul&gt;
@@ -2166,9 +2166,9 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ジェスチャ、ボタンとも一部のアクションについては、条件によっては割り当てられず、エラーメッセージを表示する場合があります。&lt;/p&gt;
-&lt;h2 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h2&gt;
+&lt;h3 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h3&gt;
 &lt;p&gt;[環境設定] - [Review] - [Quickbar] で設定画面が開きます。画面上中央の枠で囲った部分 (図 15) に、最大 4 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;
-&lt;h2 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h2&gt;
+&lt;h3 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h3&gt;
 &lt;p&gt;画面右上 [Tools] \(図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -2187,11 +2187,11 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;/section&gt;
 &lt;section id=&#34;ノートの追加編集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ノートの追加編集&lt;/h1&gt;
+    &lt;h2&gt;ノートの追加編集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最後にノート (教材) の追加編集について説明します。
 Anki では、一枚のカードに表示する一組のデータをノートと呼びます。&lt;/p&gt;
-&lt;h2 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h2&gt;
+&lt;h3 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h3&gt;
 &lt;p&gt;ノートを編集したい場合は、編集したいノートを表示した上で学習画面の上部 [Quickbar] -[Edit] で編集画面が開きます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [Save] をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -2207,7 +2207,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 18. 「桜」を含むノートを検索&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h2&gt;
+&lt;h3 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h3&gt;
 &lt;p&gt;学習画面の上部 [Quickbar] -[Add] で追加画面が開きます。
 ノートタイプが [基本] の場合は、Front に表面に表示する内容、Back に裏面に表示する内容を入力します。HTMLのタグを使って書式設定することができます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。
@@ -2223,7 +2223,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile を使いこなすのに最低限必要な機能は、実は集約して配置していますが、マニュアルが文字情報に偏っているため、独力で探し出すのが大変なことだと思います。
 しかし、一旦その場所さえ覚えてしまえば、マニュアルを見ながら色々な機能を試していけるようになります。
@@ -2231,7 +2231,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/section&gt;
 &lt;section id=&#34;さらにくわしく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -2270,7 +2270,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
 &lt;div class=&#34;page-header&#34;&gt;
-&lt;h1&gt;更新情報&lt;/h1&gt;
+&lt;h2&gt;更新情報&lt;/h2&gt;
 &lt;/div&gt;
 &lt;p&gt;2014/05/11: 初出&lt;/p&gt;
 &lt;p&gt;2016/01/23: 更新: 学習画面で実行する処理&lt;/p&gt;
@@ -2286,12 +2286,12 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
       <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
       <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;この単語帳の内容&lt;/h1&gt;
+    &lt;h2&gt;この単語帳の内容&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。&lt;/p&gt;
 &lt;p&gt;SlideShareに公開のスライド &lt;a href=&#34;http://www.slideshare.net/yuichikuroki/ss-33566632&#34; target=&#34;_new&#34;&gt;救急診療に役立つ暗記メモ集の内容&lt;/a&gt;を学習するための空欄補充問題で構成しています。作者のYuichi Kuroki様から承諾を頂いた上で作成しました。&lt;/p&gt;
 &lt;p&gt;表紙を除いた 45 枚のスライドを元に問題設定した設定した303枚のカードを収録しています。&lt;/p&gt;
-&lt;h2 id=&#34;内容についての注意点&#34;&gt;内容についての注意点&lt;/h2&gt;
+&lt;h3 id=&#34;内容についての注意点&#34;&gt;内容についての注意点&lt;/h3&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -2307,7 +2307,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;単語帳内容のプレビュー&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳内容のプレビュー&lt;/h1&gt;
+    &lt;h2&gt;単語帳内容のプレビュー&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳に収録しているカード全ての内容をスライドショー形式でご覧いただけます。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -2315,7 +2315,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;単語帳ダウンロード&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳ダウンロード&lt;/h1&gt;
+    &lt;h2&gt;単語帳ダウンロード&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この単語帳は、AnkiWeb上の共有単語帳ページからダウンロードいただけます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34; target=&#34;_new&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-share-alt icon-white&#34;&gt;&lt;/i&gt; AnkiWeb 共有単語帳ダウンロードサイト&lt;/a&gt;&lt;/p&gt;
@@ -2323,20 +2323,20 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;使用上の注意&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;使用上の注意&lt;/h1&gt;
+    &lt;h2&gt;使用上の注意&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h2&gt;
+&lt;h3 id=&#34;元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h3&gt;
 &lt;p&gt;Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。&lt;/p&gt;
 &lt;p&gt;ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
 単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。&lt;/p&gt;
 &lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;anki_をインストールせずに使いたい方へ&#34;&gt;Anki をインストールせずに使いたい方へ&lt;/h2&gt;
+&lt;h3 id=&#34;anki_をインストールせずに使いたい方へ&#34;&gt;Anki をインストールせずに使いたい方へ&lt;/h3&gt;
 &lt;p&gt;上に表示しているスライドショー形式のプレビューをお使いください。全てのカードをランダムに表示しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この&lt;a href=&#34;http://www.slideshare.net/yuichikuroki/ss-33566632&#34; target=&#34;_new&#34;&gt;救急診療に役立つ暗記メモ集の内容&lt;/a&gt;というスライドを最初に読んだ時に、題名は忘れてしまったのですが、意思決定に関する書籍に書いてあったエピソードを思い出しました。ある米国の医師が元のスライドにある様な MNEMONICSや指標を活用していて、それは非常に精度が高く、適切な意思決定を行うのに大切にしているというものでした。&lt;/p&gt;
 &lt;p&gt;これまで公開されてきた Anki の利用例は、上級学校への進学や資格取得のために外国語学習(特に英語)などの学習に関するものがほとんどです。学習教材も内容が固定した既成の教科書や参考書が多いようです。これが作者の想定内の使い方だと思います。&lt;/p&gt;
@@ -2346,7 +2346,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/04/21: 初出&lt;/p&gt;
 &lt;p&gt;2015/11/20: 共有単語帳リンク先変更&lt;/p&gt;

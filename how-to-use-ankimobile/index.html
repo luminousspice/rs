@@ -89,15 +89,18 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">iPhone ユーザーのためのはじめての Anki</h1>
   <span class="post-date"><time datetime="2014-09-13T21:30:52Z">2014-09-13</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p>分散学習フラッシュカード Anki の iOS アプリ AnkiMobile ユーザーのために、はじめて使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。</p>
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>Anki の iOS アプリ AnkiMobile には、<a href="http://ankisrs.net/docs/am-manual.html" target="_new">完全なマニュアル</a>が用意されていますが、PC 版同様、多岐にわたる機能のすべてが通常の学習で必要ではありません。</p>
 <p>はじめて AnkiMobile を使うときに必要な、毎日の学習が続けられる最低限の使い方だけ分かるようにまとめました。
@@ -110,21 +113,21 @@
 </div>
 <div class="title">図 1. インストール直後の単語帳一覧</div>
 </div>
-<h2 id="ankimobile_について">AnkiMobile について</h2>
+<h3 id="ankimobile_について">AnkiMobile について</h3>
 <p><a target="itunes_store" href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS">AnkiMobile</a> <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" target="itunes_store"></a> は、分散学習機能を持ったフラッシュカード Anki の iOS 版アプリです。
 フラッシュカードアプリとしての Anki の主な特徴は、記憶したカードを正しく記憶している限り、復習間隔どんどん広げて自動的に出題することです。
 この機能によって一枚一枚の記憶内容の強化と、カード全体の進捗管理が効率的にできます。</p>
 <p>iOS 機器のマルチタッチスクリーンのジェスチャを利用した学習が可能で、PC を使った学習に比べて
 場所や時間を選ばずに継続できる特長を持っています。</p>
 <p>無料のオンラインサービス AnkiWeb を利用すると、学習データのバックアップや他の機器との共有が簡単になり、iPhone 端末の利便性を更に高めることができます。</p>
-<h2 id="ios_アプリ版の位置づけ">iOS アプリ版の位置づけ</h2>
+<h3 id="ios_アプリ版の位置づけ">iOS アプリ版の位置づけ</h3>
 <p>Anki の iOS アプリ AnkiMobile は、PC 版 Anki (以下 Anki) と連携して使うことを目的として設定していて、完全にPC 版を置き換えるものではありません。
 無料のオンラインサービス AnkiWeb を利用すると AnkiMobile と Anki がより緊密で効率的に連携できるようになります。</p>
 <p>PC 版のスケジュールに関するオプションを完全にサポートしていますが、AnkiMobile 内から全てを変更できません。
 Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiMobile に反映します。
 また、カードのレイアウト変更や機能追加をするには、Anki が必要になります。</p>
 <p>両者を連携して使う場合は、PC 版の iTunes と　iPod の関係のように Anki はコンテンツの作成や管理、AnkiMobile はコンテンツの学習に役割分担した設計になっています。</p>
-<h2 id="この記事の構成">この記事の構成</h2>
+<h3 id="この記事の構成">この記事の構成</h3>
 <p>PC 版 Anki についてはすでに、<a href="http://rs.luminousspice.com/how-to-anki/">Ankiの使い方 〜覚えるために忘れろ〜</a>という連載記事で利用するのに必要な最低限の情報を網羅しています。
 この記事は、この公開済み情報に AnkiMobile に固有の情報の注釈をつける形で内容を圧縮する構成にしました。
 読み通すだけで手早く全体像が理解でき、公開済みの内容の中から興味のある情報だけを参照すれば済むようになっています。</p>
@@ -132,14 +135,14 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 </section>
 <section id="ankimobile_の入手方法">
   <div class="page-header">
-    <h1>AnkiMobile の入手方法</h1>
+    <h2>AnkiMobile の入手方法</h2>
   </div>
 <p><a target="itunes_store" href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS">AnkiMobile</a> <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;uo=4&amp;at=11lGoS" target="itunes_store"></a> は、iTunes App Store から購入できます。この記事を作成している時点では 2,500 円です。</p>
 <p>AnkiMobile と連携する他のプラットフォームの Anki を入手する方法は、<a href="http://rs.luminousspice.com/install_anki/">Ankiのインストール</a>をご覧下さい。</p>
 </section>
 <section id="ankimoblie_を使った学習">
   <div class="page-header">
-    <h1>AnkiMoblie を使った学習</h1>
+    <h2>AnkiMoblie を使った学習</h2>
   </div>
 <p>AnkiMobile をつかった学習の全体的な流れは、<a href="http://rs.luminousspice.com/start-up-anki-for-iphone-users/">iPhone ユーザーのための Anki のゆるい始めかた</a>で紹介しています。</p>
 <div class="imageblock">
@@ -152,13 +155,13 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 </section>
 <section id="教材の新規作成と編集">
   <div class="page-header">
-    <h1>教材の新規作成と編集</h1>
+    <h2>教材の新規作成と編集</h2>
   </div>
 <p>Anki のカードは、ノートとノートタイプから生成します。ノートはカード面に表示するデータのことです。
 ノートタイプとは、このデータをカード面上の配置を指定するひな形です。
 一つのノートタイプに複数のひな形を作成すれば、同じデータからレイアウトの違うカードを生成できます。
 反転したカード両方をノートタイプを指定するだけで簡単にできます。</p>
-<h2 id="新規作成">新規作成</h2>
+<h3 id="新規作成">新規作成</h3>
 <p>学習画面の上部 Quickbar から [Add] をタップすると追加画面が開きます。</p>
 <div class="imageblock">
 <div class="content">
@@ -167,7 +170,7 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 <div class="title">図 3. 追加画面</div>
 </div>
 <p><a href="http://rs.luminousspice.com/start-up-anki-for-iphone-users/">iPhone ユーザーのための Anki のゆるい始めかた 単純なカードの作り方</a>で、画像や音声の取り込み方を含めた詳しい手順を説明しています。</p>
-<h3 id="ノートタイプの指定">ノートタイプの指定</h3>
+<h4 id="ノートタイプの指定">ノートタイプの指定</h4>
 <p>[Type] 項目では、ノートタイプの指定します。単純なカードを作る場合は Basic (基本) を選択します。
 この項目は、後で AnkiMobile 上では変更することができないので注意してください。</p>
 <p>AnkiMobile は既定で 4 種類のノートタイプを用意しています。<a href="http://rs.luminousspice.com/how-to-choose-notetype/">Ankiのノートタイプの選び方</a>で詳しく説明しています。</p>
@@ -175,12 +178,12 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 空欄補充問題のノートの書き方は、
 <a href="http://rs.luminousspice.com/cloze-deletion/">Ankiにおける空欄補充問題の作り方</a>を参考にしてください。</p>
 <p>PC 版 Anki では、作成済みのカードのノートタイプを変更や独自のノートタイプの作成ができます。</p>
-<h3 id="保存先単語帳の指定">保存先単語帳の指定</h3>
+<h4 id="保存先単語帳の指定">保存先単語帳の指定</h4>
 <p>[Deck] 項目では、保存先の単語帳 (デッキ) を指定します。
 単語帳選択画面から[Add] を選択すると新しい単語帳が作成できます。
 この項目は、後で AnkiMobile 上では変更することができないので注意してください。</p>
 <p>PC 版 Anki では、単語帳名やカードの保存先の変更ができます。</p>
-<h2 id="編集">編集</h2>
+<h3 id="編集">編集</h3>
 <p>カードの内容を編集したい場合は、編集したいカードを表示した上で学習画面の上部 Quickbar から [Edit] をタップすると編集画面を呼び出します。</p>
 <div class="imageblock">
 <div class="content">
@@ -191,11 +194,11 @@ Anki で変更したオプション設定を AnkiWeb 経由で同期して AnkiM
 </section>
 <section id="単語帳データの入出力">
   <div class="page-header">
-    <h1>単語帳データの入出力</h1>
+    <h2>単語帳データの入出力</h2>
   </div>
 <p>「はじめに」で触れましたがPC 版 Anki データを作成し、 AnkiMobile はそのデータの学習に特化する位置づけで設計されています。
 このため、AnkiMobile の入出力機能は、PC 版 Anki と比較すると機能が限定されます。</p>
-<h2 id="データの読み込み">データの読み込み</h2>
+<h3 id="データの読み込み">データの読み込み</h3>
 <p>AnkiMobile には、テキストデータを一括登録する機能はありません。
 まず、Anki を利用してデータを読み込む必要があります。
 <a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>ではテキストデータの一括登録する方法を説明しています。</p>
@@ -218,7 +221,7 @@ iTunes のファイル共有機能を使います。この場合、コレクシ�
 </p>
 </li>
 </ul></div>
-<h2 id="データの書き出し">データの書き出し</h2>
+<h3 id="データの書き出し">データの書き出し</h3>
 <p>AnkiMobile からデータを書き出す方法では細かい設定ができません。</p>
 <p>AnkiMobile からのデータの出力方法は 2 通りです。</p>
 <ol>
@@ -230,13 +233,13 @@ iTunes を経由でコレクションを書き出す。この場合、コレク�
 </li>
 </ol>
 <p>残念ながら、読み込みのように単語帳単位で書き出す方法はありません。</p>
-<h2 id="ankiweb_のオンラインストレージによる同期">AnkiWeb のオンラインストレージによる同期</h2>
+<h3 id="ankiweb_のオンラインストレージによる同期">AnkiWeb のオンラインストレージによる同期</h3>
 <p>AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
 くわしくは、<a href="http://rs.luminousspice.com/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>をご覧下さい。</p>
-<h2 id="itunes_ファイル共有機能による入出力">iTunes ファイル共有機能による入出力</h2>
+<h3 id="itunes_ファイル共有機能による入出力">iTunes ファイル共有機能による入出力</h3>
 <p>iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。</p>
 <p>iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 <a target="_new" href="http://support.apple.com/kb/ht1386?viewlocale=ja_JP">iOS：iTunes とデータを同期する</a>を参考にしてください。</p>
-<h3 id="ankimobile_側の手順">AnkiMobile 側の手順</h3>
+<h4 id="ankimobile_側の手順">AnkiMobile 側の手順</h4>
 <p>単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。</p>
 <div class="imageblock">
 <div class="content">
@@ -256,7 +259,7 @@ iTunes を経由でコレクションを書き出す。この場合、コレク�
 </p>
 </li>
 </ul></div>
-<h3 id="pc_上の_itunes_側の手順">PC 上の iTunes 側の手順</h3>
+<h4 id="pc_上の_itunes_側の手順">PC 上の iTunes 側の手順</h4>
 <p>PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。</p>
 <ol>
 <li>
@@ -286,12 +289,12 @@ iTunes を起動し、画面右上の [iPhone] ボタンをクリックします
 </section>
 <section id="自動バックアップの使い方">
   <div class="page-header">
-    <h1>自動バックアップの使い方</h1>
+    <h2>自動バックアップの使い方</h2>
   </div>
 <p>初期設定では、AnkiMobile は、1 時間毎に自動バックアップファイルを最大 15 個作成しています。
 最後の AnkiWeb との同期の後に復活させたいデータがある場合には利用するのがよいでしょう。</p>
 <p>自動バックアップを使うには、PC と接続して、先に説明した iTunes ファイル共有を使用します。</p>
-<h2 id="復旧手順">復旧手順</h2>
+<h3 id="復旧手順">復旧手順</h3>
 <p>バックアップファイルのファイル名を <code>collection.apkg</code> に変更して、先に説明した要領でデータ入力機能を使って読み込む作業になります。</p>
 <ol>
 <li>
@@ -316,18 +319,18 @@ AnkiMobile の読み込み機能を使って読み込みます。単語帳一覧
 </section>
 <section id="共有リソースの使い方">
   <div class="page-header">
-    <h1>共有リソースの使い方</h1>
+    <h2>共有リソースの使い方</h2>
   </div>
 <p>自作の教材以外に、Anki ユーザーが共有している単語帳を AnkiWeb から入手できます。
 <a href="http://rs.luminousspice.com/ankimobile-survival-guide/">iPhone ユーザーのための AnkiMobile サバイバルガイド</a>のデータ入出力、共有単語帳のインストール手順を説明しています。</p>
 <p>なお AnkiMobile では、Anki PC 版のアドオンプログラムは利用できません。</p>
-<h2 id="共有単語帳の作成">共有単語帳の作成</h2>
+<h3 id="共有単語帳の作成">共有単語帳の作成</h3>
 <p>作成した単語帳データを共有単語帳として公開するには AnkiWeb を通じて行います。この作業は AnkiMobile 内から行うのではなく、ウェブブラウザ上でフォームを送信して行うことができます。
 <a href="http://rs.luminousspice.com/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>でその手順を解説しています。</p>
 </section>
 <section id="カードのデザイン">
   <div class="page-header">
-    <h1>カードのデザイン</h1>
+    <h2>カードのデザイン</h2>
   </div>
 <p>AnkiMobile では、カードのデザインつまりノートタイプの作成編集ができません。
 PC 版 Anki を利用することになります。</p>
@@ -355,7 +358,7 @@ PC 版 Anki を利用することになります。</p>
 </section>
 <section id="データの検索">
   <div class="page-header">
-    <h1>データの検索</h1>
+    <h2>データの検索</h2>
   </div>
 <p>Find Screen (検索画面) を使うとカードを検索できます。
 単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
@@ -375,19 +378,19 @@ PC 版 Anki を利用することになります。</p>
 <div class="title">図 9. 検索結果</div>
 </div>
 <p>検索条件の詳細は<a href="http://rs.luminousspice.com/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>を参考にしてください。検索条件は、AnkiMobile でもそのまま使えます。</p>
-<h2 id="検索結果の注意点">検索結果の注意点</h2>
+<h3 id="検索結果の注意点">検索結果の注意点</h3>
 <p>一つのノート (元になるデータ) から複数のカード作成した場合、Find Screen では区別がつかないので注意してください。
 既定のノートタイプ [Basic (and reversed card)] \(基本 (裏面カード付き)) を指定した場合、表向きと裏向きの 2 枚のカードを表示します。ノートタイプの表示がないため、あたかも同じ項目が重複しているように誤解する可能性があります。</p>
 </section>
 <section id="学習のカスタマイズ">
   <div class="page-header">
-    <h1>学習のカスタマイズ</h1>
+    <h2>学習のカスタマイズ</h2>
   </div>
 <p>単語帳オプションの設定で設定している学習モードをカスタマイズすることができます。
 カスタム学習セッションは、主として単語帳のオプションの上限値を超える学習ができる一時的な学習セッションです。
 フィルター単語帳は、さらにコレクション全体から検索条件に見合うカードを抽出して作成する特別な単語帳です。</p>
 <p>試験前のおさらい、一夜漬けするのに使うと言えば分かりやすいでしょうか。</p>
-<h2 id="カスタム学習セッションの作成">カスタム学習セッションの作成</h2>
+<h3 id="カスタム学習セッションの作成">カスタム学習セッションの作成</h3>
 <p>カスタム学習では、単語帳オプションで指定している学習上限を一時的に緩めて、新たな学習カードを取得します。</p>
 <p>カスタム学習セッションは、[Tools] - [More] - [Custom Study] で設定画面を呼び出して始めます。</p>
 <div class="imageblock">
@@ -399,7 +402,7 @@ PC 版 Anki を利用することになります。</p>
 <p>取得条件、枚数、などの項目を設定した後に、画面右上 [OK] をタップすると作成し、学習セッションが始まります。
 新規カード、復習カードの上限を上げたとき以外は、青字で <code>Custom Study Session</code> という名前の単語帳に取得カードが移動します。
 カスタム学習セッションの学習が終わったカードは、移動したカードも元の単語帳に戻ります。</p>
-<h2 id="フィルター単語帳の作成">フィルター単語帳の作成</h2>
+<h3 id="フィルター単語帳の作成">フィルター単語帳の作成</h3>
 <p>フィルター単語帳とは、コレクション全体から検索条件で選択したカードを学習する特別な単語帳です。
 <a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>で、紹介しているフィルター単語帳の検索条件はそのまま AnkiMobile でも使えますます。</p>
 <p>フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。</p>
@@ -414,7 +417,7 @@ PC 版 Anki を利用することになります。</p>
 <p>青字で <code>Filterd Deck (連番)</code> という名前の単語帳に取得カードが移動します。
 フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。</p>
 <p>復習間隔再設定を無効にすれば、元の単語帳で設定した復習間隔を維持します。</p>
-<h2 id="カスタム学習セッション_フィルター単語帳のアクション">カスタム学習セッション、フィルター単語帳のアクション</h2>
+<h3 id="カスタム学習セッション_フィルター単語帳のアクション">カスタム学習セッション、フィルター単語帳のアクション</h3>
 <p>カスタム学習セッション、フィルター単語帳を開いた状態で次のアクションが利用できます。</p>
 <div class="ulist"><ul>
 <li>
@@ -438,7 +441,7 @@ PC 版 Anki を利用することになります。</p>
 </p>
 </li>
 </ul></div>
-<h2 id="カスタム学習セッション_フィルター単語帳の削除">カスタム学習セッション、フィルター単語帳の削除</h2>
+<h3 id="カスタム学習セッション_フィルター単語帳の削除">カスタム学習セッション、フィルター単語帳の削除</h3>
 <p>不要になったカスタム学習セッション、フィルター単語帳は、単語帳一覧から単語帳名を左にスワイプすると削除できます。
 中にカードが残っている状態で削除すると、カードは元の単語帳に戻ります。</p>
 <div class="imageblock">
@@ -450,7 +453,7 @@ PC 版 Anki を利用することになります。</p>
 </section>
 <section id="統計情報">
   <div class="page-header">
-    <h1>統計情報</h1>
+    <h2>統計情報</h2>
   </div>
 <p>単語帳一覧から単語帳をタップし、左上 [Back] をタップして戻り、画面右上のグラフのボタンを押すと、指定した単語帳の統計情報を表示します。
 画面上部から対象単語帳の範囲、対象期間が指定できます。</p>
@@ -464,11 +467,11 @@ PC 版 Anki を利用することになります。</p>
 </section>
 <section id="ankimobile_固有の話題">
   <div class="page-header">
-    <h1>AnkiMobile 固有の話題</h1>
+    <h2>AnkiMobile 固有の話題</h2>
   </div>
 <p>AnkiMobile 独自の設定や機能について紹介します。
 <a href="http://rs.luminousspice.com/ankimobile-survival-guide/">iPhone ユーザーのための AnkiMobile サバイバルガイド</a>ではユーザーインターフェイスの特徴、オンラインマニュアルやサポートサイトの使い方を説明しています。</p>
-<h2 id="学習オプション">学習オプション</h2>
+<h3 id="学習オプション">学習オプション</h3>
 <p>AnkiMobile 上では、単語帳の学習オプションとして一日の新規カードの上限と復習の上限が設定できます。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。</p>
 <div class="imageblock">
@@ -479,7 +482,7 @@ PC 版 Anki を利用することになります。</p>
 </div>
 <p>Anki と AnkiWeb 経由で同期すると、Anki で設定した更に詳細な学習オプションも設定できます。
 PC 版 Anki を利用した詳細な学習オプションの具体的な設定手順は、<a href="http://rs.luminousspice.com/ankimobile-study-options/">AnkiMobile の学習オプションを最適化する</a>で説明しています。</p>
-<h2 id="環境設定">環境設定</h2>
+<h3 id="環境設定">環境設定</h3>
 <p>単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。
 <a href="http://rs.luminousspice.com/ankimobile-survival-guide/">iPhone ユーザーのための AnkiMobile サバイバルガイド</a>で詳しい設定内容を説明しています。</p>
 <p>この中で一番重要なのは [Review] で指定できるマルチタッチスクリーンのジェスチャへの機能の割り当てです。
@@ -491,7 +494,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
 <div class="title">図 14. 環境設定画面</div>
 </div>
 <p>なお、環境設定の一日の開始時刻の設定は Anki と同期することで変更できます。</p>
-<h2 id="テーマファイルの設定">テーマファイルの設定</h2>
+<h3 id="テーマファイルの設定">テーマファイルの設定</h3>
 <p>AnkiMobile は 2 種類のテーマファイルから好きなテーマを選ぶことができます。
 初期設定では落ち着いた色使いの [Dark] ですが、[Blue] を選択して明るいテーマに変更できます。
 単語帳一覧の画面右上の歯車アイコンをタップし、[Theme] でテーマを選択します。</p>
@@ -510,27 +513,27 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
 </section>
 <section id="ios_システムとの連携">
   <div class="page-header">
-    <h1>iOS システムとの連携</h1>
+    <h2>iOS システムとの連携</h2>
   </div>
 <p>iOS システムが提供する機能を AnkiMobile から直接利用すると Anki に元々ない機能を追加することができます。</p>
-<h2 id="テキストを読み上げる">テキストを読み上げる</h2>
+<h3 id="テキストを読み上げる">テキストを読み上げる</h3>
 <p>カード内のテキストを読み上げる Anki アドオンが有名ですが、AnkiMobile ではアドオンが利用できません。
 このため、
 <a href="http://rs.luminousspice.com/speech-text-on-ankimobile/">iPhone 版 Anki でテキストを読み上げるにはどうするか</a>
 ではシステムの読み上げ機能の使い方と読み上げ機能を持ったノートタイプの使い方を説明しています。</p>
-<h2 id="組み込み辞書の利用">組み込み辞書の利用</h2>
+<h3 id="組み込み辞書の利用">組み込み辞書の利用</h3>
 <p><a href="http://rs.luminousspice.com/start-up-anki-for-iphone-users/">iPhone ユーザーのための Anki のゆるい始めかた</a>では、カード上の選択範囲からシステム組み込み辞書を引く方法を説明しています。</p>
 </section>
 <section id="ユーザーサポート">
   <div class="page-header">
-    <h1>ユーザーサポート</h1>
+    <h2>ユーザーサポート</h2>
   </div>
 <p>この記事よりさらに詳しい使い方や、問題解決のためには、ユーザーマニュアルや無料のサポートフォーラムの利用を検討してください。</p>
 <p>英語でのコミュニケーションになりますが、AnkiMobile の開発者が直接対応していますので、使い方や障害について的確なサポートが受けられます。非公開の質問をすることも出来ます。</p>
-<h2 id="オンラインマニュアル">オンラインマニュアル</h2>
+<h3 id="オンラインマニュアル">オンラインマニュアル</h3>
 <p>単語帳一覧の画面左上 ? のアイコンをクリクすると<a href="http://ankisrs.net/docs/am-manual.html">オンラインマニュアル</a>を開きます。
 サポートフォーラムの対応内容を随時反映して更新しています。</p>
-<h2 id="サポートフォーラム">サポートフォーラム</h2>
+<h3 id="サポートフォーラム">サポートフォーラム</h3>
 <p>サポートフォーラムの中から AnkiMobile ユーザーに関係する項目を紹介します。</p>
 <div class="ulist"><ul>
 <li>
@@ -552,7 +555,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
 </section>
 <section id="おわりに">
   <div class="page-header">
-    <h1>おわりに</h1>
+    <h2>おわりに</h2>
   </div>
 <p>AnkiMobile の設計原則からPC 版 Anki の使い方を理解していれば、<a href="http://rs.luminousspice.com/ankimobile-survival-guide/">iPhone ユーザーのための AnkiMobile サバイバルガイド</a>などを参考にして AnkiMobile のユーザーインターフェイスの特長を理解するだけで、すぐに使いこなすことができます。</p>
 <p>反対に AnkiMobile から使い始めた場合は、使いたい機能や設定を実現するのに Anki の助けを借りる必要あることがなかなか気がつき難いものです。
@@ -560,7 +563,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2014/09/13: 初出</p>
 <p>2014/09/18: 追加: 自動バックアップ、カスタム学習、ユーザーサポート</p>
@@ -568,7 +571,7 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
 <p>2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -589,6 +592,49 @@ PC 版 Anki と強力に差別化できるのはこの設定です。</p>
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/how-to-use-ankimobile\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -597,6 +643,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

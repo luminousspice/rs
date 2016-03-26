@@ -24,7 +24,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;asciidoc_api_のインストール&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AsciiDoc API のインストール&lt;/h1&gt;
+    &lt;h2&gt;AsciiDoc API のインストール&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Pelican で AsciiDoc を利用するには、&lt;a href=&#34;http://www.methods.co.nz/asciidoc/asciidocapi.html&#34;&gt;AsciiDoc API&lt;/a&gt; をインストールする必要があります。
 Markdown を利用するには pip を使ったインストールが可能ですが、AsciiDoc の場合は別途作業になります。&lt;/p&gt;
@@ -35,7 +35,7 @@ Markdown を利用するには pip を使ったインストールが可能です
 &lt;/section&gt;
 &lt;section id=&#34;ユニコードエラーの問題&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ユニコードエラーの問題&lt;/h1&gt;
+    &lt;h2&gt;ユニコードエラーの問題&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;利用している Python 環境によっては、Pelican で日本語の文書を処理した時にユニコードのエラーが発生することがあります。これは既定のエンコーディングが utf-8 になっていないためです。&lt;/p&gt;
 &lt;div class=&#34;listingblock&#34;&gt;

@@ -260,14 +260,14 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb を活用すると複数の機器にまたがって学習を継続できます。コレクションデータをコピーする方法では、コピー先の機器の学習履歴が上書きされてしまいますが、AnkiWeb を経由すると、別々の機器で学習したデータの差分を統合することができます。&lt;/p&gt;
 &lt;p&gt;このサービスを使うには、AnkiWeb でのアカウント作成と、アクセスする機器からの設定が必要になります。それぞれの方法を順を追って解説します。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;登録の方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;登録の方法&lt;/h1&gt;
+    &lt;h2&gt;登録の方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; への登録は全ての機器で共通の作業です。&lt;/p&gt;
 &lt;p&gt;まず、ウェブブラウサーを使って &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;へアクセスし、右上の [Sign Up]ボタンを押します。&lt;/p&gt;
@@ -299,10 +299,10 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;/section&gt;
 &lt;section id=&#34;クライアントの設定&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;クライアントの設定&lt;/h1&gt;
+    &lt;h2&gt;クライアントの設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;お使いになっている Anki アプリケーションから、AnkiWeb へ同期アクセスする設定を説明します。&lt;/p&gt;
-&lt;h2 id=&#34;デスクトップ版の場合&#34;&gt;デスクトップ版の場合&lt;/h2&gt;
+&lt;h3 id=&#34;デスクトップ版の場合&#34;&gt;デスクトップ版の場合&lt;/h3&gt;
 &lt;p&gt;デスクトップ版 Anki の場合は、画面右上の循環する矢印のボタンを押す (ショートカット Y) と、AnkiWeb で作成したアカウントを入力する画面が現れます。
 先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -313,7 +313,7 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 &lt;/div&gt;
 &lt;p&gt;同期の際には、登録情報を使用してアクセスするので、同期の度にアカウント情報を入力することはありません。
 次に、アカウント情報を解除するなど同期機能の詳細設定を説明しましょう。&lt;/p&gt;
-&lt;h3&gt;同期機能の設定&lt;/h3&gt;
+&lt;h4&gt;同期機能の設定&lt;/h4&gt;
 &lt;p&gt;同期機能の設定画面は、環境設定の中にあります。
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -330,12 +330,12 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 [次回の同期は、一方向に変更を強制実行する] を有効にすると、次回の同期は差分のアップデートではなく、サーバー側かクライアント側の情報のどちらかに上書きします。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;アカウント情報の解除&lt;/h3&gt;
+&lt;h4&gt;アカウント情報の解除&lt;/h4&gt;
 &lt;p&gt;AnkiWeb のアカウントが登録済みの場合は、[認証解除] ボタンと登録メールアドレスを表示します。
 登録済みのアカウント情報を取り消すには、[認証解除] ボタンを押します。&lt;/p&gt;
-&lt;h3&gt;同期してみる&lt;/h3&gt;
+&lt;h4&gt;同期してみる&lt;/h4&gt;
 &lt;p&gt;環境設定ウィンドウを閉じて、メインウィンドウ画面右上の循環する矢印のボタンを押す (ショートカット Y) と同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。&lt;/p&gt;
-&lt;h2 id=&#34;ios_アプリ_の場合&#34;&gt;iOS アプリ の場合&lt;/h2&gt;
+&lt;h3 id=&#34;ios_アプリ_の場合&#34;&gt;iOS アプリ の場合&lt;/h3&gt;
 &lt;p&gt;iPhone などで iOS アプリ AnkiMobile Flashcards を使っている場合、
 AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -351,7 +351,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 上でのアカウント設定画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;同期機能の設定&lt;/h3&gt;
+&lt;h4&gt;同期機能の設定&lt;/h4&gt;
 &lt;p&gt;同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -384,12 +384,12 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;アカウント情報の解除&lt;/h3&gt;
+&lt;h4&gt;アカウント情報の解除&lt;/h4&gt;
 &lt;p&gt;AnkiWeb のアカウントが登録済みの場合は、[Deauth] ボタンと登録メールアドレスを表示します。
 登録済みのアカウント情報を取り消すには、[Deauth] ボタンをタップします。&lt;/p&gt;
-&lt;h3&gt;同期してみる&lt;/h3&gt;
+&lt;h4&gt;同期してみる&lt;/h4&gt;
 &lt;p&gt;メインスクリーンまで戻り、右下の [Synchronize] ボタンをタップすると同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。&lt;/p&gt;
-&lt;h2 id=&#34;android_アプリの場合&#34;&gt;Android アプリの場合&lt;/h2&gt;
+&lt;h3 id=&#34;android_アプリの場合&#34;&gt;Android アプリの場合&lt;/h3&gt;
 &lt;p&gt;バージョン毎にユーザーインターフェイスに違いがありますが、現時点での最新安定板 AnkiDroid 2.2.3 を例に説明します。
 AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の循環する矢印ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -409,10 +409,10 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;制限事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;制限事項&lt;/h1&gt;
+    &lt;h2&gt;制限事項&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には、ファイル容量と同時アクセス数に制限があります。通常の使い方をすれば、問題とならない制限です。&lt;/p&gt;
-&lt;h2 id=&#34;容量制限&#34;&gt;容量制限&lt;/h2&gt;
+&lt;h3 id=&#34;容量制限&#34;&gt;容量制限&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 コレクションファイル全体 100MB
@@ -426,12 +426,12 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/ul&gt;
 &lt;p&gt;メディアファイルは、容量全体の制限はありませんが、ファイル毎に制限を設定しています。&lt;/p&gt;
 &lt;p&gt;参考資料 Anki サポート Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/are-there-limits-on-file-sizes-on-ankiweb&#34;&gt;Are there limits on file sizes on AnkiWeb?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;アクセス数制限&#34;&gt;アクセス数制限&lt;/h2&gt;
+&lt;h3 id=&#34;アクセス数制限&#34;&gt;アクセス数制限&lt;/h3&gt;
 &lt;p&gt;一アカウント当たり、同時に一つの機器からしかアクセスできません。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
 呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。&lt;/p&gt;
@@ -440,7 +440,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/08/31: 初出&lt;/p&gt;
 &lt;p&gt;2014/11/26: 追加: 制限事項&lt;/p&gt;
@@ -461,7 +461,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;自動同期しないで起動&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;自動同期しないで起動&lt;/h1&gt;
+    &lt;h2&gt;自動同期しないで起動&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -480,7 +480,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;アドオンを読み込まないで起動&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;アドオンを読み込まないで起動&lt;/h1&gt;
+    &lt;h2&gt;アドオンを読み込まないで起動&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;上の項目と同じようにセーブブートを使う&lt;/p&gt;
 &lt;ol&gt;
@@ -492,7 +492,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;重複カードの検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;重複カードの検索&lt;/h1&gt;
+    &lt;h2&gt;重複カードの検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -509,7 +509,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;延期の手動取消&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;延期の手動取消&lt;/h1&gt;
+    &lt;h2&gt;延期の手動取消&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -529,7 +529,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;カードの学習スケジュールを変更&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カードの学習スケジュールを変更&lt;/h1&gt;
+    &lt;h2&gt;カードの学習スケジュールを変更&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -561,7 +561,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;新規カードの並び替え&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;新規カードの並び替え&lt;/h1&gt;
+    &lt;h2&gt;新規カードの並び替え&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -581,7 +581,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;カードの内容を一括置換&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カードの内容を一括置換&lt;/h1&gt;
+    &lt;h2&gt;カードの内容を一括置換&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -610,7 +610,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;ブラウザーから未使用のタグを削除&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ブラウザーから未使用のタグを削除&lt;/h1&gt;
+    &lt;h2&gt;ブラウザーから未使用のタグを削除&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;ブラウザーのサイドバーから未使用のタグの表示を取り除くには、データベースをチェックして最適化します。&lt;/p&gt;
@@ -622,7 +622,7 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;ノートを追加順に学習&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ノートを追加順に学習&lt;/h1&gt;
+    &lt;h2&gt;ノートを追加順に学習&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;フィルター単語帳の出題方法を  [追加した順番] 設定する。&lt;/p&gt;
@@ -648,11 +648,11 @@ Shift キーを押しながら起動する。
 &lt;/section&gt;
 &lt;section id=&#34;無駄なカード_leech_になっても保留にしない&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;無駄なカード (leech) になっても保留にしない&lt;/h1&gt;
+    &lt;h2&gt;無駄なカード (leech) になっても保留にしない&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;単語帳オプションの [忘却] タブの [無駄なカードの処理] で設定します。&lt;/p&gt;
-&lt;h2 id=&#34;無駄なカードの自動処理の変更&#34;&gt;無駄なカードの自動処理の変更&lt;/h2&gt;
+&lt;h3 id=&#34;無駄なカードの自動処理の変更&#34;&gt;無駄なカードの自動処理の変更&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
@@ -677,11 +677,11 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/section&gt;
 &lt;section id=&#34;裏返しのカードを追加&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;裏返しのカードを追加&lt;/h1&gt;
+    &lt;h2&gt;裏返しのカードを追加&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;ノートタイプに表裏反転したカードタイプを追加する。&lt;/p&gt;
-&lt;h2 id=&#34;ノートタイプを既定_基本_のまま使っている場合&#34;&gt;ノートタイプを既定 [基本] のまま使っている場合&lt;/h2&gt;
+&lt;h3 id=&#34;ノートタイプを既定_基本_のまま使っている場合&#34;&gt;ノートタイプを既定 [基本] のまま使っている場合&lt;/h3&gt;
 &lt;p&gt;ノートタイプを設定したことのない方はこの場合に当てはまります。
 共有単語帳を使っている場合は当てはまらない場合があります。&lt;/p&gt;
 &lt;ol&gt;
@@ -698,9 +698,9 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 裏面カード付きノートタイプを設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;独自のノートタイプを使っている場合&#34;&gt;独自のノートタイプを使っている場合&lt;/h2&gt;
+&lt;h3 id=&#34;独自のノートタイプを使っている場合&#34;&gt;独自のノートタイプを使っている場合&lt;/h3&gt;
 &lt;p&gt;カードレイアウトを使って、表裏反転したカードタイプを追加します。&lt;/p&gt;
-&lt;h3 id=&#34;カードレイアウトの呼び出し方&#34;&gt;カードレイアウトの呼び出し方&lt;/h3&gt;
+&lt;h4 id=&#34;カードレイアウトの呼び出し方&#34;&gt;カードレイアウトの呼び出し方&lt;/h4&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -718,7 +718,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;カードレイアウト設定手順&#34;&gt;カードレイアウト設定手順&lt;/h3&gt;
+&lt;h4 id=&#34;カードレイアウト設定手順&#34;&gt;カードレイアウト設定手順&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 画面右上 [+] ボタンを押して、新規カードタイプを追加する。
@@ -755,7 +755,7 @@ Ankiのメインメニューの単語帳一覧から、設定したい単語帳�
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/03/25: 初出&lt;/p&gt;
 &lt;p&gt;2014/04/17: 追加順に学習、無駄なカードを保留にしない、裏返しのカードを追加&lt;/p&gt;

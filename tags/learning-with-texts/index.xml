@@ -826,7 +826,7 @@ Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わら
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://lwt.sourceforge.net/&#34;&gt;Learning with Texts(LWT)&lt;/a&gt;とは、テキストの読解を基本とした、パブリックドメインの語学学習の分散学習システムです。
@@ -839,7 +839,7 @@ Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わら
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;LWTを使った方法はさらに進んで、一般的な頻出語彙、さらに専門分野の頻出語彙の学習が終了した方に、関心のあるテキストを多読しながら効率的に自動的に未知の語彙を収集し、分散学習へ統合する機能を提供してくれます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;作業環境は、Mac OS X になります。他のプラットフォームをお使いの方は適宜読み替えてください。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;lwtの機能プレビュー&#34; class=&#34;section&#34;&gt;LWTの機能プレビュー&lt;/h2&gt;
+&lt;h3 id=&#34;lwtの機能プレビュー&#34; class=&#34;section&#34;&gt;LWTの機能プレビュー&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;LWTの機能をプレビューできるチュートリアルとしてYouTube動画を参考までに紹介します。
 3:30まで見れば良いです。新規データの登録までの様子を知ることができます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -906,7 +906,7 @@ Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わら
 &lt;/section&gt;
 &lt;section id=&#34;lwtの前提条件&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;LWTの前提条件&lt;/h1&gt;
+    &lt;h2&gt;LWTの前提条件&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;オフィシャルサイトの&lt;a href=&#34;http://lwt.sourceforge.net/#installmac&#34;&gt;インストール情報&lt;/a&gt;では、XAMPP、MAMP、EasyPHPを使った方法を説明していますが、最低限必要な条件は次の通りです。&lt;/p&gt;&lt;/div&gt;
@@ -929,22 +929,22 @@ Firefoxでは、テキスト出力の際にルビ(ふりがな)の機能を使�
 &lt;/section&gt;
 &lt;section id=&#34;lwtの入手方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;LWTの入手方法&lt;/h1&gt;
+    &lt;h2&gt;LWTの入手方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;SourceForgeの &lt;a href=&#34;http://sourceforge.net/projects/lwt/&#34;&gt;Learning with Texts (LWT)&lt;/a&gt; ページからソースコードがダウンロードできます。&lt;/p&gt;&lt;/div&gt;
 &lt;/section&gt;
 &lt;section id=&#34;lwtのインストール方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;LWTのインストール方法&lt;/h1&gt;
+    &lt;h2&gt;LWTのインストール方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;インストールには、MySQLの設定、LWTファイルの配置、LWTの設定ファイル &lt;code&gt;connect.inc.php&lt;/code&gt; の作業が必要です。
 WordPressの実行環境を既に持っていて、WordPressのデータベースを使う場合は、MySQLの設定は不要です。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;mysqlの設定&#34; class=&#34;section&#34;&gt;MySQLの設定&lt;/h2&gt;
+&lt;h3 id=&#34;mysqlの設定&#34; class=&#34;section&#34;&gt;MySQLの設定&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;LWTで利用するデータベースの作成とLWTがデータベースにアクセスするのに使うアカウントとパスワードを設定します。
 例えば、&lt;a href=&#34;http://wpdocs.sourceforge.jp/WordPress_%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB#Step_2:_Create_the_Database_and_a_User&#34;&gt;WordPress のインストール 手順 2： データベースとユーザの作成&lt;/a&gt;が参考になります。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;lwtファイルの配置&#34; class=&#34;section&#34;&gt;LWTファイルの配置&lt;/h2&gt;
+&lt;h3 id=&#34;lwtファイルの配置&#34; class=&#34;section&#34;&gt;LWTファイルの配置&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ウェブサーバのコンテンツのルートに &lt;code&gt;lwt&lt;/code&gt; というディレクトリを作って解凍したダウンロードファイルを配置します
 Mac OS Xの場合は、既定では &lt;code&gt;/Users/[username]/Sites/lwt&lt;/code&gt; になります。&lt;/p&gt;&lt;/div&gt;
@@ -952,7 +952,7 @@ Mac OS Xの場合は、既定では &lt;code&gt;/Users/[username]/Sites/lwt&lt;/
 &lt;/section&gt;
 &lt;section id=&#34;lwtの設定ファイルの編集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;LWTの設定ファイルの編集&lt;/h1&gt;
+    &lt;h2&gt;LWTの設定ファイルの編集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;code&gt;connect_easyphp.inc.php&lt;/code&gt; を複製して　&lt;code&gt;connect.inc.php&lt;/code&gt; という名前で保存します。
@@ -984,7 +984,7 @@ $dbname は、作成したMySQLのデータベース名
 &lt;/section&gt;
 &lt;section id=&#34;アスセス制限の方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;アスセス制限の方法&lt;/h1&gt;
+    &lt;h2&gt;アスセス制限の方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;リモートのサーバー上にLWTを配置した場合、他人に内容が見えてしまうのを避けるにはアクセス制限を掛けます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;div class=&#34;title&#34;&gt;Apacheベーシック認証&lt;/div&gt;&lt;p&gt;ウェブサーバーがApacheの場合には、&lt;code&gt;.htaccess&lt;/code&gt; を使ったベーシック認証を使います。&lt;/p&gt;&lt;/div&gt;
@@ -992,7 +992,7 @@ $dbname は、作成したMySQLのデータベース名
 &lt;/section&gt;
 &lt;section id=&#34;アクセスしてみる&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;アクセスしてみる&lt;/h1&gt;
+    &lt;h2&gt;アクセスしてみる&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;以上の作業が済んだら、LWTにアクセスしてみましょう。
 例えばローカルにインストールしたのであれば、&lt;code&gt;http://localhost/lwt&lt;/code&gt; にアクセスします。&lt;/p&gt;&lt;/div&gt;
@@ -1007,7 +1007,7 @@ $dbname は、作成したMySQLのデータベース名
 &lt;/section&gt;
 &lt;section id=&#34;デモのインストール&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;デモのインストール&lt;/h1&gt;
+    &lt;h2&gt;デモのインストール&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;初めてインストールした場合は、デモをインストールして使い方を理解することもできます。[You may install the LWT demo database]リンクをクリックすると、インストール画面に移動します。&lt;/p&gt;&lt;/div&gt;
@@ -1022,7 +1022,7 @@ $dbname は、作成したMySQLのデータベース名
 &lt;/section&gt;
 &lt;section id=&#34;インストール時のトラブル&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;インストール時のトラブル&lt;/h1&gt;
+    &lt;h2&gt;インストール時のトラブル&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;オフィシャルサイトの&lt;a href=&#34;http://lwt.sourceforge.net/#faq&#34;&gt;Questions and Answers&lt;/a&gt;には、インストール時のトラブルの典型例をまとめています。&lt;/p&gt;&lt;/div&gt;
@@ -1051,7 +1051,7 @@ MySQLが起動していないか、&lt;code&gt;connect.inc.php&lt;/code&gt; の�
 &lt;/section&gt;
 &lt;section id=&#34;まとめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;まとめ&lt;/h1&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;LWTは、ウェブサーバーとMySQLがインストール済みであれば、MySQLのデータベースとアカウントを作って、PHPファイル一つを編集して、その内容を書き込むだけで簡単にインストールできます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;完全なクライアントアプリケーションとして動作するAnkiに比べると、確かにインストールの難易度は高くなります。

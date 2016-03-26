@@ -173,7 +173,7 @@ Anki の復習セッションは、単語帳毎につくられるため、単語
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に飽き足らなくなったかたにこそ iPhone で &lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; を使ってほしいです。
 AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実現する一つのソリューションです。&lt;/p&gt;
@@ -183,7 +183,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 &lt;/section&gt;
 &lt;section id=&#34;さらに細かい条件&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらに細かい条件&lt;/h1&gt;
+    &lt;h2&gt;さらに細かい条件&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;特に効果的だと考えられるのは、瞬時に判断すべき知識を大量に暗記しようとしている人です。
 図、表、音声、単語、文章、数値、記号などを見て、意味、解決策、身体動作などを思い出せるよう訓練している場合です。
@@ -196,7 +196,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 &lt;/section&gt;
 &lt;section id=&#34;マルチタッチスクリーン入力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;マルチタッチスクリーン入力&lt;/h1&gt;
+    &lt;h2&gt;マルチタッチスクリーン入力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile での学習は、マルチタッチスクリーンのジェスチャを使って行います。
 キーボードやマウスを使って学習するよりも、スピード感を持って進められます。&lt;/p&gt;
@@ -206,7 +206,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 片手に iPhone を持っているだけで、毎日の学習に取り組むことが出来ます。
 iPhone6 Plusはまだ持ったことがないので、分かりません。
 iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人を選びますね。&lt;/p&gt;
-&lt;h2 id=&#34;ユーザーインターフェイスのカスタマイズ設定&#34;&gt;ユーザーインターフェイスのカスタマイズ設定&lt;/h2&gt;
+&lt;h3 id=&#34;ユーザーインターフェイスのカスタマイズ設定&#34;&gt;ユーザーインターフェイスのカスタマイズ設定&lt;/h3&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/anki-mastery-settings-review.png&#34; alt=&#34;学習画面の設定&#34; width=&#34;300&#34;&gt;
@@ -261,14 +261,14 @@ iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人�
 &lt;/section&gt;
 &lt;section id=&#34;オプション設定の同期&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;オプション設定の同期&lt;/h1&gt;
+    &lt;h2&gt;オプション設定の同期&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile を新たに導入しても設定し直す必要はありません。&lt;/p&gt;
 &lt;p&gt;PC 版の Anki と AnkiWeb を使って同期すると、単語帳オプションや環境設定オプションも同期し PC 版の設定のまますぐに使えます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;サポート体制&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;サポート体制&lt;/h1&gt;
+    &lt;h2&gt;サポート体制&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile のユーザーサポートは、実際の開発者が直接サポートしているため的確な回答が得られます。
 自動回答メールの内容によれば、スタッフからの初動回答まで平均 8 時間です。&lt;/p&gt;
@@ -290,7 +290,7 @@ iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人�
 &lt;/section&gt;
 &lt;section id=&#34;機能制限&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;機能制限?&lt;/h1&gt;
+    &lt;h2&gt;機能制限?&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile はコンテンツ作成や編集機能に制限が加えられています。
 Anki を使い込んでいる人にとってはそこが物足りないと感じるのは理解できます。&lt;/p&gt;
@@ -303,7 +303,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に慣れた人が AnkiMobile を使い始めてみると、Anki と AnkiMobile の関係は、量産車のワゴンとカスタムメイドのスポーツカーのように思えるかもしれません。
 ひたすら速く学習するために自分用にチューニングされた学習環境を作り出せます。&lt;/p&gt;
@@ -312,7 +312,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;さらにくわしく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -349,7 +349,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には、Anki ユーザーがつくった共有単語帳が分類して共有しています。
 この中に自分の学習したい分野の単語帳が見つかれば、すぐに学習を始めることが出来大変便利です。&lt;/p&gt;
@@ -359,7 +359,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;既成単語帳の注意点&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;既成単語帳の注意点&lt;/h1&gt;
+    &lt;h2&gt;既成単語帳の注意点&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳を自作した場合は、情報源となる書籍やノートなど理解しながら単語帳に登録しているので、
 Anki を使い始める時にはコンテンツの内容と全体像の十分理解できているはずです。
@@ -373,13 +373,13 @@ Anki を使い始める時にはコンテンツの内容と全体像の十分理
 場合によっては教材の質や整合性から復習の正解率も低めになって、
 結局毎日たくさんの復習カードを抱えることになります。&lt;/p&gt;
 &lt;p&gt;テキストデータを一括で読み込んだ自作単語帳も同じ状況が発生しているのではないかと思います。&lt;/p&gt;
-&lt;h2 id=&#34;書籍を元にした共有単語帳&#34;&gt;書籍を元にした共有単語帳&lt;/h2&gt;
+&lt;h3 id=&#34;書籍を元にした共有単語帳&#34;&gt;書籍を元にした共有単語帳&lt;/h3&gt;
 &lt;p&gt;なお、共有単語帳の中には、書籍の内容を元にしたものがあります。
 この場合は、Anki で単語帳の学習を始める前に元の書籍を繰り返し読んで内容理解を深めましょう。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;anki_を利用した事前プレビューのすすめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki を利用した事前プレビューのすすめ&lt;/h1&gt;
+    &lt;h2&gt;Anki を利用した事前プレビューのすすめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki の単語帳データからコンテンツの全体像を通常の学習セッションの中で知ることは困難ですが、
 教材の全体理解を助ける機能を別途用意しています。&lt;/p&gt;
@@ -390,7 +390,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;p&gt;Anki のカードブラウザーのプレビュー機能を使うと、学習セッションを始めなくても、カードの一覧表示から順番にカード内容を表示して確認できます。&lt;/p&gt;
 &lt;p&gt;この機能を使えば、全てのカードの内容を簡単に確認できます。
 5 回くらい繰り返し全てのカードを繰り返し眺めておけば、コンテンツの全体像と内容が理解できると思います。&lt;/p&gt;
-&lt;h2 id=&#34;プレビュー時の確認項目&#34;&gt;プレビュー時の確認項目&lt;/h2&gt;
+&lt;h3 id=&#34;プレビュー時の確認項目&#34;&gt;プレビュー時の確認項目&lt;/h3&gt;
 &lt;p&gt;プレビューの際に気がついたら一緒にやっておきたい作業があります。Anki で学習を始める前に自分にとって使いやすいものか確認しましょう。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -417,12 +417,12 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;/section&gt;
 &lt;section id=&#34;ブラウザー機能の使い方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ブラウザー機能の使い方&lt;/h1&gt;
+    &lt;h2&gt;ブラウザー機能の使い方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のメインウィンドウから、プレビューする単語帳を選択し、さらに画面上部の [ブラウザー] をクリックします。
 ブラウザーが起動したら、[Return] キーを押すか、ウィンドウ上部の検索欄の右にある [検索] ボタンを押します。
 単語帳内のカード一覧が、右上側のパネル内に表示されます。&lt;/p&gt;
-&lt;h2 id=&#34;ブラウザーのプレビュー機能の使い方&#34;&gt;ブラウザーのプレビュー機能の使い方&lt;/h2&gt;
+&lt;h3 id=&#34;ブラウザーのプレビュー機能の使い方&#34;&gt;ブラウザーのプレビュー機能の使い方&lt;/h3&gt;
 &lt;p&gt;先頭項目を選択してウィンドウ上部の [プレビュー] ボタンを押すと、プレビュー画面を表示します。
 (OS X のショートカットは Command+Shift+P)&lt;/p&gt;
 &lt;p&gt;上で紹介した確認項目を調べてみましょう。&lt;/p&gt;
@@ -435,14 +435,14 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;p&gt;ウィンドウ下部の [ &amp;gt; ] ボタンを押すと、一覧の上から下へカードをめくりながら移動します。
 項目を編集したい時は、ブラウザーの表示項目を編集します。&lt;/p&gt;
 &lt;p&gt;なお、ブラウザー機能には学習画面と比較すると一部制限があり、解答キー入力機能などが使えません。&lt;/p&gt;
-&lt;h2 id=&#34;ブラウザーの一覧表示を使った確認&#34;&gt;ブラウザーの一覧表示を使った確認&lt;/h2&gt;
+&lt;h3 id=&#34;ブラウザーの一覧表示を使った確認&#34;&gt;ブラウザーの一覧表示を使った確認&lt;/h3&gt;
 &lt;p&gt;一覧の先頭列を右クリックして、メニューから [質問] と [解答] を選択すると、画面にカードの質問と解答が表示できます。
 単語帳の内容によっては、質問と解答の組をこの一覧の確認で済ませることが出来ます。
 この方法は、カードのレイアウトまでは確認できません。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_を使った事前プレビュー&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile を使った事前プレビュー&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile を使った事前プレビュー&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;iOS アプリの AnkiMobile では、検索画面で共有単語帳のデータ内容を一覧することができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -452,7 +452,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile 検索画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;プレビュー機能も持っているのですが、PC 版のように一覧表示の内容を順番に移動する機能がありません。&lt;/p&gt;
-&lt;h2 id=&#34;カスタム学習によるプレビュー&#34;&gt;カスタム学習によるプレビュー&lt;/h2&gt;
+&lt;h3 id=&#34;カスタム学習によるプレビュー&#34;&gt;カスタム学習によるプレビュー&lt;/h3&gt;
 &lt;p&gt;レイアウトを確認するために、カスタム学習のプレビューの使用します。&lt;/p&gt;
 &lt;p&gt;カスタム学習セッションは、[Tools] - [More] - [Custom Study] で設定画面を呼び出して始めます。
 過去何日分まで遡って新規カードを取得するか数値入力する必要があります。
@@ -475,7 +475,7 @@ Anki に組み込みの標準機能なので、レイアウトも含めてコン
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;共有単語帳はダウンロードしたらすぐ学習を始められる利便性は捨て難いです。
 AnkiWeb に収録しているたくさんの単語帳が Anki の強みであることは疑いないです。&lt;/p&gt;
@@ -496,7 +496,7 @@ AnkiWeb に収録しているたくさんの単語帳が Anki の強みである
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki は、学習履歴やコンテンツについてリアルタイムに色々な情報を取り出せる設計になっています。
 この機能を利用して、ユーザーインターフェイスの至る所に情報を表示しています。&lt;/p&gt;
@@ -508,7 +508,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;復習間隔の表示&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;復習間隔の表示&lt;/h1&gt;
+    &lt;h2&gt;復習間隔の表示&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki は、暗記したカードをどれだけの日数を空ければ覚えているか、その限界を拡張していくソフトです。
 また、毎回の復習時に、記憶している強度を 3 段階で評価して、次の復習間隔に反映しています。&lt;/p&gt;
@@ -544,7 +544,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;セッション中の残り枚数&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;セッション中の残り枚数&lt;/h1&gt;
+    &lt;h2&gt;セッション中の残り枚数&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;セッション中の残り枚数も、誘惑に駆られる情報です。
 時間がない場合や、再学習の枚数が多い時に、まだ十分学習が済んでいないのに、つい妥協してセッションを終わらせたくなってしまいます。&lt;/p&gt;
@@ -565,7 +565,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;設定方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;設定方法&lt;/h1&gt;
+    &lt;h2&gt;設定方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -581,7 +581,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. Anki 環境設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ankimobile_iphone_の場合&#34;&gt;AnkiMobile (iPhone) の場合&lt;/h2&gt;
+&lt;h3 id=&#34;ankimobile_iphone_の場合&#34;&gt;AnkiMobile (iPhone) の場合&lt;/h3&gt;
 &lt;p&gt;iOS アプリを、iPhone、iPad、iPod touch で使っている場合は、
 設定画面を表示するのに画面右上の歯車のアイコンをタップし、[Review] を選択します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -609,7 +609,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. ボタンから復習間隔が消えた&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ankidroid_android_の場合&#34;&gt;AnkiDroid (Android) の場合&lt;/h2&gt;
+&lt;h3 id=&#34;ankidroid_android_の場合&#34;&gt;AnkiDroid (Android) の場合&lt;/h3&gt;
 &lt;p&gt;アンドロイド機器の場合は、画面左上の Anki のアイコンをタップしてドロワーを開き、[設定]-[カードの復習と評価] を選択すると表示します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -644,7 +644,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;復習カードのバックログを抱えたときに一番注意すべきことは、慌てて一気に解消しないことです。
 一気にバックログの解消を図ると、量の多さから復習セッション途中で断念したり、
@@ -658,7 +658,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;最適な学習セッション&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;最適な学習セッション&lt;/h1&gt;
+    &lt;h2&gt;最適な学習セッション&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;無理なく集中して Anki で復習できる一回のセッション時間を自覚できていますか。
 十分な学習履歴があれば、統計情報を手がかりに調べることができます。
@@ -676,7 +676,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;バックログ解消の方針&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;バックログ解消の方針&lt;/h1&gt;
+    &lt;h2&gt;バックログ解消の方針&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;バックログ解消までの一時的に次のような手順で学習します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -701,7 +701,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;バックログの隔離手順&#34;&gt;バックログの隔離手順&lt;/h2&gt;
+&lt;h3 id=&#34;バックログの隔離手順&#34;&gt;バックログの隔離手順&lt;/h3&gt;
 &lt;p&gt;バックログの隔離に&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使います。
 次のように設定します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -734,7 +734,7 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 &lt;/section&gt;
 &lt;section id=&#34;バックログ隔離後の毎日の学習&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;バックログ隔離後の毎日の学習&lt;/h1&gt;
+    &lt;h2&gt;バックログ隔離後の毎日の学習&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;残った本来の単語帳の復習に注力します。再び Anki を毎日学習することに慣れましょう。
 毎日の学習ルーチンが確立したところで、余裕ができたら隔離単語帳に手を付けます。
@@ -742,14 +742,14 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 &lt;/section&gt;
 &lt;section id=&#34;隔離単語帳の使い方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;隔離単語帳の使い方&lt;/h1&gt;
+    &lt;h2&gt;隔離単語帳の使い方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;通常の単語帳の学習が終わって、余裕がある場合だけ一日一つ学習します。&lt;/p&gt;
 &lt;p&gt;普通の単語帳と同じように使います。最適なセッションになるよう分割したので、一度で確実に終了できると思います。
 この単語帳を学習すると、それぞれのカードは次回の復習期日を設定した上で、元の単語帳に戻ります。
 一回セッションを終了すると空になります。使用済みなので削除して構いません。&lt;/p&gt;
 &lt;p&gt;隔離用フィルター単語帳すべてを復習したところでバックログは解消です。&lt;/p&gt;
-&lt;h2 id=&#34;隔離単語帳の注意点&#34;&gt;隔離単語帳の注意点&lt;/h2&gt;
+&lt;h3 id=&#34;隔離単語帳の注意点&#34;&gt;隔離単語帳の注意点&lt;/h3&gt;
 &lt;p&gt;この隔離単語帳を復習する毎に元の単語帳の復習枚数に加算されます。
 毎日隔離単語帳を復習すると、復習カードが積み上ってサイドバックログが発生する危険が生じます。
 例えば、100 枚のカードを復習して正解率 30% なら、翌日の復習カードに 70 枚加算です。&lt;/p&gt;
@@ -757,7 +757,7 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki の使用経験が長ければ統計情報を利用して、自分の最適が学習条件を求めることができます。
 仮に何らかの障害で一時期学習が続けられなくなって、バックログがたまると全ての履歴を初期化したくなるかもしれません。

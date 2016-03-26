@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki は、学習履歴やコンテンツについてリアルタイムに色々な情報を取り出せる設計になっています。
 この機能を利用して、ユーザーインターフェイスの至る所に情報を表示しています。&lt;/p&gt;
@@ -34,7 +34,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;復習間隔の表示&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;復習間隔の表示&lt;/h1&gt;
+    &lt;h2&gt;復習間隔の表示&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki は、暗記したカードをどれだけの日数を空ければ覚えているか、その限界を拡張していくソフトです。
 また、毎回の復習時に、記憶している強度を 3 段階で評価して、次の復習間隔に反映しています。&lt;/p&gt;
@@ -70,7 +70,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;セッション中の残り枚数&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;セッション中の残り枚数&lt;/h1&gt;
+    &lt;h2&gt;セッション中の残り枚数&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;セッション中の残り枚数も、誘惑に駆られる情報です。
 時間がない場合や、再学習の枚数が多い時に、まだ十分学習が済んでいないのに、つい妥協してセッションを終わらせたくなってしまいます。&lt;/p&gt;
@@ -91,7 +91,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;設定方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;設定方法&lt;/h1&gt;
+    &lt;h2&gt;設定方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -107,7 +107,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. Anki 環境設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ankimobile_iphone_の場合&#34;&gt;AnkiMobile (iPhone) の場合&lt;/h2&gt;
+&lt;h3 id=&#34;ankimobile_iphone_の場合&#34;&gt;AnkiMobile (iPhone) の場合&lt;/h3&gt;
 &lt;p&gt;iOS アプリを、iPhone、iPad、iPod touch で使っている場合は、
 設定画面を表示するのに画面右上の歯車のアイコンをタップし、[Review] を選択します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -135,7 +135,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. ボタンから復習間隔が消えた&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ankidroid_android_の場合&#34;&gt;AnkiDroid (Android) の場合&lt;/h2&gt;
+&lt;h3 id=&#34;ankidroid_android_の場合&#34;&gt;AnkiDroid (Android) の場合&lt;/h3&gt;
 &lt;p&gt;アンドロイド機器の場合は、画面左上の Anki のアイコンをタップしてドロワーを開き、[設定]-[カードの復習と評価] を選択すると表示します。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -170,14 +170,14 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb を活用すると複数の機器にまたがって学習を継続できます。コレクションデータをコピーする方法では、コピー先の機器の学習履歴が上書きされてしまいますが、AnkiWeb を経由すると、別々の機器で学習したデータの差分を統合することができます。&lt;/p&gt;
 &lt;p&gt;このサービスを使うには、AnkiWeb でのアカウント作成と、アクセスする機器からの設定が必要になります。それぞれの方法を順を追って解説します。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;登録の方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;登録の方法&lt;/h1&gt;
+    &lt;h2&gt;登録の方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt; への登録は全ての機器で共通の作業です。&lt;/p&gt;
 &lt;p&gt;まず、ウェブブラウサーを使って &lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;へアクセスし、右上の [Sign Up]ボタンを押します。&lt;/p&gt;
@@ -209,10 +209,10 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;クライアントの設定&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;クライアントの設定&lt;/h1&gt;
+    &lt;h2&gt;クライアントの設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;お使いになっている Anki アプリケーションから、AnkiWeb へ同期アクセスする設定を説明します。&lt;/p&gt;
-&lt;h2 id=&#34;デスクトップ版の場合&#34;&gt;デスクトップ版の場合&lt;/h2&gt;
+&lt;h3 id=&#34;デスクトップ版の場合&#34;&gt;デスクトップ版の場合&lt;/h3&gt;
 &lt;p&gt;デスクトップ版 Anki の場合は、画面右上の循環する矢印のボタンを押す (ショートカット Y) と、AnkiWeb で作成したアカウントを入力する画面が現れます。
 先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -223,7 +223,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;同期の際には、登録情報を使用してアクセスするので、同期の度にアカウント情報を入力することはありません。
 次に、アカウント情報を解除するなど同期機能の詳細設定を説明しましょう。&lt;/p&gt;
-&lt;h3&gt;同期機能の設定&lt;/h3&gt;
+&lt;h4&gt;同期機能の設定&lt;/h4&gt;
 &lt;p&gt;同期機能の設定画面は、環境設定の中にあります。
 メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -240,12 +240,12 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 [次回の同期は、一方向に変更を強制実行する] を有効にすると、次回の同期は差分のアップデートではなく、サーバー側かクライアント側の情報のどちらかに上書きします。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;アカウント情報の解除&lt;/h3&gt;
+&lt;h4&gt;アカウント情報の解除&lt;/h4&gt;
 &lt;p&gt;AnkiWeb のアカウントが登録済みの場合は、[認証解除] ボタンと登録メールアドレスを表示します。
 登録済みのアカウント情報を取り消すには、[認証解除] ボタンを押します。&lt;/p&gt;
-&lt;h3&gt;同期してみる&lt;/h3&gt;
+&lt;h4&gt;同期してみる&lt;/h4&gt;
 &lt;p&gt;環境設定ウィンドウを閉じて、メインウィンドウ画面右上の循環する矢印のボタンを押す (ショートカット Y) と同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。&lt;/p&gt;
-&lt;h2 id=&#34;ios_アプリ_の場合&#34;&gt;iOS アプリ の場合&lt;/h2&gt;
+&lt;h3 id=&#34;ios_アプリ_の場合&#34;&gt;iOS アプリ の場合&lt;/h3&gt;
 &lt;p&gt;iPhone などで iOS アプリ AnkiMobile Flashcards を使っている場合、
 AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -261,7 +261,7 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 上でのアカウント設定画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;同期機能の設定&lt;/h3&gt;
+&lt;h4&gt;同期機能の設定&lt;/h4&gt;
 &lt;p&gt;同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -294,12 +294,12 @@ AnkiWeb のアカウント情報を登録するには、起動直後に表示す
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. AnkiMobile 同期設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;アカウント情報の解除&lt;/h3&gt;
+&lt;h4&gt;アカウント情報の解除&lt;/h4&gt;
 &lt;p&gt;AnkiWeb のアカウントが登録済みの場合は、[Deauth] ボタンと登録メールアドレスを表示します。
 登録済みのアカウント情報を取り消すには、[Deauth] ボタンをタップします。&lt;/p&gt;
-&lt;h3&gt;同期してみる&lt;/h3&gt;
+&lt;h4&gt;同期してみる&lt;/h4&gt;
 &lt;p&gt;メインスクリーンまで戻り、右下の [Synchronize] ボタンをタップすると同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。&lt;/p&gt;
-&lt;h2 id=&#34;android_アプリの場合&#34;&gt;Android アプリの場合&lt;/h2&gt;
+&lt;h3 id=&#34;android_アプリの場合&#34;&gt;Android アプリの場合&lt;/h3&gt;
 &lt;p&gt;バージョン毎にユーザーインターフェイスに違いがありますが、現時点での最新安定板 AnkiDroid 2.2.3 を例に説明します。
 AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の循環する矢印ボタンをタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -319,10 +319,10 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;制限事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;制限事項&lt;/h1&gt;
+    &lt;h2&gt;制限事項&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には、ファイル容量と同時アクセス数に制限があります。通常の使い方をすれば、問題とならない制限です。&lt;/p&gt;
-&lt;h2 id=&#34;容量制限&#34;&gt;容量制限&lt;/h2&gt;
+&lt;h3 id=&#34;容量制限&#34;&gt;容量制限&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 コレクションファイル全体 100MB
@@ -336,12 +336,12 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/ul&gt;
 &lt;p&gt;メディアファイルは、容量全体の制限はありませんが、ファイル毎に制限を設定しています。&lt;/p&gt;
 &lt;p&gt;参考資料 Anki サポート Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/are-there-limits-on-file-sizes-on-ankiweb&#34;&gt;Are there limits on file sizes on AnkiWeb?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;アクセス数制限&#34;&gt;アクセス数制限&lt;/h2&gt;
+&lt;h3 id=&#34;アクセス数制限&#34;&gt;アクセス数制限&lt;/h3&gt;
 &lt;p&gt;一アカウント当たり、同時に一つの機器からしかアクセスできません。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
 呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。&lt;/p&gt;
@@ -350,7 +350,7 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/08/31: 初出&lt;/p&gt;
 &lt;p&gt;2014/11/26: 追加: 制限事項&lt;/p&gt;
@@ -369,14 +369,14 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;設定の再確認&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;設定の再確認&lt;/h1&gt;
+    &lt;h2&gt;設定の再確認&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki と AnkiWeb との同期で最初につまづく原因は、AnkiWeb のアカウント作成の失敗していること、Anki や連携して使用する AnkiMobile や AnkiDroid の設定が正しく行われていないことです。&lt;/p&gt;
 &lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;プロキシ認証の失敗_mac_os_x_および_windows&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;プロキシ認証の失敗 (Mac OS X および Windows)&lt;/h1&gt;
+    &lt;h2&gt;プロキシ認証の失敗 (Mac OS X および Windows)&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2014/04/23 更新の &lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/docs/manual.html#proxies&#34;&gt;Anki Manual Proxies&lt;/a&gt;によれば、Mac OS X および Windows 版の Anki ではツールキットの原因で、システム設定からユーザー名とパスワードの取得ができずプロキシ認証に失敗するとのことです。
 このため、Anki を認証が必要なプロキシ経由で同期するには、環境変数 HTTP_PROXY の設定が必要です。&lt;/p&gt;
@@ -387,42 +387,42 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;同期に必須なバージョン&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期に必須なバージョン&lt;/h1&gt;
+    &lt;h2&gt;同期に必須なバージョン&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki サポートサイトの告知、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/60-anki-and-heartbleed&#34;&gt;Anki and Heartbleed&lt;/a&gt; によれば、Heartbleed 問題の対応のため、AnkiWeb と同期して Anki を使い続けるには、Anki 2.0.24 以降に変更になりました。&lt;/p&gt;
-&lt;h2 id=&#34;mac_os_x_10_5_10_6_用代替ビルドを使用している場合&#34;&gt;Mac OS X 10.5, 10.6 用代替ビルドを使用している場合&lt;/h2&gt;
+&lt;h3 id=&#34;mac_os_x_10_5_10_6_用代替ビルドを使用している場合&#34;&gt;Mac OS X 10.5, 10.6 用代替ビルドを使用している場合&lt;/h3&gt;
 &lt;p&gt;Anki サポートサイト Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/problems/syncing-errors-with-older-macs&#34;&gt;Syncing errors with older Macs&lt;/a&gt; によれば、Anki 2.0.30 が必須になりました。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;同期中にタイムアウトが発生する場合&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期中にタイムアウトが発生する場合&lt;/h1&gt;
+    &lt;h2&gt;同期中にタイムアウトが発生する場合&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ファイル容量制限&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ファイル容量制限&lt;/h1&gt;
+    &lt;h2&gt;ファイル容量制限&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;ファイル容量が 100MB を超えるファイルをアップロードすることは出来ません。サーバーエラーが発生します。&lt;/p&gt;
 &lt;p&gt;Anki 2.0.29 Beta 2 (Sep 15) 以降では、100MB を超えるファイルは同期対象外になります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;複数のプロファイルを使用している場合&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;複数のプロファイルを使用している場合&lt;/h1&gt;
+    &lt;h2&gt;複数のプロファイルを使用している場合&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb の特定のアカウントに、特定の機器からは一つのプロファイルだけが接続できます。&lt;/p&gt;
 &lt;p&gt;一つの機器で複数のプロファイルを使っている場合、認証済みのプロファイルを認証解除して、アクセスしたいプロファイルに変更して認証し直します。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;複数の機器からアクセスする場合&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;複数の機器からアクセスする場合&lt;/h1&gt;
+    &lt;h2&gt;複数の機器からアクセスする場合&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;一つのアカウントに同時に複数の機器からアクセスすることはできません。&lt;/p&gt;
 &lt;p&gt;それぞれの機器から順番にアクセスしてください。また、同期中の機器がないか確認してみてください。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;サポートからのよくある回答&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;サポートからのよくある回答&lt;/h1&gt;
+    &lt;h2&gt;サポートからのよくある回答&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のサポートサイトで AnkiWeb の接続障害にする質問に対する、よくある回答は
 アンチウィルス、ファイアウォールなどのセキュリティソフトの設定、VPN ソフトの設定、ISP によるフィルタリングを原因として指摘しています。&lt;/p&gt;
@@ -432,13 +432,13 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;/section&gt;
 &lt;section id=&#34;ankiweb_の障害情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiWeb の障害情報&lt;/h1&gt;
+    &lt;h2&gt;AnkiWeb の障害情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki と同期する AnkiWeb に障害発生により、同期に失敗したり遅延したりする場合があります。&lt;/p&gt;
 &lt;p&gt;最新情報の確認は、Anki サポートサイトの&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements&#34;&gt;Announcements&lt;/a&gt;の告知をご覧下さい。&lt;/p&gt;
 &lt;p&gt;Anki サポートサイトの&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34;&gt;AnkiWeb&lt;/a&gt;カテゴリでは、AnkiWebについて障害報告したり、他のユーザーからの報告を読むことができます合わせてご利用ください。&lt;/p&gt;
-&lt;h2 id=&#34;主な障害情報の履歴&#34;&gt;主な障害情報の履歴&lt;/h2&gt;
-&lt;h3&gt;2015/02/26&lt;/h3&gt;
+&lt;h3 id=&#34;主な障害情報の履歴&#34;&gt;主な障害情報の履歴&lt;/h3&gt;
+&lt;h4&gt;2015/02/26&lt;/h4&gt;
 &lt;p&gt;AnkiWeb サーバーにパフォーマンス上の問題が発生していましたが、2015/03/02 に最終的な復旧報告がありました。&lt;/p&gt;
 &lt;p&gt;Anki サポート情報:&lt;/p&gt;
 &lt;ol&gt;
@@ -452,37 +452,37 @@ AnkiWeb との同期機能の呼び出しは、メインスクリーン右上の
 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb/928-ankiweb-too-busy-right-now&#34;&gt;AnkiWeb too busy right now&lt;/a&gt; (2015/02/26)
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;2014/09/16&lt;/h3&gt;
+&lt;h4&gt;2014/09/16&lt;/h4&gt;
 &lt;p&gt;数時間にわたって発生していたサーバーのメンテナンスエラーが、6時40分過ぎに復旧しました。
 Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb/721-ankiweb-maintenance&#34;&gt;AnkiWeb maintenance?&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;2014/04/04&lt;/h3&gt;
+&lt;h4&gt;2014/04/04&lt;/h4&gt;
 &lt;p&gt;数日前から発生していた AnkiWeb サーバーに発生していたパフォーマンス上の問題を、サーバーのアップグレードで解決しました。
 Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/58-ankiweb-servers-upgraded&#34;&gt;AnkiWeb servers upgraded&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;2013/11/21&lt;/h3&gt;
+&lt;h4&gt;2013/11/21&lt;/h4&gt;
 &lt;p&gt;13時頃から、AnkiWeb サーバーにネットワーク上の問題が発生し、Anki クライアントアプリケーションとの同期ができなくなっていましが、16時20分過ぎに復旧しました。
 Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements/40-ankiweb-problems-again&#34;&gt;AnkiWeb Problems Again&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;anki_の同期に関する修正履歴&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki の同期に関する修正履歴&lt;/h1&gt;
+    &lt;h2&gt;Anki の同期に関する修正履歴&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_固有の問題&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile 固有の問題&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile 固有の問題&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;iOS アプリ &lt;a target=&#34;_new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;ign-mpt=uo%3D4&#34;&gt;AnkiMobile&lt;/a&gt; の過去のバージョンが原因で発生した問題点を紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;同期中にクラッシュ&#34;&gt;同期中にクラッシュ&lt;/h2&gt;
+&lt;h3 id=&#34;同期中にクラッシュ&#34;&gt;同期中にクラッシュ&lt;/h3&gt;
 &lt;p&gt;AnkiMobile 2.0.14 では、AnkiMobile 2.0.13 へ以前のバージョンからアップグレードすると、多数のメディアファイルを同期した場合にアプリケーションがクラッシュする問題を解決しました。&lt;/p&gt;
 &lt;p&gt;参考情報: Anki サポート Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/problems/ankimobile-2013-may-crash-when-syncing&#34;&gt;AnkiMobile 2.0.13 may crash when syncing&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;不要な完全同期を求めるメッセージ&#34;&gt;不要な完全同期を求めるメッセージ&lt;/h2&gt;
+&lt;h3 id=&#34;不要な完全同期を求めるメッセージ&#34;&gt;不要な完全同期を求めるメッセージ&lt;/h3&gt;
 &lt;p&gt;AnkiMobile 2.0.15 では、不要な場合にも完全同期を促すメッセージを表示する問題を修正しました。&lt;/p&gt;
 &lt;p&gt;参考情報: AnkiMobile サポートフォーラム &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile/2117-deck-needs-total-upload-download-all-the-time&#34;&gt;Inconsistent state upload/download messages&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankidroid_固有の問題&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiDroid 固有の問題&lt;/h1&gt;
+    &lt;h2&gt;AnkiDroid 固有の問題&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb との同期の障害が、クライアント側の AnkiDroid が原因で発生する場合もあります。&lt;/p&gt;
 &lt;p&gt;AnkiWeb との同期に必須なバージョンは、AnkiDroid 2.3.2 以降です。&lt;/p&gt;
@@ -493,7 +493,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2013/11/21: 初出&lt;/p&gt;
 &lt;p&gt;2014/04/24: 追加: プロキシ認証失敗、必須条件 2.0.24 以上&lt;/p&gt;
@@ -521,7 +521,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 &lt;/section&gt;
 &lt;section id=&#34;anki_のダウンロードとインストール&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki のダウンロードとインストール&lt;/h1&gt;
+    &lt;h2&gt;Anki のダウンロードとインストール&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki は、デスクトップ PC 版とモバイルデバイス版で機能に違いがあります。
 モバイルデバイス版は主に学習に特化した機能制限版です。
@@ -542,7 +542,7 @@ Anki サポート情報: &lt;a target=&#34;_new&#34; href=&#34;https://anki.tend
 &lt;/section&gt;
 &lt;section id=&#34;デスクトップpcの場合&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;デスクトップPCの場合&lt;/h1&gt;
+    &lt;h2&gt;デスクトップPCの場合&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;デスクトップ PC 版はダウンロードファイルは別々ですが、一つのプロジェクトとして開発していて OS は違ってもドキュメントは共通です。&lt;/p&gt;
 &lt;ul&gt;
@@ -556,7 +556,7 @@ Anki1 からアップグレードする場合は、&lt;a href=&#34;http://rs.lum
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/download/mirror/&#34;&gt;最新版以外のアプリケーションを含むアーカイブ&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;os_x_へインストール&#34;&gt;OS X へインストール&lt;/h2&gt;
+&lt;h3 id=&#34;os_x_へインストール&#34;&gt;OS X へインストール&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 起動中の Anki があれば終了します。
@@ -580,7 +580,7 @@ OS X 版 Anki をお使いになるには、OS X 10.7 以降の Intel Mac が必
 OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate Version) を用意しています。&lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#mac&#34;&gt;ダウンロードページ&lt;/a&gt;の[Alternate Version]というリンクをクリックして入手できます。ダウンロードファイルは &lt;code&gt;anki-2.0.31.qt47.dmg&lt;/code&gt; です。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;windows_へインストール&#34;&gt;Windows へインストール&lt;/h2&gt;
+&lt;h3 id=&#34;windows_へインストール&#34;&gt;Windows へインストール&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#windows&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Windows]ボタンを押し、&lt;code&gt;anki-2.0.31.exe&lt;/code&gt; をダウンロードします。
@@ -592,7 +592,7 @@ OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate 
 デスクトップ上の Anki のショートカットアイコンをダブルクリックすると、Anki は起動します。
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;ubuntu_debian_へインストール&#34;&gt;Ubuntu/Debian へインストール&lt;/h2&gt;
+&lt;h3 id=&#34;ubuntu_debian_へインストール&#34;&gt;Ubuntu/Debian へインストール&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki for Ubuntu/Debian]ボタンを押し、&lt;code&gt;anki-2.0.31.deb&lt;/code&gt; をダウンロードします。
@@ -602,9 +602,9 @@ OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate 
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;: Anki サイトで提供しているバージョンに比べて、Ubuntu/Debian の正式リポジトリに含まれている配布パッケージのバージョンは古いため、Anki サイトから直接アプリケーションを入手することをお勧めします。&lt;/p&gt;
-&lt;h2 id=&#34;fedora_へインストール&#34;&gt;Fedora へインストール&lt;/h2&gt;
+&lt;h3 id=&#34;fedora_へインストール&#34;&gt;Fedora へインストール&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo yum install anki&lt;/code&gt; を実行するだけでインストールできます。&lt;/p&gt;
-&lt;h2 id=&#34;その他の_linux_bsd_システムへインストール&#34;&gt;その他の Linux/BSD システムへインストール&lt;/h2&gt;
+&lt;h3 id=&#34;その他の_linux_bsd_システムへインストール&#34;&gt;その他の Linux/BSD システムへインストール&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#linux&#34;&gt;ダウンロードページ&lt;/a&gt;より[Download Anki Source]ボタンを押し、&lt;code&gt;anki-2.0.31.tgz&lt;/code&gt; をダウンロードします。
@@ -616,13 +616,13 @@ OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate 
 &lt;/section&gt;
 &lt;section id=&#34;モバイルデバイスの場合&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;モバイルデバイスの場合&lt;/h1&gt;
+    &lt;h2&gt;モバイルデバイスの場合&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;モバイルデバイス版のアプリケーションは iOS と Android でそれぞれ別々のプロジェクトで開発しています。
 名称も、iOS 版は AnkiMobile、Android 版は AnkiDroid といったデスクトップ版とは違った名称を使っています。
 必ずしも PC 版と同じ機能が使える訳ではありません。また、バージョン番号も一致していません。
 ドキュメントもそれぞれ独自に作成しており、デスクトップ PC 版のドキュメントがそのまま使える訳ではないことに注意してください。&lt;/p&gt;
-&lt;h2 id=&#34;ios_端末_ipod_touch_ipad_iphone_へ_ankimobile_をインストール&#34;&gt;iOS 端末 (iPod Touch, iPad, iPhone) へ AnkiMobile をインストール&lt;/h2&gt;
+&lt;h3 id=&#34;ios_端末_ipod_touch_ipad_iphone_へ_ankimobile_をインストール&#34;&gt;iOS 端末 (iPod Touch, iPad, iPhone) へ AnkiMobile をインストール&lt;/h3&gt;
 &lt;p&gt;Anki の iOS アプリ AnkiMobile は有料アプリケーションです。
 このアプリケーションを購入すると、将来のAnkiの開発を支援することができます。&lt;/p&gt;
 &lt;p&gt;AnkiMobile は、&lt;a target=&#34;new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;iTunes App Store&lt;/a&gt; から購入できます。&lt;/p&gt;
@@ -635,7 +635,7 @@ OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate 
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/docs/am-upgrade.html&#34;&gt;AnkiMobile2へのアップグレード&lt;/a&gt; (英文)
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;android_端末へ_ankidroid_をインストール&#34;&gt;Android 端末へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;h3 id=&#34;android_端末へ_ankidroid_をインストール&#34;&gt;Android 端末へ AnkiDroid をインストール&lt;/h3&gt;
 &lt;p&gt;AnkiDroid (アンキドロイド) は、Anki の開発者 Damien Elmes とは別のグループが独自に開発している無償のアプリケーションです。&lt;/p&gt;
 &lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://play.google.com/store/apps/details?id=com.ichi2.anki&#34;&gt;Google Play&lt;/a&gt;から入手できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -646,10 +646,10 @@ OS X 10.5、10.6 Intel ユーザーのために代替バージョン (Alternate 
 &lt;a target=&#34;new&#34; href=&#34;http://code.google.com/p/ankidroid/wiki/Upgrading?wl=ja&#34;&gt;AnkiDroid 2.0へのアップグレード方法&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;chromebook_へ_ankidroid_をインストール&#34;&gt;Chromebook へ AnkiDroid をインストール&lt;/h2&gt;
+&lt;h3 id=&#34;chromebook_へ_ankidroid_をインストール&#34;&gt;Chromebook へ AnkiDroid をインストール&lt;/h3&gt;
 &lt;p&gt;AnkiDroid 2.4 以降で Chromebook がサポートされています。&lt;/p&gt;
 &lt;p&gt;AnkiDroid は、&lt;a target=&#34;new&#34; href=&#34;https://chrome.google.com/webstore/detail/ankidroid/ckmbkodkbmkmdjdimeiddeljndcneifo&#34;&gt;Chrome ウェブストア&lt;/a&gt;から入手できます。&lt;/p&gt;
-&lt;h2 id=&#34;その他の端末&#34;&gt;その他の端末&lt;/h2&gt;
+&lt;h3 id=&#34;その他の端末&#34;&gt;その他の端末&lt;/h3&gt;
 &lt;p&gt;その他の端末には専用のクライアントソフトはありませんが &lt;a target=&#34;new&#34; href=&#34;https://ankiweb.net/&#34;&gt;AnkiWeb&lt;/a&gt;が利用できます。
 &lt;a target=&#34;new&#34; href=&#34;http://ankisrs.net/#other&#34;&gt;Ankiサイト&lt;/a&gt;の　Download Anki 項目の Other タブの内容をご覧ください。
 このページでは、携帯電話、Blackberry 端末、Maemo、Windows Phone/Windows Mobile/Windows RT、ニンテンドーDS、Sony PSP、Palm端末の情報を掲載しています。&lt;/p&gt;
@@ -661,20 +661,20 @@ Knowledge Base &lt;a target=&#34;new&#34; href=&#34;https://anki.tenderapp.com/k
 &lt;/section&gt;
 &lt;section id=&#34;anki_のアンインストール&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki のアンインストール&lt;/h1&gt;
+    &lt;h2&gt;Anki のアンインストール&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki のアンインストールをするには、Anki のアプリケーション本体と Anki フォルダー &lt;code&gt;Documents/Anki/&lt;/code&gt; を削除します。
 Anki フォルダーに含まれている単語帳、学習履歴、ユーザープロファイル、バックアップファイルも削除されます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;さっそく_anki_を使ってみよう&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さっそく Anki を使ってみよう&lt;/h1&gt;
+    &lt;h2&gt;さっそく Anki を使ってみよう&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;インストールしてどこから手をつけたら良いか分からない方には、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;をお勧めします。デスクトップPC版を例にして、Ankiの使い方の基本的な流れが体験できます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2013/09/29: 初出&lt;/p&gt;
 &lt;p&gt;2014/04/13: Anki 2.0.24 からの提供ファイルの変更に対応&lt;/p&gt;

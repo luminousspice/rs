@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb の同期機能は、Anki デスクトップ PC 版 と iOS アプリの AnkiMobile 間で学習オプションを同期します。AnkiMobile のユーザーインターフェイスは、PC 版で設定できる項目の一部だけに限定されています。&lt;/p&gt;
 &lt;p&gt;AnkiMobile を単独で利用している場合でも、Anki デスクトップ PC 版 を利用すると自分の学習環境に最適な設定をすることができます。&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_から設定できること&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile から設定できること&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile から設定できること&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile 上で設定できる単語帳の学習オプションは、一日の新規カードの上限と復習の上限です。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。&lt;/p&gt;
@@ -44,7 +44,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;anki_の学習オプション設定画面の呼び出し方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki の学習オプション設定画面の呼び出し方&lt;/h1&gt;
+    &lt;h2&gt;Anki の学習オプション設定画面の呼び出し方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki デスクトップ PC 版で学習オプションを次の手順で呼び出せます。&lt;/p&gt;
 &lt;p&gt;起動直後に表示する単語帳一覧の中から、設定したい単語帳名をクリックするその単語帳のトップページを表示します。(図 2)&lt;/p&gt;
@@ -64,7 +64,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;anki_から設定できる機能内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki から設定できる機能内容&lt;/h1&gt;
+    &lt;h2&gt;Anki から設定できる機能内容&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;タブ [新規カード]、[復習]、[忘却] を選択し、それぞれの学習段階での学習オプションが設定できます。&lt;/p&gt;
 &lt;p&gt;[説明] では、単語帳のトップページの内容を記述することが出来ます。&lt;/p&gt;
@@ -94,16 +94,16 @@
 &lt;/section&gt;
 &lt;section id=&#34;同期機能で設定内容を反映&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期機能で設定内容を反映&lt;/h1&gt;
+    &lt;h2&gt;同期機能で設定内容を反映&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;設定が完了したら、Anki と AnkiWeb を同期します。次に、AnkiMobile から同期を行うと設定が反映されます。&lt;/p&gt;
 &lt;p&gt;同期機能の具体的な使用手順については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h2&gt;
+&lt;h3 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h3&gt;
 &lt;p&gt;AnkiMobile で設定変更した後に、AnkiWeb 経由でデスクトップ PC 用Anki と同期すると、AnkiMobile で変更した内容が PC 側に反映されます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;まとめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;まとめ&lt;/h1&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb は教材や学習履歴以外にも、学習オプションも同期対象になっているので、様々なデバイス間で一貫した学習環境を実現できます。&lt;/p&gt;
 &lt;p&gt;オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。

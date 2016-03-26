@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">Anki ショートカットキー</h1>
   <span class="post-date"><time datetime="2016-01-09T11:20:37Z">2016-01-09</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについて、簡単に役割を説明しながらそこで呼び出せるショートカットをまとめました。AwesomeTTS のショートカットも取り上げます。</p>
 <p>このショートカット集は、Anki の正式なドキュメントの翻訳ではありません。
@@ -645,7 +648,7 @@
 <p>動画再生ウィンドウのショートカットについては、<a href="http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/">Anki の動画再生に使えるショートカットキー</a>をご覧下さい。</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -663,6 +666,49 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/anki-shortcuts\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -671,6 +717,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

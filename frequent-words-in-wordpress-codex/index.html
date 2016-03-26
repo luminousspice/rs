@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">WordPress Codexの英語 WordPress開発者のためのAnki単語帳</h1>
   <span class="post-date"><time datetime="2013-06-03T18:00:58Z">2013-06-03</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="wordpress_codexの英語_wordpress開発者のためのanki単語帳">
 <p>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば、WordPress Codexの使用語句の98%が分かるようになります。</p>
 <div class="sidebarblock well">
@@ -336,7 +339,7 @@ WordPressプロジェクトに関わる全ての方々の努力で、素晴ら�
 日本で暮らして、日本語でコミュニケーションする人が、日本で言うところの「英語の達人」を目指さなくても、WordPress Codexを自分の情報源として活用する方法の一例を紹介しました。</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -354,6 +357,49 @@ WordPressプロジェクトに関わる全ての方々の努力で、素晴ら�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/frequent-words-in-wordpress-codex\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -362,6 +408,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

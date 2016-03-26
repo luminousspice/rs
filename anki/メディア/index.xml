@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最近の外国語の音源付き書籍には、音声データを一分以内に分割して、本文の説明もオーディオブックのように収録しているものもあり重宝しています。ただ残念なことに、データを音楽プレイヤーで苦手なデータだけを繰り返し聴けないことが不自由でした。
 毎日音楽プレイヤーを持ち歩いて復習する時、最初から再生すると、先頭のデータに再生頻度が集中するし、ランダムに再生すると、まだ学習していないデータを先に聞かなければなりません。自分の進度に合わせて少しずつ足していくのも面倒です。
@@ -34,7 +34,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;音声データの取り込み方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声データの取り込み方&lt;/h1&gt;
+    &lt;h2&gt;音声データの取り込み方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;書籍に付属している CD データや専用ダウンロードデータは、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; というアドオンを使うと一括で Anki に登録できます。
 このアドオンは、音楽データを保存しているディレクトリと、埋め込むフィールドを指定すれば、自動的にカードを作ってくれます。&lt;/p&gt;
@@ -65,14 +65,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;学習の進め方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習の進め方&lt;/h1&gt;
+    &lt;h2&gt;学習の進め方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;教材の理解は書籍を読んで行った上で、その理解を Anki で繰り返し復習します。
 実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
-&lt;h2 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h2&gt;
+&lt;h3 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h3&gt;
 &lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
 毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h2&gt;
+&lt;h3 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h3&gt;
 &lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
 何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
 &lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
@@ -87,7 +87,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は Anki の固定観念から外れた使い方を試しているうちに生まれたものです。&lt;/p&gt;
 &lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
@@ -108,14 +108,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
 &lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;注意事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;注意事項&lt;/h1&gt;
+    &lt;h2&gt;注意事項&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事は、Anki のサポート対象外の機能について説明しています。&lt;/p&gt;
 &lt;p&gt;たとえば、Anki サポートフォーラムの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos&#34;&gt;Can I embed Youtube videos?&lt;/a&gt; 、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags&#34;&gt;Embedding external websites with iframe or object html tags&lt;/a&gt;によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。&lt;/p&gt;
@@ -124,7 +124,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;html5_の記述&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;HTML5 の記述&lt;/h1&gt;
+    &lt;h2&gt;HTML5 の記述&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;一番シンプルな書き方は、Anki のメディアフォルダに &lt;code&gt;myvideo.mp4&lt;/code&gt; という動画を表示するなら、次のような HTML の記述をノートに書き込みます。&lt;code&gt;controls&lt;/code&gt; 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。&lt;code&gt;src&lt;/code&gt; 属性は、http サーバー上にあるコンテンツを指定しても動作します。&lt;/p&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -134,7 +134,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;コードの入力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;コードの入力&lt;/h1&gt;
+    &lt;h2&gt;コードの入力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -153,7 +153,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;音声の埋め込み&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声の埋め込み&lt;/h1&gt;
+    &lt;h2&gt;音声の埋め込み&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
 この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。&lt;/p&gt;
@@ -164,7 +164,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;iphone_との連携&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;iPhone との連携&lt;/h1&gt;
+    &lt;h2&gt;iPhone との連携&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。&lt;/p&gt;
 &lt;p&gt;また、iPhone から HTML5 のコードを直接入力しても動作します。&lt;/p&gt;
@@ -185,13 +185,13 @@
 &lt;/section&gt;
 &lt;section id=&#34;同期の注意点&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期の注意点&lt;/h1&gt;
+    &lt;h2&gt;同期の注意点&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事では触れませんでしたが、フィールドではなくテンプレートに HTML5 のコードを直接書き込んでいる場合、iTunes および AnkiWeb 経由ともにメディアファイルの同期が行われません。この場合は、別途メディアファイルを持ち込む操作が必要になります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
 &lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。

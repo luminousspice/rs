@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">静的サイトジェネレータ Pelican で AsciiDoc を使う方法</h1>
   <span class="post-date"><time datetime="2013-12-01T21:00:53Z">2013-12-01</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。AsciiDoc API  のインストール方法と、日本語を処理した時に発生するユニコードエラーの対応について説明しています。</p>
 <p><a href="http://docs.getpelican.com/">Pelican</a> は、Python で書かれた静的なサイトジェネレータです。reStructuredText や Markdown を標準でサポートしています。</p>
@@ -99,7 +102,7 @@
 </section>
 <section id="asciidoc_api_のインストール">
   <div class="page-header">
-    <h1>AsciiDoc API のインストール</h1>
+    <h2>AsciiDoc API のインストール</h2>
   </div>
 <p>Pelican で AsciiDoc を利用するには、<a href="http://www.methods.co.nz/asciidoc/asciidocapi.html">AsciiDoc API</a> をインストールする必要があります。
 Markdown を利用するには pip を使ったインストールが可能ですが、AsciiDoc の場合は別途作業になります。</p>
@@ -110,7 +113,7 @@ Markdown を利用するには pip を使ったインストールが可能です
 </section>
 <section id="ユニコードエラーの問題">
   <div class="page-header">
-    <h1>ユニコードエラーの問題</h1>
+    <h2>ユニコードエラーの問題</h2>
   </div>
 <p>利用している Python 環境によっては、Pelican で日本語の文書を処理した時にユニコードのエラーが発生することがあります。これは既定のエンコーディングが utf-8 になっていないためです。</p>
 <div class="listingblock">
@@ -147,7 +150,7 @@ Done: Processed 1 articles and 0 pages in 0.40 seconds.
 ここから先は、他のマークアップ言語と同じようにドキュメントの内容に従って使いこなしてください。</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -165,6 +168,49 @@ Done: Processed 1 articles and 0 pages in 0.40 seconds.
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/pelican_with_asciidoc\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -173,6 +219,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

@@ -23,7 +23,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;コレクションデータの破損と確認&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;コレクションデータの破損と確認&lt;/h1&gt;
+    &lt;h2&gt;コレクションデータの破損と確認&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;メニューバーから[ツール]&amp;gt;[データベースをチェック]を実行すると、データが破損していないか確認できます。&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;修復作業の準備&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;修復作業の準備&lt;/h1&gt;
+    &lt;h2&gt;修復作業の準備&lt;/h2&gt;
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -67,10 +67,10 @@ Windowsの場合は、&lt;a href=&#34;http://www.sqlite.org/download.html&#34; t
 &lt;/section&gt;
 &lt;section id=&#34;コレクションファイルのダンプ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;コレクションファイルのダンプ&lt;/h1&gt;
+    &lt;h2&gt;コレクションファイルのダンプ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;SQLite3のコマンドラインシェルを使って、コレクションのダンプファイルを作ります。作業に使用するプラットフォームによって手順が異なりますのでご注意ください。&lt;/p&gt;
-&lt;h2 id=&#34;mac_os_x_または_linuxの場合&#34;&gt;Mac OS X または Linuxの場合&lt;/h2&gt;
+&lt;h3 id=&#34;mac_os_x_または_linuxの場合&#34;&gt;Mac OS X または Linuxの場合&lt;/h3&gt;
 &lt;p&gt;ターミナルを開き、Ankiフォルダーの中のプロファイルフォルダーに移動して次のコマンドを実行します。&lt;/p&gt;
 &lt;pre&gt;sqlite3 collection.anki2 .dump &amp;gt; dump.txt&lt;/pre&gt;
 &lt;p&gt;生成したファイル &lt;code&gt;dump.txt&lt;/code&gt; をテキストエディタで開きます。
@@ -78,7 +78,7 @@ Windowsの場合は、&lt;a href=&#34;http://www.sqlite.org/download.html&#34; t
 &lt;p&gt;さらに、ターミナルで次のコマンドを実行します。&lt;/p&gt;
 &lt;pre&gt;cat dump.txt | sqlite3 temp.file&lt;/pre&gt;
 &lt;p&gt;注意: コレクションファイルを上書きせず、必ず &lt;code&gt;temp.file&lt;/code&gt; とテンポラリーファイルを指定してください。&lt;/p&gt;
-&lt;h2 id=&#34;windowsの場合&#34;&gt;Windowsの場合&lt;/h2&gt;
+&lt;h3 id=&#34;windowsの場合&#34;&gt;Windowsの場合&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 ダウンロードしたSqliteファイルを解凍すると、&lt;code&gt;sqlite3.exe&lt;/code&gt; が生成します。これをAnkiフォルダーの中のプロファイルフォルダーにコピーします。
@@ -97,7 +97,7 @@ Windowsの場合は、&lt;a href=&#34;http://www.sqlite.org/download.html&#34; t
 &lt;/section&gt;
 &lt;section id=&#34;ankiに読み込む&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Ankiに読み込む&lt;/h1&gt;
+    &lt;h2&gt;Ankiに読み込む&lt;/h2&gt;
   &lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -114,7 +114,7 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2013/10/16: Anki 2.0.14のリリースと同時に行われた&lt;a href=&#34;http://ankisrs.net/docs/manual.html#corrupt-collections&#34; target=&#34;_new&#34;&gt;マニュアル&lt;/a&gt;の変更に基づいて、内容を更新しました。&lt;/p&gt;
 &lt;p&gt;2013/7/6: 初出&lt;/p&gt;

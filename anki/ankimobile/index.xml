@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最近の外国語の音源付き書籍には、音声データを一分以内に分割して、本文の説明もオーディオブックのように収録しているものもあり重宝しています。ただ残念なことに、データを音楽プレイヤーで苦手なデータだけを繰り返し聴けないことが不自由でした。
 毎日音楽プレイヤーを持ち歩いて復習する時、最初から再生すると、先頭のデータに再生頻度が集中するし、ランダムに再生すると、まだ学習していないデータを先に聞かなければなりません。自分の進度に合わせて少しずつ足していくのも面倒です。
@@ -34,7 +34,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;音声データの取り込み方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声データの取り込み方&lt;/h1&gt;
+    &lt;h2&gt;音声データの取り込み方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;書籍に付属している CD データや専用ダウンロードデータは、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; というアドオンを使うと一括で Anki に登録できます。
 このアドオンは、音楽データを保存しているディレクトリと、埋め込むフィールドを指定すれば、自動的にカードを作ってくれます。&lt;/p&gt;
@@ -65,14 +65,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;学習の進め方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習の進め方&lt;/h1&gt;
+    &lt;h2&gt;学習の進め方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;教材の理解は書籍を読んで行った上で、その理解を Anki で繰り返し復習します。
 実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
-&lt;h2 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h2&gt;
+&lt;h3 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h3&gt;
 &lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
 毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h2&gt;
+&lt;h3 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h3&gt;
 &lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
 何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
 &lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
@@ -87,7 +87,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は Anki の固定観念から外れた使い方を試しているうちに生まれたものです。&lt;/p&gt;
 &lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
@@ -109,10 +109,10 @@
 &lt;/section&gt;
 &lt;section id=&#34;学習セッションが体感と異なる長さになる&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習セッションが体感と異なる長さになる&lt;/h1&gt;
+    &lt;h2&gt;学習セッションが体感と異なる長さになる&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;学習に関する時間や時刻の設定が重複する場合に、予想とは異なるセッション時間を体感する場合があります。まずそれぞれの設定内容を確認していきましょう。&lt;/p&gt;
-&lt;h2 id=&#34;学習ステップ&#34;&gt;学習ステップ&lt;/h2&gt;
+&lt;h3 id=&#34;学習ステップ&#34;&gt;学習ステップ&lt;/h3&gt;
 &lt;p&gt;学習ステップは、単語帳毎に指定する項目です。
 新たに学習するカードの学習セッションでは、初回の表示で、正解であれば 1 分後と 10 分後に復習する学習ステップが初期値です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -130,7 +130,7 @@
 &lt;div class=&#34;title&#34;&gt;図 2. 学習オプション 忘却&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面下の [オプション] ボタンを押して設定画面を開きます。&lt;/p&gt;
-&lt;h2 id=&#34;先取り学習&#34;&gt;先取り学習&lt;/h2&gt;
+&lt;h3 id=&#34;先取り学習&#34;&gt;先取り学習&lt;/h3&gt;
 &lt;p&gt;先取り学習とは、指定した時間 (分単位) 以内に期日の達するカードがあれば、学習セッションに追加する機能です。&lt;/p&gt;
 &lt;p&gt;この機能によって、学習セッションが断続した細切れの時間になることを防ぎます。初期値は 20 分です。&lt;/p&gt;
 &lt;p&gt;先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[先取り学習の限度] に時間を指定します。(図 3)&lt;/p&gt;
@@ -140,11 +140,11 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 環境設定 基本&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;一日の開始時刻&#34;&gt;一日の開始時刻&lt;/h2&gt;
+&lt;h3 id=&#34;一日の開始時刻&#34;&gt;一日の開始時刻&lt;/h3&gt;
 &lt;p&gt;その日新たに期日に達するカードが発生する時刻を指定できます。
 夜型の人のための機能ですね。&lt;/p&gt;
 &lt;p&gt;先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[一日の開始] に時間を指定します。(図 3)&lt;/p&gt;
-&lt;h2 id=&#34;体感より早くセッションが終わる&#34;&gt;体感より早くセッションが終わる&lt;/h2&gt;
+&lt;h3 id=&#34;体感より早くセッションが終わる&#34;&gt;体感より早くセッションが終わる&lt;/h3&gt;
 &lt;p&gt;解答ボタンの上に表示する時間を確認しながら、学習セッションをしている時に、
 まだ後で学習すべきカードが残っているはずなのに突然終わってしまうことがあります。
 多くの場合は、先取り学習の設定が原因です。&lt;/p&gt;
@@ -154,7 +154,7 @@
 この機能によって、学習セッションが小出しにでてくる煩雑さが解放される利点もあります。また、統計情報を見ると期日に達したカードが計上されているのに出題されない状態を避けることが出来ます。&lt;/p&gt;
 &lt;p&gt;結局のところは、表示する情報から判断すると直感に反するようですが、実用的な理由から使いやすくなるように処理しているのです。&lt;/p&gt;
 &lt;p&gt;厳密に 10 分のインターバルを設定したい場合は、先取り学習の限度の設定を変更します。&lt;/p&gt;
-&lt;h2 id=&#34;体感よりセッションが長くなる&#34;&gt;体感よりセッションが長くなる&lt;/h2&gt;
+&lt;h3 id=&#34;体感よりセッションが長くなる&#34;&gt;体感よりセッションが長くなる&lt;/h3&gt;
 &lt;p&gt;一日の開始時刻と先取り学習の限度が重なっている場合に発生します。
 図 3 の例だと 03:40 以降に学習セッションを続けると翌日分のカードが加算されます。
 突然カードが増えて、いつもの倍以上のノルマをこなしたような体感がします。&lt;/p&gt;
@@ -162,7 +162,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;無駄なカードの判定で学習中のカードが消える&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;無駄なカードの判定で学習中のカードが消える&lt;/h1&gt;
+    &lt;h2&gt;無駄なカードの判定で学習中のカードが消える&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;初期値では 8 回忘却したカードは、保留扱いとなって復習カードから除外されます。
 学習セッションからも除かれます。&lt;/p&gt;
@@ -179,7 +179,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;延長処理で復習カードの枚数が減る&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;延長処理で復習カードの枚数が減る&lt;/h1&gt;
+    &lt;h2&gt;延長処理で復習カードの枚数が減る&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;同じノートから作った複数のカードを作った場合、同じセッション内に一枚出題すると残りのカードの答えが分かってしまうため、残りのカードは翌日まで出題を延長します。&lt;/p&gt;
 &lt;p&gt;この処理は、最初の一枚を出題した時に行われるため、あたかもセッション中復習カード枚数が減ったように感じられます。&lt;/p&gt;
@@ -207,7 +207,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;日本語の共有単語帳を見つけやすく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;日本語の共有単語帳を見つけやすく&lt;/h1&gt;
+    &lt;h2&gt;日本語の共有単語帳を見つけやすく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;AnkiWeb に登録されている単語帳一覧&lt;/a&gt;は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。&lt;/p&gt;
@@ -215,7 +215,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳検索&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;table id=&#34;decklist&#34; class=&#34;display&#34; frame=&#34;hsides&#34;&gt; 
 &lt;colgroup&gt;
@@ -1063,7 +1063,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+&lt;h3 id=&#34;使い方&#34;&gt;使い方&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 右上検索欄にキーワードを入力すると、情報を絞り込みます。
@@ -1081,7 +1081,7 @@
 上部のドロップダウンから一度に表示する項目数を選択できます。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
@@ -1093,7 +1093,7 @@
 外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 共有単語帳の使い方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;をご覧下さい。
@@ -1108,11 +1108,11 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳への検索リンク集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳への検索リンク集&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳への検索リンク集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
 日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
@@ -1121,7 +1121,7 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;言語&#34;&gt;言語&lt;/h2&gt;
+&lt;h3 id=&#34;言語&#34;&gt;言語&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1240,7 +1240,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;人文社会&#34;&gt;人文社会&lt;/h2&gt;
+&lt;h3 id=&#34;人文社会&#34;&gt;人文社会&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1323,7 +1323,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;科学技術&#34;&gt;科学技術&lt;/h2&gt;
+&lt;h3 id=&#34;科学技術&#34;&gt;科学技術&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1413,7 +1413,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2015/02/17: 初出&lt;/p&gt;
 &lt;p&gt;2015/02/26: 追加: 人文社会、科学技術&lt;/p&gt;
@@ -1434,7 +1434,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb の同期機能は、Anki デスクトップ PC 版 と iOS アプリの AnkiMobile 間で学習オプションを同期します。AnkiMobile のユーザーインターフェイスは、PC 版で設定できる項目の一部だけに限定されています。&lt;/p&gt;
 &lt;p&gt;AnkiMobile を単独で利用している場合でも、Anki デスクトップ PC 版 を利用すると自分の学習環境に最適な設定をすることができます。&lt;/p&gt;
@@ -1442,7 +1442,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_から設定できること&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile から設定できること&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile から設定できること&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile 上で設定できる単語帳の学習オプションは、一日の新規カードの上限と復習の上限です。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。&lt;/p&gt;
@@ -1456,7 +1456,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;anki_の学習オプション設定画面の呼び出し方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki の学習オプション設定画面の呼び出し方&lt;/h1&gt;
+    &lt;h2&gt;Anki の学習オプション設定画面の呼び出し方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki デスクトップ PC 版で学習オプションを次の手順で呼び出せます。&lt;/p&gt;
 &lt;p&gt;起動直後に表示する単語帳一覧の中から、設定したい単語帳名をクリックするその単語帳のトップページを表示します。(図 2)&lt;/p&gt;
@@ -1476,7 +1476,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;anki_から設定できる機能内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki から設定できる機能内容&lt;/h1&gt;
+    &lt;h2&gt;Anki から設定できる機能内容&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;タブ [新規カード]、[復習]、[忘却] を選択し、それぞれの学習段階での学習オプションが設定できます。&lt;/p&gt;
 &lt;p&gt;[説明] では、単語帳のトップページの内容を記述することが出来ます。&lt;/p&gt;
@@ -1506,16 +1506,16 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;同期機能で設定内容を反映&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期機能で設定内容を反映&lt;/h1&gt;
+    &lt;h2&gt;同期機能で設定内容を反映&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;設定が完了したら、Anki と AnkiWeb を同期します。次に、AnkiMobile から同期を行うと設定が反映されます。&lt;/p&gt;
 &lt;p&gt;同期機能の具体的な使用手順については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h2&gt;
+&lt;h3 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h3&gt;
 &lt;p&gt;AnkiMobile で設定変更した後に、AnkiWeb 経由でデスクトップ PC 用Anki と同期すると、AnkiMobile で変更した内容が PC 側に反映されます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;まとめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;まとめ&lt;/h1&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb は教材や学習履歴以外にも、学習オプションも同期対象になっているので、様々なデバイス間で一貫した学習環境を実現できます。&lt;/p&gt;
 &lt;p&gt;オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。

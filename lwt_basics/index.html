@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">はじめてのLWT 基本的な使い方</h1>
   <span class="post-date"><time datetime="2013-07-20T23:00:39Z">2013-07-20</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <p><section id="preamble">
 <div class="paragraph"><p><strong>連載: はじめてのLearning with Texts(LWT)</strong></p></div>
 <div class="paragraph"><p><strong>第2回目 Learning with Texts(LWT) 基本的な使い方</strong></p></div>
@@ -408,7 +411,7 @@ Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わら
 このため、LWTを経由すると色々な作業がクリック一つで代行でき、データ作成を効率化することができます。</p></div>
 <div class="paragraph"><p>次回は<a href="http://rs.luminousspice.com/how_to_export_for_anki/">実際にデータ出力し、Ankiへ読み込む方法</a>を紹介します。</p></div></p>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -426,6 +429,49 @@ Status 5の場合は、[Got it!]をクリックしてもStatusの値は変わら
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/lwt_basics\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -434,6 +480,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

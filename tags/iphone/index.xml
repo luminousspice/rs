@@ -178,14 +178,14 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
 &lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;注意事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;注意事項&lt;/h1&gt;
+    &lt;h2&gt;注意事項&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事は、Anki のサポート対象外の機能について説明しています。&lt;/p&gt;
 &lt;p&gt;たとえば、Anki サポートフォーラムの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos&#34;&gt;Can I embed Youtube videos?&lt;/a&gt; 、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags&#34;&gt;Embedding external websites with iframe or object html tags&lt;/a&gt;によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。&lt;/p&gt;
@@ -194,7 +194,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;html5_の記述&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;HTML5 の記述&lt;/h1&gt;
+    &lt;h2&gt;HTML5 の記述&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;一番シンプルな書き方は、Anki のメディアフォルダに &lt;code&gt;myvideo.mp4&lt;/code&gt; という動画を表示するなら、次のような HTML の記述をノートに書き込みます。&lt;code&gt;controls&lt;/code&gt; 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。&lt;code&gt;src&lt;/code&gt; 属性は、http サーバー上にあるコンテンツを指定しても動作します。&lt;/p&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -204,7 +204,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;コードの入力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;コードの入力&lt;/h1&gt;
+    &lt;h2&gt;コードの入力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -223,7 +223,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;音声の埋め込み&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声の埋め込み&lt;/h1&gt;
+    &lt;h2&gt;音声の埋め込み&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
 この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。&lt;/p&gt;
@@ -234,7 +234,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;iphone_との連携&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;iPhone との連携&lt;/h1&gt;
+    &lt;h2&gt;iPhone との連携&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。&lt;/p&gt;
 &lt;p&gt;また、iPhone から HTML5 のコードを直接入力しても動作します。&lt;/p&gt;
@@ -255,13 +255,13 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;同期の注意点&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期の注意点&lt;/h1&gt;
+    &lt;h2&gt;同期の注意点&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事では触れませんでしたが、フィールドではなくテンプレートに HTML5 のコードを直接書き込んでいる場合、iTunes および AnkiWeb 経由ともにメディアファイルの同期が行われません。この場合は、別途メディアファイルを持ち込む操作が必要になります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
 &lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。
@@ -281,7 +281,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;日本語の共有単語帳を見つけやすく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;日本語の共有単語帳を見つけやすく&lt;/h1&gt;
+    &lt;h2&gt;日本語の共有単語帳を見つけやすく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb には言語に限らず幅広い分野にわたって単語帳が登録されていますが、日本語ユーザーにとっては必要な単語帳の情報を取り出す手立てを標準の機能からは期待できないのが現状です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;AnkiWeb に登録されている単語帳一覧&lt;/a&gt;は、登録数の多い英語表記の単語帳に限定されています。日本語の情報を見つけるには検索する以外に表示する方法がありません。日本語をキーワードに検索することもできますが、日本語ユーザーにとってはなかなか気がつきにくい仕組みになっています。また、AnkiWeb は API を公開していないため第三者による独自の検索用ユーザーインターフェイスを作ることが出来ません。&lt;/p&gt;
@@ -289,7 +289,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳検索&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳検索&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳検索&lt;/h2&gt;
   &lt;/div&gt;
 &lt;table id=&#34;decklist&#34; class=&#34;display&#34; frame=&#34;hsides&#34;&gt; 
 &lt;colgroup&gt;
@@ -1137,7 +1137,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+&lt;h3 id=&#34;使い方&#34;&gt;使い方&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 右上検索欄にキーワードを入力すると、情報を絞り込みます。
@@ -1155,7 +1155,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 上部のドロップダウンから一度に表示する項目数を選択できます。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;注意事項&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
@@ -1167,7 +1167,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳を使う時の参考に&#34;&gt;共有単語帳を使う時の参考に&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 共有単語帳の使い方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;をご覧下さい。
@@ -1182,11 +1182,11 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 &lt;/section&gt;
 &lt;section id=&#34;共有単語帳への検索リンク集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;共有単語帳への検索リンク集&lt;/h1&gt;
+    &lt;h2&gt;共有単語帳への検索リンク集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;更に詳しく AnkiWeb の登録内容を調べるために、日本語での分類項目に対応する検索リンクをまとめました。
 日本語の説明がなくても図や音声など役立つデータを含んでいる場合もありますので、英語キーワードもあわせて紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h2&gt;
+&lt;h3 id=&#34;注意事項_2&#34;&gt;注意事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 タイトルやタグに日本語が使われていれば、日本語を母語とする人を対象としたコンテンツだろうと判断しています。一つ一つの単語帳を確認した訳ではないことはご容赦ください。
@@ -1195,7 +1195,7 @@ Anki の使い方に慣れた方に向けて、共有単語帳利用の注意点
 AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳登録時に設定するタグ (Tags; ユーザーからは見えません) を対象としています。それぞれの単語帳の説明 (Description) は現時点では対象となっていません。
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;言語&#34;&gt;言語&lt;/h2&gt;
+&lt;h3 id=&#34;言語&#34;&gt;言語&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1314,7 +1314,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;人文社会&#34;&gt;人文社会&lt;/h2&gt;
+&lt;h3 id=&#34;人文社会&#34;&gt;人文社会&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1397,7 +1397,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;科学技術&#34;&gt;科学技術&lt;/h2&gt;
+&lt;h3 id=&#34;科学技術&#34;&gt;科学技術&lt;/h3&gt;
 &lt;table class=&#34;table table-striped&#34; width=&#34;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;4&#34; frame=&#34;hsides&#34; rules=&#34;rows&#34;&gt;
 &lt;colgroup&gt;
 &lt;col class=&#34;span2&#34;&gt;
@@ -1487,7 +1487,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2015/02/17: 初出&lt;/p&gt;
 &lt;p&gt;2015/02/26: 追加: 人文社会、科学技術&lt;/p&gt;
@@ -1508,7 +1508,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb の同期機能は、Anki デスクトップ PC 版 と iOS アプリの AnkiMobile 間で学習オプションを同期します。AnkiMobile のユーザーインターフェイスは、PC 版で設定できる項目の一部だけに限定されています。&lt;/p&gt;
 &lt;p&gt;AnkiMobile を単独で利用している場合でも、Anki デスクトップ PC 版 を利用すると自分の学習環境に最適な設定をすることができます。&lt;/p&gt;
@@ -1516,7 +1516,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;ankimobile_から設定できること&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;AnkiMobile から設定できること&lt;/h1&gt;
+    &lt;h2&gt;AnkiMobile から設定できること&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile 上で設定できる単語帳の学習オプションは、一日の新規カードの上限と復習の上限です。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。&lt;/p&gt;
@@ -1530,7 +1530,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;anki_の学習オプション設定画面の呼び出し方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki の学習オプション設定画面の呼び出し方&lt;/h1&gt;
+    &lt;h2&gt;Anki の学習オプション設定画面の呼び出し方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki デスクトップ PC 版で学習オプションを次の手順で呼び出せます。&lt;/p&gt;
 &lt;p&gt;起動直後に表示する単語帳一覧の中から、設定したい単語帳名をクリックするその単語帳のトップページを表示します。(図 2)&lt;/p&gt;
@@ -1550,7 +1550,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;anki_から設定できる機能内容&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Anki から設定できる機能内容&lt;/h1&gt;
+    &lt;h2&gt;Anki から設定できる機能内容&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;タブ [新規カード]、[復習]、[忘却] を選択し、それぞれの学習段階での学習オプションが設定できます。&lt;/p&gt;
 &lt;p&gt;[説明] では、単語帳のトップページの内容を記述することが出来ます。&lt;/p&gt;
@@ -1580,16 +1580,16 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
 &lt;/section&gt;
 &lt;section id=&#34;同期機能で設定内容を反映&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期機能で設定内容を反映&lt;/h1&gt;
+    &lt;h2&gt;同期機能で設定内容を反映&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;設定が完了したら、Anki と AnkiWeb を同期します。次に、AnkiMobile から同期を行うと設定が反映されます。&lt;/p&gt;
 &lt;p&gt;同期機能の具体的な使用手順については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h2&gt;
+&lt;h3 id=&#34;同期する際の注意点&#34;&gt;同期する際の注意点&lt;/h3&gt;
 &lt;p&gt;AnkiMobile で設定変更した後に、AnkiWeb 経由でデスクトップ PC 用Anki と同期すると、AnkiMobile で変更した内容が PC 側に反映されます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;まとめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;まとめ&lt;/h1&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiWeb は教材や学習履歴以外にも、学習オプションも同期対象になっているので、様々なデバイス間で一貫した学習環境を実現できます。&lt;/p&gt;
 &lt;p&gt;オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。

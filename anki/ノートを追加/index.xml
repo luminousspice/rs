@@ -584,7 +584,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -625,7 +625,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/section&gt;
 &lt;section id=&#34;重要な機能の呼び出し場所&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;重要な機能の呼び出し場所&lt;/h1&gt;
+    &lt;h2&gt;重要な機能の呼び出し場所&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;再びインストール直後の画面に戻ります。重要なのは 3 か所です。&lt;/p&gt;
 &lt;ol&gt;
@@ -650,7 +650,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/section&gt;
 &lt;section id=&#34;マニュアルとサポート&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;マニュアルとサポート&lt;/h1&gt;
+    &lt;h2&gt;マニュアルとサポート&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面左上 ? をタップすると、マニュアルを表示できます。
 AnkiMobile を使うのに必要なことが全て記載されています。&lt;/p&gt;
@@ -660,7 +660,7 @@ AnkiMobile を使うのに必要なことが全て記載されています。&lt
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. マニュアルを表示&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;サポート&#34;&gt;サポート&lt;/h2&gt;
+&lt;h3 id=&#34;サポート&#34;&gt;サポート&lt;/h3&gt;
 &lt;p&gt;iPhone ユーザーにとってサポートサイトに問題があります。iPhoneの解像度に対応した画面ではないので、必要な項目が見つけにくいのです。
 AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -689,7 +689,7 @@ AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります
 &lt;/section&gt;
 &lt;section id=&#34;環境設定&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;環境設定&lt;/h1&gt;
+    &lt;h2&gt;環境設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面右上の歯車のアイコンをタップすると環境設定画面が開きます。
 画面左上 [Back] をタップすると元の画面に戻ります。&lt;/p&gt;
@@ -716,7 +716,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 &lt;/section&gt;
 &lt;section id=&#34;データ入出力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;データ入出力&lt;/h1&gt;
+    &lt;h2&gt;データ入出力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
 AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。&lt;/p&gt;
@@ -735,7 +735,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳 リポジトリ&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h3&gt;
 &lt;p&gt;私がつくった共有単語帳「歌舞伎の演目名」をインストールする例を紹介します。
 「歌舞伎」をキーワードにして検索します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -770,7 +770,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/section&gt;
 &lt;section id=&#34;学習画面&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習画面&lt;/h1&gt;
+    &lt;h2&gt;学習画面&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最後に簡単に学習画面について触れておきましょう。
 単語帳一覧から単語帳名をタップすると、学習を開始します。
@@ -836,7 +836,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/div&gt;
 &lt;p&gt;スクリーンをタップしても、解答できます。
 画面を9分割してどこをタップするとどのような処理をするか、先ほどの環境設定画面で取り上げた、[Review] - [Taps] 項目で設定できます。&lt;/p&gt;
-&lt;h2 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h2&gt;
+&lt;h3 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h3&gt;
 &lt;p&gt;学習画面を操作するアクションはジェスチャか画面上部のボタンを押して呼び出せます。
 学習画面ではタップ、スワイプ、シェイクのジェスチャが使え、全てカスタマイズすることができます。&lt;/p&gt;
 &lt;ul&gt;
@@ -869,9 +869,9 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ジェスチャ、ボタンとも一部のアクションについては、条件によっては割り当てられず、エラーメッセージを表示する場合があります。&lt;/p&gt;
-&lt;h2 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h2&gt;
+&lt;h3 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h3&gt;
 &lt;p&gt;[環境設定] - [Review] - [Quickbar] で設定画面が開きます。画面上中央の枠で囲った部分 (図 15) に、最大 4 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;
-&lt;h2 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h2&gt;
+&lt;h3 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h3&gt;
 &lt;p&gt;画面右上 [Tools] \(図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -890,11 +890,11 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;/section&gt;
 &lt;section id=&#34;ノートの追加編集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ノートの追加編集&lt;/h1&gt;
+    &lt;h2&gt;ノートの追加編集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最後にノート (教材) の追加編集について説明します。
 Anki では、一枚のカードに表示する一組のデータをノートと呼びます。&lt;/p&gt;
-&lt;h2 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h2&gt;
+&lt;h3 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h3&gt;
 &lt;p&gt;ノートを編集したい場合は、編集したいノートを表示した上で学習画面の上部 [Quickbar] -[Edit] で編集画面が開きます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [Save] をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -910,7 +910,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 18. 「桜」を含むノートを検索&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h2&gt;
+&lt;h3 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h3&gt;
 &lt;p&gt;学習画面の上部 [Quickbar] -[Add] で追加画面が開きます。
 ノートタイプが [基本] の場合は、Front に表面に表示する内容、Back に裏面に表示する内容を入力します。HTMLのタグを使って書式設定することができます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。
@@ -926,7 +926,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile を使いこなすのに最低限必要な機能は、実は集約して配置していますが、マニュアルが文字情報に偏っているため、独力で探し出すのが大変なことだと思います。
 しかし、一旦その場所さえ覚えてしまえば、マニュアルを見ながら色々な機能を試していけるようになります。
@@ -934,7 +934,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/section&gt;
 &lt;section id=&#34;さらにくわしく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -973,7 +973,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
 &lt;div class=&#34;page-header&#34;&gt;
-&lt;h1&gt;更新情報&lt;/h1&gt;
+&lt;h2&gt;更新情報&lt;/h2&gt;
 &lt;/div&gt;
 &lt;p&gt;2014/05/11: 初出&lt;/p&gt;
 &lt;p&gt;2016/01/23: 更新: 学習画面で実行する処理&lt;/p&gt;

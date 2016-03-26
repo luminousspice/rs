@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</h1>
   <span class="post-date"><time datetime="2013-06-01T23:00:37Z">2013-06-01</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="msdnの英語_msdnを情報源として利用できる語彙水準と学習戦略">
 <p>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普段は日本語でコミュニケーションし、必要に応じてMSDNの英文情報を利用するのに必要な語彙学習について説明します。</p>
 <h2 id="おことわり" class="section">おことわり</h2>
@@ -524,7 +527,7 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
 <p>Nation, I.S.P. <a href="https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2006-How-large-a-vocab.pdf">How large a vocabulary is needed for reading and listening?</a> Canadian Modern Language Review 63, 1 (2006): 59-82.</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -542,6 +545,49 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/words-in-msdn\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -550,6 +596,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

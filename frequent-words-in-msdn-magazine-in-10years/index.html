@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</h1>
   <span class="post-date"><time datetime="2013-06-07T22:30:38Z">2013-06-07</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="msdn_magazine過去10年分の頻出語彙からanki単語帳を作る">
 <p>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。前回手をつけなかったCHMファイルをコーパスに取り込み過去10年に遡った分析します。前回作成したMSDN Word Listからの差分は102語になりました。</p>
 <div class="sidebarblock well">
@@ -240,7 +243,7 @@ Pythonはシステムに付属しているものではなく、<a href="https://
 <code>chm2pdf (--book / --webpage/) [options] input_filename [output_filename]</code></p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -258,6 +261,49 @@ Pythonはシステムに付属しているものではなく、<a href="https://
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/frequent-words-in-msdn-magazine-in-10years\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -266,6 +312,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

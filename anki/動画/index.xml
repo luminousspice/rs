@@ -22,14 +22,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
 &lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;注意事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;注意事項&lt;/h1&gt;
+    &lt;h2&gt;注意事項&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事は、Anki のサポート対象外の機能について説明しています。&lt;/p&gt;
 &lt;p&gt;たとえば、Anki サポートフォーラムの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos&#34;&gt;Can I embed Youtube videos?&lt;/a&gt; 、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags&#34;&gt;Embedding external websites with iframe or object html tags&lt;/a&gt;によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。&lt;/p&gt;
@@ -38,7 +38,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;html5_の記述&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;HTML5 の記述&lt;/h1&gt;
+    &lt;h2&gt;HTML5 の記述&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;一番シンプルな書き方は、Anki のメディアフォルダに &lt;code&gt;myvideo.mp4&lt;/code&gt; という動画を表示するなら、次のような HTML の記述をノートに書き込みます。&lt;code&gt;controls&lt;/code&gt; 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。&lt;code&gt;src&lt;/code&gt; 属性は、http サーバー上にあるコンテンツを指定しても動作します。&lt;/p&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -48,7 +48,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;コードの入力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;コードの入力&lt;/h1&gt;
+    &lt;h2&gt;コードの入力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -67,7 +67,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;音声の埋め込み&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声の埋め込み&lt;/h1&gt;
+    &lt;h2&gt;音声の埋め込み&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
 この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。&lt;/p&gt;
@@ -78,7 +78,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;iphone_との連携&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;iPhone との連携&lt;/h1&gt;
+    &lt;h2&gt;iPhone との連携&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。&lt;/p&gt;
 &lt;p&gt;また、iPhone から HTML5 のコードを直接入力しても動作します。&lt;/p&gt;
@@ -99,13 +99,13 @@
 &lt;/section&gt;
 &lt;section id=&#34;同期の注意点&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期の注意点&lt;/h1&gt;
+    &lt;h2&gt;同期の注意点&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事では触れませんでしたが、フィールドではなくテンプレートに HTML5 のコードを直接書き込んでいる場合、iTunes および AnkiWeb 経由ともにメディアファイルの同期が行われません。この場合は、別途メディアファイルを持ち込む操作が必要になります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
 &lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。
@@ -225,7 +225,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は、Mac ユーザー限定の内容です。&lt;/p&gt;
 &lt;p&gt;SNS にその特色を生かした語学コンテンツが共有されるようになってきました。&lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/user/russianpod101/videos&#34;&gt;Learn Russian with RussianPod101.com&lt;/a&gt; や &lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/playlist?list=PLA5UIoabheFMYWWnGFFxl8_nvVZWZSykc&#34;&gt;Easy French - Learn French from the Streets!&lt;/a&gt; のように、学校や出版社が作り込んだ学習教材とは違った日常の表現を取り上げている点が面白いです。
@@ -236,7 +236,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;必要なもの&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;必要なもの&lt;/h1&gt;
+    &lt;h2&gt;必要なもの&lt;/h2&gt;
   &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -246,17 +246,17 @@
 &lt;/section&gt;
 &lt;section id=&#34;soundflower_インストール&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Soundflower インストール&lt;/h1&gt;
+    &lt;h2&gt;Soundflower インストール&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;上で紹介した Soundflower の GitHub のリポジトリでは、Signed Version for Yosemite/Mavericks/El Capitan という有効な署名済みビルドを公開しています。当該バージョン以外の OS X をお使いの方は他のリポジトリを探してみてください。(なお、このバージョンでは Soundflowerbed が削除されています)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Soundflower-2.0b2.dmg&lt;/code&gt; をダウンロードして開き、&lt;code&gt;Soundflower.pkg&lt;/code&gt; を起動するとインストールが行われます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;設定の手順&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;設定の手順&lt;/h1&gt;
+    &lt;h2&gt;設定の手順&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;次に、Soundflower の設定方法を紹介します。内蔵マイクが拾う音声の代わりにアプリケーションが再生した音声を Anki に入力し、更にその音声を内蔵スピーカから出力する設定内容になります。&lt;/p&gt;
-&lt;h2 id=&#34;audio_midi_設定&#34;&gt;Audio MIDI 設定&lt;/h2&gt;
+&lt;h3 id=&#34;audio_midi_設定&#34;&gt;Audio MIDI 設定&lt;/h3&gt;
 &lt;p&gt;OS X 付属の [Audio MIDI 設定] というアプリケーションを起動します。Spotlight に &lt;code&gt;midi&lt;/code&gt; と打って検索するのが簡単です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -278,7 +278,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 複数出力装置を作成&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;入出力装置の設定&#34;&gt;入出力装置の設定&lt;/h2&gt;
+&lt;h3 id=&#34;入出力装置の設定&#34;&gt;入出力装置の設定&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 メニューバーの [音量] アイコンを [Option] キーを押しながらクリックし、入力装置に [Soundflower (2ch)] を割り当てます。
@@ -297,7 +297,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;録音方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;録音方法&lt;/h1&gt;
+    &lt;h2&gt;録音方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;ノートエディタを立ち上げ、音声を取り込みたいフィールドを選択し、取り込みたい音声を再生し、[F5] を押すか、ツールバーの [録音ボタン] (図　4 参照) を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -310,7 +310,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;カード作成例&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カード作成例&lt;/h1&gt;
+    &lt;h2&gt;カード作成例&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;RussianPod101.com のような字幕付きの動画であれば、画面キャプチャだけで文字を打つ必要もなく簡単にカードを作成できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -323,7 +323,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;今回紹介した方法をつかえば、ブラウザ以外に、iTunes、VLC、Audacity などのアプリケーションから手軽に音声が Anki に取り込めるようになります。オーディオブック、動画、音楽データから自分に必要な部分だけを切り取って Anki で覚えることができます。&lt;/p&gt;
 &lt;p&gt;SNS の利用人口が広がって、今までにない自然な表現の語学データが簡単に手に入るようになったのは喜ばしいです。

@@ -89,15 +89,18 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">AnkiMobile の学習オプションを最適化する</h1>
   <span class="post-date"><time datetime="2015-01-24T00:00:42Z">2015-01-24</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p>AnkiWeb の同期機能は、教材や学習履歴、復習スケジュールに加えて、学習オプションも同期します。通常は iPhone や iPad などで AnkiMobile を単独で使っている場合でも、この同期機能を利用すると AnkiMobile の機能を詳細に設定することができます。</p>
 </section>
 <section id="はじめに">
   <div class="page-header">
-    <h1>はじめに</h1>
+    <h2>はじめに</h2>
   </div>
 <p>AnkiWeb の同期機能は、Anki デスクトップ PC 版 と iOS アプリの AnkiMobile 間で学習オプションを同期します。AnkiMobile のユーザーインターフェイスは、PC 版で設定できる項目の一部だけに限定されています。</p>
 <p>AnkiMobile を単独で利用している場合でも、Anki デスクトップ PC 版 を利用すると自分の学習環境に最適な設定をすることができます。</p>
@@ -105,7 +108,7 @@
 </section>
 <section id="ankimobile_から設定できること">
   <div class="page-header">
-    <h1>AnkiMobile から設定できること</h1>
+    <h2>AnkiMobile から設定できること</h2>
   </div>
 <p>AnkiMobile 上で設定できる単語帳の学習オプションは、一日の新規カードの上限と復習の上限です。
 学習画面から [Tools] - [Study Options] で設定画面を呼び出せます。</p>
@@ -119,7 +122,7 @@
 </section>
 <section id="anki_の学習オプション設定画面の呼び出し方">
   <div class="page-header">
-    <h1>Anki の学習オプション設定画面の呼び出し方</h1>
+    <h2>Anki の学習オプション設定画面の呼び出し方</h2>
   </div>
 <p>Anki デスクトップ PC 版で学習オプションを次の手順で呼び出せます。</p>
 <p>起動直後に表示する単語帳一覧の中から、設定したい単語帳名をクリックするその単語帳のトップページを表示します。(図 2)</p>
@@ -139,7 +142,7 @@
 </section>
 <section id="anki_から設定できる機能内容">
   <div class="page-header">
-    <h1>Anki から設定できる機能内容</h1>
+    <h2>Anki から設定できる機能内容</h2>
   </div>
 <p>タブ [新規カード]、[復習]、[忘却] を選択し、それぞれの学習段階での学習オプションが設定できます。</p>
 <p>[説明] では、単語帳のトップページの内容を記述することが出来ます。</p>
@@ -169,23 +172,23 @@
 </section>
 <section id="同期機能で設定内容を反映">
   <div class="page-header">
-    <h1>同期機能で設定内容を反映</h1>
+    <h2>同期機能で設定内容を反映</h2>
   </div>
 <p>設定が完了したら、Anki と AnkiWeb を同期します。次に、AnkiMobile から同期を行うと設定が反映されます。</p>
 <p>同期機能の具体的な使用手順については、<a href="http://rs.luminousspice.com/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>で説明しています。</p>
-<h2 id="同期する際の注意点">同期する際の注意点</h2>
+<h3 id="同期する際の注意点">同期する際の注意点</h3>
 <p>AnkiMobile で設定変更した後に、AnkiWeb 経由でデスクトップ PC 用Anki と同期すると、AnkiMobile で変更した内容が PC 側に反映されます。</p>
 </section>
 <section id="まとめ">
   <div class="page-header">
-    <h1>まとめ</h1>
+    <h2>まとめ</h2>
   </div>
 <p>AnkiWeb は教材や学習履歴以外にも、学習オプションも同期対象になっているので、様々なデバイス間で一貫した学習環境を実現できます。</p>
 <p>オンラインストレージを必要としないで AnkiMobile 単独で使用している場合、AnkiWeb の機能について見過ごされがちです。
 AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザーインターフェイスが AnkiMobile の機能を自分の学習環境に最適化するのに利用できることは、AnkiMobile  ユーザーにとって知っておきたい基礎知識ではないでしょうか。</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -206,6 +209,49 @@ AnkiWeb の同期機能を使うと Anki デスクトップ PC 版のユーザ�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/ankimobile-study-options\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -214,6 +260,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

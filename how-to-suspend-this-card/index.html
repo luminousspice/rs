@@ -89,15 +89,18 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">いま表示しているAnkiカードだけ学習をやめる方法</h1>
   <span class="post-date"><time datetime="2013-06-15T22:30:52Z">2013-06-15</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p></p>
 </section>
 <section id="学習セッションから特定のカードを除外する">
   <div class="page-header">
-    <h1>学習セッションから特定のカードを除外する</h1>
+    <h2>学習セッションから特定のカードを除外する</h2>
   </div>
 <p>Ankiを使っていて、このカードだけ今の学習セッションから外したい場合ありませんでしたか。
 新規カードでどうしても覚えられないカードが発生して、1分毎の再表示になるのが煩わしい場合。学習中にカードの間違いに気づいて、後で再編集したい場合。あまりにやさしすぎる内容のカードで、削除するほどではないが別に取っておきたい場合などが考えられます。</p>
@@ -109,11 +112,11 @@
 </div>
 <div class="title">図 1. ドロップダウンリストの内容</div>
 </div>
-<h2 id="保留_suspend_と延期_bury_の違い">保留(Suspend)と延期(bury)の違い</h2>
+<h3 id="保留_suspend_と延期_bury_の違い">保留(Suspend)と延期(bury)の違い</h3>
 <p></p>
 <p>保留は解除するまで学習対象から除外になります。ブラウザー内で選択して解除するのが一番簡単です。
 延期は、Ankiを終了するまで学習から除外になります。再度Ankiを起動すると自動的にもとに戻ります。(注: Anki 2.0.12 まで)</p>
-<h2 id="新しい延期機能">新しい延期機能</h2>
+<h3 id="新しい延期機能">新しい延期機能</h3>
 <p>最新版 Anki 2.0.21 では、延期は、翌日まで学習から除外されます。一日の始まりに設定した時刻に達すると自動解除になります。</p>
 <div class="ulist"><ul>
 <li>
@@ -132,7 +135,7 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
 </p>
 </li>
 </ul></div>
-<h2 id="ノートの保留とカードの保留の違い">ノートの保留とカードの保留の違い</h2>
+<h3 id="ノートの保留とカードの保留の違い">ノートの保留とカードの保留の違い</h3>
 <p></p>
 <p>カードの保留は今表示しているカードだけを保留します。ノートの保留は、同じノートから生成したカード全てが保留になります。
 例えば、基本(裏面カード付き)ノートタイプを選択した時、一つのノートから表面カードと反転した裏面カードの2枚が自動生成します。いま表面カードを表示していて、[カードを保留]するとそのカード一枚が保留になります。[ノートを保留]すると、表示中の表面カードと裏面カードも一緒に保留になります。</p>
@@ -144,11 +147,11 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
 </section>
 <section id="参考_anki_2_0_13_以降の延期処理の変更点">
   <div class="page-header">
-    <h1>参考: Anki 2.0.13 以降の延期処理の変更点</h1>
+    <h2>参考: Anki 2.0.13 以降の延期処理の変更点</h2>
   </div>
 <p>Anki 2.0.13 で関連カードの処理に見直しが行われ、延期処理について大きな変更が加えられました。
 以後のバージョンでは調整が行われました。その主な項目を紹介します。</p>
-<h2 id="anki_2_0_13_の変更点">Anki 2.0.13 の変更点</h2>
+<h3 id="anki_2_0_13_の変更点">Anki 2.0.13 の変更点</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -167,7 +170,7 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
 </p>
 </li>
 </ul></div>
-<h2 id="anki_2_0_15_の変更点">Anki 2.0.15 の変更点</h2>
+<h3 id="anki_2_0_15_の変更点">Anki 2.0.15 の変更点</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -180,7 +183,7 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
 </p>
 </li>
 </ul></div>
-<h2 id="anki_2_0_21_の変更点">Anki 2.0.21 の変更点</h2>
+<h3 id="anki_2_0_21_の変更点">Anki 2.0.21 の変更点</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -191,13 +194,13 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2013/06/15: 初出</p>
 <p>2014/01/24: Anki 2.0.13 で導入した新しい延期機能について補足。</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
   
@@ -215,6 +218,49 @@ Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モ�
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/how-to-suspend-this-card\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -223,6 +269,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

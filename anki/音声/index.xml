@@ -178,7 +178,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最近の外国語の音源付き書籍には、音声データを一分以内に分割して、本文の説明もオーディオブックのように収録しているものもあり重宝しています。ただ残念なことに、データを音楽プレイヤーで苦手なデータだけを繰り返し聴けないことが不自由でした。
 毎日音楽プレイヤーを持ち歩いて復習する時、最初から再生すると、先頭のデータに再生頻度が集中するし、ランダムに再生すると、まだ学習していないデータを先に聞かなければなりません。自分の進度に合わせて少しずつ足していくのも面倒です。
@@ -190,7 +190,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;音声データの取り込み方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声データの取り込み方&lt;/h1&gt;
+    &lt;h2&gt;音声データの取り込み方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;書籍に付属している CD データや専用ダウンロードデータは、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; というアドオンを使うと一括で Anki に登録できます。
 このアドオンは、音楽データを保存しているディレクトリと、埋め込むフィールドを指定すれば、自動的にカードを作ってくれます。&lt;/p&gt;
@@ -221,14 +221,14 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;学習の進め方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習の進め方&lt;/h1&gt;
+    &lt;h2&gt;学習の進め方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;教材の理解は書籍を読んで行った上で、その理解を Anki で繰り返し復習します。
 実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
-&lt;h2 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h2&gt;
+&lt;h3 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h3&gt;
 &lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
 毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h2&gt;
+&lt;h3 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h3&gt;
 &lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
 何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
 &lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
@@ -243,7 +243,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は Anki の固定観念から外れた使い方を試しているうちに生まれたものです。&lt;/p&gt;
 &lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
@@ -264,14 +264,14 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
 &lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;注意事項&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;注意事項&lt;/h1&gt;
+    &lt;h2&gt;注意事項&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事は、Anki のサポート対象外の機能について説明しています。&lt;/p&gt;
 &lt;p&gt;たとえば、Anki サポートフォーラムの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos&#34;&gt;Can I embed Youtube videos?&lt;/a&gt; 、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags&#34;&gt;Embedding external websites with iframe or object html tags&lt;/a&gt;によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。&lt;/p&gt;
@@ -280,7 +280,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;html5_の記述&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;HTML5 の記述&lt;/h1&gt;
+    &lt;h2&gt;HTML5 の記述&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;一番シンプルな書き方は、Anki のメディアフォルダに &lt;code&gt;myvideo.mp4&lt;/code&gt; という動画を表示するなら、次のような HTML の記述をノートに書き込みます。&lt;code&gt;controls&lt;/code&gt; 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。&lt;code&gt;src&lt;/code&gt; 属性は、http サーバー上にあるコンテンツを指定しても動作します。&lt;/p&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -290,7 +290,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;コードの入力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;コードの入力&lt;/h1&gt;
+    &lt;h2&gt;コードの入力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -309,7 +309,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;音声の埋め込み&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声の埋め込み&lt;/h1&gt;
+    &lt;h2&gt;音声の埋め込み&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
 この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。&lt;/p&gt;
@@ -320,7 +320,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;iphone_との連携&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;iPhone との連携&lt;/h1&gt;
+    &lt;h2&gt;iPhone との連携&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。&lt;/p&gt;
 &lt;p&gt;また、iPhone から HTML5 のコードを直接入力しても動作します。&lt;/p&gt;
@@ -341,13 +341,13 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;同期の注意点&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;同期の注意点&lt;/h1&gt;
+    &lt;h2&gt;同期の注意点&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この記事では触れませんでしたが、フィールドではなくテンプレートに HTML5 のコードを直接書き込んでいる場合、iTunes および AnkiWeb 経由ともにメディアファイルの同期が行われません。この場合は、別途メディアファイルを持ち込む操作が必要になります。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
 &lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。
@@ -367,7 +367,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は、Mac ユーザー限定の内容です。&lt;/p&gt;
 &lt;p&gt;SNS にその特色を生かした語学コンテンツが共有されるようになってきました。&lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/user/russianpod101/videos&#34;&gt;Learn Russian with RussianPod101.com&lt;/a&gt; や &lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/playlist?list=PLA5UIoabheFMYWWnGFFxl8_nvVZWZSykc&#34;&gt;Easy French - Learn French from the Streets!&lt;/a&gt; のように、学校や出版社が作り込んだ学習教材とは違った日常の表現を取り上げている点が面白いです。
@@ -378,7 +378,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;必要なもの&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;必要なもの&lt;/h1&gt;
+    &lt;h2&gt;必要なもの&lt;/h2&gt;
   &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -388,17 +388,17 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;soundflower_インストール&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Soundflower インストール&lt;/h1&gt;
+    &lt;h2&gt;Soundflower インストール&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;上で紹介した Soundflower の GitHub のリポジトリでは、Signed Version for Yosemite/Mavericks/El Capitan という有効な署名済みビルドを公開しています。当該バージョン以外の OS X をお使いの方は他のリポジトリを探してみてください。(なお、このバージョンでは Soundflowerbed が削除されています)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Soundflower-2.0b2.dmg&lt;/code&gt; をダウンロードして開き、&lt;code&gt;Soundflower.pkg&lt;/code&gt; を起動するとインストールが行われます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;設定の手順&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;設定の手順&lt;/h1&gt;
+    &lt;h2&gt;設定の手順&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;次に、Soundflower の設定方法を紹介します。内蔵マイクが拾う音声の代わりにアプリケーションが再生した音声を Anki に入力し、更にその音声を内蔵スピーカから出力する設定内容になります。&lt;/p&gt;
-&lt;h2 id=&#34;audio_midi_設定&#34;&gt;Audio MIDI 設定&lt;/h2&gt;
+&lt;h3 id=&#34;audio_midi_設定&#34;&gt;Audio MIDI 設定&lt;/h3&gt;
 &lt;p&gt;OS X 付属の [Audio MIDI 設定] というアプリケーションを起動します。Spotlight に &lt;code&gt;midi&lt;/code&gt; と打って検索するのが簡単です。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -420,7 +420,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 複数出力装置を作成&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;入出力装置の設定&#34;&gt;入出力装置の設定&lt;/h2&gt;
+&lt;h3 id=&#34;入出力装置の設定&#34;&gt;入出力装置の設定&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 メニューバーの [音量] アイコンを [Option] キーを押しながらクリックし、入力装置に [Soundflower (2ch)] を割り当てます。
@@ -439,7 +439,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;録音方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;録音方法&lt;/h1&gt;
+    &lt;h2&gt;録音方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;ノートエディタを立ち上げ、音声を取り込みたいフィールドを選択し、取り込みたい音声を再生し、[F5] を押すか、ツールバーの [録音ボタン] (図　4 参照) を押します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -452,7 +452,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;カード作成例&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;カード作成例&lt;/h1&gt;
+    &lt;h2&gt;カード作成例&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;RussianPod101.com のような字幕付きの動画であれば、画面キャプチャだけで文字を打つ必要もなく簡単にカードを作成できます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -465,7 +465,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;今回紹介した方法をつかえば、ブラウザ以外に、iTunes、VLC、Audacity などのアプリケーションから手軽に音声が Anki に取り込めるようになります。オーディオブック、動画、音楽データから自分に必要な部分だけを切り取って Anki で覚えることができます。&lt;/p&gt;
 &lt;p&gt;SNS の利用人口が広がって、今までにない自然な表現の語学データが簡単に手に入るようになったのは喜ばしいです。
@@ -485,7 +485,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -519,7 +519,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;/section&gt;
 &lt;section id=&#34;iphone_を利用したゆるい_anki_のはじめ方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;iPhone を利用したゆるい Anki のはじめ方&lt;/h1&gt;
+    &lt;h2&gt;iPhone を利用したゆるい Anki のはじめ方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile ユーザーのために提案する方法の特徴をまとめると次のようになります。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -542,7 +542,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;この方法は覚えたい単語や文章だけ準備できれば継続できます。必要なのは表面に覚えたい項目が載っているカードです。
 iPhone アプリを使った場合、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。
 iPhone だけで完結できるので、PC は不要です。&lt;/p&gt;
-&lt;h2 id=&#34;ゆるい_anki_の使い方の原則&#34;&gt;ゆるい Anki の使い方の原則&lt;/h2&gt;
+&lt;h3 id=&#34;ゆるい_anki_の使い方の原則&#34;&gt;ゆるい Anki の使い方の原則&lt;/h3&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -560,7 +560,7 @@ Anki で学習、復習することに最大限の労力を割り当てる。
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h2&gt;
+&lt;h3 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h3&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -578,7 +578,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;毎日の作業手順&#34;&gt;毎日の作業手順&lt;/h2&gt;
+&lt;h3 id=&#34;毎日の作業手順&#34;&gt;毎日の作業手順&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 その日の Anki の復習ノルマをこなします。
@@ -590,7 +590,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 時間がある時は教材の読み、登録した項目が載っている箇所を復習します。Anki 学習と間隔が空いてもよいです。
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;注意事項&#34;&gt;注意事項&lt;/h3&gt;
+&lt;h4 id=&#34;注意事項&#34;&gt;注意事項&lt;/h4&gt;
 &lt;p&gt;毎日の手順を継続して実践する上で注意すべき項目をまとめました。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -619,7 +619,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;ゆるい方法の良い点&#34;&gt;ゆるい方法の良い点&lt;/h2&gt;
+&lt;h3 id=&#34;ゆるい方法の良い点&#34;&gt;ゆるい方法の良い点&lt;/h3&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
@@ -646,7 +646,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 &lt;/section&gt;
 &lt;section id=&#34;単語の意味を調べる&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語の意味を調べる&lt;/h1&gt;
+    &lt;h2&gt;単語の意味を調べる&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;学習中にわからない言葉が出てきたら、直接辞書で調べることができます。
 画面をダブルタップして調べたい単語を選択し、メニューから [Define] を選択します。&lt;/p&gt;
@@ -672,7 +672,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 &lt;/div&gt;
 &lt;p&gt;標準設定では、日本語-英語(ウィズダム英和辞典/ウィズダム和英辞典)、日本語(スーパー大辞林)が利用できます。&lt;/p&gt;
 &lt;p&gt;画面右上 [Done] をタップすると AnkiMobile の画面に戻ります。(図 2, 3)&lt;/p&gt;
-&lt;h2 id=&#34;検索辞書の追加&#34;&gt;検索辞書の追加&lt;/h2&gt;
+&lt;h3 id=&#34;検索辞書の追加&#34;&gt;検索辞書の追加&lt;/h3&gt;
 &lt;p&gt;iOS 7 の場合は、9言語、14種類の辞書を必要に応じて追加ダウンロードすることが出来ます。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -698,17 +698,17 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 辞書の選択&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;利用可能な辞書&#34;&gt;利用可能な辞書&lt;/h3&gt;
+&lt;h4 id=&#34;利用可能な辞書&#34;&gt;利用可能な辞書&lt;/h4&gt;
 &lt;p&gt;日本語-英語、日本語、ドイツ語、イタリア語、韓国語、フランス語、スペイン語、オランダ語、韓国語-英語、イギリス英語、アメリカ英語、簡体中国語、簡体中国語-英語、Apple Dictionary&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;テキストを読み上げる&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;テキストを読み上げる&lt;/h1&gt;
+    &lt;h2&gt;テキストを読み上げる&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;選択項目を読み上げ機能が有効にしていると、テキストを合成音声で読み上げることが出来ます。
 学習中に単語の発音を調べたり、テキストの聴き取りができます。&lt;/p&gt;
 &lt;p&gt;設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;h2 id=&#34;読み上げ機能の使い方&#34;&gt;読み上げ機能の使い方&lt;/h2&gt;
+&lt;h3 id=&#34;読み上げ機能の使い方&#34;&gt;読み上げ機能の使い方&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 画面をダブルタップして調べたい単語を選択し、メニューから [Speak] を選択します。
@@ -728,7 +728,7 @@ AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http:
 &lt;/section&gt;
 &lt;section id=&#34;単純なカードの作り方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単純なカードの作り方&lt;/h1&gt;
+    &lt;h2&gt;単純なカードの作り方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;カードに表示する内容、ノートは次の手順で追加します。&lt;/p&gt;
 &lt;ol&gt;
@@ -752,7 +752,7 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 画面右上の [Save] を押して入力内容を保存。
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;メディアの追加&#34;&gt;メディアの追加&lt;/h2&gt;
+&lt;h3 id=&#34;メディアの追加&#34;&gt;メディアの追加&lt;/h3&gt;
 &lt;p&gt;キーボードの左上のアイコンから、追加する画像や音声 (メディア) を指定できます。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -794,14 +794,14 @@ Type (ノートタイプ) が [基本] の場合は、Front フィールドに�
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;iPhone のシステム iOS の特長を生かし、覚えたい項目や Anki で行う作業手順を絞り込むと Anki を活用した語学学習がもっと楽に継続できるようになります。&lt;/p&gt;
 &lt;p&gt;大量のデータを暗記するような本格的な学習を始める前に、この記事で紹介した方法で Anki の使い方に慣れてはいかがでしょうか。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;さらにくわしく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;

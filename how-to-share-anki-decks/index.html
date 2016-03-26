@@ -89,9 +89,12 @@
 
 
 <div class="post">
-  <article class="post">
   <h1 class="post-title">Anki単語帳を共有する方法</h1>
   <span class="post-date"><time datetime="2013-05-30T00:30:22Z">2013-05-30</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
   <section id="preamble">
 <p><strong>連載: Ankiの使い方 〜覚えるために忘れろ〜</strong></p>
 <p><strong>第8回目 最終回 Anki単語帳を共有する方法</strong></p>
@@ -103,13 +106,13 @@
 </section>
 <section id="この記事の目標">
   <div class="page-header">
-    <h1>この記事の目標</h1>
+    <h2>この記事の目標</h2>
   </div>
 <p>単語帳を書き出す色々な方法に慣れる。</p>
 </section>
 <section id="使うもの">
   <div class="page-header">
-    <h1>使うもの</h1>
+    <h2>使うもの</h2>
   </div>
 <div class="ulist"><ul>
 <li>
@@ -121,14 +124,14 @@
 </section>
 <section id="単語帳を共有する方法">
   <div class="page-header">
-    <h1>単語帳を共有する方法</h1>
+    <h2>単語帳を共有する方法</h2>
   </div>
 <p>Ankiには共有する相手や、目的に応じてさまざまな共有方法が選択できます。Ankiから単語データだけを取り出して共有する方法、Anki単語帳のカスタマイズしたカードとして共有する方法、AnkiWebから共有単語帳を提供する方法があります。
 それぞれの方法を簡単にご紹介します。</p>
 </section>
 <section id="export">
   <div class="page-header">
-    <h1>Ankiの単語帳書き出し機能</h1>
+    <h2>Ankiの単語帳書き出し機能</h2>
   </div>
 <p></p>
 <p>Ankiの単語帳の書き出し方は、メニューバーから[ファイル]&gt;[書き出す]を選択します。</p>
@@ -176,7 +179,7 @@ remember        辞書: &lt;a href="dict://remember"&gt;remember&lt;/a&gt;&lt;br
 </section>
 <section id="アドオンを使った書き出し方">
   <div class="page-header">
-    <h1>アドオンを使った書き出し方</h1>
+    <h2>アドオンを使った書き出し方</h2>
   </div>
 <p></p>
 <p><a href="http://rs.luminousspice.com/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>で紹介した、アドオン <a href="https://ankiweb.net/shared/info/46837454" target="_new">Export Browser's card list contents to CSV file Enhanced</a>でも単語帳内容を書き出すことができます。</p>
@@ -204,7 +207,7 @@ Abel,辞書と読み上げ,9777,中学英単語,基本</pre>
 </section>
 <section id="ankiに書き出したデータを読み込むには">
   <div class="page-header">
-    <h1>Ankiに書き出したデータを読み込むには</h1>
+    <h2>Ankiに書き出したデータを読み込むには</h2>
   </div>
 <p>Ankiへの読み込み処理を呼び出す方法は、次の2通りあります。単語帳パッケージ形式(<strong>.apkg)でも、テキストファイル形式(</strong>.txt)でも呼び出し方は同じです。</p>
 <ol>
@@ -219,7 +222,7 @@ Abel,辞書と読み上げ,9777,中学英単語,基本</pre>
 </section>
 <section id="単語帳をankiwebへの共有する方法">
   <div class="page-header">
-    <h1>単語帳をAnkiWebへの共有する方法</h1>
+    <h2>単語帳をAnkiWebへの共有する方法</h2>
   </div>
 <p></p>
 <p>AnkiWebにある共有単語帳どうやって作っているのか、ご紹介しましょう。</p>
@@ -239,19 +242,19 @@ Abel,辞書と読み上げ,9777,中学英単語,基本</pre>
 <div class="title">図 4. 共有単語帳の提出フォーム</div>
 </div>
 <p>自分の作った単語帳・デッキを世界中のAnkiユーザーと共有する方が皆さんの中から現れるのを期待しています。きっと今までとは違う喜びが得られるはずです。</p>
-<h2 id="単語帳内容の登録について注意点">単語帳内容の登録について注意点</h2>
+<h3 id="単語帳内容の登録について注意点">単語帳内容の登録について注意点</h3>
 <p>全ての項目に日本語が入力可能です。単語帳の内容を日本語で具体的に説明しましょう。</p>
 <p>このサイトの共有単語帳の検索機能は、Title と Tag を対象にして検索します。
 日本語キーワードが使えますので、Title や Tag に日本語を使えばその内容も検索できます。</p>
 <p>なお、共有単語帳トップページの分類項目 "<a target="_new" href="https://ankiweb.net/shared/decks/japanese">Japanese</a>" に掲載するには、Tag に "Japanese" を指定します。</p>
-<h2 id="共有単語帳とプライバシー">共有単語帳とプライバシー</h2>
+<h3 id="共有単語帳とプライバシー">共有単語帳とプライバシー</h3>
 <p>クライアント上で共有単語帳に設定した単語帳を更新し、同期しても自動的に内容は公開しません。
 また、AnkiWeb 上で直接編集した場合も同様です。
 再度提出フォームを送信しない限り、共有単語帳の内容は更新しません。</p>
 <p>カードに未使用であっても、メディアフォルダーに存在するファイルは共有単語帳に含めて公開します。
 意図しないメディアデータを公開する可能性がありますので注意してください。
 メニューバーから [ツール]-[メディアをチェック] を選択して、不要なデータが残っていないか、公開前に確認すると良いでしょう。</p>
-<h2 id="共有単語帳を更新">共有単語帳を更新</h2>
+<h3 id="共有単語帳を更新">共有単語帳を更新</h3>
 <p>更新した単語帳を AnkiWeb に同期し、単語帳名を変更せずに再度共有します。</p>
 <ol>
 <li>
@@ -267,24 +270,24 @@ AnkiWeb にサインインします。
 提出フォームを送信します。
 </li>
 </ol>
-<h2 id="共有単語帳を削除">共有単語帳を削除</h2>
+<h3 id="共有単語帳を削除">共有単語帳を削除</h3>
 <p>サインイン後の単語帳一覧の右側のプルダウンメニューから[Delete]を選択します。
 この場合、AnkiWeb に同期している単語帳データも同時に削除するので注意してください。</p>
-<h2 id="共有単語帳の有効期限">共有単語帳の有効期限</h2>
+<h3 id="共有単語帳の有効期限">共有単語帳の有効期限</h3>
 <p>共有単語帳の有効期限は、公開したアカウントが削除される時までです。
 なお、AnkiWeb のアカウントは 3 か月間アクセスがないと自動削除対象になるので注意が必要です。</p>
 <p>参考情報: Anki Support Knowledge Base <a target="_new" href="https://anki.tenderapp.com/kb/anki-ecosystem/ankiweb-account-removal">AnkiWeb account removal</a></p>
 </section>
 <section id="まとめ">
   <div class="page-header">
-    <h1>まとめ</h1>
+    <h2>まとめ</h2>
   </div>
 <p>単語帳の共有方法は色々用意されています。それぞれの方法の特徴を良く理解しておくと、自分の目的にあった方法が見つかるはずです。
 自分で作った単語帳を友だちと交換し合うと、Ankiの学習はもっと楽しくなると思います。</p>
 </section>
 <section id="連載の終わりに">
   <div class="page-header">
-    <h1>連載の終わりに</h1>
+    <h2>連載の終わりに</h2>
   </div>
 <p>アプリケーションソフトウェアはたとえ完全なマニュアルやチュートリアルがあっても、はじめて使う時には非常に戸惑うものです。
 このような時には、まずアプリケーションに触れてみて、その反応からそのアプリ独自の使い方を体感するのが有効だと考えています。
@@ -302,7 +305,7 @@ AnkiWeb にサインインします。
 </section>
 <section id="更新情報">
   <div class="page-header">
-    <h1>更新情報</h1>
+    <h2>更新情報</h2>
   </div>
 <p>2013/05/30: 初出</p>
 <p>2014/09/10: 共有単語帳のプライバシー、更新、削除を追加</p>
@@ -310,7 +313,7 @@ AnkiWeb にサインインします。
 <p>2016/01/27: AnkiWeb アカウントの自動削除について追加</p>
 </section>
 
-  </article>
+  </div>
   <aside class="reference">
   
 <section id="連載_ankiの使い方_覚えるために忘れろ">
@@ -363,6 +366,49 @@ AnkiWeb にサインインします。
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
 <script>
+var addtoc = function() {
+
+  var threshold = 4;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/how-to-share-anki-decks\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -371,6 +417,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-29141274-4', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
   </body>

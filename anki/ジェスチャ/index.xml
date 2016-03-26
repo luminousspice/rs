@@ -22,7 +22,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最近の外国語の音源付き書籍には、音声データを一分以内に分割して、本文の説明もオーディオブックのように収録しているものもあり重宝しています。ただ残念なことに、データを音楽プレイヤーで苦手なデータだけを繰り返し聴けないことが不自由でした。
 毎日音楽プレイヤーを持ち歩いて復習する時、最初から再生すると、先頭のデータに再生頻度が集中するし、ランダムに再生すると、まだ学習していないデータを先に聞かなければなりません。自分の進度に合わせて少しずつ足していくのも面倒です。
@@ -34,7 +34,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;音声データの取り込み方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;音声データの取り込み方&lt;/h1&gt;
+    &lt;h2&gt;音声データの取り込み方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;書籍に付属している CD データや専用ダウンロードデータは、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; というアドオンを使うと一括で Anki に登録できます。
 このアドオンは、音楽データを保存しているディレクトリと、埋め込むフィールドを指定すれば、自動的にカードを作ってくれます。&lt;/p&gt;
@@ -65,14 +65,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;学習の進め方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習の進め方&lt;/h1&gt;
+    &lt;h2&gt;学習の進め方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;教材の理解は書籍を読んで行った上で、その理解を Anki で繰り返し復習します。
 実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
-&lt;h2 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h2&gt;
+&lt;h3 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h3&gt;
 &lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
 毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h2&gt;
+&lt;h3 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h3&gt;
 &lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
 何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
 &lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
@@ -87,7 +87,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;この投稿は Anki の固定観念から外れた使い方を試しているうちに生まれたものです。&lt;/p&gt;
 &lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
@@ -108,7 +108,7 @@
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に飽き足らなくなったかたにこそ iPhone で &lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; を使ってほしいです。
 AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実現する一つのソリューションです。&lt;/p&gt;
@@ -118,7 +118,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 &lt;/section&gt;
 &lt;section id=&#34;さらに細かい条件&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらに細かい条件&lt;/h1&gt;
+    &lt;h2&gt;さらに細かい条件&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;特に効果的だと考えられるのは、瞬時に判断すべき知識を大量に暗記しようとしている人です。
 図、表、音声、単語、文章、数値、記号などを見て、意味、解決策、身体動作などを思い出せるよう訓練している場合です。
@@ -131,7 +131,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 &lt;/section&gt;
 &lt;section id=&#34;マルチタッチスクリーン入力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;マルチタッチスクリーン入力&lt;/h1&gt;
+    &lt;h2&gt;マルチタッチスクリーン入力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile での学習は、マルチタッチスクリーンのジェスチャを使って行います。
 キーボードやマウスを使って学習するよりも、スピード感を持って進められます。&lt;/p&gt;
@@ -141,7 +141,7 @@ AnkiMobile は、Anki の物理的な限界を超えたユーザー体験を実�
 片手に iPhone を持っているだけで、毎日の学習に取り組むことが出来ます。
 iPhone6 Plusはまだ持ったことがないので、分かりません。
 iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人を選びますね。&lt;/p&gt;
-&lt;h2 id=&#34;ユーザーインターフェイスのカスタマイズ設定&#34;&gt;ユーザーインターフェイスのカスタマイズ設定&lt;/h2&gt;
+&lt;h3 id=&#34;ユーザーインターフェイスのカスタマイズ設定&#34;&gt;ユーザーインターフェイスのカスタマイズ設定&lt;/h3&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/anki-mastery-settings-review.png&#34; alt=&#34;学習画面の設定&#34; width=&#34;300&#34;&gt;
@@ -196,14 +196,14 @@ iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人�
 &lt;/section&gt;
 &lt;section id=&#34;オプション設定の同期&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;オプション設定の同期&lt;/h1&gt;
+    &lt;h2&gt;オプション設定の同期&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile を新たに導入しても設定し直す必要はありません。&lt;/p&gt;
 &lt;p&gt;PC 版の Anki と AnkiWeb を使って同期すると、単語帳オプションや環境設定オプションも同期し PC 版の設定のまますぐに使えます。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;サポート体制&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;サポート体制&lt;/h1&gt;
+    &lt;h2&gt;サポート体制&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile のユーザーサポートは、実際の開発者が直接サポートしているため的確な回答が得られます。
 自動回答メールの内容によれば、スタッフからの初動回答まで平均 8 時間です。&lt;/p&gt;
@@ -225,7 +225,7 @@ iPad mini はさすがに片手持ちで AnkiMobile を使い続けるには人�
 &lt;/section&gt;
 &lt;section id=&#34;機能制限&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;機能制限?&lt;/h1&gt;
+    &lt;h2&gt;機能制限?&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile はコンテンツ作成や編集機能に制限が加えられています。
 Anki を使い込んでいる人にとってはそこが物足りないと感じるのは理解できます。&lt;/p&gt;
@@ -238,7 +238,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Anki に慣れた人が AnkiMobile を使い始めてみると、Anki と AnkiMobile の関係は、量産車のワゴンとカスタムメイドのスポーツカーのように思えるかもしれません。
 ひたすら速く学習するために自分用にチューニングされた学習環境を作り出せます。&lt;/p&gt;
@@ -247,7 +247,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;さらにくわしく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -285,7 +285,7 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;はじめに&lt;/h1&gt;
+    &lt;h2&gt;はじめに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -326,7 +326,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/section&gt;
 &lt;section id=&#34;重要な機能の呼び出し場所&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;重要な機能の呼び出し場所&lt;/h1&gt;
+    &lt;h2&gt;重要な機能の呼び出し場所&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;再びインストール直後の画面に戻ります。重要なのは 3 か所です。&lt;/p&gt;
 &lt;ol&gt;
@@ -351,7 +351,7 @@ Anki (PC 版) の利用経験から使い方や機能の類推ができる。
 &lt;/section&gt;
 &lt;section id=&#34;マニュアルとサポート&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;マニュアルとサポート&lt;/h1&gt;
+    &lt;h2&gt;マニュアルとサポート&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面左上 ? をタップすると、マニュアルを表示できます。
 AnkiMobile を使うのに必要なことが全て記載されています。&lt;/p&gt;
@@ -361,7 +361,7 @@ AnkiMobile を使うのに必要なことが全て記載されています。&lt
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. マニュアルを表示&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;サポート&#34;&gt;サポート&lt;/h2&gt;
+&lt;h3 id=&#34;サポート&#34;&gt;サポート&lt;/h3&gt;
 &lt;p&gt;iPhone ユーザーにとってサポートサイトに問題があります。iPhoneの解像度に対応した画面ではないので、必要な項目が見つけにくいのです。
 AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります。&lt;/p&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
@@ -390,7 +390,7 @@ AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります
 &lt;/section&gt;
 &lt;section id=&#34;環境設定&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;環境設定&lt;/h1&gt;
+    &lt;h2&gt;環境設定&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面右上の歯車のアイコンをタップすると環境設定画面が開きます。
 画面左上 [Back] をタップすると元の画面に戻ります。&lt;/p&gt;
@@ -417,7 +417,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 &lt;/section&gt;
 &lt;section id=&#34;データ入出力&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;データ入出力&lt;/h1&gt;
+    &lt;h2&gt;データ入出力&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
 AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。&lt;/p&gt;
@@ -436,7 +436,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳 リポジトリ&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h3&gt;
 &lt;p&gt;私がつくった共有単語帳「歌舞伎の演目名」をインストールする例を紹介します。
 「歌舞伎」をキーワードにして検索します。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -471,7 +471,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/section&gt;
 &lt;section id=&#34;学習画面&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;学習画面&lt;/h1&gt;
+    &lt;h2&gt;学習画面&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最後に簡単に学習画面について触れておきましょう。
 単語帳一覧から単語帳名をタップすると、学習を開始します。
@@ -537,7 +537,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;/div&gt;
 &lt;p&gt;スクリーンをタップしても、解答できます。
 画面を9分割してどこをタップするとどのような処理をするか、先ほどの環境設定画面で取り上げた、[Review] - [Taps] 項目で設定できます。&lt;/p&gt;
-&lt;h2 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h2&gt;
+&lt;h3 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h3&gt;
 &lt;p&gt;学習画面を操作するアクションはジェスチャか画面上部のボタンを押して呼び出せます。
 学習画面ではタップ、スワイプ、シェイクのジェスチャが使え、全てカスタマイズすることができます。&lt;/p&gt;
 &lt;ul&gt;
@@ -570,9 +570,9 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ジェスチャ、ボタンとも一部のアクションについては、条件によっては割り当てられず、エラーメッセージを表示する場合があります。&lt;/p&gt;
-&lt;h2 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h2&gt;
+&lt;h3 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h3&gt;
 &lt;p&gt;[環境設定] - [Review] - [Quickbar] で設定画面が開きます。画面上中央の枠で囲った部分 (図 15) に、最大 4 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;
-&lt;h2 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h2&gt;
+&lt;h3 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h3&gt;
 &lt;p&gt;画面右上 [Tools] \(図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -591,11 +591,11 @@ Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面�
 &lt;/section&gt;
 &lt;section id=&#34;ノートの追加編集&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;ノートの追加編集&lt;/h1&gt;
+    &lt;h2&gt;ノートの追加編集&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;最後にノート (教材) の追加編集について説明します。
 Anki では、一枚のカードに表示する一組のデータをノートと呼びます。&lt;/p&gt;
-&lt;h2 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h2&gt;
+&lt;h3 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h3&gt;
 &lt;p&gt;ノートを編集したい場合は、編集したいノートを表示した上で学習画面の上部 [Quickbar] -[Edit] で編集画面が開きます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [Save] をタップします。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
@@ -611,7 +611,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 18. 「桜」を含むノートを検索&lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h2&gt;
+&lt;h3 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h3&gt;
 &lt;p&gt;学習画面の上部 [Quickbar] -[Add] で追加画面が開きます。
 ノートタイプが [基本] の場合は、Front に表面に表示する内容、Back に裏面に表示する内容を入力します。HTMLのタグを使って書式設定することができます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。
@@ -627,7 +627,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/section&gt;
 &lt;section id=&#34;おわりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;おわりに&lt;/h1&gt;
+    &lt;h2&gt;おわりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;AnkiMobile を使いこなすのに最低限必要な機能は、実は集約して配置していますが、マニュアルが文字情報に偏っているため、独力で探し出すのが大変なことだと思います。
 しかし、一旦その場所さえ覚えてしまえば、マニュアルを見ながら色々な機能を試していけるようになります。
@@ -635,7 +635,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;/section&gt;
 &lt;section id=&#34;さらにくわしく&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;さらにくわしく&lt;/h1&gt;
+    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -674,7 +674,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
 &lt;div class=&#34;page-header&#34;&gt;
-&lt;h1&gt;更新情報&lt;/h1&gt;
+&lt;h2&gt;更新情報&lt;/h2&gt;
 &lt;/div&gt;
 &lt;p&gt;2014/05/11: 初出&lt;/p&gt;
 &lt;p&gt;2016/01/23: 更新: 学習画面で実行する処理&lt;/p&gt;

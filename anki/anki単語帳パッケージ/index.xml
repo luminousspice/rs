@@ -28,13 +28,13 @@
 &lt;/section&gt;
 &lt;section id=&#34;この記事の目標&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;この記事の目標&lt;/h1&gt;
+    &lt;h2&gt;この記事の目標&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳を書き出す色々な方法に慣れる。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;使うもの&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;使うもの&lt;/h1&gt;
+    &lt;h2&gt;使うもの&lt;/h2&gt;
   &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -46,14 +46,14 @@
 &lt;/section&gt;
 &lt;section id=&#34;単語帳を共有する方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳を共有する方法&lt;/h1&gt;
+    &lt;h2&gt;単語帳を共有する方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Ankiには共有する相手や、目的に応じてさまざまな共有方法が選択できます。Ankiから単語データだけを取り出して共有する方法、Anki単語帳のカスタマイズしたカードとして共有する方法、AnkiWebから共有単語帳を提供する方法があります。
 それぞれの方法を簡単にご紹介します。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;export&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Ankiの単語帳書き出し機能&lt;/h1&gt;
+    &lt;h2&gt;Ankiの単語帳書き出し機能&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Ankiの単語帳の書き出し方は、メニューバーから[ファイル]&amp;gt;[書き出す]を選択します。&lt;/p&gt;
@@ -101,7 +101,7 @@ remember        辞書: &amp;lt;a href=&#34;dict://remember&#34;&amp;gt;remember
 &lt;/section&gt;
 &lt;section id=&#34;アドオンを使った書き出し方&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;アドオンを使った書き出し方&lt;/h1&gt;
+    &lt;h2&gt;アドオンを使った書き出し方&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介した、アドオン &lt;a href=&#34;https://ankiweb.net/shared/info/46837454&#34; target=&#34;_new&#34;&gt;Export Browser&#39;s card list contents to CSV file Enhanced&lt;/a&gt;でも単語帳内容を書き出すことができます。&lt;/p&gt;
@@ -129,7 +129,7 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
 &lt;/section&gt;
 &lt;section id=&#34;ankiに書き出したデータを読み込むには&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;Ankiに書き出したデータを読み込むには&lt;/h1&gt;
+    &lt;h2&gt;Ankiに書き出したデータを読み込むには&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;Ankiへの読み込み処理を呼び出す方法は、次の2通りあります。単語帳パッケージ形式(&lt;strong&gt;.apkg)でも、テキストファイル形式(&lt;/strong&gt;.txt)でも呼び出し方は同じです。&lt;/p&gt;
 &lt;ol&gt;
@@ -144,7 +144,7 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
 &lt;/section&gt;
 &lt;section id=&#34;単語帳をankiwebへの共有する方法&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;単語帳をAnkiWebへの共有する方法&lt;/h1&gt;
+    &lt;h2&gt;単語帳をAnkiWebへの共有する方法&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;AnkiWebにある共有単語帳どうやって作っているのか、ご紹介しましょう。&lt;/p&gt;
@@ -164,19 +164,19 @@ Abel,辞書と読み上げ,9777,中学英単語,基本&lt;/pre&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 共有単語帳の提出フォーム&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;自分の作った単語帳・デッキを世界中のAnkiユーザーと共有する方が皆さんの中から現れるのを期待しています。きっと今までとは違う喜びが得られるはずです。&lt;/p&gt;
-&lt;h2 id=&#34;単語帳内容の登録について注意点&#34;&gt;単語帳内容の登録について注意点&lt;/h2&gt;
+&lt;h3 id=&#34;単語帳内容の登録について注意点&#34;&gt;単語帳内容の登録について注意点&lt;/h3&gt;
 &lt;p&gt;全ての項目に日本語が入力可能です。単語帳の内容を日本語で具体的に説明しましょう。&lt;/p&gt;
 &lt;p&gt;このサイトの共有単語帳の検索機能は、Title と Tag を対象にして検索します。
 日本語キーワードが使えますので、Title や Tag に日本語を使えばその内容も検索できます。&lt;/p&gt;
 &lt;p&gt;なお、共有単語帳トップページの分類項目 &#34;&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/decks/japanese&#34;&gt;Japanese&lt;/a&gt;&#34; に掲載するには、Tag に &#34;Japanese&#34; を指定します。&lt;/p&gt;
-&lt;h2 id=&#34;共有単語帳とプライバシー&#34;&gt;共有単語帳とプライバシー&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳とプライバシー&#34;&gt;共有単語帳とプライバシー&lt;/h3&gt;
 &lt;p&gt;クライアント上で共有単語帳に設定した単語帳を更新し、同期しても自動的に内容は公開しません。
 また、AnkiWeb 上で直接編集した場合も同様です。
 再度提出フォームを送信しない限り、共有単語帳の内容は更新しません。&lt;/p&gt;
 &lt;p&gt;カードに未使用であっても、メディアフォルダーに存在するファイルは共有単語帳に含めて公開します。
 意図しないメディアデータを公開する可能性がありますので注意してください。
 メニューバーから [ツール]-[メディアをチェック] を選択して、不要なデータが残っていないか、公開前に確認すると良いでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;共有単語帳を更新&#34;&gt;共有単語帳を更新&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳を更新&#34;&gt;共有単語帳を更新&lt;/h3&gt;
 &lt;p&gt;更新した単語帳を AnkiWeb に同期し、単語帳名を変更せずに再度共有します。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -192,24 +192,24 @@ AnkiWeb にサインインします。
 提出フォームを送信します。
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;共有単語帳を削除&#34;&gt;共有単語帳を削除&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳を削除&#34;&gt;共有単語帳を削除&lt;/h3&gt;
 &lt;p&gt;サインイン後の単語帳一覧の右側のプルダウンメニューから[Delete]を選択します。
 この場合、AnkiWeb に同期している単語帳データも同時に削除するので注意してください。&lt;/p&gt;
-&lt;h2 id=&#34;共有単語帳の有効期限&#34;&gt;共有単語帳の有効期限&lt;/h2&gt;
+&lt;h3 id=&#34;共有単語帳の有効期限&#34;&gt;共有単語帳の有効期限&lt;/h3&gt;
 &lt;p&gt;共有単語帳の有効期限は、公開したアカウントが削除される時までです。
 なお、AnkiWeb のアカウントは 3 か月間アクセスがないと自動削除対象になるので注意が必要です。&lt;/p&gt;
 &lt;p&gt;参考情報: Anki Support Knowledge Base &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/kb/anki-ecosystem/ankiweb-account-removal&#34;&gt;AnkiWeb account removal&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;まとめ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;まとめ&lt;/h1&gt;
+    &lt;h2&gt;まとめ&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;単語帳の共有方法は色々用意されています。それぞれの方法の特徴を良く理解しておくと、自分の目的にあった方法が見つかるはずです。
 自分で作った単語帳を友だちと交換し合うと、Ankiの学習はもっと楽しくなると思います。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;連載の終わりに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;連載の終わりに&lt;/h1&gt;
+    &lt;h2&gt;連載の終わりに&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;アプリケーションソフトウェアはたとえ完全なマニュアルやチュートリアルがあっても、はじめて使う時には非常に戸惑うものです。
 このような時には、まずアプリケーションに触れてみて、その反応からそのアプリ独自の使い方を体感するのが有効だと考えています。
@@ -227,7 +227,7 @@ AnkiWeb にサインインします。
 &lt;/section&gt;
 &lt;section id=&#34;更新情報&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h1&gt;更新情報&lt;/h1&gt;
+    &lt;h2&gt;更新情報&lt;/h2&gt;
   &lt;/div&gt;
 &lt;p&gt;2013/05/30: 初出&lt;/p&gt;
 &lt;p&gt;2014/09/10: 共有単語帳のプライバシー、更新、削除を追加&lt;/p&gt;
