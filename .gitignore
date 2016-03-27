@@ -4,8 +4,10 @@
 *.tmp
 *.map
 *.old
+.sass-cache/
 public/
 themes/*
-!themes/lanyon/
+!themes/lanyon/layouts/
+!themes/lanyon/static/css
 themes/lanyon/content/
 themes/lanyon/static/css/.sass-cache/
