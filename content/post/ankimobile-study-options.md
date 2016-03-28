@@ -1,7 +1,7 @@
 ---
 slug: "ankimobile-study-options"
 date: "2015-01-24T00:00:42+00:00"
-lastmod: "2015-01-24T00:01:58+00:00"
+lastmod: "2016-03-28T16:03:29+00:00"
 title: "AnkiMobile の学習オプションを最適化する"
 categories: ["Anki"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
