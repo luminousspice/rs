@@ -1431,7 +1431,7 @@ AnkiWeb の共有単語帳検索の対象は、タイトル (Title) と単語帳
       <description>AnkiWeb の同期機能は、教材や学習履歴、復習スケジュールに加えて、学習オプションも同期します。通常は iPhone や iPad などで AnkiMobile を単独で使っている場合でも、この同期機能を利用すると AnkiMobile の機能を詳細に設定することができます。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;AnkiWeb の同期機能は、教材や学習履歴、復習スケジュールに加えて、学習オプションも同期します。通常は iPhone や iPad などで AnkiMobile を単独で使っている場合でも、この同期機能を利用すると AnkiMobile の機能を詳細に設定することができます。&lt;/p&gt;
-&lt;p class=&#34;message&#34;&gt;Mobile 2.0.18 から、PC 版 Anki を利用しなくても環境設定や学習オプションなどほぼ全てのオプション項目が AnkiMobile 独自で設定できるようになりました。この記事は、最新版の機能を反映した内容ではありません。近い将来削除する予定です。&lt;/p&gt;
+&lt;p class=&#34;message&#34;&gt;AnkiMobile 2.0.18 から、PC 版 Anki を利用しなくても環境設定や学習オプションなどほぼ全てのオプション項目が AnkiMobile 独自で設定できるようになりました。この記事は、最新版の機能を反映した内容ではありません。近い将来削除する予定です。&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;はじめに&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
