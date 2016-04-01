@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://rs.luminousspice.com/hugo-site-search/</loc>
+    <lastmod>2016-04-01T21:27:23+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rs.luminousspice.com/html5-on-anki/</loc>
     <lastmod>2015-12-31T23:19:15+00:00</lastmod>
   </url>
