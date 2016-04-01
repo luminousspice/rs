@@ -20,7 +20,6 @@
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo でのコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;toc::[]&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
