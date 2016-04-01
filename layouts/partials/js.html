@@ -1,2 +1,2 @@
-{{ if ne .Params.Type "page" }}{{ partial "toc.html" . }}{{ end }}
+{{ if ne .Params.Type "page" }}{{ if ne .Params.Type "article" }}{{ partial "toc.html" . }}{{ end }}{{ end }}
 {{ template "_internal/google_analytics.html" . }}
