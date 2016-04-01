@@ -1,6 +1,7 @@
 ---
 slug: "hugo-site-search"
 date: "2016-04-01T21:27:23+09:00"
+lastmod: "2016-04-02T01:57:48+09:00"
 title: "Hugo に全文検索を取り付けた"
 type: "article"
 categories: ["Hugo"]
@@ -17,7 +18,7 @@ excerpt: "静的サイトジェネレータ Hugo を使って生成したコン�
 :toclevels: 1
 
 ////
-http://rs.luminousspice.com/hugo-site-search-for-japanese-text/
+http://rs.luminousspice.com/hugo-site-search/
 ////
 
 {description}
