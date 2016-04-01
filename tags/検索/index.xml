@@ -20,6 +20,7 @@
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo でのコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;toc::[]&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -190,7 +191,7 @@
 &lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この作業を行っているうちに見つけた関連項目をまとめます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;hugofunction&#34;&gt;Hugo の文書化されていないテキスト機能&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Hugo には、未だ文書化されていないテキストに関する変数や組み込み関数があります。参考までに紹介します。
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Hugo には、いまだ文書化されていないテキストに関する変数や組み込み関数があります。参考までに紹介します。
 それぞれの使い方や機能については、GitHub などでコミット内容を確認ください。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;&lt;div class=&#34;title&#34;&gt;変数&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
