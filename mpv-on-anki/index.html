@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。'>
+<meta name="keywords" content="開発, Python, 動画, メディア, mpv, VLC, afplay">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。'/>
+<meta property="og:title" content="Anki のメディアプレイヤーを mpv に取り替える" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/mpv-on-anki/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-02T20:03:15&#43;09:00"/>
+<meta property="article:modified_time" content="2016-04-02T20:03:15&#43;09:00"/>
+
+
+
+<meta property="article:tag" content="開発"><meta property="article:tag" content="Python"><meta property="article:tag" content="動画"><meta property="article:tag" content="メディア"><meta property="article:tag" content="mpv"><meta property="article:tag" content="VLC"><meta property="article:tag" content="afplay">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Anki のメディアプレイヤーを mpv に取り替える">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Anki のメディアプレイヤーを mpv に取り替える | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/mpv-on-anki/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Anki のメディアプレイヤーを mpv に取り替える</h1>
+  <span class="post-date"><time datetime="2016-04-02T20:03:15&#43;09:00">2016-04-02</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p>Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。</p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anki_はメディアプレイヤーのカスタマイズを前提に作っていた">Anki はメディアプレイヤーのカスタマイズを前提に作っていた</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>Anki のメディアプレイヤーを MPlayer から変更するのに、HTML5 Video 要素を利用する方法を <a href="http://rs.luminousspice.com/html5-on-anki/">HTML5 を利用した Anki カードへのメディアの埋め込み</a> で以前取り上げました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。
+コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定できます。
+なお、OS X 版を前提として説明を進めます。</p></div>
+<div class="paragraph"><p>最近 reddit で <a href="https://www.reddit.com/r/Anki/comments/4c1ihg/does_anyone_use_vlc_with_anki/">Does anyone use VLC with Anki?</a> という面白い投稿を見つけました。MPlayer を VLC media player に変更する方法を取り上げています。</p></div>
+<div class="paragraph"><p>何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。</p></div>
+<div class="paragraph"><p>Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン <a href="https://github.com/dae/ankiplugins/blob/master/customPlayer.py">customPlayer.py</a> を公開している説明していて、先ほどの投稿の中でも利用していました。</p></div>
+<div class="paragraph"><p>そこで mpv を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。</p></div>
+<div class="paragraph"><p><strong>参考:</strong> <a href="https://github.com/dae/anki/blob/master/anki/sound.py">anki/sound.py</a></p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_アドオンの設定方法">アドオンの設定方法</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>このアドオン <a href="https://github.com/dae/ankiplugins/blob/master/customPlayer.py">customPlayer.py</a> の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
+初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。</p></div>
+<div class="listingblock">
+<div class="title">customPlayer.py 変更箇所</div>
+<div class="content">
+<pre><tt># change 'customPlayer' to the player you want
+#externalPlayer = ["mplayer", "-really-quiet"]
+externalPlayer = ["customPlayer"]</tt></pre>
+</div></div>
+<div class="paragraph"><p>具体的な設定方法は、｀externalPlayer = ["customPlayer"]` の <tt>customPlayer</tt> を使いたいアプリのコマンドで置き換えます。
+mpv に変更したい場合は、次のように指定します。</p></div>
+<div class="listingblock">
+<div class="title">mpv に交換する設定例</div>
+<div class="content">
+<pre><tt>externalPlayer = ["mpv"]</tt></pre>
+</div></div>
+<div class="paragraph"><p>変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。</p></div>
+<div class="sect2">
+<h3 id="_その他のアプリへの設定例">その他のアプリへの設定例</h3>
+<div class="paragraph"><p>先ほどの参考情報の VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。</p></div>
+<div class="listingblock">
+<div class="title">VLC media player の場合</div>
+<div class="content">
+<pre><tt>externalPlayer = ["/Applications/VLC.app/Contents/MacOS/VLC", "--video-on-top", "--play-and-exit"]</tt></pre>
+</div></div>
+<div class="listingblock">
+<div class="title">Quick Look の場合</div>
+<div class="content">
+<pre><tt>externalPlayer = ["qlmanage", "-p"]</tt></pre>
+</div></div>
+<div class="listingblock">
+<div class="title">afplay の場合 (高音質設定)</div>
+<div class="content">
+<pre><tt>externalPlayer = ["afplay","-q","1"]</tt></pre>
+</div></div>
+<div class="paragraph"><p>ここまで分かれば、セレクターを使って切り替えるとか、ノートからメディアプレイヤーを指定するとかアドオンのアイデアが沸いてきてお楽しみが増えますね。</p></div>
+<div class="paragraph"><p>Anki はユーザーがカスタマイズすることを前提に作られていて、いろいろな場所にその糸口が見つかります。
+自分の好みに調節してさらに使いやすくするという Anki の楽しみ方も体験していただけたらと思います。</p></div>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/mpv-on-anki\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
