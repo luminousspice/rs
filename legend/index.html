@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo からコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。'>
+<meta name="keywords" content="開発, JavaScript, 検索">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo からコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。'/>
+<meta property="og:title" content="凡例" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/legend/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-01T21:27:23&#43;09:00"/>
+<meta property="article:modified_time" content="2016-04-02T01:57:48&#43;09:00"/>
+
+
+
+<meta property="article:tag" content="開発"><meta property="article:tag" content="JavaScript"><meta property="article:tag" content="検索">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="凡例">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo からコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>凡例 | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/legend/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">凡例</h1>
+  <span class="post-date"><time datetime="2016-04-01T21:27:23&#43;09:00">2016-04-01</time></span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p>静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo でのコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。</p></div>
+<div class="paragraph"><p>toc::[]</p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_はじめに">はじめに</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>この件は、ゼロベースから考えました。</p></div>
+<div class="paragraph"><p>ちょうど WordPress で運用していたデータを静的ジェネレータ (SSG) の <a href="http://gohugo.io">Hugo</a> に移行し、CI を使って GitHub Pages 上に展開したところです。</p></div>
+<div class="paragraph"><p>最低限の CSS だけのテンプレートを使って静的なページを作っているので、JavaScript を使うにしても出来る限り絞り込みたいというのが、前提条件でした。</p></div>
+<div class="paragraph"><p>元原稿は AsciiDoc の集まりなので、そこからインデックスファイルを作り、このファイルを JavaScript で検索するページを作ればよいだろうとザックリと考えました。サイトのコンテンツの規模は、1.2MB、70 ファイルです。</p></div>
+<div class="sect2">
+<h3 id="_インデックスファイルのテンプレート">インデックスファイルのテンプレート</h3>
+<div class="paragraph"><p>このインデックスを書き出す Type を "js" と決め、書き出し用テンプレートを <tt>layouts/js/single.html</tt> に配置しました。</p></div>
+<div class="listingblock">
+<div class="title">single.html</div>
+<div class="content"></div></div>
+<div class="paragraph"><p>Section が Post の投稿に限定して、題名、URL、本文を取り出しています。なお、本文の書き出しには HTML を外すために変数 <tt>.PlainWords</tt> を使いました。</p></div>
+<div class="paragraph"><p><tt>.PlainWords</tt> の様な Hugo の文書化していないテキストに関する機能と JSON 形式でインデックスファイルを作成する場合のヒントについて <a href="http://rs.luminousspice.com/hugo-site-search/#appendix">遺補</a> にまとめました。</p></div>
+</div>
+<div class="sect2">
+<h3 id="_インデックスファイルを生成する空の投稿">インデックスファイルを生成する空の投稿</h3>
+<div class="paragraph"><p>テンプレートで設定した内容を実際に生成するための空の投稿ファイル作ります。Front Matter で　Type を　"js" とし、url を <tt>index.js</tt> と指定しました。</p></div>
+<div class="listingblock">
+<div class="title">indexjs.adoc</div>
+<div class="content"></div></div>
+<div class="paragraph"><p>このサイトでは AsciiDoc で書いているので拡張子を <tt>adoc</tt> にしましたが <tt>md</tt> にしても機能します。</p></div>
+<div class="paragraph"><p>その結果が <a href="http://rs.luminousspice.com/index.js">http://rs.luminousspice.com/index.js</a> になります。容量は 700 KB です。
+インデックスファイルが実利用に耐えうるサイズになるか、当初心配しました。
+過去 4 年でこのサイズですから、このサイトではこれから　4−5 年は問題なく使えると判断しました。</p></div>
+</div>
+<div class="sect2">
+<h3 id="_検索ページの作成">検索ページの作成</h3>
+<div class="paragraph"><p>検索ページを配置するための投稿を作成します。Front Matter は次のように設定しました。Type を "Search" に指定しています。</p></div>
+<div class="listingblock">
+<div class="title">search.adoc (検索ページの Front Matter)</div>
+<div class="content"></div></div>
+<div class="paragraph"><p><strong>参考:</strong> <a href="https://discuss.gohugo.io/t/another-way-to-search/1736">Another way to search - tips &amp; tricks - Hugo Discussion</a></p></div>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/legend\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
