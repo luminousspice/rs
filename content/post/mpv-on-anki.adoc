@@ -1,0 +1,89 @@
+---
+slug: "mpv-on-anki"
+date: "2016-04-02T20:03:15+09:00"
+title: "Anki のメディアプレイヤーを mpv に取り替える"
+type: "post"
+categories: ["Anki"]
+tags: ["開発","Python","動画","メディア","mpv","VLC","afplay"]
+excerpt: "Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。"
+---
+= Anki のメディアプレイヤーを mpv に変える
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。
+////
+:toc: macro
+:toc-placement:
+:toclevels: 1
+////
+////
+http://rs.luminousspice.com/mpv-on-anki/
+////
+
+{description}
+
+//toc::[]
+
+== Anki はメディアプレイヤーのカスタマイズを前提に作っていた
+
+Anki のメディアプレイヤーを MPlayer から変更するのに、HTML5 Video 要素を利用する方法を link:/html5-on-anki/[HTML5 を利用した Anki カードへのメディアの埋め込み] で以前取り上げました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。
+コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定できます。
+なお、OS X 版を前提として説明を進めます。
+
+最近 reddit で https://www.reddit.com/r/Anki/comments/4c1ihg/does_anyone_use_vlc_with_anki/[Does anyone use VLC with Anki?] という面白い投稿を見つけました。MPlayer を VLC media player に変更する方法を取り上げています。
+
+何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。
+
+Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン https://github.com/dae/ankiplugins/blob/master/customPlayer.py[customPlayer.py] を公開している説明していて、先ほどの投稿の中でも利用していました。
+
+そこで mpv を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。
+
+*参考:* https://github.com/dae/anki/blob/master/anki/sound.py[anki/sound.py]
+
+== アドオンの設定方法
+
+このアドオン https://github.com/dae/ankiplugins/blob/master/customPlayer.py[customPlayer.py] の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
+初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。
+
+.customPlayer.py 変更箇所
+----
+# change 'customPlayer' to the player you want
+#externalPlayer = ["mplayer", "-really-quiet"]
+externalPlayer = ["customPlayer"]
+----
+
+具体的な設定方法は、｀externalPlayer = ["customPlayer"]` の `customPlayer` を使いたいアプリのコマンドで置き換えます。
+mpv に変更したい場合は、次のように指定します。
+
+.mpv に交換する設定例
+----
+externalPlayer = ["mpv"]
+----
+
+変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。
+
+=== その他のアプリへの設定例
+
+先ほどの参考情報の VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。
+
+.VLC media player の場合
+----
+externalPlayer = ["/Applications/VLC.app/Contents/MacOS/VLC", "--video-on-top", "--play-and-exit"]
+----
+
+.Quick Look の場合
+----
+externalPlayer = ["qlmanage", "-p"]
+----
+
+.afplay の場合 (高音質設定)
+----
+externalPlayer = ["afplay","-q","1"]
+----
+
+ここまで分かれば、セレクターを使って切り替えるとか、ノートからメディアプレイヤーを指定するとかアドオンのアイデアが沸いてきてお楽しみが増えますね。
+
+Anki はユーザーがカスタマイズすることを前提に作られていて、いろいろな場所にその糸口が見つかります。
+自分の好みに調節してさらに使いやすくするという Anki の楽しみ方も体験していただけたらと思います。
