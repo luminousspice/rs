@@ -113,14 +113,7 @@
 <div class="paragraph"><p>このインデックスを書き出す Type を "js" と決め、書き出し用テンプレートを <tt>layouts/js/single.html</tt> に配置しました。</p></div>
 <div class="listingblock">
 <div class="title">single.html</div>
-<div class="content">
-<pre><tt>var data = [{{ range $index, $page := where .Site.Pages "Section" "post"}}
-{{ if ne $index 0 }},{{ end }}{
-url: "{{ $page.Permalink }}",
-title: "{{ $page.Title }}",
-content: "{{ .PlainWords }}"
-}{{ end }}]</tt></pre>
-</div></div>
+<div class="content"></div></div>
 <div class="paragraph"><p>Section が Post の投稿に限定して、題名、URL、本文を取り出しています。なお、本文の書き出しには HTML を外すために変数 <tt>.PlainWords</tt> を使いました。</p></div>
 <div class="paragraph"><p><tt>.PlainWords</tt> の様な Hugo の文書化していないテキストに関する機能と JSON 形式でインデックスファイルを作成する場合のヒントについて <a href="http://rs.luminousspice.com/hugo-site-search/#appendix">遺補</a> にまとめました。</p></div>
 </div>
@@ -129,13 +122,7 @@ content: "{{ .PlainWords }}"
 <div class="paragraph"><p>テンプレートで設定した内容を実際に生成するための空の投稿ファイル作ります。Front Matter で　Type を　"js" とし、url を <tt>index.js</tt> と指定しました。</p></div>
 <div class="listingblock">
 <div class="title">indexjs.adoc</div>
-<div class="content">
-<pre><tt>---
-date: "2016-03-21T14:35:52+09:00"
-type: "js"
-url: "index.js"
----</tt></pre>
-</div></div>
+<div class="content"></div></div>
 <div class="paragraph"><p>このサイトでは AsciiDoc で書いているので拡張子を <tt>adoc</tt> にしましたが <tt>md</tt> にしても機能します。</p></div>
 <div class="paragraph"><p>その結果が <a href="http://rs.luminousspice.com/index.js">http://rs.luminousspice.com/index.js</a> になります。容量は 700 KB です。
 インデックスファイルが実利用に耐えうるサイズになるか、当初心配しました。
@@ -148,6 +135,22 @@ url: "index.js"
 <div class="title">search.adoc (検索ページの Front Matter)</div>
 <div class="content"></div></div>
 <div class="paragraph"><p><strong>参考:</strong> <a href="https://discuss.gohugo.io/t/another-way-to-search/1736">Another way to search - tips &amp; tricks - Hugo Discussion</a></p></div>
+<div class="listingblock">
+<div class="content"></div></div>
+<div class="listingblock">
+<div class="content"></div></div>
+<div class="colist arabic"><ol>
+<li>
+<p>
+First callout.
+</p>
+</li>
+<li>
+<p>
+Second callout.
+</p>
+</li>
+</ol></div>
 </div>
 </div>
 </div>
