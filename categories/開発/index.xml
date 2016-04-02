@@ -211,340 +211,6 @@
     </item>
     
     <item>
-      <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
-      <pubDate>Mon, 07 Apr 2014 18:30:27 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
-      <description>このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;anki_公式文書_日本語訳&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Anki 公式文書 日本語訳&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;マニュアルを補足する文書の日本語訳。バージョン間での機能の違いを調べたりや機能を独自にカスタマイズしたり拡張したりするのに役立ちます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成 日本語訳&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;anki_連載チュートリアル&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Anki 連載チュートリアル&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Ankiを使って学習するのに必要最低限の内容を頻度と習熟度を基準にすぐ役立つなものからまとめました。
-理解するより、まず使ってみてなれてもらえればと思っています。
-Anki 2 はベータ版から2年近く毎日使っていますが、この連載の範囲を超える機能はほとんど使ったことがありません。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki - まず使ってみる&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/index-how-to-anki/&#34;&gt;はじめてAnkiを使う人のための索引&lt;/a&gt;
-知りたい機能や使い方を紹介している記事へ誘導する索引です。簡単な逆引き辞典です。
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;
-Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、Ankiで特別な意味を持つ用語を取り上げました。
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-tips/&#34;&gt;Anki Tips - 知っておくとお得な機能たち&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-shortcuts/&#34;&gt;Anki ショートカットキー&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオンガイド – Anki をもっと使いやすくするアドオンたち&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザーのための Anki 共有単語帳リスト&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/sample-decks/&#34;&gt;Anki 単語帳サンプル一覧&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ems-mnemonics/&#34;&gt;Anki 単語帳: 救急診療に役立つ暗記メモ集&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ankigene-bot-guide/&#34;&gt;Anki の基本知識をつぶやきます&lt;/a&gt;
-ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、機能拡張するアドオンの説明を取り上げます。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;anki活用の手引き&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Anki活用の手引き&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;前の連載の内容に比べると、利用頻度はそれほど高くありませんが、知っておくと断然Ankiの利用価値が高まる機能や使い方についてまとめました。&lt;/p&gt;
-&lt;h3 id=&#34;anki_の設定とメンテナンス&#34;&gt;Anki の設定とメンテナンス&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Ankiのインストール&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;Anki自動バックアップ機能の使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/restore_corrupt_data/&#34;&gt;破損したAnkiデータの修復&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9の注目すべき変更点&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki2013/&#34;&gt;Anki2.0.13の注目すべき変更点&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-fail-to-sync/&#34;&gt;Ankiが同期できない問題について&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-timebox-time-limit/&#34;&gt;時間制限して Anki 学習するタイムボックス機能&lt;/a&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/study-session-with-the-unexpected/&#34;&gt;Anki 学習セッション中の予測とは異なる体感&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;anki_の学習方法&#34;&gt;Anki の学習方法&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;いま表示しているAnkiカードだけ学習をやめる方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/suitable-deck/&#34;&gt;おすすめ Anki 単語帳について&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-restore-guide/&#34;&gt;転んでもタダでは起きない Anki 再履修の手引き&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/learn-with-anki/&#34;&gt;暗記に強くなるために Anki から上手くサポートを得るには&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;anki_の教材作成&#34;&gt;Anki の教材作成&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/hint_field/&#34;&gt;Ankiのカードにヒントを付ける方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cardtype/&#34;&gt;Ankiのカードタイプと出題方法の増やし方&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;メディアファイルとの連携&#34;&gt;メディアファイルとの連携&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;Anki の動画再生に使えるショートカットキー&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;anki_アドオンの作成&#34;&gt;Anki アドオンの作成&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ios_ユーザ向け_anki_アプリガイダンス&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;iOS ユーザ向け Anki アプリガイダンス&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;iPhone、iPad、iPod touch ユーザのために Anki の iOS アプリ AnkiMobile Flashcards のスマホの特性を活用した使い方を紹介します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-profile/&#34;&gt;Anki を共有機器で利用するためのプロファイルの使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-study-options/&#34;&gt;AnkiMobile の学習オプションを最適化する&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;熟練ユーザー限定_anki_の使いこなし方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;熟練ユーザー限定 Anki の使いこなし方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;連載: Art of Anki では、Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/cutting-up-your-anki-backlog/&#34;&gt;ためた Anki 復習カードをスライスして消化&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/bias-free-anki-learning/&#34;&gt;もっと Anki に集中する使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-learning-with-shared-decks/&#34;&gt;Anki 共有単語帳の学び方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-mastery-calls-for-iphone/&#34;&gt;Anki になれた方に iPhone をすすめたい理由&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki-basics/&#34;&gt;Anki 使いの原点&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;最新_anki_情報源&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;最新 Anki 情報源&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;http://ankigene.luminousspice.com&#34;&gt;Ankigene&lt;/a&gt; では、ネット上に流通する多くの情報の中から、Anki ユーザーの意欲を活性化するユニークな話題を厳選し、要約して紹介します。(目下、不定期リリース)&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;コーパス分析による語彙学習と_anki_の活用法&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;コーパス分析による語彙学習と Anki の活用法&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;特定分野の専門文書に高頻度に出現する語彙をデータベースから抽出して、効果的に語彙学習する方法を紹介しています。
-基本語彙を習得した後に、自分の専門分野に特化した語彙学習の方法をAnkiを使って説明しています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn/&#34;&gt;Windows開発者の必修語彙をAnki学習する方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/words-in-msdn/&#34;&gt;MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-wordpress-codex/&#34;&gt;WordPress Codexの英語 WordPress開発者のためのAnki単語帳&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/&#34;&gt;MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/words_in_msdn_20130601/&#34;&gt;MSDNの英語[1]&lt;/a&gt; - &#34;A Modern C++ Library for DirectX Programming&#34; June 2013から
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;learning_with_texts_lwt_を使ったテキスト購読による語彙学習とanki活用法&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Learning with Texts(LWT) を使ったテキスト購読による語彙学習とAnki活用法&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;実際のテキスト購読を進めながら、学習語彙を抽出し Anki と連携する方法について紹介しています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how_to_lwt_install/&#34;&gt;はじめてのLearning with Texts(LWT) インストール&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/lwt_basics/&#34;&gt;はじめてのLWT 基本的な使い方&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how_to_export_for_anki/&#34;&gt;はじめてのLWT データ出力&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;その他の話題&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;その他の話題&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;本来書くつもりだった普通の個人的なブログの話題です。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/zen-coding-with-mi/&#34;&gt;ZenCoding with mi&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/zencoding-automator-services/&#34;&gt;Zencoding Automator Services&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/japanese-free-programming-books/&#34;&gt;日本語で読める Free Programming Books&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/pelican_with_asciidoc/&#34;&gt;静的サイトジェネレータ Pelican で AsciiDoc を使う方法&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/&#34;&gt;Mac OS X に IPython Notebook をインストールする場合の注意点&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;更新情報&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;2014/04/07: 初出&lt;/p&gt;
-&lt;p&gt;2014/07/15: AnkiMoble についての項目追加&lt;/p&gt;
-&lt;p&gt;2014/09/01: AnkiWeb についての項目追加&lt;/p&gt;
-&lt;p&gt;2014/09/08: 学習方法についての項目追加&lt;/p&gt;
-&lt;p&gt;2014/09/24: 再構成&lt;/p&gt;
-&lt;p&gt;2015/01/24: 記事追加&lt;/p&gt;
-&lt;p&gt;2016/01/03: メディアファイルとの連携について項目追加&lt;/p&gt;
-&lt;p&gt;2016/01/09: Anki ショートカットキーについて項目追加&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
       <title>フックを使った Anki アドオンのつくり方</title>
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
@@ -877,6 +543,109 @@ Done: Processed 1 articles and 0 pages in 0.40 seconds.
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;文書化されていない Pelican での AsciiDoc 利用の方法はここまでです。
 ここから先は、他のマークアップ言語と同じようにドキュメントの内容に従って使いこなしてください。&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>日本語で読める Free Programming Books</title>
+      <link>http://rs.luminousspice.com/japanese-free-programming-books/</link>
+      <pubDate>Sat, 30 Nov 2013 23:00:44 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/japanese-free-programming-books/</guid>
+      <description>List of Free Programming Books 日本語版は、インターネット上で自由にアクセスできる日本語のプログラミング書籍の一覧です。日本語版独自の特徴、英語版との違い、このプロジェクトへの貢献の仕方について紹介します。</description>
+      <content>&lt;section id=&#34;list_of_free_programming_books_とは&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;List of Free Programming Books とは&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://resrc.io/list/10/list-of-free-programming-books/&#34;&gt;List of Free Programming Books&lt;/a&gt; とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の &#34;List of freely available programming books&#34; が元になっています。
+現在は、&lt;a href=&#34;https://github.com/vhf/free-programming-books&#34;&gt;GitHub にホスティングしているリポジトリ&lt;/a&gt;を vhf / victor felder が管理しています。&lt;/p&gt;
+&lt;p&gt;現在では、オリジナルの英語版に加えて、&lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books-ja.md&#34;&gt;日本語版&lt;/a&gt;をはじめとした13か国語版のリストを収録しています。&lt;/p&gt;
+&lt;p&gt;GitHub のアカウントをもっていれば誰でも追加編集リクエストを出すことができます。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;貢献する方法&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;貢献する方法&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://github.com/&#34;&gt;GitHub&lt;/a&gt; のアカウントを作る。
+&lt;/li&gt;
+&lt;li&gt;
+Fork する。
+&lt;/li&gt;
+&lt;li&gt;
+編集する。
+&lt;/li&gt;
+&lt;li&gt;
+PR (Pull Request) を投げる。
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section id=&#34;日本語版の内容&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;日本語版の内容&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/vhf/free-programming-books/blob/master/free-programming-books-ja.md&#34;&gt;List of Free Programming Books 日本語版&lt;/a&gt; は、インターネット上で自由にアクセスできる日本語のプログラミング書籍の一覧です。内訳は次の通りです。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+List of Free Programming Books 英語版掲載書籍の日本語版
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+日本語版独自の自由にアクセス可能なプログラミング書籍
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;英語版のリストの翻訳ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;日本語版のリストを追加した動機&#34;&gt;日本語版のリストを追加した動機&lt;/h3&gt;
+&lt;p&gt;最初にこのリストを見た時には、まだ英仏独伊のヨーロッパ系言語版だけを収録している状況でした。お祭りなので、まずは日本語開発者のコミュニティの存在感を示したかったこと、将来的にこのリストを利用したシステムやアプリケーションを作るようなことがあった時に、日本語での利便性が考慮されるようにしたかったためです。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;英語版との違い&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;英語版との違い&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;現在日本語版には、219のアイテムを登録しています。そのうち200位を私が追加したもので、情報の選択に英語版よりも制限が加えました。今後、誤解を招かないようにその制限の内容を説明します。
+その制限が維持すべきものと考えていませんし、拡張の余地が大いにあると考えています。&lt;/p&gt;
+&lt;h3 id=&#34;電子書籍あるいは電子書籍に限りなく近い形態の情報に限定しました&#34;&gt;電子書籍あるいは電子書籍に限りなく近い形態の情報に限定しました。&lt;/h3&gt;
+&lt;p&gt;CodeAcademy のようなコースウェア、SlideShare にホスティングしているような共有スライド、ブログ記事は掲載していません。&lt;/p&gt;
+&lt;p&gt;これは、オリジナル List of Free Programming Books 公開に対する日本語での反響が、「フリーにアクセスできるプログラミング書籍がたくさんある」ことに対する期待であったため、日本語版の情報の選択に際して、その期待を裏切らないよう制限を加えました。&lt;/p&gt;
+&lt;p&gt;英語書籍の翻訳を分割連載しているブログ記事だけは例外的に取り上げました。&lt;/p&gt;
+&lt;h3 id=&#34;著作者_翻訳者を原則表記しました&#34;&gt;著作者、翻訳者を原則表記しました。&lt;/h3&gt;
+&lt;p&gt;情報共有してくれている方に対する謝意を示すためです。氏名が不明な場合は、はてなやtwitter、GitHubのアカウント名で代用しました。それでも分からない場合は空欄にしています。&lt;/p&gt;
+&lt;p&gt;Creative Commons のようなライセンス表記を検討しましたが、表記方法とレイアウトに結論が出せなかったため、盛り込みませんでした。&lt;/p&gt;
+&lt;h3 id=&#34;入手に個人情報の提供が必要なものは除外しました&#34;&gt;入手に個人情報の提供が必要なものは除外しました。&lt;/h3&gt;
+&lt;p&gt;自分としては、個人情報が対価として要求するならフリーではないと考えました。他の方がこのような情報を追加リクエストすることは否定しません。&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;日本語版に現在不足している分野&#34;&gt;
+  &lt;div class=&#34;page-header&#34;&gt;
+    &lt;h2&gt;日本語版に現在不足している分野&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;p&gt;情報が大量にあって選択の判断に迷うもの、自分の得意分野以外の情報が大きく欠落しています。&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+.NET アプリ開発 (C# や Visual Basic)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+モバイル機器用アプリ開発 (Android や iOS)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Web アプリ開発 (Ruby on Rails、ASP.NET、PHP)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+情報工学一般
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;p&gt;まだ、多数の情報が見逃されているのではないかと思います。たくさんの皆さんからの貢献を期待しています。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
