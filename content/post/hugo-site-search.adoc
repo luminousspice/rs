@@ -14,8 +14,12 @@ excerpt: "静的サイトジェネレータ Hugo を使って生成したコン�
 :encoding: UTF-8
 :keywords:
 :description: 静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo でのコンテンツと一緒にインデックスファイルも同時に書き出し、クライアント側の JavaScript で日本語のキーワードを検索をします。
+////
+:toc: macro
 :toc-placement:
 :toclevels: 1
+:source-highlighter: pygments
+////
 
 ////
 http://rs.luminousspice.com/hugo-site-search/
@@ -23,7 +27,7 @@ http://rs.luminousspice.com/hugo-site-search/
 
 {description}
 
-toc::[]
+//toc::[]
 
 == はじめに
 
@@ -58,8 +62,8 @@ Hugo に全文検索用のインデックスファイルを書き出させるに
 
 このインデックスを書き出す Type を "js" と決め、書き出し用テンプレートを `layouts/js/single.html` に配置しました。
 
+//[source,javascript]
 .single.html
-[source, javascript]
 ----
 var data = [{{ range $index, $page := where .Site.Pages "Section" "post"}}
 {{ if ne $index 0 }},{{ end }}{
@@ -77,14 +81,14 @@ Section が Post の投稿に限定して、題名、URL、本文を取り出し
 
 テンプレートで設定した内容を実際に生成するための空の投稿ファイル作ります。Front Matter で　Type を　"js" とし、url を `index.js` と指定しました。
 
+//[source,yaml]
 .indexjs.adoc
-[source, toml]
 ----
-+++
-date = "2016-03-21T14:35:52+09:00"
-type = "js"
-url = "index.js"
-+++
+---
+date: "2016-03-21T14:35:52+09:00"
+type: "js"
+url: "index.js"
+---
 ----
 
 このサイトでは AsciiDoc で書いているので拡張子を `adoc` にしましたが `md` にしても機能します。
@@ -107,15 +111,15 @@ url = "index.js"
 
 検索ページを配置するための投稿を作成します。Front Matter は次のように設定しました。Type を "Search" に指定しています。
 
+//[source,yaml]
 .search.adoc (検索ページの Front Matter)
-[source, toml]
 ----
-+++
-date = "2016-03-05T21:10:52+01:00"
-type = "search"
-url = "search"
-title = "全文検索"
-+++
+---
+date: "2016-03-05T21:10:52+01:00"
+type:  "search"
+url: "search"
+title: "全文検索"
+---
 ----
 
 *参考:* https://discuss.gohugo.io/t/another-way-to-search/1736[Another way to search - tips & tricks - Hugo Discussion]
