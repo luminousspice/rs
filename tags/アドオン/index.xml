@@ -6,10 +6,81 @@
     <description>アドオン | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Jan 2015 22:00:52 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Apr 2016 20:03:15 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/tags/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki のメディアプレイヤーを mpv に取り替える</title>
+      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
+      <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
+      <description>Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_はメディアプレイヤーのカスタマイズを前提に作っていた&#34;&gt;Anki はメディアプレイヤーのカスタマイズを前提に作っていた&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki のメディアプレイヤーを MPlayer から変更するのに、HTML5 Video 要素を利用する方法を &lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt; で以前取り上げました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。
+コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定できます。
+なお、OS X 版を前提として説明を進めます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;最近 reddit で &lt;a href=&#34;https://www.reddit.com/r/Anki/comments/4c1ihg/does_anyone_use_vlc_with_anki/&#34;&gt;Does anyone use VLC with Anki?&lt;/a&gt; という面白い投稿を見つけました。MPlayer を VLC media player に変更する方法を取り上げています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; を公開している説明していて、先ほどの投稿の中でも利用していました。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;そこで mpv を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;strong&gt;参考:&lt;/strong&gt; &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sound.py&#34;&gt;anki/sound.py&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_アドオンの設定方法&#34;&gt;アドオンの設定方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このアドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
+初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;customPlayer.py 変更箇所&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&lt;tt&gt;# change &#39;customPlayer&#39; to the player you want
+#externalPlayer = [&#34;mplayer&#34;, &#34;-really-quiet&#34;]
+externalPlayer = [&#34;customPlayer&#34;]&lt;/tt&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;具体的な設定方法は、｀externalPlayer = [&#34;customPlayer&#34;]` の &lt;tt&gt;customPlayer&lt;/tt&gt; を使いたいアプリのコマンドで置き換えます。
+mpv に変更したい場合は、次のように指定します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;mpv に交換する設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&lt;tt&gt;externalPlayer = [&#34;mpv&#34;]&lt;/tt&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_その他のアプリへの設定例&#34;&gt;その他のアプリへの設定例&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;先ほどの参考情報の VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;VLC media player の場合&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&lt;tt&gt;externalPlayer = [&#34;/Applications/VLC.app/Contents/MacOS/VLC&#34;, &#34;--video-on-top&#34;, &#34;--play-and-exit&#34;]&lt;/tt&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Quick Look の場合&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&lt;tt&gt;externalPlayer = [&#34;qlmanage&#34;, &#34;-p&#34;]&lt;/tt&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;afplay の場合 (高音質設定)&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&lt;tt&gt;externalPlayer = [&#34;afplay&#34;,&#34;-q&#34;,&#34;1&#34;]&lt;/tt&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ここまで分かれば、セレクターを使って切り替えるとか、ノートからメディアプレイヤーを指定するとかアドオンのアイデアが沸いてきてお楽しみが増えますね。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki はユーザーがカスタマイズすることを前提に作られていて、いろいろな場所にその糸口が見つかります。
+自分の好みに調節してさらに使いやすくするという Anki の楽しみ方も体験していただけたらと思います。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
