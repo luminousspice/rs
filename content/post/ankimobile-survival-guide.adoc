@@ -40,7 +40,7 @@ iOS 機器の特長を生かした機能拡張が行われており、学習機�
 インストール方法については、他の App Store と変わりなく特別なことはありません。
 Anki のフリーのオンラインサービス AnkiWeb は、データを同期しない限りは、ユーザー登録の必要なく利用できます。
 
-== AnkiMobile の初期設定状態
+=== AnkiMobile の初期設定状態
 
 これが iphone の場合のインストール直後の画面です。
 
@@ -57,6 +57,8 @@ iPhone の小さい画面の中に、機能を詰め込んだ簡潔なユーザ�
 
 ほとんどの方は、英文を読む力はあるけど一体どこから手を付けたら良いか分からず途方に暮れたのではないでしょうか。
 せっかく身銭切って買ったアプリなのに、この無力感は...
+
+=== このガイドの目標
 
 このガイドでは、AnkiMobile ユーザーインターフェイスの中で最低限必要なものを選んで説明します。
 マニュアルの読んだ時に、実際にアプリのどこをどう操作すればいいか見当がつくよういなるのが目的です。
@@ -99,6 +101,11 @@ image::/images/manual2.png["マニュアルを表示",width="300"]
 https://anki.tenderapp.com/discussions/announcements[Announcements] カテゴリ:: 作者からの告知が書き込まれるフォーラムです。バージョンアップや AnkiWeb の障害時に報告があります。
 https://anki.tenderapp.com/discussions/ankimobile[AnkiMobile] カテゴリ:: AnkiMobile ユーザーからの使い方、障害報告サポートするフォーラムです。
 https://anki.tenderapp.com/discussions/ankiweb[AnkiWeb] カテゴリ:: AnkiWeb と同期する方に必要なカテゴリです。但し、AnkiMobileとの同期で発生した問題は、AnkiMobile のカテゴリでも報告できます。
+
+.サポートサイト
+image::/images/supportsite.png["サポートサイト",width="300"]
+
+モバイルデバイスに対応したデザインに変更したため、以前よりも iPhone から使いやすくなりました。
 
 サポートフォーラムの投稿や閲覧にはユーザー登録の必要はありません。サインインすると自分が過去に投稿した内容が見つけやすくなります。
 キーワード検索で、自分が知りたい事例を過去の質問や Knowlodge Base から調べることが出来ます。
@@ -143,7 +150,7 @@ image::/images/preferences-review.png[width="300"]
 
 == データ入出力
 
-画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
+画面左下 [Add/Export] をタップすると、データ入出力に関するダイアログが開きます。
 AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。
 
 .共有単語帳ダウンロード
