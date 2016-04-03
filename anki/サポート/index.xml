@@ -16,407 +16,489 @@
       <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
       <pubDate>Sun, 11 May 2014 04:00:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
-      <description>Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Anki の iPhone (iOS) アプリ AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。この重要な 3 か所さえ覚えてしまえば、英文マニュアルが読む力のある方は、独力で使いこなせるようになります。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;後注:&lt;/strong&gt; AnkiMobile の基本的な使い方全般を日本語で説明した&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;を公開しました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;マニュアルの最初に書かれているように Anki (PC 版) と連携して利用することが前提となっています。単独利用では主として学習データの作成の面で機能制限があります。
+      <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS&#34; style=&#34;display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-sm.svg) no-repeat;width:80px;height:15px;&#34;&gt;&lt;/a&gt;とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;マニュアルの最初に書かれているように Anki (PC 版) と連携して利用することが前提となっています。単独利用では主として学習データの作成の面で機能制限があります。
 iOS 機器の特長を生かした機能拡張が行われており、学習機能の面では PC 版と比較すると使いやすくなっています。
-既存データの学習に特化したアプリと言えるでしょう。&lt;/p&gt;
-&lt;p&gt;また、ユーザーインターフェイスの表示言語は英語のみです。&lt;/p&gt;
-&lt;p&gt;値段は為替レートの影響を受けますが、私は App Store から 2,500 円で購入しました&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;インストール方法については、他の App Store と変わりなく特別なことはありません。
-これが iphone の場合のインストール直後の画面です。&lt;/p&gt;
+既存データの学習に特化したアプリと言えるでしょう。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;また、ユーザーインターフェイスの表示言語は英語のみです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;価格は為替レートの影響を受けますが、私は App Store から 2,500 円で購入しましたが、現在では 3,000 円程度の設定になっています。また、一つの Apple ID につき、一ライセンスで五つの機器までインストールできます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS&#34; style=&#34;display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;インストール方法については、他の App Store と変わりなく特別なことはありません。
+Anki のフリーのオンラインサービス AnkiWeb は、データを同期しない限りは、ユーザー登録の必要なく利用できます。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_の初期設定状態&#34;&gt;AnkiMobile の初期設定状態&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;これが iphone の場合のインストール直後の画面です。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen.png&#34; alt=&#34;mainscreen.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen.png&#34; alt=&#34;/images/mainscreen.png&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. インストール直後&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;ここで、ほとんどの方が呆然としたのではないでしょうか。Anki の利用経験があってもそう感じると思います。
-iPhone の小さい画面の中に、機能を詰め込んだ簡潔なユーザーインターフェイスです。&lt;/p&gt;
-&lt;p&gt;このままでは非常に厳しいですが、次の二つの条件を満たせば自力で使えるようになると思います。&lt;/p&gt;
-&lt;ol&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ここで、ほとんどの方が呆然としたのではないでしょうか。Anki の利用経験があってもそう感じると思います。
+iPhone の小さい画面の中に、機能を詰め込んだ簡潔なユーザーインターフェイスです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このままでは非常に厳しいですが、次の二つの条件を満たせば自力で使えるようになると思います。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
 &lt;li&gt;
+&lt;p&gt;
 英文のマニュアルを読んで試行錯誤できる。
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;
 Anki (PC 版) の利用経験から使い方や機能の類推ができる。
+&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;ほとんどの方は、英文を読む力はあるけど一体どこから手を付けたら良いか分からず途方に暮れたのではないでしょうか。
-せっかく身銭切って買ったアプリなのに、この無力感は&amp;#8230;&lt;/p&gt;
-&lt;p&gt;このガイドでは、AnkiMobile ユーザーインターフェイスの中で最低限必要なものを選んで説明します。
-マニュアルの読んだ時に、実際にアプリのどこをどう操作すればいいか見当がつくよういなるのが目的です。&lt;/p&gt;
-&lt;p&gt;iPhone で単独利用する場合に使い方に絞りますので、PC や Anki の知識は不要です。
-事前に必要なのは英文を読もうとする意欲だけです。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;このガイドの目標は「必要な機能はどこにあるのか」見当がつくようになることです。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;英語を学習するために AnkiMobile を買った訳ではないので、英文読むことも勘弁してほしいという方は、後日公開予定の記事をお待ちください。
-基本的な使い方を日本語で説明します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;重要な機能の呼び出し場所&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;重要な機能の呼び出し場所&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;再びインストール直後の画面に戻ります。重要なのは 3 か所です。&lt;/p&gt;
-&lt;ol&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ほとんどの方は、英文を読む力はあるけど一体どこから手を付けたら良いか分からず途方に暮れたのではないでしょうか。
+せっかく身銭切って買ったアプリなのに、この無力感は&amp;#8230;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このガイドでは、AnkiMobile ユーザーインターフェイスの中で最低限必要なものを選んで説明します。
+マニュアルの読んだ時に、実際にアプリのどこをどう操作すればいいか見当がつくよういなるのが目的です。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;iPhone で単独利用する場合に使い方に絞りますので、PC や Anki の知識は不要です。
+事前に必要なのは英文を読もうとする意欲だけです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;&lt;strong&gt;このガイドの目標は「必要な機能はどこにあるのか」見当がつくようになることです。&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;英語を学習するために AnkiMobile を買った訳ではないので、英文読むことも勘弁してほしいという方は、 &lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;をご覧下さい。AnkiMobile の基本的な使い方全般を日本語で説明しています。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_重要な機能の呼び出し場所&#34;&gt;重要な機能の呼び出し場所&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;再びインストール直後の画面に戻ります。画面の四隅に重要なボタンを配置していて、そのうち 3 か所を取り上げます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
 &lt;li&gt;
-マニュアル
+&lt;p&gt;
+ユーザーサポート
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;
 環境設定
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;
 データ入出力
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen-mark.png&#34; alt=&#34;重要なポイント&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 重要なポイント&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;この 3 か所でどんな機能が呼び出せるか覚えれば十分です。
-それぞれを順番に見ていきましょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;マニュアルとサポート&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;マニュアルとサポート&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;画面左上 ? をタップすると、マニュアルを表示できます。
-AnkiMobile を使うのに必要なことが全て記載されています。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/manual2.png&#34; alt=&#34;マニュアルを表示&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. マニュアルを表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;サポート&#34;&gt;サポート&lt;/h3&gt;
-&lt;p&gt;iPhone ユーザーにとってサポートサイトに問題があります。iPhoneの解像度に対応した画面ではないので、必要な項目が見つけにくいのです。
-AnkiMobile ユーザーに関係する項目を列挙しリンクを張ります。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/announcements&#34;&gt;Announcements&lt;/a&gt; カテゴリ&lt;/strong&gt;: 作者からの告知が書き込まれるフォーラムです。バージョンアップや AnkiWeb の障害時に報告があります。
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankimobile&#34;&gt;AnkiMobile&lt;/a&gt; カテゴリ&lt;/strong&gt;: AnkiMobile ユーザーからの使い方、障害報告サポートするフォーラムです。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34;&gt;AnkiWeb&lt;/a&gt; カテゴリ&lt;/strong&gt;: AnkiWeb と同期する方に必要なカテゴリです。但し、AnkiMobileとの同期で発生した問題は、AnkiMobile のカテゴリでも報告できます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;p&gt;あたらなトピックスを報告をすると、自動返信メールに書かれている通り平均 8 時間でサポートスタッフからの返信があります。
-障害については、サポートスタッフがサポートサイトでの聴き取り内容からバグレポートを作成しますので、ユーザーが作成する必要はありません。
-もしアプリケーションに修正が必要になった場合には、いつその問題が修正されるか回答があります。基本的には直近のリリースで対応するようです。修正内容は&lt;a target=&#34;_new&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&#34;&gt;iTunes Store 内の更新履歴&lt;/a&gt;で確認できます。&lt;/p&gt;
-&lt;p&gt;サポートサイトのコミュニケーションは全て英語で行われています。
-流暢な英文が書けなくても恐縮する必要はありません。世界中からネイティブでない方たちがたくさん報告しています。Anki や AnkiMobile の部位や固有名詞を正確に記述していれば、行間を読んでユーザーの問題を予想し、必要な追加質問をするなどして誠実に対応してくれます。
-プライベートな内容を含む質問の場合には非公開で質問することもできます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;環境設定&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;環境設定&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;画面右上の歯車のアイコンをタップすると環境設定画面が開きます。
-画面左上 [Back] をタップすると元の画面に戻ります。&lt;/p&gt;
+&lt;/ol&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/preferences.png&#34; alt=&#34;preferences.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen-mark.png&#34; alt=&#34;重要なポイント&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;この中で重要なのは [Review] 項目です。学習方法を設定します。
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この 3 か所でどんな機能が呼び出せるか覚えれば十分です。
+それぞれを順番に見ていきましょう。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_マニュアルとサポート&#34;&gt;マニュアルとサポート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面左上 ? をタップすると、オンラインマニュアルを表示します。
+AnkiMobile を使うのに必要なことが全て記載されています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/manual2.png&#34; alt=&#34;マニュアルを表示&#34; width=&#34;300&#34; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このマニュアルの先頭に、 &lt;a href=&#34;https://anki.tenderapp.com/&#34;&gt;サポートサイト&lt;/a&gt;へのリンクが含まれています。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_サポート&#34;&gt;サポート&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;サポートサイトの中で AnkiMobile ユーザーに関係する項目を紹介します。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements&#34;&gt;Announcements&lt;/a&gt; カテゴリ
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+作者からの告知が書き込まれるフォーラムです。バージョンアップや AnkiWeb の障害時に報告があります。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankimobile&#34;&gt;AnkiMobile&lt;/a&gt; カテゴリ
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+AnkiMobile ユーザーからの使い方、障害報告サポートするフォーラムです。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34;&gt;AnkiWeb&lt;/a&gt; カテゴリ
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+AnkiWeb と同期する方に必要なカテゴリです。但し、AnkiMobileとの同期で発生した問題は、AnkiMobile のカテゴリでも報告できます。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;サポートフォーラムの投稿や閲覧にはユーザー登録の必要はありません。サインインすると自分が過去に投稿した内容が見つけやすくなります。
+キーワード検索で、自分が知りたい事例を過去の質問や Knowlodge Base から調べることが出来ます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;新たなトピックスを報告をすると、自動返信メールに書かれている通り平均 8 時間でサポートスタッフからの返信があります。
+障害については、サポートスタッフがサポートサイトでの聴き取り内容からバグレポートを作成しますので、ユーザーが作成する必要はありません。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;もしアプリケーションに修正が必要になった場合には、いつその問題が修正されるか回答があります。基本的には直近のリリースで対応するようです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;バージョンアップの際の修正内容は &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;Apple Store の製品サイト&lt;/a&gt; バージョン X.X.XX の新機能 の項目で確認できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;サポートサイトのコミュニケーションは全て英語で行われています。
+流暢な英文が書けなくても恐縮する必要はありません。世界中からネイティブでない方たちがたくさん報告しています。Anki や AnkiMobile の部位や固有名詞を正確に記述していれば、行間を読んでユーザーの問題を予想し、必要な追加質問をするなどして誠実に対応してくれます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;プライベートな内容を含む質問の場合には非公開で質問することもできます。投稿フォーム先頭の [This is a private discussion, don&amp;#8217;t let the public see it] という項目にチェックを入れます。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_環境設定&#34;&gt;環境設定&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面右上の歯車のアイコンをタップすると環境設定画面が開きます。
+画面左上 [Back] をタップすると元の画面に戻ります。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/preferences.png&#34; alt=&#34;/images/preferences.png&#34; width=&#34;300&#34; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この中で重要なのは [Review] 項目です。学習方法を設定します。
 マルチタッチスクリーンのジェスチャでどんな機能を呼び出すか設定することができます。
 AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の好きな処理を割り当てることができます。
-どこでどんな姿勢でもこのアプリで学習できるのです。&lt;/p&gt;
-&lt;p&gt;Anki (PC 版) が画面上に表示したボタンとキーボードショートカットから決まった機能を呼び出すことと比較すると、AnkiMobile は iOS 版のアプリならではの強力な機能を持っていることが分かります。&lt;/p&gt;
+どこでどんな姿勢でもこのアプリで学習できるのです。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki (PC 版) が画面上に表示したボタンとキーボードショートカットから決まった機能を呼び出すことと比較すると、AnkiMobile は iOS 版のアプリならではの強力な機能を持っていることが分かります。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/preferences-review.png&#34; alt=&#34;preferences-review.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/preferences-review.png&#34; alt=&#34;/images/preferences-review.png&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 学習方法設定画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;なお、Tool Buttons と Quickbar は学習画面に配置しているボタンです。その場所は後ほど触れますが、どんな機能を呼び出すか設定できます。&lt;/p&gt;
-&lt;p&gt;画面一番下の [Shake Action] でシェイクジェスチャで呼び出す機能を設定できます。既定値は、元に戻す (Undo) です。&lt;/p&gt;
-&lt;p&gt;画面左上 [Preferences] をタップすると、環境設定画面に戻ります&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;データ入出力&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;データ入出力&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
-AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、Tool Buttons と Quickbar は学習画面に配置しているボタンです。その場所は後ほど触れますが、どんな機能を呼び出すか設定できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面一番下の [Shake Action] でシェイクジェスチャで呼び出す機能を設定できます。既定値は、元に戻す (Undo) です。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面左上 [Preferences] をタップすると、環境設定画面に戻ります&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データ入出力&#34;&gt;データ入出力&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面左下 [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。
+AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウンロード以外使いません。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/deck-io.png&#34; alt=&#34;共有単語帳ダウンロード&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-io.png&#34; alt=&#34;共有単語帳ダウンロード&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 6. 共有単語帳ダウンロード&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;[Download Shared Deck] をタップすると、Safari が共有単語帳のリポジトリ開きます。
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[Download Shared Deck] をタップすると、Safari が共有単語帳のリポジトリ開きます。
 ここで、分類項目をクリックして一覧を表示しても、登録数が膨大なため必要な単語帳を見つけるのが大変です。
-もし、探したい情報が決まっているのなら、右上の検索欄を活用しましょう。&lt;/p&gt;
+もし、探したい情報が決まっているのなら、右上の検索欄を活用しましょう。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck.png&#34; alt=&#34;共有単語帳 リポジトリ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck.png&#34; alt=&#34;共有単語帳 リポジトリ&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳 リポジトリ&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h3&gt;
-&lt;p&gt;私がつくった共有単語帳「歌舞伎の演目名」をインストールする例を紹介します。
-「歌舞伎」をキーワードにして検索します。&lt;/p&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;私がつくった共有単語帳「歌舞伎の演目名」をインストールする例を紹介します。
+「歌舞伎」をキーワードにして検索します。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/deck-search.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-search.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 8. 検索結果&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;[Info] をタップすると、単語帳の詳細ページへ移動します。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[Info] をタップすると、単語帳の詳細ページへ移動します。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/deck-kabuki.png&#34; alt=&#34;詳細ページ&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-kabuki.png&#34; alt=&#34;詳細ページ&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 9. 詳細ページ&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;[Download] をタップすると、単語帳をダウンロードします。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[Download] をタップすると、単語帳をダウンロードします。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/deck-download.png&#34; alt=&#34;完了&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-download.png&#34; alt=&#34;完了&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 10. ダウンロード完了&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;画面右上 [&#34;Anki&#34;で開く] をタップすると、単語帳一覧に追加されます。
-単語帳 default は収録しているカードがなく、他の単語帳が追加になると表示しなくなります。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面右上 [&#34;Anki&#34;で開く] をタップすると、単語帳一覧に追加されます。
+単語帳 default は収録しているカードがなく、他の単語帳が追加になると表示しなくなります。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/deck-list.png&#34; alt=&#34;共有単語帳の読み込み例&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/deck-list.png&#34; alt=&#34;共有単語帳の読み込み例&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 11. 共有単語帳の読み込み例&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;これで重要な3カ所の説明が終わりました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;学習画面&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;学習画面&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;最後に簡単に学習画面について触れておきましょう。
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;これで重要な3カ所の説明が終わりました。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_学習画面&#34;&gt;学習画面&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;最後に簡単に学習画面について触れておきましょう。
 単語帳一覧から単語帳名をタップすると、学習を開始します。
-解答を見るには、画面中央の白い部分をタップします。&lt;/p&gt;
+解答を見るには、画面中央の白い部分をタップします。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/learn-q.png&#34; alt=&#34;出題&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learn-q.png&#34; alt=&#34;出題&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 12. 出題 (赤枠内をタップすると回答表示)&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;問題が分かったかどうか判断しボタンをタップします。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;問題が分かったかどうか判断しボタンをタップします。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分からなかった場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分からなかった場合は、左下の赤いボタン [Answer Again] または、画面左側
+左下の赤いボタン [Answer Again] または、画面左側
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分かった場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分かった場合は、下中央の緑のボタン　[Answer Good] または、画面左側
+下中央の緑のボタン　[Answer Good] または、画面左側
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分かったけど簡単すぎた場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分かったけど簡単すぎた場合は、右下の灰色のボタン [Answer Easy]
+右下の灰色のボタン [Answer Easy]
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/learn-a.png&#34; alt=&#34;学習の解答&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learn-a.png&#34; alt=&#34;学習の解答&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 13. 学習の解答&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;学習が済んだ後、翌日以降に行う復習の場合はボタンが増えます。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;学習が済んだ後、翌日以降に行う復習の場合はボタンが増えます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分からなかった場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分からなかった場合は、左下の赤いボタン [Answer Again]　または、画面左側
+左下の赤いボタン [Answer Again]　または、画面左側
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分かったけど難しすぎた場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分かったけど難しすぎた場合は、下中央左の灰色のボタン　[Answer Hard]
+下中央左の灰色のボタン　[Answer Hard]
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分かった場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分かった場合は、下中央右の緑のボタン　[Answer Good]または、画面左側
+下中央右の緑のボタン　[Answer Good]または、画面左側
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+分かったけど簡単すぎた場合
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-分かったけど簡単すぎた場合は、右下の灰色のボタン [Answer Easy]
+右下の灰色のボタン [Answer Easy]
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/review.png&#34; alt=&#34;復習の解答&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/review.png&#34; alt=&#34;復習の解答&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 14. 復習の解答&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;スクリーンをタップしても、解答できます。
-画面を9分割してどこをタップするとどのような処理をするか、先ほどの環境設定画面で取り上げた、[Review] - [Taps] 項目で設定できます。&lt;/p&gt;
-&lt;h3 id=&#34;学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h3&gt;
-&lt;p&gt;学習画面を操作するアクションはジェスチャか画面上部のボタンを押して呼び出せます。
-学習画面ではタップ、スワイプ、シェイクのジェスチャが使え、全てカスタマイズすることができます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-タップ (Taps): 画面を九分割した領域にアクションを割り当てることができます。質問表示と解答表示で独立したアクションを設定できます。
-&lt;/li&gt;
-&lt;li&gt;
-スワイプ (Swipes): 画面をスワイプする四つの方向にアクションを割り当てることができます。
-&lt;/li&gt;
-&lt;li&gt;
-シェイク (Shake): シェイクジェスチャにアクションを割り当てることができます。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;また、画面上部のバーにあるボタンに呼び出したいアクションを割り当てることもできます。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;スクリーンをタップしても、解答できます。
+画面を9分割してどこをタップするとどのような処理をするか、先ほどの環境設定画面で取り上げた、[Review] - [Taps] 項目で設定できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_学習画面で実行する処理&#34;&gt;学習画面で実行する処理&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;学習画面を操作するアクションはジェスチャか画面上部のボタンを押して呼び出せます。
+学習画面ではタップ、スワイプ、シェイクのジェスチャが使え、全てカスタマイズすることができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+タップ (Taps)
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+画面を九分割した領域にアクションを割り当てることができます。質問表示と解答表示で独立したアクションを設定できます。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+スワイプ (Swipes)
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+画面をスワイプする四つの方向にアクションを割り当てることができます。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+シェイク (Shake)
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+シェイクジェスチャにアクションを割り当てることができます。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;また、画面上部のバーにあるボタンに呼び出したいアクションを割り当てることもできます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/learnscreen-button.png&#34; alt=&#34;学習画面上部のボタン&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learnscreen-button.png&#34; alt=&#34;学習画面上部のボタン&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 15. 学習画面上部のボタン&lt;/div&gt;
 &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-Back ボタン: 画面左上の　[Back] ボタンを押すと、Deck List に移動します。この動作は変更できません。
-&lt;/li&gt;
-&lt;li&gt;
-Quickbar: 画面上部中央の三つのボタンにアクションを割り当てることができます。
-&lt;/li&gt;
-&lt;li&gt;
-Tool Buttons: 画面右上の [Tools] ボタンを押して開く Tools 画面の六個のボタンにアクションを割り当てることができます。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ジェスチャ、ボタンとも一部のアクションについては、条件によっては割り当てられず、エラーメッセージを表示する場合があります。&lt;/p&gt;
-&lt;h3 id=&#34;quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h3&gt;
-&lt;p&gt;[環境設定] - [Review] - [Quickbar] で設定画面が開きます。画面上中央の枠で囲った部分 (図 15) に、最大 4 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;
-&lt;h3 id=&#34;tools_画面の設定&#34;&gt;Tools 画面の設定&lt;/h3&gt;
-&lt;p&gt;画面右上 [Tools] \(図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。&lt;/p&gt;
+&lt;div class=&#34;dlist&#34;&gt;&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+Back ボタン
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+画面左上の　[Back] ボタンを押すと、Deck List に移動します。この動作は変更できません。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+Quickbar
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+画面上部中央の三つのボタンにアクションを割り当てることができます。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+Tool Buttons
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;
+画面右上の [Tools] ボタンを押して開く Tools 画面の六個のボタンにアクションを割り当てることができます。
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ジェスチャ、ボタンとも一部のアクションについては、条件によっては割り当てられず、エラーメッセージを表示する場合があります。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_quickbar_の設定&#34;&gt;Quickbar の設定&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[環境設定] - [Review] - [Quickbar] で設定画面が開きます。画面上中央の枠で囲った部分 (図 15) に、最大 8 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_tools_画面の設定_strong_書き換えが必要_strong&#34;&gt;Tools 画面の設定 &lt;strong&gt;書き換えが必要&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面右上 [Tools]  (図 15) を選択すると、学習設定と色々な機能を呼び出すことができます。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tools.png&#34; alt=&#34;Tools 画面&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tools.png&#34; alt=&#34;Tools 画面&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 16. Tools 画面&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;[環境設定] - [Review] - [Tool Buttons] で設定画面が開きます。画面上中央の赤枠で囲った部分に、最大 6 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;
-&lt;p&gt;[More] からは AnkiMobile のアクション一覧が呼び出せます。アルファベット順にソートされていますので見つけやすくなっています。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[環境設定] - [Review] - [Tool Buttons] で設定画面が開きます。画面上中央の赤枠で囲った部分に、最大 12 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;[More] からは AnkiMobile のアクション一覧が呼び出せます。アルファベット順にソートされていますので見つけやすくなっています。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/actions.png&#34; alt=&#34;アクション一覧&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/actions.png&#34; alt=&#34;アクション一覧&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 17. アクション一覧&lt;/div&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ノートの追加編集&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ノートの追加編集&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;最後にノート (教材) の追加編集について説明します。
-Anki では、一枚のカードに表示する一組のデータをノートと呼びます。&lt;/p&gt;
-&lt;h3 id=&#34;ノートの編集&#34;&gt;ノートの編集&lt;/h3&gt;
-&lt;p&gt;ノートを編集したい場合は、編集したいノートを表示した上で学習画面の上部 [Quickbar] -[Edit] で編集画面が開きます。
-変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [Save] をタップします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ノートの追加編集&#34;&gt;ノートの追加編集&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;最後にノート (教材) の追加編集について説明します。
+Anki では、一枚のカードに表示する一組のデータをノートと呼びます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ノートの編集&#34;&gt;ノートの編集&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ノートを編集したい場合は、編集したいノートを表示した上で学習画面の上部 [Quickbar] -[Edit] で編集画面が開きます。
+変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。編集内容の保存は右上の [保存] をタップします。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/edit.png&#34; alt=&#34;ノートの編集&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/edit.png&#34; alt=&#34;ノートの編集&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 17. ノートの編集&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;学習中のノート以外のカードを編集したい場合は、学習画面から [Tools] - [More] - [Find] を選択して検索し、選択します。&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;学習中のノート以外のカードを編集したい場合は、学習画面から [Tools] - [More] - [Find] を選択して検索し、選択します。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;ノートを検索&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;ノートを検索&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 18. 「桜」を含むノートを検索&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;ノートの追加&#34;&gt;ノートの追加&lt;/h3&gt;
-&lt;p&gt;学習画面の上部 [Quickbar] -[Add] で追加画面が開きます。
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ノートの追加&#34;&gt;ノートの追加&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;学習画面の上部 [Quickbar] -[Add] で追加画面が開きます。
 ノートタイプが [基本] の場合は、Front に表面に表示する内容、Back に裏面に表示する内容を入力します。HTMLのタグを使って書式設定することができます。
 変更内容を保存する前に左下のアイコンをタップしてプレビューすることができます。
-入力内容の保存は、右上の [保存] をタップします。&lt;/p&gt;
+入力内容の保存は、右上の [Save] をタップします。&lt;/p&gt;&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/add.png&#34; alt=&#34;ノートの追加&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/add.png&#34; alt=&#34;ノートの追加&#34; width=&#34;300&#34; /&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 19. ノートの追加&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;画面上部でトートタイプと保存先の単語帳を指定します。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;AnkiMobile を使いこなすのに最低限必要な機能は、実は集約して配置していますが、マニュアルが文字情報に偏っているため、独力で探し出すのが大変なことだと思います。
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面上部でトートタイプと保存先の単語帳を指定します。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;AnkiMobile を使いこなすのに最低限必要な機能は、実は集約して配置していますが、マニュアルが文字情報に偏っているため、独力で探し出すのが大変なことだと思います。
 しかし、一旦その場所さえ覚えてしまえば、マニュアルを見ながら色々な機能を試していけるようになります。
-そこで、このガイドではスクリーンショットを多用して、画面のどこに注目すれば良いか、紹介しました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;さらにくわしく&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
+そこで、このガイドではスクリーンショットを多用して、画面のどこに注目すれば良いか、紹介しました。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_さらにくわしく&#34;&gt;さらにくわしく&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;dlist&#34;&gt;&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;&lt;br /&gt;
 このアプリを使い始めた方を対象に、長続きする学習方法を提案しています。教材の準備に極力手間をかけずに、カードの学習に集中できる使い方を取り上げています。
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
 はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
 カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
 この記事では取り上げなかった、図 2. 重要なポイント 右下の [Synchronize] のボタンの使い方を説明しています。
 無料のオンラインサービス AnkiWeb の同期機能を使うと、他の iOS 機器やアンドロイド端末、PC にインストールした Anki とコンテンツを同期して学習を複数の機器にまたがって継続することができます。
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;
+&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;
+&lt;/dt&gt;
+&lt;dd&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
 AnkiMobile で使用している特別な意味を持つ用語が理解できます。
 Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-&lt;div class=&#34;page-header&#34;&gt;
-&lt;h2&gt;更新情報&lt;/h2&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;2014/05/11: 初出&lt;/p&gt;
-&lt;p&gt;2016/01/23: 更新: 学習画面で実行する処理&lt;/p&gt;
-&lt;/section&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2014/05/11: 初出&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2016/01/23: 更新 学習画面で実行する処理&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;2016/04/03: 更新 バージョン 2.0.18 にあわせて改訂&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     
