@@ -22,16 +22,18 @@ dependencies:
 
 test:
   post:
-    - git clone --depth=1 -b gh-pages git@github.com:luminousspice/rs.git public
-    - cd public && rm -rf * && git rm -rf .
     - hugo version
-    - hugo
-    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/la.ma.la/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/ --url-ignore '/rs.luminousspice.com//'
+    - hugo --baseURL="/" -v
+    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/la.ma.la/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
+    - rm -rf public
 
 deployment:
   master:
     branch: dev
     commands:
+      - git clone --depth=1 -b gh-pages git@github.com:luminousspice/rs.git public
+      - cd public && rm -rf * && git rm -rf .
+      - hugo
       - cd public && git add -A
       - cd public && git commit -m "[ci skip] publish build ${CIRCLE_BUILD_NUM} (${CIRCLE_SHA1})"
       - cd public && git push origin gh-pages
