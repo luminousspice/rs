@@ -86,7 +86,7 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 
 === Anki の学習方法
 
-* link:/zen-coding-with-mi/92[いま表示しているAnkiカードだけ学習をやめる方法] 
+* link:/how-to-suspend-this-card/[いま表示しているAnkiカードだけ学習をやめる方法] 
 * link:/learn_in_original_sequence/[Ankiのノートを追加順に学習する方法] 
 * link:/management_of_leeches/[無駄なカード(Leech)になってもAnki学習を続ける方法]
 * link:/suitable-deck/[おすすめ Anki 単語帳について]
@@ -95,7 +95,7 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 
 === Anki の教材作成
 
-* link:/zen-coding-with-mi/97[Ankiのノートタイプの選び方] 
+* link:/how-to-choose-notetype/[Ankiのノートタイプの選び方] 
 * link:/type_answer/[Anki解答キー入力機能の使い方] 
 * link:/cloze-deletion/[Ankiにおける空欄補充問題の作り方] 
 * link:/hint_field/[Ankiのカードにヒントを付ける方法] 
@@ -150,7 +150,7 @@ http://ankigene.luminousspice.com/[Ankigene] では、ネット上に流通す�
 * link:/words-in-msdn/[MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略] 
 * link:/frequent-words-in-wordpress-codex/[WordPress Codexの英語 WordPress開発者のためのAnki単語帳] 
 * link:/frequent-words-in-msdn-magazine-in-10years/[MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る] 
-* link:/words_in_msdn_20130601/[MSDNの英語[1] - "A Modern C++ Library for DirectX Programming" June 2013から] 
+* link:/words_in_msdn_20130601/[MSDNの英語 1 - "A Modern C++ Library for DirectX Programming" June 2013から] 
 
 == Learning with Texts(LWT) を使ったテキスト購読による語彙学習とAnki活用法
 
