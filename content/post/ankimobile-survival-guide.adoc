@@ -115,7 +115,7 @@ image::/images/supportsite.png["サポートサイト",width="300"]
 
 もしアプリケーションに修正が必要になった場合には、いつその問題が修正されるか回答があります。基本的には直近のリリースで対応するようです。
 
-バージョンアップの際の修正内容は https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[Apple Store の製品サイト] バージョン X.X.XX の新機能 の項目で確認できます。
+バージョンアップの際の修正内容は https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[Apple Store の製品サイト] の新機能あるいはバージョン履歴の項目で確認できます。
 
 
 サポートサイトのコミュニケーションは全て英語で行われています。
