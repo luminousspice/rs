@@ -2,7 +2,7 @@
 
 <div class="post">
   <h1 class="post-title">{{ .Title }}</h1>
-  <span class="post-date"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format .Site.Params.DateForm }}</time></span>
+  <span class="post-date"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"></time>{{ .Lastmod.Format .Site.Params.DateForm }}{{ if ne .Lastmod .Date }} 更新{{ end }}</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
