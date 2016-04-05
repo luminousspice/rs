@@ -45,7 +45,7 @@ Anki のフリーのオンラインサービス AnkiWeb は、データを同期
 これが iphone の場合のインストール直後の画面です。
 
 .インストール直後
-image::/images/mainscreen.png[width="300"]
+image::/images/mainscreen.png["インストール直後",width="300"]
 
 ここで、ほとんどの方が呆然としたのではないでしょうか。Anki の利用経験があってもそう感じると思います。
 iPhone の小さい画面の中に、機能を詰め込んだ簡潔なユーザーインターフェイスです。
@@ -129,7 +129,7 @@ image::/images/supportsite.png["サポートサイト",width="300"]
 画面左上 [Back] をタップすると元の画面に戻ります。
 
 .環境設定画面
-image::/images/preferences.png[width="300"]
+image::/images/preferences.png["環境設定画面",width="300"]
 
 この中で重要なのは [Review] 項目です。学習方法を設定します。
 マルチタッチスクリーンのジェスチャでどんな機能を呼び出すか設定することができます。
@@ -139,7 +139,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 Anki (PC 版) が画面上に表示したボタンとキーボードショートカットから決まった機能を呼び出すことと比較すると、AnkiMobile は iOS 版のアプリならではの強力な機能を持っていることが分かります。
 
 .学習方法設定画面
-image::/images/preferences-review.png[width="300"]
+image::/images/preferences-review.png["学習方法設定画面",width="300"]
 
 なお、Tool Buttons と Quickbar は学習画面に配置しているボタンです。その場所は後ほど触れますが、どんな機能を呼び出すか設定できます。
 
