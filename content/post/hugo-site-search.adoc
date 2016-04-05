@@ -19,6 +19,7 @@ excerpt: "静的サイトジェネレータ Hugo を使って生成したコン�
 :toc-placement:
 :toclevels: 1
 :source-highlighter: pygments
+:pygments-style: monokai
 ////
 
 ////
@@ -62,7 +63,7 @@ Hugo に全文検索用のインデックスファイルを書き出させるに
 
 このインデックスを書き出す Type を "js" と決め、書き出し用テンプレートを `layouts/js/single.html` に配置しました。
 
-//[source,javascript]
+[source,javascript]
 .single.html
 ----
 var data = [{{ range $index, $page := where .Site.Pages "Section" "post"}}
@@ -81,7 +82,7 @@ Section が Post の投稿に限定して、題名、URL、本文を取り出し
 
 テンプレートで設定した内容を実際に生成するための空の投稿ファイル作ります。Front Matter で　Type を　"js" とし、url を `index.js` と指定しました。
 
-//[source,yaml]
+[source,yaml]
 .indexjs.adoc
 ----
 ---
@@ -111,7 +112,7 @@ url: "index.js"
 
 検索ページを配置するための投稿を作成します。Front Matter は次のように設定しました。Type を "Search" に指定しています。
 
-//[source,yaml]
+[source,yaml]
 .search.adoc (検索ページの Front Matter)
 ----
 ---
