@@ -1,0 +1,40 @@
+---
+slug: "how-to-change-lang"
+date: "2013-04-28T00:00:22+00:00"
+lastmod: "2016-04-05T02:35:32+00:00"
+title: "Anki2の言語設定を変更する"
+categories: ["Anki"]
+tags: ["Anki","環境設定"]
+anki: ["言語設定","環境設定"]
+excerpt: "一度設定した Anki ユーザーインターフェイスの言語を変更する方法を紹介します。Anki 2.0.35 アップデートから、環境設定画面で変更できるようになりました。"
+---
+= Anki2の言語設定を変更する
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: 一度設定した Anki ユーザーインターフェイスの言語を変更する方法を紹介します。Anki 2.0.35 アップデートから、環境設定画面で変更できるようになりました。
+
+////
+http://rightstuff.luminousspice.com/?p=320
+////
+
+{description}
+
+環境設定画面は、メニューバーから [Anki] - [環境設定] で呼び出せます。
+
+.環境設定画面
+image::/images/preference.png["環境設定画面"]
+
+インターフェイスの言語の項目で使いたい言語を選択し、Anki を再起動するとユーザーインターフェイスの言語が変更になります。
+
+== 更新情報
+
+2013/4/28: 初出
+
+2013/5/5: Anki サポートサイトの Knowledge Base の記事 "link:https://anki.tenderapp.com/kb/interface/changing-the-interface-language[Changing the interface language]" に基づいて、内容を更新しました。
+
+2014/09/28 再構成
+
+2016/04/05 Anki 2.0.35 アップデートに基づいて内容変更
+
