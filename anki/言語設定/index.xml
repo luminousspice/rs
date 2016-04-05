@@ -113,7 +113,7 @@
       <link>http://rs.luminousspice.com/how-to-anki/</link>
       <pubDate>Fri, 12 Apr 2013 23:30:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-anki/</guid>
-      <description>分散学習システム Anki を今すぐ使い始めるのに最低限必要な使い方を紹介します。最新版 Anki 2.0.33 に準拠しています。Ankiをダウンロードして、記憶するカードを作成し、学習してみましょう。画像や動画、音声を追加する方法、学習中に音声ファイルを再生する方法も取り上げています。Survival skill to learn with Anki.</description>
+      <description>分散学習システム Anki を今すぐ使い始めるのに最低限必要な使い方を紹介します。最新版 Anki 2.0.35 に準拠しています。Ankiをダウンロードして、記憶するカードを作成し、学習してみましょう。画像や動画、音声を追加する方法、学習中に音声ファイルを再生する方法も取り上げています。</description>
       <content>&lt;section id=&#34;preamble&#34;&gt;
 &lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Ankiを始めたいけど、何から始めて良いか分からない方のためにこの記事を書きました。インストールから、問題作成、学習までの基本的な使い方の流れになれていきましょう。Ankiを使っている人なら誰でも知っていて、常に使っている機能、マニュアルにも当然書いてある機能を説明しています。&lt;/p&gt;
@@ -130,7 +130,7 @@
   &lt;div class=&#34;page-header&#34;&gt;
     &lt;h2&gt;この記事を読む前に&lt;/h2&gt;
   &lt;/div&gt;
-&lt;p&gt;この情報は、デスクトップ PC 版 Anki 2.0.33 (Mac OS X) に基づいて作成しています。
+&lt;p&gt;この情報は、デスクトップ PC 版 Anki 2.0.35 (Mac OS X) に基づいて作成しています。
 他のプラットフォーム版をお使いの方は、適宜読み替えてください。&lt;/p&gt;
 &lt;p&gt;特に PC 版と、iOS アプリ AnkiMobile や Android(アンドロイド)アプリ AnkiDroid の間では、データの互換性はありますが、ユーザーインターフェイスや機能に違いがあります。&lt;/p&gt;
 &lt;h3 id=&#34;ios_アプリ向け情報&#34;&gt;iOS アプリ向け情報&lt;/h3&gt;
@@ -184,9 +184,7 @@ Ankiでは思い出しやすさで次の復習のタイミングが決まりま�
 &lt;div class=&#34;title&#34;&gt;図 2. 言語設定 確認ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;[No]を選択すると、先ほどの選択画面に戻ります。&lt;/p&gt;
-&lt;p&gt;後から変更するのは大変なので、慎重に選択項目を確認してください。
-Anki1.2のように環境設定画面から変更することができません。
-具体的な方法は、「&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;」で紹介しています。&lt;/p&gt;
+&lt;p&gt;設定した言語は、環境設定画面から変更できます。&lt;!-- 具体的な方法は、「&lt;a href=&#34;http://rs.luminousspice.com/how-to-change-lang/&#34;&gt;Anki2の言語設定を変更する&lt;/a&gt;」で紹介しています。--&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;起動直後に開くメインウィンドウ&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
@@ -554,6 +552,7 @@ Ankiを使った学習全般を体験できるよう内容を構成しました�
 &lt;p&gt;2014/09/21: 再構成&lt;/p&gt;
 &lt;p&gt;2015/01/24: スマホアプリの注意点追加&lt;/p&gt;
 &lt;p&gt;2016/01/16: ノート編集について加筆&lt;/p&gt;
+&lt;p&gt;2016/04/05: Anki 2.0.35 に基づいて言語設定の方法を更新&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
