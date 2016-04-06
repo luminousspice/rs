@@ -117,7 +117,7 @@ Anki サポート情報: <a target="_new" href="https://anki.tenderapp.com/discu
   <div class="page-header">
     <h2>AnkiMobile 固有の問題</h2>
   </div>
-<p>iOS アプリ <a target="_new" href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;ign-mpt=uo%3D4">AnkiMobile</a> の過去のバージョンが原因で発生した問題点を紹介します。</p>
+<p>iOS アプリ <a target="_new" href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS">AnkiMobile</a> の過去のバージョンが原因で発生した問題点を紹介します。</p>
 <h3 id="同期中にクラッシュ">同期中にクラッシュ</h3>
 <p>AnkiMobile 2.0.14 では、AnkiMobile 2.0.13 へ以前のバージョンからアップグレードすると、多数のメディアファイルを同期した場合にアプリケーションがクラッシュする問題を解決しました。</p>
 <p>参考情報: Anki サポート Knowledge Base <a target="_new" href="https://anki.tenderapp.com/kb/problems/ankimobile-2013-may-crash-when-syncing">AnkiMobile 2.0.13 may crash when syncing</a></p>
