@@ -6,14 +6,14 @@ title: "Anki のメディアプレイヤーを mpv に取り替える"
 type: "post"
 categories: ["Anki"]
 tags: ["開発","アドオン","動画","メディア","mpv","VLC","afplay"]
-excerpt: "Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。"
+excerpt: "Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。"
 ---
 = Anki のメディアプレイヤーを mpv に変える
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。
+:description: Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。
 ////
 :toc: macro
 :toc-placement:
