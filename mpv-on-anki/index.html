@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-<meta name="description" content='Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。'>
+<meta name="description" content='Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。'>
 <meta name="keywords" content="開発, アドオン, 動画, メディア, mpv, VLC, afplay">
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content='Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。'/>
+<meta property="og:description" content='Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。'/>
 <meta property="og:title" content="Anki のメディアプレイヤーを mpv に取り替える" />
 <meta property="og:site_name" content="the Right Stuff" />
 <meta property="og:url" content="http://rs.luminousspice.com/mpv-on-anki/">
@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.comapple-touch-icon.png" />
 
 <meta property="article:published_time" content="2016-04-02T20:03:15&#43;09:00"/>
-<meta property="article:modified_time" content="2016-04-02T20:03:15&#43;09:00"/>
+<meta property="article:modified_time" content="2016-04-06T06:00:00Z"/>
 
 
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@luminousspice">
 <meta name="twitter:title" content="Anki のメディアプレイヤーを mpv に取り替える">
 <meta name="twitter:creator" content="@luminousspice">
-<meta name="twitter:description" content='Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。'>
+<meta name="twitter:description" content='Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。'>
 <meta name="twitter:image:src" content="http://rs.luminousspice.comapple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
@@ -90,7 +90,7 @@
 
 <div class="post">
   <h1 class="post-title">Anki のメディアプレイヤーを mpv に取り替える</h1>
-  <span class="post-date"><time datetime="2016-04-02T20:03:15&#43;09:00"></time>2016-04-02</span>
+  <span class="post-date"><time datetime="2016-04-02T20:03:15&#43;09:00"></time>2016-04-06 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -98,7 +98,7 @@
   <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。</p>
+<p>Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。</p>
 </div>
 </div>
 </div>
@@ -106,8 +106,13 @@
 <h2 id="_anki_はメディアプレイヤーのカスタマイズを前提に作っていた">Anki はメディアプレイヤーのカスタマイズを前提に作っていた</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Anki のメディアプレイヤーを MPlayer から変更するのに、HTML5 Video 要素を利用する方法を <a href="http://rs.luminousspice.com/html5-on-anki/">HTML5 を利用した Anki カードへのメディアの埋め込み</a> で以前取り上げました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。
-コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定できます。
+<p>Anki はメディアプレイヤーとして外部ブログラムの MPlayer (MPlayer 1.1-4.2.1, Anki 2.0.35 の場合) を同梱して 使用しています。このため、動画再生時の制御方法を Anki  のマニュアルで取り上げられていません。</p>
+</div>
+<div class="paragraph">
+<p>そこで、<a href="http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/">ショートカットキー</a>をまとめたり、<a href="http://rs.luminousspice.com/html5-on-anki/">HTML5 を利用した Anki カードへのメディアの埋め込み</a> でユーザーインターフェイスを変更する方法を取り上げてきました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。</p>
+</div>
+<div class="paragraph">
+<p>コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定し、動画再生機能を強化できます。
 なお、OS X 版を前提として説明を進めます。</p>
 </div>
 <div class="paragraph">
@@ -120,7 +125,7 @@
 <p>Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン <a href="https://github.com/dae/ankiplugins/blob/master/customPlayer.py">customPlayer.py</a> を公開している説明していて、先ほどの投稿の中でも利用していました。</p>
 </div>
 <div class="paragraph">
-<p>そこで mpv を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。</p>
+<p>そこで高機能な軽量動画プレイヤーの <a href="https://mpv.io">mpv</a> を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。</p>
 </div>
 <div class="paragraph">
 <p><strong>参考:</strong> <a href="https://github.com/dae/anki/blob/master/anki/sound.py">anki/sound.py</a></p>
@@ -156,9 +161,51 @@ mpv に変更したい場合は、次のように指定します。</p>
 <p>変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。</p>
 </div>
 <div class="sect2">
+<h3 id="_mpv_で強化できる動画再生">mpv で強化できる動画再生</h3>
+<div class="paragraph">
+<p>mpv に変更すると Anki の動画再生機能に区間リピート (AB ループ) やコマ送り再生機能などが追加できます。
+聞き逃した、見逃した箇所を繰り返し練習するのに重宝する機能です。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/mpv.png" alt="mpv で区間リピート中">
+</div>
+<div class="title">Figure 1. mpv で区間リピート中</div>
+</div>
+<div class="paragraph">
+<p>区間リピートやコマ送り再生のショートカットキーは次の通りです。</p>
+</div>
+<table class="tableblock frame-topbot grid-rows spread">
+<caption class="title">Table 1. mpv ショートカットキー</caption>
+<colgroup>
+<col style="width: 10%;">
+<col style="width: 90%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">キー</th>
+<th class="tableblock halign-left valign-top">操作内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">l</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AB ループ (区間リピート) の設定、解除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">, / .</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">前後のフレーム (コマ送り再生; 一時停止して一フレーム再生)</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>mpv の機能やショートカットは、<a href="https://mpv.io/manual/master/#keyboard-control">マニュアル</a>で詳しく調べることができます。</p>
+</div>
+</div>
+<div class="sect2">
 <h3 id="_その他のアプリへの設定例">その他のアプリへの設定例</h3>
 <div class="paragraph">
-<p>先ほどの参考情報の VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。</p>
+<p>最初の参考情報で取り上げている VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。</p>
 </div>
 <div class="listingblock">
 <div class="title">VLC media player の場合</div>
