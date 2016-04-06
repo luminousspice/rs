@@ -1,18 +1,19 @@
 ---
 slug: "mpv-on-anki"
 date: "2016-04-02T20:03:15+09:00"
+lastmod: "2016-04-06T06:00:00+00:00"
 title: "Anki のメディアプレイヤーを mpv に取り替える"
 type: "post"
 categories: ["Anki"]
 tags: ["開発","アドオン","動画","メディア","mpv","VLC","afplay"]
-excerpt: "Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。"
+excerpt: "Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。"
 ---
 = Anki のメディアプレイヤーを mpv に変える
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: Anki はメディアプレイヤーをカスタマイズためのインターフェイスを持っていて、作者が用意したアドオンを使って標準の MPlayer から簡単に取り替えることができます。高機能な軽量動画プレイヤーの mpv を例に取り上げて、その設定方法を説明します。
+:description: Anki は標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。
 ////
 :toc: macro
 :toc-placement:
@@ -28,8 +29,12 @@ http://rs.luminousspice.com/mpv-on-anki/
 
 == Anki はメディアプレイヤーのカスタマイズを前提に作っていた
 
-Anki のメディアプレイヤーを MPlayer から変更するのに、HTML5 Video 要素を利用する方法を link:/html5-on-anki/[HTML5 を利用した Anki カードへのメディアの埋め込み] で以前取り上げました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。
-コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定できます。
+Anki はメディアプレイヤーとして外部ブログラムの MPlayer (MPlayer 1.1-4.2.1, Anki 2.0.35 の場合) を同梱して 使用しています。このため、動画再生時の制御方法を Anki  のマニュアルで取り上げられていません。
+
+
+そこで、link:/mplayer-shortcut-for-anki-video/[ショートカットキー]をまとめたり、link:/html5-on-anki/[HTML5 を利用した Anki カードへのメディアの埋め込み] でユーザーインターフェイスを変更する方法を取り上げてきました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。
+
+コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定し、動画再生機能を強化できます。
 なお、OS X 版を前提として説明を進めます。
 
 最近 reddit で https://www.reddit.com/r/Anki/comments/4c1ihg/does_anyone_use_vlc_with_anki/[Does anyone use VLC with Anki?] という面白い投稿を見つけました。MPlayer を VLC media player に変更する方法を取り上げています。
@@ -38,7 +43,7 @@ Anki のメディアプレイヤーを MPlayer から変更するのに、HTML5 
 
 Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン https://github.com/dae/ankiplugins/blob/master/customPlayer.py[customPlayer.py] を公開している説明していて、先ほどの投稿の中でも利用していました。
 
-そこで mpv を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。
+そこで高機能な軽量動画プレイヤーの link:https://mpv.io[mpv] を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。
 
 *参考:* https://github.com/dae/anki/blob/master/anki/sound.py[anki/sound.py]
 
@@ -64,9 +69,29 @@ externalPlayer = ["mpv"]
 
 変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。
 
+=== mpv で強化できる動画再生
+
+mpv に変更すると Anki の動画再生機能に区間リピート (AB ループ) やコマ送り再生機能などが追加できます。
+聞き逃した、見逃した箇所を繰り返し練習するのに重宝する機能です。
+
+.mpv で区間リピート中
+image::/images/mpv.png["mpv で区間リピート中"]
+
+区間リピートやコマ送り再生のショートカットキーは次の通りです。
+
+.mpv ショートカットキー
+[frame="topbot",grid="rows",cols="^,9",options="header"]
+|====
+|キー| 操作内容
+|l| AB ループ (区間リピート) の設定、解除
+|, / .| 前後のフレーム (コマ送り再生; 一時停止して一フレーム再生)
+|====
+
+mpv の機能やショートカットは、link:https://mpv.io/manual/master/#keyboard-control[マニュアル]で詳しく調べることができます。
+
 === その他のアプリへの設定例
 
-先ほどの参考情報の VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。
+最初の参考情報で取り上げている VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。
 
 .VLC media player の場合
 ----
