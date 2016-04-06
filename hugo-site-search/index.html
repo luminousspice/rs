@@ -157,12 +157,12 @@
 <div class="listingblock">
 <div class="title">single.html</div>
 <div class="content">
-<pre>var data = [{{ range $index, $page := where .Site.Pages "Section" "post"}}
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">var data = [{{ range $index, $page := where .Site.Pages "Section" "post"}}
 {{ if ne $index 0 }},{{ end }}{
 url: "{{ $page.Permalink }}",
 title: "{{ $page.Title }}",
 content: "{{ .PlainWords }}"
-}{{ end }}]</pre>
+}{{ end }}]</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -180,11 +180,11 @@ content: "{{ .PlainWords }}"
 <div class="listingblock">
 <div class="title">indexjs.adoc</div>
 <div class="content">
-<pre>---
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">---
 date: "2016-03-21T14:35:52+09:00"
 type: "js"
 url: "index.js"
----</pre>
+---</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -221,12 +221,12 @@ url: "index.js"
 <div class="listingblock">
 <div class="title">search.adoc (検索ページの Front Matter)</div>
 <div class="content">
-<pre>---
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">---
 date: "2016-03-05T21:10:52+01:00"
 type:  "search"
 url: "search"
 title: "全文検索"
----</pre>
+---</code></pre>
 </div>
 </div>
 <div class="paragraph">
