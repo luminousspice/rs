@@ -25,8 +25,8 @@ googleAnalytics = "UA-29141274-4"
 	author = "luminosspice"
 	githubName = "luminosspice"
 	twitterName = "luminosspice"
-	siteImage = "apple-touch-icon.png"
-	twitterCardImage = "apple-touch-icon.png"
+	siteImage = "/apple-touch-icon.png"
+	twitterCardImage = "/apple-touch-icon.png"
 	feeditem = 5
 #laynon
 	Tagline = ""
