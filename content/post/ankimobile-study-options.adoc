@@ -1,0 +1,77 @@
+---
+slug: "ankimobile-study-options"
+date: "2015-01-24T00:00:42+00:00"
+lastmod: "2016-04-07T16:07:13+00:00"
+title: "AnkiMobile の学習オプションを最適化する"
+categories: ["Anki"]
+tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
+anki: ["AnkiMobile","同期","学習オプション"]
+excerpt: "AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザーにとって、教材の特性にあわせた学習セッションの設計ができるようになりました。Anki の学習オプションの概要とその中で注目すべき項目について紹介します。"
+---
+= AnkiMobile の学習オプションを最適化する
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザーにとって、教材の特性にあわせた学習セッションの設計ができるようになりました。Anki の学習オプションの概要とその中で注目すべき項目について紹介します。
+////
+:toc: macro
+:toc-placement:
+:toclevels: 1
+////
+
+////
+http://rs.luminousspice.com/ankimobile-study-options/
+////
+
+{description}
+
+//toc::[]
+
+
+== 設定画面
+
+学習オプションの設定画面の呼び出し方は、今回のバージョンアップでも変化はありません。
+
+.設定画面の呼び出し方
+学習画面から [Tools] - [Study Options] で学習オプションの設定画面を呼び出せます。
+
+.学習オプション設定画面
+image::/images/am-studyoption.png["学習オプション設定画面", width="300"]
+
+== 設定項目の概要
+
+AnkiMobile の学習オプション設定項目は大きく4つに分類できます。
+
+.学習オプションの概要
+Option group:: 単語帳間で学習オプションを共有するためのプロファイルです。
+NEW CARDS:: 新規カードの学習に関する設定項目です。新規カードの出題順や一日の上限枚数などを設定できます。
+REVIEWS:: 復習カードに関する設定項目です。一日の復習上限を設定できます。
+LAPSES:: 忘却したカードの処理に関する項目です。無駄な (Leech) カードの判定基準や処理方法を設定します。
+GENERAL:: 音声の自動再生に関する項目が設定できます。
+
+== 注目すべき項目
+
+広く学習セッションのカスタマイズに利用されている項目を紹介します。
+
+=== NEW CARDS
+
+Max new per day:: 新規カードの一日の学習上限です。
+Order:: 出題順を設定します。初期値は追加順ですがランダムに変更できます。
+Bury related new cards:: 同じノートから作成したカード同士は同じ日に出題しないよう調整します。(表裏反転したカード同士など)
+
+=== REVIEWS
+
+Max reviews per day:: 復習カードの一日の学習上限です。
+Bury related reviews:: 同じノートから作成したカード同士は同じ日に出題しないよう調整します。
+
+=== LAPSES
+
+Leech threshold:: 無駄なカードと判定する回数
+Leech action:: 無駄なカードと判定された場合、初期値では保留しますが、タグを設定するだけに変更できます。
+
+=== GENERAL
+
+Automaticallly play audio:: カードに設定しているメディアファイルを自動再生します。
+
+更に詳しい設定内容の説明が必要な方は、link:http://ankisrs.net/docs/manual.html#deck-options[Anki User Manual]とそのlink:http://wikiwiki.jp/rage2050/?2.0%2FDeckOptions[日本語訳]を参照ください。
