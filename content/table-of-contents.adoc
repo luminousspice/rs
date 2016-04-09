@@ -119,12 +119,22 @@ Anki を使うために理解が必要な基本用語集です。カード、ノ
 iPhone、iPad、iPod touch ユーザのために Anki の iOS アプリ AnkiMobile Flashcards のスマホの特性を活用した使い方を紹介します。
 
 * link:/ankimobile-survival-guide/[iPhone ユーザーのための AnkiMobile サバイバルガイド]
-* link:/speech-text-on-ankimobile/[iPhone 版 Anki でテキストを読み上げるにはどうするか]
-* link:/start-up-anki-for-iphone-users/[iPhone ユーザーのための Anki のゆるい始めかた]
 * link:/how-to-use-ankimobile/[iPhone ユーザーのためのはじめての Anki]
+* link:/start-up-anki-for-iphone-users/[iPhone ユーザーのための Anki のゆるい始めかた]
+
+=== AnkiMobile ノート
+
+AnkiMobile の特定の機能を取り上げてその使い方を説明します。
+
+* link:/how-to-ankimobile-io/[データの入出力について]
+* link:/how-to-ankimobile-backup/[自動バックアップ]
+* link:/how-to-ankimobile-search/[データ検索]
+* link:/how-to-ankimobile-custom-study/[カスタム学習とフィルター単語帳]
+* link:/speech-text-on-ankimobile/[iPhone 版 Anki でテキストを読み上げるには]
 * link:/how-to-sync-with-ankiweb/[AnkiWeb 同期機能の使い方]
 * link:/how-to-use-profile/[Anki を共有機器で利用するためのプロファイルの使い方]
 * link:/ankimobile-study-options/[AnkiMobile の学習オプションを最適化する]
+
 
 == 熟練ユーザー限定 Anki の使いこなし方
 
