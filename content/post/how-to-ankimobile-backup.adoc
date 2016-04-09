@@ -1,6 +1,7 @@
 ---
 slug: "how-to-ankimobile-backup"
 date: "2016-04-07T10:34:34+00:00"
+lastmod: "2016-04-09T10:27:07+00:00"
 title: "AnkiMobile ノート: 自動バックアップ"
 type: "note"
 categories: ["AnkiMobile"]
@@ -36,6 +37,8 @@ https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11
 バックアップ対象は、カードと統計のデータです。画像や音声などのメディアデータは対象外です。
 
 また、バックアップを作成してから一時間を経過すると、再度作成します。
+
+PC 版 Anki の自動バックアップについては、link:/anki_automatic_backup/[Anki自動バックアップ機能の使い方]をご覧下さい。
 
 === 設定画面
 
