@@ -1,0 +1,76 @@
+---
+slug: "how-to-ankimobile-search"
+date: "2016-04-09T04:54:16+00:00"
+title: "AnkiMobile ノート: データ検索"
+type: "note"
+categories: ["AnkiMobile"]
+tags: ["iOS"]
+anki: ["AnkiMobile","検索"]
+excerpt: "AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。"
+---
+= AnkiMobile ノート: データ検索
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なlink:/how-to-ankimobile-custom-study/[カスタム学習セッション]の設計が可能になります。
+////
+:toc: macro
+:toc-placement:
+:toclevels: 1
+////
+
+////
+http://rs.luminousspice.com/
+////
+
+{description}
+
+//toc::[]
+
+
+== データ検索
+
+AnkiMobile に収録しているカードを検索するには Find Screen (検索画面) から行います。
+単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
+([Tools] – [More] – [Find] を選択しても同じ結果になります。)
+
+.検索画面
+image::/images/how-to-ankimobile-search.png["検索画面", width="300"]
+
+既定では検索欄に　`deck:current` (意味:選択中の単語帳) と入力済みになっています。そのまま右下の [Search (検索)] ボタンをタップすると、選択中の単語帳のカード一覧を表示します。
+
+さらに検索条件を追加するしてカードを絞り込むことができます。`deck:current` を削除すれば、全ての単語帳から検索できるようになります。
+
+.検索結果
+image::/images/how-to-ankimobile-search-results.png["検索結果", width="300"]
+
+Anki と AnkiMobile のデータ検索では、先ほど取り上げた、`deck:` のような特別なキーワードを共通に利用できます。
+その一例を参考までに紹介します。
+
+.検索条件例
+[frame="topbot",grid="rows",cols="1,2",format="csv",width="",options="header"]
+|====
+項目,条件
+今日追加したカード,added:1
+今日学習したカード,rated:1
+今日間違えたカード,rated:1:1
+新規,is:new
+学習中,is:learn
+復習,is:review
+期日,is:due
+保留,is:suspended
+延期,is:buried
+無駄,tag:leech
+単語帳 中学英単語, deck:中学英単語
+ノートタイプ 英語単語,note:英語単語
+タグ Grade1, tag:Grade1
+|====
+
+詳しい検索条件は、link:http://ankisrs.net/docs/manual.html#searching[Anki User Manual]とそのlink:http://wikiwiki.jp/rage2050/?2.0%2FBrowser#searching[日本語訳]をご覧下さい。
+
+== PC 版 Anki との連携のポイント
+
+PC 版の Anki が利用できる方は、マニュアルを使わなくても、カードブラウザを操作しながら検索条件を設計できます。
+詳しくは、link:/browser-overview/[Ankiのブラウザーの使い方とデータ検索]で説明しています。
+PC 版 Anki で設計した条件をフィルター単語帳などの形で同期すれば、AnkiMobile に簡単に導入できるようになります。
