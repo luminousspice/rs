@@ -16,11 +16,11 @@
       <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
       <pubDate>Thu, 07 Apr 2016 12:18:02 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
-      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。</description>
+      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。&lt;/p&gt;
+&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -28,7 +28,7 @@
 &lt;h2 id=&#34;_データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_collection_全体の同期のみが可能な方法&#34;&gt;collection 全体の同期のみが可能な方法&lt;/h3&gt;

@@ -16,11 +16,11 @@
       <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
       <pubDate>Sun, 11 May 2014 04:00:03 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
-      <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。</description>
+      <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。&lt;/p&gt;
+&lt;p&gt;AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -28,7 +28,7 @@
 &lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS&#34; style=&#34;display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-sm.svg) no-repeat;width:80px;height:15px;&#34;&gt;&lt;/a&gt;とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;マニュアルの最初に書かれているように Anki (PC 版) と連携して利用することが前提となっています。単独利用では主として学習データの作成の面で機能制限があります。
@@ -40,9 +40,6 @@ iOS 機器の特長を生かした機能拡張が行われており、学習機�
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;価格は為替レートの影響を受けますが、私は App Store から 2,500 円で購入しましたが、現在では 3,000 円程度の設定になっています。また、一つの Apple ID につき、一ライセンスで五つの機器までインストールできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS&#34; style=&#34;display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;インストール方法については、他の App Store と変わりなく特別なことはありません。
@@ -308,6 +305,12 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;p&gt;これで重要な3カ所の説明が終わりました。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_日本語ユーザのための共有単語帳検索&#34;&gt;日本語ユーザのための共有単語帳検索&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザーのための Anki 共有単語帳リスト&lt;/a&gt;では、AnkiWeb  の共有単語帳データの中から、日本語ユーザーが利用可能な単語帳の情報を独自に収集し、検索機能を提供しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -529,13 +532,13 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;dlist&#34;&gt;
 &lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。&lt;/p&gt;
+&lt;/dd&gt;
 &lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/start-up-anki-for-iphone-users/&#34;&gt;iPhone ユーザーのための Anki のゆるい始めかた&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;このアプリを使い始めた方を対象に、長続きする学習方法を提案しています。教材の準備に極力手間をかけずに、カードの学習に集中できる使い方を取り上げています。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;

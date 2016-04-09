@@ -17,54 +17,94 @@
       <pubDate>Fri, 05 Jul 2013 23:00:59 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
       <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</description>
-      <content>&lt;section id=&#34;自動バックアップとは&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;自動バックアップとは&lt;/h2&gt;
-  &lt;/div&gt;
+      <content>&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_自動バックアップとは&#34;&gt;自動バックアップとは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成します。
 Ankiがコレクションファイルを閉じるタイミングとは、Ankiを終了する時、プロファイルを変更する時、単語帳を同期する時です。
 既定では過去30ファイル分保存していて、障害や操作ミスなどの不測の事態に備えています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;このバックアップファイルを使った復旧方法を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;自動バックアップの注意点&#34;&gt;自動バックアップの注意点&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile の自動バックアップについては、&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-backup/&#34;&gt;AnkiMobile ノート: 自動バックアップ&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_自動バックアップの注意点&#34;&gt;自動バックアップの注意点&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;自動バックアップでは、ディスクの障害やコンピュータの故障には対応できません。また、メディアファイルは対象としていません。
 データを安全に保管するには、定期的に手動でバックアップを行う必要があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;最も簡単な手動バックアップの方法は、Ankiフォルダーを丸ごとバックアップすることです。その場合、必ずAnkiを終了してから行ってください。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;自動バックアップの設定&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;自動バックアップの設定&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_自動バックアップの設定&#34;&gt;自動バックアップの設定&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックアップファイルの設定は、メニューバーから[Anki]&amp;gt;[環境設定]を選択し、[バックアップ]タブをクリックします。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/automatic_backup_1.png&#34; alt=&#34;環境設定画面&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 環境設定画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この設定画面で、保存するファイル数を指定できます。既定では30です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックアップファイルを見つけるには、[バックアップフォルダを開く]リンクをクリックすると、保存しているフォルダにアクセスできます。 実際のパスは既定では、 &lt;code&gt;(書類, ドキュメントフォルダ)/Anki/(プロファイル名)/backups&lt;/code&gt; になります。
 バックアップファイルは &lt;code&gt;backup-(連番).apkg&lt;/code&gt; という名前で保存しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;自動バックアップからの復旧方法&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;自動バックアップからの復旧方法&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_自動バックアップからの復旧方法&#34;&gt;自動バックアップからの復旧方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックアップフォルダーの中の最新のバックアップファイルをダブルクリックすると、読み込みを行いコレクションデータを復旧します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;削除ログからの復旧方法&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;削除ログからの復旧方法&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_削除ログからの復旧方法&#34;&gt;削除ログからの復旧方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki2.0.9からはプロファイルディレクトリ内の &lt;code&gt;deleted.txt&lt;/code&gt; ファイルに削除したカードのフィールドの内容を保存するようになりました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;このファイルに記録している削除したノートをテキストファイルの読み込み機能を使って復旧することができます。
 一度に一種類のノートタイプの読み込みしかできませんので、ノートタイプ毎に読み込み処理を行う必要があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;読み込み機能の詳しい内容については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     

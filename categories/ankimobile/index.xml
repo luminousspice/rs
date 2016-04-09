@@ -16,11 +16,11 @@
       <link>http://rs.luminousspice.com/how-to-ankimobile-search/</link>
       <pubDate>Sat, 09 Apr 2016 04:54:16 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-ankimobile-search/</guid>
-      <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。</description>
+      <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度な&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-custom-study/&#34;&gt;カスタム学習セッション&lt;/a&gt;の設計が可能になります。&lt;/p&gt;
+&lt;p&gt;AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -28,7 +28,7 @@
 &lt;h2 id=&#34;_データ検索&#34;&gt;データ検索&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile に収録しているカードを検索するには Find Screen (検索画面) から行います。
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; に収録しているカードを検索するには Find Screen (検索画面) から行います。
 単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
 ([Tools] – [More] – [Find] を選択しても同じ結果になります。)&lt;/p&gt;
 &lt;/div&gt;
@@ -144,11 +144,11 @@ PC 版 Anki で設計した条件をフィルター単語帳などの形で同�
       <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
       <pubDate>Thu, 07 Apr 2016 12:18:02 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
-      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。</description>
+      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。&lt;/p&gt;
+&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -156,7 +156,7 @@ PC 版 Anki で設計した条件をフィルター単語帳などの形で同�
 &lt;h2 id=&#34;_データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_collection_全体の同期のみが可能な方法&#34;&gt;collection 全体の同期のみが可能な方法&lt;/h3&gt;
@@ -334,11 +334,11 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
       <link>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
       <pubDate>Thu, 07 Apr 2016 11:15:00 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
-      <description>AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。</description>
+      <description>AnkiMobile は PC 版の Anki と同様に、フィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。iPhone を例にして具体的な操作方法を説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。&lt;/p&gt;
+&lt;p&gt;AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。iPhone を例にして具体的な操作方法を説明します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -346,7 +346,7 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;h2 id=&#34;_学習のカスタマイズ&#34;&gt;学習のカスタマイズ&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobiele では、PC 版の Anki と同様に単語帳オプションの学習モードをカスタマイズすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; では、PC 版の Anki と同様に単語帳オプションの学習モードをカスタマイズすることができます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;カスタム学習セッションは、主として単語帳のオプションの上限値を超える学習ができる一時的な学習セッションです。&lt;/p&gt;
@@ -478,11 +478,11 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
       <link>http://rs.luminousspice.com/how-to-ankimobile-backup/</link>
       <pubDate>Thu, 07 Apr 2016 10:34:34 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
-      <description>AnkiMobile は自動的にバックアップファイルを保存しています。その設定方法と、データの復旧手順について説明します。</description>
+      <description>AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile は自動的にバックアップファイルを保存しています。その設定方法と、データの復旧手順について説明します。&lt;/p&gt;
+&lt;p&gt;AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -490,13 +490,16 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;h2 id=&#34;_自動バックアップファイルについて&#34;&gt;自動バックアップファイルについて&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile はホーム画面や他のアプリに移動する時に自動バックアップを作成します。バックアップの単位は collection 全体で、プロファイルごとに作成します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; はホーム画面や他のアプリに移動する時に自動バックアップを作成します。バックアップの単位は collection 全体で、プロファイルごとに作成します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックアップ対象は、カードと統計のデータです。画像や音声などのメディアデータは対象外です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;また、バックアップを作成してから一時間を経過すると、再度作成します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;PC 版 Anki の自動バックアップについては、&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;Anki自動バックアップ機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_設定画面&#34;&gt;設定画面&lt;/h3&gt;
