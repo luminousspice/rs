@@ -6,6 +6,7 @@ title: "Anki 2 の変更点 日本語訳"
 weight: 10
 categories: ["Anki","AnkiDoc"]
 tags: ["Anki","更新情報","アップグレード"]
+aliases: ["/2013/02/changeinanki2/"]
 excerpt: "Anki 2.0.32 (2015/03/25) 準拠の更新履歴日本語訳。Anki 2へアップグレードする前に知っておきたい用語や機能の変更、以前のバージョンの単語帳のアップグレード方法、新機能について説明しています。Anki2リリース以降、各アップグレードで行われた変更点についても記載しています。Anki Changelog, Japanese translation (as of Anki 2.0.32)"
 ---
 <hr />

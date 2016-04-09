@@ -6,6 +6,7 @@ title: "Anki 2.0 アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
 tags: ["Anki","Python","Qt","SQLite","アドオン"]
 anki: ["アドオン"]
+aliases: ["/2012/09/anki2addons/"]
 excerpt: "Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。"
 ---
 <hr />
