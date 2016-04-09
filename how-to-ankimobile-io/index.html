@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。'>
+<meta name="keywords" content="iOS">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。'/>
+<meta property="og:title" content="AnkiMobile ノート: データの入出力について" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/how-to-ankimobile-io/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-07T12:18:02Z"/>
+<meta property="article:modified_time" content="2016-04-07T12:18:02Z"/>
+
+
+
+<meta property="article:tag" content="iOS">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="AnkiMobile ノート: データの入出力について">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>AnkiMobile ノート: データの入出力について | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/how-to-ankimobile-io/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">AnkiMobile ノート: データの入出力について</h1>
+  <span class="post-date"><time datetime="2016-04-07T12:18:02Z"></time>2016-04-07</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_データの読み込み">データの読み込み</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AnkiMobile にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。</p>
+</div>
+<div class="sect2">
+<h3 id="_collection_全体の同期のみが可能な方法">collection 全体の同期のみが可能な方法</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">AnkiWeb 経由で同期</dt>
+<dd>
+<p>この場合、更新したコレクションデータ全てが、AnkiMobile に反映されます。</p>
+</dd>
+<dt class="hdlist1">iTunes 経由でコレクション全体を collection.apkg ファイルとして読み込む</dt>
+<dd>
+<p>iTunes のファイル共有機能を使います。この場合、コレクション内の単語帳全てを上書きします。</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_単語帳単位での読み込みも可能な方法">単語帳単位での読み込みも可能な方法</h3>
+<div class="paragraph">
+<p>この方法は、単語帳単位での読み込みが可能ですが、<code>collection.apkg</code> も同様に可能です。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Safari 経由で apkg ファイルをダウンロード</dt>
+<dd>
+<p>ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。</p>
+</dd>
+<dt class="hdlist1">メールに apkg ファイルを添付する</dt>
+<dd>
+<p>受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。</p>
+</dd>
+</dl>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-mail-deck.png" alt="メール添付" width="300">
+</div>
+<div class="title">Figure 1. メール添付</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_テキストデータを一括登録するには">テキストデータを一括登録するには</h3>
+<div class="paragraph">
+<p>AnkiMobile には、テキストデータを一括登録する機能はありません。
+まず、PC 版 Anki を利用して Anki 単語帳パッケージファイル (apkg) ファイルに変換します。
+<a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>ではテキストデータの一括登録する方法を説明しています。</p>
+</div>
+<div class="paragraph">
+<p>その後、上で紹介したいずれかの方法で AnkiMobile へ持ち込みます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_データの書き出し">データの書き出し</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AnkiMobile からデータを書き出す方法では細かい設定ができません。</p>
+</div>
+<div class="paragraph">
+<p>AnkiMobile からのデータの出力方法は 2 通りです。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>AnkiWeb 経由で Anki と同期する。この場合、コレクションの更新内容全てを同期することになります。</p>
+</li>
+<li>
+<p>iTunes を経由でコレクションを書き出す。この場合、コレクション全体を書き出すことになります。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>残念ながら、読み込みのように単語帳単位で書き出す方法はありません。</p>
+</div>
+<div class="sect2">
+<h3 id="_ankiweb_のオンラインストレージによる同期">AnkiWeb のオンラインストレージによる同期</h3>
+<div class="paragraph">
+<p>AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
+くわしくは、<a href="http://rs.luminousspice.com/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>をご覧下さい。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_itunes_ファイル共有機能による入出力">iTunes ファイル共有機能による入出力</h3>
+<div class="paragraph">
+<p>iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。</p>
+</div>
+<div class="paragraph">
+<p>iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 <a href="http://support.apple.com/kb/ht1386?viewlocale=ja_JP">iOS：iTunes とデータを同期する</a>を参考にしてください。</p>
+</div>
+<div class="sect3">
+<h4 id="_ankimobile_側の手順">AnkiMobile 側の手順</h4>
+<div class="paragraph">
+<p>単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-io.png" alt="データ入出力ダイアログ" width="300">
+</div>
+<div class="title">Figure 2. データ入出力ダイアログ</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">[Import from iTuenes]</dt>
+<dd>
+<p>コレクション全体を読み込んだファイルで置き換えます。</p>
+</dd>
+<dt class="hdlist1">[Export to iTunes]</dt>
+<dd>
+<p>コレクション全体を <code>collection.apkg</code> として書き出します。</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_pc_上の_itunes_側の手順">PC 上の iTunes 側の手順</h4>
+<div class="paragraph">
+<p>PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>iTunes を起動し、画面右上の [iPhone] ボタンをクリックします。
+(接続している iOS 機器によってこのボタンのラベルは変わります。)</p>
+</li>
+<li>
+<p>画面上のツールバーから [App] を選択します。</p>
+</li>
+<li>
+<p>画面を下にスクロールし [ファイル共有] の [App] の項目一覧から Ankiを選択します。</p>
+</li>
+<li>
+<p>[Anki の書類] というファイル一覧が右のパネルに表示します。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>AnkiMobile から出力すると、下図のように <code>collection.apkg</code> が現れます。
+このファイルを選択して、画面右下の [保存先] を押すと、PC 上の任意の場所に保存できます。</p>
+</div>
+<div class="paragraph">
+<p>画面下の [追加] を選択すると、AnkiMobile へ読み込むファイルを選択できます。
+ただし、<code>collection.apkg</code> という名前でなければ [Import from iTuenes] コマンドが機能しません。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how-to-ankimobile-itunes.png" alt="iTunes ファイル共有" width="600">
+</div>
+<div class="title">Figure 3. iTunes ファイル共有</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_データ同期の注意点">データ同期の注意点</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AnkiWeb は、基本的に差分同期をするのでデータ転送量が少ないです。iTunes ファイル共有は接続機器のそばであれば USB で直接接続したり、高速な無線回線で接続できます。
+AnkiWeb が常に万能な訳ではなく、同期するファイルの内容によって適切な手段が決まります。</p>
+</div>
+<div class="paragraph">
+<p>日々の学習データを転送するには AnkiWeb が有利です。</p>
+</div>
+<div class="paragraph">
+<p>高速に接続できる環境であれば、新しい単語帳を読み込んで、メディアファイルなどを含んだ容量の大きいを読み込むには iTunes ファイル共有が有利です。また大規模なバックアップの復元も、iTunes ファイル共有の方が短時間に処理できるでしょう。</p>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/how-to-ankimobile-io\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

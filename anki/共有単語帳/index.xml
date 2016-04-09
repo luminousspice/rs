@@ -6,10 +6,200 @@
     <description>共有単語帳 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Sep 2014 23:30:25 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Apr 2016 12:18:02 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E5%85%B1%E6%9C%89%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AnkiMobile ノート: データの入出力について</title>
+      <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
+      <pubDate>Thu, 07 Apr 2016 12:18:02 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
+      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_collection_全体の同期のみが可能な方法&#34;&gt;collection 全体の同期のみが可能な方法&lt;/h3&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;AnkiWeb 経由で同期&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;この場合、更新したコレクションデータ全てが、AnkiMobile に反映されます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;iTunes 経由でコレクション全体を collection.apkg ファイルとして読み込む&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;iTunes のファイル共有機能を使います。この場合、コレクション内の単語帳全てを上書きします。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳単位での読み込みも可能な方法&#34;&gt;単語帳単位での読み込みも可能な方法&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この方法は、単語帳単位での読み込みが可能ですが、&lt;code&gt;collection.apkg&lt;/code&gt; も同様に可能です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Safari 経由で apkg ファイルをダウンロード&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;メールに apkg ファイルを添付する&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-mail-deck.png&#34; alt=&#34;メール添付&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. メール添付&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_テキストデータを一括登録するには&#34;&gt;テキストデータを一括登録するには&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile には、テキストデータを一括登録する機能はありません。
+まず、PC 版 Anki を利用して Anki 単語帳パッケージファイル (apkg) ファイルに変換します。
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;ではテキストデータの一括登録する方法を説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;その後、上で紹介したいずれかの方法で AnkiMobile へ持ち込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データの書き出し&#34;&gt;データの書き出し&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile からデータを書き出す方法では細かい設定ができません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile からのデータの出力方法は 2 通りです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;AnkiWeb 経由で Anki と同期する。この場合、コレクションの更新内容全てを同期することになります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;iTunes を経由でコレクションを書き出す。この場合、コレクション全体を書き出すことになります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;残念ながら、読み込みのように単語帳単位で書き出す方法はありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
+くわしくは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 &lt;a href=&#34;http://support.apple.com/kb/ht1386?viewlocale=ja_JP&#34;&gt;iOS：iTunes とデータを同期する&lt;/a&gt;を参考にしてください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-io.png&#34; alt=&#34;データ入出力ダイアログ&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 2. データ入出力ダイアログ&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;[Import from iTuenes]&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;コレクション全体を読み込んだファイルで置き換えます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;[Export to iTunes]&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;コレクション全体を &lt;code&gt;collection.apkg&lt;/code&gt; として書き出します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;iTunes を起動し、画面右上の [iPhone] ボタンをクリックします。
+(接続している iOS 機器によってこのボタンのラベルは変わります。)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面上のツールバーから [App] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面を下にスクロールし [ファイル共有] の [App] の項目一覧から Ankiを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Anki の書類] というファイル一覧が右のパネルに表示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile から出力すると、下図のように &lt;code&gt;collection.apkg&lt;/code&gt; が現れます。
+このファイルを選択して、画面右下の [保存先] を押すと、PC 上の任意の場所に保存できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;画面下の [追加] を選択すると、AnkiMobile へ読み込むファイルを選択できます。
+ただし、&lt;code&gt;collection.apkg&lt;/code&gt; という名前でなければ [Import from iTuenes] コマンドが機能しません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-itunes.png&#34; alt=&#34;iTunes ファイル共有&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 3. iTunes ファイル共有&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データ同期の注意点&#34;&gt;データ同期の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb は、基本的に差分同期をするのでデータ転送量が少ないです。iTunes ファイル共有は接続機器のそばであれば USB で直接接続したり、高速な無線回線で接続できます。
+AnkiWeb が常に万能な訳ではなく、同期するファイルの内容によって適切な手段が決まります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;日々の学習データを転送するには AnkiWeb が有利です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;高速に接続できる環境であれば、新しい単語帳を読み込んで、メディアファイルなどを含んだ容量の大きいを読み込むには iTunes ファイル共有が有利です。また大規模なバックアップの復元も、iTunes ファイル共有の方が短時間に処理できるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
@@ -2331,82 +2521,6 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
-      <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
-      <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。Anki Deck for EMS (Emergency Medical Services) mnemonics.</description>
-      <content>&lt;section id=&#34;この単語帳の内容&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;この単語帳の内容&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。&lt;/p&gt;
-&lt;p&gt;SlideShareに公開のスライド &lt;a href=&#34;http://www.slideshare.net/yuichikuroki/ss-33566632&#34; target=&#34;_new&#34;&gt;救急診療に役立つ暗記メモ集の内容&lt;/a&gt;を学習するための空欄補充問題で構成しています。作者のYuichi Kuroki様から承諾を頂いた上で作成しました。&lt;/p&gt;
-&lt;p&gt;表紙を除いた 45 枚のスライドを元に問題設定した設定した303枚のカードを収録しています。&lt;/p&gt;
-&lt;h3 id=&#34;内容についての注意点&#34;&gt;内容についての注意点&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-元のスライド 5枚目の「GCS_M（運動反応）のおぼえかた」の写真は収録しておりません。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-元のスライド 46枚目の「小児体重とバイタルサイン 簡便記憶法」から作成したカードは、空欄補充問題の設定はしていません。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;単語帳内容のプレビュー&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;単語帳内容のプレビュー&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;単語帳に収録しているカード全ての内容をスライドショー形式でご覧いただけます。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;なお、単語帳のレイアウトは Anki 用に最適化しているため、上のプレビュー画面では乱れる場合があります。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;単語帳ダウンロード&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;単語帳ダウンロード&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この単語帳は、AnkiWeb上の共有単語帳ページからダウンロードいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34; target=&#34;_new&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-share-alt icon-white&#34;&gt;&lt;/i&gt; AnkiWeb 共有単語帳ダウンロードサイト&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;共有単語帳の使い方&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;使用上の注意&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;使用上の注意&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
-&lt;h3 id=&#34;元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h3&gt;
-&lt;p&gt;Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。&lt;/p&gt;
-&lt;p&gt;ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
-単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。&lt;/p&gt;
-&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;anki_をインストールせずに使いたい方へ&#34;&gt;Anki をインストールせずに使いたい方へ&lt;/h3&gt;
-&lt;p&gt;上に表示しているスライドショー形式のプレビューをお使いください。全てのカードをランダムに表示しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この&lt;a href=&#34;http://www.slideshare.net/yuichikuroki/ss-33566632&#34; target=&#34;_new&#34;&gt;救急診療に役立つ暗記メモ集の内容&lt;/a&gt;というスライドを最初に読んだ時に、題名は忘れてしまったのですが、意思決定に関する書籍に書いてあったエピソードを思い出しました。ある米国の医師が元のスライドにある様な MNEMONICSや指標を活用していて、それは非常に精度が高く、適切な意思決定を行うのに大切にしているというものでした。&lt;/p&gt;
-&lt;p&gt;これまで公開されてきた Anki の利用例は、上級学校への進学や資格取得のために外国語学習(特に英語)などの学習に関するものがほとんどです。学習教材も内容が固定した既成の教科書や参考書が多いようです。これが作者の想定内の使い方だと思います。&lt;/p&gt;
-&lt;p&gt;上から与えられる勉強からは卒業して、多忙な日常業務の中で専門性を高めている立場にいる方々にも、自分の経験や知識を整理し、洗練するのに Anki は役立つのではないかと。比較対象となる他のアプリに対して Anki が優位に立つユニークな特長は、このような知識分野で際立つのではないかと、Anki を使い続けて感じています。&lt;/p&gt;
-&lt;p&gt;これまでにないような Anki の使い方を求めて、この単語帳を作りました。&lt;/p&gt;
-&lt;p&gt;元データの利用を快諾くださいましたYuichi Kuroki様ありがとうございました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;更新情報&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;2014/04/21: 初出&lt;/p&gt;
-&lt;p&gt;2015/11/20: 共有単語帳リンク先変更&lt;/p&gt;
-&lt;/section&gt;
 </content>
     </item>
     

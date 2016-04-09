@@ -6,10 +6,200 @@
     <description>Itunesファイル共有 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 13 Sep 2014 21:30:52 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Apr 2016 12:18:02 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/itunes%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%85%B1%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AnkiMobile ノート: データの入出力について</title>
+      <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
+      <pubDate>Thu, 07 Apr 2016 12:18:02 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
+      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_collection_全体の同期のみが可能な方法&#34;&gt;collection 全体の同期のみが可能な方法&lt;/h3&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;AnkiWeb 経由で同期&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;この場合、更新したコレクションデータ全てが、AnkiMobile に反映されます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;iTunes 経由でコレクション全体を collection.apkg ファイルとして読み込む&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;iTunes のファイル共有機能を使います。この場合、コレクション内の単語帳全てを上書きします。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳単位での読み込みも可能な方法&#34;&gt;単語帳単位での読み込みも可能な方法&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この方法は、単語帳単位での読み込みが可能ですが、&lt;code&gt;collection.apkg&lt;/code&gt; も同様に可能です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Safari 経由で apkg ファイルをダウンロード&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;メールに apkg ファイルを添付する&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-mail-deck.png&#34; alt=&#34;メール添付&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. メール添付&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_テキストデータを一括登録するには&#34;&gt;テキストデータを一括登録するには&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile には、テキストデータを一括登録する機能はありません。
+まず、PC 版 Anki を利用して Anki 単語帳パッケージファイル (apkg) ファイルに変換します。
+&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;ではテキストデータの一括登録する方法を説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;その後、上で紹介したいずれかの方法で AnkiMobile へ持ち込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データの書き出し&#34;&gt;データの書き出し&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile からデータを書き出す方法では細かい設定ができません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile からのデータの出力方法は 2 通りです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;AnkiWeb 経由で Anki と同期する。この場合、コレクションの更新内容全てを同期することになります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;iTunes を経由でコレクションを書き出す。この場合、コレクション全体を書き出すことになります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;残念ながら、読み込みのように単語帳単位で書き出す方法はありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
+くわしくは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 &lt;a href=&#34;http://support.apple.com/kb/ht1386?viewlocale=ja_JP&#34;&gt;iOS：iTunes とデータを同期する&lt;/a&gt;を参考にしてください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-io.png&#34; alt=&#34;データ入出力ダイアログ&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 2. データ入出力ダイアログ&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;[Import from iTuenes]&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;コレクション全体を読み込んだファイルで置き換えます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;[Export to iTunes]&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;コレクション全体を &lt;code&gt;collection.apkg&lt;/code&gt; として書き出します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;iTunes を起動し、画面右上の [iPhone] ボタンをクリックします。
+(接続している iOS 機器によってこのボタンのラベルは変わります。)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面上のツールバーから [App] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面を下にスクロールし [ファイル共有] の [App] の項目一覧から Ankiを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Anki の書類] というファイル一覧が右のパネルに表示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile から出力すると、下図のように &lt;code&gt;collection.apkg&lt;/code&gt; が現れます。
+このファイルを選択して、画面右下の [保存先] を押すと、PC 上の任意の場所に保存できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;画面下の [追加] を選択すると、AnkiMobile へ読み込むファイルを選択できます。
+ただし、&lt;code&gt;collection.apkg&lt;/code&gt; という名前でなければ [Import from iTuenes] コマンドが機能しません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-itunes.png&#34; alt=&#34;iTunes ファイル共有&#34; width=&#34;600&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 3. iTunes ファイル共有&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データ同期の注意点&#34;&gt;データ同期の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb は、基本的に差分同期をするのでデータ転送量が少ないです。iTunes ファイル共有は接続機器のそばであれば USB で直接接続したり、高速な無線回線で接続できます。
+AnkiWeb が常に万能な訳ではなく、同期するファイルの内容によって適切な手段が決まります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;日々の学習データを転送するには AnkiWeb が有利です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;高速に接続できる環境であれば、新しい単語帳を読み込んで、メディアファイルなどを含んだ容量の大きいを読み込むには iTunes ファイル共有が有利です。また大規模なバックアップの復元も、iTunes ファイル共有の方が短時間に処理できるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>

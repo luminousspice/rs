@@ -6,10 +6,68 @@
     <description>自動バックアップ | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Jul 2013 23:00:59 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Apr 2016 10:34:34 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E8%87%AA%E5%8B%95%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AnkiMobile ノート: 自動バックアップ</title>
+      <link>http://rs.luminousspice.com/how-to-ankimobile-backup/</link>
+      <pubDate>Thu, 07 Apr 2016 10:34:34 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
+      <description>AnkiMobile は自動的にバックアップファイルを保存しています。その設定方法と、データの復旧手順について説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile は自動的にバックアップファイルを保存しています。その設定方法と、データの復旧手順について説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_自動バックアップファイルについて&#34;&gt;自動バックアップファイルについて&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile はホーム画面や他のアプリに移動する時に自動バックアップを作成します。バックアップの単位は collection 全体で、プロファイルごとに作成します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;バックアップ対象は、カードと統計のデータです。画像や音声などのメディアデータは対象外です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、バックアップを作成してから一時間を経過すると、再度作成します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_設定画面&#34;&gt;設定画面&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定画面から、自動バックアップの間隔とバックアップファイルを保存数を設定できます。
+単語帳一覧の画面右上の歯車アイコンをタップし [Backups] を選択すると設定画面を表示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-backup.png&#34; alt=&#34;バックアップ設定画面&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. バックアップ設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_復旧手順&#34;&gt;復旧手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定画面の中から、復旧したいバックアップファイルをタップします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;別のプロファイルをバックアップファイルを選択して再現することも可能です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_手動でバックアップファイルを作成&#34;&gt;手動でバックアップファイルを作成&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定画面のバックアップファイル一覧先頭の [Create Now] をタップすると、バックアップファイルを作成します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
