@@ -1,20 +1,20 @@
 ---
 slug: "ankimobile-survival-guide"
 date: "2014-05-11T04:00:03+00:00"
-lastmod: "2016-04-03T07:42:34+00:00"
+lastmod: "2016-04-09T09:14:59+00:00"
 title: "iPhone ユーザーのための AnkiMobile サバイバルガイド"
 weight: 10
-categories: ["Anki"]
+categories: ["Anki","AnkiMobile"]
 tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
 anki: ["AnkiMobile","サポート","ジェスチャ","ノートを編集","ノートを追加","共有単語帳"]
-excerpt: "AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。"
+excerpt: "AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。"
 ---
 = iPhone ユーザーのための AnkiMobile サバイバルガイド
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるかスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。
+:description: AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。
 
 ////
 http://rs.luminousspice.com/ankimobile-survival-guide/
@@ -25,7 +25,7 @@ http://rs.luminousspice.com/ankimobile-survival-guide/
 
 == はじめに
 
-https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] +++<a href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-sm.svg) no-repeat;width:80px;height:15px;"></a>+++とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。
+https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。
 
 マニュアルの最初に書かれているように Anki (PC 版) と連携して利用することが前提となっています。単独利用では主として学習データの作成の面で機能制限があります。
 iOS 機器の特長を生かした機能拡張が行われており、学習機能の面では PC 版と比較すると使いやすくなっています。
@@ -34,8 +34,6 @@ iOS 機器の特長を生かした機能拡張が行われており、学習機�
 また、ユーザーインターフェイスの表示言語は英語のみです。
 
 価格は為替レートの影響を受けますが、私は App Store から 2,500 円で購入しましたが、現在では 3,000 円程度の設定になっています。また、一つの Apple ID につき、一ライセンスで五つの機器までインストールできます。
-
-+++<a href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>+++
 
 インストール方法については、他の App Store と変わりなく特別なことはありません。
 Anki のフリーのオンラインサービス AnkiWeb は、データを同期しない限りは、ユーザー登録の必要なく利用できます。
@@ -190,6 +188,10 @@ image::/images/deck-list.png["共有単語帳の読み込み例",width="300"]
 
 これで重要な3カ所の説明が終わりました。
 
+=== 日本語ユーザのための共有単語帳検索
+
+link:/shared-deck-list-in-japanese/[日本語ユーザーのための Anki 共有単語帳リスト]では、AnkiWeb  の共有単語帳データの中から、日本語ユーザーが利用可能な単語帳の情報を独自に収集し、検索機能を提供しています。
+
 == 学習画面
 
 最後に簡単に学習画面について触れておきましょう。
@@ -300,10 +302,10 @@ AnkiMobile を使いこなすのに最低限必要な機能は、実は集約し
 
 == さらにくわしく
 
+link:/how-to-use-ankimobile/[iPhone ユーザーのためのはじめての Anki]::
+はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。
 link:/start-up-anki-for-iphone-users/[iPhone ユーザーのための Anki のゆるい始めかた]::
 このアプリを使い始めた方を対象に、長続きする学習方法を提案しています。教材の準備に極力手間をかけずに、カードの学習に集中できる使い方を取り上げています。
-link:/how-to-use-ankimobile/[iPhone ユーザーのためのはじめての Anki]::
-はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。AnkiMobile だけではできない機能を PC 版 Anki と連携して実現する方法も取り上げています。
 link:/speech-text-on-ankimobile/[iPhone 版 Anki でテキストを読み上げるにはどうするか]::
 カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
 link:/how-to-sync-with-ankiweb/[AnkiWeb 同期機能の使い方]::

@@ -4,16 +4,16 @@ date: "2016-04-07T10:34:34+00:00"
 title: "AnkiMobile ノート: 自動バックアップ"
 type: "note"
 categories: ["AnkiMobile"]
-tags: ["iOS"]
+tags: ["iOS","iPhone"]
 anki: ["AnkiMobile","自動バックアップ"]
-excerpt: "AnkiMobile は自動的にバックアップファイルを保存しています。その設定方法と、データの復旧手順について説明します。"
+excerpt: "AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。"
 ---
 = AnkiMobile ノート: 自動バックアップ
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: AnkiMobile は自動的にバックアップファイルを保存しています。その設定方法と、データの復旧手順について説明します。
+:description: AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。
 ////
 :toc: macro
 :toc-placement:
@@ -31,7 +31,7 @@ http://rs.luminousspice.com/
 == 自動バックアップファイルについて
 
 
-AnkiMobile はホーム画面や他のアプリに移動する時に自動バックアップを作成します。バックアップの単位は collection 全体で、プロファイルごとに作成します。
+https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] はホーム画面や他のアプリに移動する時に自動バックアップを作成します。バックアップの単位は collection 全体で、プロファイルごとに作成します。
 
 バックアップ対象は、カードと統計のデータです。画像や音声などのメディアデータは対象外です。
 

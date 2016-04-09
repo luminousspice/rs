@@ -4,16 +4,16 @@ date: "2016-04-09T04:54:16+00:00"
 title: "AnkiMobile ノート: データ検索"
 type: "note"
 categories: ["AnkiMobile"]
-tags: ["iOS"]
+tags: ["iOS","iPhone"]
 anki: ["AnkiMobile","検索"]
-excerpt: "AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。"
+excerpt: "AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。"
 ---
 = AnkiMobile ノート: データ検索
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なlink:/how-to-ankimobile-custom-study/[カスタム学習セッション]の設計が可能になります。
+:description: AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。
 ////
 :toc: macro
 :toc-placement:
@@ -31,7 +31,7 @@ http://rs.luminousspice.com/
 
 == データ検索
 
-AnkiMobile に収録しているカードを検索するには Find Screen (検索画面) から行います。
+https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] に収録しているカードを検索するには Find Screen (検索画面) から行います。
 単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
 ([Tools] – [More] – [Find] を選択しても同じ結果になります。)
 

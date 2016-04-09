@@ -4,16 +4,16 @@ date: "2016-04-07T11:15:00+00:00"
 title: "AnkiMobile ノート: カスタム学習とフィルター単語帳"
 type: "note"
 categories: ["AnkiMobile"]
-tags: ["iOS"]
+tags: ["iOS","iPhone"]
 anki: ["AnkiMobile","フィルター単語帳","カスタム学習","検索"]
-excerpt: "AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。"
+excerpt: "AnkiMobile は PC 版の Anki と同様に、フィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。iPhone を例にして具体的な操作方法を説明します。"
 ---
 = AnkiMobile ノート: カスタム学習とフィルター単語帳
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。
+:description: AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。iPhone を例にして具体的な操作方法を説明します。
 ////
 :toc: macro
 :toc-placement:
@@ -31,7 +31,7 @@ http://rs.luminousspice.com/
 
 == 学習のカスタマイズ
 
-AnkiMobiele では、PC 版の Anki と同様に単語帳オプションの学習モードをカスタマイズすることができます。
+https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] では、PC 版の Anki と同様に単語帳オプションの学習モードをカスタマイズすることができます。
 
 カスタム学習セッションは、主として単語帳のオプションの上限値を超える学習ができる一時的な学習セッションです。
 
