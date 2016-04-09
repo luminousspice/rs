@@ -1,14 +1,14 @@
 ---
 slug: "how-to-ankimobile-io"
 date: "2016-04-07T12:18:02+00:00"
-title: "AnkiMobile ノート: データの入出力について"
+title: "AnkiMobile ノート: データ入出力"
 type: "note"
 categories: ["AnkiMobile"]
 tags: ["iOS","iPhone"]
 anki: ["AnkiMobile","iTunesファイル共有","共有単語帳","同期","書き出し","読み込み","apkg"]
 excerpt: "AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。"
 ---
-= AnkiMobile ノート: データの入出力について
+= AnkiMobile ノート: データ入出力
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
