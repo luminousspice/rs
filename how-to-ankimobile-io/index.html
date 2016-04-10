@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2016-04-07T12:18:02Z"/>
-<meta property="article:modified_time" content="2016-04-07T12:18:02Z"/>
+<meta property="article:modified_time" content="2016-04-10T01:50:55Z"/>
 
 
 
@@ -90,7 +90,7 @@
 
 <div class="post">
   <h1 class="post-title">AnkiMobile ノート: データ入出力</h1>
-  <span class="post-date"><time datetime="2016-04-07T12:18:02Z"></time>2016-04-07</span>
+  <span class="post-date"><time datetime="2016-04-07T12:18:02Z"></time>2016-04-10 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -158,6 +158,33 @@
 <p>その後、上で紹介したいずれかの方法で AnkiMobile へ持ち込みます。</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_読み込み用の単語帳データ作成方法">読み込み用の単語帳データ作成方法</h3>
+<div class="paragraph">
+<p>PC 版 Anki を使って 読み込み用の単語帳データを作る手順は、<a href="http://rs.luminousspice.com/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>で説明しています。</p>
+</div>
+<div class="dlist">
+<div class="title">AnkiMobile 用に書き出す場合の設定項目</div>
+<dl>
+<dt class="hdlist1">iTunes ファイル共有用 'collection.apkg' の作成</dt>
+<dd>
+<p>[ファイルの形式]でAnki単語帳パッケージ、[対象]で全ての単語帳を選択</p>
+</dd>
+<dt class="hdlist1">ダウンロード、メール添付用単語帳パッケージの作成</dt>
+<dd>
+<p>[ファイルの形式]でAnki単語帳パッケージ、[対象]で書き出す単語帳を選択</p>
+</dd>
+<dt class="hdlist1">学習履歴を含める</dt>
+<dd>
+<p>[スケジュール情報を含める]を選択</p>
+</dd>
+<dt class="hdlist1">画像、音声などのメディアファイルを含める</dt>
+<dd>
+<p>[メディアファイルを同梱]を選択</p>
+</dd>
+</dl>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -187,6 +214,10 @@
 <div class="paragraph">
 <p>AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
 くわしくは、<a href="http://rs.luminousspice.com/how-to-sync-with-ankiweb/">AnkiWeb 同期機能の使い方</a>をご覧下さい。</p>
+</div>
+<div class="paragraph">
+<p>AnkiWeb の同期機能は、原則的に差分同期でデータ転送量を押さえています。
+サーバとのデータ内容の差が大きくなった場合は差分同期ができず、サーバー側か iPhone 側かどちらか一方の内容全体を複製する (完全同期) 必要があります。</p>
 </div>
 </div>
 <div class="sect2">
@@ -273,6 +304,27 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 </div>
 <div class="paragraph">
 <p>高速に接続できる環境であれば、新しい単語帳を読み込んで、メディアファイルなどを含んだ容量の大きいを読み込むには iTunes ファイル共有が有利です。また大規模なバックアップの復元も、iTunes ファイル共有の方が短時間に処理できるでしょう。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>AnkiMobile へのデータの読み込みは、コレクション全体と単語帳単位で選択できる。</p>
+</li>
+<li>
+<p>AnkiMobile からのデータの書き出したはコレクション全体だけ。</p>
+</li>
+<li>
+<p>コレクション全体でデータを入出力するには複製 (iTunes ファイル共有) と差分同期 (AnkiWeb) が選択できる。</p>
+</li>
+<li>
+<p>最適な転送手段は、ファイル容量と回線速度によって決まる。</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
