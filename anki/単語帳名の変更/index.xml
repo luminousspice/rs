@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>単語帳名の変更 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E5%8D%98%E8%AA%9E%E5%B8%B3%E5%90%8D%E3%81%AE%E5%A4%89%E6%9B%B4/</link>
+    <description>単語帳名の変更 | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 11 Apr 2016 02:40:26 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/anki/%E5%8D%98%E8%AA%9E%E5%B8%B3%E5%90%8D%E3%81%AE%E5%A4%89%E6%9B%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>不要な単語帳を片付ける</title>
+      <link>http://rs.luminousspice.com/hide-unused-deck/</link>
+      <pubDate>Mon, 11 Apr 2016 02:40:26 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/hide-unused-deck/</guid>
+      <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;参考情報&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://anki.tenderapp.com/kb/collection-management/hiding-decks&#34;&gt;Hiding Decks&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_単語帳を削除する&#34;&gt;単語帳を削除する&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;後日、復活したい場合に備えて単語帳を書き出した上で、削除する順序で説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_バックアップをとる&#34;&gt;バックアップをとる&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [書き出す] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定画面の [対象] で書き出したい単語帳名を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;画像や音声などのメディアファイルを使っている場合は、[メディアを同梱] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習履歴も保存したい場合は、スケジュール情報も保存したい場合は、[スケジュール情報も含める] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_1.png&#34; alt=&#34;書き出しオプション&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 書き出しオプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳を削除する手順&#34;&gt;単語帳を削除する手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [削除] を選択します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_3.png&#34; alt=&#34;ドロップダウンメニューの内容&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. ドロップダウンメニューの内容&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_保存用単語帳にまとめる&#34;&gt;保存用単語帳にまとめる&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;全くデータを消去するのではなく、出題を停止する冷凍庫のような単語帳を作って、そのサブ単語帳としてまとめる方法もあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;保存用単語帳は学習オプションで、新規カード、復習カードの出題上限を 0 に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;学習オプションの設定画面を呼び出す手順&lt;/div&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [オプション] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳を移動する&#34;&gt;単語帳を移動する&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧から移動したい単語帳をドラッグして、保存用単語帳の上にドロップします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_名前を変更して移動&#34;&gt;名前を変更して移動&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;同じことが単語帳の名前を変更してもできます。
+単語帳名を変更します。変更先は &lt;code&gt;保存用単語帳::隠したい単語帳名&lt;/code&gt; に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;単語帳名を変更する手順&lt;/div&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [名前を変更] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_で操作する場合&#34;&gt;AnkiMobile で操作する場合&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile の場合は、単語帳単位で書き出すことができません。また単語帳一覧でドラッグアンンドドロップの作業もできません。
+そこで単語帳を削除する手順と、単語帳名を変更してサブ単語帳に移動する手順を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳の削除&#34;&gt;単語帳の削除&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧から単語帳名を左にスワイプします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-remove-deck.png&#34; alt=&#34;単語帳の削除&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. AnkiMobile での単語帳の削除&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳名の変更&#34;&gt;単語帳名の変更&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名を長押し (タッチアンドホールド) します。変更先は &lt;code&gt;保存用単語帳::隠したい単語帳名&lt;/code&gt; に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_保存用単語帳の学習オプションの設定&#34;&gt;保存用単語帳の学習オプションの設定&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;AnkiMobile での学習オプションの設定手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧から単語帳名をタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面右上の [Tools] をタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Study Options] をタップ&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NEW CARDS: [Max new per day] を 0 に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;REVIEWS: [Max reviews per day] を 0 に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;学習オプション設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 学習オプション設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不要な単語帳を片付けるにはデータ削除と保管用単語帳への移動の二つの方法がある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;削除の前に単語帳をバックアップは AnkiMobile では操作できない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出題停止する単語帳は、保存用単語帳のサブ単語帳としてまとめる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保存用単語帳は、新規カード、復習カードの一日の出題制限をゼロにする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

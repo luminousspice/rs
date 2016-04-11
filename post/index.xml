@@ -6,10 +6,188 @@
     <description>Posts | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 Apr 2016 04:54:16 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 Apr 2016 02:40:26 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>不要な単語帳を片付ける</title>
+      <link>http://rs.luminousspice.com/hide-unused-deck/</link>
+      <pubDate>Mon, 11 Apr 2016 02:40:26 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/hide-unused-deck/</guid>
+      <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;参考情報&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://anki.tenderapp.com/kb/collection-management/hiding-decks&#34;&gt;Hiding Decks&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_単語帳を削除する&#34;&gt;単語帳を削除する&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;後日、復活したい場合に備えて単語帳を書き出した上で、削除する順序で説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_バックアップをとる&#34;&gt;バックアップをとる&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [書き出す] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定画面の [対象] で書き出したい単語帳名を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;画像や音声などのメディアファイルを使っている場合は、[メディアを同梱] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習履歴も保存したい場合は、スケジュール情報も保存したい場合は、[スケジュール情報も含める] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_1.png&#34; alt=&#34;書き出しオプション&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 書き出しオプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳を削除する手順&#34;&gt;単語帳を削除する手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [削除] を選択します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_3.png&#34; alt=&#34;ドロップダウンメニューの内容&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. ドロップダウンメニューの内容&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_保存用単語帳にまとめる&#34;&gt;保存用単語帳にまとめる&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;全くデータを消去するのではなく、出題を停止する冷凍庫のような単語帳を作って、そのサブ単語帳としてまとめる方法もあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;保存用単語帳は学習オプションで、新規カード、復習カードの出題上限を 0 に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;学習オプションの設定画面を呼び出す手順&lt;/div&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [オプション] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳を移動する&#34;&gt;単語帳を移動する&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧から移動したい単語帳をドラッグして、保存用単語帳の上にドロップします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_名前を変更して移動&#34;&gt;名前を変更して移動&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;同じことが単語帳の名前を変更してもできます。
+単語帳名を変更します。変更先は &lt;code&gt;保存用単語帳::隠したい単語帳名&lt;/code&gt; に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;単語帳名を変更する手順&lt;/div&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [名前を変更] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_で操作する場合&#34;&gt;AnkiMobile で操作する場合&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile の場合は、単語帳単位で書き出すことができません。また単語帳一覧でドラッグアンンドドロップの作業もできません。
+そこで単語帳を削除する手順と、単語帳名を変更してサブ単語帳に移動する手順を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳の削除&#34;&gt;単語帳の削除&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧から単語帳名を左にスワイプします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-remove-deck.png&#34; alt=&#34;単語帳の削除&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. AnkiMobile での単語帳の削除&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳名の変更&#34;&gt;単語帳名の変更&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名を長押し (タッチアンドホールド) します。変更先は &lt;code&gt;保存用単語帳::隠したい単語帳名&lt;/code&gt; に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_保存用単語帳の学習オプションの設定&#34;&gt;保存用単語帳の学習オプションの設定&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;AnkiMobile での学習オプションの設定手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧から単語帳名をタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面右上の [Tools] をタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Study Options] をタップ&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NEW CARDS: [Max new per day] を 0 に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;REVIEWS: [Max reviews per day] を 0 に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;学習オプション設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 学習オプション設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不要な単語帳を片付けるにはデータ削除と保管用単語帳への移動の二つの方法がある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;削除の前に単語帳をバックアップは AnkiMobile では操作できない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出題停止する単語帳は、保存用単語帳のサブ単語帳としてまとめる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保存用単語帳は、新規カード、復習カードの一日の出題制限をゼロにする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>AnkiMobile ノート: データ検索</title>
@@ -579,155 +757,6 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;h3 id=&#34;_手動でバックアップファイルを作成&#34;&gt;手動でバックアップファイルを作成&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;設定画面のバックアップファイル一覧先頭の [Create Now] をタップすると、バックアップファイルを作成します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki のメディアプレイヤーを mpv に取り替える</title>
-      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
-      <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
-      <description>Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_はメディアプレイヤーのカスタマイズを前提に作っていた&#34;&gt;Anki はメディアプレイヤーのカスタマイズを前提に作っていた&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はメディアプレイヤーとして外部ブログラムの MPlayer (MPlayer 1.1-4.2.1, Anki 2.0.35 の場合) を同梱して 使用しています。このため、動画再生時の制御方法を Anki  のマニュアルで取り上げられていません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;ショートカットキー&lt;/a&gt;をまとめたり、&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt; でユーザーインターフェイスを変更する方法を取り上げてきました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定し、動画再生機能を強化できます。
-なお、OS X 版を前提として説明を進めます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最近 reddit で &lt;a href=&#34;https://www.reddit.com/r/Anki/comments/4c1ihg/does_anyone_use_vlc_with_anki/&#34;&gt;Does anyone use VLC with Anki?&lt;/a&gt; という面白い投稿を見つけました。MPlayer を VLC media player に変更する方法を取り上げています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; を公開している説明していて、先ほどの投稿の中でも利用していました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで高機能な軽量動画プレイヤーの &lt;a href=&#34;https://mpv.io&#34;&gt;mpv&lt;/a&gt; を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;参考:&lt;/strong&gt; &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sound.py&#34;&gt;anki/sound.py&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アドオンの設定方法&#34;&gt;アドオンの設定方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
-初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;customPlayer.py 変更箇所&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;# change &#39;customPlayer&#39; to the player you want
-#externalPlayer = [&#34;mplayer&#34;, &#34;-really-quiet&#34;]
-externalPlayer = [&#34;customPlayer&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;具体的な設定方法は、｀externalPlayer = [&#34;customPlayer&#34;]` の &lt;code&gt;customPlayer&lt;/code&gt; を使いたいアプリのコマンドで置き換えます。
-mpv に変更したい場合は、次のように指定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;mpv に交換する設定例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;mpv&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_mpv_で強化できる動画再生&#34;&gt;mpv で強化できる動画再生&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;mpv に変更すると Anki の動画再生機能に区間リピート (AB ループ) やコマ送り再生機能などが追加できます。
-聞き逃した、見逃した箇所を繰り返し練習するのに重宝する機能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mpv.png&#34; alt=&#34;mpv で区間リピート中&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. mpv で区間リピート中&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;区間リピートやコマ送り再生のショートカットキーは次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;Table 1. mpv ショートカットキー&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 10%;&#34;&gt;
-&lt;col style=&#34;width: 90%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;tableblock halign-center valign-top&#34;&gt;キー&lt;/th&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;操作内容&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-center valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;l&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;AB ループ (区間リピート) の設定、解除&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-center valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;, / .&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;前後のフレーム (コマ送り再生; 一時停止して一フレーム再生)&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;mpv の機能やショートカットは、&lt;a href=&#34;https://mpv.io/manual/master/#keyboard-control&#34;&gt;マニュアル&lt;/a&gt;で詳しく調べることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_その他のアプリへの設定例&#34;&gt;その他のアプリへの設定例&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最初の参考情報で取り上げている VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;VLC media player の場合&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;/Applications/VLC.app/Contents/MacOS/VLC&#34;, &#34;--video-on-top&#34;, &#34;--play-and-exit&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;Quick Look の場合&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;qlmanage&#34;, &#34;-p&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;afplay の場合 (高音質設定)&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;afplay&#34;,&#34;-q&#34;,&#34;1&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ここまで分かれば、セレクターを使って切り替えるとか、ノートからメディアプレイヤーを指定するとかアドオンのアイデアが沸いてきてお楽しみが増えますね。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はユーザーがカスタマイズすることを前提に作られていて、いろいろな場所にその糸口が見つかります。
-自分の好みに調節してさらに使いやすくするという Anki の楽しみ方も体験していただけたらと思います。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

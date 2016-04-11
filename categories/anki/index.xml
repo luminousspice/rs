@@ -6,10 +6,188 @@
     <description>Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 02 Apr 2016 20:03:15 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 Apr 2016 02:40:26 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/categories/anki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>不要な単語帳を片付ける</title>
+      <link>http://rs.luminousspice.com/hide-unused-deck/</link>
+      <pubDate>Mon, 11 Apr 2016 02:40:26 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/hide-unused-deck/</guid>
+      <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;参考情報&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://anki.tenderapp.com/kb/collection-management/hiding-decks&#34;&gt;Hiding Decks&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_単語帳を削除する&#34;&gt;単語帳を削除する&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;後日、復活したい場合に備えて単語帳を書き出した上で、削除する順序で説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_バックアップをとる&#34;&gt;バックアップをとる&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [書き出す] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定画面の [対象] で書き出したい単語帳名を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;画像や音声などのメディアファイルを使っている場合は、[メディアを同梱] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習履歴も保存したい場合は、スケジュール情報も保存したい場合は、[スケジュール情報も含める] を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_8_1.png&#34; alt=&#34;書き出しオプション&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 書き出しオプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳を削除する手順&#34;&gt;単語帳を削除する手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [削除] を選択します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_3.png&#34; alt=&#34;ドロップダウンメニューの内容&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. ドロップダウンメニューの内容&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_保存用単語帳にまとめる&#34;&gt;保存用単語帳にまとめる&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;全くデータを消去するのではなく、出題を停止する冷凍庫のような単語帳を作って、そのサブ単語帳としてまとめる方法もあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;保存用単語帳は学習オプションで、新規カード、復習カードの出題上限を 0 に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;学習オプションの設定画面を呼び出す手順&lt;/div&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [オプション] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳を移動する&#34;&gt;単語帳を移動する&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧から移動したい単語帳をドラッグして、保存用単語帳の上にドロップします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_名前を変更して移動&#34;&gt;名前を変更して移動&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;同じことが単語帳の名前を変更してもできます。
+単語帳名を変更します。変更先は &lt;code&gt;保存用単語帳::隠したい単語帳名&lt;/code&gt; に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;単語帳名を変更する手順&lt;/div&gt;
+&lt;p&gt;単語帳名右のドロップダウンから [名前を変更] を選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_で操作する場合&#34;&gt;AnkiMobile で操作する場合&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile の場合は、単語帳単位で書き出すことができません。また単語帳一覧でドラッグアンンドドロップの作業もできません。
+そこで単語帳を削除する手順と、単語帳名を変更してサブ単語帳に移動する手順を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳の削除&#34;&gt;単語帳の削除&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧から単語帳名を左にスワイプします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-remove-deck.png&#34; alt=&#34;単語帳の削除&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. AnkiMobile での単語帳の削除&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳名の変更&#34;&gt;単語帳名の変更&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳名を長押し (タッチアンドホールド) します。変更先は &lt;code&gt;保存用単語帳::隠したい単語帳名&lt;/code&gt; に指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_保存用単語帳の学習オプションの設定&#34;&gt;保存用単語帳の学習オプションの設定&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;AnkiMobile での学習オプションの設定手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧から単語帳名をタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面右上の [Tools] をタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Study Options] をタップ&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NEW CARDS: [Max new per day] を 0 に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;REVIEWS: [Max reviews per day] を 0 に設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;学習オプション設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 学習オプション設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不要な単語帳を片付けるにはデータ削除と保管用単語帳への移動の二つの方法がある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;削除の前に単語帳をバックアップは AnkiMobile では操作できない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出題停止する単語帳は、保存用単語帳のサブ単語帳としてまとめる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保存用単語帳は、新規カード、復習カードの一日の出題制限をゼロにする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki のメディアプレイヤーを mpv に取り替える</title>
@@ -959,109 +1137,6 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
 &lt;p&gt;Anki の復習がペースメーカーになってくれるので、書籍での学習も事前に立てたスケジュールの精度が上がると言う効果も得られました。
 簡単な方法で組み合わせても書籍と Anki の特長をそれぞれ補い合った使い方を体験できるのではないかと思います。&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
-      <pubDate>Thu, 31 Dec 2015 23:00:39 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
-      <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
-&lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;注意事項&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;注意事項&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この記事は、Anki のサポート対象外の機能について説明しています。&lt;/p&gt;
-&lt;p&gt;たとえば、Anki サポートフォーラムの記事 &lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos&#34;&gt;Can I embed Youtube videos?&lt;/a&gt; 、&lt;a target=&#34;_new&#34; href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags&#34;&gt;Embedding external websites with iframe or object html tags&lt;/a&gt;によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。&lt;/p&gt;
-&lt;p&gt;このことを理解した上で、動作している自分の環境 (OS X および iOS)の経験に基づいてこの投稿を作成しています。お使いになっている環境によっては、この記事の方法では動作しないかもしれません。
-この記事を理解するには、HTML5 メディア埋め込みに関するの知識が必要です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;html5_の記述&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;HTML5 の記述&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;一番シンプルな書き方は、Anki のメディアフォルダに &lt;code&gt;myvideo.mp4&lt;/code&gt; という動画を表示するなら、次のような HTML の記述をノートに書き込みます。&lt;code&gt;controls&lt;/code&gt; 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。&lt;code&gt;src&lt;/code&gt; 属性は、http サーバー上にあるコンテンツを指定しても動作します。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;動画の埋め込み&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;video&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;myvideo.mp4&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;controls&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&amp;lt;/video&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;コードの入力&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;コードの入力&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-htmleditor.png&#34; alt=&#34;HTML エディタで HTML5 Video 要素を入力する&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで HTML5 Video 要素を入力する&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;完成品は次の通りです。動画下部に再生コントロールが現れます。左から、再生ボタン、再生時間、再生位置表示、全画面表示、音量が調節できます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-card.png&#34; alt=&#34;HTML5 Video で動画をカードに埋め込む&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. HTML5 Video で動画をカードに埋め込む&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;音声の埋め込み&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;音声の埋め込み&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
-この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;音声の埋め込み&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;audio&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;myvideo.mp4&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;controls&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&amp;lt;/audio&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;iphone_との連携&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;iPhone との連携&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。&lt;/p&gt;
-&lt;p&gt;また、iPhone から HTML5 のコードを直接入力しても動作します。&lt;/p&gt;
-&lt;p&gt;動画の場合は、動画の真ん中のボタンをタップすると &lt;code&gt;[sound:]&lt;/code&gt; タグで埋め込んだときと同様のコントロールが立ち上がって、動画を再生します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-video.png&#34; alt=&#34;HTML5 Video を iPhone 上で表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. HTML5 Video を iPhone 上で表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;音声の場合は、再生コントロールを表示します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-audio.png&#34; alt=&#34;HTML5 Audio を iPhone 上で表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. HTML5 Audio を iPhone 上で表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;同期の注意点&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;同期の注意点&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この記事では触れませんでしたが、フィールドではなくテンプレートに HTML5 のコードを直接書き込んでいる場合、iTunes および AnkiWeb 経由ともにメディアファイルの同期が行われません。この場合は、別途メディアファイルを持ち込む操作が必要になります。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
-&lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。
-自分の知識を活用して、毎日少しずつ Anki の学習環境を改善していくことも、Anki を使う楽しみではないかと思います。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

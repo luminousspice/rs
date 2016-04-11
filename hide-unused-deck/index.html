@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。'>
+<meta name="keywords" content="Anki, iPhone">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。'/>
+<meta property="og:title" content="不要な単語帳を片付ける" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/hide-unused-deck/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-11T02:40:26Z"/>
+<meta property="article:modified_time" content="2016-04-11T02:40:26Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="iPhone">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="不要な単語帳を片付ける">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>不要な単語帳を片付ける | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/hide-unused-deck/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">不要な単語帳を片付ける</h1>
+  <span class="post-date"><time datetime="2016-04-11T02:40:26Z"></time>2016-04-11</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。</p>
+</div>
+<div class="paragraph">
+<div class="title">参考情報</div>
+<p><a href="https://anki.tenderapp.com/kb/collection-management/hiding-decks">Hiding Decks</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_単語帳を削除する">単語帳を削除する</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>後日、復活したい場合に備えて単語帳を書き出した上で、削除する順序で説明します。</p>
+</div>
+<div class="sect2">
+<h3 id="_バックアップをとる">バックアップをとる</h3>
+<div class="paragraph">
+<p>単語帳名右のドロップダウンから [書き出す] を選択します (図 2)。</p>
+</div>
+<div class="paragraph">
+<p>設定画面の [対象] で書き出したい単語帳名を指定します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>画像や音声などのメディアファイルを使っている場合は、[メディアを同梱] を選択します。</p>
+</li>
+<li>
+<p>学習履歴も保存したい場合は、スケジュール情報も保存したい場合は、[スケジュール情報も含める] を選択します。</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_8_1.png" alt="書き出しオプション">
+</div>
+<div class="title">図 1. 書き出しオプション</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_単語帳を削除する手順">単語帳を削除する手順</h3>
+<div class="paragraph">
+<p>単語帳名右のドロップダウンから [削除] を選択します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_3_3.png" alt="ドロップダウンメニューの内容">
+</div>
+<div class="title">図 2. ドロップダウンメニューの内容</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_保存用単語帳にまとめる">保存用単語帳にまとめる</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>全くデータを消去するのではなく、出題を停止する冷凍庫のような単語帳を作って、そのサブ単語帳としてまとめる方法もあります。</p>
+</div>
+<div class="paragraph">
+<p>保存用単語帳は学習オプションで、新規カード、復習カードの出題上限を 0 に指定します。</p>
+</div>
+<div class="paragraph">
+<div class="title">学習オプションの設定画面を呼び出す手順</div>
+<p>単語帳名右のドロップダウンから [オプション] を選択します (図 2)。</p>
+</div>
+<div class="sect2">
+<h3 id="_単語帳を移動する">単語帳を移動する</h3>
+<div class="paragraph">
+<p>単語帳一覧から移動したい単語帳をドラッグして、保存用単語帳の上にドロップします。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_名前を変更して移動">名前を変更して移動</h3>
+<div class="paragraph">
+<p>同じことが単語帳の名前を変更してもできます。
+単語帳名を変更します。変更先は <code>保存用単語帳::隠したい単語帳名</code> に指定します。</p>
+</div>
+<div class="paragraph">
+<div class="title">単語帳名を変更する手順</div>
+<p>単語帳名右のドロップダウンから [名前を変更] を選択します (図 2)。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ankimobile_で操作する場合">AnkiMobile で操作する場合</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AnkiMobile の場合は、単語帳単位で書き出すことができません。また単語帳一覧でドラッグアンンドドロップの作業もできません。
+そこで単語帳を削除する手順と、単語帳名を変更してサブ単語帳に移動する手順を説明します。</p>
+</div>
+<div class="sect2">
+<h3 id="_単語帳の削除">単語帳の削除</h3>
+<div class="paragraph">
+<p>単語帳一覧から単語帳名を左にスワイプします。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-remove-deck.png" alt="単語帳の削除">
+</div>
+<div class="title">図 3. AnkiMobile での単語帳の削除</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_単語帳名の変更">単語帳名の変更</h3>
+<div class="paragraph">
+<p>単語帳名を長押し (タッチアンドホールド) します。変更先は <code>保存用単語帳::隠したい単語帳名</code> に指定します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_保存用単語帳の学習オプションの設定">保存用単語帳の学習オプションの設定</h3>
+<div class="olist arabic">
+<div class="title">AnkiMobile での学習オプションの設定手順</div>
+<ol class="arabic">
+<li>
+<p>単語帳一覧から単語帳名をタップ</p>
+</li>
+<li>
+<p>画面右上の [Tools] をタップ</p>
+</li>
+<li>
+<p>[Study Options] をタップ</p>
+<div class="ulist">
+<ul>
+<li>
+<p>NEW CARDS: [Max new per day] を 0 に設定</p>
+</li>
+<li>
+<p>REVIEWS: [Max reviews per day] を 0 に設定</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-studyoption.png" alt="学習オプション設定画面">
+</div>
+<div class="title">図 4. 学習オプション設定画面</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>不要な単語帳を片付けるにはデータ削除と保管用単語帳への移動の二つの方法がある。</p>
+</li>
+<li>
+<p>削除の前に単語帳をバックアップは AnkiMobile では操作できない。</p>
+</li>
+<li>
+<p>出題停止する単語帳は、保存用単語帳のサブ単語帳としてまとめる。</p>
+</li>
+<li>
+<p>保存用単語帳は、新規カード、復習カードの一日の出題制限をゼロにする。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+<hr />
+<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&uo=4&at=11lGoS" rel="nofollow" target="_blank"><img src="http://is1.mzstatic.com/image/thumb/Purple69/v4/bd/43/a4/bd43a467-9f6d-d11a-5750-22b0bd88f7b9/source/60x60bb.jpg" style="border-style:none;float:left;margin:5px;" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&uo=4&at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Ankitects Pty Ltd<br />価格： 3,000円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&uo=4&at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt ="iTunesで見る" style="border-style:none;" class="sticky-itslinkbadge" /></a><br /><span style="font-size:xx-small;">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2016.3.24</span></div><br style="clear:left;" /></div> 
+
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/hide-unused-deck\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
