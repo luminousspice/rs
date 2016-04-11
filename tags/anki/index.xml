@@ -12,10 +12,10 @@
     <atom:link href="http://rs.luminousspice.com/tags/anki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>不要な単語帳を片付ける</title>
-      <link>http://rs.luminousspice.com/hide-unused-deck/</link>
+      <title>不要な Anki 単語帳を片付ける</title>
+      <link>http://rs.luminousspice.com/hide-unused-anki-deck/</link>
       <pubDate>Mon, 11 Apr 2016 02:40:26 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/hide-unused-deck/</guid>
+      <guid>http://rs.luminousspice.com/hide-unused-anki-deck/</guid>
       <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をした保管用単語帳にサブ単語帳としてまとめる手順を説明します。Anki PC 版と iPhone 用 AnkiMobile それぞれの例を取り上げます。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
