@@ -6,10 +6,185 @@
     <description>音声 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 31 Dec 2015 23:00:39 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 Apr 2016 11:26:29 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E9%9F%B3%E5%A3%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AnkiMobile ノート: 音声制御アップデート</title>
+      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <pubDate>Mon, 11 Apr 2016 11:26:29 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <description>AnkiMobile 2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile 2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_における音声制御&#34;&gt;AnkiMobile における音声制御&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; では、カードから参照しているサウンドファイルは次の方法で再生を開始します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自動再生 (単語帳別に操作の割り当てが可能)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ユーザーによる画面操作 (コレクション全体で設定)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_自動再生&#34;&gt;自動再生&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;カードに音声ファイルへの参照がある場合、カードを表示した時に自動再生します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;自動再生の設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;学習画面右上の [Tools]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Study Options]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Automatically play audio] を有効にする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-deckoption-audio.png&#34; alt=&#34;自動再生設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. 自動再生設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_再生ボタン&#34;&gt;再生ボタン&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;カードに音声ファイルへの参照がある場合、再生ボタン (Audio Button) をカード面に表示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-audio-button.png&#34; alt=&#34;再生ボタン&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 2. 再生ボタン&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;再生ボタンの設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Review]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Audio Button] を有効にする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 3. 環境設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_マルチタッチスクリーンのジェスチャ&#34;&gt;マルチタッチスクリーンのジェスチャ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;マルチタッチスクリーンのジェスチャ、スワイプやタップから再生操作を呼び出すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;左にスワイプを再生に割り当てる設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Review] - [Swipes]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Swipe Left] をタップし [Replay Audio] を選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-swipe-replay.png&#34; alt=&#34;左スワイプに再生を設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 4. 左スワイプに再生を設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_マナーモードでの自動再生&#34;&gt;マナーモードでの自動再生&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile 2.0.18 から、iPhone 本体側面にある「着信／サイレントスイッチ」が有効になっている (マナーモード) と、AnkiMobile での音声の自動再生が無効になります。
+ただし、ユーザーがボタンを押すなどして再生操作を行うことはできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;サイレントスイッチを無視する設定は、環境設定画面 (Preference) から設定できます。
+この機能は、同時にバックグラウンドで再生中のサウンドの音量を下げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;マナーモードでも自動再生する設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Review]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Always Duck + Ignore Mute] を有効にする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 5. 環境設定画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AnkiMobile で音声を再生するには、自動再生を設定するか、ユーザーが画面操作して再生処理を呼び出す。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;好きなマルチタッチスクリーンのジェスチャに再生操作を割り当てることができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;マナーモード中に自動再生は機能しないが、設定で変更することもできる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
@@ -470,367 +645,6 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;今回紹介した方法をつかえば、ブラウザ以外に、iTunes、VLC、Audacity などのアプリケーションから手軽に音声が Anki に取り込めるようになります。オーディオブック、動画、音楽データから自分に必要な部分だけを切り取って Anki で覚えることができます。&lt;/p&gt;
 &lt;p&gt;SNS の利用人口が広がって、今までにない自然な表現の語学データが簡単に手に入るようになったのは喜ばしいです。
 自分だけのお楽しみ表現が学習データに加われば、毎日 Anki を開くのがもっと楽しくなってきます。&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
-      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
-      <pubDate>Tue, 15 Jul 2014 19:00:04 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
-      <description>語学学習のための iPhone 版 Anki  (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。データを事前に用意せずに訳語や発音を調べる方法を紹介します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;a target=&#34;itunes_store&#34; href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34;&gt;AnkiMobile&lt;/a&gt; &lt;a href=&#34;https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;uo=4&amp;amp;at=11lGoS&#34; target=&#34;itunes_store&#34;&gt;&lt;/a&gt; とは、Anki のデータを学習するための iOS 機器用の有償アプリケーションです。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Anki の iPhone アプリ AnkiMoble Flashcards を買っては見たものの、上手く使いこなせていない方のために、投資しただけの価値を見いだせる方法を紹介しましょう。&lt;/p&gt;
-&lt;p&gt;Anki ユーザーが公開している日本語情報の多くは、デスクトップPC 版の Anki と連携して語学習得のために辞書や単語帳などの電子データから、何千枚ものカードを一括で作成しているようです。カード作成の時間を圧縮して、復習時間を最大化する上手い方法です。
-このような使い方で順調に学習している方は、このままその方法で学習を続けてください。&lt;/p&gt;
-&lt;p&gt;この方法はつまずくのは次のような理由が考えられます。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-データの準備が煩雑なため、その結果カードができたところで達成感に浸ってしまう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-登録するデータの選択にこだわりすぎて、Anki で学習を始めるまでに、最初の意欲を使い尽くしてしまう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-実際に学習をはじめると作ったカードの多さに気落ちしてしまう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-許容範囲を超えた復習ノルマを発生させてしまう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;p&gt;あまりにも便利すぎるツールを手にした時に陥りがちな障害と言えるでしょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;iphone_を利用したゆるい_anki_のはじめ方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;iPhone を利用したゆるい Anki のはじめ方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;AnkiMobile ユーザーのために提案する方法の特徴をまとめると次のようになります。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-気負わず、脱力してゆるくはじめる。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-単語帳、辞書データいらず。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-片手でどこでも出来る。寝ながらでも出来る。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;p&gt;この方法は覚えたい単語や文章だけ準備できれば継続できます。必要なのは表面に覚えたい項目が載っているカードです。
-iPhone アプリを使った場合、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業できるので、毎日継続できます。
-iPhone だけで完結できるので、PC は不要です。&lt;/p&gt;
-&lt;h3 id=&#34;ゆるい_anki_の使い方の原則&#34;&gt;ゆるい Anki の使い方の原則&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-Anki で学習、復習することに最大限の労力を割り当てる。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-学習以外の作業は極力省略する。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-カードには自分が重要だと判断した項目だけを掲載する。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-AnkiMobile
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-AnkiMobile 使いこなす最低限の知識 (参考資料 &lt;a href=&#34;http://rs.luminousspice.com/ankimobile-survival-guide/&#34;&gt;iPhone ユーザーのための AnkiMobile サバイバルガイド&lt;/a&gt;)
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-学習教材 (教科書、単語帳、雑誌など)
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;毎日の作業手順&#34;&gt;毎日の作業手順&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-その日の Anki の復習ノルマをこなします。
-&lt;/li&gt;
-&lt;li&gt;
-教材を読み、最も重要な暗記したい単語や文だけを &lt;strong&gt;10個&lt;/strong&gt; 選び新規カードとして登録します。
-&lt;/li&gt;
-&lt;li&gt;
-時間がある時は教材の読み、登録した項目が載っている箇所を復習します。Anki 学習と間隔が空いてもよいです。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;注意事項&#34;&gt;注意事項&lt;/h4&gt;
-&lt;p&gt;毎日の手順を継続して実践する上で注意すべき項目をまとめました。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-意味や発音が分かっているなら回答は確認しません。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-分からない意味や発音が見つかったら、あとで紹介する方法で iPhone を使って調べます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-登録するのは表面のみ。例えば英語を覚えるなら英単語や英文だけ。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-復習ノルマがこなせない場合は新規カードは追加しない。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-新規カードは10個以下でもよいが、10個以上にしない。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;ゆるい方法の良い点&#34;&gt;ゆるい方法の良い点&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-本当に学びたい項目だけ選択してカードに登録するので、必要な項目に時間を集中できます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-答えが分かっているカードを読む時間ゼロにできるため学習時間を圧縮できます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-毎日必要な数だけ単語や文から新規カードを作成するのでほとんど時間を使いません。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-一日の学習の最後には常に新規カードがゼロになっているので心理的な負担がなくなります。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;p&gt;この先は、iPhone を使った単語の意味の調べ方、テキストの読み上げ方、AnkiMobile のノートの作り方を順番に紹介していきます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;単語の意味を調べる&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;単語の意味を調べる&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;学習中にわからない言葉が出てきたら、直接辞書で調べることができます。
-画面をダブルタップして調べたい単語を選択し、メニューから [Define] を選択します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/selection.png&#34; alt=&#34;selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 選択範囲を指定&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;当該する項目を含む辞書の一覧と項目の概要を表示します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-list.png&#34; alt=&#34;dictionary-list.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 辞書別検索結果&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;更に項目を選択すると、それぞれの辞書に収録している詳しい記述内容を読むことが出来ます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-item.png&#34; alt=&#34;dictionary-item.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 英和辞典の内容表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;標準設定では、日本語-英語(ウィズダム英和辞典/ウィズダム和英辞典)、日本語(スーパー大辞林)が利用できます。&lt;/p&gt;
-&lt;p&gt;画面右上 [Done] をタップすると AnkiMobile の画面に戻ります。(図 2, 3)&lt;/p&gt;
-&lt;h3 id=&#34;検索辞書の追加&#34;&gt;検索辞書の追加&lt;/h3&gt;
-&lt;p&gt;iOS 7 の場合は、9言語、14種類の辞書を必要に応じて追加ダウンロードすることが出来ます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-内蔵辞書の検索結果の画面左下の [Manage] をタップ (図 2, 3)
-&lt;/li&gt;
-&lt;li&gt;
-辞書の一覧から追加したい辞書をタップします。
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-はじめて選択した場合は辞書のダウンロードを開始します。所要時間はネットワーク環境によって異なります。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-選択済みの辞書をタップすると検索対象から除外出来ます。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/dictionary-selection.png&#34; alt=&#34;dictionary-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 辞書の選択&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;利用可能な辞書&#34;&gt;利用可能な辞書&lt;/h4&gt;
-&lt;p&gt;日本語-英語、日本語、ドイツ語、イタリア語、韓国語、フランス語、スペイン語、オランダ語、韓国語-英語、イギリス英語、アメリカ英語、簡体中国語、簡体中国語-英語、Apple Dictionary&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;テキストを読み上げる&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;テキストを読み上げる&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;選択項目を読み上げ機能が有効にしていると、テキストを合成音声で読み上げることが出来ます。
-学習中に単語の発音を調べたり、テキストの聴き取りができます。&lt;/p&gt;
-&lt;p&gt;設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;h3 id=&#34;読み上げ機能の使い方&#34;&gt;読み上げ機能の使い方&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-画面をダブルタップして調べたい単語を選択し、メニューから [Speak] を選択します。
-&lt;/li&gt;
-&lt;li&gt;
-複数の言語の候補がある場合は、読み上げたい言語をメニューの中から選択します。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/speak-selection.png&#34; alt=&#34;speak-selection.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 選択範囲を指定して読み上げる&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;なお、音声は次の 26 言語に対応しています。&lt;/p&gt;
-&lt;p&gt;日本語、アラビア語、イタリア語、インドネシア語、オランダ語、ギリシャ語、スウェーデン語、スペイン語、スロバキア語、タイ語、チェコ語、デンマーク語、ドイツ語、トルコ語、ノルウェー語[ブークモール]、ハンガリー語、ヒンディー語、フィンランド語、フランス語、ポーランド語、ポルトガル語、ルーマニア語、ロシア語、英語、韓国語、中国語&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;単純なカードの作り方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;単純なカードの作り方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;カードに表示する内容、ノートは次の手順で追加します。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-学習画面の上部 [Quickbar] -[Add] で追加画面を開く。
-&lt;/li&gt;
-&lt;li&gt;
-フィールドを選択して、キーボードを表示。
-&lt;/li&gt;
-&lt;li&gt;
-カードに表示したいデータを登録。
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-Type (ノートタイプ) が [基本] の場合は、Front フィールドに表面の内容を、Back フィールドに裏面の内容を入力します。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-画面右上の [Save] を押して入力内容を保存。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;メディアの追加&#34;&gt;メディアの追加&lt;/h3&gt;
-&lt;p&gt;キーボードの左上のアイコンから、追加する画像や音声 (メディア) を指定できます。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-カメラのアイコンを選択すると画像が追加できます。iPhoneのカメラで撮影して直接取り込めます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-マイクのアイコンを選択すると音声を録音できます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/add-newnote.png&#34; alt=&#34;add-newnote.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 6. メディアの種類を指定&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;画像追加の場合は、保存済みのデータかカメラで直接撮影するか指定します。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-[from Photo Library]を指定すると、撮影済みのファイルの中から選択できます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-[from Camera]を指定すると、カメラで追加する画像の撮影ができます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/add-media.png&#34; alt=&#34;add-media.png&#34; width=&#34;300&#34; height=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 7. 画像の追加方法を指定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;iPhone のシステム iOS の特長を生かし、覚えたい項目や Anki で行う作業手順を絞り込むと Anki を活用した語学学習がもっと楽に継続できるようになります。&lt;/p&gt;
-&lt;p&gt;大量のデータを暗記するような本格的な学習を始める前に、この記事で紹介した方法で Anki の使い方に慣れてはいかがでしょうか。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;さらにくわしく&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;さらにくわしく&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-ankimobile/&#34;&gt;iPhone ユーザーのためのはじめての Anki&lt;/a&gt;&lt;br /&gt;
-はじめてこのアプリを使うときに必要な、毎日の学習が続けられる最低限の使い方をまとめました。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/speech-text-on-ankimobile/&#34;&gt;iPhone 版 Anki でテキストを読み上げるにはどうするか&lt;/a&gt;&lt;br /&gt;
-カードに表示しているテキストを、システムの機能を使って読み上げる方法を説明しています。音声データを用意しなくてもシステムの対応している 26 言語であれば、音声を聴くことが出来ます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;&lt;br /&gt;
-この記事では取り上げなかった、図 2. 重要なポイント 右下の [Synchronize] のボタンの使い方を説明しています。
-無料のオンラインサービス AnkiWeb の同期機能を使うと、他の iOS 機器やアンドロイド端末、PC にインストールした Anki とコンテンツを同期して学習を複数の機器にまたがって継続することができます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;br /&gt;
-AnkiMobile で使用している特別な意味を持つ用語が理解できます。
-Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
 &lt;/section&gt;
 </content>
     </item>
