@@ -10,7 +10,7 @@
 
   
 <meta name="description" content='AnkiMobile 2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。'>
-<meta name="keywords" content="iOS, iPhone, 音声, メディア">
+<meta name="keywords" content="iOS, iPhone, 音声, メディア, TTS, Web Speech API">
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content='AnkiMobile 2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。'/>
@@ -25,7 +25,7 @@
 
 
 
-<meta property="article:tag" content="iOS"><meta property="article:tag" content="iPhone"><meta property="article:tag" content="音声"><meta property="article:tag" content="メディア">
+<meta property="article:tag" content="iOS"><meta property="article:tag" content="iPhone"><meta property="article:tag" content="音声"><meta property="article:tag" content="メディア"><meta property="article:tag" content="TTS"><meta property="article:tag" content="Web Speech API">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@luminousspice">
@@ -216,6 +216,9 @@
 <div class="paragraph">
 <p>AnkiMobile 2.0.18 から、iPhone 本体側面にある「着信／サイレントスイッチ」が有効になっている (マナーモード) と、AnkiMobile での音声の自動再生が無効になります。
 ただし、ユーザーがボタンを押すなどして再生操作を行うことはできます。</p>
+</div>
+<div class="paragraph">
+<p>また、<a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">Web Speech API</a> を使ったテキスト読み上げを自動再生にしている場合も無効になります。</p>
 </div>
 <div class="paragraph">
 <p>サイレントスイッチを無視する設定は、環境設定画面 (Preference) から設定できます。

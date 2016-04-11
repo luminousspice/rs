@@ -140,6 +140,9 @@
 ただし、ユーザーがボタンを押すなどして再生操作を行うことはできます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、&lt;a href=&#34;https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html&#34;&gt;Web Speech API&lt;/a&gt; を使ったテキスト読み上げを自動再生にしている場合も無効になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;サイレントスイッチを無視する設定は、環境設定画面 (Preference) から設定できます。
 この機能は、同時にバックグラウンドで再生中のサウンドの音量を下げます。&lt;/p&gt;
 &lt;/div&gt;
