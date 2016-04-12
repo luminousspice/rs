@@ -15,6 +15,7 @@ excerpt: "AnkiMobile をインストールしたけど、どこから手をつ�
 :encoding: UTF-8
 :keywords:
 :description: AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多用して説明します。サポート、環境設定、データ入出力を呼び出す 3 か所さえ覚えてしまえば、英文マニュアルが読む力があれば、独力で使いこなせるようになります。
+:figure-caption: 図
 
 ////
 http://rs.luminousspice.com/ankimobile-survival-guide/

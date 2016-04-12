@@ -13,6 +13,8 @@ excerpt: "Anki の iOS アプリ AnkiMobile は手書きで暗記する方のた
 :encoding: UTF-8
 :keywords:
 :description: Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。
+:figure-caption: 図
+
 ////
 :toc: macro
 :toc-placement:

@@ -14,6 +14,8 @@ excerpt: "AnkiMobile が提供するデータ検索機能の使い方を説明�
 :encoding: UTF-8
 :keywords:
 :description: AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。
+:figure-caption: 図
+
 ////
 :toc: macro
 :toc-placement:

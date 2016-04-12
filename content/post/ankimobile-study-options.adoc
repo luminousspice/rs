@@ -14,6 +14,8 @@ excerpt: "AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全�
 :encoding: UTF-8
 :keywords:
 :description: AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザーにとって、教材の特性にあわせた学習セッションの設計ができるようになりました。Anki の学習オプションの概要とその中で注目すべき項目について紹介します。
+:figure-caption: 図
+
 ////
 :toc: macro
 :toc-placement:

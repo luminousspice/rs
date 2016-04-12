@@ -15,6 +15,7 @@ excerpt: "AnkiMobile での単語帳データを読み込みや書き出しに�
 :encoding: UTF-8
 :keywords:
 :description: AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。
+:figure-caption: 図
 ////
 :toc: macro
 :toc-placement:

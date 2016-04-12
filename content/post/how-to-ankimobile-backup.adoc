@@ -15,6 +15,8 @@ excerpt: "AnkiMobile は定期的にバックアップファイルを iOS 機器
 :encoding: UTF-8
 :keywords:
 :description: AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。
+:figure-caption: 図
+
 ////
 :toc: macro
 :toc-placement:
