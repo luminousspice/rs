@@ -1,0 +1,94 @@
+---
+date: "2016-04-12T00:39:18+00:00"
+title: "AnkiMobile ノート: 手書きのためのスクラッチパッド"
+type: "note"
+categories: ["AnkiMobile"]
+tags: ["iOS","iPhone"]
+anki: ["AnkiMobile","スクラッチパッド","手書き"]
+excerpt: "Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッドを用意しています。スクラッチパッドの使い方、サイズを大きくする方法、スワイプやタップを使って簡単に呼び出す方法を説明します。"
+---
+= AnkiMobile ノート: 手書きのためのスクラッチパッド
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。
+////
+:toc: macro
+:toc-placement:
+:toclevels: 1
+////
+
+////
+http://rs.luminousspice.com/
+////
+
+{description}
+
+//toc::[]
+
+== スクラッチパッドの機能
+
+https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] は、手書きで暗記する方のために、書き付けスクラッチパッド (Scratch Pad) を用意しています。
+
+.スクラッチパッド利用例
+image::/images/am-scratchpad-handwriting.png["スクラッチパッド利用例"]
+
+直接指でなぞっても使えますし、市販のスライラスペン/タッチペンもつかえます。Apple Pencil もサポートしています。
+
+=== 取り消しボタン
+
+スクラッチパッド右下のボタンから書いた内容を消すことができます。
+
+タップ:: 一画 (一ストローク)分取り消します
+長押し:: 全て消去します
+
+== スクラッチパッドを呼び出す
+
+学習画面でスクラッチパッドを呼び出すには 'Toggle ScratchPad' というアクションを使います。
+
+.スクラッチパッドを呼び出す手順
+学習画面右上の [Tools] - [More] - [Toggle ScratchPad]
+
+.スクラッチパッドをしまう手順
+スクラッチパッドをしまう場合も、同じ 'Toggle ScratchPad' を呼び出す手順です。
+
+== 大きさを変える
+
+環境設定からスクラッチパッドをもっと大きくすることもできます。
+
+image::/images/am-scratchpad-bigger.png[""]
+
+.スクラッチパッドの大きさの設定
+. 単語帳一覧 (Deck List) 右上の歯車アイコンをタップ
+. [Review]
+. [Bigger Pad] を有効にする。
+
+.環境設定で大きなサイズを設定
+image::/images/am-preference-audio.png["環境設定で大きなサイズを設定"]
+
+== 呼び出し方をカスタマイズする
+
+このままでは、スクラッチパッドを呼び出すのが面倒です。
+
+マルチタッチスクリーンのジェスチャに割り当てましょう。スワイプやタップに割り当てることができますが、画面上中央をタップした時に切り替える設定を紹介します。
+
+.解答画面 (裏面) で画面中央上をタップした時に呼び出す設定
+. 単語帳一覧 (Deck List) 右上の歯車アイコンをタップ
+. [Review] - [Taps]
+. WHEN ANSWER SHOWN の [Top Center] をタップし [Toggle ScratchPad] を選択
+
+.画面タップにスクラッチバッドの切り替えを設定
+image::/images/am-scratchpad-action.png["画面タップにスクラッチバッドの切り替えを設定"]
+
+== 手書きでの暗記にこだわりのある方のために
+
+手書きでの暗記にこだわる方にぜひ試してみてほしい機能です。ためしにスクラッチパッドを指でなぞってください。手書きと Anki を組み合わせる威力が直感できるはずです。
+
+ちょうどそばにあったイカせんべいの包装紙を切り取って、いつも使っている筆記具の先端に巻き付けました。
+普段の物書きの感覚を残しながら Anki が使えるというなかなか興味深い体験ができました。
+
+.普段使いの筆記具をタッチペンにする
+image::/images/simple-stylus.jpg["普段使いの筆記具をタッチペンにする"]
+
+狭い場所では指で使い、落ち着いた場所では使い慣れている筆記具を使ってという使い分けで、様々な学習環境で書き付けるという体験を  Anki に付け加えることができます。
