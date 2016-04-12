@@ -615,7 +615,7 @@ Anki のフリーのオンラインサービス AnkiWeb は、データを同期
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen.png&#34; alt=&#34;インストール直後&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. インストール直後&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. インストール直後&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;ここで、ほとんどの方が呆然としたのではないでしょうか。Anki の利用経験があってもそう感じると思います。
@@ -681,7 +681,7 @@ iPhone の小さい画面の中に、機能を詰め込んだ簡潔なユーザ�
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen-mark.png&#34; alt=&#34;重要なポイント&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 2. 重要なポイント&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 重要なポイント&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この 3 か所でどんな機能が呼び出せるか覚えれば十分です。
@@ -700,7 +700,7 @@ AnkiMobile を使うのに必要なことが全て記載されています。&lt
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/manual2.png&#34; alt=&#34;マニュアルを表示&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 3. マニュアルを表示&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. マニュアルを表示&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;このマニュアルの先頭に、 &lt;a href=&#34;https://anki.tenderapp.com/&#34;&gt;サポートサイト&lt;/a&gt;へのリンクが含まれています。&lt;/p&gt;
@@ -730,7 +730,7 @@ AnkiMobile を使うのに必要なことが全て記載されています。&lt
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/supportsite.png&#34; alt=&#34;サポートサイト&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 4. サポートサイト&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. サポートサイト&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;モバイルデバイスに対応したデザインに変更したため、以前よりも iPhone から使いやすくなりました。&lt;/p&gt;
@@ -770,7 +770,7 @@ AnkiMobile を使うのに必要なことが全て記載されています。&lt
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/preferences.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 5. 環境設定画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この中で重要なのは [Review] 項目です。学習方法を設定します。
@@ -785,7 +785,7 @@ AnkiMobile の場合は、タップ (Taps) やスワイプ (Swipes) に自分の
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/preferences-review.png&#34; alt=&#34;学習方法設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 6. 学習方法設定画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. 学習方法設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;なお、Tool Buttons と Quickbar は学習画面に配置しているボタンです。その場所は後ほど触れますが、どんな機能を呼び出すか設定できます。&lt;/p&gt;
@@ -809,7 +809,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/deck-io.png&#34; alt=&#34;共有単語帳ダウンロード&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 7. 共有単語帳ダウンロード&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳ダウンロード&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;[Download Shared Deck] をタップすると、Safari が共有単語帳のリポジトリ開きます。
@@ -820,7 +820,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck.png&#34; alt=&#34;共有単語帳 リポジトリ&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 8. 共有単語帳 リポジトリ&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. 共有単語帳 リポジトリ&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_共有単語帳のインストール手順&#34;&gt;共有単語帳のインストール手順&lt;/h3&gt;
@@ -832,7 +832,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/deck-search.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 9. 検索結果&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 9. 検索結果&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;[Info] をタップすると、単語帳の詳細ページへ移動します。&lt;/p&gt;
@@ -841,7 +841,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/deck-kabuki.png&#34; alt=&#34;詳細ページ&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 10. 詳細ページ&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 10. 詳細ページ&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;[Download] をタップすると、単語帳をダウンロードします。&lt;/p&gt;
@@ -850,7 +850,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/deck-download.png&#34; alt=&#34;完了&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 11. ダウンロード完了&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 11. ダウンロード完了&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;画面右上 [&#34;Anki&#34;で開く] をタップすると、単語帳一覧に追加されます。
@@ -860,7 +860,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/deck-list.png&#34; alt=&#34;共有単語帳の読み込み例&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 12. 共有単語帳の読み込み例&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 12. 共有単語帳の読み込み例&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;これで重要な3カ所の説明が終わりました。&lt;/p&gt;
@@ -886,7 +886,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/learn-q.png&#34; alt=&#34;出題&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 13. 出題 (赤枠内をタップすると回答表示)&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 13. 出題 (赤枠内をタップすると回答表示)&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;問題が分かったかどうか判断しボタンをタップします。&lt;/p&gt;
@@ -911,7 +911,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/learn-a.png&#34; alt=&#34;学習の解答&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 14. 学習の解答&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 14. 学習の解答&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;学習が済んだ後、翌日以降に行う復習の場合はボタンが増えます。&lt;/p&gt;
@@ -940,7 +940,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/review.png&#34; alt=&#34;復習の解答&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 15. 復習の解答&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 15. 復習の解答&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;スクリーンをタップしても、解答できます。
@@ -975,7 +975,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/learnscreen-button.png&#34; alt=&#34;学習画面上部のボタン&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 16. 学習画面上部のボタン&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 16. 学習画面上部のボタン&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;dlist&#34;&gt;
 &lt;dl&gt;
@@ -1012,7 +1012,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/tools.png&#34; alt=&#34;Tools 画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 17. Tools 画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 17. Tools 画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;[環境設定] - [Review] - [Tool Buttons] で設定画面が開きます。画面上中央の赤枠で囲った部分に、最大 12 件まで呼び出す機能を設定できます。[OFF] を選択すると機能を設定しません。&lt;/p&gt;
@@ -1024,7 +1024,7 @@ AnkiMoblie を単独で使う場合は共有単語帳 (Shared Deck) のダウン
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/actions.png&#34; alt=&#34;アクション一覧&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 18. アクション一覧&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 18. アクション一覧&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1046,7 +1046,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/edit.png&#34; alt=&#34;ノートの編集&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 19. ノートの編集&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 19. ノートの編集&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;学習中のノート以外のカードを編集したい場合は、学習画面から [Tools] - [More] - [Find] を選択して検索し、選択します。&lt;/p&gt;
@@ -1055,7 +1055,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;ノートを検索&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 20. 「桜」を含むノートを検索&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 20. 「桜」を含むノートを検索&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
@@ -1070,7 +1070,7 @@ Anki では、一枚のカードに表示する一組のデータをノートと
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/add.png&#34; alt=&#34;ノートの追加&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 21. ノートの追加&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 21. ノートの追加&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;画面上部でトートタイプと保存先の単語帳を指定します。&lt;/p&gt;

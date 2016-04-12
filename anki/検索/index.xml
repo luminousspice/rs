@@ -36,7 +36,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-search.png&#34; alt=&#34;検索画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. 検索画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 検索画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;既定では検索欄に　&lt;code&gt;deck:current&lt;/code&gt; (意味:選択中の単語帳) と入力済みになっています。そのまま右下の [Search (検索)] ボタンをタップすると、選択中の単語帳のカード一覧を表示します。&lt;/p&gt;
@@ -48,7 +48,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-search-results.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 2. 検索結果&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 検索結果&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki と AnkiMobile のデータ検索では、先ほど取り上げた、&lt;code&gt;deck:&lt;/code&gt; のような特別なキーワードを共通に利用できます。
