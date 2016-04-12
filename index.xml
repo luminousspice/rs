@@ -6,10 +6,231 @@
     <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Apr 2016 00:39:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2016 12:55:25 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AwesomeTTS プリセットの活用</title>
+      <link>http://rs.luminousspice.com/awesometts-preset/</link>
+      <pubDate>Tue, 12 Apr 2016 12:55:25 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
+      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_awesometts_プリセットとは&#34;&gt;AwesomeTTS プリセットとは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、設定項目を保存して後日再利用するためのプリセット (Preset) という機能を持っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この機能は、音声 (Voice) の種類や読み上げ速度の設定項目を切り替えて使っている場合に重宝します。
+さらに複数の設定項目をグループ化することもでき、ランダムに設定を切り替えながら AwesomeTTS の機能を呼び出すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、プリセットの設定方法を紹介し、そのプリセットの機能を活用した使い方を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki 2.0.35 (OS X)、AwesomeTTS v1.7.0 に基づいて説明します。プリセットは v1.3.0 以降で利用できますが設定画面や呼び出し方が異なる場合があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ここでは OS X 内蔵の音声を例に使って説明します。ウェブサービスの音声を利用した場合は、再生に時間がかかることがあります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AnkiMobile ではアドオンは使えませんが、AwesomeTTS を作成した音声を読み込んで再生することはできます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットグループのメリット&#34;&gt;プリセットグループのメリット&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プリセットグループの最大のメリットは、複数音声の自動的切り替えです。順序を指定することもランダムに呼び出すこともできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一つの音声を聴き続けた時の飽きが避けられます。また聴き取りにくい苦手な音声でも、聴き取りやすい音声の中に含めれば聴き取りの練習になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の機能は多彩ですが、この機能は具体的には次のようなメリットをもたらします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;ノートエディタ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;テキストを読み上げる音声ファイルを、複数の設定を切り替えて作成します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;カードブラウザ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;フィールドのテキストを読み上げる音声ファイルを、複数の設定を切り替えながら一括作成します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;カードレイアウト&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;フィールドのテキストを複数の設定を切り替えながら読み上げるタグを作成できます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;学習画面&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;選択範囲を指定してコンテキストメニューから読み上げる際に、複数の設定を切り替えながら再生します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-say.png&#34; alt=&#34;コンテキストメニューからの呼び出し (EN: プリセットグループ)&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. コンテキストメニューからの呼び出し (EN: プリセットグループ)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;テンプレートで指定する時のポイント&lt;/div&gt;
+&lt;p&gt;テンプレートの中に　&lt;code&gt;tts&lt;/code&gt; タグを含める場合は、音声の種類は固定しません。カードを表示するたびに音声を選択して読み上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットの設定&#34;&gt;プリセットの設定&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS では音声の設定を画面全てで保存できます。また、プリセットは共通で利用できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ノートエディタで、テキストを読み上げた音声ファイルを作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードブラウザで、カードを選択してフィールドのテキストを読み上げた音声ファイルを一括作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードレイアウトで、フィールドのテキストを読み上げるタグを作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それぞれの画面下中央の [Save] ボタンを押します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一例として、カードレイアウトから呼び出すタグ作成画面を示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;AwesomeTTS 用タグ作成画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. AwesomeTTS 用タグ作成画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_プリセットの使い方&#34;&gt;プリセットの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で画面左下のプルダウンメニュー [Load Preset] から使用するプリセットを選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットグループの管理&#34;&gt;プリセットグループの管理&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定したプリセットをグループ化して利用するための設定方法を紹介しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;管理画面の呼び出し方&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;メニューバーから [ツール] - [AwesomeTTS] (または Command/Ctrl + T) で AwesomeTTS の設定画面を開く&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Advanced] タブを選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Manage Groups] ボタンを選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup.png&#34; alt=&#34;プリセットグループ管理画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. プリセットグループ管理画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この画面で、右の ＋ ボタンを押すとプリセットの新規作成ができます。
+プルダウンメニューから設定済みのプリセットグループを選んで編集することもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プリセットグループを作成して、設定済みのプリセットを読み込むには、プリセット一覧の右にある　＋ ボタンを押します。
+下の図のように、プルダウンから選択できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-edit.png&#34; alt=&#34;プリセットグループ編集&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. プリセットグループ編集&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;[Mode] 項目では、グループ内のプリセットを呼び出す順番を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;randomaize&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;ランダムに&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;in-order&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;上から順番に&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;順番を並び替えるには、プリセット一覧右の ▲ ▼ ボタンを使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_グループプリセットの使い方&#34;&gt;グループプリセットの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で Configure Services の Generate using 項目のプルダウンメニューの中から作成したプリセットグループを指定します (図 5)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-note.png&#34; alt=&#34;プリセットグループ EN を指定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. プリセットグループ EN を指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;プリセット機能を使うと AwesomeTTS 設定の再利用でき作業が効率的になる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プリセットとプリセットグループは AwesomeTTS の機能で共通に使える。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プリセットグループ機能を使うと特定の音声に偏らない音声学習ができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テンプレート内でプリセットグループ機能を使うとテキストを読み上げる音声に常に変わる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
@@ -168,7 +389,7 @@
       <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
-      <description> Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。</description>
+      <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -641,248 +862,6 @@
 &lt;p&gt;PC 版の Anki が利用できる方は、マニュアルを使わなくても、カードブラウザを操作しながら検索条件を設計できます。
 詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。
 PC 版 Anki で設計した条件をフィルター単語帳などの形で同期すれば、AnkiMobile に簡単に導入できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>AnkiMobile ノート: データ入出力</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
-      <pubDate>Thu, 07 Apr 2016 12:18:02 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
-      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_collection_全体の同期のみが可能な方法&#34;&gt;collection 全体の同期のみが可能な方法&lt;/h3&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;AnkiWeb 経由で同期&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;この場合、更新したコレクションデータ全てが、AnkiMobile に反映されます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;iTunes 経由でコレクション全体を collection.apkg ファイルとして読み込む&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;iTunes のファイル共有機能を使います。この場合、コレクション内の単語帳全てを上書きします。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_単語帳単位での読み込みも可能な方法&#34;&gt;単語帳単位での読み込みも可能な方法&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この方法は、単語帳単位での読み込みが可能ですが、&lt;code&gt;collection.apkg&lt;/code&gt; も同様に可能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Safari 経由で apkg ファイルをダウンロード&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;メールに apkg ファイルを添付する&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-mail-deck.png&#34; alt=&#34;メール添付&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. メール添付&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_テキストデータを一括登録するには&#34;&gt;テキストデータを一括登録するには&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile には、テキストデータを一括登録する機能はありません。
-まず、PC 版 Anki を利用して Anki 単語帳パッケージファイル (apkg) ファイルに変換します。
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;ではテキストデータの一括登録する方法を説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;その後、上で紹介したいずれかの方法で AnkiMobile へ持ち込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_読み込み用の単語帳データ作成方法&#34;&gt;読み込み用の単語帳データ作成方法&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC 版 Anki を使って 読み込み用の単語帳データを作る手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;AnkiMobile 用に書き出す場合の設定項目&lt;/div&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;iTunes ファイル共有用 &#39;collection.apkg&#39; の作成&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[ファイルの形式]でAnki単語帳パッケージ、[対象]で全ての単語帳を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;ダウンロード、メール添付用単語帳パッケージの作成&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[ファイルの形式]でAnki単語帳パッケージ、[対象]で書き出す単語帳を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;学習履歴を含める&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[スケジュール情報を含める]を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;画像、音声などのメディアファイルを含める&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[メディアファイルを同梱]を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データの書き出し&#34;&gt;データの書き出し&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile からデータを書き出す方法では細かい設定ができません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile からのデータの出力方法は 2 通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiWeb 経由で Anki と同期する。この場合、コレクションの更新内容全てを同期することになります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;iTunes を経由でコレクションを書き出す。この場合、コレクション全体を書き出すことになります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;残念ながら、読み込みのように単語帳単位で書き出す方法はありません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
-くわしくは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb の同期機能は、原則的に差分同期でデータ転送量を押さえています。
-サーバとのデータ内容の差が大きくなった場合は差分同期ができず、サーバー側か iPhone 側かどちらか一方の内容全体を複製する (完全同期) 必要があります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 &lt;a href=&#34;http://support.apple.com/kb/ht1386?viewlocale=ja_JP&#34;&gt;iOS：iTunes とデータを同期する&lt;/a&gt;を参考にしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect3&#34;&gt;
-&lt;h4 id=&#34;_ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h4&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-io.png&#34; alt=&#34;データ入出力ダイアログ&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. データ入出力ダイアログ&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;[Import from iTuenes]&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;コレクション全体を読み込んだファイルで置き換えます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;[Export to iTunes]&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;コレクション全体を &lt;code&gt;collection.apkg&lt;/code&gt; として書き出します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect3&#34;&gt;
-&lt;h4 id=&#34;_pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h4&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;iTunes を起動し、画面右上の [iPhone] ボタンをクリックします。
-(接続している iOS 機器によってこのボタンのラベルは変わります。)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;画面上のツールバーから [App] を選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;画面を下にスクロールし [ファイル共有] の [App] の項目一覧から Ankiを選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Anki の書類] というファイル一覧が右のパネルに表示します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile から出力すると、下図のように &lt;code&gt;collection.apkg&lt;/code&gt; が現れます。
-このファイルを選択して、画面右下の [保存先] を押すと、PC 上の任意の場所に保存できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;画面下の [追加] を選択すると、AnkiMobile へ読み込むファイルを選択できます。
-ただし、&lt;code&gt;collection.apkg&lt;/code&gt; という名前でなければ [Import from iTuenes] コマンドが機能しません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-itunes.png&#34; alt=&#34;iTunes ファイル共有&#34; width=&#34;600&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. iTunes ファイル共有&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データ同期の注意点&#34;&gt;データ同期の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb は、基本的に差分同期をするのでデータ転送量が少ないです。iTunes ファイル共有は接続機器のそばであれば USB で直接接続したり、高速な無線回線で接続できます。
-AnkiWeb が常に万能な訳ではなく、同期するファイルの内容によって適切な手段が決まります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;日々の学習データを転送するには AnkiWeb が有利です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;高速に接続できる環境であれば、新しい単語帳を読み込んで、メディアファイルなどを含んだ容量の大きいを読み込むには iTunes ファイル共有が有利です。また大規模なバックアップの復元も、iTunes ファイル共有の方が短時間に処理できるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile へのデータの読み込みは、コレクション全体と単語帳単位で選択できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile からのデータの書き出したはコレクション全体だけ。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;コレクション全体でデータを入出力するには複製 (iTunes ファイル共有) と差分同期 (AnkiWeb) が選択できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最適な転送手段は、ファイル容量と回線速度によって決まる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。'>
+<meta name="keywords" content="Anki, 音声, TTS, AwesomeTTS, アドオン">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。'/>
+<meta property="og:title" content="AwesomeTTS プリセットの活用" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/awesometts-preset/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-12T12:55:25Z"/>
+<meta property="article:modified_time" content="2016-04-12T12:55:25Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="音声"><meta property="article:tag" content="TTS"><meta property="article:tag" content="AwesomeTTS"><meta property="article:tag" content="アドオン">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="AwesomeTTS プリセットの活用">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>AwesomeTTS プリセットの活用 | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/awesometts-preset/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">AwesomeTTS プリセットの活用</h1>
+  <span class="post-date"><time datetime="2016-04-12T12:55:25Z"></time>2016-04-12</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_awesometts_プリセットとは">AwesomeTTS プリセットとは</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki のアドオン <a href="https://ankiweb.net/shared/info/301952613">AwesomeTTS</a> には、設定項目を保存して後日再利用するためのプリセット (Preset) という機能を持っています。</p>
+</div>
+<div class="paragraph">
+<p>この機能は、音声 (Voice) の種類や読み上げ速度の設定項目を切り替えて使っている場合に重宝します。
+さらに複数の設定項目をグループ化することもでき、ランダムに設定を切り替えながら AwesomeTTS の機能を呼び出すことができます。</p>
+</div>
+<div class="paragraph">
+<p>そこで、プリセットの設定方法を紹介し、そのプリセットの機能を活用した使い方を紹介します。</p>
+</div>
+<div class="ulist">
+<div class="title">注意</div>
+<ul>
+<li>
+<p>Anki 2.0.35 (OS X)、AwesomeTTS v1.7.0 に基づいて説明します。プリセットは v1.3.0 以降で利用できますが設定画面や呼び出し方が異なる場合があります。</p>
+</li>
+<li>
+<p>ここでは OS X 内蔵の音声を例に使って説明します。ウェブサービスの音声を利用した場合は、再生に時間がかかることがあります。</p>
+</li>
+<li>
+<p>AnkiMobile ではアドオンは使えませんが、AwesomeTTS を作成した音声を読み込んで再生することはできます。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_プリセットグループのメリット">プリセットグループのメリット</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>プリセットグループの最大のメリットは、複数音声の自動的切り替えです。順序を指定することもランダムに呼び出すこともできます。</p>
+</div>
+<div class="paragraph">
+<p>一つの音声を聴き続けた時の飽きが避けられます。また聴き取りにくい苦手な音声でも、聴き取りやすい音声の中に含めれば聴き取りの練習になります。</p>
+</div>
+<div class="paragraph">
+<p>AwesomeTTS の機能は多彩ですが、この機能は具体的には次のようなメリットをもたらします。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">ノートエディタ</dt>
+<dd>
+<p>テキストを読み上げる音声ファイルを、複数の設定を切り替えて作成します。</p>
+</dd>
+<dt class="hdlist1">カードブラウザ</dt>
+<dd>
+<p>フィールドのテキストを読み上げる音声ファイルを、複数の設定を切り替えながら一括作成します。</p>
+</dd>
+<dt class="hdlist1">カードレイアウト</dt>
+<dd>
+<p>フィールドのテキストを複数の設定を切り替えながら読み上げるタグを作成できます。</p>
+</dd>
+<dt class="hdlist1">学習画面</dt>
+<dd>
+<p>選択範囲を指定してコンテキストメニューから読み上げる際に、複数の設定を切り替えながら再生します。</p>
+</dd>
+</dl>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/awesometts-presetgroup-say.png" alt="コンテキストメニューからの呼び出し (EN: プリセットグループ)">
+</div>
+<div class="title">図 1. コンテキストメニューからの呼び出し (EN: プリセットグループ)</div>
+</div>
+<div class="paragraph">
+<div class="title">テンプレートで指定する時のポイント</div>
+<p>テンプレートの中に　<code>tts</code> タグを含める場合は、音声の種類は固定しません。カードを表示するたびに音声を選択して読み上げます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_プリセットの設定">プリセットの設定</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AwesomeTTS では音声の設定を画面全てで保存できます。また、プリセットは共通で利用できます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ノートエディタで、テキストを読み上げた音声ファイルを作成する</p>
+</li>
+<li>
+<p>カードブラウザで、カードを選択してフィールドのテキストを読み上げた音声ファイルを一括作成する</p>
+</li>
+<li>
+<p>カードレイアウトで、フィールドのテキストを読み上げるタグを作成する</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>それぞれの画面下中央の [Save] ボタンを押します (図 2)。</p>
+</div>
+<div class="paragraph">
+<p>一例として、カードレイアウトから呼び出すタグ作成画面を示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki-awesometts-preview.png" alt="AwesomeTTS 用タグ作成画面">
+</div>
+<div class="title">図 2. AwesomeTTS 用タグ作成画面</div>
+</div>
+<div class="sect2">
+<h3 id="_プリセットの使い方">プリセットの使い方</h3>
+<div class="paragraph">
+<p>AwesomeTTS の音声ファイル作成、またはタグ画面で画面左下のプルダウンメニュー [Load Preset] から使用するプリセットを選択します (図 2)。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_プリセットグループの管理">プリセットグループの管理</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>設定したプリセットをグループ化して利用するための設定方法を紹介しましょう。</p>
+</div>
+<div class="olist arabic">
+<div class="title">管理画面の呼び出し方</div>
+<ol class="arabic">
+<li>
+<p>メニューバーから [ツール] - [AwesomeTTS] (または Command/Ctrl + T) で AwesomeTTS の設定画面を開く</p>
+</li>
+<li>
+<p>[Advanced] タブを選択</p>
+</li>
+<li>
+<p>[Manage Groups] ボタンを選択</p>
+</li>
+</ol>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/awesometts-presetgroup.png" alt="プリセットグループ管理画面">
+</div>
+<div class="title">図 3. プリセットグループ管理画面</div>
+</div>
+<div class="paragraph">
+<p>この画面で、右の ＋ ボタンを押すとプリセットの新規作成ができます。
+プルダウンメニューから設定済みのプリセットグループを選んで編集することもできます。</p>
+</div>
+<div class="paragraph">
+<p>プリセットグループを作成して、設定済みのプリセットを読み込むには、プリセット一覧の右にある　＋ ボタンを押します。
+下の図のように、プルダウンから選択できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/awesometts-presetgroup-edit.png" alt="プリセットグループ編集">
+</div>
+<div class="title">図 4. プリセットグループ編集</div>
+</div>
+<div class="paragraph">
+<p>[Mode] 項目では、グループ内のプリセットを呼び出す順番を指定します。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">randomaize</dt>
+<dd>
+<p>ランダムに</p>
+</dd>
+<dt class="hdlist1">in-order</dt>
+<dd>
+<p>上から順番に</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>順番を並び替えるには、プリセット一覧右の ▲ ▼ ボタンを使います。</p>
+</div>
+<div class="sect2">
+<h3 id="_グループプリセットの使い方">グループプリセットの使い方</h3>
+<div class="paragraph">
+<p>AwesomeTTS の音声ファイル作成、またはタグ画面で Configure Services の Generate using 項目のプルダウンメニューの中から作成したプリセットグループを指定します (図 5)。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/awesometts-presetgroup-note.png" alt="プリセットグループ EN を指定">
+</div>
+<div class="title">図 5. プリセットグループ EN を指定</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>プリセット機能を使うと AwesomeTTS 設定の再利用でき作業が効率的になる。</p>
+</li>
+<li>
+<p>プリセットとプリセットグループは AwesomeTTS の機能で共通に使える。</p>
+</li>
+<li>
+<p>プリセットグループ機能を使うと特定の音声に偏らない音声学習ができる。</p>
+</li>
+<li>
+<p>テンプレート内でプリセットグループ機能を使うとテキストを読み上げる音声に常に変わる。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/awesometts-preset\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

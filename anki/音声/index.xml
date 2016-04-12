@@ -6,17 +6,238 @@
     <description>音声 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 Apr 2016 11:26:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2016 12:55:25 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E9%9F%B3%E5%A3%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AwesomeTTS プリセットの活用</title>
+      <link>http://rs.luminousspice.com/awesometts-preset/</link>
+      <pubDate>Tue, 12 Apr 2016 12:55:25 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
+      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_awesometts_プリセットとは&#34;&gt;AwesomeTTS プリセットとは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、設定項目を保存して後日再利用するためのプリセット (Preset) という機能を持っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この機能は、音声 (Voice) の種類や読み上げ速度の設定項目を切り替えて使っている場合に重宝します。
+さらに複数の設定項目をグループ化することもでき、ランダムに設定を切り替えながら AwesomeTTS の機能を呼び出すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、プリセットの設定方法を紹介し、そのプリセットの機能を活用した使い方を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki 2.0.35 (OS X)、AwesomeTTS v1.7.0 に基づいて説明します。プリセットは v1.3.0 以降で利用できますが設定画面や呼び出し方が異なる場合があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ここでは OS X 内蔵の音声を例に使って説明します。ウェブサービスの音声を利用した場合は、再生に時間がかかることがあります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AnkiMobile ではアドオンは使えませんが、AwesomeTTS を作成した音声を読み込んで再生することはできます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットグループのメリット&#34;&gt;プリセットグループのメリット&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プリセットグループの最大のメリットは、複数音声の自動的切り替えです。順序を指定することもランダムに呼び出すこともできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一つの音声を聴き続けた時の飽きが避けられます。また聴き取りにくい苦手な音声でも、聴き取りやすい音声の中に含めれば聴き取りの練習になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の機能は多彩ですが、この機能は具体的には次のようなメリットをもたらします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;ノートエディタ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;テキストを読み上げる音声ファイルを、複数の設定を切り替えて作成します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;カードブラウザ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;フィールドのテキストを読み上げる音声ファイルを、複数の設定を切り替えながら一括作成します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;カードレイアウト&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;フィールドのテキストを複数の設定を切り替えながら読み上げるタグを作成できます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;学習画面&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;選択範囲を指定してコンテキストメニューから読み上げる際に、複数の設定を切り替えながら再生します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-say.png&#34; alt=&#34;コンテキストメニューからの呼び出し (EN: プリセットグループ)&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. コンテキストメニューからの呼び出し (EN: プリセットグループ)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;テンプレートで指定する時のポイント&lt;/div&gt;
+&lt;p&gt;テンプレートの中に　&lt;code&gt;tts&lt;/code&gt; タグを含める場合は、音声の種類は固定しません。カードを表示するたびに音声を選択して読み上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットの設定&#34;&gt;プリセットの設定&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS では音声の設定を画面全てで保存できます。また、プリセットは共通で利用できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ノートエディタで、テキストを読み上げた音声ファイルを作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードブラウザで、カードを選択してフィールドのテキストを読み上げた音声ファイルを一括作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードレイアウトで、フィールドのテキストを読み上げるタグを作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それぞれの画面下中央の [Save] ボタンを押します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一例として、カードレイアウトから呼び出すタグ作成画面を示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;AwesomeTTS 用タグ作成画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. AwesomeTTS 用タグ作成画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_プリセットの使い方&#34;&gt;プリセットの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で画面左下のプルダウンメニュー [Load Preset] から使用するプリセットを選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットグループの管理&#34;&gt;プリセットグループの管理&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定したプリセットをグループ化して利用するための設定方法を紹介しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;管理画面の呼び出し方&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;メニューバーから [ツール] - [AwesomeTTS] (または Command/Ctrl + T) で AwesomeTTS の設定画面を開く&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Advanced] タブを選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Manage Groups] ボタンを選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup.png&#34; alt=&#34;プリセットグループ管理画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. プリセットグループ管理画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この画面で、右の ＋ ボタンを押すとプリセットの新規作成ができます。
+プルダウンメニューから設定済みのプリセットグループを選んで編集することもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プリセットグループを作成して、設定済みのプリセットを読み込むには、プリセット一覧の右にある　＋ ボタンを押します。
+下の図のように、プルダウンから選択できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-edit.png&#34; alt=&#34;プリセットグループ編集&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. プリセットグループ編集&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;[Mode] 項目では、グループ内のプリセットを呼び出す順番を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;randomaize&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;ランダムに&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;in-order&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;上から順番に&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;順番を並び替えるには、プリセット一覧右の ▲ ▼ ボタンを使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_グループプリセットの使い方&#34;&gt;グループプリセットの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で Configure Services の Generate using 項目のプルダウンメニューの中から作成したプリセットグループを指定します (図 5)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-note.png&#34; alt=&#34;プリセットグループ EN を指定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. プリセットグループ EN を指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;プリセット機能を使うと AwesomeTTS 設定の再利用でき作業が効率的になる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プリセットとプリセットグループは AwesomeTTS の機能で共通に使える。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プリセットグループ機能を使うと特定の音声に偏らない音声学習ができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テンプレート内でプリセットグループ機能を使うとテキストを読み上げる音声に常に変わる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
       <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0900</pubDate>
       <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
-      <description> Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。</description>
+      <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -530,124 +751,6 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
 &lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。
 自分の知識を活用して、毎日少しずつ Anki の学習環境を改善していくことも、Anki を使う楽しみではないかと思います。&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Mac で再生中の音声を Anki に直接録音する</title>
-      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
-      <pubDate>Sun, 27 Dec 2015 23:45:15 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
-      <description> Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この投稿は、Mac ユーザー限定の内容です。&lt;/p&gt;
-&lt;p&gt;SNS にその特色を生かした語学コンテンツが共有されるようになってきました。&lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/user/russianpod101/videos&#34;&gt;Learn Russian with RussianPod101.com&lt;/a&gt; や &lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/playlist?list=PLA5UIoabheFMYWWnGFFxl8_nvVZWZSykc&#34;&gt;Easy French - Learn French from the Streets!&lt;/a&gt; のように、学校や出版社が作り込んだ学習教材とは違った日常の表現を取り上げている点が面白いです。
-このような動画を見ている時に気に入った表現に出会ったら、手軽に音声を Anki のカードに取り込む方法を紹介します。&lt;/p&gt;
-&lt;p&gt;Mac 版の Anki は内蔵マイクから音声を取り込むことができますが、アプリが再生する音声を取り込むことは標準設定ではできません。
-ダウンロードした動画データから音声ファイルを編集して、メディアファイルとして Anki に取り込めばできますがその場で手軽にできません。トリミングして mp3 にエンコードするのは意外と手間がかかります。&lt;/p&gt;
-&lt;p&gt;再生している音声を直接 Anki の録音機能で取り込めるように設定し、もっと簡単に日常の表現のカードを作れるようにするのがこの投稿の目標です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;必要なもの&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;必要なもの&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-仮想オーディオデバイス &lt;a target=&#34;_new&#34; href=&#34;https://github.com/mattingalls/Soundflower/releases/tag/2.0b2&#34;&gt;Soundflower 2.0b2&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;soundflower_インストール&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Soundflower インストール&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;上で紹介した Soundflower の GitHub のリポジトリでは、Signed Version for Yosemite/Mavericks/El Capitan という有効な署名済みビルドを公開しています。当該バージョン以外の OS X をお使いの方は他のリポジトリを探してみてください。(なお、このバージョンでは Soundflowerbed が削除されています)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Soundflower-2.0b2.dmg&lt;/code&gt; をダウンロードして開き、&lt;code&gt;Soundflower.pkg&lt;/code&gt; を起動するとインストールが行われます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;設定の手順&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;設定の手順&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;次に、Soundflower の設定方法を紹介します。内蔵マイクが拾う音声の代わりにアプリケーションが再生した音声を Anki に入力し、更にその音声を内蔵スピーカから出力する設定内容になります。&lt;/p&gt;
-&lt;h3 id=&#34;audio_midi_設定&#34;&gt;Audio MIDI 設定&lt;/h3&gt;
-&lt;p&gt;OS X 付属の [Audio MIDI 設定] というアプリケーションを起動します。Spotlight に &lt;code&gt;midi&lt;/code&gt; と打って検索するのが簡単です。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-spotlight-audiomidi.png&#34; alt=&#34;Spotlight から Audio MIDI 設定を起動&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. Spotlight から Audio MIDI 設定を起動&lt;/div&gt;
-&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;
-起動した [オーディオ装置] ウィンドウの左下の [+] ボタンを押し、[複数出力装置の作成] を選択します。
-&lt;/li&gt;
-&lt;li&gt;
-右のオーディオを装置の一覧から、[内蔵出力] と [Soundflower (2ch)] をチェックします。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-audiomidi.png&#34; alt=&#34;複数出力装置を作成&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 複数出力装置を作成&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;入出力装置の設定&#34;&gt;入出力装置の設定&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-メニューバーの [音量] アイコンを [Option] キーを押しながらクリックし、入力装置に [Soundflower (2ch)] を割り当てます。
-&lt;/li&gt;
-&lt;li&gt;
-同様に、出力装置に Audio MIDI 設定 で作成した [複数出力装置] を割り当てます。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-sound-settings.png&#34; alt=&#34;入出力装置を割り当てる&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 入出力装置を割り当てる&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;作業が終わって元に戻したい時には、入力装置 [内蔵マイク]、出力装置 [内蔵スピーカー] に設定します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;録音方法&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;録音方法&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;ノートエディタを立ち上げ、音声を取り込みたいフィールドを選択し、取り込みたい音声を再生し、[F5] を押すか、ツールバーの [録音ボタン] (図　4 参照) を押します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-add-sound.png&#34; alt=&#34;ノートエディタで録音&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. ノートエディタで録音&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;ポップアップした録音時間を表示するウィンドウの中の [停止] ボタンを押すと録音は終了します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;カード作成例&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;カード作成例&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;RussianPod101.com のような字幕付きの動画であれば、画面キャプチャだけで文字を打つ必要もなく簡単にカードを作成できます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-stdout-russianpod-card.png&#34; alt=&#34;作成例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 作成例&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;(参考 &lt;a target=&#34;_new&#34; href=&#34;https://www.youtube.com/watch?v=2dbuynYNBz0&#34;&gt;Learn the Top 10 Hardest Russian Words to Pronounce&lt;/a&gt;)&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;今回紹介した方法をつかえば、ブラウザ以外に、iTunes、VLC、Audacity などのアプリケーションから手軽に音声が Anki に取り込めるようになります。オーディオブック、動画、音楽データから自分に必要な部分だけを切り取って Anki で覚えることができます。&lt;/p&gt;
-&lt;p&gt;SNS の利用人口が広がって、今までにない自然な表現の語学データが簡単に手に入るようになったのは喜ばしいです。
-自分だけのお楽しみ表現が学習データに加われば、毎日 Anki を開くのがもっと楽しくなってきます。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

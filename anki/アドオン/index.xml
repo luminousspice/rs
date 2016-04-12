@@ -6,10 +6,231 @@
     <description>アドオン | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Jan 2015 22:00:52 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2016 12:55:25 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AwesomeTTS プリセットの活用</title>
+      <link>http://rs.luminousspice.com/awesometts-preset/</link>
+      <pubDate>Tue, 12 Apr 2016 12:55:25 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
+      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_awesometts_プリセットとは&#34;&gt;AwesomeTTS プリセットとは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、設定項目を保存して後日再利用するためのプリセット (Preset) という機能を持っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この機能は、音声 (Voice) の種類や読み上げ速度の設定項目を切り替えて使っている場合に重宝します。
+さらに複数の設定項目をグループ化することもでき、ランダムに設定を切り替えながら AwesomeTTS の機能を呼び出すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、プリセットの設定方法を紹介し、そのプリセットの機能を活用した使い方を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki 2.0.35 (OS X)、AwesomeTTS v1.7.0 に基づいて説明します。プリセットは v1.3.0 以降で利用できますが設定画面や呼び出し方が異なる場合があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ここでは OS X 内蔵の音声を例に使って説明します。ウェブサービスの音声を利用した場合は、再生に時間がかかることがあります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AnkiMobile ではアドオンは使えませんが、AwesomeTTS を作成した音声を読み込んで再生することはできます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットグループのメリット&#34;&gt;プリセットグループのメリット&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プリセットグループの最大のメリットは、複数音声の自動的切り替えです。順序を指定することもランダムに呼び出すこともできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一つの音声を聴き続けた時の飽きが避けられます。また聴き取りにくい苦手な音声でも、聴き取りやすい音声の中に含めれば聴き取りの練習になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の機能は多彩ですが、この機能は具体的には次のようなメリットをもたらします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;ノートエディタ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;テキストを読み上げる音声ファイルを、複数の設定を切り替えて作成します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;カードブラウザ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;フィールドのテキストを読み上げる音声ファイルを、複数の設定を切り替えながら一括作成します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;カードレイアウト&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;フィールドのテキストを複数の設定を切り替えながら読み上げるタグを作成できます。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;学習画面&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;選択範囲を指定してコンテキストメニューから読み上げる際に、複数の設定を切り替えながら再生します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-say.png&#34; alt=&#34;コンテキストメニューからの呼び出し (EN: プリセットグループ)&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. コンテキストメニューからの呼び出し (EN: プリセットグループ)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;テンプレートで指定する時のポイント&lt;/div&gt;
+&lt;p&gt;テンプレートの中に　&lt;code&gt;tts&lt;/code&gt; タグを含める場合は、音声の種類は固定しません。カードを表示するたびに音声を選択して読み上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットの設定&#34;&gt;プリセットの設定&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS では音声の設定を画面全てで保存できます。また、プリセットは共通で利用できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ノートエディタで、テキストを読み上げた音声ファイルを作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードブラウザで、カードを選択してフィールドのテキストを読み上げた音声ファイルを一括作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードレイアウトで、フィールドのテキストを読み上げるタグを作成する&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それぞれの画面下中央の [Save] ボタンを押します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一例として、カードレイアウトから呼び出すタグ作成画面を示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;AwesomeTTS 用タグ作成画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. AwesomeTTS 用タグ作成画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_プリセットの使い方&#34;&gt;プリセットの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で画面左下のプルダウンメニュー [Load Preset] から使用するプリセットを選択します (図 2)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プリセットグループの管理&#34;&gt;プリセットグループの管理&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定したプリセットをグループ化して利用するための設定方法を紹介しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;管理画面の呼び出し方&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;メニューバーから [ツール] - [AwesomeTTS] (または Command/Ctrl + T) で AwesomeTTS の設定画面を開く&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Advanced] タブを選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Manage Groups] ボタンを選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup.png&#34; alt=&#34;プリセットグループ管理画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. プリセットグループ管理画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この画面で、右の ＋ ボタンを押すとプリセットの新規作成ができます。
+プルダウンメニューから設定済みのプリセットグループを選んで編集することもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プリセットグループを作成して、設定済みのプリセットを読み込むには、プリセット一覧の右にある　＋ ボタンを押します。
+下の図のように、プルダウンから選択できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-edit.png&#34; alt=&#34;プリセットグループ編集&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. プリセットグループ編集&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;[Mode] 項目では、グループ内のプリセットを呼び出す順番を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;randomaize&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;ランダムに&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;in-order&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;上から順番に&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;順番を並び替えるには、プリセット一覧右の ▲ ▼ ボタンを使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_グループプリセットの使い方&#34;&gt;グループプリセットの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で Configure Services の Generate using 項目のプルダウンメニューの中から作成したプリセットグループを指定します (図 5)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-note.png&#34; alt=&#34;プリセットグループ EN を指定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. プリセットグループ EN を指定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;プリセット機能を使うと AwesomeTTS 設定の再利用でき作業が効率的になる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プリセットとプリセットグループは AwesomeTTS の機能で共通に使える。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プリセットグループ機能を使うと特定の音声に偏らない音声学習ができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テンプレート内でプリセットグループ機能を使うとテキストを読み上げる音声に常に変わる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
@@ -888,321 +1109,6 @@ Anki のノートにメディアデータを含めるには、HTML のタグな�
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>http://rs.luminousspice.com/anki-tips/</link>
-      <pubDate>Tue, 25 Mar 2014 00:00:10 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-tips/</guid>
-      <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。紹介する機能: 同期せず、プラグインを読み込まずに起動。重複項目の検索。延期を手動解除。学習スケジュールの変更。新規カードの並び替え。項目の一括置換。未使用タグの削除。無駄なカードを保留にしない。追加順に学習。裏返しのカード。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。
-その多くが画面と連動してメニューに現れるため、なかなかその存在に気がつきにくいです。
-そこで、Anki の知っておくと便利な機能の操作方法をまとめて紹介します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;自動同期しないで起動&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;自動同期しないで起動&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-Shift キーを押しながら起動する。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;セーブブート (2.0.9以降) とは、AnkiWeb との同期とプラグインの読み込みを飛ばして起動する処理です。&lt;/p&gt;
-&lt;p&gt;ツールチップ「シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。」と表示が出る。(図 1)&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_1.png&#34; alt=&#34;セーブブート成功時のメッセージ&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. セーブブート成功時のメッセージ&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;アドオンを読み込まないで起動&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;アドオンを読み込まないで起動&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;上の項目と同じようにセーブブートを使う&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-Shift キーを押しながら起動する。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;ツールチップ「シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。」と表示が出る。(図 1)&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;重複カードの検索&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;重複カードの検索&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ブラウザーを開き、メニューバーから[編集]-[重複を検索]
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_2.png&#34; alt=&#34;検索結果&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 重複カードの検索結果&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;延期の手動取消&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;延期の手動取消&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-単語帳のトップページに戻る
-&lt;/li&gt;
-&lt;li&gt;
-ウィンドウ下の[延期を解除]ボタンを押す
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_3.png&#34; alt=&#34;延期を解除&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 延期を解除&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;カードの学習スケジュールを変更&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;カードの学習スケジュールを変更&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ブラウザーを開き、カードを選択する。
-&lt;/li&gt;
-&lt;li&gt;
-メニューバーから[編集]-[スケジュールを変更]
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-新規カードに戻す: [新規カードの最後に設定]
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-復習期日を変更: [次の期間内に復習を設定]
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_4.png&#34; alt=&#34;学習スケジュールを変更&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 学習スケジュールを変更&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;新規カードの並び替え&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;新規カードの並び替え&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ブラウザーを開き、カードを選択する。
-&lt;/li&gt;
-&lt;li&gt;
-メニューバーから[編集]-[新規カードを並び替える]
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_5.png&#34; alt=&#34;新規カードを並び替える&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 新規カードを並び替える&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;カードの内容を一括置換&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;カードの内容を一括置換&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ブラウザーを開き、メニューバーから[編集]-[検索と置換]
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-置換対象のフィールドが選択可能
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-置換に正規表現を使用可能
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_6.png&#34; alt=&#34;一括置換画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 6. 一括置換画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ブラウザーから未使用のタグを削除&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ブラウザーから未使用のタグを削除&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;ブラウザーのサイドバーから未使用のタグの表示を取り除くには、データベースをチェックして最適化します。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-メニューバーから[ツール]-[データベースをチェック]
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ノートを追加順に学習&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ノートを追加順に学習&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;フィルター単語帳の出題方法を  [追加した順番] 設定する。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-フィルター単語帳を作成し、出題方法で [追加した順番] を選択する。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-オプションから [この単語帳の解答に基づいてスケジュールし直す] を外す。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/learn_in_original_squence_1.png&#34; alt=&#34;フィルター単語帳の設定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 7. フィルター単語帳の設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;http://rs.luminousspice.com/learn_in_original_sequence/&#34;&gt;Ankiのノートを追加順に学習する方法&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;無駄なカード_leech_になっても保留にしない&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;無駄なカード (leech) になっても保留にしない&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;単語帳オプションの [忘却] タブの [無駄なカードの処理] で設定します。&lt;/p&gt;
-&lt;h3 id=&#34;無駄なカードの自動処理の変更&#34;&gt;無駄なカードの自動処理の変更&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
-&lt;/li&gt;
-&lt;li&gt;
-ウィンドウ下の [オプション] ボタンを押します。
-&lt;/li&gt;
-&lt;li&gt;
-[忘却] タブをクリックします。
-&lt;/li&gt;
-&lt;li&gt;
-[無駄なカードの処理] という項目のプルダウンメニューから [タグを付けるだけ] を選択します。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 8. 単語帳のオプション設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法: &lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード(Leech)になってもAnki学習を続ける方法&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;裏返しのカードを追加&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;裏返しのカードを追加&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;ノートタイプに表裏反転したカードタイプを追加する。&lt;/p&gt;
-&lt;h3 id=&#34;ノートタイプを既定_基本_のまま使っている場合&#34;&gt;ノートタイプを既定 [基本] のまま使っている場合&lt;/h3&gt;
-&lt;p&gt;ノートタイプを設定したことのない方はこの場合に当てはまります。
-共有単語帳を使っている場合は当てはまらない場合があります。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ブラウザーからカードを選択、[編集] - [ノートタイプを変更]
-&lt;/li&gt;
-&lt;li&gt;
-[変更先ノートタイプ] を [基本(裏面カード付き)] に設定
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/cardtype_1.png&#34; alt=&#34;裏面カード付きノートタイプを設定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 9. 裏面カード付きノートタイプを設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;独自のノートタイプを使っている場合&#34;&gt;独自のノートタイプを使っている場合&lt;/h3&gt;
-&lt;p&gt;カードレイアウトを使って、表裏反転したカードタイプを追加します。&lt;/p&gt;
-&lt;h4 id=&#34;カードレイアウトの呼び出し方&#34;&gt;カードレイアウトの呼び出し方&lt;/h4&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-単語帳一覧から単語帳を選択し、[追加] リンク - ツールバー [カード] ボタン
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-ブラウザーからカードを選択、編集フォーム内の [カード] ボタン
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-学習画面から、画面左下 [編集] ボタン - ツールバー [カード] ボタン
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h4 id=&#34;カードレイアウト設定手順&#34;&gt;カードレイアウト設定手順&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-画面右上 [+] ボタンを押して、新規カードタイプを追加する。
-&lt;/li&gt;
-&lt;li&gt;
-新規カードタイプが新しいタブに追加。既定では カード 2。
-&lt;/li&gt;
-&lt;li&gt;
-画面下中央 [反転] ボタンを押して、表裏を入れ替える
-&lt;/li&gt;
-&lt;li&gt;
-裏面テンプレートに自動的に追加する文字列「編集してカスタマイズする。」を適宜編集する。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tips_cardlayout.png&#34; alt=&#34;カードレイアウト&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 10. カードレイアウト&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;さらに詳しい設定方法:&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-choose-notetype/&#34;&gt;Ankiのノートタイプの選び方&lt;/a&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;更新情報&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;2014/03/25: 初出&lt;/p&gt;
-&lt;p&gt;2014/04/17: 追加順に学習、無駄なカードを保留にしない、裏返しのカードを追加&lt;/p&gt;
-&lt;/section&gt;
 </content>
     </item>
     
