@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケージ APKG ファイルの作り方を説明します。'>
+<meta name="keywords" content="Anki, 単語帳, 配布, 共有単語帳, APKG">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケージ APKG ファイルの作り方を説明します。'/>
+<meta property="og:title" content="Anki 単語帳データ配布ガイド" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/anki-deck-deployment-guide/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-13T12:40:52Z"/>
+<meta property="article:modified_time" content="2016-04-13T12:40:52Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="単語帳"><meta property="article:tag" content="配布"><meta property="article:tag" content="共有単語帳"><meta property="article:tag" content="APKG">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Anki 単語帳データ配布ガイド">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケージ APKG ファイルの作り方を説明します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Anki 単語帳データ配布ガイド | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/anki-deck-deployment-guide/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Anki 単語帳データ配布ガイド</h1>
+  <span class="post-date"><time datetime="2016-04-13T12:40:52Z"></time>2016-04-13</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケージ APKG ファイルの作り方を説明します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_はじめに">はじめに</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の単語帳 (Deck) を共有すると、内容をアップデートしたり追加したくなる場合があります。差分ファイルや完全な更新版を作っても、果たしてそれがユーザーの手元にに渡った時に、既存の単語帳に正しく反映されるか、自分の環境でテストしても不安になります。</p>
+</div>
+<div class="paragraph">
+<p>残念ながら、Anki の正式文書では単語帳の配布に関する情報は提供されていません。そこで Anki のソースコードやリリースノートから学んだ内容を元に、この配布ガイドを作りました。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_使用上の注意">使用上の注意</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>このガイドの内容については無責任、無保証です。読者各自の責任においてお使いください。</p>
+</div>
+<div class="paragraph">
+<p>このコンテンツは、Anki 2.0.28 以降の apkg ファイルの読み書きの動作に基づいて作成しています。
+デスクトップ版 Anki で単語帳データを作ることを前提としています。</p>
+</div>
+<div class="paragraph">
+<p>クラスの教材を配布したい方や、共有単語帳を AnkiWeb 上で不特定多数の方を対象にシェアしたい方を対象としています。</p>
+</div>
+<div class="paragraph">
+<div class="title">AnkiDroid について</div>
+<p>Android 版 AnkiDroid は作成者が異なり機能実装に違いが生じている可能性もあります。必ずしもここで紹介する情報と異なる動作をする場合も考えられます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_単語帳データを書き出す方法">単語帳データを書き出す方法</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<div class="title">配布に適したフォーマットは apkg</div>
+<p>Anki をよく分かっている人が、そうでない人たちにデータを配布する状況を考えると、読み込みにいろいろな指示を出さなくてはいけないテキストファイル形式は不適切です。
+ファイルを開けば自動的に読み込みが完了する apkg ファイルが適した形式です。</p>
+</div>
+<div class="sect2">
+<h3 id="_anki_の書き出し機能">Anki の書き出し機能</h3>
+<div class="paragraph">
+<p>Anki の書き出し機能は、単語帳単位で apkg を書き出す方式とコレクション全体を書き出す collection.apkg の二通りがあります。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/anki-deck-deploy-export.png" alt="書き出し">
+</div>
+<div class="title">図 1. 書き出し</div>
+</div>
+<div class="paragraph">
+<p>ファイル形式を [Anki 単語帳パッケージ　(*.apkg)]、対象に [全ての単語帳] を選択するとコレクション全体を書き出し、具体的な単語帳を指定した時には単語帳単位で apkg を書き出します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_コレクション全体の更新は特殊">コレクション全体の更新は特殊</h3>
+<div class="paragraph">
+<p>コレクション全体のデータで更新する場合は、インストール先全体をこのファイルで置き換えるので注意が必要です。
+書き出し先のデータを読み込み先に複製することになります。</p>
+</div>
+<div class="paragraph">
+<p>講習会などで複数の PC に学習データを配布するような時にはこの方法は使えます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_更新ではカードに変更は掛からない">更新ではカードに変更は掛からない</h3>
+<div class="paragraph">
+<p>ノートの更新ではカードには変更が掛かりません。カードとは学習履歴とノートやレイアウトへの参照です。
+つまり、単語帳パッケージでノートに更新を掛けても、ユーザーの学習履歴に変更を掛けません。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_継続した更新を意識した配布方法とは">継続した更新を意識した配布方法とは</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>単語帳単位の場合は、インストール先のデータを追加更新します。ただし、そのための条件があります。</p>
+</div>
+<div class="paragraph">
+<p>それはノートタイプの互換性を図るということです。</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>更新を意識した単語帳データを配布するなら、ノートタイプの互換性確保が重要</pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ノートタイプの互換性">ノートタイプの互換性</h3>
+<div class="olist arabic">
+<div class="title">ノートタイプ互換性の条件</div>
+<ol class="arabic">
+<li>
+<p>フィールドの名前と数や順序</p>
+</li>
+<li>
+<p>カードテンプレートの名前と数や順序</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>に変化がないことです。</p>
+</div>
+<div class="paragraph">
+<div class="title">カードテンプレートの内容と互換性</div>
+<p>カードテンプレートの内容の書式情報 (スタイルシート) やレイアウト (テンプレート) は変更しても問題ありません。ノートタイプがインストール先に読み込まれれば、既存のノートに対しても反映することが出来ます。</p>
+</div>
+<div class="paragraph">
+<p>ノートタイプの互換性がある限り、後からその単語帳へのアップデート版を作り続けることが出来ます。
+後でノートを追加して再度配布した場合、既に持っている人には追加分がアップデートでき、新たにもらった人は最新版全体を受け取れるようになります。</p>
+</div>
+<div class="paragraph">
+<div class="title">配布ファイルの管理が簡単</div>
+<p>同じ単語帳パッケージファイルで、新規に使う人は全てのデータがインストールでき、更新分だけ必要な人は、更新分だけを読み込むことができます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_互換性が失われると">互換性が失われると</h3>
+<div class="paragraph">
+<p>単語帳作成者がノートタイプを更新してしまうと互換性が失われると、ユーザー側でアップデート版をあてても、新規に追加したノートだけがインストールされ、既存のファイルに更新が掛けられなくなってしまいます。</p>
+</div>
+<div class="paragraph">
+<p>これは、ユーザー側にも当てはまります。ユーザーがノートタイプの編集をしてしまうと、アップデートを掛けられなくなります。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ノートの更新">ノートの更新</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>更新は、ノートのレコード単位で更新します。更新の掛かったフィールドだけを更新するのではありません。</p>
+</li>
+<li>
+<p>作成者側の更新と、ユーザー側での変更が競合した場合、更新時間が新しい方が残ります。</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_ノートタイプの名前">ノートタイプの名前</h3>
+<div class="paragraph">
+<p>読み込み先に同じノートタイプがあると、更新分のノートタイプは名前の後にハッシュ値を追加します。
+この場合全てのノートは、新しいハッシュ値付きのノートタイプ名に統一します。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードテンプレートの更新">カードテンプレートの更新</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ノートに更新がなくても、ノートタイプに互換性があれば、既存のカードの書式情報やレイアウトだけを更新することができます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_配布の方法">配布の方法</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>更新した単語帳データの配布方法を紹介しましょう。</p>
+</div>
+<div class="sect2">
+<h3 id="_ankiweb">AnkiWeb</h3>
+<div class="paragraph">
+<p>更新した単語帳を AnkiWeb に同期し、単語帳名を変更せずに再度共有すると、同じ URL が使えます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_共有サーバに配置">共有サーバに配置</h3>
+<div class="paragraph">
+<p>ダウンロードファイルを、サーバー上に配置します。akpg ファイルの名前は、前のバージョンから変更しても更新が掛かります。</p>
+</div>
+<div class="paragraph">
+<div class="title">注意:</div>
+<p>ファイル名は自由に決められますが、例外は collection.apkg です。正しく動作しません。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_メール添付">メール添付</h3>
+<div class="paragraph">
+<p>メール添付やその他のコミュニケーションアプリのファイル添付機能で配布することもできます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_読み込みかた">読み込みかた</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>最後に作成したファイルをユーザーの機器に読み込む方法を簡単に紹介していきましょう。</p>
+</div>
+<div class="sect2">
+<h3 id="_anki_pc版">Anki PC版</h3>
+<div class="paragraph">
+<p>apkg ファイルを開きます。あるいは Anki の読み込み機能を使います。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ankimobile_ios">AnkiMobile (iOS)</h3>
+<div class="paragraph">
+<p>ブラウザーでダウンロードするか、メールに添付して、[Ankiで開く] を選択します。</p>
+</div>
+<div class="paragraph">
+<div class="title">注意:</div>
+<p>AnkiMobile の iTuens ファイル共有の読み込み (import) 機能は、 collection.apkg 専用です。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ankidroid_android">AnkiDroid (Android)</h3>
+<div class="paragraph">
+<p>ブラウザーでダウンロードするか、メールに添付して開きます。または、AnkiDroid の読み込み (インポート) 機能を使います。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>単語帳データの継続配布に適したフォーマットは APKG</p>
+</li>
+<li>
+<p>単語帳データの更新を継続するにはノートタイプの互換性の維持が必要</p>
+</li>
+<li>
+<p>一つのAPKG ファイルで新規インストールも差分インストールも可能</p>
+</li>
+<li>
+<p>読み込み先に同じノートタイプを使っていると、後から読み込んだノートタイプ名を統一して使う</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_参考情報">参考情報</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Anki ソースファイル <a href="https://github.com/dae/anki/blob/master/anki/importing/anki2.py">anki/importing/anki2.py</a></p>
+</li>
+<li>
+<p>Anki リリースノート <a href="http://ankisrs.net/docs/changes.html">Changes in Anki 2</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/anki-deck-deployment-guide\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
