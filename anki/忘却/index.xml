@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>学習オプション on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/</link>
-    <description>学習オプション | the Right Stuff</description>
+    <title>忘却 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E5%BF%98%E5%8D%B4/</link>
+    <description>忘却 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 13 Apr 2016 05:20:21 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/anki/%E5%BF%98%E5%8D%B4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
@@ -204,144 +204,6 @@
 &lt;h3 id=&#34;_参考情報&#34;&gt;参考情報&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;正確な復習間隔や易しさの値の計算法は、Anki の &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34;&gt;anki/sched.py&lt;/a&gt; を参照ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>AnkiMobile の学習オプションを最適化する</title>
-      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
-      <pubDate>Sat, 24 Jan 2015 00:00:42 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
-      <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザーにとって、教材の特性にあわせた学習セッションの設計ができるようになりました。Anki の学習オプションの概要とその中で注目すべき項目について紹介します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザーにとって、教材の特性にあわせた学習セッションの設計ができるようになりました。Anki の学習オプションの概要とその中で注目すべき項目について紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_設定画面&#34;&gt;設定画面&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;学習オプションの設定画面の呼び出し方は、今回のバージョンアップでも変化はありません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;設定画面の呼び出し方&lt;/div&gt;
-&lt;p&gt;学習画面から [Tools] - [Study Options] で学習オプションの設定画面を呼び出せます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;学習オプション設定画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 学習オプション設定画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_設定項目の概要&#34;&gt;設定項目の概要&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile の学習オプション設定項目は大きく4つに分類できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;学習オプションの概要&lt;/div&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Option group&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;単語帳間で学習オプションを共有するためのプロファイルです。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;NEW CARDS&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;新規カードの学習に関する設定項目です。新規カードの出題順や一日の上限枚数などを設定できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;REVIEWS&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;復習カードに関する設定項目です。一日の復習上限を設定できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;LAPSES&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;忘却したカードの処理に関する項目です。無駄な (Leech) カードの判定基準や処理方法を設定します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;GENERAL&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;音声の自動再生に関する項目が設定できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_注目すべき項目&#34;&gt;注目すべき項目&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;広く学習セッションのカスタマイズに利用されている項目を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_new_cards&#34;&gt;NEW CARDS&lt;/h3&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Max new per day&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;新規カードの一日の学習上限です。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Order&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;出題順を設定します。初期値は追加順ですがランダムに変更できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Bury related new cards&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;同じノートから作成したカード同士は同じ日に出題しないよう調整します。(表裏反転したカード同士など)&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_reviews&#34;&gt;REVIEWS&lt;/h3&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Max reviews per day&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;復習カードの一日の学習上限です。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Bury related reviews&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;同じノートから作成したカード同士は同じ日に出題しないよう調整します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_lapses&#34;&gt;LAPSES&lt;/h3&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Leech threshold&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;無駄なカードと判定する回数&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Leech action&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;無駄なカードと判定された場合、初期値では保留しますが、タグを設定するだけに変更できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_general&#34;&gt;GENERAL&lt;/h3&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Automaticallly play audio&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;カードに設定しているメディアファイルを自動再生します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;更に詳しい設定内容の説明が必要な方は、&lt;a href=&#34;http://ankisrs.net/docs/manual.html#deck-options&#34;&gt;Anki User Manual&lt;/a&gt;とその&lt;a href=&#34;http://wikiwiki.jp/rage2050/?2.0%2FDeckOptions&#34;&gt;日本語訳&lt;/a&gt;を参照ください。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

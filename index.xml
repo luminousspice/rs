@@ -6,10 +6,210 @@
     <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Apr 2016 12:55:25 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 13 Apr 2016 05:20:21 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>忘れた Anki カードの出直し方</title>
+      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <pubDate>Wed, 13 Apr 2016 05:20:21 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <description>Anki で復習に失敗したカードの復習間隔を一律に一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。iPhone アプリの AnkiMobile の例も取り上げます。Anki での学習コスト効率化の提案です。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki で復習に失敗したカードの復習間隔を一律に一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。iPhone アプリの AnkiMobile の例も取り上げます。Anki での学習コスト効率化の提案です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_忘れたカードの学習履歴に応じて処理したい&#34;&gt;忘れたカードの学習履歴に応じて処理したい&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki に慣れてたくさんのカードを処理できるようになると、三か月覚えていたのに更に間隔を伸ばして失敗したカードを、昨日追加して失敗したカードと同じように復習間隔を一日にリセットする処理に疑問を持つようになりました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;間違えたカードでも学習履歴を無視して復習間隔を設定するのは、コストをムダにしているのではないだろうか&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;三か月も覚えていたらもう十分習熟した特別なカードと考えてよいでしょう。これまでの学習履歴を全く無視して、最初に戻るコストはムダなのではないだろうか。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ある程度習熟しているカードはそれに見合った忘却処理をさせれば、Anki の作業を効率化できるでしょう。
+追加したばかりのカードや記憶しにくいカードに集中でき、さらにたくさんのカードを扱えるようになり、Anki の学習時間も圧縮できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_の仕組み_間違えたらどうなる&#34;&gt;Anki の仕組み 間違えたらどうなる&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のスケジュールアルゴリズムより単純化な SRS のライトナーシステムの図で説明します。
+学習するカードは正解するごとに右の箱に移動しますが、忘れると一番左の箱に戻り、文字通り一から出直します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/Leitner_system_alternative.svg&#34; alt=&#34;SRS 学習モデル (Anki 初期状態)&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. SRS 学習モデル (Anki 初期状態)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;例えば、10 日間空けて覚えることに成功して、次に 25 日に挑戦したら間違えました。
+初期設定では、1 日からやり直すのですが、もう一度 10 日に戻ってやり直せないだろうかとうのが今回の趣旨です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ライトナーシステムのモデルでは次のようになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/Leitner_system.svg&#34; alt=&#34;SRS 学習モデル (カスタマイズ後)&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. SRS 学習モデル (カスタマイズ後)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
+&lt;p&gt;正確には、Anki のデータベースを使うアドオン作成する必要がありますが、
+学習オプションによっても近い動作が実現できますのでその方法を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_忘れたカードの復習間隔&#34;&gt;忘れたカードの復習間隔&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;忘れたカードの次回の復習間隔は、カードごとに計算によって決まります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;忘れたカードの次回の復習間隔&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;[間隔の下限] と 現在の復習間隔 × [新しい間隔] のうち大きい方&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の初期設定では、間隔の下限 1、新しい間隔 0 に設定しています。これが忘れたカードの復習時期が翌日になるからくりです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳オプション&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 単語帳オプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;上の例で言えば、一つ前の値 10 日に戻す [新しい間隔] の値を求めればよいのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_成功したカードの復習間隔&#34;&gt;成功したカードの復習間隔&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;忘れたカードの復習間隔の一つ前の値は、成功したカードの復習間隔の決まり方から分かります。
+復習に成功したカードの次回の復習間隔は、単純化すると次のように決まります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;復習間隔の計算式&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;現在の復習間隔 × 学習オプションの [易しさ]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;「易しさ」の初期値は 250 です。復習で [普通] ボタンを押し続けていればこの値に変化はありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;Anki は基本的に復習間隔を 2.5 倍にし続ける。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;つまり前回の復習間隔に戻すためには　100/250 = 0.4 つまり40 % に [新しい間隔] を設定すればよいのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、現在の単語帳全体の易しさの値を統計情報から調べることもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/lapse-stats-card.png&#34; alt=&#34;単語帳全体の易しさの統計&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 単語帳全体の易しさの統計&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この単語帳では平均 191 でした。この単語帳では 100/191 = 0.52 つまり、一つ前の復習間隔に戻す [新しい間隔] の値は、52% になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_単語帳オプションの設定&#34;&gt;単語帳オプションの設定&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それでは求めた値を設定しましょう。設定項目 [新しい間隔] は、単語帳オプションの設定画面の [忘却] タブの中にあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/lapse-study-option.png&#34; alt=&#34;単語帳オプションの設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 単語帳オプションの設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;統計情報の Card Type の中の [Average ease] から単語帳の易しさ (ease) を求めて計算します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-card.png&#34; alt=&#34;AnkiMobile で易しさを統計から調べる&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. AnkiMobile 易しさの統計値&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳オプションの設定箇所は、[Tools] -[Study Option] と開き、LAPSES の中の [New interval] です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-deckoption-lapse.png&#34; alt=&#34;AnkiMobile での単語帳オプションの設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. AnkiMobile 単語帳オプションの設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;忘却したカードの復習間隔は初期値では一律に一日に設定しているが、学習オプションで変更可能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔を一つ前の段階に戻すにはプログラミングが必要だが、オプション設定で近似的な動作が再現できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定の計算に使うカードの易しさのデータは、単語帳の統計値で代用する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;iPhone アプリの AnkiMobile でも全く同じ設定が可能&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_参考情報&#34;&gt;参考情報&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;正確な復習間隔や易しさの値の計算法は、Anki の &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34;&gt;anki/sched.py&lt;/a&gt; を参照ください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>AwesomeTTS プリセットの活用</title>
@@ -734,134 +934,6 @@
 &lt;p&gt;保存用単語帳は、新規カード、復習カードの一日の出題制限をゼロにする。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>AnkiMobile ノート: データ検索</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-search/</link>
-      <pubDate>Sat, 09 Apr 2016 04:54:16 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-search/</guid>
-      <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データ検索&#34;&gt;データ検索&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; に収録しているカードを検索するには Find Screen (検索画面) から行います。
-単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
-([Tools] – [More] – [Find] を選択しても同じ結果になります。)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-search.png&#34; alt=&#34;検索画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 検索画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;既定では検索欄に　&lt;code&gt;deck:current&lt;/code&gt; (意味:選択中の単語帳) と入力済みになっています。そのまま右下の [Search (検索)] ボタンをタップすると、選択中の単語帳のカード一覧を表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;さらに検索条件を追加するしてカードを絞り込むことができます。&lt;code&gt;deck:current&lt;/code&gt; を削除すれば、全ての単語帳から検索できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-search-results.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 検索結果&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki と AnkiMobile のデータ検索では、先ほど取り上げた、&lt;code&gt;deck:&lt;/code&gt; のような特別なキーワードを共通に利用できます。
-その一例を参考までに紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;Table 1. 検索条件例&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 33.3333%;&#34;&gt;
-&lt;col style=&#34;width: 66.6667%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;項目&lt;/th&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;条件&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;今日追加したカード&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;added:1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;今日学習したカード&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;rated:1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;今日間違えたカード&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;rated:1:1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;新規&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:new&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;学習中&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:learn&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:review&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;期日&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:due&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;保留&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:suspended&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;延期&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:buried&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;無駄&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;tag:leech&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;単語帳 中学英単語&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;deck:中学英単語&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ノートタイプ 英語単語&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;note:英語単語&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;タグ Grade1&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;tag:Grade1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;詳しい検索条件は、&lt;a href=&#34;http://ankisrs.net/docs/manual.html#searching&#34;&gt;Anki User Manual&lt;/a&gt;とその&lt;a href=&#34;http://wikiwiki.jp/rage2050/?2.0%2FBrowser#searching&#34;&gt;日本語訳&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_pc_版_anki_との連携のポイント&#34;&gt;PC 版 Anki との連携のポイント&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC 版の Anki が利用できる方は、マニュアルを使わなくても、カードブラウザを操作しながら検索条件を設計できます。
-詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。
-PC 版 Anki で設計した条件をフィルター単語帳などの形で同期すれば、AnkiMobile に簡単に導入できるようになります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
