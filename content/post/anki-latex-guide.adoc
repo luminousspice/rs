@@ -1,0 +1,202 @@
++++
+date = "2016-04-14T11:23:07+00:00"
+title = "Anki ユーザーのための LaTeX 利用ガイド"
+categories = ["Anki"]
+tags = ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
+anki = ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
+excerpt = "Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。"
++++
+= Anki ユーザーのための LaTeX 利用ガイド
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。
+:figure-caption: 図
+:table-caption: 表
+
+////
+:toc: macro
+:toc-placement:
+:toclevels: 1
+http://rs.luminousspice.com/anki-latex-guide/
+////
+
+{description}
+
+//toc::[]
+
+== Anki における LaTeX 処理の仕組み
+
+Anki における LaTeX の処理をザックリ説明します。
+
+. 最初にカードに LaTeX 表現が使われていると Anki 内部から PC にインストールしている LaTeX 処理系のコマンドを呼び出して、png ファイルを作成し、表示します。
+. その際に、LaTeX の表現内容から SHA-1 ハッシュ値を計算し、ファイル名の一部として記録します。
+. 次回以降は、このハッシュ値を比較し、更新があった時には画像を作成し直します。
+
+画像などを保存するメディアフォルダ `(Anki フォルダ)\(プロファイル名)\collection.media` の中に latex-(40桁の英数字).png として保存しています。
+
+== 初期設定での処理内容
+
+Anki は、カードの中に LaTeX の表現があると次のコマンドを実行して画像化します。
+
+[source,bash]
+.Anki 内部から呼び出す LaTeX 処理
+----
+$ latex -interaction=nonstopmode tmp.tex
+$ dvipng -D 200 -T tight tmp.dvi -o tmp.png
+----
+////
+    ["latex", "-interaction=nonstopmode", "tmp.tex"],
+    ["dvipng", "-D", "200", "-T", "tight", "tmp.dvi", "-o", "tmp.png"]
+////
+
+初期設定では、`latex` によって dvi ファイルを作り、`dvipng` を使って png ファイルを生成しています。
+
+=== LaTeX 内容の一括画像化
+
+複雑な表現だと画像生成に時間がかかり、学習の際に待ち時間が発生します。そのため事前に一括して画像化しておくことができます。
+
+メニューバーから [ツール] - [メディアをチェック] を選択します。
+
+iPhone アプリの AnkiMobile に LaTeX 表現を持ち込みたい場合も、この機能を使っておくと iPhone での数式表示ができます。
+
+== 処理コマンドのカスタマイズ
+
+https://ankiweb.net/shared/info/937148547[Edit LaTeX build proces] を使うと、Anki 内部で呼び出すコマンドをカスタマイズできます。
+
+使い方はアドオンファイルの `Edit_LaTeX_build_process.py` を開き、多重リスト `newLaTeX` の内容を編集します。
+
+.Anki 初期設定のコマンド
+[source,python]
+----
+newLaTeX = \
+[
+    ["latex", "-interaction=nonstopmode", "tmp.tex"],
+    ["dvipng", "-D", "200", "-T", "tight", "tmp.dvi", "-o", "tmp.png"]
+]
+----
+
+== Anki のノートに LaTeX を書く方法
+
+基本的な表現は、特殊なタグ `[latex]` と `[/latex]` の間に書きます。
+`\begin{document}` と `\end{document}` の間に表記すべき内容を書くことができます。
+
+その外側に指定したい内容の書き方は、後述の TikZ パッケージの導入で説明します。
+
+なお、ノート内に LaTeX を使うタグには省略表記が使えます。
+
+.latex 記述タグの省略表記
+[frame="topbot",grid="rows",cols="1,4",options="header"]
+|===
+|省略形|元の表現
+|[$] ... [/$]|[latex]\begin{math} ... \end{math}[/latex]
+|+++[$$] ... [/$$]+++|[latex]\begin{displaymath} ... \end{displaymath}[/latex]
+|===
+
+== TikZ を使う
+
+Anki では、TikZ パッケージを使った図解表現を表示することもできます。
+
+.TikZ を利用したカード
+image::/images/latex-tikz.png["TikZ を利用したカード"]
+
+=== TikZ パッケージの導入
+
+TikZ パッケージを読み込むためのプリアンブル設定方法を紹介します。プリアンブルはノートタイプごとに指定できます。
+
+.プリアンブル設定
+. メニューバーから [ツール] - [ノートタイプを管理]
+. カードが使用しているノートタイプを選択して、[オプション] を選択
+. ヘッダー欄で必要な設定項目を入力
+
+.TikZ パッケージ設定
+image::/images/latex-option.png["TikZ パッケージ設定"]
+
+=== コマンドのカスタマイズ
+
+Anki の初期状態のコマンドでは、TikZ を使用できないため、先ほどのアドオンを使って変更します。
+
+pdflatex によって PDF ファイルを作り、その次に ImageMagick を使って PNG ファイルを生成する例を紹介します。
+
+[source,python]
+.tikz のための設定例
+----
+newLaTeX = \
+[
+    ["pdflatex", "-interaction=nonstopmode", "tmp.tex"],
+    ["convert", "-trim", "-density", "300", "tmp.pdf", "tmp.png"]
+]
+----
+
+== Anki で LaTeX を使う場合の注意点
+
+Anki のサポートサイトで LaTeX に関する投稿が繰り返し寄せられていますが、Anki 外の問題も多いようです。
+最初に準備しておきたい項目をまとめました。
+
+* Anki を使う前に、PC に使用する LaTeX システムが正しくインストールできているか確認する。
+* 使用する表現をコマンドラインを使って表示できるか事前に表示する。
+* 問題が発生した場合は、Anki のカード面に表示するエラーメッセージをよく読み、コマンドラインでも発生するか確認する。
+
+== MathJax の使い方
+
+LaTeX 処理系のインストールを必要としない、JavaScritp ライブラリの https://www.mathjax.org/[MathJax] を使った LaTeX の数式の表示方法を取り上げましょう。
+
+.MathJax 表示例
+image::/images/latex-mathjax.png["MathJax 表示例"]
+
+MathJax を Anki のカードで使うには、テンプレートに MathJax を呼び出すスクリプトを書き込みます。
+例えば表面のテンプレートに、次のようなタグを追加します。
+
+.テンプレート記述例
+[source,javascript]
+----
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-AMS_HTML">
+</script> 
+----
+
+=== 注意事項
+
+.バージョン指定
+私の環境では、最新の 2.6 系列は [Math Processing Error] が発生して表示できませんでしたので 2.5 を指定しています。
+
+.ローカルファイルから呼び出しについて
+Anki は、メディアフォルダーのサブディレクトリの呼び出しができません。`MathJax.js` がサブディレクトリを読むことができません。
+
+.アドオンについて
+以前 MathJax を使うためのアドオンが公開されていましたが、現在では削除されています。このためテンプレートに直接呼び出しスクリプトを書き込む方法を紹介しました。
+
+== まとめ
+
+* Anki は、内部的に LaTeX 表記を画像にして保存している。
+* Anki がする生成した画像は、ソースの LaTeX に変更があると作り直す。
+* Anki が呼び出すコマンドは、アドオンでカスタマイズ可能。
+* LaTeX のプリアンブルは、ノートタイプごとに指定でき、パッケージの追加ができる。
+* MathJax は、カードテンプレートから外部共有ファイルへの参照を記述すれば可能。
+
+=== 参考情報
+
+* Anki ソースファイル https://github.com/dae/anki/blob/master/anki/latex.py[anki/latex.py]
+* http://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html[BeamerのためのTikZ]
+* http://tex.stackexchange.com/questions/119349/what-preamble-does-math-stackexchange-com-use[What preamble does math.stackexchange.com use?]
+
+////
+.MathJax アドオン
+https://ankiweb.net/shared/info/137513728[MathJax]
+
+.ローカルのファイルを使う場合の書き換え例
+[source,javascript]
+----
+loadMJscript = """
+function loadMJ() {
+
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "_MathJax.js";
+----
+
+`MathJax.js` はメディアフォルダに保存します。サブディレクトリに置くと動作しませんのでご注意を。
+`\_MathJax.js` とファイル名の先頭に `_` を追加してメディアチェックの対象から除外できます。
+////
+
