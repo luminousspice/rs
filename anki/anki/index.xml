@@ -6,10 +6,208 @@
     <description>Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 Apr 2016 12:40:52 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 Apr 2016 03:40:00 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/anki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki 復習予測の読み方</title>
+      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
+      <pubDate>Thu, 14 Apr 2016 03:40:00 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
+      <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_予測グラフから読み取れること&#34;&gt;予測グラフから読み取れること&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の統計情報の始めの方に予測という項目がある。この項目についてサポートサイトに繰り返し投稿が寄せられている。
+&lt;a href=&#34;http://ankisrs.net/docs/manual.html#the-graphs&#34;&gt;Anki 正式マニュアル&lt;/a&gt;とは視点からの違った説明をしたい。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;この棒グラフは、全ての復習カードの復習期日をプロットしたものだ。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一度学習したカードなら、保留や延期にしていても復習時期が設定されている。
+このグラフは、日付データを日付順に並び替えたものだ。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;images/stats-forcast.png&#34; alt=&#34;統計情報 予測&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 統計情報 予測&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_棒グラフの意味&#34;&gt;棒グラフの意味&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;たとえば、今日の日付を 3/31 として上のグラフを説明してみよう。
+現時点で 4/10 には 19 枚の復習カードが復習時期に設定している。これは確定情報で、カードを削除しない限り減ることはない。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;棒グラフは、その日の復習枚数の最小値を示している。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_線グラフの意味&#34;&gt;線グラフの意味&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実際に 4/10 に復習するカードはそればかりではない。今日 3/31 から前日の 4/9 にも 4/10 に復習するカードの中からも出ててくるはずだ。その間の復習カードの合計枚数が線グラフが示す値だ。3/31 から 4/9 までの棒グラフの数値の合計値である。
+この値は、新規にカードを追加しなければ変化しない確定値だ。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;線グラフは、その日の復習枚数の予想最大値だ。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;たとえば、今日から前日の 4/9 まで何もしなかった時は、この最大値 320枚くらい復習することになる。しかし、この値を超えた 400 枚になることはありえない。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_このグラフの意味はなにか&#34;&gt;このグラフの意味はなにか&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このグラフは、棒グラフと線グラフを組み合わせてみることに意味があり、復習数の最小値と最大値の広がりを示してくれる。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;予測項目が示してくれるのは、その日の復習枚数の予測最小値と、最大値。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実際の復習数は、棒グラフと線グラフの間におさまる。スペースの関係で二つのグラフのスケールは違っていますが。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;日にちが経って、4/10 に近づいていけば、グラフは左に移動する。10 日間のまだ不確定な情報が確定していくにつれて、4/10 の予測データの確度が上がっていく。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;4/10 の予想最小値は上がり、最大値は下がっていくだろう。
+そして前日の、4/9 に棒グラフと線グラフの値は一致する。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;その値が、[明日が期日のカード] あるいは [Due tomorrow] で示す値だ。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;images/am-stats-forcast.png&#34; alt=&#34;AnkiMobile Statistics&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile Statistics&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_このグラフにまつわる議論&#34;&gt;このグラフにまつわる議論&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この棒グラフの値が実際の値よりかなり小さいと、繰り返しサポートサイトに投稿がある。
+おそらく、グラフは正常動作しているだろう。予測期間が長ければ、実測値との乖離が大きいのはなおさらだ。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;グラフが示す最大値、最小値から外れた異常値を示したということであれば、アプリケーションの修正を検討すべき問題であるがその様な報告は、まだ見たことがない。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習量シュミレーションについて&#34;&gt;復習量シュミレーションについて&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;現状の統計情報の代わりにシュミレーションを取り付ける要求も、ずいぶん長い間寄せられ続けている。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、Anki の予測シュミレーションプログラムを作った方がいる。このプログラムのアイデアは AnkiDroid アドオンとしてすでに取り入れられている。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki を長期的に使用した経験からシュミレーションについて気がつくことがあった。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;シュミレーションは正解率が固定&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Anki で記憶するカードは、追加してから慣れるに従って正解率が向上していく。経験上では 60 &amp;#8594; 90 % の幅で変化している。教材の習熟について考慮されていない。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;シュミレーションで使う正解率が高い&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;シュミレーションで使う正解率の固定値はだいたい 80-90% だ。自分の過去の学習データから正解率を作成した場合でも、慣れた時点での単語帳のデータを使うため正解率は高く出る。最初から正解率 90% のカードならそもそも SRS を使うまでもないのではないか。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki を使い始めた方や、新しく追加した単語帳についてはシュミレーションの予測は期待できない。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習量の蓄積のある単語帳については、このようなシュミレーション機能は有効だろう。Anki に慣れた人にためにこの機能はぜひとも Anki に取り入れるべきだろうか。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;次のグラフを見てほしい。はじめに紹介した単語帳の復習実績の統計だ。既に復習は定常状態に入って大きな変動はない。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;images/stats-review-count.png&#34; alt=&#34;復習した回数&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 統計情報 復習した回数&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki になれると大量の復習データを抱えていても、新規のカードを追加し続けたとしても、一日の作業に大きな変化はなくなる。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki を使う時間も復習する枚数も変わらないのだ。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;シュミレーションの機能には興味を持つが、自分の教材へ利用する必要性を感じない理由が分かった。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;統計情報の予測グラフは、線グラフと棒グラフを組み合わせて見ることに意義がある&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;グラフは予測する日の復習枚数の最小値と最大値の範囲を示してくれる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;棒グラフは、その日の復習枚数の予測最小値を示す&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;線グラフは、その日の復習枚数の予測最大値を示す&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;予測日が近くなるにつれて、最大値と最小値が収斂していく&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_参考情報&#34;&gt;参考情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki ソースファイル &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/stats.py&#34;&gt;anki/stats.py&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.zhtoolkit.com/posts/2014/11/anki-myth-1-the-cake-is-a-lie/&#34;&gt;Anki Myth 1: The Cake is a Lie&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki 単語帳データ配布ガイド</title>

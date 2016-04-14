@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://rs.luminousspice.com/anki-stats-due-forcast/</loc>
+    <lastmod>2016-04-14T03:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rs.luminousspice.com/anki-deck-deployment-guide/</loc>
     <lastmod>2016-04-13T12:40:52+00:00</lastmod>
   </url>
