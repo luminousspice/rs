@@ -6,10 +6,301 @@
     <description>アドオン | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Apr 2016 12:55:25 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 Apr 2016 11:23:07 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/tags/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki ユーザーのための LaTeX 利用ガイド</title>
+      <link>http://rs.luminousspice.com/anki-latex-guide/</link>
+      <pubDate>Thu, 14 Apr 2016 11:23:07 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/anki-latex-guide/</guid>
+      <description>Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_における_latex_処理の仕組み&#34;&gt;Anki における LaTeX 処理の仕組み&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki における LaTeX の処理をザックリ説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;最初にカードに LaTeX 表現が使われていると Anki 内部から PC にインストールしている LaTeX 処理系のコマンドを呼び出して、png ファイルを作成し、表示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;その際に、LaTeX の表現内容から SHA-1 ハッシュ値を計算し、ファイル名の一部として記録します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;次回以降は、このハッシュ値を比較し、更新があった時には画像を作成し直します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;画像などを保存するメディアフォルダ &lt;code&gt;(Anki フォルダ)\(プロファイル名)\collection.media&lt;/code&gt; の中に latex-(40桁の英数字).png として保存しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_初期設定での処理内容&#34;&gt;初期設定での処理内容&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki は、カードの中に LaTeX の表現があると次のコマンドを実行して画像化します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Anki 内部から呼び出す LaTeX 処理&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ latex -interaction=nonstopmode tmp.tex
+$ dvipng -D 200 -T tight tmp.dvi -o tmp.png&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;初期設定では、&lt;code&gt;latex&lt;/code&gt; によって dvi ファイルを作り、&lt;code&gt;dvipng&lt;/code&gt; を使って png ファイルを生成しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_latex_内容の一括画像化&#34;&gt;LaTeX 内容の一括画像化&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;複雑な表現だと画像生成に時間がかかり、学習の際に待ち時間が発生します。そのため事前に一括して画像化しておくことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;メニューバーから [ツール] - [メディアをチェック] を選択します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;iPhone アプリの AnkiMobile に LaTeX 表現を持ち込みたい場合も、この機能を使っておくと iPhone での数式表示ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_処理コマンドのカスタマイズ&#34;&gt;処理コマンドのカスタマイズ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/937148547&#34;&gt;Edit LaTeX build proces&lt;/a&gt; を使うと、Anki 内部で呼び出すコマンドをカスタマイズできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;使い方はアドオンファイルの &lt;code&gt;Edit_LaTeX_build_process.py&lt;/code&gt; を開き、多重リスト &lt;code&gt;newLaTeX&lt;/code&gt; の内容を編集します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Anki 初期設定のコマンド&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;newLaTeX = \
+[
+    [&#34;latex&#34;, &#34;-interaction=nonstopmode&#34;, &#34;tmp.tex&#34;],
+    [&#34;dvipng&#34;, &#34;-D&#34;, &#34;200&#34;, &#34;-T&#34;, &#34;tight&#34;, &#34;tmp.dvi&#34;, &#34;-o&#34;, &#34;tmp.png&#34;]
+]&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_のノートに_latex_を書く方法&#34;&gt;Anki のノートに LaTeX を書く方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;基本的な表現は、特殊なタグ &lt;code&gt;[latex]&lt;/code&gt; と &lt;code&gt;[/latex]&lt;/code&gt; の間に書きます。
+&lt;code&gt;\begin{document}&lt;/code&gt; と &lt;code&gt;\end{document}&lt;/code&gt; の間に表記すべき内容を書くことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;その外側に指定したい内容の書き方は、後述の TikZ パッケージの導入で説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお、ノート内に LaTeX を使うタグには省略表記が使えます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. latex 記述タグの省略表記&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&#34;width: 20%;&#34;&gt;
+&lt;col style=&#34;width: 80%;&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;省略形&lt;/th&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;元の表現&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[$] &amp;#8230;&amp;#8203; [/$]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[latex]\begin{math} &amp;#8230;&amp;#8203; \end{math}[/latex]&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[$$] ... [/$$]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[latex]\begin{displaymath} &amp;#8230;&amp;#8203; \end{displaymath}[/latex]&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_tikz_を使う&#34;&gt;TikZ を使う&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki では、TikZ パッケージを使った図解表現を表示することもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/latex-tikz.png&#34; alt=&#34;TikZ を利用したカード&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. TikZ を利用したカード&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_tikz_パッケージの導入&#34;&gt;TikZ パッケージの導入&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;TikZ パッケージを読み込むためのプリアンブル設定方法を紹介します。プリアンブルはノートタイプごとに指定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;プリアンブル設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;メニューバーから [ツール] - [ノートタイプを管理]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードが使用しているノートタイプを選択して、[オプション] を選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ヘッダー欄で必要な設定項目を入力&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/latex-option.png&#34; alt=&#34;TikZ パッケージ設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. TikZ パッケージ設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_コマンドのカスタマイズ&#34;&gt;コマンドのカスタマイズ&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の初期状態のコマンドでは、TikZ を使用できないため、先ほどのアドオンを使って変更します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;pdflatex によって PDF ファイルを作り、その次に ImageMagick を使って PNG ファイルを生成する例を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;tikz のための設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;newLaTeX = \
+[
+    [&#34;pdflatex&#34;, &#34;-interaction=nonstopmode&#34;, &#34;tmp.tex&#34;],
+    [&#34;convert&#34;, &#34;-trim&#34;, &#34;-density&#34;, &#34;300&#34;, &#34;tmp.pdf&#34;, &#34;tmp.png&#34;]
+]&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_で_latex_を使う場合の注意点&#34;&gt;Anki で LaTeX を使う場合の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のサポートサイトで LaTeX に関する投稿が繰り返し寄せられていますが、Anki 外の問題も多いようです。
+最初に準備しておきたい項目をまとめました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki を使う前に、PC に使用する LaTeX システムが正しくインストールできているか確認する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用する表現をコマンドラインを使って表示できるか事前に表示する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;問題が発生した場合は、Anki のカード面に表示するエラーメッセージをよく読み、コマンドラインでも発生するか確認する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_mathjax_の使い方&#34;&gt;MathJax の使い方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;LaTeX 処理系のインストールを必要としない、JavaScritp ライブラリの &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt; を使った LaTeX の数式の表示方法を取り上げましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/latex-mathjax.png&#34; alt=&#34;MathJax 表示例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. MathJax 表示例&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;MathJax を Anki のカードで使うには、テンプレートに MathJax を呼び出すスクリプトを書き込みます。
+例えば表面のテンプレートに、次のようなタグを追加します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;テンプレート記述例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&amp;lt;script type=&#34;text/javascript&#34;
+  src=&#34;http://cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-AMS_HTML&#34;&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_注意事項&#34;&gt;注意事項&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;バージョン指定&lt;/div&gt;
+&lt;p&gt;私の環境では、最新の 2.6 系列は [Math Processing Error] が発生して表示できませんでしたので 2.5 を指定しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;ローカルファイルから呼び出しについて&lt;/div&gt;
+&lt;p&gt;Anki は、メディアフォルダーのサブディレクトリの呼び出しができません。&lt;code&gt;MathJax.js&lt;/code&gt; がサブディレクトリを読むことができません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;アドオンについて&lt;/div&gt;
+&lt;p&gt;以前 MathJax を使うためのアドオンが公開されていましたが、現在では削除されています。このためテンプレートに直接呼び出しスクリプトを書き込む方法を紹介しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki は、内部的に LaTeX 表記を画像にして保存している。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki がする生成した画像は、ソースの LaTeX に変更があると作り直す。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki が呼び出すコマンドは、アドオンでカスタマイズ可能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LaTeX のプリアンブルは、ノートタイプごとに指定でき、パッケージの追加ができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MathJax は、カードテンプレートから外部共有ファイルへの参照を記述すれば可能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_参考情報&#34;&gt;参考情報&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki ソースファイル &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/latex.py&#34;&gt;anki/latex.py&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html&#34;&gt;BeamerのためのTikZ&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://tex.stackexchange.com/questions/119349/what-preamble-does-math-stackexchange-com-use&#34;&gt;What preamble does math.stackexchange.com use?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>AwesomeTTS プリセットの活用</title>
@@ -746,259 +1037,6 @@ Anki を使っている PC のシステムを更新した時
 &lt;p&gt;2015/02/08: 追加: Download audio 他3件&lt;/p&gt;
 &lt;p&gt;2015/10/31: 更新: Image Occlusion&lt;/p&gt;
 &lt;p&gt;2016/02/09: 追加: Zoom、Audio Playback Speed&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Ankiの共有リソースを使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-use-shared-resources/</link>
-      <pubDate>Sat, 27 Apr 2013 06:00:26 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/how-to-use-shared-resources/</guid>
-      <description>既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログラムの形で記録して共有してくれています。共有の単語帳やアドオンを通してAnkiの使い方を慣れてみましょう。How to use shared decks and Addons for Anki. </description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;&lt;strong&gt;連載: Ankiの使い方 〜覚えるために忘れろ〜 第3回&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログラムの形で記録して共有してくれています。共有の単語帳やアドオンを通してAnkiの使い方を慣れてみましょう。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注意:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-共有データの内容は、大部分は英語で記述しています。このため今回の記事は、Ankiサイトの内容が読める程度の英文読解能力が前提になります。
-&lt;/li&gt;
-&lt;li&gt;
-今回取り上げるAnkiサイトで共有している単語帳やアドオンのダウンロード、利用にはアカウント登録の必要はありません。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;sidebarblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;p&gt;&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki&lt;/a&gt;とはDamien Elmesが開発している分散学習システム(SRS; Spaced Repetition learning Systems)です。&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;この記事の目標&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;この記事の目標&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Ankiサイトで共有している、単語帳とアドオンの取得方法、使い方になれましょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;使うもの&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;使うもの&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a target=&#34;_new&#34; href=&#34;http://ankisrs.net/&#34;&gt;Anki2&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-中学校程度の英文読解能力
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section id=&#34;共有単語帳の使い方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;共有単語帳の使い方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;共有単語帳とは、Ankiサイトでユーザー同士が共有している単語帳(デッキ)です。
-自分で教材データを用意しなくてもすぐに学習を開始できる利点があります。&lt;/p&gt;
-&lt;p&gt;現在は、言語の単語帳は英語対他言語のものがほとんどですが、日本語対他言語のものも含まれています。収録語彙数や画像数、音声データの収録数は多岐にわたります。分野別の専門用語の共有単語帳は、英語のものがほとんどです。&lt;/p&gt;
-&lt;p&gt;機能の面では、自家製の単語帳と差はありません。カスタマイズ可能な単語帳も多いので、自分の単語帳の素材として利用したり、単語帳の作り方自体を学ぶ教材としても利用できます。&lt;/p&gt;
-&lt;h3 id=&#34;共有単語帳の取得&#34;&gt;共有単語帳の取得&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;h4&gt;共有単語帳一覧を開く&lt;/h4&gt;
-&lt;p&gt;メインウィンドウ左下の[共有単語帳を取得]ボタン(図 1)を押すと、ウェブブラウザ上に&lt;a href=&#34;https://ankiweb.net/shared/decks/&#34;&gt;共有単語帳の分類表&lt;/a&gt;を表示します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_2_11.png&#34; alt=&#34;[共有単語帳を取得]ボタンを押す&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 画面下の[共有単語帳を取得]ボタンを押す&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;カテゴリー選択&lt;/h4&gt;
-&lt;p&gt;自分が探している分野の項目を選択すると、分野別の一覧表を表示します。
-この一覧にない分野の単語帳を探すには、右上の検索フォームから検索します。検索キーワードには日本語が使えます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-category.png&#34; alt=&#34;AnkiWeb 共有単語帳の分類表&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. AnkiWeb 共有単語帳の分類表&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;単語帳ダウンロードページの表示&lt;/h4&gt;
-&lt;p&gt;単語帳の一覧表はタイトル (Title)、評価 (Stars)、更新日 (Modified)で並び替えることが出来ます。
-Notes は、収録しているノートの項目数、Audio は音声データの数、Images は画像データの数を示します。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 音声データや画像データを多数収録している単語帳の中には、ファイル容量が大きくダウンロードに非常に時間がかかるものが含まれていますので注意が必要です。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-list.png&#34; alt=&#34;分類項目「Russian」に登録の単語帳一覧&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 分類項目「Russian」に登録の単語帳一覧&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;一覧の中から関心を持った単語帳があれば、タイトルの左にある[Info]ボタンを押して、単語帳の個別ページに移動します。&lt;/p&gt;
-&lt;h4&gt;単語帳ファイルのダウンロード&lt;/h4&gt;
-&lt;p&gt;単語帳の説明ページには、単語帳の説明と収録データ (テキスト、画像、音声) のサンプルを確認することができます。mp3 形式の音声の場合には、[Play] リンクをクリックすると再生します。&lt;/p&gt;
-&lt;p&gt;単語帳の説明を読んで、この単語帳をインストールしようと決めたら、ページ下の[Download]ボタンを押してください。apkg形式のファイルのダウンロードが始まります。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-button.png&#34; alt=&#34;ダウンロードボタン&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. ダウンロードボタン&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;ダウンロードファイルのインストール&lt;/h4&gt;
-&lt;p&gt;ダウンロードしたapkgファイルをダブルクリックしてください。インストールが始まり、完了すると読み込んだカードの枚数を表示(図 5)し、メインウィンドウにその単語帳名が現れます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_2.png&#34; alt=&#34;共有単語帳インストール終了報告&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 共有単語帳インストール終了報告&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;ダウンロードファイルに関する注意事項&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-ダウンロードファイルがダブルクリックしても読み込めない場合は、図 1あるいは図 6の画面下にある [ファイルを読み込む] ボタンを押して、ダウンロードファイルを選択してください。
-ファイルを読み込む詳しい手順は前回の記事「&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;」で説明しています。
-&lt;/li&gt;
-&lt;li&gt;
-システムによってはダウンロードファイルの拡張子が zip になる場合があります。上で説明した読み込み機能でもインストールすることもできます。
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;なおこのapkgファイルは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Ankiから書き出す&lt;/a&gt;ことができます。上で説明した共有単語帳のダウンロードサイトからものでなくても、友達や先生からもらったapkgファイルでも同じように読み込めます。&lt;/p&gt;
-&lt;h3 id=&#34;共有単語帳の削除&#34;&gt;共有単語帳の削除&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;メインウィンドウの単語帳一覧から単語帳名の右のプルダウンリストから[削除]を選択します。(図 6)この処理は、Ankiの読み込みが解除するだけで、ダウンロードしたapkg形式のファイルが削除になる訳ではありません。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_3.png&#34; alt=&#34;共有単語帳の削除&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 6. 共有単語帳の削除&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;decksearh&#34;&gt;日本語ユーザーのための共有単語帳検索機能&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/shared-deck-list-in-japanese/&#34;&gt;日本語ユーザー向けの共有単語帳検索機能&lt;/a&gt;は、たくさんのデータの中から極力日本語だけで必要な単語帳を見つけたい方のために、これまで説明してきた Anki の標準機能とは別にこのサイト独自で用意しました。
-日本語のコンテンツと、日本語の説明がなくても音声や画像、数式、記号だけで利用できる単語帳を選抜し、そのデータが検索できるようになっています。この検索結果から単語帳のダウンロードページへ直接移動します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shareddeck-search.png&#34; alt=&#34;共有単語帳検索画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 7. 共有単語帳検索画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;テキストを入力したり、分類項目をクリックして表示項目を絞り込むことができます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;アドオンの使い方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;アドオンの使い方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;アドオンとは、標準機能を拡張変更するプログラムのことです。Anki1.2まではプラグインという名前でした。
-アドオンを使うと、標準機能に自分の目的や興味に合わせてAnkiを簡単に変更することができます。&lt;/p&gt;
-&lt;p&gt;現在のAnkiアドオンの一覧には、非常に完成度の高いものもありますが、開発途中のもの、試作的なアドオンも含まれています。その点を理解した上でお使いください。ダウンロード数が多く、評価の高いものを中心に使うのが無難だと思います。&lt;/p&gt;
-&lt;h3 id=&#34;アドオンの取得&#34;&gt;アドオンの取得&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;h4&gt;アドオン一覧を開く&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-メニューバーから[ツール]&amp;gt;[アドオン]&amp;gt;[検索とインストール]を選択します。
-&lt;/li&gt;
-&lt;li&gt;
-[アドオンをインストールする]という名前のウィンドウが開いたら、左下の[ブラウザー]ボタンを押します。(図 8)
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_4.png&#34; alt=&#34;アドオンインストール用ウィンドウ&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 8. アドオンインストール用ウィンドウ&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;インストール用コードの取得&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ウェブブラウザーにAnkiアドオンの一覧ページを表示します。ここで、[アドオンをインストールする]ウィンドウは閉じないで開いたままにしておいてください。
-&lt;/li&gt;
-&lt;li&gt;
-タイトルを読んで関心を持ったアドオンがあったら、タイトルの左にある[Info]ボタンを押して、アドオンの個別ページに移動します。
-全てのアドオンに分かりやすいタイトルがついている訳ではないので、このボタンを押してみないことにはアドオンの機能が分からないのがこの一覧の難点です。
-&lt;/li&gt;
-&lt;li&gt;
-アドオンの説明や使い方を読んで、このアドオンをインストールすることに決めたら、Download項目にある、黄色の囲みの数字をコピーしてください。(図 9)
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_5.png&#34; alt=&#34;アドオンインストール用コード&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 9. アドオンインストール用コード&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;アドオンのインストール&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-先ほどの[アドオンをインストールする]ウィンドウのコードフィールドに、この数字を入力して、[OK]ボタンを押すと、アドオンのダウンロードのダウンロードとインストールが始まります。
-&lt;/li&gt;
-&lt;li&gt;
-アドオンのインストールが終わると、Ankiの再起動を促すダイアログが表示されます。(図 10)Ankiを再起動すると、アドオンが使えるようになります。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_6.png&#34; alt=&#34;アドオンインストールの終了&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 10. アドオンインストールの終了&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;ankiアドオンを使ってみる&#34;&gt;Ankiアドオンを使ってみる&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;ほとんどのアドオンはインストール用コードの掲載しているページに説明が載っていますので、使う前によく確認しておきましょう。&lt;/p&gt;
-&lt;p&gt;それでもAnkiのアドオンを使い始めた時、本当に機能しているか、使うにはどのような操作をすれば良いのか分からず戸惑うことがよくあります。&lt;/p&gt;
-&lt;p&gt;Ankiのアドオンの動作の仕方はおおよそ次のように分類できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-設定画面がなく機能するもの (例: Maturing Cards)
-&lt;/li&gt;
-&lt;li&gt;
-メニューから設定画面を開いて、機能設定できるもの (例: AwesomeTTS)
-&lt;/li&gt;
-&lt;li&gt;
-Ankiの設定画面の中に追加されたアドオン用項目から、機能設定できるもの (例: load balancer)
-&lt;/li&gt;
-&lt;li&gt;
-設定画面がなく、メニューから項目を選択したり、キーボードを押して始めて機能するもの (例: Export Browser&amp;#8217;s card list contents to CSV file)
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;この点を理解しておくと、標準機能からどのような変化が起ったか見つけやすくなります。また、日本語ユーザーインターフェースを使っている場合は、英語表記が現れている箇所は、アドオンの影響を受けていると考えてまず間違いないです。&lt;/p&gt;
-&lt;p&gt;経験上、使い方が書いていないアドオンは上の「設定画面がなく機能するもの」であることが多いです。&lt;/p&gt;
-&lt;p&gt;それでも分からない時には[ツール]&amp;gt;[アドオン]&amp;gt;[&lt;strong&gt;削除したいアドオンの名前&lt;/strong&gt;]&amp;gt;[編集]を選択します。ソースコードの先頭にコメントとして使い方が書いてあるものもあります。ここにウェブページには載っていない、バージョンアップ後の使い方の変更点や新しい機能が載っている場合もあります。&lt;/p&gt;
-&lt;h3 id=&#34;アドオンの削除&#34;&gt;アドオンの削除&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;メニューバーから[ツール]&amp;gt;[アドオン]&amp;gt;[&lt;strong&gt;削除したいアドオンの名前&lt;/strong&gt;]&amp;gt;[削除]を選択します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_3_7.png&#34; alt=&#34;アドオンの削除&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 11. アドオンの削除&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;アドオンをインストールしてエラーが出たら&#34;&gt;アドオンをインストールしてエラーが出たら&lt;/h3&gt;
-&lt;p&gt;一旦 Anki を終了し、[Shift] キーを押しながら Anki を起動します。アドオンは読み込まれないので今度はエラーが出ないはずです。前に紹介した手順でインストールしたアドオンを削除します。&lt;/p&gt;
-&lt;h3 id=&#34;addonguide&#34;&gt;Ankiアドオンガイド&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki-addons-guide/&#34;&gt;Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち&lt;/a&gt;では、私の知る限りではありますが、Ankiを使っている人に幅広く役立つようなアドオンを日本語で紹介しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ankiweb_オンラインストレージ&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;AnkiWeb オンラインストレージ&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;無料のサービス　AnkiWeb は、Ankiの学習データ専用のオンラインストレージサービスです。
-アカウントを作成するとこのオンラインストレージに保存したデータに
-他の PC や Anki の iPhone アプリ、Android アプリからアクセスでき、同期することが出来ます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で作業手順を紹介しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Ankiは、データ追加や機能拡張によって、ユーザーの興味や経験に対して柔軟に対応できます。また、標準機能に加えた変更をユーザー間で簡単に交換、共有することができます。人と経験や知識を交換しあう楽しさを感じてもらえると、Ankiを使った学習がもっと楽しくなるのではないかと思います。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;更新情報&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;2013/04/27: 初出&lt;/p&gt;
-&lt;p&gt;2014/09/21: 再構成&lt;/p&gt;
-&lt;p&gt;2015/02/15: 共有単語帳のダウンロード手順を改訂&lt;/p&gt;
-&lt;p&gt;2016/02/08: 共有単語帳の日本語ユーザー向け検索機能を追加&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>
