@@ -6,10 +6,157 @@
     <description>学習オプション | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 Apr 2016 05:20:21 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 Apr 2016 14:08:20 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>復習が進んだカードの手入れ</title>
+      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <pubDate>Fri, 15 Apr 2016 14:08:20 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <description>Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習間隔が広がると気になること&#34;&gt;復習間隔が広がると気になること&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳の内容にも慣れて、復習が捗って復習間隔が伸びてくると気になることがあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔一年のカードは、大体前回の復習間隔は半年前後です。ということは、はじめの半年は問題ないとしても、残り半年はいずれかの時点で忘れてしまっている可能性があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;しかし、気がつくのに忘れた時点から最大半年も後になるのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔が短い時には、気にならない差であっても、広がってくるとその日数の大きさは無視できません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_上限を設ける&#34;&gt;上限を設ける&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この問題を一番直接的に解決するのが、復習間隔の上限を設けることです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳プションの [復習]タブの [間隔の上限] で設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_10.png&#34; alt=&#34;復習間隔の上限設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 復習間隔の上限設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;初期設定では百年で事実上無制限ですが、一年に設定するなら 365 にします。
+この単語帳のカードが 3000 枚なら、毎日最低 8 枚は復習することを覚悟します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_フィルター単語帳で抜き打ち検査&#34;&gt;フィルター単語帳で抜き打ち検査&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使うと、抜き打ち検査ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;検索条件: 復習間隔一年以上で期日が三か月以上先&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;prop:ivl&amp;gt;365 prop:due&amp;gt;90&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;復習間隔の上限設定&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;[Tools] - [Study Option] - REVIEWS [Maximum interval] で設定&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption-review.png&#34; alt=&#34;復習上限の設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 復習上限の設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-custom-study/&#34;&gt;フィルター単語帳&lt;/a&gt;の作成&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;[Tools] - [More] - [Filter/Cram] を選択&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳の作成&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. フィルター単語帳の作成&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_知識を常に使う&#34;&gt;知識を常に使う&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;本質的な解決策は、Anki 以外の環境でも覚えている知識を積極的に使う機会を作るということになるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;頻出語句を暗記しているなら、文章を読んだり聴いたりする機会を設ければよいでしょう。
+出現頻度の低い難語や専門知識なら、教材に合わせて工夫が必要です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それでは Anki での SRS から逸脱しているのでは最初考えましたが、本末転倒でした。
+Anki で復習しているのは必要な時に知識を使えるようにするためです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そもそも Anki の設問と全く同じ形で知識を問われることまれでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私の場合は、覚えている内容によって方針を変えています。頻出で重要な知識は上限を設定し、特殊な知識は無制限にしています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔が長くなると、忘れた時点から気がつくまでの日数が無視できないほど大きくなる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔の上限は単語帳オプションで設定できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;フィルター単語帳を使うと復習間隔が大きいカードだけを抜き打ち検査できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本質的な解決策はその知識を Anki の外でも積極的に使うこと&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>忘れた Anki カードの出直し方</title>

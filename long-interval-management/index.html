@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。'>
+<meta name="keywords" content="Anki, AnkiMobile, 復習間隔, 学習オプション, フィルター単語帳">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。'/>
+<meta property="og:title" content="復習が進んだカードの手入れ" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/long-interval-management/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-15T14:08:20Z"/>
+<meta property="article:modified_time" content="2016-04-15T14:08:20Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="AnkiMobile"><meta property="article:tag" content="復習間隔"><meta property="article:tag" content="学習オプション"><meta property="article:tag" content="フィルター単語帳">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="復習が進んだカードの手入れ">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>復習が進んだカードの手入れ | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/long-interval-management/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">復習が進んだカードの手入れ</h1>
+  <span class="post-date"><time datetime="2016-04-15T14:08:20Z"></time>2016-04-15</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_復習間隔が広がると気になること">復習間隔が広がると気になること</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>単語帳の内容にも慣れて、復習が捗って復習間隔が伸びてくると気になることがあります。</p>
+</div>
+<div class="paragraph">
+<p>復習間隔一年のカードは、大体前回の復習間隔は半年前後です。ということは、はじめの半年は問題ないとしても、残り半年はいずれかの時点で忘れてしまっている可能性があります。</p>
+</div>
+<div class="paragraph">
+<p>しかし、気がつくのに忘れた時点から最大半年も後になるのです。</p>
+</div>
+<div class="paragraph">
+<p>復習間隔が短い時には、気にならない差であっても、広がってくるとその日数の大きさは無視できません。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_上限を設ける">上限を設ける</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>この問題を一番直接的に解決するのが、復習間隔の上限を設けることです。</p>
+</div>
+<div class="paragraph">
+<p>単語帳プションの [復習]タブの [間隔の上限] で設定します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_1_10.png" alt="復習間隔の上限設定">
+</div>
+<div class="title">図 1. 復習間隔の上限設定</div>
+</div>
+<div class="paragraph">
+<p>初期設定では百年で事実上無制限ですが、一年に設定するなら 365 にします。
+この単語帳のカードが 3000 枚なら、毎日最低 8 枚は復習することを覚悟します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_フィルター単語帳で抜き打ち検査">フィルター単語帳で抜き打ち検査</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳</a>を使うと、抜き打ち検査ができます。</p>
+</div>
+<div class="listingblock">
+<div class="title">検索条件: 復習間隔一年以上で期日が三か月以上先</div>
+<div class="content">
+<pre>prop:ivl&gt;365 prop:due&gt;90</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ankimobile_ノート">AnkiMobile ノート</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の iOS 版アプリ <a href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS">AnkiMobile Flashcards</a> でも同じ設定ができます。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">復習間隔の上限設定</dt>
+<dd>
+<p>[Tools] - [Study Option] - REVIEWS [Maximum interval] で設定</p>
+</dd>
+</dl>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-studyoption-review.png" alt="復習上限の設定" width="300">
+</div>
+<div class="title">図 2. 復習上限の設定</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="http://rs.luminousspice.com/how-to-ankimobile-custom-study/">フィルター単語帳</a>の作成</dt>
+<dd>
+<p>[Tools] - [More] - [Filter/Cram] を選択</p>
+</dd>
+</dl>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-filter.png" alt="フィルター単語帳の作成" width="300">
+</div>
+<div class="title">図 3. フィルター単語帳の作成</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_知識を常に使う">知識を常に使う</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>本質的な解決策は、Anki 以外の環境でも覚えている知識を積極的に使う機会を作るということになるでしょう。</p>
+</div>
+<div class="paragraph">
+<p>頻出語句を暗記しているなら、文章を読んだり聴いたりする機会を設ければよいでしょう。
+出現頻度の低い難語や専門知識なら、教材に合わせて工夫が必要です。</p>
+</div>
+<div class="paragraph">
+<p>それでは Anki での SRS から逸脱しているのでは最初考えましたが、本末転倒でした。
+Anki で復習しているのは必要な時に知識を使えるようにするためです。</p>
+</div>
+<div class="paragraph">
+<p>そもそも Anki の設問と全く同じ形で知識を問われることまれでしょう。</p>
+</div>
+<div class="paragraph">
+<p>私の場合は、覚えている内容によって方針を変えています。頻出で重要な知識は上限を設定し、特殊な知識は無制限にしています。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>復習間隔が長くなると、忘れた時点から気がつくまでの日数が無視できないほど大きくなる</p>
+</li>
+<li>
+<p>復習間隔の上限は単語帳オプションで設定できる</p>
+</li>
+<li>
+<p>フィルター単語帳を使うと復習間隔が大きいカードだけを抜き打ち検査できる</p>
+</li>
+<li>
+<p>本質的な解決策はその知識を Anki の外でも積極的に使うこと</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+<section id="連載_art_of_anki_熟練ユーザー限定の使いこなし方">
+  <div class="page-header">
+    <h2>連載: Art of Anki - 熟練ユーザー限定の使いこなし方</h2>
+  </div>
+<p>Anki になれてないと気がつかない、単なる機能の呼び出し方を超えた Anki の使いこなし方を取り上げます。</p>
+<ol>
+<li>
+<a href="http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/">長続きする Anki 単語帳の作り方</a> (学習セッション最適化)
+</li>
+<li>
+<a href="http://rs.luminousspice.com/cutting-up-your-anki-backlog/">ためた Anki 復習カードをスライスして消化</a> (学習中断からの復帰法)
+</li>
+<li>
+<a href="http://rs.luminousspice.com/bias-free-anki-learning/">もっと Anki に集中する使い方</a> (学習に集中するためのインターフェイス設定)
+</li>
+<li>
+<a href="http://rs.luminousspice.com/anki-learning-with-shared-decks/">Anki 共有単語帳の学び方</a> (教材の全体像理解と既成教材の使い方)
+</li>
+<li>
+<a href="http://rs.luminousspice.com/anki-mastery-calls-for-iphone/">Anki になれた方に iPhone をすすめたい理由</a> (Anki の限界を超越する iPhone アプリの位置付け)
+</li>
+<li>
+<a href="http://rs.luminousspice.com/anki-basics/">Anki 使いの原点</a> (Anki の基本的な使い方)
+</li>
+<li>
+<a href="http://rs.luminousspice.com/anki-lapse-management/">忘れた Anki カードの出直し方</a> (学習履歴を忘却したカードの復習間隔に反映する)
+</li>
+</ol>
+</section>
+
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/long-interval-management\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

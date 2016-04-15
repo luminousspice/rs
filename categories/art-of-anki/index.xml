@@ -6,10 +6,157 @@
     <description>Art Of Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 Apr 2016 03:40:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 Apr 2016 14:08:20 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/categories/art-of-anki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>復習が進んだカードの手入れ</title>
+      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <pubDate>Fri, 15 Apr 2016 14:08:20 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <description>Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習間隔が広がると気になること&#34;&gt;復習間隔が広がると気になること&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳の内容にも慣れて、復習が捗って復習間隔が伸びてくると気になることがあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔一年のカードは、大体前回の復習間隔は半年前後です。ということは、はじめの半年は問題ないとしても、残り半年はいずれかの時点で忘れてしまっている可能性があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;しかし、気がつくのに忘れた時点から最大半年も後になるのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔が短い時には、気にならない差であっても、広がってくるとその日数の大きさは無視できません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_上限を設ける&#34;&gt;上限を設ける&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この問題を一番直接的に解決するのが、復習間隔の上限を設けることです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳プションの [復習]タブの [間隔の上限] で設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_1_10.png&#34; alt=&#34;復習間隔の上限設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 復習間隔の上限設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;初期設定では百年で事実上無制限ですが、一年に設定するなら 365 にします。
+この単語帳のカードが 3000 枚なら、毎日最低 8 枚は復習することを覚悟します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_フィルター単語帳で抜き打ち検査&#34;&gt;フィルター単語帳で抜き打ち検査&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使うと、抜き打ち検査ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;検索条件: 復習間隔一年以上で期日が三か月以上先&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;prop:ivl&amp;gt;365 prop:due&amp;gt;90&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;復習間隔の上限設定&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;[Tools] - [Study Option] - REVIEWS [Maximum interval] で設定&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption-review.png&#34; alt=&#34;復習上限の設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 復習上限の設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-custom-study/&#34;&gt;フィルター単語帳&lt;/a&gt;の作成&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;[Tools] - [More] - [Filter/Cram] を選択&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳の作成&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. フィルター単語帳の作成&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_知識を常に使う&#34;&gt;知識を常に使う&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;本質的な解決策は、Anki 以外の環境でも覚えている知識を積極的に使う機会を作るということになるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;頻出語句を暗記しているなら、文章を読んだり聴いたりする機会を設ければよいでしょう。
+出現頻度の低い難語や専門知識なら、教材に合わせて工夫が必要です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それでは Anki での SRS から逸脱しているのでは最初考えましたが、本末転倒でした。
+Anki で復習しているのは必要な時に知識を使えるようにするためです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そもそも Anki の設問と全く同じ形で知識を問われることまれでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私の場合は、覚えている内容によって方針を変えています。頻出で重要な知識は上限を設定し、特殊な知識は無制限にしています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔が長くなると、忘れた時点から気がつくまでの日数が無視できないほど大きくなる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔の上限は単語帳オプションで設定できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;フィルター単語帳を使うと復習間隔が大きいカードだけを抜き打ち検査できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本質的な解決策はその知識を Anki の外でも積極的に使うこと&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki 復習予測の読み方</title>
@@ -782,153 +929,6 @@ Anki を使い込んでいる人にとってはそこが物足りないと感じ
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
-      <pubDate>Sun, 14 Sep 2014 23:30:25 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
-      <description>AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;AnkiWeb には Anki ユーザーが作った共有単語帳を共有していて、ダウンロードしてすぐに学習を始めることができ大変便利です。共有単語帳を使い始める前にすべき、コンテンツの事前確認をするための Anki の使い方を説明します。事前に教材の理解が進んでいれば、共有単語帳の学習を効率的に進めることが出来ます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;AnkiWeb には、Anki ユーザーがつくった共有単語帳が分類して共有しています。
-この中に自分の学習したい分野の単語帳が見つかれば、すぐに学習を始めることが出来大変便利です。&lt;/p&gt;
-&lt;p&gt;収録データの多さと、単語帳データの形式から、書籍のようにコンテンツの中身がどうなっているか簡単に知ることが出来ません。
-内容の理解が不十分なままダウンロードしてすぐ使うと、その後の学習がつまづきやすいです。
-そこで、今回は共有単語帳を使い始めるまえにやっておきたい、事前準備の方法を解説します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;既成単語帳の注意点&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;既成単語帳の注意点&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;単語帳を自作した場合は、情報源となる書籍やノートなど理解しながら単語帳に登録しているので、
-Anki を使い始める時にはコンテンツの内容と全体像の十分理解できているはずです。
-つまり、Anki の学習段階の新規カードは先取りして完了していることになります。
-またコンテンツの質や正確さ、自分の目的に合っているか確認も済んでいます。
-このため、Anki で自作単語帳を学習し始めると、高い正解率で記憶が進むことになります。&lt;/p&gt;
-&lt;p&gt;一方、既成の単語帳はダウンロードサイトの説明だけではコンテンツの全体像が見通し難いです。
-また、自分が学習したい内容なのか確信が持てないのではないかと思います。
-ダウンロードしてすぐ共有単語帳を使い始めると、
-教材の理解不足からまず新規カードの学習に時間を取られ、
-場合によっては教材の質や整合性から復習の正解率も低めになって、
-結局毎日たくさんの復習カードを抱えることになります。&lt;/p&gt;
-&lt;p&gt;テキストデータを一括で読み込んだ自作単語帳も同じ状況が発生しているのではないかと思います。&lt;/p&gt;
-&lt;h3 id=&#34;書籍を元にした共有単語帳&#34;&gt;書籍を元にした共有単語帳&lt;/h3&gt;
-&lt;p&gt;なお、共有単語帳の中には、書籍の内容を元にしたものがあります。
-この場合は、Anki で単語帳の学習を始める前に元の書籍を繰り返し読んで内容理解を深めましょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;anki_を利用した事前プレビューのすすめ&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Anki を利用した事前プレビューのすすめ&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki の単語帳データからコンテンツの全体像を通常の学習セッションの中で知ることは困難ですが、
-教材の全体理解を助ける機能を別途用意しています。&lt;/p&gt;
-&lt;p&gt;共有単語帳を使っていらっしゃる方は特に学習のための機能に目がいきがちなので、
-Anki のコンテンツ作成管理の機能になかなか気がつけないと思います。&lt;/p&gt;
-&lt;p&gt;そこで、ブラウザーの機能を利用した、共有単語帳のプレビューの仕方を紹介します。
-Anki に組み込みの標準機能なので、レイアウトも含めてコンテンツの中身を簡単に確認することが出来ます。&lt;/p&gt;
-&lt;p&gt;Anki のカードブラウザーのプレビュー機能を使うと、学習セッションを始めなくても、カードの一覧表示から順番にカード内容を表示して確認できます。&lt;/p&gt;
-&lt;p&gt;この機能を使えば、全てのカードの内容を簡単に確認できます。
-5 回くらい繰り返し全てのカードを繰り返し眺めておけば、コンテンツの全体像と内容が理解できると思います。&lt;/p&gt;
-&lt;h3 id=&#34;プレビュー時の確認項目&#34;&gt;プレビュー時の確認項目&lt;/h3&gt;
-&lt;p&gt;プレビューの際に気がついたら一緒にやっておきたい作業があります。Anki で学習を始める前に自分にとって使いやすいものか確認しましょう。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;正確性&lt;/strong&gt; カードの内容に間違いがないか確認。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;妥当性&lt;/strong&gt; 質問と答えの組み合わせが妥当か。自分で納得できなければ修正しましょう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;簡潔性&lt;/strong&gt; 不足している情報があれば追加し、余分な情報は削除しましょう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;可読性&lt;/strong&gt; カードが読み難い場合は、自分の読みやすい内容に改めましょう。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ブラウザー機能の使い方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ブラウザー機能の使い方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Anki のメインウィンドウから、プレビューする単語帳を選択し、さらに画面上部の [ブラウザー] をクリックします。
-ブラウザーが起動したら、[Return] キーを押すか、ウィンドウ上部の検索欄の右にある [検索] ボタンを押します。
-単語帳内のカード一覧が、右上側のパネル内に表示されます。&lt;/p&gt;
-&lt;h3 id=&#34;ブラウザーのプレビュー機能の使い方&#34;&gt;ブラウザーのプレビュー機能の使い方&lt;/h3&gt;
-&lt;p&gt;先頭項目を選択してウィンドウ上部の [プレビュー] ボタンを押すと、プレビュー画面を表示します。
-(OS X のショートカットは Command+Shift+P)&lt;/p&gt;
-&lt;p&gt;上で紹介した確認項目を調べてみましょう。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;ウィンドウ下部の [ &amp;gt; ] ボタンを押すと、一覧の上から下へカードをめくりながら移動します。
-項目を編集したい時は、ブラウザーの表示項目を編集します。&lt;/p&gt;
-&lt;p&gt;なお、ブラウザー機能には学習画面と比較すると一部制限があり、解答キー入力機能などが使えません。&lt;/p&gt;
-&lt;h3 id=&#34;ブラウザーの一覧表示を使った確認&#34;&gt;ブラウザーの一覧表示を使った確認&lt;/h3&gt;
-&lt;p&gt;一覧の先頭列を右クリックして、メニューから [質問] と [解答] を選択すると、画面にカードの質問と解答が表示できます。
-単語帳の内容によっては、質問と解答の組をこの一覧の確認で済ませることが出来ます。
-この方法は、カードのレイアウトまでは確認できません。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ankimobile_を使った事前プレビュー&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;AnkiMobile を使った事前プレビュー&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;iOS アプリの AnkiMobile では、検索画面で共有単語帳のデータ内容を一覧することができます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-ankimobile-search.png&#34; alt=&#34;AnkiMobile 検索画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile 検索画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;プレビュー機能も持っているのですが、PC 版のように一覧表示の内容を順番に移動する機能がありません。&lt;/p&gt;
-&lt;h3 id=&#34;カスタム学習によるプレビュー&#34;&gt;カスタム学習によるプレビュー&lt;/h3&gt;
-&lt;p&gt;レイアウトを確認するために、カスタム学習のプレビューの使用します。&lt;/p&gt;
-&lt;p&gt;カスタム学習セッションは、[Tools] - [More] - [Custom Study] で設定画面を呼び出して始めます。
-過去何日分まで遡って新規カードを取得するか数値入力する必要があります。
-プレビューするカードが全てとりきれる大きい値を設定してください。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-ankimobile-customstudy.png&#34; alt=&#34;AnkiMobile カスタム学習設定画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. AnkiMobile カスタム学習設定画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;右上 [OK] を押すと、カステム学習セッションが始まります。[Easy] を選択し続ければ一回表示するだけで終わります。
-表示中のカードを編集したい時は、画面上の [Edit] を選択します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-ankimobile-customsession.png&#34; alt=&#34;AnkiMobile カスタム学習セッション&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. AnkiMobile カスタム学習セッション&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;PC 版 Anki でも、同じようにカスタム学習によるプレビューは出来るのですが、上で紹介したブラウザー機能を使った方が編集作業を含めて簡単に出来ます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;共有単語帳はダウンロードしたらすぐ学習を始められる利便性は捨て難いです。
-AnkiWeb に収録しているたくさんの単語帳が Anki の強みであることは疑いないです。&lt;/p&gt;
-&lt;p&gt;覚えようとする事柄の事前によく調べておくと、効果的に Anki 学習が進められます。
-この便利な共有単語帳を使い切るには、すこし準備作業が必要ですが、Anki はそのための機能も用意しています。&lt;/p&gt;
-&lt;/section&gt;
 </content>
     </item>
     
