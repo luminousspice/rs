@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介する Anki のフロアマップです。代表的なウィンドウの役割を理解すると、Anki が提供するたくさんの機能の中から必要な機能が見つけやすくなります。'>
+<meta name="keywords" content="Anki, ユーザーインターフェイス">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介する Anki のフロアマップです。代表的なウィンドウの役割を理解すると、Anki が提供するたくさんの機能の中から必要な機能が見つけやすくなります。'/>
+<meta property="og:title" content="Anki ユーザーインターフェイスガイド" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/anki-gui-guide/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-16T11:09:59Z"/>
+<meta property="article:modified_time" content="2016-04-16T11:09:59Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="ユーザーインターフェイス">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Anki ユーザーインターフェイスガイド">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介する Anki のフロアマップです。代表的なウィンドウの役割を理解すると、Anki が提供するたくさんの機能の中から必要な機能が見つけやすくなります。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Anki ユーザーインターフェイスガイド | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/anki-gui-guide/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Anki ユーザーインターフェイスガイド</h1>
+  <span class="post-date"><time datetime="2016-04-16T11:09:59Z"></time>2016-04-16</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介します。代表的なウィンドウの役割を理解すると、Anki が提供するたくさんの機能の中から必要な機能が見つけやすくなります。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_はじめに">はじめに</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の主な機能は、学習、データ入力、データ検索、レイアウトデザイン、テンプレート管理です。それぞれ機能別に専用のウィンドウを設定して、多彩な処理が行えるように作られています。主要なウィンドウとその役割について理解しておくと、Anki のたくさんの機能の中から必要な処理を呼び出しやすくなります。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">メインウィンドウ</dt>
+<dd>
+<p>学習セッションの実施と、学習セッションの設計</p>
+</dd>
+<dt class="hdlist1">ノートエディタ</dt>
+<dd>
+<p>ノート (学習データ) の入力、編集</p>
+</dd>
+<dt class="hdlist1">カードブラウザ</dt>
+<dd>
+<p>カード内容の検索、閲覧</p>
+</dd>
+<dt class="hdlist1">カードレイアウト</dt>
+<dd>
+<p>カードのデザイン設定</p>
+</dd>
+<dt class="hdlist1">ノートタイプウィンドウ</dt>
+<dd>
+<p>ノートタイプの設定管理</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_メインウィンドウ">メインウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki が起動すると最初に表示するウィンドウです。Anki の最も基本的な処理、学習に関する作業を行います。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/msdnwl3.png" alt="メインウィンドウ">
+</div>
+<div class="title">図 1. メインウィンドウ</div>
+</div>
+<div class="ulist">
+<div class="title">機能</div>
+<ul>
+<li>
+<p>環境設定</p>
+</li>
+<li>
+<p>単語帳の作成</p>
+</li>
+<li>
+<p>ノートの追加</p>
+</li>
+<li>
+<p>カードブラウザの表示</p>
+</li>
+<li>
+<p>データの読み込み、書き出し</p>
+</li>
+<li>
+<p>プロファイル変更</p>
+</li>
+<li>
+<p>統計情報</p>
+</li>
+<li>
+<p>同期</p>
+</li>
+<li>
+<p>フィルター単語帳の作成</p>
+</li>
+<li>
+<p>データの保守</p>
+<div class="ulist">
+<ul>
+<li>
+<p>データベースをチェック</p>
+</li>
+<li>
+<p>メディアをチェック</p>
+</li>
+<li>
+<p>白紙のカードをチェック</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>ノートタイプの管理</p>
+</li>
+<li>
+<p>共有単語帳の取得</p>
+</li>
+<li>
+<p>アドオンの管理</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_単語帳一覧">単語帳一覧</h3>
+<div class="paragraph">
+<p>Anki の起動直後にコレクション全体の単語帳一覧を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_3_3.png" alt="単語帳一覧">
+</div>
+<div class="title">図 2. 単語帳一覧</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [D]</p>
+</div>
+<div class="paragraph">
+<p><strong>呼び出し方:</strong> 学習画面からツールバーの [単語帳] を選択</p>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>単語帳名の変更</p>
+</li>
+<li>
+<p>単語帳オプションの設定</p>
+</li>
+<li>
+<p>単語帳の書き出し</p>
+</li>
+<li>
+<p>単語帳の削除</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_単語帳概要">単語帳概要</h3>
+<div class="paragraph">
+<p>学習セッションを開始する際の先頭画面。単語帳の概要を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/anki2013_1.png" alt="単語帳概要">
+</div>
+<div class="title">図 3. 単語帳概要</div>
+</div>
+<div class="paragraph">
+<p><strong>呼び出し方:</strong> 単語帳一覧から単語帳名を選択。</p>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>学習セッションを開始</p>
+</li>
+<li>
+<p>延期の解除</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_カード表面">カード表面</h3>
+<div class="paragraph">
+<p>ノートの質問を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt03_5.png" alt="カード表面">
+</div>
+<div class="title">図 4. カード表面</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>解答を表示</p>
+</li>
+<li>
+<p>ノートを編集</p>
+</li>
+<li>
+<p>カード、ノートの保留、延長、マーク</p>
+</li>
+<li>
+<p>ノートを削除</p>
+</li>
+<li>
+<p>音声を再生</p>
+</li>
+<li>
+<p>録音</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_カード裏面">カード裏面</h3>
+<div class="paragraph">
+<p>ノートの解答を表示します。答え合わせをし、記憶状態の評価をします。初期設定のカードでは、質問と解答の両方を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2lwt03_6.png" alt="カード裏面">
+</div>
+<div class="title">図 5. カード裏面</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>記憶状態の評価</p>
+</li>
+<li>
+<p>ノートを編集</p>
+</li>
+<li>
+<p>カード、ノートの保留、延長、マーク</p>
+</li>
+<li>
+<p>ノートを削除</p>
+</li>
+<li>
+<p>音声を再生</p>
+</li>
+<li>
+<p>録音</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_学習セッション終了画面">学習セッション終了画面</h3>
+<div class="paragraph">
+<p>学習セッションからカードがなくなった場合に表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_1_7.png" alt="学習セッション終了画面">
+</div>
+<div class="title">図 6. 学習セッション終了画面</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>延期の解除</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_動画再生ウィンドウ">動画再生ウィンドウ</h3>
+<div class="paragraph">
+<p>カードに動画データが含まれている場合は、メディアプレイヤーの MPlayer が新規にウィンドウを開いて再生します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/mplayer-shortcut.png" alt="動画再生ウィンドウ">
+</div>
+<div class="title">図 7. 動画再生ウィンドウ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカット:</strong> <a href="http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/">Anki の動画再生に使えるショートカットキー</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_単語帳オプションダイアログ">単語帳オプションダイアログ</h3>
+<div class="paragraph">
+<p>単語帳の学習オプションが設定できます。上限や係数を指定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_1_8.png" alt="単語帳オプションダイアログ">
+</div>
+<div class="title">図 8. 単語帳オプションダイアログ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [O]</p>
+</div>
+<div class="ulist">
+<div class="title">この画面での設定項目</div>
+<ul>
+<li>
+<p>一日の学習上限</p>
+</li>
+<li>
+<p>表示順</p>
+</li>
+<li>
+<p>関連カードの延期処理</p>
+</li>
+<li>
+<p>無駄なカードの処理</p>
+</li>
+<li>
+<p>自動再生の設定</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_カスタム学習ダイアログ">カスタム学習ダイアログ</h3>
+<div class="paragraph">
+<p>単語帳オプションの設定内容を一時的に変更して学習セッションを設定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/gui-customstudy.png" alt="カスタム学習ダイアログ">
+</div>
+<div class="title">図 9. カスタム学習ダイアログ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [C]</p>
+</div>
+<div class="sect3">
+<h4 id="_カスタム学習概要">カスタム学習概要</h4>
+<div class="paragraph">
+<p>一日の枚数上限を変更した時には表示しませんが、その他の場合には特別な単語帳を作成してカードを移動します。
+そのセッションの先頭に表示する画面です。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/gui-customstudy-overview.png" alt="">
+</div>
+<div class="title">図 10. カスタム学習概要</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>カスタム学習の再設定 (オプション)</p>
+</li>
+<li>
+<p>カードを集め直す (再構築)</p>
+</li>
+<li>
+<p>収集したカードを元に戻す (空にする)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_フィルター単語帳ダイアログ">フィルター単語帳ダイアログ</h3>
+<div class="paragraph">
+<p>カードの属性を条件検索して設計する特別な単語帳を作成できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/gui-filterdeck.png" alt="フィルター単語帳ダイアログ">
+</div>
+<div class="title">図 11. フィルター単語帳ダイアログ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [F]</p>
+</div>
+<div class="sect3">
+<h4 id="_フィルター単語帳概要">フィルター単語帳概要</h4>
+<div class="paragraph">
+<p>フィルター単語帳の条件に一致したカードは特別な単語帳に移動します。そのセッションの先頭に表示する画面です。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/gui-filterdeck-overview.png" alt="フィルター単語帳概要">
+</div>
+<div class="title">図 12. フィルター単語帳概要</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>フィルター単語帳の再設定 (オプション)</p>
+</li>
+<li>
+<p>カードを集め直す (再構築)</p>
+</li>
+<li>
+<p>収集したカードを元に戻す (空にする)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ノートエディタ">ノートエディタ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ノート (教材データ) の追加編集ができます。新規データを追加する場合と、既存データを編集する際に利用します。
+WYISWYG 機能を持ち書式設定が可能なエディタで、画像や音声の追加もできます。
+ウェブブラウザからのコピーアンドペーストでデータが追加できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/audio-material-noteeditor.png" alt="ノートエディタ">
+</div>
+<div class="title">図 13. ノートエディタ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [A]</p>
+</div>
+<div class="ulist">
+<div class="title">呼び出し方</div>
+<ul>
+<li>
+<p>学習画面で [編集] ボタン</p>
+</li>
+<li>
+<p>カードブラウザのカード一覧からカードを選択</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">この画面での機能</div>
+<ul>
+<li>
+<p>フィールド管理画面の呼び出し</p>
+</li>
+<li>
+<p>カードレイアウトの呼び出し</p>
+</li>
+<li>
+<p>LaTeX 用タグの入力</p>
+</li>
+<li>
+<p>HTML エディタの呼び出し</p>
+</li>
+<li>
+<p>標準入力からの録音</p>
+</li>
+<li>
+<p>画像の貼り付け</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_ノート追加ウィンドウ">ノート追加ウィンドウ</h3>
+<div class="paragraph">
+<p>ノートを新規追加する場合の特別なノートエディタで、ノートタイプの選択や追加先単語帳の選択ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_1_12.png" alt="ノート追加ウィンドウ">
+</div>
+<div class="title">図 14. ノート追加画面</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> メインウィンドウ [A], カードブラウザ [Command/Ctrl+E]</p>
+</div>
+<div class="ulist">
+<div class="title">呼び出し方</div>
+<ul>
+<li>
+<p>メインウィンドウのツールバーの [追加] ボタン</p>
+</li>
+<li>
+<p>カードブラウザのツールバーの [追加] ボタン</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">この画面での追加機能</div>
+<ul>
+<li>
+<p>ノートタイプの選択</p>
+</li>
+<li>
+<p>追加先単語帳の指定</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_html_エディタ">HTML エディタ</h4>
+<div class="paragraph">
+<p>ノートエディタから直接 HTML を編集するために利用するウィンドウです。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/html5-anki-htmleditor.png" alt=".HTML エディタ">
+</div>
+<div class="title">図 15. HTML エディタ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [Command/Ctrl+Shift+X]<br>
+<strong>呼び出し方:</strong> ツールバーから [HTML を編集]</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードブラウザ">カードブラウザ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>カードのデータを閲覧でき、カードの属性を使って検索したり、属性を変更することができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/cardtype_2.png" alt="カードブラウザ">
+</div>
+<div class="title">図 16. カードブラウザ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [B]</p>
+</div>
+<div class="ulist">
+<div class="title">この画面で機能</div>
+<ul>
+<li>
+<p>カードの検索</p>
+</li>
+<li>
+<p>ノートの追加 (Command+E)</p>
+</li>
+<li>
+<p>カードの削除</p>
+</li>
+<li>
+<p>カードの情報 (Command/Ctrl+Shift+I)</p>
+</li>
+<li>
+<p>マーク (Command/Ctrl+K)</p>
+</li>
+<li>
+<p>カードの保留 (Command/Ctrl+J)</p>
+</li>
+<li>
+<p>タグの追加 (Command/Ctrl+Shift+T)</p>
+</li>
+<li>
+<p>タグの削除 (Command+Option+T/Ctrl+Alt+T)</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_情報ダイアログ">情報ダイアログ</h3>
+<div class="paragraph">
+<p>一枚のカードの学習履歴や追加日、復習間隔、易しさなどの属性を閲覧できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/gui-cardinfo.png" alt="情報ダイアログ">
+</div>
+<div class="title">図 17. 情報ダイアログ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [Command/Ctrl + Shift + I]</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_新規カード並び替えダイアログ">新規カード並び替えダイアログ</h3>
+<div class="paragraph">
+<p>新規カードの学習順序を並び替えることができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/tips_5.png" alt="新規カード順序変更ダイアログ">
+</div>
+<div class="title">図 18. 新規カード順序変更ダイアログ</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_スケジュール変更ダイアログ">スケジュール変更ダイアログ</h3>
+<div class="paragraph">
+<p>復習期日を再設定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/tips_4.png" alt="復習期日変更ダイアログ">
+</div>
+<div class="title">図 19. 復習期日変更ダイアログ</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ノートタイプ変更ダイアログ">ノートタイプ変更ダイアログ</h3>
+<div class="paragraph">
+<p>ノートタイプを変更し、フィールドの対応を設定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_4_12.png" alt="ノートタイプ変更ダイアログ">
+</div>
+<div class="title">図 20. ノートタイプ変更ダイアログ</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_検索置換ダイアログ">検索置換ダイアログ</h3>
+<div class="paragraph">
+<p>ノートの内容を検索置換できます。正規表現も利用できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/media_bulk_import_6.png" alt="検索置換ダイアログ">
+</div>
+<div class="title">図 21. 検索置換ダイアログ</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_重複ノート検索ウィンドウ">重複ノート検索ウィンドウ</h3>
+<div class="paragraph">
+<p>重複したノートを検索する特別なウィンドウです。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/anki2013_4.png" alt="重複ノート検索ウィンドウ">
+</div>
+<div class="title">図 22. 重複ノート検索ウィンドウ</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_プレビューウィンドウ">プレビューウィンドウ</h3>
+<div class="paragraph">
+<p>学習画面に表示することなく、カードの内容をプレビューすることができます。動画や音声の再生もできます</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/anki209_1.png" alt="プレビューウィンドウ">
+</div>
+<div class="title">図 23. プレビューウィンドウ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [Command/Ctrl+Shift+P]</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードレイアウト">カードレイアウト</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>カードのデザインを設定できます。テンプレートを使ったノートの配置やスタイルシートを使った書式を設定できます。
+一つのノートタイプに複数のカードタイプを追加すると、一つのノートでいろいろなデザインの異なるカードを追加できます。
+一番単純な例では、表裏逆転したカードをノートを変更することなく一括で作成できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/cardtype_6.png" alt="カードレイアウト">
+</div>
+<div class="title">図 24. カードレイアウト</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの機能</div>
+<ul>
+<li>
+<p>カードタイプの追加、削除、名前変更、並び替え</p>
+</li>
+<li>
+<p>カードの表裏入れ替え</p>
+</li>
+<li>
+<p>カードのレイアウト設定</p>
+</li>
+<li>
+<p>カードのスタイルシート設定</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ノートタイプウィンドウ">ノートタイプウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ノートタイプの管理に関するウィンドウです。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/cardtype_3.png" alt="ノートタイプ">
+</div>
+<div class="title">図 25. ノートタイプ</div>
+</div>
+<div class="paragraph">
+<p><strong>ショートカットキー:</strong> [Command/Ctrl+Shift+N]<br>
+<strong>呼び出し方:</strong> メニューバーから [ツール] - [ノートタイプを管理]</p>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの機能</div>
+<ul>
+<li>
+<p>ノートタイプの追加、複製、名前変更、削除</p>
+</li>
+<li>
+<p>フィールド管理ウィンドウの呼び出し</p>
+</li>
+<li>
+<p>カードレイアウトウィンドウの呼び出し</p>
+</li>
+<li>
+<p>LaTeX 用オプション画面の呼び出し</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_ノートタイプ_オプションウィンドウ">ノートタイプ オプションウィンドウ</h3>
+<div class="paragraph">
+<p>LaTeX のヘッダ、フッタの情報を入力します。パッケージを追加する場合はここで指定します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/latex-option.png" alt="ノートタイプ オプションウィンドウ">
+</div>
+<div class="title">図 26. ノートタイプ オプションウィンドウ</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_フィールドウィンドウ">フィールドウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ノートのフィールドを管理するウィンドウです。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/hint_field_1.png" alt="フィールドウィンドウ">
+</div>
+<div class="title">図 27. フィールドウィンドウ</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの機能</div>
+<ul>
+<li>
+<p>フィールドの追加、名前変更、削除、並び替え</p>
+</li>
+<li>
+<p>カードブラウザ内表示のフォント設定</p>
+</li>
+<li>
+<p>ソートフィールドの指定</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_読み込み_書き出しウィンドウ">読み込み・書き出しウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>データの読み込みや書き出しを一括で行う際の詳細な設定を行います。</p>
+</div>
+<div class="sect2">
+<h3 id="_書き出しウィンドウ">書き出しウィンドウ</h3>
+<div class="paragraph">
+<p>単語帳を書き出す場合に、形式や出力内容を設定をします。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_8_1.png" alt="書き出し設定">
+</div>
+<div class="title">図 28. 書き出し設定</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの設定項目</div>
+<ul>
+<li>
+<p>ファイルフォーマット</p>
+</li>
+<li>
+<p>書き出し対象単語帳</p>
+</li>
+<li>
+<p>スケジュール情報の追加</p>
+</li>
+<li>
+<p>メディアファイルの追加</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_読み込みウィンドウ">読み込みウィンドウ</h3>
+<div class="paragraph">
+<p>テキストデータを一括処理する場合に、Anki のノートに必要な情報を追加します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/how2anki_2_1.png" alt="読み込み設定">
+</div>
+<div class="title">図 29. 読み込み設定</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの設定項目</div>
+<ul>
+<li>
+<p>ノートタイプ</p>
+</li>
+<li>
+<p>追加先単語帳</p>
+</li>
+<li>
+<p>区切り文字</p>
+</li>
+<li>
+<p>HTML 使用</p>
+</li>
+<li>
+<p>重複ノートの処理</p>
+</li>
+<li>
+<p>フィールドの対応</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_プロファイルウィンドウ">プロファイルウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>プロファイルの追加、名前変更、削除ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/profile-dialog.png" alt="プロファイルウィンドウ">
+</div>
+<div class="title">図 30. プロファイルウィンドウ</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_環境設定ウィンドウ">環境設定ウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の基本動作に関する設定をします。この項目は全てのプロファイルに共通に利用します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/preference.png" alt="環境設定ウィンドウ">
+</div>
+<div class="title">図 31. 環境設定</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの設定項目</div>
+<ul>
+<li>
+<p>ユーザーインターフェイスの使用言語指定</p>
+</li>
+<li>
+<p>クリップボードからの貼り付け</p>
+<div class="ulist">
+<ul>
+<li>
+<p>HTML を外す</p>
+</li>
+<li>
+<p>画像を PNG に変換</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>既定の追加先単語帳の指定</p>
+</li>
+<li>
+<p>新規カードと復習カードの順序</p>
+</li>
+<li>
+<p>日付変更時刻</p>
+</li>
+<li>
+<p>先取り学習の限度</p>
+</li>
+<li>
+<p>同期</p>
+<div class="ulist">
+<ul>
+<li>
+<p>アカウントの管理</p>
+</li>
+<li>
+<p>完全同期</p>
+</li>
+<li>
+<p>メディアの同期</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>自動バックアップ</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_統計ウィンドウ">統計ウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>単語帳の学習状況の統計をグラフ表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/lapse-stats-card.png" alt="統計ウィンドウ">
+</div>
+<div class="title">図 32. 統計ウィンドウ</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの表示項目</div>
+<ul>
+<li>
+<p>今日の学習概要</p>
+</li>
+<li>
+<p>今後の復習カード枚数予測</p>
+</li>
+<li>
+<p>復習量の経過</p>
+</li>
+<li>
+<p>復習時間の経過</p>
+</li>
+<li>
+<p>時間帯別正解率</p>
+</li>
+<li>
+<p>記憶の評価</p>
+</li>
+<li>
+<p>カードの進捗内訳</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/anki-gui-guide\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
