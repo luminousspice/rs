@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進めば、より詳細にカスタマイズできるようになります'>
+<meta name="keywords" content="AnkiMobile, iPhone, ユーザーインターフェイス">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進めば、より詳細にカスタマイズできるようになります'/>
+<meta property="og:title" content="AnkiMobile ユーザーインターフェイスガイド" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/ankimobile-gui-guide/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-04-17T12:47:30Z"/>
+<meta property="article:modified_time" content="2016-04-17T12:47:30Z"/>
+
+
+
+<meta property="article:tag" content="AnkiMobile"><meta property="article:tag" content="iPhone"><meta property="article:tag" content="ユーザーインターフェイス">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="AnkiMobile ユーザーインターフェイスガイド">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進めば、より詳細にカスタマイズできるようになります'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>AnkiMobile ユーザーインターフェイスガイド | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/ankimobile-gui-guide/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">AnkiMobile ユーザーインターフェイスガイド</h1>
+  <span class="post-date"><time datetime="2016-04-17T12:47:30Z"></time>2016-04-17</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進めば、より詳細にカスタマイズできるようになります。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_はじめに">はじめに</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS">AnkiMobile Flashcards</a>  の主な機能は、学習、データ入力、データ検索、環境設定です。それぞれの主要な機能で画面を分類してまとめた AnkiMobile の機能のフロアマップです。</p>
+</div>
+<div class="paragraph">
+<p>学習画面のマルチタッチスクリーンのジェスチャやボタンにはアクションが設定されています。ここで紹介した初期設定の内容をユーザーは、変更することができます。学習画面の設定項目について理解が進めば、自分の使い勝手に合わせたカスタマイズができるようになります。</p>
+</div>
+<div class="sect2">
+<h3 id="_anki_pc_版ユーザのための注意事項">Anki PC 版ユーザのための注意事項</h3>
+<div class="paragraph">
+<p>PC 版は画面と機能は固く結びついています。AnkiMobile ではマルチタッチスクリーンのジェスチャに割り当てたアクションは、ユーザーが変更できる点が使い勝手で大きく異なります。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_単語帳一覧">単語帳一覧</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Deck List: AnkiMobile が起動すると最初に表示する画面です。</p>
+</div>
+<div class="paragraph">
+<div class="title">単語帳一覧の数値</div>
+<p>上段緑: 復習
+下段青: 新規</p>
+</div>
+<div class="paragraph">
+<p>サブ単語帳がある場合は、単語帳名先頭 [+] ボタンを押すと内容を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-decklist.png" alt="単語帳一覧">
+</div>
+<div class="title">図 1. 単語帳一覧</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>環境設定 (歯車アイコン)</p>
+</li>
+<li>
+<p>統計情報 (グラフアイコン)</p>
+</li>
+<li>
+<p>Add/Export</p>
+<div class="ulist">
+<ul>
+<li>
+<p>単語帳の作成</p>
+</li>
+<li>
+<p>データの読み込み、書き出し</p>
+</li>
+<li>
+<p>共有単語帳の取得</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>同期 (Synchronize)</p>
+</li>
+<li>
+<p>単語帳名変更 (長押し)</p>
+</li>
+<li>
+<p>単語帳の削除 (左スワイプ)</p>
+</li>
+<li>
+<p>Tools 画面 (右スワイプ)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_学習画面">学習画面</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Study Screen: 単語帳一覧から単語帳名をタップすると、学習セッションに入ります。
+その日の課題がなくなるまで、カードを出題し続け、なくなったところで終了画面を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/learnscreen-button.png" alt="学習画面共通のボタン">
+</div>
+<div class="title">図 2. 学習画面共通のボタン</div>
+</div>
+<div class="paragraph">
+<p>学習画面の上部にはクイックバー (Quickbar) いうボタン (セグメント化コントロール) を表示します。ユーザーが最大 8 個までアクションを選択して配置できます。</p>
+</div>
+<div class="ulist">
+<div class="title">クイックバーの初期設定</div>
+<ul>
+<li>
+<p>ノートを追加 (Add)</p>
+</li>
+<li>
+<p>ノートを編集 (Edit)</p>
+</li>
+<li>
+<p>カードを検索 (Find)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>学習画面を上下左右四方向にスワイプした時のアクションを設定できます。</p>
+</div>
+<div class="ulist">
+<div class="title">画面スワイプの初期設定</div>
+<ul>
+<li>
+<p>単語帳一覧 (左スワイプ, Back)</p>
+</li>
+<li>
+<p>Tools 画面 (右スワイプ, Tools)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<div class="title">ピンチイン/ピンチアウト</div>
+<p>環境設定の [Rewiew] - [Pinch Scales Text] を有効にすると、テキストの大きさをピンチイン/ピンチアウトで調節できます。</p>
+</div>
+<div class="sect2">
+<h3 id="_カード表面">カード表面</h3>
+<div class="paragraph">
+<p>カードの質問を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-card-front.png" alt="カード表面">
+</div>
+<div class="title">図 3. カード表面</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の追加機能</div>
+<ul>
+<li>
+<p>解答を表示 (画面タップ)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_カード裏面">カード裏面</h3>
+<div class="paragraph">
+<p>ノートの解答を表示します。答え合わせをし、記憶状態の評価をします。初期設定のカードでは、質問と解答の両方を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-learn.png" alt="新規カード裏面">
+</div>
+<div class="title">図 4. 新規カード裏面</div>
+</div>
+<div class="paragraph">
+<p>復習の場合は、正解した場合は、記憶の状態を三段階で評価します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-review.png" alt="復習カード裏面">
+</div>
+<div class="title">図 5. 復習カード裏面</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の追加機能</div>
+<ul>
+<li>
+<p>記憶状態の評価 (画面下ボタン)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>間違えた (画面左1/3, 赤ボタン)</p>
+</li>
+<li>
+<p>普通 (画面右1/3, 緑ボタン)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_学習セッション終了画面">学習セッション終了画面</h3>
+<div class="paragraph">
+<p>学習セッションからカードがなくなった場合に表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-card-congrat.png" alt="学習セッション終了画面">
+</div>
+<div class="title">図 6. 学習セッション終了画面</div>
+</div>
+<div class="paragraph">
+<p>画面に表示するリンクから、機能が呼び出せます。</p>
+</div>
+<div class="ulist">
+<div class="title">この画面の追加機能</div>
+<ul>
+<li>
+<p>カスタム学習の作成 (Custom Study)</p>
+</li>
+<li>
+<p>延期の解除 (unbury cards now)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_スクラッチパッド">スクラッチパッド</h3>
+<div class="paragraph">
+<p>Scratch Pad: 学習セッション中に、スクラッチパッドを表示すると、直接指でなぞったり、市販のスライラスペン/タッチペンで直接画面に書き込むことができます。Apple Pencil もサポートしています。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-scratchpad-handwriting.png" alt="スクラッチパッド">
+</div>
+<div class="title">図 7. スクラッチパッド</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Toggle ScratchPad]</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ツール画面">ツール画面</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Tools Screen: 学習セッション中に、アクションを呼び出すための画面です。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/tools.png" alt="ツール画面">
+</div>
+<div class="title">図 8. ツール画面</div>
+</div>
+<div class="paragraph">
+<p>ツール画面には、最大 12 個までアクションを呼び出すボタン (Tool Buttons) を配置できます。</p>
+</div>
+<div class="paragraph">
+<p>ここでは初期設定で、Tools 画面 から呼び出せるアクションについて説明します。</p>
+</div>
+<div class="sect2">
+<h3 id="_単語帳オプション">単語帳オプション</h3>
+<div class="paragraph">
+<p>Study Option: ツール画面 から [Study Option] ボタンを押すと、単語帳の学習オプションが設定できます。上限や係数を指定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-studyoption.png" alt="単語帳オプション">
+</div>
+<div class="title">図 9. 単語帳オプション</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Study Option]</p>
+</div>
+<div class="ulist">
+<div class="title">この画面の設定項目</div>
+<ul>
+<li>
+<p>一日の学習上限 (Max &#8230;&#8203; per day)</p>
+</li>
+<li>
+<p>新規カード表示順 (NEW CARDS - Order)</p>
+</li>
+<li>
+<p>関連カードの延期処理 (Bury related &#8230;&#8203;)</p>
+</li>
+<li>
+<p>無駄なカードの処理 (LAPSES)</p>
+</li>
+<li>
+<p>自動再生の設定 (GENERAL - Automatically Play audio)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_フォントサイズ">フォントサイズ</h3>
+<div class="paragraph">
+<p>Font Scale: スライダーを使って、画面表示のフォントの大きさを調整します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_アクション一覧">アクション一覧</h3>
+<div class="paragraph">
+<p>All Actions: Tools 画面 から [More] ボタンを押すと、AnkiMobile のアクションの一覧を表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/actions.png" alt="アクション一覧">
+</div>
+<div class="title">図 10. アクション一覧</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [More]</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_カスタム学習">カスタム学習</h3>
+<div class="paragraph">
+<p>Custom Study: 単語帳オプションの設定内容を一時的に変更して学習セッションを設定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-customstudy.png" alt="カスタム学習">
+</div>
+<div class="title">図 11. カスタム学習</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Custom Study]</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_フィルター単語帳">フィルター単語帳</h3>
+<div class="paragraph">
+<p>Filtered Deck: カードの属性を条件検索して設計する特別な単語帳を作成できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-filter.png" alt="フィルター単語帳">
+</div>
+<div class="title">図 12. フィルター単語帳</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Filter/Cram]</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_編集画面">編集画面</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Edit Screen: ノート (教材データ) の追加編集ができます。新規データを追加する場合と、既存データを編集する際に利用します。
+画像や音声の追加もできます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-edit-ruby.png" alt="ノートエディタ">
+</div>
+<div class="title">図 13. ノートエディタ</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Edit]</p>
+</div>
+<div class="ulist">
+<div class="title">呼び出し方</div>
+<ul>
+<li>
+<p>学習画面で [Edit] ボタン</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>カメラで撮影した画像、カメラロール、フォトライブラリ画像の貼り付け (キーボード カメラアイコン)</p>
+</li>
+<li>
+<p>マイクからの録音 (キーボード マイクアイコン)</p>
+</li>
+<li>
+<p>検索 (画面左下 拡大鏡アイコン)</p>
+</li>
+<li>
+<p>カード属性 (画面中央 上矢印ボタン)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>カード情報</p>
+</li>
+<li>
+<p>カードを保留</p>
+</li>
+<li>
+<p>ノートを延期</p>
+</li>
+<li>
+<p>マーク</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>カードの削除 (画面右下 ごみ箱アイコン)</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_追加画面">追加画面</h3>
+<div class="paragraph">
+<p>Add Screen: ノートを新規追加する場合の特別な編集画面で、ノートタイプの選択や追加先単語帳の選択ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-addnote.png" alt=""追加画面">
+</div>
+<div class="title">図 14. 追加画面</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Add]</p>
+</div>
+<div class="ulist">
+<div class="title">この画面の追加機能</div>
+<ul>
+<li>
+<p>ノートタイプの選択 (Type: ピッカー)</p>
+</li>
+<li>
+<p>追加先単語帳の指定 (Deck: ピッカー)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_プレビュー">プレビュー</h3>
+<div class="paragraph">
+<p>Preview Screen: 学習画面に表示することなく、カードの内容をプレビューすることができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-preview.png" alt="プレビュー">
+</div>
+<div class="title">図 15. プレビュー</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_検索画面">検索画面</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Search Screen: カードのデータを閲覧、編集することができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/find.png" alt="カードブラウザ">
+</div>
+<div class="title">図 16. カードブラウザ</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Find]</p>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>カードの検索</p>
+</li>
+<li>
+<p>ノートの編集</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カード情報">カード情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Card info: 一枚のカードの学習履歴や追加日、復習間隔、易しさなどの属性を閲覧できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-cardinfo.png" alt="カード情報">
+</div>
+<div class="title">図 17. カード情報</div>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Card Info]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_読み込み_書き出し">読み込み・書き出し</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>単語帳一覧で画面左下 [Add/Export] ボタンからアクションシートが開きます。データの読み込みや書き出しを行います。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-io.png" alt="Add/Export アクションシート">
+</div>
+<div class="title">図 18. Add/Export アクションシート</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>共有単語帳の取得</p>
+</li>
+<li>
+<p>iTunes からファイルの読み込み</p>
+</li>
+<li>
+<p>iTunes へファイルを書き出し</p>
+</li>
+<li>
+<p>単語帳の新規作成</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_書き出し設定">書き出し設定</h3>
+<div class="paragraph">
+<p>iTunes へデータを書き出す場合にメディア同梱の設定します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-export.png" alt="書き出し設定">
+</div>
+<div class="title">図 19. 書き出し設定</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_環境設定">環境設定</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Preference: Anki の基本動作に関する設定をします。この項目は全てのプロファイルに共通に利用します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-preference.png" alt="環境設定ウィンドウ">
+</div>
+<div class="title">図 20. 環境設定</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>データベースをチェック (Check Database)</p>
+</li>
+<li>
+<p>メディアをチェック (Check Media)</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_同期設定">同期設定</h3>
+<div class="paragraph">
+<p>[Syncing] を選択すると、同期の設定ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-sync.png" alt="同期設定">
+</div>
+<div class="title">図 21. 同期設定</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での機能</div>
+<ul>
+<li>
+<p>認証解除 (Deauth)</p>
+</li>
+<li>
+<p>メディアファイルの同期 (Transfer Media)</p>
+</li>
+<li>
+<p>完全同期 (Full Sync)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_学習画面設定">学習画面設定</h3>
+<div class="paragraph">
+<p>[Review] を選択すると、学習画面の設定ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-preference-review.png" alt="学習画面設定">
+</div>
+<div class="title">図 22. 学習画面設定</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の設定項目</div>
+<ul>
+<li>
+<p>スケジュール設定 (Scheduling 後述)</p>
+</li>
+<li>
+<p>ジェスチャへのアクション設定</p>
+<div class="ulist">
+<ul>
+<li>
+<p>タップ (Taps)</p>
+</li>
+<li>
+<p>スワイプ (Swipes)</p>
+</li>
+<li>
+<p>ツールボタン (Tool Buttons)</p>
+</li>
+<li>
+<p>クイックバー (Quickbar)</p>
+</li>
+<li>
+<p>シェイク (Shake Action)</p>
+</li>
+<li>
+<p>ピンチ (Pinch Scales Text)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>画面向きの固定 (Force Orientation)</p>
+</li>
+<li>
+<p>解答ボタン</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ボタンの表示 (Answer Buttons)</p>
+</li>
+<li>
+<p>ボタンの大きさ (Bigger Ansewer Buttons)</p>
+</li>
+<li>
+<p>次回の復習間隔 (Next Times)</p>
+</li>
+<li>
+<p>残り枚数 (Remaining Count)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>再生ボタンの表示 (Audio Buttons)</p>
+</li>
+<li>
+<p>マナーモードでの再生 (Always Duck + Ignore Mute)</p>
+</li>
+<li>
+<p>キー入力解答の表示 (Never Type Answer)</p>
+</li>
+<li>
+<p>スクラッチパッドの大きさ (Bigger Pad)</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_スケジュール設定">スケジュール設定</h4>
+<div class="paragraph">
+<p>[Review] - [Scheduling] を選択すると、スケジュールの設定ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-preference-sched.png" alt="スケジュール設定">
+</div>
+<div class="title">図 23. スケジュール設定</div>
+</div>
+<div class="ulist">
+<div class="title">この画面での機能</div>
+<ul>
+<li>
+<p>新規カードと復習カードの順序 (New/Review Order)</p>
+</li>
+<li>
+<p>日付変更時刻 (Day Starts)</p>
+</li>
+<li>
+<p>先取り学習の限度 (Learn Ahead Minutes)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_タップアクション設定">タップアクション設定</h4>
+<div class="paragraph">
+<p>[Review] - [Taps] を選択すると、タップで呼び出すアクションを設定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-scratchpad-action.png" alt="タップ設定">
+</div>
+<div class="title">図 24. タップ設定画面</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_プロファイル設定">プロファイル設定</h3>
+<div class="paragraph">
+<p>[Profile] を選択すると、プロファイルの追加、名前変更、削除ができます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-profile.png" alt="プロファイル設定">
+</div>
+<div class="title">図 25. プロファイルウィンドウ</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>プロファイルの追加 (+ ボタン)</p>
+</li>
+<li>
+<p>プロファイルの名前変更、削除 (長押し)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_バックアップ設定">バックアップ設定</h3>
+<div class="paragraph">
+<p>[Backups] を選択すると、自動バックアップの間隔、保存ファイル数の設定ができます。自動バックアップファイルからの復活作業もここで行います。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-backup.png" alt="バックアップ設定">
+</div>
+<div class="title">図 26. バックアップ設定</div>
+</div>
+<div class="ulist">
+<div class="title">この画面の機能</div>
+<ul>
+<li>
+<p>バックアップファイルの最大保存数 (Maximun backups)</p>
+</li>
+<li>
+<p>バックアップの保存間隔 (Frequency)</p>
+</li>
+<li>
+<p>自動バックアップからの復活 (AVAILABLE BACKUPS から選択)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ankimobile_について">AnkiMobile について</h3>
+<div class="paragraph">
+<p>著作権表示を行います。現在使用中の AnkiMobile のバージョン番号が確認できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-about.png" alt="AnkiMobile について">
+</div>
+<div class="title">図 27. AnkiMobile について</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_統計ウィンドウ">統計ウィンドウ</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>単語帳の学習状況の統計をグラフ表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-stats-forcast.png" alt="統計ウィンドウ">
+</div>
+<div class="title">図 28. 統計ウィンドウ</div>
+</div>
+<div class="ulist">
+<div class="title">このウィンドウの表示項目</div>
+<ul>
+<li>
+<p>今日の学習概要</p>
+</li>
+<li>
+<p>今後の復習カード枚数予測</p>
+</li>
+<li>
+<p>復習量の経過</p>
+</li>
+<li>
+<p>復習時間の経過</p>
+</li>
+<li>
+<p>時間帯別正解率</p>
+</li>
+<li>
+<p>記憶の評価</p>
+</li>
+<li>
+<p>カードの進捗内訳</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_シェイクジェスチャ_全画面共通">シェイクジェスチャ (全画面共通)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>全画面共通で操作を元に戻すことができます。</p>
+</div>
+<div class="paragraph">
+<p><strong>Action:</strong> [Undo]</p>
+</div>
+<div class="paragraph">
+<p>内容によっては元に戻せない処理もあります。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ios_システム設定">iOS システム設定</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AnkiMobile の機能に関係する iOS のシステム設定についてまとめます。</p>
+</div>
+<div class="sect2">
+<h3 id="_サイレントスイッチ">サイレントスイッチ</h3>
+<div class="paragraph">
+<p>サイレントスイッチ (マナーモード) が有効になっていると、音声の自動再生は機能しなくなります。この設定は、AnkiMobile の環境設定の [Always Duck + Ignore Mute] で無効にできます。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_マイク">マイク</h3>
+<div class="paragraph">
+<p>マイクから録音する場合、プライバシー設定で AnkiMobile からの利用を許可する必要があります。この設定は、iOS の [設定] - [プライバシー] - [マイク] から設定します。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_選択項目">選択項目</h3>
+<div class="paragraph">
+<p>学習画面の選択項目から、テキストを読み上げるには、アクセシビリティの設定が必要です。この設定は、iOS の [設定] - [一般] - [アクセシビリティ] - [選択項目の読み上げ] から設定します。</p>
+</div>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+<hr />
+<div class="sticky-itslink"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&uo=4&at=11lGoS" rel="nofollow" target="_blank"><img src="http://is1.mzstatic.com/image/thumb/Purple69/v4/bd/43/a4/bd43a467-9f6d-d11a-5750-22b0bd88f7b9/source/60x60bb.jpg" style="border-style:none;float:left;margin:5px;" alt="AnkiMobile Flashcards" title="AnkiMobile Flashcards" /></a><div class="sticky-itslinktext"><a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&uo=4&at=11lGoS" rel="nofollow" target="_blank">AnkiMobile Flashcards</a><br />Ankitects Pty Ltd<br />価格： 3,000円 <a href="https://itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&uo=4&at=11lGoS" rel="nofollow" target="_blank"><img src="http://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_appstore-sm.png" alt ="iTunesで見る" style="border-style:none;" class="sticky-itslinkbadge" /></a><br /><span style="font-size:xx-small;">posted with <a href="http://sticky.linclip.com/linkmaker/" target="_blank">sticky</a> on 2016.3.24</span></div><br style="clear:left;" /></div> 
+
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/ankimobile-gui-guide\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
