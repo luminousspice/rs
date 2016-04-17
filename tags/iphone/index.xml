@@ -57,7 +57,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-decklist.png&#34; alt=&#34;単語帳一覧&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-decklist.png&#34; alt=&#34;単語帳一覧&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 単語帳一覧&lt;/div&gt;
 &lt;/div&gt;
@@ -111,7 +111,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/learnscreen-button.png&#34; alt=&#34;学習画面共通のボタン&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/learnscreen-button.png&#34; alt=&#34;学習画面共通のボタン&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 学習画面共通のボタン&lt;/div&gt;
 &lt;/div&gt;
@@ -157,7 +157,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-card-front.png&#34; alt=&#34;カード表面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-card-front.png&#34; alt=&#34;カード表面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. カード表面&lt;/div&gt;
 &lt;/div&gt;
@@ -177,7 +177,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-learn.png&#34; alt=&#34;新規カード裏面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-learn.png&#34; alt=&#34;新規カード裏面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 新規カード裏面&lt;/div&gt;
 &lt;/div&gt;
@@ -186,7 +186,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-review.png&#34; alt=&#34;復習カード裏面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-review.png&#34; alt=&#34;復習カード裏面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 復習カード裏面&lt;/div&gt;
 &lt;/div&gt;
@@ -216,7 +216,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-card-congrat.png&#34; alt=&#34;学習セッション終了画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-card-congrat.png&#34; alt=&#34;学習セッション終了画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 6. 学習セッション終了画面&lt;/div&gt;
 &lt;/div&gt;
@@ -260,7 +260,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/tools.png&#34; alt=&#34;ツール画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/tools.png&#34; alt=&#34;ツール画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 8. ツール画面&lt;/div&gt;
 &lt;/div&gt;
@@ -277,7 +277,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;単語帳オプション&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;単語帳オプション&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 9. 単語帳オプション&lt;/div&gt;
 &lt;/div&gt;
@@ -318,7 +318,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;images/actions.png&#34; alt=&#34;アクション一覧&#34;&gt;
+&lt;img src=&#34;images/actions.png&#34; alt=&#34;アクション一覧&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 10. アクション一覧&lt;/div&gt;
 &lt;/div&gt;
@@ -333,7 +333,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-customstudy.png&#34; alt=&#34;カスタム学習&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-customstudy.png&#34; alt=&#34;カスタム学習&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 11. カスタム学習&lt;/div&gt;
 &lt;/div&gt;
@@ -348,7 +348,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 12. フィルター単語帳&lt;/div&gt;
 &lt;/div&gt;
@@ -367,7 +367,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-edit-ruby.png&#34; alt=&#34;ノートエディタ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-edit-ruby.png&#34; alt=&#34;ノートエディタ&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 13. ノートエディタ&lt;/div&gt;
 &lt;/div&gt;
@@ -451,7 +451,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preview.png&#34; alt=&#34;プレビュー&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preview.png&#34; alt=&#34;プレビュー&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 15. プレビュー&lt;/div&gt;
 &lt;/div&gt;
@@ -466,7 +466,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;カードブラウザ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;カードブラウザ&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 16. カードブラウザ&lt;/div&gt;
 &lt;/div&gt;
@@ -494,7 +494,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-cardinfo.png&#34; alt=&#34;カード情報&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-cardinfo.png&#34; alt=&#34;カード情報&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 17. カード情報&lt;/div&gt;
 &lt;/div&gt;
@@ -511,7 +511,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-io.png&#34; alt=&#34;Add/Export アクションシート&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-io.png&#34; alt=&#34;Add/Export アクションシート&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 18. Add/Export アクションシート&lt;/div&gt;
 &lt;/div&gt;
@@ -539,7 +539,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-export.png&#34; alt=&#34;書き出し設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-export.png&#34; alt=&#34;書き出し設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 19. 書き出し設定&lt;/div&gt;
 &lt;/div&gt;
@@ -554,7 +554,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference.png&#34; alt=&#34;環境設定ウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference.png&#34; alt=&#34;環境設定ウィンドウ&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 20. 環境設定&lt;/div&gt;
 &lt;/div&gt;
@@ -576,7 +576,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-sync.png&#34; alt=&#34;同期設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-sync.png&#34; alt=&#34;同期設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 21. 同期設定&lt;/div&gt;
 &lt;/div&gt;
@@ -602,7 +602,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-review.png&#34; alt=&#34;学習画面設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-review.png&#34; alt=&#34;学習画面設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 22. 学習画面設定&lt;/div&gt;
 &lt;/div&gt;
@@ -680,7 +680,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-sched.png&#34; alt=&#34;スケジュール設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-sched.png&#34; alt=&#34;スケジュール設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 23. スケジュール設定&lt;/div&gt;
 &lt;/div&gt;
@@ -706,7 +706,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;タップ設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;タップ設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 24. タップ設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -719,7 +719,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-profile.png&#34; alt=&#34;プロファイル設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-profile.png&#34; alt=&#34;プロファイル設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 25. プロファイルウィンドウ&lt;/div&gt;
 &lt;/div&gt;
@@ -742,7 +742,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-backup.png&#34; alt=&#34;バックアップ設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-backup.png&#34; alt=&#34;バックアップ設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 26. バックアップ設定&lt;/div&gt;
 &lt;/div&gt;
@@ -768,7 +768,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-about.png&#34; alt=&#34;AnkiMobile について&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-about.png&#34; alt=&#34;AnkiMobile について&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 27. AnkiMobile について&lt;/div&gt;
 &lt;/div&gt;
@@ -783,7 +783,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-forcast.png&#34; alt=&#34;統計ウィンドウ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-forcast.png&#34; alt=&#34;統計ウィンドウ&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 28. 統計ウィンドウ&lt;/div&gt;
 &lt;/div&gt;
