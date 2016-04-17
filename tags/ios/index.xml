@@ -37,7 +37,7 @@
 &lt;div class=&#34;title&#34;&gt;図 1. スクラッチパッド利用例&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;直接指でなぞっても使えますし、市販のスライラスペン/タッチペンもつかえます。Apple Pencil もサポートしています。&lt;/p&gt;
+&lt;p&gt;直接指でなぞっても使えますし、市販のスライラスペン/タッチペンも使えます。Apple Pencil もサポートしています。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_取り消しボタン&#34;&gt;取り消しボタン&lt;/h3&gt;
@@ -83,8 +83,9 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;大きなサイズ&#34;&gt;
 &lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 大きなサイズ&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;olist arabic&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;スクラッチパッドの大きさの設定&lt;/div&gt;
@@ -104,7 +105,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定で大きなサイズを設定&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 環境設定で大きなサイズを設定&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 環境設定で大きなサイズを設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -135,7 +136,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;画面タップにスクラッチバッドの切り替えを設定&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 画面タップにスクラッチバッドの切り替えを設定&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 画面タップにスクラッチバッドの切り替えを設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -153,7 +154,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/simple-stylus.jpg&#34; alt=&#34;普段使いの筆記具をタッチペンにする&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 普段使いの筆記具をタッチペンにする&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 普段使いの筆記具をタッチペンにする&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;狭い場所では指で使い、落ち着いた場所では使い慣れている筆記具を使ってという使い分けで、様々な学習環境で書き付けるという体験を  Anki に付け加えることができます。&lt;/p&gt;
