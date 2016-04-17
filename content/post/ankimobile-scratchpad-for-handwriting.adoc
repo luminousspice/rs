@@ -36,7 +36,7 @@ https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11
 .スクラッチパッド利用例
 image::/images/am-scratchpad-handwriting.png["スクラッチパッド利用例"]
 
-直接指でなぞっても使えますし、市販のスライラスペン/タッチペンもつかえます。Apple Pencil もサポートしています。
+直接指でなぞっても使えますし、市販のスライラスペン/タッチペンも使えます。Apple Pencil もサポートしています。
 
 === 取り消しボタン
 
@@ -59,7 +59,8 @@ image::/images/am-scratchpad-handwriting.png["スクラッチパッド利用例"
 
 環境設定からスクラッチパッドをもっと大きくすることもできます。
 
-image::/images/am-scratchpad-bigger.png[""]
+.大きなサイズ
+image::/images/am-scratchpad-bigger.png["大きなサイズ"]
 
 .スクラッチパッドの大きさの設定
 . 単語帳一覧 (Deck List) 右上の歯車アイコンをタップ
