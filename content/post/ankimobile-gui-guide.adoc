@@ -1,0 +1,417 @@
++++
+date = "2016-04-17T12:47:30+00:00"
+title = "AnkiMobile ユーザーインターフェイスガイド"
+categories = ["AnkiMobile"]
+tags = ["AnkiMobile","iPhone","ユーザーインターフェイス"]
+anki = ["AnkiMobile","iPhone","ユーザーインターフェイス"]
+excerpt = "Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進めば、より詳細にカスタマイズできるようになります"
++++
+= AnkiMobile ユーザーインターフェイスガイド
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進めば、より詳細にカスタマイズできるようになります。
+:figure-caption: 図
+
+////
+:toc: macro
+:toc-placement:
+:toclevels: 1
+http://rs.luminousspice.com/ankimobile-gui-guide/
+////
+
+{description}
+
+//toc::[]
+
+== はじめに
+
+https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards]  の主な機能は、学習、データ入力、データ検索、環境設定です。それぞれの主要な機能で画面を分類してまとめた AnkiMobile の機能のフロアマップです。
+
+学習画面のマルチタッチスクリーンのジェスチャやボタンにはアクションが設定されています。ここで紹介した初期設定の内容をユーザーは、変更することができます。学習画面の設定項目について理解が進めば、自分の使い勝手に合わせたカスタマイズができるようになります。
+
+=== Anki PC 版ユーザのための注意事項
+
+PC 版は画面と機能は固く結びついています。AnkiMobile ではマルチタッチスクリーンのジェスチャに割り当てたアクションは、ユーザーが変更できる点が使い勝手で大きく異なります。
+
+== 単語帳一覧
+
+Deck List: AnkiMobile が起動すると最初に表示する画面です。
+
+.単語帳一覧の数値
+上段緑: 復習
+下段青: 新規
+
+サブ単語帳がある場合は、単語帳名先頭 [+] ボタンを押すと内容を表示します。
+
+.単語帳一覧
+image::/images/am-decklist.png["単語帳一覧"]
+
+.この画面の機能
+* 環境設定 (歯車アイコン)
+* 統計情報 (グラフアイコン)
+* Add/Export
+** 単語帳の作成
+** データの読み込み、書き出し
+** 共有単語帳の取得
+*  同期 (Synchronize)
+* 単語帳名変更 (長押し)
+* 単語帳の削除 (左スワイプ)
+* Tools 画面 (右スワイプ)
+
+== 学習画面
+
+Study Screen: 単語帳一覧から単語帳名をタップすると、学習セッションに入ります。
+その日の課題がなくなるまで、カードを出題し続け、なくなったところで終了画面を表示します。
+
+.学習画面共通のボタン
+image::/images/learnscreen-button.png["学習画面共通のボタン"]
+
+学習画面の上部にはクイックバー (Quickbar) いうボタン (セグメント化コントロール) を表示します。ユーザーが最大 8 個までアクションを選択して配置できます。
+
+.クイックバーの初期設定
+* ノートを追加 (Add)
+* ノートを編集 (Edit)
+* カードを検索 (Find)
+
+学習画面を上下左右四方向にスワイプした時のアクションを設定できます。
+
+.画面スワイプの初期設定
+* 単語帳一覧 (左スワイプ, Back)
+* Tools 画面 (右スワイプ, Tools)
+
+.ピンチイン/ピンチアウト
+環境設定の [Rewiew] - [Pinch Scales Text] を有効にすると、テキストの大きさをピンチイン/ピンチアウトで調節できます。
+
+=== カード表面
+
+カードの質問を表示します。
+
+.カード表面
+image::/images/am-card-front.png["カード表面"]
+ 
+.この画面の追加機能
+* 解答を表示 (画面タップ)
+
+=== カード裏面
+
+ノートの解答を表示します。答え合わせをし、記憶状態の評価をします。初期設定のカードでは、質問と解答の両方を表示します。
+
+.新規カード裏面
+image::/images/am-learn.png["新規カード裏面"]
+
+復習の場合は、正解した場合は、記憶の状態を三段階で評価します。
+
+.復習カード裏面
+image::/images/am-review.png["復習カード裏面"]
+
+.この画面の追加機能
+* 記憶状態の評価 (画面下ボタン)
+** 間違えた (画面左1/3, 赤ボタン)
+** 普通 (画面右1/3, 緑ボタン)
+
+=== 学習セッション終了画面
+
+学習セッションからカードがなくなった場合に表示します。
+
+.学習セッション終了画面
+image::/images/am-card-congrat.png["学習セッション終了画面"]
+
+画面に表示するリンクから、機能が呼び出せます。
+
+.この画面の追加機能
+* カスタム学習の作成 (Custom Study)
+* 延期の解除 (unbury cards now)
+
+=== スクラッチパッド
+
+Scratch Pad: 学習セッション中に、スクラッチパッドを表示すると、直接指でなぞったり、市販のスライラスペン/タッチペンで直接画面に書き込むことができます。Apple Pencil もサポートしています。
+
+.スクラッチパッド
+image::/images/am-scratchpad-handwriting.png["スクラッチパッド"]
+
+*Action:* [Toggle ScratchPad]
+
+== ツール画面
+
+Tools Screen: 学習セッション中に、アクションを呼び出すための画面です。
+
+.ツール画面
+image::/images/tools.png["ツール画面"]
+
+ツール画面には、最大 12 個までアクションを呼び出すボタン (Tool Buttons) を配置できます。
+
+ここでは初期設定で、Tools 画面 から呼び出せるアクションについて説明します。
+
+=== 単語帳オプション
+
+Study Option: ツール画面 から [Study Option] ボタンを押すと、単語帳の学習オプションが設定できます。上限や係数を指定できます。
+
+.単語帳オプション
+image::/images/am-studyoption.png["単語帳オプション"]
+
+*Action:* [Study Option]
+
+.この画面の設定項目
+* 一日の学習上限 (Max ... per day)
+* 新規カード表示順 (NEW CARDS - Order)
+* 関連カードの延期処理 (Bury related ...)
+* 無駄なカードの処理 (LAPSES)
+* 自動再生の設定 (GENERAL - Automatically Play audio)
+
+=== フォントサイズ
+
+Font Scale: スライダーを使って、画面表示のフォントの大きさを調整します。
+
+=== アクション一覧
+
+All Actions: Tools 画面 から [More] ボタンを押すと、AnkiMobile のアクションの一覧を表示します。
+
+.アクション一覧
+image::images/actions.png["アクション一覧"]
+
+*Action:* [More]
+
+=== カスタム学習
+
+Custom Study: 単語帳オプションの設定内容を一時的に変更して学習セッションを設定できます。
+
+.カスタム学習
+image::/images/am-customstudy.png["カスタム学習"]
+
+*Action:* [Custom Study]
+
+=== フィルター単語帳
+
+Filtered Deck: カードの属性を条件検索して設計する特別な単語帳を作成できます。
+
+.フィルター単語帳
+image::/images/am-filter.png["フィルター単語帳"]
+
+*Action:* [Filter/Cram]
+
+== 編集画面
+
+Edit Screen: ノート (教材データ) の追加編集ができます。新規データを追加する場合と、既存データを編集する際に利用します。
+画像や音声の追加もできます。
+
+.ノートエディタ
+image::/images/am-edit-ruby.png["ノートエディタ"]
+
+*Action:* [Edit]
+
+.呼び出し方
+* 学習画面で [Edit] ボタン
+
+.この画面の機能
+* カメラで撮影した画像、カメラロール、フォトライブラリ画像の貼り付け (キーボード カメラアイコン)
+* マイクからの録音 (キーボード マイクアイコン)
+* 検索 (画面左下 拡大鏡アイコン)
+* カード属性 (画面中央 上矢印ボタン)
+** カード情報
+** カードを保留
+** ノートを延期
+** マーク
+* カードの削除 (画面右下 ごみ箱アイコン)
+
+=== 追加画面
+
+Add Screen: ノートを新規追加する場合の特別な編集画面で、ノートタイプの選択や追加先単語帳の選択ができます。
+
+.追加画面
+image::/images/am-addnote.png["追加画面]
+
+*Action:* [Add]
+
+.この画面の追加機能
+* ノートタイプの選択 (Type: ピッカー)
+* 追加先単語帳の指定 (Deck: ピッカー)
+
+=== プレビュー
+
+Preview Screen: 学習画面に表示することなく、カードの内容をプレビューすることができます。
+
+.プレビュー
+image::/images/am-preview.png["プレビュー"]
+
+== 検索画面
+
+Search Screen: カードのデータを閲覧、編集することができます。
+
+.カードブラウザ
+image::/images/find.png["カードブラウザ"]
+
+*Action:* [Find]
+
+.この画面の機能
+* カードの検索
+* ノートの編集
+
+== カード情報
+
+Card info: 一枚のカードの学習履歴や追加日、復習間隔、易しさなどの属性を閲覧できます。
+
+.カード情報
+image::/images/am-cardinfo.png["カード情報"]
+
+*Action:* [Card Info]
+
+== 読み込み・書き出し
+
+単語帳一覧で画面左下 [Add/Export] ボタンからアクションシートが開きます。データの読み込みや書き出しを行います。
+
+.Add/Export アクションシート
+image::/images/am-io.png["Add/Export アクションシート"]
+
+.この画面の機能
+* 共有単語帳の取得
+* iTunes からファイルの読み込み
+* iTunes へファイルを書き出し
+* 単語帳の新規作成
+
+=== 書き出し設定
+
+iTunes へデータを書き出す場合にメディア同梱の設定します。
+
+.書き出し設定
+image::/images/am-export.png["書き出し設定"]
+
+== 環境設定
+
+Preference: Anki の基本動作に関する設定をします。この項目は全てのプロファイルに共通に利用します。
+
+.環境設定
+image::/images/am-preference.png["環境設定ウィンドウ"]
+
+.この画面の機能
+* データベースをチェック (Check Database)
+* メディアをチェック (Check Media)
+
+=== 同期設定
+
+[Syncing] を選択すると、同期の設定ができます。
+
+.同期設定
+image::/images/am-sync.png["同期設定"]
+
+.この画面での機能
+* 認証解除 (Deauth)
+* メディアファイルの同期 (Transfer Media)
+* 完全同期 (Full Sync)
+
+=== 学習画面設定
+
+[Review] を選択すると、学習画面の設定ができます。
+
+.学習画面設定
+image::/images/am-preference-review.png["学習画面設定"]
+
+.この画面の設定項目
+* スケジュール設定 (Scheduling 後述)
+*　ジェスチャへのアクション設定
+** タップ (Taps)
+** スワイプ (Swipes)
+** ツールボタン (Tool Buttons)
+** クイックバー (Quickbar)
+** シェイク (Shake Action)
+** ピンチ (Pinch Scales Text)
+* 画面向きの固定 (Force Orientation)
+* 解答ボタン
+** ボタンの表示 (Answer Buttons)
+** ボタンの大きさ (Bigger Ansewer Buttons)
+** 次回の復習間隔 (Next Times)
+** 残り枚数 (Remaining Count)
+* 再生ボタンの表示 (Audio Buttons)
+* マナーモードでの再生 (Always Duck + Ignore Mute)
+* キー入力解答の表示 (Never Type Answer)
+* スクラッチパッドの大きさ (Bigger Pad)
+
+==== スケジュール設定
+
+[Review] - [Scheduling] を選択すると、スケジュールの設定ができます。
+
+.スケジュール設定
+image::/images/am-preference-sched.png["スケジュール設定"]
+
+.この画面での機能
+* 新規カードと復習カードの順序 (New/Review Order)
+* 日付変更時刻 (Day Starts)
+* 先取り学習の限度 (Learn Ahead Minutes)
+
+==== タップアクション設定
+
+[Review] - [Taps] を選択すると、タップで呼び出すアクションを設定できます。
+
+.タップ設定画面
+image::/images/am-scratchpad-action.png["タップ設定"]
+
+=== プロファイル設定
+
+[Profile] を選択すると、プロファイルの追加、名前変更、削除ができます。
+
+.プロファイルウィンドウ
+image::/images/am-profile.png["プロファイル設定"]
+
+.この画面の機能
+* プロファイルの追加 (+ ボタン)
+* プロファイルの名前変更、削除 (長押し)
+
+=== バックアップ設定
+
+[Backups] を選択すると、自動バックアップの間隔、保存ファイル数の設定ができます。自動バックアップファイルからの復活作業もここで行います。
+
+.バックアップ設定
+image::/images/am-backup.png["バックアップ設定"]
+
+.この画面の機能
+* バックアップファイルの最大保存数 (Maximun backups)
+* バックアップの保存間隔 (Frequency)
+* 自動バックアップからの復活 (AVAILABLE BACKUPS から選択)
+
+=== AnkiMobile について
+
+著作権表示を行います。現在使用中の AnkiMobile のバージョン番号が確認できます。
+
+.AnkiMobile について
+image::/images/am-about.png["AnkiMobile について"]
+
+== 統計ウィンドウ
+
+単語帳の学習状況の統計をグラフ表示します。
+
+.統計ウィンドウ
+image::/images/am-stats-forcast.png["統計ウィンドウ"]
+
+.このウィンドウの表示項目
+* 今日の学習概要
+* 今後の復習カード枚数予測
+* 復習量の経過
+* 復習時間の経過
+* 時間帯別正解率
+* 記憶の評価
+* カードの進捗内訳
+
+== シェイクジェスチャ (全画面共通)
+
+全画面共通で操作を元に戻すことができます。
+
+*Action:* [Undo]
+
+内容によっては元に戻せない処理もあります。
+
+== iOS システム設定
+
+AnkiMobile の機能に関係する iOS のシステム設定についてまとめます。
+
+=== サイレントスイッチ
+
+サイレントスイッチ (マナーモード) が有効になっていると、音声の自動再生は機能しなくなります。この設定は、AnkiMobile の環境設定の [Always Duck + Ignore Mute] で無効にできます。
+
+=== マイク
+
+マイクから録音する場合、プライバシー設定で AnkiMobile からの利用を許可する必要があります。この設定は、iOS の [設定] - [プライバシー] - [マイク] から設定します。
+
+=== 選択項目
+
+学習画面の選択項目から、テキストを読み上げるには、アクセシビリティの設定が必要です。この設定は、iOS の [設定] - [一般] - [アクセシビリティ] - [選択項目の読み上げ] から設定します。
