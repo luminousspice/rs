@@ -46,7 +46,7 @@ Deck List: AnkiMobile が起動すると最初に表示する画面です。
 サブ単語帳がある場合は、単語帳名先頭 [+] ボタンを押すと内容を表示します。
 
 .単語帳一覧
-image::/images/am-decklist.png["単語帳一覧"]
+image::/images/am-decklist.png["単語帳一覧",width="300"]
 
 .この画面の機能
 * 環境設定 (歯車アイコン)
@@ -66,7 +66,7 @@ Study Screen: 単語帳一覧から単語帳名をタップすると、学習セ
 その日の課題がなくなるまで、カードを出題し続け、なくなったところで終了画面を表示します。
 
 .学習画面共通のボタン
-image::/images/learnscreen-button.png["学習画面共通のボタン"]
+image::/images/learnscreen-button.png["学習画面共通のボタン",width="300"]
 
 学習画面の上部にはクイックバー (Quickbar) いうボタン (セグメント化コントロール) を表示します。ユーザーが最大 8 個までアクションを選択して配置できます。
 
@@ -89,7 +89,7 @@ image::/images/learnscreen-button.png["学習画面共通のボタン"]
 カードの質問を表示します。
 
 .カード表面
-image::/images/am-card-front.png["カード表面"]
+image::/images/am-card-front.png["カード表面",width="300"]
  
 .この画面の追加機能
 * 解答を表示 (画面タップ)
@@ -99,12 +99,12 @@ image::/images/am-card-front.png["カード表面"]
 ノートの解答を表示します。答え合わせをし、記憶状態の評価をします。初期設定のカードでは、質問と解答の両方を表示します。
 
 .新規カード裏面
-image::/images/am-learn.png["新規カード裏面"]
+image::/images/am-learn.png["新規カード裏面",width="300"]
 
 復習の場合は、正解した場合は、記憶の状態を三段階で評価します。
 
 .復習カード裏面
-image::/images/am-review.png["復習カード裏面"]
+image::/images/am-review.png["復習カード裏面",width="300"]
 
 .この画面の追加機能
 * 記憶状態の評価 (画面下ボタン)
@@ -116,7 +116,7 @@ image::/images/am-review.png["復習カード裏面"]
 学習セッションからカードがなくなった場合に表示します。
 
 .学習セッション終了画面
-image::/images/am-card-congrat.png["学習セッション終了画面"]
+image::/images/am-card-congrat.png["学習セッション終了画面",width="300"]
 
 画面に表示するリンクから、機能が呼び出せます。
 
@@ -138,7 +138,7 @@ image::/images/am-scratchpad-handwriting.png["スクラッチパッド"]
 Tools Screen: 学習セッション中に、アクションを呼び出すための画面です。
 
 .ツール画面
-image::/images/tools.png["ツール画面"]
+image::/images/tools.png["ツール画面",width="300"]
 
 ツール画面には、最大 12 個までアクションを呼び出すボタン (Tool Buttons) を配置できます。
 
@@ -149,7 +149,7 @@ image::/images/tools.png["ツール画面"]
 Study Option: ツール画面 から [Study Option] ボタンを押すと、単語帳の学習オプションが設定できます。上限や係数を指定できます。
 
 .単語帳オプション
-image::/images/am-studyoption.png["単語帳オプション"]
+image::/images/am-studyoption.png["単語帳オプション",width="300"]
 
 *Action:* [Study Option]
 
@@ -169,7 +169,7 @@ Font Scale: スライダーを使って、画面表示のフォントの大き�
 All Actions: Tools 画面 から [More] ボタンを押すと、AnkiMobile のアクションの一覧を表示します。
 
 .アクション一覧
-image::images/actions.png["アクション一覧"]
+image::images/actions.png["アクション一覧",width="300"]
 
 *Action:* [More]
 
@@ -178,7 +178,7 @@ image::images/actions.png["アクション一覧"]
 Custom Study: 単語帳オプションの設定内容を一時的に変更して学習セッションを設定できます。
 
 .カスタム学習
-image::/images/am-customstudy.png["カスタム学習"]
+image::/images/am-customstudy.png["カスタム学習",width="300"]
 
 *Action:* [Custom Study]
 
@@ -187,7 +187,7 @@ image::/images/am-customstudy.png["カスタム学習"]
 Filtered Deck: カードの属性を条件検索して設計する特別な単語帳を作成できます。
 
 .フィルター単語帳
-image::/images/am-filter.png["フィルター単語帳"]
+image::/images/am-filter.png["フィルター単語帳",width="300"]
 
 *Action:* [Filter/Cram]
 
@@ -197,7 +197,7 @@ Edit Screen: ノート (教材データ) の追加編集ができます。新規
 画像や音声の追加もできます。
 
 .ノートエディタ
-image::/images/am-edit-ruby.png["ノートエディタ"]
+image::/images/am-edit-ruby.png["ノートエディタ",width="300"]
 
 *Action:* [Edit]
 
@@ -233,14 +233,14 @@ image::/images/am-addnote.png["追加画面]
 Preview Screen: 学習画面に表示することなく、カードの内容をプレビューすることができます。
 
 .プレビュー
-image::/images/am-preview.png["プレビュー"]
+image::/images/am-preview.png["プレビュー",width="300"]
 
 == 検索画面
 
 Search Screen: カードのデータを閲覧、編集することができます。
 
 .カードブラウザ
-image::/images/find.png["カードブラウザ"]
+image::/images/find.png["カードブラウザ",width="300"]
 
 *Action:* [Find]
 
@@ -253,7 +253,7 @@ image::/images/find.png["カードブラウザ"]
 Card info: 一枚のカードの学習履歴や追加日、復習間隔、易しさなどの属性を閲覧できます。
 
 .カード情報
-image::/images/am-cardinfo.png["カード情報"]
+image::/images/am-cardinfo.png["カード情報",width="300"]
 
 *Action:* [Card Info]
 
@@ -262,7 +262,7 @@ image::/images/am-cardinfo.png["カード情報"]
 単語帳一覧で画面左下 [Add/Export] ボタンからアクションシートが開きます。データの読み込みや書き出しを行います。
 
 .Add/Export アクションシート
-image::/images/am-io.png["Add/Export アクションシート"]
+image::/images/am-io.png["Add/Export アクションシート",width="300"]
 
 .この画面の機能
 * 共有単語帳の取得
@@ -275,14 +275,14 @@ image::/images/am-io.png["Add/Export アクションシート"]
 iTunes へデータを書き出す場合にメディア同梱の設定します。
 
 .書き出し設定
-image::/images/am-export.png["書き出し設定"]
+image::/images/am-export.png["書き出し設定",width="300"]
 
 == 環境設定
 
 Preference: Anki の基本動作に関する設定をします。この項目は全てのプロファイルに共通に利用します。
 
 .環境設定
-image::/images/am-preference.png["環境設定ウィンドウ"]
+image::/images/am-preference.png["環境設定ウィンドウ",width="300"]
 
 .この画面の機能
 * データベースをチェック (Check Database)
@@ -293,7 +293,7 @@ image::/images/am-preference.png["環境設定ウィンドウ"]
 [Syncing] を選択すると、同期の設定ができます。
 
 .同期設定
-image::/images/am-sync.png["同期設定"]
+image::/images/am-sync.png["同期設定",width="300"]
 
 .この画面での機能
 * 認証解除 (Deauth)
@@ -305,7 +305,7 @@ image::/images/am-sync.png["同期設定"]
 [Review] を選択すると、学習画面の設定ができます。
 
 .学習画面設定
-image::/images/am-preference-review.png["学習画面設定"]
+image::/images/am-preference-review.png["学習画面設定",width="300"]
 
 .この画面の設定項目
 * スケジュール設定 (Scheduling 後述)
@@ -332,7 +332,7 @@ image::/images/am-preference-review.png["学習画面設定"]
 [Review] - [Scheduling] を選択すると、スケジュールの設定ができます。
 
 .スケジュール設定
-image::/images/am-preference-sched.png["スケジュール設定"]
+image::/images/am-preference-sched.png["スケジュール設定",width="300"]
 
 .この画面での機能
 * 新規カードと復習カードの順序 (New/Review Order)
@@ -344,14 +344,14 @@ image::/images/am-preference-sched.png["スケジュール設定"]
 [Review] - [Taps] を選択すると、タップで呼び出すアクションを設定できます。
 
 .タップ設定画面
-image::/images/am-scratchpad-action.png["タップ設定"]
+image::/images/am-scratchpad-action.png["タップ設定",width="300"]
 
 === プロファイル設定
 
 [Profile] を選択すると、プロファイルの追加、名前変更、削除ができます。
 
 .プロファイルウィンドウ
-image::/images/am-profile.png["プロファイル設定"]
+image::/images/am-profile.png["プロファイル設定",width="300"]
 
 .この画面の機能
 * プロファイルの追加 (+ ボタン)
@@ -362,7 +362,7 @@ image::/images/am-profile.png["プロファイル設定"]
 [Backups] を選択すると、自動バックアップの間隔、保存ファイル数の設定ができます。自動バックアップファイルからの復活作業もここで行います。
 
 .バックアップ設定
-image::/images/am-backup.png["バックアップ設定"]
+image::/images/am-backup.png["バックアップ設定",width="300"]
 
 .この画面の機能
 * バックアップファイルの最大保存数 (Maximun backups)
@@ -374,14 +374,14 @@ image::/images/am-backup.png["バックアップ設定"]
 著作権表示を行います。現在使用中の AnkiMobile のバージョン番号が確認できます。
 
 .AnkiMobile について
-image::/images/am-about.png["AnkiMobile について"]
+image::/images/am-about.png["AnkiMobile について",width="300"]
 
 == 統計ウィンドウ
 
 単語帳の学習状況の統計をグラフ表示します。
 
 .統計ウィンドウ
-image::/images/am-stats-forcast.png["統計ウィンドウ"]
+image::/images/am-stats-forcast.png["統計ウィンドウ",width="300"]
 
 .このウィンドウの表示項目
 * 今日の学習概要
