@@ -34,7 +34,7 @@ excerpt: "ツイッターアカウント Ankigene (@Ankigene) は、Anki を使�
   <div class="page-header">
     <h2>ツイート内容</h2>
   </div>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ブラウザーから未使用のタグを削除するには、 ブラウザーから[ツール]-[データベースをチェック]を選びます。| Anki Tips <a href="https://t.co/vAWhzQZ3oN">https://t.co/vAWhzQZ3oN</a></p>&mdash; Ankigene (@Ankigene) <a href="https://twitter.com/Ankigene/status/721257653398216704">2016年4月16日</a></blockquote>
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">ブラウザーから未使用のタグを削除するには、 ブラウザーから[ツール]-[データベースをチェック]を選びます。| Anki Tips <a href="https://t.co/vAWhzQZ3oN">https://t.co/vAWhzQZ3oN</a></p>&mdash; Ankigene (@Ankigene) <a href="https://twitter.com/Ankigene/status/721257653398216704">2016年4月16日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </section>
 
