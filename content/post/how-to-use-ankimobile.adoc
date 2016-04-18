@@ -1,7 +1,7 @@
 ---
 slug: "how-to-use-ankimobile"
 date: "2014-09-13T21:30:52+00:00"
-lastmod: "2016-04-09T08:51:32+00:00"
+lastmod: "2016-04-18T00:17:19+00:00"
 title: "iPhone ユーザーのためのはじめての Anki"
 weight: 30
 type: "post"
@@ -16,6 +16,8 @@ excerpt: "Anki の iOS 版アプリ AnkiMobile を使いこなすのに必要な
 :encoding: UTF-8
 :keywords:
 :description: Anki の iOS 版アプリ AnkiMobile を使いこなすのに必要な基本操作のオリエンテーションです。AnkiMobile を単独利用する方を想定しています。サンプルデータを使いながら説明するので前提知識は要りません。
+:figure-caption: 図
+
 ////
 :toc: macro
 :toc-placement:
@@ -347,6 +349,17 @@ link:/how-to-sync-with-ankiweb/[AnkiWeb 同期機能]:: AnkiWeb 同期機能を�
 link:/how-to-use-profile/[プロファイル]:: 一つの機器を多人数で共有するためのプロファイルの使い方を説明します。
 //Anki を共有機器で利用するためのプロファイルの使い方
 
+link:/ankimobile-scratchpad-for-handwriting/[スクラッチパッド]:: 画面に手書きできるスクラッチパッドの使い方を説明します。
+
+link:/ankimobile-audio-control/[音声制御アップデート]:: 音声再生の注意点をまとめました。
+
+link:/anki_glossary/[Anki 用語集 - Anki Glossary]::
+AnkiMobile で使用している特別な意味を持つ用語が理解できます。
+Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。
+
+link:/ankimobile-gui-guide/[AnkiMobile ユーザーインターフェイスガイド]は、主要なユーザーインターフェイスをまとめた機能フロアーマップです。 AnkiMobile の機能の全体像を理解し、その呼び出し方を調べるのに役立ちます。
+
+
 == 更新情報
 
 2014/09/13: 初出
@@ -358,3 +371,5 @@ link:/how-to-use-profile/[プロファイル]:: 一つの機器を多人数で�
 2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法
 
 2016/04/09: 更新: 全面的な構成変更
+
+2016/04/18: 更新: 詳細情報の追加
