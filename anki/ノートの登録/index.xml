@@ -159,7 +159,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/mainscreen.png&#34; alt=&#34;AnkiMobile 初期状態&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. AnkiMobile 初期状態&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. AnkiMobile 初期状態&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Anki を使いこなすには復習と学習操作に慣れること&lt;/div&gt;
@@ -255,7 +255,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/deck-download.png&#34; alt=&#34;ダウンロードが完了した&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 2. ダウンロードが完了した&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. ダウンロードが完了した&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;読み込みが完了すると、「数え方・数助詞」が単語帳一覧に現れます。&lt;/p&gt;
@@ -264,7 +264,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-deck-list-num.png&#34; alt=&#34;サンプルデータがインストールされた&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 3. サンプルデータがインストールされた&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. サンプルデータがインストールされた&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;単語帳名の右側に表示しているの数字は、上段の緑の値は今日の復習カードの枚数、下段の青の値は今日新規学習枚数です。&lt;/p&gt;
@@ -306,7 +306,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-learn.png&#34; alt=&#34;解答を表示&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 4. 解答を表示&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 解答を表示&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_カードの中身を開いてみよう&#34;&gt;カードの中身を開いてみよう&lt;/h3&gt;
@@ -320,7 +320,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-edit-ruby.png&#34; alt=&#34;編集画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 5. 編集画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 編集画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Anki はデータを HTML で表現できる&lt;/div&gt;
@@ -456,7 +456,7 @@ Anki は、データに HTML を使うことができ、文字の装飾したり
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-add.png&#34; alt=&#34;追加画面でキーボードを表示&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 6. 追加画面でキーボードを表示&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. 追加画面でキーボードを表示&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;AnkiMobile のキーボードから呼び出せる特別な機能をまとめました。&lt;/p&gt;
@@ -563,7 +563,7 @@ Anki は、データに HTML を使うことができ、文字の装飾したり
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-review.png&#34; alt=&#34;復習画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 7. 復習画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 復習画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;解答を表示して復習の結果を記録していきます。&lt;/p&gt;
@@ -736,7 +736,23 @@ AnkiMobile は使い続けてみたいと思ったら、明日からはこれま
 &lt;dd&gt;
 &lt;p&gt;一つの機器を多人数で共有するためのプロファイルの使い方を説明します。&lt;/p&gt;
 &lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/&#34;&gt;スクラッチパッド&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;画面に手書きできるスクラッチパッドの使い方を説明します。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-audio-control/&#34;&gt;音声制御アップデート&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;音声再生の注意点をまとめました。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki_glossary/&#34;&gt;Anki 用語集 - Anki Glossary&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;AnkiMobile で使用している特別な意味を持つ用語が理解できます。
+Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で意味を解説しています。&lt;/p&gt;
+&lt;/dd&gt;
 &lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/ankimobile-gui-guide/&#34;&gt;AnkiMobile ユーザーインターフェイスガイド&lt;/a&gt;は、主要なユーザーインターフェイスをまとめた機能フロアーマップです。 AnkiMobile の機能の全体像を理解し、その呼び出し方を調べるのに役立ちます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -757,6 +773,9 @@ AnkiMobile は使い続けてみたいと思ったら、明日からはこれま
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016/04/09: 更新: 全面的な構成変更&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/18: 更新: 詳細情報の追加&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
