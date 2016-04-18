@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2016-04-08T13:14:36+00:00"
+lastmod: "2016-04-18T10:47:59+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -39,7 +39,7 @@ link:https://ankiweb.net/shared/decks/[AnkiWeb に登録されている単語帳
 https://ankiweb.net/shared/info/206033178[Ankiの基礎知識], 科学技術, Tips 用語 ショートカット
 https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobile)], 言語, 英語 フランス語 ドイツ語 TTS 読み上げ
 https://ankiweb.net/shared/info/697716450[救急診療に役立つ暗記メモ集], 科学技術, 医学 医療
-https://ankiweb.net/shared/info/833115970[十六進数掛け算], 科学技術, 算数 16進 情報
+https://ankiweb.net/shared/info/1205685053[GitHubチートシート], 科学技術, 情報 バージョン管理 プログラミング
 https://ankiweb.net/shared/info/1112109660[数え方・数助詞], 言語, 国語 数助詞
 https://ankiweb.net/shared/info/329800646[変体仮名 Hentaigana Variant Kana], 言語, 国語 古文 かな 変体仮名
 https://ankiweb.net/shared/info/587958922[Man'yougana 万葉仮名], 言語, 国語 古文 かな 万葉仮名
@@ -75,6 +75,7 @@ https://ankiweb.net/shared/info/1238396573[簡単中国語（北京語）], 言�
 https://ankiweb.net/shared/info/771647964[簡単韓国語], 言語, 韓国語 日本語
 https://ankiweb.net/shared/info/1030183555[旧字体新字体 Kyuujitai Shinjitai], 言語, 国語 漢字
 https://ankiweb.net/shared/info/799735887[說文部首：楷體與小篆], 言語, 漢字 説文解字
+https://ankiweb.net/shared/info/833115970[十六進数掛け算], 科学技術, 算数 16進 情報
 https://ankiweb.net/shared/info/1037174978[電気通信主任技術者_伝送交換設備及び設備管理], 科学技術, 電気 通信 電気通信主任技術者 資格
 https://ankiweb.net/shared/info/4091424041[電験三種_法規], 科学技術, 電気 電気主任技術者 資格
 https://ankiweb.net/shared/info/1087111583[電験三種_電力], 科学技術, 電気 電気主任技術者 資格
