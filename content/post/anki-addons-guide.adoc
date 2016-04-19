@@ -1,11 +1,11 @@
 ---
 slug: "anki-addons-guide"
 date: "2014-04-14T05:00:17+00:00"
-lastmod: "2016-04-18T05:22:31+00:00"
+lastmod: "2016-04-19T14:40:08+00:00"
 title: "Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち"
 weight: 20
 categories: ["Anki"]
-tags: ["Anki","Markdown","アドオン"]
+tags: ["Anki","Markdown","アドオン","TTS"]
 anki: ["アドオン","アドオンガイド","ショートカット","ノートの登録","メディアの登録","再生速度","文字サイズ","統計","音声"]
 excerpt: "Anki は、ユーザーが標準機能を拡張変更できるアドオン機能を提供しています。ユーザーは AnkiWeb にアドオンを公開でき、Anki を使って簡単にインストールできます。自分で使ってみたアドオンの中から、誰にでも役立つようなアドオンを選んで紹介します。"
 ---
@@ -125,10 +125,12 @@ Text to Speech機能を追加するアドオンです。MP3データを作成し
 
 さらに指定したノートのフィールドから一括してテキストを読み込んで、音声ファイルを自動生成してフィールドに書き込む機能も含まれています。この機能を使って音声ファイルを同期すれば、アドオンが使えない AnkiMobile でも同じ音声を聴くことができます。
 
-.AwesomeTTS の設定例
-image::/images/media_bulk_import_8.png["AwesomeTTS MP3 の設定例"]
+あらかじめ、設定項目をプリセットとして保存しておくと、学習画面の選択範囲を読み上げることもできます。また、プリセットをグループ化すると、複数の音声を自動的に変更しながら読み上げることができます。
 
-カードテンプレートを編集してAwesomeTTSを機能させる方法は、link:/how-to-edit-cards/[Ankiのカード表示を編集する]で、音声ファイルの自動生成についてはlink:/bulk-import-media-files-into-anki/[画像、音声、動画などメディアファイルを Anki へ一括登録]で説明しています。
+.選択範囲の読み上げ
+image::/images/awesometts-presetgroup-say.png["選択範囲の読み上げ"]
+
+カードテンプレートを編集してAwesomeTTSを機能させる方法は、link:/how-to-edit-cards/[Ankiのカード表示を編集する]で、音声ファイルの自動生成についてはlink:/bulk-import-media-files-into-anki/[画像、音声、動画などメディアファイルを Anki へ一括登録]で説明しています。プリセットの使い方については、link:/awesometts-preset/[AwesomeTTS プリセットの活用]をご覧下さい。
 
 機能の詳しい内容は、link:https://ankiatts.appspot.com/[ドキュメント]をお読みください。
 
