@@ -32,7 +32,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-handwriting.png&#34; alt=&#34;スクラッチパッド利用例&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-handwriting.png&#34; alt=&#34;スクラッチパッド利用例&#34; width=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. スクラッチパッド利用例&lt;/div&gt;
 &lt;/div&gt;
@@ -83,7 +83,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;大きなサイズ&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;大きなサイズ&#34; width=&#34;450&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 大きなサイズ&lt;/div&gt;
 &lt;/div&gt;
@@ -103,7 +103,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定で大きなサイズを設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定で大きなサイズを設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 環境設定で大きなサイズを設定&lt;/div&gt;
 &lt;/div&gt;
@@ -134,7 +134,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;画面タップにスクラッチバッドの切り替えを設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;画面タップにスクラッチバッドの切り替えを設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 画面タップにスクラッチバッドの切り替えを設定&lt;/div&gt;
 &lt;/div&gt;
@@ -152,7 +152,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/simple-stylus.jpg&#34; alt=&#34;普段使いの筆記具をタッチペンにする&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/simple-stylus.jpg&#34; alt=&#34;普段使いの筆記具をタッチペンにする&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 普段使いの筆記具をタッチペンにする&lt;/div&gt;
 &lt;/div&gt;
@@ -217,7 +217,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-deckoption-audio.png&#34; alt=&#34;自動再生設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-deckoption-audio.png&#34; alt=&#34;自動再生設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 自動再生設定&lt;/div&gt;
 &lt;/div&gt;
@@ -231,7 +231,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-audio-button.png&#34; alt=&#34;再生ボタン&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-audio-button.png&#34; alt=&#34;再生ボタン&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 再生ボタン&lt;/div&gt;
 &lt;/div&gt;
@@ -251,7 +251,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
@@ -279,7 +279,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-swipe-replay.png&#34; alt=&#34;左スワイプに再生を設定&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-swipe-replay.png&#34; alt=&#34;左スワイプに再生を設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 左スワイプに再生を設定&lt;/div&gt;
 &lt;/div&gt;
@@ -315,7 +315,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 5. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
