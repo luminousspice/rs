@@ -73,7 +73,7 @@ AnkiMobile の場合は、単語帳単位で書き出すことができません
 単語帳一覧から単語帳名を左にスワイプします。
 
 .AnkiMobile での単語帳の削除
-image::/images/am-remove-deck.png["単語帳の削除"]
+image::/images/am-remove-deck.png["単語帳の削除",width="300"]
 
 === 単語帳名の変更
 
@@ -89,7 +89,7 @@ image::/images/am-remove-deck.png["単語帳の削除"]
 * REVIEWS: [Max reviews per day] を 0 に設定
 
 .学習オプション設定画面
-image::/images/am-studyoption.png["学習オプション設定画面"]
+image::/images/am-studyoption.png["学習オプション設定画面",width="300"]
 
 == まとめ
 

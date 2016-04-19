@@ -2,9 +2,9 @@
 date: "2016-04-11T11:26:29+00:00"
 title: "AnkiMobile ノート: 音声制御アップデート"
 type: "note"
-categories: ["AnkiMobile"]
-tags: ["iOS","iPhone","音声","メディア","TTS","Web Speech API"]
-anki: ["AnkiMobile","音声","メディア"]
+categories: ["AnkiMobile",width="300"]
+tags: ["iOS","iPhone","音声","メディア","TTS","Web Speech API",width="300"]
+anki: ["AnkiMobile","音声","メディア",width="300"]
 excerpt: "Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。"
 ---
 = AnkiMobile ノート: 音声制御アップデート
@@ -43,14 +43,14 @@ https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11
 . [Automatically play audio] を有効にする。
 
 .自動再生設定
-image::/images/am-deckoption-audio.png["自動再生設定"]
+image::/images/am-deckoption-audio.png["自動再生設定",width="300"]
 
 == 再生ボタン
 
 カードに音声ファイルへの参照がある場合、再生ボタン (Audio Button) をカード面に表示します。
 
 .再生ボタン
-image::/images/am-audio-button.png["再生ボタン"]
+image::/images/am-audio-button.png["再生ボタン",width="300"]
 
 .再生ボタンの設定
 . 単語帳一覧 (Deck List) 右上の歯車アイコンをタップ
@@ -58,7 +58,7 @@ image::/images/am-audio-button.png["再生ボタン"]
 . [Audio Button] を有効にする。
 
 .環境設定画面
-image::/images/am-preference-audio.png["環境設定画面"]
+image::/images/am-preference-audio.png["環境設定画面",width="300"]
 
 == マルチタッチスクリーンのジェスチャ
 
@@ -70,7 +70,7 @@ image::/images/am-preference-audio.png["環境設定画面"]
 . [Swipe Left] をタップし [Replay Audio] を選択
 
 .左スワイプに再生を設定
-image::/images/am-swipe-replay.png["左スワイプに再生を設定"]
+image::/images/am-swipe-replay.png["左スワイプに再生を設定",width="300"]
 
 == マナーモードでの自動再生
 
@@ -88,7 +88,7 @@ AnkiMobile 2.0.18 から、iPhone 本体側面にある「着信／サイレン�
 . [Always Duck + Ignore Mute] を有効にする。
 
 .環境設定画面
-image::/images/am-preference-audio.png["環境設定画面"]
+image::/images/am-preference-audio.png["環境設定画面",width="300"]
 
 == まとめ
 

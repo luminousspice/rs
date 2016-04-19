@@ -35,7 +35,7 @@ http://rs.luminousspice.com/
 https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] は、手書きで暗記する方のために、書き付けスクラッチパッド (Scratch Pad) を用意しています。
 
 .スクラッチパッド利用例
-image::/images/am-scratchpad-handwriting.png["スクラッチパッド利用例"]
+image::/images/am-scratchpad-handwriting.png["スクラッチパッド利用例",width="450"]
 
 直接指でなぞっても使えますし、市販のスライラスペン/タッチペンも使えます。Apple Pencil もサポートしています。
 
@@ -61,7 +61,7 @@ image::/images/am-scratchpad-handwriting.png["スクラッチパッド利用例"
 環境設定からスクラッチパッドをもっと大きくすることもできます。
 
 .大きなサイズ
-image::/images/am-scratchpad-bigger.png["大きなサイズ"]
+image::/images/am-scratchpad-bigger.png["大きなサイズ",width="450"]
 
 .スクラッチパッドの大きさの設定
 . 単語帳一覧 (Deck List) 右上の歯車アイコンをタップ
@@ -69,7 +69,7 @@ image::/images/am-scratchpad-bigger.png["大きなサイズ"]
 . [Bigger Pad] を有効にする。
 
 .環境設定で大きなサイズを設定
-image::/images/am-preference-audio.png["環境設定で大きなサイズを設定"]
+image::/images/am-preference-audio.png["環境設定で大きなサイズを設定",width="300"]
 
 == 呼び出し方をカスタマイズする
 
@@ -83,7 +83,7 @@ image::/images/am-preference-audio.png["環境設定で大きなサイズを設�
 . WHEN ANSWER SHOWN の [Top Center] をタップし [Toggle ScratchPad] を選択
 
 .画面タップにスクラッチバッドの切り替えを設定
-image::/images/am-scratchpad-action.png["画面タップにスクラッチバッドの切り替えを設定"]
+image::/images/am-scratchpad-action.png["画面タップにスクラッチバッドの切り替えを設定",width="300"]
 
 == 手書きでの暗記にこだわりのある方のために
 
@@ -93,6 +93,6 @@ image::/images/am-scratchpad-action.png["画面タップにスクラッチバッ
 普段の物書きの感覚を残しながら Anki が使えるというなかなか興味深い体験ができました。
 
 .普段使いの筆記具をタッチペンにする
-image::/images/simple-stylus.jpg["普段使いの筆記具をタッチペンにする"]
+image::/images/simple-stylus.jpg["普段使いの筆記具をタッチペンにする",width="300"]
 
 狭い場所では指で使い、落ち着いた場所では使い慣れている筆記具を使ってという使い分けで、様々な学習環境で書き付けるという体験を  Anki に付け加えることができます。

@@ -88,7 +88,7 @@ AnkiMobile は、学習画面からlink:/ankimobile-scratchpad-for-handwriting/[
 紙に書き付けて覚える作業と、Anki での学習に統合する手掛かりが見つかります。
 
 .Scratch Pad
-image::/images/anki-mastery-scratchpad.png["Scratch Pad"]
+image::/images/anki-mastery-scratchpad.png["Scratch Pad",width="450"]
 
 == オプション設定の同期
 

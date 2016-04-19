@@ -129,7 +129,7 @@ image::/images/am-card-congrat.png["学習セッション終了画面",width="30
 Scratch Pad: 学習セッション中に、スクラッチパッドを表示すると、直接指でなぞったり、市販のスライラスペン/タッチペンで直接画面に書き込むことができます。Apple Pencil もサポートしています。
 
 .スクラッチパッド
-image::/images/am-scratchpad-handwriting.png["スクラッチパッド"]
+image::/images/am-scratchpad-handwriting.png["スクラッチパッド",width="450"]
 
 *Action:* [Toggle ScratchPad]
 
@@ -220,7 +220,7 @@ image::/images/am-edit-ruby.png["ノートエディタ",width="300"]
 Add Screen: ノートを新規追加する場合の特別な編集画面で、ノートタイプの選択や追加先単語帳の選択ができます。
 
 .追加画面
-image::/images/am-addnote.png["追加画面]
+image::/images/am-addnote.png["追加画面",width="300"]
 
 *Action:* [Add]
 
