@@ -40,6 +40,7 @@ https://ankiweb.net/shared/info/206033178[Ankiの基礎知識], 科学技術, Ti
 https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobile)], 言語, 英語 フランス語 ドイツ語 TTS 読み上げ
 https://ankiweb.net/shared/info/697716450[救急診療に役立つ暗記メモ集], 科学技術, 医学 医療
 https://ankiweb.net/shared/info/1205685053[GitHubチートシート], 科学技術, 情報 バージョン管理 プログラミング
+https://ankiweb.net/shared/info/1880478902[航空用語集], 科学技術, 英語 略語 航空 交通
 https://ankiweb.net/shared/info/1112109660[数え方・数助詞], 言語, 国語 数助詞
 https://ankiweb.net/shared/info/329800646[変体仮名 Hentaigana Variant Kana], 言語, 国語 古文 かな 変体仮名
 https://ankiweb.net/shared/info/587958922[Man'yougana 万葉仮名], 言語, 国語 古文 かな 万葉仮名
