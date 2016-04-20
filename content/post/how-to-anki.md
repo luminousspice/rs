@@ -1,7 +1,7 @@
 ---
 slug: "how-to-anki"
 date: "2013-04-12T23:30:03+00:00"
-lastmod: "2016-04-05T02:44:10+00:00"
+lastmod: "2016-04-20T07:23:32+00:00"
 title: "はじめてのAnki – まず使ってみる"
 weight: 30
 categories: ["Anki","Anki2の使い方"]
@@ -418,8 +418,12 @@ Ankiを使った学習全般を体験できるよう内容を構成しました�
   </div>
 <p>ツイッターアカウント Ankigene (@Ankigene) は、<a href="/ankigene-bot-guide/">Anki を使い始めた時に、知っておくと役立つ知識</a>を定期的につぶやきます。
 事前に基本的な使い方を目にしていれば、いざという時に情報を探す時間を短縮できます。全ての投稿が20日で一周するスケジュールです。</p>
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">ブラウザーから未使用のタグを削除するには、 ブラウザーから[ツール]-[データベースをチェック]を選びます。| Anki Tips <a href="https://t.co/vAWhzQZ3oN">https://t.co/vAWhzQZ3oN</a></p>&mdash; Ankigene (@Ankigene) <a href="https://twitter.com/Ankigene/status/721257653398216704">2016年4月16日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="imageblock">
+<div class="content">
+<a href="/ankigene-bot-guide/"><img src="/images/ankigene-twcard.png" alt="@Ankigene つぶやきの例"></a>
+</div>
+<div class="title">図 16. @Ankigene つぶやきの例</div>
+</div>
 </section>
 <section id="もっと深く知りたい">
   <div class="page-header">
