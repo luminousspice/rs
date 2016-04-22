@@ -76,8 +76,9 @@ AnkiMobile を利用する前に確認しておきたい項目をまとめまし
 * AnkiMobile を購入後、利用開始するのに登録は不要です。
 * AnkiMobile はオフラインで利用できます。
 * AnkiMobile は、link:https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[App Store] でのみ購入やアップグレードができます。
-* AnkiMobile は、一つの Apple ID で最大 5 つの機器にインストールできます。(link:https://anki.tenderapp.com/discussions/ankimobile/3949-multiple-licenses[参考情報])
+* AnkiMobile は、一つの Apple ID で最大 5 つの機器にインストールできます(link:https://support.apple.com/ja-jp/HT202190[ホームシェアリング])。link:https://support.apple.com/ja-jp/HT201060[ファミリー共有]にも対応しています。
 * AnkiMobile のユーザーインターフェイス言語は、英語のみです。
+
 
 == サンプルデータをダウンロードしよう
 
