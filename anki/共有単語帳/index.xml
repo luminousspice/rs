@@ -583,6 +583,11 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;情報 バージョン管理 プログラミング&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/928657053&#34;&gt;摂氏華氏温度対応 (Celsius vs Fahrenheit)&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;科学技術&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;物理 化学 温度 単位&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1880478902&#34;&gt;航空用語集&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;科学技術&lt;/p&gt;&lt;/td&gt;
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;英語 略語 航空 交通&lt;/p&gt;&lt;/td&gt;
@@ -1579,11 +1584,11 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/statistics&#34;&gt;Statistics&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;物理&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E7%89%A9%E7%90%86&#34;&gt;物理&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/physics&#34;&gt;Physics&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;化学&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E5%8C%96%E5%AD%A6&#34;&gt;化学&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/chemistry&#34;&gt;Chemistry&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1627,7 +1632,7 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/Architecture&#34;&gt;Architecture&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;情報&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/%E6%83%85%E5%A0%B1&#34;&gt;情報&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/software&#34;&gt;Software&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/Programming&#34;&gt;Programming&lt;/a&gt;, &lt;a href=&#34;https://ankiweb.net/shared/decks/network&#34;&gt;Network&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
