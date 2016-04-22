@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2016-04-18T10:47:59+00:00"
+lastmod: "2016-04-22T02:09:44+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -40,6 +40,7 @@ https://ankiweb.net/shared/info/206033178[Ankiの基礎知識], 科学技術, Ti
 https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobile)], 言語, 英語 フランス語 ドイツ語 TTS 読み上げ
 https://ankiweb.net/shared/info/697716450[救急診療に役立つ暗記メモ集], 科学技術, 医学 医療
 https://ankiweb.net/shared/info/1205685053[GitHubチートシート], 科学技術, 情報 バージョン管理 プログラミング
+https://ankiweb.net/shared/info/928657053[摂氏華氏温度対応 (Celsius vs Fahrenheit)], 科学技術, 物理 化学 温度 単位
 https://ankiweb.net/shared/info/1880478902[航空用語集], 科学技術, 英語 略語 航空 交通
 https://ankiweb.net/shared/info/1112109660[数え方・数助詞], 言語, 国語 数助詞
 https://ankiweb.net/shared/info/263892501[変体仮名], 言語, 国語 古文 かな 変体仮名 毛筆
@@ -277,8 +278,8 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 言語, 英
 |日本語キーワード|英語キーワード
 |数学|link:https://ankiweb.net/shared/decks/math[Math]
 |統計|link:https://ankiweb.net/shared/decks/statistics[Statistics]
-|物理|link:https://ankiweb.net/shared/decks/physics[Physics]
-|化学|link:https://ankiweb.net/shared/decks/chemistry[Chemistry]
+|link:https://ankiweb.net/shared/decks/%E7%89%A9%E7%90%86[物理]|link:https://ankiweb.net/shared/decks/physics[Physics]
+|link:https://ankiweb.net/shared/decks/%E5%8C%96%E5%AD%A6[化学]|link:https://ankiweb.net/shared/decks/chemistry[Chemistry]
 |生物|link:https://ankiweb.net/shared/decks/biology[Biology]
 |解剖学|link:https://ankiweb.net/shared/decks/anatomy[Anatomy]
 |生理学|link:https://ankiweb.net/shared/decks/Physiology[Physiology]
@@ -289,7 +290,7 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 言語, 英
 |獣医学|link:https://ankiweb.net/shared/decks/Veterinary[Veterinary]
 |エンジニアリング|link:https://ankiweb.net/shared/decks/Engineering[Engineering]
 |建築|link:https://ankiweb.net/shared/decks/Architecture[Architecture]
-|情報|link:https://ankiweb.net/shared/decks/software[Software], link:https://ankiweb.net/shared/decks/Programming[Programming], link:https://ankiweb.net/shared/decks/network[Network]
+|link:https://ankiweb.net/shared/decks/%E6%83%85%E5%A0%B1[情報]|link:https://ankiweb.net/shared/decks/software[Software], link:https://ankiweb.net/shared/decks/Programming[Programming], link:https://ankiweb.net/shared/decks/network[Network]
 |金属|link:https://ankiweb.net/shared/decks/metal[Metal]
 |デザイン|link:https://ankiweb.net/shared/decks/design[Design]
 |環境, link:https://ankiweb.net/shared/decks/%E5%85%AC%E5%AE%B3[公害]|link:https://ankiweb.net/shared/decks/environment[Environment]
