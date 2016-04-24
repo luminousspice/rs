@@ -196,9 +196,9 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;table id=&#34;decklist&#34; class=&#34;tableblock frame-topbot grid-rows spread table table-striped table-bordered  table-hover&#34;&gt;
 &lt;colgroup&gt;
-&lt;col style=&#34;width: 40%;&#34;&gt;
-&lt;col style=&#34;width: 20%;&#34;&gt;
-&lt;col style=&#34;width: 40%;&#34;&gt;
+&lt;col style=&#34;width: 44.4444%;&#34;&gt;
+&lt;col style=&#34;width: 55.5555%;&#34;&gt;
+&lt;col style=&#34;width: 0.0001%;&#34;&gt;
 &lt;/colgroup&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -953,7 +953,7 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
 &lt;p&gt;右上検索欄にキーワードを入力すると、情報を絞り込みます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;分類列やタグ列の単語をクリックすると、その用語で情報を絞り込みます。&lt;/p&gt;
+&lt;p&gt;タグ列の単語をクリックすると、その用語で情報を絞り込みます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;左上 [検索条件解除] ボタンを押すと、全ての情報を表示します。&lt;/p&gt;

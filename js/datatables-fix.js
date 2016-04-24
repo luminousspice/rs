@@ -12,7 +12,10 @@ $(document).ready(function() {
 	       api.search( word ).draw();
 	         });
 	    },
-			responsive: true,
+        "columnDefs": [
+            { "visible": false, "targets": 1 }
+        ],
+		responsive: true,
 	    dom: 'lf<"toolbar">rtip',
 	    language:{
 		     "sEmptyTable":     "テーブルにデータがありません",
@@ -37,6 +40,7 @@ $(document).ready(function() {
 		           "sSortDescending": ": 列を降順に並べ替えるにはアクティブにする"
 		     }
 	    }
+        
 	});
 	$("div.toolbar").html('<p id="searchtool" class="btn-group"><a class="btn" href="javascript:void(0);">言語</a><a class="btn" href="javascript:void(0);">人文社会</a><a class="btn" href="javascript:void(0);">科学技術</a><a class="btn" href="javascript:void(0);">クリア</a></p>');
 	$('#searchtool a').click(function() {
