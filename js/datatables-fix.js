@@ -5,7 +5,7 @@ $(document).ready(function() {
 	var decktable = $('#decklist').DataTable({
 	    "order" : [],
 	    "lengthMenu": [ 5, 10, 20, 50],
-	    "pageLength": 5,
+	    "pageLength": 10,
 	    "initComplete": function () {
 	         var api = this.api();
 	         api.$('td:nth-last-child(-n+2)').getWordByEvent('click', function(event, word) {
