@@ -49,7 +49,7 @@ https://ankiweb.net/shared/info/135130229[反意語・対義語], 言語, 国語
 https://ankiweb.net/shared/info/263892501[変体仮名], 言語, 国語 古文 かな 変体仮名 毛筆
 https://ankiweb.net/shared/info/329800646[変体仮名 Hentaigana Variant Kana], 言語, 国語 古文 かな 変体仮名
 https://ankiweb.net/shared/info/587958922[Man'yougana 万葉仮名], 言語, 国語 古文 かな 万葉仮名
-https://ankiweb.net/shared/info/69487830[日本史資料 十七条憲法], 人文社会, 歴史 日本史 古文 政治 法律
+https://ankiweb.net/shared/info/1351395850[日本史資料 十七条憲法], 人文社会, 歴史 日本史 古文 政治 法律
 https://ankiweb.net/shared/info/1639232676[日本史資料 武家諸法度], 人文社会, 歴史 日本史 古文 政治 法律
 https://ankiweb.net/shared/info/69487830[日本史資料 五箇条の御誓文], 人文社会, 歴史 日本史 古文 政治 法律
 https://ankiweb.net/shared/info/25909930[宮内庁用語集], 人文社会, 国語 儀式 漢字
