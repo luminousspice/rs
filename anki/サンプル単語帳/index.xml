@@ -104,7 +104,7 @@
 &lt;div class=&#34;title&#34;&gt;図 3. 単語帳使用例&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;解答面には、&lt;a target=&#34;_new&#34; href=&#34;http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;amp;refinement=118%2C117&amp;amp;ac=2&#34;&gt;MSDNオンライン検索&lt;/a&gt;(MSDN MagazineとMSDN Library限定)、&lt;a target=&#34;_new&#34; href=&#34;http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;amp;langID=ja-jp&#34;&gt;マイクロソフト用語集&lt;/a&gt;へのリンクを設定していますので、実際に使用している文例を確認することができます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ msdnwl.apkg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://nossl.ankiweb.net/shared/download/722400168&#34; class=&#34;btn btn-large btn-primary&#34;  onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;http://nossl.ankiweb.net/shared/download/722400168&#39;);&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id=&#34;wordpress_開発者のための_wordpress_codex_頻出語彙&#34;&gt;
   &lt;div class=&#34;page-header&#34;&gt;
