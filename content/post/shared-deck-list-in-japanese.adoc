@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2016-04-23T04:30:46+00:00"
+lastmod: "2016-04-24T10:48:29+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -45,6 +45,7 @@ https://ankiweb.net/shared/info/1205685053[GitHubチートシート], 科学技�
 https://ankiweb.net/shared/info/928657053[摂氏華氏温度対応 (Celsius vs Fahrenheit)], 科学技術, 物理 化学 温度 単位
 https://ankiweb.net/shared/info/1880478902[航空用語集], 科学技術, 英語 略語 航空 交通
 https://ankiweb.net/shared/info/1112109660[数え方・数助詞], 言語, 国語 数助詞
+https://ankiweb.net/shared/info/135130229[反意語・対義語], 言語, 国語 漢字 熟語 反対語
 https://ankiweb.net/shared/info/263892501[変体仮名], 言語, 国語 古文 かな 変体仮名 毛筆
 https://ankiweb.net/shared/info/329800646[変体仮名 Hentaigana Variant Kana], 言語, 国語 古文 かな 変体仮名
 https://ankiweb.net/shared/info/587958922[Man'yougana 万葉仮名], 言語, 国語 古文 かな 万葉仮名
@@ -101,6 +102,7 @@ https://ankiweb.net/shared/info/2041494066[800ベーシック英単語[CC4.0\]],
 https://ankiweb.net/shared/info/333469572[Books of the Bible in Japanese], 言語, 英語 日本語 宗教 聖書
 https://ankiweb.net/shared/info/87825824[LSI Japanisch Aufbaukurs], 言語, ドイツ語 日本語
 https://ankiweb.net/shared/info/1871575935[日本語会話・和独 Japanisch Konversation・Japanisch-Deutsch], 言語, ドイツ語 日本語
+https://ankiweb.net/shared/info/1645174257[日常語彙], 言語, フランス語 日本語
 https://ankiweb.net/shared/info/3239288653[毎日１５分の漢字練習], 言語, フランス語 日本語
 https://ankiweb.net/shared/info/1594205371[Hindi-Japanese 200], 言語, ヒンディー語 日本語
 https://ankiweb.net/shared/info/113704501[Japanese-Hindi 200], 言語, ヒンディー語 日本語
