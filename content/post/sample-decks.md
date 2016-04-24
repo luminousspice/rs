@@ -95,7 +95,7 @@ excerpt: "これまでの投稿で公開してきた Anki 単語帳を紹介し�
 <div class="title">図 3. 単語帳使用例</div>
 </div>
 <p>解答面には、<a target="_new" href="http://social.msdn.microsoft.com/Search/en-us?query=retrieve&amp;refinement=118%2C117&amp;ac=2">MSDNオンライン検索</a>(MSDN MagazineとMSDN Library限定)、<a target="_new" href="http://www.microsoft.com/Language/ja-jp/Search.aspx?sString=retrieve&amp;langID=ja-jp">マイクロソフト用語集</a>へのリンクを設定していますので、実際に使用している文例を確認することができます。</p>
-<p><a href="/apkg/msdnwl.apkg" class="btn btn-large btn-primary"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ msdnwl.apkg</a></p>
+<p><a href="http://nossl.ankiweb.net/shared/download/722400168" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'http://nossl.ankiweb.net/shared/download/722400168');"><i class="icon-download-alt icon-white"></i> Anki 単語帳パッケージ</a></p>
 </section>
 <section id="wordpress_開発者のための_wordpress_codex_頻出語彙">
   <div class="page-header">
