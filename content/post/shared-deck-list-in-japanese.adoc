@@ -33,7 +33,7 @@ link:https://ankiweb.net/shared/decks/[AnkiWeb に登録されている単語帳
 
 [[decklist]]
 
-[frame="topbot",format="csv",grid="rows",cols="2,1,2",options="header",role="table table-striped table-bordered  table-hover"]
+[frame="topbot",format="csv",grid="rows",cols="4,5,0",options="header",role="table table-striped table-bordered  table-hover"]
 |===================================================
 題名,分類,タグ
 https://ankiweb.net/shared/info/206033178[Ankiの基礎知識], 科学技術, Tips 用語 ショートカット
@@ -188,7 +188,7 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 言語, 英
 === 使い方
 
 * 右上検索欄にキーワードを入力すると、情報を絞り込みます。
-* 分類列やタグ列の単語をクリックすると、その用語で情報を絞り込みます。
+* タグ列の単語をクリックすると、その用語で情報を絞り込みます。
 * 左上 [検索条件解除] ボタンを押すと、全ての情報を表示します。
 * 見出しをクリックすると、情報を並び替えます。
 * 上部のドロップダウンから一度に表示する項目数を選択できます。
