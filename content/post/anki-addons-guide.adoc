@@ -1,7 +1,7 @@
 ---
 slug: "anki-addons-guide"
 date: "2014-04-14T05:00:17+00:00"
-lastmod: "2016-04-19T14:40:08+00:00"
+lastmod: "2016-04-25T15:08:36+00:00"
 title: "Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち"
 weight: 20
 categories: ["Anki"]
@@ -228,7 +228,7 @@ Anki のアドオンではありませんが、Anki と連携して機能強化�
 === https://addons.mozilla.org/ja/firefox/addon/ankifox/[AnkiFox] (FireFox)
 
 FireFox 用のアドオンで、画面上で選択した文字列から AnkiWeb の単語帳に登録するものです。
-オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は3つまで登録可能です。
+オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は4つまで登録可能です。
 
 . AnkiWeb にサインインした状態で、ブラウザ上で登録したい文字列を選択します。
 . 右クリックから[Add to Anki:(選択した文字列)]を選択すると、AnkiWeb の編集画面が開きます。
@@ -238,24 +238,17 @@ image::/images/addons_ankifox.png["AnkiFox"]
 
 なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。
 
+.WordReference 英和設定例
 ----
 http://www.wordreference.com/enja/%s
 ----
 
-=== https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb[Anki Cards Maker] (Chrome)
+Weblio を使いたい場合は、次のように設定します。
 
-Chrome用の機能拡張で、画面上で選択した文字列から Google 翻訳で訳語を作成し AnkiWeb の単語帳に登録するものです。
-
-. AnkiWeb にサインインした状態で、ブラウザ上で登録したい文字列を選択します。
-. 右クリックから [Add to Anki] を選択すると、Google 翻訳による訳語候補をポップアップで表示します。
-. 訳語を選択して [Add] ボタンを押すと、AnkiWeb の編集画面が開きます。
-
-.Anki Cards Maker 項目選択
-image::/images/addons_anki_cards_maker.png["Anki Cards Maker 項目選択"]
-
-こちらの機能拡張については、使いこなすには調整が必要で次のブログの記事に詳しく説明が載っています。
-興味のある方は是非参考にしてください。
-http://boulder.blog.so-net.ne.jp/2013-10-07[Anki Cards Maker : Capricious POV]
+.Weblio 設定例
+----
+http://ejje.weblio.jp/content/%s
+----
 
 == アドオンを使い続けるのに必要なこと
 
@@ -308,6 +301,8 @@ Anki はアドオンの形でユーザーが機能拡張する機会を与えて
 
 自分もアドオンを作ってみようと思った方、link:/anki2addons/[Anki 2.0 アドオンの作成]という作成ガイドの日本語訳がありますので参考にして作ってみてください。
 
+アドオンの最新動向は、link:http://ankigene.luminousspice.com/tags/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/[Ankigene]で紹介しています。
+
 == 更新情報
 
 2014/04/14: 初出
@@ -325,3 +320,5 @@ Anki はアドオンの形でユーザーが機能拡張する機会を与えて
 2016/02/09: 追加: Zoom、Audio Playback Speed
 
 2016/04/18: 更新: Image Occlusion、AwesomeTTS
+
+2016/04/26: 更新: ウェブブラウザ機能拡張
