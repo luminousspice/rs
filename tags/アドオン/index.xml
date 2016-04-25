@@ -1062,7 +1062,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;h3 id=&#34;__a_href_https_addons_mozilla_org_ja_firefox_addon_ankifox_ankifox_a_firefox&#34;&gt;&lt;a href=&#34;https://addons.mozilla.org/ja/firefox/addon/ankifox/&#34;&gt;AnkiFox&lt;/a&gt; (FireFox)&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;FireFox 用のアドオンで、画面上で選択した文字列から AnkiWeb の単語帳に登録するものです。
-オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は3つまで登録可能です。&lt;/p&gt;
+オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は4つまで登録可能です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;olist arabic&#34;&gt;
 &lt;ol class=&#34;arabic&#34;&gt;
@@ -1084,39 +1084,19 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;p&gt;なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;WordReference 英和設定例&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;pre&gt;http://www.wordreference.com/enja/%s&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;__a_href_https_chrome_google_com_webstore_detail_anki_cards_maker_ndimepifahlacmclinikbgjndgfelipb_anki_cards_maker_a_chrome&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/anki-cards-maker/ndimepifahlacmclinikbgjndgfelipb&#34;&gt;Anki Cards Maker&lt;/a&gt; (Chrome)&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Chrome用の機能拡張で、画面上で選択した文字列から Google 翻訳で訳語を作成し AnkiWeb の単語帳に登録するものです。&lt;/p&gt;
+&lt;p&gt;Weblio を使いたい場合は、次のように設定します。&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiWeb にサインインした状態で、ブラウザ上で登録したい文字列を選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;右クリックから [Add to Anki] を選択すると、Google 翻訳による訳語候補をポップアップで表示します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;訳語を選択して [Add] ボタンを押すと、AnkiWeb の編集画面が開きます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Weblio 設定例&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addons_anki_cards_maker.png&#34; alt=&#34;Anki Cards Maker 項目選択&#34;&gt;
+&lt;pre&gt;http://ejje.weblio.jp/content/%s&lt;/pre&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 15. Anki Cards Maker 項目選択&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;こちらの機能拡張については、使いこなすには調整が必要で次のブログの記事に詳しく説明が載っています。
-興味のある方は是非参考にしてください。
-&lt;a href=&#34;http://boulder.blog.so-net.ne.jp/2013-10-07&#34;&gt;Anki Cards Maker : Capricious POV&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1168,7 +1148,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/addons_guide_2.png&#34; alt=&#34;レイティングを付ける場所&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 16. レイティングを付ける場所&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 15. レイティングを付ける場所&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;それでは、作者のやる気を引き出す評価基準を参考までにあげておきましょう。
@@ -1215,6 +1195,9 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;自分もアドオンを作ってみようと思った方、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;という作成ガイドの日本語訳がありますので参考にして作ってみてください。&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;アドオンの最新動向は、&lt;a href=&#34;http://ankigene.luminousspice.com/tags/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/&#34;&gt;Ankigene&lt;/a&gt;で紹介しています。&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -1243,6 +1226,9 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016/04/18: 更新: Image Occlusion、AwesomeTTS&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/26: 更新: ウェブブラウザ機能拡張&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
