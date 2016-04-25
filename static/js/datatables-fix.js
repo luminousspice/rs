@@ -3,20 +3,17 @@ $(document).ready(function() {
 	$('#decklist td:first-child a').attr('target','_new');
 	$('#decklist td:nth-last-child(-n+2)').css({ cursor: 'pointer' });
 	var decktable = $('#decklist').DataTable({
-	    "order" : [],
-	    "lengthMenu": [ 5, 10, 20, 50],
-	    "pageLength": 10,
-	    "initComplete": function () {
+	    order: [],
+	    lengthMenu: [ 5, 10, 20, 50],
+	    pageLength: 10,
+	    initComplete: function () {
 	         var api = this.api();
-	         api.$('td:nth-last-child(-n+2)').getWordByEvent('click', function(event, word) {
+	         api.$('td:nth-last-child(-n+1)').getWordByEvent('click', function(event, word) {
 	       api.search( word ).draw();
 	         });
 	    },
-        "columnDefs": [
-            { "visible": false, "targets": 1 }
-        ],
 		responsive: true,
-	    dom: 'lf<"toolbar">rtip',
+	    dom: 'l<"toolbar">frtip',
 	    language:{
 		     "sEmptyTable":     "テーブルにデータがありません",
 		     "sInfo":           " _TOTAL_ 件中 _START_ から _END_ まで表示",
@@ -42,10 +39,10 @@ $(document).ready(function() {
 	    }
         
 	});
-	$("div.toolbar").html('<p id="searchtool" class="btn-group"><a class="btn" href="javascript:void(0);">言語</a><a class="btn" href="javascript:void(0);">人文社会</a><a class="btn" href="javascript:void(0);">科学技術</a><a class="btn" href="javascript:void(0);">クリア</a></p>');
+	$("div.toolbar").html('<p id="searchtool" class="btn-group"><a class="btn" href="javascript:void(0);">条件取消</a></p>');
 	$('#searchtool a').click(function() {
 		var text = $(this).text();
-		if (text == "クリア"){
+		if (text == "条件取消"){
 			text = '';
 		}
 		decktable.search( text ).draw();
