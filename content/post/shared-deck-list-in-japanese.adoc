@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2016-04-25T01:29:35+00:00"
+lastmod: "2016-04-26T09:47:35+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -34,7 +34,7 @@ link:https://ankiweb.net/shared/decks/[AnkiWeb に登録されている単語帳
 [[decklist]]
 
 [frame="topbot",format="csv",grid="rows",cols="5,4",options="header",role="table table-striped table-bordered table-hover"]
-|===================================================
+|===
 題名,タグ
 https://ankiweb.net/shared/info/206033178[Ankiの基礎知識], Tips 用語 ショートカット
 https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobile)], 英語 フランス語 ドイツ語 TTS 読み上げ
@@ -56,6 +56,8 @@ https://ankiweb.net/shared/info/25909930[宮内庁用語集], 国語 儀式 漢�
 https://ankiweb.net/shared/info/818749478[歌舞伎の演目名], 日本史 演劇 漢字
 https://ankiweb.net/shared/info/333780058[重要古文単語315], 国語 古文
 https://ankiweb.net/shared/info/641220595[古文単語], 国語 古文
+https://ankiweb.net/shared/info/152104200[小倉百人一首], 国語 古文 和歌
+https://ankiweb.net/shared/info/1484754259[百人一首かるた Hyakunin isshu karuta], 国語 古文 和歌
 https://ankiweb.net/shared/info/643386433[難読漢字（一般）], 国語 漢字
 https://ankiweb.net/shared/info/1432056637[難読漢字（昆虫、動物、鳥類、爬虫類の名前）], 国語 漢字
 https://ankiweb.net/shared/info/1286270423[難読漢字（植物、果実、野菜の名前）], 国語 漢字
@@ -183,7 +185,7 @@ https://ankiweb.net/shared/info/1836502846[Spanish numbers 1-200 with audio], �
 https://ankiweb.net/shared/info/1197265380[Spanish numbers 200-400 with audio], スペイン語 数字 音声
 https://ankiweb.net/shared/info/1644949726[Spanish numbers 400-1000 with audio random], スペイン語 数字 音声
 https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 アメリカ 郵便 州 略称
-|===================================================
+|===
 
 === 使い方
 
