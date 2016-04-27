@@ -2,7 +2,7 @@
 
 <div class="post">
   <h1 class="post-title">{{ .Title }}</h1>
-  <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+  <span class="post-date"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"></time>{{ .Lastmod.Format .Site.Params.DateForm }}{{ if ne .Lastmod .Date }} 更新{{ end }}</span>
 	<noscript><p class="notice">注意: このページの検索機能に JavaScript を使用しています。</p></noscript>
   {{ .Content }}
 </div>
