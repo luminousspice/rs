@@ -108,6 +108,8 @@ image::/images/lapse-stats-card.png["単語帳全体の易しさの統計"]
 .単語帳オプションの設定
 image::/images/lapse-study-option.png["単語帳オプションの設定"]
 
+[[ankimobilenote]]
+
 == AnkiMobile ノート
 
 Anki の iOS 版アプリ https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] でも同じ設定ができます。

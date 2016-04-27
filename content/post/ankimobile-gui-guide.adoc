@@ -157,7 +157,7 @@ image::/images/am-studyoption.png["単語帳オプション",width="300"]
 * 一日の学習上限 (Max ... per day)
 * 新規カード表示順 (NEW CARDS - Order)
 * 関連カードの延期処理 (Bury related ...)
-* 無駄なカードの処理 (LAPSES)
+* 間違えたカードの処理 (LAPSES)
 * 自動再生の設定 (GENERAL - Automatically Play audio)
 
 === フォントサイズ
@@ -281,8 +281,8 @@ image::/images/am-export.png["書き出し設定",width="300"]
 
 Preference: Anki の基本動作に関する設定をします。この項目は全てのプロファイルに共通に利用します。
 
-.環境設定
-image::/images/am-preference.png["環境設定ウィンドウ",width="300"]
+.環境設定画面
+image::/images/am-preference.png["環境設定画面",width="300"]
 
 .この画面の機能
 * データベースをチェック (Check Database)
@@ -350,7 +350,7 @@ image::/images/am-scratchpad-action.png["タップ設定",width="300"]
 
 [Profile] を選択すると、プロファイルの追加、名前変更、削除ができます。
 
-.プロファイルウィンドウ
+.プロファイル設定
 image::/images/am-profile.png["プロファイル設定",width="300"]
 
 .この画面の機能
@@ -376,14 +376,14 @@ image::/images/am-backup.png["バックアップ設定",width="300"]
 .AnkiMobile について
 image::/images/am-about.png["AnkiMobile について",width="300"]
 
-== 統計ウィンドウ
+== 統計画面
 
 単語帳の学習状況の統計をグラフ表示します。
 
-.統計ウィンドウ
-image::/images/am-stats-forcast.png["統計ウィンドウ",width="300"]
+.統計画面
+image::/images/am-stats-forcast.png["統計画面",width="300"]
 
-.このウィンドウの表示項目
+.この画面の表示項目
 * 今日の学習概要
 * 今後の復習カード枚数予測
 * 復習量の経過

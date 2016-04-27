@@ -1,0 +1,177 @@
+---
+slug: "how-to-sync-with-ankiweb"
+date: "2014-08-31T22:00:26+00:00"
+lastmod: "2016-04-27T10:58:32+00:00"
+title: "AnkiWeb 同期機能の使い方"
+weight: 30
+categories: ["Anki"]
+tags: ["Anki","iOS","iPad","iPhone","iPod touch"]
+anki: ["AnkiMobile","AnkiWeb","同期"]
+excerpt: "AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使って最新の学習データで Anki を利用でき、学習効率を高めることができます。"
+---
+= AnkiWeb 同期機能の使い方
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使って最新の学習データで Anki を利用でき、学習効率を高めることができます。
+:figure-caption: 図
+
+////
+http://rightstuff.luminousspice.com/how-to-sync-with-ankiweb/
+////
+
+{description}
+
+== はじめに
+
+AnkiWeb を活用すると複数の機器にまたがって学習を継続できます。コレクションデータをコピーする方法では、コピー先の機器の学習履歴が上書きされてしまいますが、AnkiWeb を経由すると、別々の機器で学習したデータの差分を統合することができます。
+
+このサービスを使うには、AnkiWeb でのアカウント作成と、アクセスする機器からの設定が必要になります。それぞれの方法を順を追って解説します。
+
+== 登録の方法
+
+link:https://ankiweb.net/[AnkiWeb] への登録は全ての機器で共通の作業です。
+
+まず、ウェブブラウサーを使って link:https://ankiweb.net/[AnkiWeb]へアクセスし、右上の [Sign Up]ボタンを押します。
+
+.AnkiWeb トップページ アカウント登録ボタン
+image::/images/sync-aw-top.png["AnkiWeb トップページ アカウント登録ボタン",width="300"]
+
+登録画面が出たら、メールアドレス (Your Email) とパスワード (New Password) を入力し、[Sign Up] を押します。
+
+.登録画面
+image::/images/sync-aw-signup.png["登録画面",width="300"]
+
+登録完了すると確認画面が現れます。もう一度、登録したばかりのメールアドレス (Confirm Email) とパスワード (Confirm Password) を入力して、[Sign Up] を押します。
+
+.確認画面
+image::/images/sync-aw-signup-confirmation.png["確認画面",width="300"]
+
+*ここはよく陥りがちな注意箇所です。*
+
+メールアドレスやパスワードに問題があると勘違いして、別のものに変更してしまうと登録作業が進まなくなってしまうので注意しましょう。
+
+登録が完了したら、AnkiWeb での作業は終了です。同期するだけなら、AnkiWeb にサインインする必要はありません。
+また、アドオンや共有単語帳の閲覧、ダウンロードする場合もサインインは不要です。
+
+AnkiWeb にサインインが必要になるのは、AnkiWeb 上で直接カードを学習する時、共有単語帳やアドオンを登録、コメント、レイティングする時などです。
+
+== クライアントの設定
+
+お使いになっている Anki アプリケーションから、AnkiWeb へ同期アクセスする設定を説明します。
+
+=== デスクトップ版の場合
+
+デスクトップ版 Anki の場合は、画面右上の循環する矢印のボタンを押す (ショートカット Y) と、AnkiWeb で作成したアカウントを入力する画面が現れます。
+先ほど登録したメールアドレス (AnkiWeb ID) とパスワードを入力してください。
+
+.Anki 上でのアカウント設定画面
+image::/images/sync-signin.png["Anki 上でのアカウント設定画面"]
+
+同期の際には、登録情報を使用してアクセスするので、同期の度にアカウント情報を入力することはありません。
+次に、アカウント情報を解除するなど同期機能の詳細設定を説明しましょう。
+
+==== 同期機能の設定
+
+同期機能の設定画面は、環境設定の中にあります。
+メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。
+
+.デスクトップ版 Anki ネットワーク設定
+image::/images/sync-settings.png["デスクトップ版 Anki ネットワーク設定"]
+
+* [音声と画像も同期する] を有効にすると、AnkiWeb にメディアデータも同期します。メディアデータが大きい場合は、同期に時間が掛かりますので注意してください。
+* [次回の同期は、一方向に変更を強制実行する] を有効にすると、次回の同期は差分のアップデートではなく、サーバー側かクライアント側の情報のどちらかに上書きします。
+
+==== アカウント情報の解除
+
+AnkiWeb のアカウントが登録済みの場合は、[認証解除] ボタンと登録メールアドレスを表示します。
+登録済みのアカウント情報を取り消すには、[認証解除] ボタンを押します。
+
+==== 同期してみる
+
+環境設定ウィンドウを閉じて、メインウィンドウ画面右上の循環する矢印のボタンを押す (ショートカット Y) と同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。
+
+=== iOS アプリ の場合
+
+iPhone などで iOS アプリ AnkiMobile Flashcards を使っている場合、
+AnkiWeb のアカウント情報を登録するには、起動直後に表示するメインスクリーンの右下の [Synchronize] ボタンをタップします。
+
+.AnkiMobile Flashcards から AnkiWeb へ同期
+image::/images/am-decklist.png["AnkiMobile Flashcards から AnkiWeb へ同期", width="300"]
+
+AnkiWeb で登録したメールアドレス (Login) とパスワード (Password) を入力してください。
+
+.AnkiMobile 上でのアカウント設定画面
+image::/images/am-signin.png["AnkiMobile 上でのアカウント設定画面", width="300"]
+
+==== 同期機能の設定
+
+同期機能の設定をするには、メインスクリーン右上の歯車のアイコンをタップして、環境設定画面を開きます。
+
+.AnkiMobile Flashcards から AnkiWeb へ同期
+image::/images/am-decklist.png["AnkiMobile Flashcards から AnkiWeb へ同期", width="300"]
+
+次に、[Syncing] 項目をタップします。
+
+.AnkiMobile 環境設定画面
+image::/images/am-preference.png["環境設定画面", width="300"]
+
+デスクトップ版との違いは、プロファイル変更時の自動同期機能はなく、その代わりにモバイルデータ通信 (携帯電話回線) の利用の可否を設定できます。また、完全同期は直ちに行われます。
+
+* [Transfer Media] を有効にすると、AnkiWeb にメディアデータも同期します。メディアデータが大きい場合は、同期に時間が掛かりますので注意してください。
+* [Full Sync] をタップすると、同期処理を開始しサーバー側かクライアント側の情報のどちらかに上書き (完全同期) します。
+
+.AnkiMobile 同期設定
+image::/images/am-sync.png["同期設定", width="300"]
+
+==== アカウント情報の解除
+
+AnkiWeb のアカウントが登録済みの場合は、[Deauth] ボタンと登録メールアドレスを表示します。
+登録済みのアカウント情報を取り消すには、[Deauth] ボタンをタップします。
+
+==== 同期してみる
+
+メインスクリーンまで戻り、右下の [Synchronize] ボタンをタップすると同期が始まります。今度は、アカウント情報を入力するダイアログは表示しません。
+
+=== Android アプリの場合
+
+Android アプリ AnkiDroid は、AnkiDroid 2.5 でユーザーインターフェイスが大きく変わりました。
+
+AnkiDroid での同期機能の使い方は、link:https://ankidroid.org/docs/manual-ja.html#_%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E7%B5%8C%E7%94%B1%E3%81%AE%E5%90%8C%E6%9C%9F[AnkiDroid 2.5 マニュアル]をご覧ください。
+
+== 制限事項
+
+AnkiWeb には、ファイル容量と同時アクセス数に制限があります。通常の使い方をすれば、問題とならない制限です。
+
+=== 容量制限
+
+* コレクションファイル全体 100MB
+
+平均 25,000 枚のカードを数年間学習しても、コレクション容量は 25MB 程度となります。
+
+* メディアファイル 1ファイルにつき 100MB
+
+メディアファイルは、容量全体の制限はありませんが、ファイル毎に制限を設定しています。
+
+参考資料 Anki サポート Knowledge Base link:https://anki.tenderapp.com/kb/anki-ecosystem/are-there-limits-on-file-sizes-on-ankiweb[Are there limits on file sizes on AnkiWeb?]
+
+=== アクセス数制限
+
+一アカウント当たり、同時に一つの機器からしかアクセスできません。
+
+== おわりに
+
+AnkiWeb と同期機能はデータの差分更新だけを行うため、コレクションデータのコピーに比べると簡単に短時間に完了します。
+呼び出しもボタン一つで簡単です。AnkiWeb との同期を活用すると、色々な PC やデバイスにまたがって Anki 学習を継続することができます。
+
+なお、AnkiWeb との同期が上手く行かない場合、link:/anki-fail-to-sync/[Ankiが同期できない問題について]
+に注意すべき点をまとめていますので、参考にしてください。
+
+== 更新情報
+
+2014/08/31: 初出
+
+2014/11/26: 追加: 制限事項
+
+2016/04/27: 追加: AnkiMobile 2.0.21、AnkiDroid 2.5 対応

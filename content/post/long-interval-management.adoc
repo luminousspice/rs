@@ -52,6 +52,8 @@ link:/how-to-customize-learning/[フィルター単語帳]を使うと、抜き�
 prop:ivl>365 prop:due>90
 ----
 
+[[ankimobilenote]]
+
 == AnkiMobile ノート
 
 Anki の iOS 版アプリ https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&at=11lGoS[AnkiMobile Flashcards] でも同じ設定ができます。
