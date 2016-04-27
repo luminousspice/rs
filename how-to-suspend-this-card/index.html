@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-<meta name="description" content='いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。'>
-<meta name="keywords" content="Anki">
+<meta name="description" content='学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。'>
+<meta name="keywords" content="Anki, AnkiMobile">
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content='いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。'/>
+<meta property="og:description" content='学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。'/>
 <meta property="og:title" content="いま表示しているAnkiカードだけ学習をやめる方法" />
 <meta property="og:site_name" content="the Right Stuff" />
 <meta property="og:url" content="http://rs.luminousspice.com/how-to-suspend-this-card/">
@@ -21,17 +21,17 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2013-06-15T22:30:52Z"/>
-<meta property="article:modified_time" content="2014-04-06T20:50:41Z"/>
+<meta property="article:modified_time" content="2016-04-27T15:21:37Z"/>
 
 
 
-<meta property="article:tag" content="Anki">
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="AnkiMobile">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@luminousspice">
 <meta name="twitter:title" content="いま表示しているAnkiカードだけ学習をやめる方法">
 <meta name="twitter:creator" content="@luminousspice">
-<meta name="twitter:description" content='いま表示しているAnkiカードだけ学習をやめる場合に、カードを保留するか、ノートを保留するか、それともノートを延期するか迷うところです。これらのコマンドの違いを説明します。Anki 2.0.13 で導入の新しい延期機能についても説明します。'>
+<meta name="twitter:description" content='学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。'>
 <meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
@@ -90,115 +90,192 @@
 
 <div class="post">
   <h1 class="post-title">いま表示しているAnkiカードだけ学習をやめる方法</h1>
-  <span class="post-date"><time datetime="2013-06-15T22:30:52Z"></time>2014-04-06 更新</span>
+  <span class="post-date"><time datetime="2013-06-15T22:30:52Z"></time>2016-04-27 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <section id="preamble">
-<p></p>
-</section>
-<section id="学習セッションから特定のカードを除外する">
-  <div class="page-header">
-    <h2>学習セッションから特定のカードを除外する</h2>
-  </div>
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_学習セッションから特定のカードを除外する">学習セッションから特定のカードを除外する</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Ankiを使っていて、このカードだけ今の学習セッションから外したい場合ありませんでしたか。
 新規カードでどうしても覚えられないカードが発生して、1分毎の再表示になるのが煩わしい場合。学習中にカードの間違いに気づいて、後で再編集したい場合。あまりにやさしすぎる内容のカードで、削除するほどではないが別に取っておきたい場合などが考えられます。</p>
+</div>
+<div class="paragraph">
 <p>そのような時に使えるAnkiのコマンドは、カードの右下のドロップダウンリスト[もっと]を押すと選択できます。
 この中から保留(Suspend)か延期(bury)、ノートかカード、どれを選べば良いか迷うところです。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/how2anki_1_14.png" alt="ドロップダウンリストの内容">
 </div>
 <div class="title">図 1. ドロップダウンリストの内容</div>
 </div>
-<h3 id="保留_suspend_と延期_bury_の違い">保留(Suspend)と延期(bury)の違い</h3>
-<p></p>
-<p>保留は解除するまで学習対象から除外になります。ブラウザー内で選択して解除するのが一番簡単です。
-延期は、Ankiを終了するまで学習から除外になります。再度Ankiを起動すると自動的にもとに戻ります。(注: Anki 2.0.12 まで)</p>
-<h3 id="新しい延期機能">新しい延期機能</h3>
-<p>最新版 Anki 2.0.21 では、延期は、翌日まで学習から除外されます。一日の始まりに設定した時刻に達すると自動解除になります。</p>
-<div class="ulist"><ul>
-<li>
+<div class="sect2">
+<h3 id="_保留_suspend_と延期_bury_の違い">保留(Suspend)と延期(bury)の違い</h3>
+<div class="paragraph">
 <p>
-延期の手動で解除するには、単語帳の概要画面の下部にある [延期を解除] ボタンを押します。
 </p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">保留</dt>
+<dd>
+<p>手動で解除処理するまで学習対象から除外になります。ブラウザー内で選択して解除できます。</p>
+</dd>
+<dt class="hdlist1">延期</dt>
+<dd>
+<p>翌日まで学習から除外した後、自動的にもとに戻ります。単語帳概要の [延期を解除] ボタンで解除できます。</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_延期機能">延期機能</h3>
+<div class="paragraph">
+<p>延期は、翌日まで学習から除外されます。一日の始まりに設定した時刻に達すると自動解除になります。</p>
+</div>
+<div class="paragraph">
+<p>Anki の初期設定では、同じノートから作成したカード同士は自動的に延期処理しています。たとえば、一つのノートから表裏逆転した二枚のカードは同じ日に出題しないように処理します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>延期の手動で解除するには、単語帳の概要画面の下部にある [延期を解除] ボタンを押します。</p>
 </li>
 <li>
-<p>
-関連カードの自動延期は、新規カード、復習カードともに単語帳オプションで無効にできます。
-</p>
+<p>関連カードの自動延期は、新規カード、復習カードともに単語帳オプションで無効にできます。</p>
 </li>
 <li>
-<p>
-Anki 2.0.21 以降のバージョンで AnkiWeb 経由で同期すると、モバイル機器版 Anki でも新しい延期機能が動作するようになります。
-</p>
+<p>延期したカードの検索条件は <code>is:buried</code> です。</p>
 </li>
-</ul></div>
-<h3 id="ノートの保留とカードの保留の違い">ノートの保留とカードの保留の違い</h3>
-<p></p>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ノートの保留とカードの保留の違い">ノートの保留とカードの保留の違い</h3>
+<div class="paragraph">
+<p>
+</p>
+</div>
+<div class="paragraph">
 <p>カードの保留は今表示しているカードだけを保留します。ノートの保留は、同じノートから生成したカード全てが保留になります。
 例えば、基本(裏面カード付き)ノートタイプを選択した時、一つのノートから表面カードと反転した裏面カードの2枚が自動生成します。いま表面カードを表示していて、[カードを保留]するとそのカード一枚が保留になります。[ノートを保留]すると、表示中の表面カードと裏面カードも一緒に保留になります。</p>
-<p>保留したカードを解除するには、ブラウザーから保留中のカードを選択して[保留]ボタンを押します。
-ブラウザーの使い方を含めた詳しい方法は、<a href="http://rs.luminousspice.com/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>をご覧ください。</p>
+</div>
+<div class="paragraph">
+<p>保留したカードを解除するには、ブラウザーから保留中のカードを選択して[保留]ボタンを押します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>保留したカードの検索条件は <code>is:suspended</code> です。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>ブラウザーの使い方を含めた詳しい方法は、<a href="http://rs.luminousspice.com/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>をご覧ください。</p>
+</div>
+<div class="paragraph">
 <p>そのまま、スルーして目印だけつけたいのなら、[星印をつける]を使うこともできます。
-カードを削除した場合、Anki2.0.9からはプロファイルディレクトリ内の <code>deleted.txt</code> ファイルに削除したカードのフィールドの内容を保存するようになりました。これも知っておく良い知識だと思います。</p>
+カードを削除した場合、プロファイルディレクトリ内の <code>deleted.txt</code> ファイルに削除したカードのフィールドの内容を保存しています。これも知っておく良い知識だと思います。</p>
+</div>
+<div class="paragraph">
 <p>途中で止めたくなる事情は様々ですが、ふさわしいAnkiの機能を選ぶと、もっとAnki学習が楽しくなると思います。</p>
-</section>
-<section id="参考_anki_2_0_13_以降の延期処理の変更点">
-  <div class="page-header">
-    <h2>参考: Anki 2.0.13 以降の延期処理の変更点</h2>
-  </div>
-<p>Anki 2.0.13 で関連カードの処理に見直しが行われ、延期処理について大きな変更が加えられました。
-以後のバージョンでは調整が行われました。その主な項目を紹介します。</p>
-<h3 id="anki_2_0_13_の変更点">Anki 2.0.13 の変更点</h3>
-<div class="ulist"><ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ankimobilenote">AnkiMobile ノート</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の iOS 版アプリ <a href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS">AnkiMobile Flashcards</a> を使っている場合も同じように処理できます。</p>
+</div>
+<div class="sect2">
+<h3 id="_学習画面からの呼び出し">学習画面からの呼び出し</h3>
+<div class="paragraph">
+<p>初期設定では、学習画面でカードを表示している時に、画面右上 [Tools] をタップして Tools 画面を開き [Bury Note] を選択するとそのノートを延期できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-tools.png" alt="保留を解除" width="300">
+</div>
+<div class="title">図 2. 保留の解除</div>
+</div>
+<div class="paragraph">
+<p>さらに、Tools 画面の [More] を選択してアクション一覧を表示すれば、保留、延期の全てのアクションを呼び出すことができます。</p>
+</div>
+<div class="dlist">
+<div class="title">延期、保留に関するアクション</div>
+<dl>
+<dt class="hdlist1">Bury Card</dt>
+<dd>
+<p>カードを延期</p>
+</dd>
+<dt class="hdlist1">Bury Note</dt>
+<dd>
+<p>ノートを延期</p>
+</dd>
+<dt class="hdlist1">Suspend Card</dt>
+<dd>
+<p>カードを保留</p>
+</dd>
+<dt class="hdlist1">Suspend Note</dt>
+<dd>
+<p>ノートを保留</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>なお、学習画面上でタップ、スワイプ、シェイクなどのジェスチャや画面上部の Quickbar 、Tools 画面内のボタンにアクションを割り当てることもできます。さらに詳しい情報は、<a href="http://rs.luminousspice.com/ankimobile-survival-guide/">iPhone ユーザーのための AnkiMobile サバイバルガイド</a>をご覧下さい。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_編集画面からの呼び出し">編集画面からの呼び出し</h3>
+<div class="paragraph">
+<p>学習画面から、[Edit] ボタンを押して、編集画面に移動してからも保留処理ができます。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>
-同期した時、Anki を再起動した時に、延期は自動的に解除になります。
-この自動解除のタイミングは、Android 版 AnkiDroid との互換性確保のために一時的に設定したものです。
-</p>
+<p>画面下中央の上矢印のボタンをタップします。</p>
 </li>
 <li>
-<p>
-単語帳の概要画面右下にある [延期を解除] ボタンを押すと、延期が手動で解除できます。
-</p>
+<p>メニューの中から [Suspend Card] または [Suspend Note] を選択します。</p>
 </li>
-<li>
-<p>
-単語帳のオプション設定の新規カードタブから、新規の関連カードの自動延期を無効にできるようになりました。
-</p>
-</li>
-</ul></div>
-<h3 id="anki_2_0_15_の変更点">Anki 2.0.15 の変更点</h3>
-<div class="ulist"><ul>
-<li>
-<p>
-単語帳のオプション設定の復習タブから、関連カードの復習の自動延期を無効にできるようになりました。
-</p>
-</li>
-<li>
-<p>
-延期したカードを <code>is:buried</code> で検索できるようになりました。また、<code>is:suspend</code> で検索しても延期したカードは表示しなくなりました。
-</p>
-</li>
-</ul></div>
-<h3 id="anki_2_0_21_の変更点">Anki 2.0.21 の変更点</h3>
-<div class="ulist"><ul>
-<li>
-<p>
-延期の自動解除のタイミングが、一日の始まりに設定した時刻になりました。これが最終的なタイミングで、デスクトップ版 Anki と AnkiWeb 経由でモバイル機器版 Anki と同期するとモバイル機器にもその変更が反映されます。
-</p>
-</li>
-</ul></div>
-</section>
-<section id="更新情報">
-  <div class="page-header">
-    <h2>更新情報</h2>
-  </div>
+</ol>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-edit-suspend.png" alt="編集画面からの保留" width="300">
+</div>
+<div class="title">図 3. 編集画面からの保留</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>2013/06/15: 初出</p>
+</div>
+<div class="paragraph">
 <p>2014/01/24: Anki 2.0.13 で導入した新しい延期機能について補足。</p>
-</section>
+</div>
+<div class="paragraph">
+<p>2016/04/27: 追加 AnkiMobile 2.0.21 対応</p>
+</div>
+</div>
+</div>
 
   </div>
   <aside class="reference">

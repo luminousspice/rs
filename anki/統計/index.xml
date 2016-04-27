@@ -370,131 +370,206 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
       <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
       <pubDate>Sun, 07 Sep 2014 23:45:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
-      <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。How to resolve your backlog of due cards.</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
+      <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;復習カードのバックログを抱えたときに一番注意すべきことは、慌てて一気に解消しないことです。
 一気にバックログの解消を図ると、量の多さから復習セッション途中で断念したり、
 新たに復習の鋭いピーク作り出して再びバックログを抱えるような危険性が生じます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;そこで、安定的に復習カードを解消する方法を、以前&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;で解説しました。
 この記事では、統計情報を利用しながら新たに期日に達する復習カードと、その日復習するカードのバランスを取りながら、解消していく方法を紹介しました。
 この方法は Anki を使い始めたばかりの方を対象としたものです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;今回は既に Anki を使い込んでいる方を対象として、学習履歴データの蓄積を活用する改良法です。
 学習履歴の統計から最適なセッション時間を割り出して、全てのバックログを最適な大きさに分割する方法です。
 例えて言うなら、一口サイズにバックログを切り分けるということです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;最適な学習セッション&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;最適な学習セッション&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_最適な学習セッション&#34;&gt;最適な学習セッション&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;無理なく集中して Anki で復習できる一回のセッション時間を自覚できていますか。
 十分な学習履歴があれば、統計情報を手がかりに調べることができます。
 統計情報の学習日の平均は、その単語帳を復習するのにかかった時間です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;私が使っている熟知80％の比較的楽に復習している単語帳の一例です。学習日の平均が 12 分掛けています。
 一分当たり約 9 枚復習していますので、一回のセッションは、平均 12 分で 100 枚復習していることが分かりました。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/sustainable-decks-stats.png&#34; alt=&#34;Anki 統計情報 学習時間&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Anki 統計情報 学習時間&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;使用中の単語帳のうち、飽きたりせずにいつも毎日の復習が完了できる単語帳の統計情報を見てください。
 自分にとって最適なセッション時間と処理枚数が決まるはずです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;バックログ解消の方針&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;バックログ解消の方針&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_バックログ解消の方針&#34;&gt;バックログ解消の方針&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックログ解消までの一時的に次のような手順で学習します。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-昨日までのバックログ全てを隔離して分割します。
-&lt;/p&gt;
+&lt;p&gt;昨日までのバックログ全てを隔離して分割します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-今後は残りのカードを通常通り復習します。バックログが消えただけあって楽に消化できるはずです。
-&lt;/p&gt;
+&lt;p&gt;今後は残りのカードを通常通り復習します。バックログが消えただけあって楽に消化できるはずです。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-隔離したバックログは、通常の学習が終わった後、余裕があるときに徐々に取り組みます。
-&lt;/p&gt;
+&lt;p&gt;隔離したバックログは、通常の学習が終わった後、余裕があるときに徐々に取り組みます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-新規カードの追加はバックログがなくなるまで取りやめます。
-&lt;/p&gt;
+&lt;p&gt;新規カードの追加はバックログがなくなるまで取りやめます。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;バックログの隔離手順&#34;&gt;バックログの隔離手順&lt;/h3&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_バックログの隔離手順&#34;&gt;バックログの隔離手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックログの隔離に&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使います。
 次のように設定します。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-検索条件 &lt;code&gt;deck:&#34;Default&#34; prop:due&amp;lt;0&lt;/code&gt; を指定します。単語帳名と昨日までに期日に達したカードです。
-&lt;/p&gt;
+&lt;p&gt;検索条件 &lt;code&gt;deck:&#34;Default&#34; prop:due&amp;lt;0&lt;/code&gt; を指定します。単語帳名と昨日までに期日に達したカードです。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-取得する [最大枚数] は、先に計算した最適なセッションの枚数です。私の場合は 100 です。
-&lt;/p&gt;
+&lt;p&gt;取得する [最大枚数] は、先に計算した最適なセッションの枚数です。私の場合は 100 です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;[この単語帳の解答に基づいてスケジュールし直す]&lt;/strong&gt; は必ず有効にしてください。
-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[この単語帳の解答に基づいてスケジュールし直す]&lt;/strong&gt; は必ず有効にしてください。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;strong&gt;注意:&lt;/strong&gt; [出題方法] は、間隔が大きい順にしています。理由は、正解した場合に次回の復習を先延ばしにできるからです。
 Anki は、前回の学習日との間隔から次の学習日を設定します。どのような事情でも間隔が空いても正解できたというのは Anki のアルゴリズム的には良いことです。カードの履歴を初期化するとこの利点を捨てることになります。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/cutting-up-backlog-filterdeck.png&#34; alt=&#34;フィルター単語帳の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. フィルター単語帳の設定例&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この条件でフィルター単語帳がカードを取得できなくなるまで、繰り返し作成します。
 私の場合はバックログが 800 枚ありましたので、フィルター単語帳 (隔離単語帳) を 8 個つくりました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;バックログ隔離後の毎日の学習&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;バックログ隔離後の毎日の学習&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_バックログ隔離後の毎日の学習&#34;&gt;バックログ隔離後の毎日の学習&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;残った本来の単語帳の復習に注力します。再び Anki を毎日学習することに慣れましょう。
 毎日の学習ルーチンが確立したところで、余裕ができたら隔離単語帳に手を付けます。
 明日明後日が隔離単語帳を手がけるタイミングではないでしょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;隔離単語帳の使い方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;隔離単語帳の使い方&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_隔離単語帳の使い方&#34;&gt;隔離単語帳の使い方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;通常の単語帳の学習が終わって、余裕がある場合だけ一日一つ学習します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;普通の単語帳と同じように使います。最適なセッションになるよう分割したので、一度で確実に終了できると思います。
 この単語帳を学習すると、それぞれのカードは次回の復習期日を設定した上で、元の単語帳に戻ります。
 一回セッションを終了すると空になります。使用済みなので削除して構いません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;隔離用フィルター単語帳すべてを復習したところでバックログは解消です。&lt;/p&gt;
-&lt;h3 id=&#34;隔離単語帳の注意点&#34;&gt;隔離単語帳の注意点&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_隔離単語帳の注意点&#34;&gt;隔離単語帳の注意点&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この隔離単語帳を復習する毎に元の単語帳の復習枚数に加算されます。
 毎日隔離単語帳を復習すると、復習カードが積み上ってサイドバックログが発生する危険が生じます。
 例えば、100 枚のカードを復習して正解率 30% なら、翌日の復習カードに 70 枚加算です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;元の単語帳の通常学習の消化状況も考慮しながら、少しづつ使うと確実に処理できると思います。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; を使っている場合も同じように設定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_統計情報&#34;&gt;統計情報&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;学習日の平均時間は、統計画面 [Review Time] 項目の [Average for days studies] で調べることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-reviewtime.png&#34; alt=&#34;統計情報&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 統計情報&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_フィルター単語帳の設定&#34;&gt;フィルター単語帳の設定&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-custom-study/&#34;&gt;AnkiMobile のフィルター単語帳の場合&lt;/a&gt;は、オプション &lt;strong&gt;[Reschedule cards based on my answers in this deck?]&lt;/strong&gt; を有効にします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. フィルター単語帳&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の使用経験が長ければ統計情報を利用して、自分の最適が学習条件を求めることができます。
 仮に何らかの障害で一時期学習が続けられなくなって、バックログがたまると全ての履歴を初期化したくなるかもしれません。
 実は、過去の履歴を活用することで元の学習状態にいち早く復帰できるのです。&lt;/p&gt;
-&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/07: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     
@@ -503,114 +578,220 @@ Anki は、前回の学習日との間隔から次の学習日を設定します
       <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
       <pubDate>Sat, 06 Sep 2014 19:00:09 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
-      <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜単語帳、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。How to make Anki decks sustainable.</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜単語帳、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
+      <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜カード、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜カード、最適なセッション時間と単語帳サイズの一致、単語帳の優先順位の設定を取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki を使うと、紙のフラッシュカードに比べてたくさんのカードを一度に効率的に学習できるようになります。
 もちろんそれは利点なのですが、大量のカードをこなそうとすると、それだけの意志と持続力が必要になります。
 その負担が、毎日学習し続ける負担になります。
 そこで、その様な負担に打ち勝ついくつかのコツを紹介しましょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;前菜単語帳&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;前菜単語帳&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_前菜単語帳&#34;&gt;前菜単語帳&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;大量に復習課題があると、Anki するのが億劫になりがちです。何かと理由を付けて今日はやめておこうと思うのは人情です。
 そのような、後ろ向きな気持ちを振り払う特別な単語帳を用意します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;1、2 分ですぐ簡単に終わる楽勝な単語帳 (前菜単語帳) を特別に用意しておきます。興味のある内容のノートを絞って登録するのがよいでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;一瞬で終わるのでどんなに時間がなくても、気持ちがのらなくても確実にやり遂げることができます。
 この前菜単語帳をやっているうちに、やる気がわいてきたりします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;自分では病理学の単語を登録しています。ギリシャ語由来の特長のある綴りを楽しんでいます。
 現在のノート数は60位で、平均学習時間は 30 秒です。適宜追加して学習時間を調整しています。
 現在このような 3 種類の前菜単語帳を運用しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;どのような事情があっても、毎日最低限一つは完了できるようにして、その日何もできなくかったという挫折感を排除してます。
 本命の単語帳が全く手がつかなかったとしても、一つはやったという気持ちがあると前向きになれます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;最適な学習時間と単語帳サイズを合わせる&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;最適な学習時間と単語帳サイズを合わせる&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_最適な学習時間と単語帳サイズを合わせる&#34;&gt;最適な学習時間と単語帳サイズを合わせる&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;自分の快適な最大学習時間と単語帳のサイズを一致させると、効率的に機械的に復習がはかどります。
 快適に学習できる時間内に、一つの単語帳の期日のカードの復習が終わるように設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;単語帳のサイズが大きくなると、セッション中に集中力や意欲が落ちたり、
 割り込みのイベントが発生して学習セッション中に中断することが多くなります。
 その結果、再学習中のカードを必要以上に繰り返したり、セッション途中で放棄することになります。
 また、ストレスに長時間さらされるため Anki を使うことに否定的な印象を持つことになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;このような後向きな要因を排除するため、快適に学習できる学習時間に合うように単語帳サイズを決めます。&lt;/p&gt;
-&lt;h3 id=&#34;最適な学習時間を調べる&#34;&gt;最適な学習時間を調べる&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_最適な学習時間を調べる&#34;&gt;最適な学習時間を調べる&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;1 回の学習セッションにストレスのない可能な時間はどれくらいか自覚していますか。
 単語帳に収録しているカードの復習を実際に学習するセッションの時間に合わせます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;自分が無理なく集中して Anki で復習できる時間は分かりますか。
 統計情報を手がかりに調べることができます。
 学習日の平均がその単語帳を復習するのにかかった時間です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;下の図は、1500枚収録の単語帳 (熟知 80％) の例です。学習日の平均が 12 分となっています。
 つまり、私が使った場合この単語帳の平均学習時間は 12 分です。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/sustainable-decks-stats.png&#34; alt=&#34;Anki 統計情報 学習時間&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Anki 統計情報 学習時間&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;単語帳サイズの調整&#34;&gt;単語帳サイズの調整&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_単語帳サイズの調整&#34;&gt;単語帳サイズの調整&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;使用中の単語帳の学習時間が現実に体感で辛く感じているようであれば、
 最適な学習セッション時間になるよう単語帳を分割調整しましょう。
 一つのセッションで一つの単語帳が終わるようにサイズを決めます。&lt;/p&gt;
-&lt;p&gt;なお上の例の単語帳は、電車の 15 分の乗車時間内で復習できるよう設計しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお上の例の単語帳は、電車の 15 分の乗車時間で復習できるよう設計しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;当然、熟知のカードが増えれば、平均学習時間は減少します。その場合は類似の内容の単語帳と合併して時間を調整します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;優先順位を決める&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;優先順位を決める&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_優先順位を決める&#34;&gt;優先順位を決める&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;どの単語帳を優先して完了するか決めておきます。
 時間がないとき、気が乗らない時には優先順位の高いものから済ませておきます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;優先順位の決め方は、人それぞれだと思います。
 私は熟知の比率の高い、簡単に終わるものを優先して順位付けしています。&lt;/p&gt;
-&lt;h3 id=&#34;優先順に単語帳を並べる&#34;&gt;優先順に単語帳を並べる&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_優先順に単語帳を並べる&#34;&gt;優先順に単語帳を並べる&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;単語帳一覧上から優先順位順に並ぶよう単語帳の名前を決めます。毎日の学習は一覧の上から順番に機械的にこなします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の単語帳一覧はアルファベット順に表示します。大文字と小文字では、大文字が先に表示します。
 &lt;code&gt;!&lt;/code&gt; はアルファベットより前に、&lt;code&gt;~&lt;/code&gt; はアルファベットの後に表示します。&lt;/p&gt;
-&lt;h3 id=&#34;やり残しが出たときのフォロー&#34;&gt;やり残しが出たときのフォロー&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_やり残しが出たときのフォロー&#34;&gt;やり残しが出たときのフォロー&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;やり残しがでても翌日であれば、一日の開始時刻をずらすと、前日と当日の復習を別々に復習できます。
 単語帳の学習セッションの時間を変更することなくこなせます。次の手順で学習します。&lt;/p&gt;
-&lt;ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
 &lt;li&gt;
-まず、[環境設定]-[基本]-[一日の開始] で時刻をずらします。既定では 4 時になっていますが、最大 23 時までずらせます。
+&lt;p&gt;まず、[環境設定]-[基本]-[一日の開始] で時刻をずらします。既定では 4 時になっていますが、最大 23 時までずらせます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-前日の残りを復習します。
+&lt;p&gt;前日の残りを復習します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-一日の開始を元に戻します。
+&lt;p&gt;一日の開始を元に戻します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-当日分の復習をします。
+&lt;p&gt;当日分の復習をします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/sustainable-decks-settings.png&#34; alt=&#34;Anki 環境設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. Anki 環境設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;tpo_も決めておく&#34;&gt;TPO も決めておく&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_tpo_も決めておく&#34;&gt;TPO も決めておく&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;絶対に守らなければならないとは思いませんが、毎日、何時、何処で、どの単語帳を学習するか決めておくのがベストです。
 単語帳もその条件に合わせて最適化します。
 自然に Anki に向かえる環境を用意しておくと、毎日休まずに Anki が使えるようになります。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; を使っている場合も同じように設定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_統計情報&#34;&gt;統計情報&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;学習日の平均時間は、統計画面 [Review Time] 項目の [Average for days studies] で調べることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-reviewtime.png&#34; alt=&#34;統計情報&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 統計情報&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_一日の開始時刻の変更&#34;&gt;一日の開始時刻の変更&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧の右上歯車アイコンをタップして、環境設定画面を開きます。
+[Review] - [Scheduling] と選択して、 Day Starts (日付変更時刻) で一日の開始時刻を設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-sched.png&#34; alt=&#34;一日の開始時刻 (Day Starts) の設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 一日の開始時刻 (Day Starts) の設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の単語帳 (Deck) は、学習カードを分類する単位と考えるのが普通ですが、毎日の学習セッションを決める基本単位でもあります。
 単語帳のサイズ設計を慎重に行うことによって、継続するのに最適な学習セッションが実現できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;学習セッションの最適化を考慮した上で、前菜単語帳をつかって Anki を使い続ける習慣を維持し、一セッション一単語帳となる快適な時間で学習するルーチンを作り、期日の復習を全部こなせない時の優先順位を作ることを Anki の学習を長続きするコツとしてまとめて紹介しました。&lt;/p&gt;
-&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/06: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     

@@ -77,7 +77,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
@@ -307,131 +307,206 @@ Anki で復習しているのは必要な時に知識を使えるようにする
       <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
       <pubDate>Sun, 07 Sep 2014 23:45:40 +0900</pubDate>
       <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
-      <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。How to resolve your backlog of due cards.</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
+      <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバックログを分割する方法です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;復習カードのバックログを抱えたときに一番注意すべきことは、慌てて一気に解消しないことです。
 一気にバックログの解消を図ると、量の多さから復習セッション途中で断念したり、
 新たに復習の鋭いピーク作り出して再びバックログを抱えるような危険性が生じます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;そこで、安定的に復習カードを解消する方法を、以前&lt;a href=&#34;http://rs.luminousspice.com/reduce-anki-backlog-with-stats/&#34;&gt;Anki統計情報を活用したバックログ解消法&lt;/a&gt;で解説しました。
 この記事では、統計情報を利用しながら新たに期日に達する復習カードと、その日復習するカードのバランスを取りながら、解消していく方法を紹介しました。
 この方法は Anki を使い始めたばかりの方を対象としたものです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;今回は既に Anki を使い込んでいる方を対象として、学習履歴データの蓄積を活用する改良法です。
 学習履歴の統計から最適なセッション時間を割り出して、全てのバックログを最適な大きさに分割する方法です。
 例えて言うなら、一口サイズにバックログを切り分けるということです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;最適な学習セッション&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;最適な学習セッション&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_最適な学習セッション&#34;&gt;最適な学習セッション&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;無理なく集中して Anki で復習できる一回のセッション時間を自覚できていますか。
 十分な学習履歴があれば、統計情報を手がかりに調べることができます。
 統計情報の学習日の平均は、その単語帳を復習するのにかかった時間です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;私が使っている熟知80％の比較的楽に復習している単語帳の一例です。学習日の平均が 12 分掛けています。
 一分当たり約 9 枚復習していますので、一回のセッションは、平均 12 分で 100 枚復習していることが分かりました。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/sustainable-decks-stats.png&#34; alt=&#34;Anki 統計情報 学習時間&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Anki 統計情報 学習時間&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;使用中の単語帳のうち、飽きたりせずにいつも毎日の復習が完了できる単語帳の統計情報を見てください。
 自分にとって最適なセッション時間と処理枚数が決まるはずです。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;バックログ解消の方針&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;バックログ解消の方針&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_バックログ解消の方針&#34;&gt;バックログ解消の方針&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックログ解消までの一時的に次のような手順で学習します。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-昨日までのバックログ全てを隔離して分割します。
-&lt;/p&gt;
+&lt;p&gt;昨日までのバックログ全てを隔離して分割します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-今後は残りのカードを通常通り復習します。バックログが消えただけあって楽に消化できるはずです。
-&lt;/p&gt;
+&lt;p&gt;今後は残りのカードを通常通り復習します。バックログが消えただけあって楽に消化できるはずです。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-隔離したバックログは、通常の学習が終わった後、余裕があるときに徐々に取り組みます。
-&lt;/p&gt;
+&lt;p&gt;隔離したバックログは、通常の学習が終わった後、余裕があるときに徐々に取り組みます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-新規カードの追加はバックログがなくなるまで取りやめます。
-&lt;/p&gt;
+&lt;p&gt;新規カードの追加はバックログがなくなるまで取りやめます。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h3 id=&#34;バックログの隔離手順&#34;&gt;バックログの隔離手順&lt;/h3&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_バックログの隔離手順&#34;&gt;バックログの隔離手順&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;バックログの隔離に&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳&lt;/a&gt;を使います。
 次のように設定します。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-検索条件 &lt;code&gt;deck:&#34;Default&#34; prop:due&amp;lt;0&lt;/code&gt; を指定します。単語帳名と昨日までに期日に達したカードです。
-&lt;/p&gt;
+&lt;p&gt;検索条件 &lt;code&gt;deck:&#34;Default&#34; prop:due&amp;lt;0&lt;/code&gt; を指定します。単語帳名と昨日までに期日に達したカードです。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-取得する [最大枚数] は、先に計算した最適なセッションの枚数です。私の場合は 100 です。
-&lt;/p&gt;
+&lt;p&gt;取得する [最大枚数] は、先に計算した最適なセッションの枚数です。私の場合は 100 です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;[この単語帳の解答に基づいてスケジュールし直す]&lt;/strong&gt; は必ず有効にしてください。
-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[この単語帳の解答に基づいてスケジュールし直す]&lt;/strong&gt; は必ず有効にしてください。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;strong&gt;注意:&lt;/strong&gt; [出題方法] は、間隔が大きい順にしています。理由は、正解した場合に次回の復習を先延ばしにできるからです。
 Anki は、前回の学習日との間隔から次の学習日を設定します。どのような事情でも間隔が空いても正解できたというのは Anki のアルゴリズム的には良いことです。カードの履歴を初期化するとこの利点を捨てることになります。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/cutting-up-backlog-filterdeck.png&#34; alt=&#34;フィルター単語帳の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. フィルター単語帳の設定例&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この条件でフィルター単語帳がカードを取得できなくなるまで、繰り返し作成します。
 私の場合はバックログが 800 枚ありましたので、フィルター単語帳 (隔離単語帳) を 8 個つくりました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;バックログ隔離後の毎日の学習&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;バックログ隔離後の毎日の学習&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_バックログ隔離後の毎日の学習&#34;&gt;バックログ隔離後の毎日の学習&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;残った本来の単語帳の復習に注力します。再び Anki を毎日学習することに慣れましょう。
 毎日の学習ルーチンが確立したところで、余裕ができたら隔離単語帳に手を付けます。
 明日明後日が隔離単語帳を手がけるタイミングではないでしょう。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;隔離単語帳の使い方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;隔離単語帳の使い方&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_隔離単語帳の使い方&#34;&gt;隔離単語帳の使い方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;通常の単語帳の学習が終わって、余裕がある場合だけ一日一つ学習します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;普通の単語帳と同じように使います。最適なセッションになるよう分割したので、一度で確実に終了できると思います。
 この単語帳を学習すると、それぞれのカードは次回の復習期日を設定した上で、元の単語帳に戻ります。
 一回セッションを終了すると空になります。使用済みなので削除して構いません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;隔離用フィルター単語帳すべてを復習したところでバックログは解消です。&lt;/p&gt;
-&lt;h3 id=&#34;隔離単語帳の注意点&#34;&gt;隔離単語帳の注意点&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_隔離単語帳の注意点&#34;&gt;隔離単語帳の注意点&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この隔離単語帳を復習する毎に元の単語帳の復習枚数に加算されます。
 毎日隔離単語帳を復習すると、復習カードが積み上ってサイドバックログが発生する危険が生じます。
 例えば、100 枚のカードを復習して正解率 30% なら、翌日の復習カードに 70 枚加算です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;元の単語帳の通常学習の消化状況も考慮しながら、少しづつ使うと確実に処理できると思います。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; を使っている場合も同じように設定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_統計情報&#34;&gt;統計情報&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;学習日の平均時間は、統計画面 [Review Time] 項目の [Average for days studies] で調べることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-reviewtime.png&#34; alt=&#34;統計情報&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 統計情報&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_フィルター単語帳の設定&#34;&gt;フィルター単語帳の設定&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-custom-study/&#34;&gt;AnkiMobile のフィルター単語帳の場合&lt;/a&gt;は、オプション &lt;strong&gt;[Reschedule cards based on my answers in this deck?]&lt;/strong&gt; を有効にします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. フィルター単語帳&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の使用経験が長ければ統計情報を利用して、自分の最適が学習条件を求めることができます。
 仮に何らかの障害で一時期学習が続けられなくなって、バックログがたまると全ての履歴を初期化したくなるかもしれません。
 実は、過去の履歴を活用することで元の学習状態にいち早く復帰できるのです。&lt;/p&gt;
-&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/07: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     
@@ -580,94 +655,220 @@ Anki 2.0.12から再びincludegraphics命令が使えるようになりました
       <link>http://rs.luminousspice.com/management_of_leeches/</link>
       <pubDate>Sat, 13 Jul 2013 23:45:22 +0900</pubDate>
       <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
-      <description>無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
-      <content>&lt;p&gt;&lt;h2 id=&#34;無駄なカード_leech_とは&#34; class=&#34;section&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカードの詳細については、Anki日本語マニュアルの&lt;a href=&#34;http://wikiwiki.jp/rage2050/?2.0%2FLeeches&#34;&gt;無駄カード (Leeches)&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;問題は、既定の設定では、8回以上失敗し無駄なカードになると自動的に保留されてしまうことです。
-この仕組みを知らない方にとっては、繰り返し復習していたカードが、突然単語帳から消えて、行方不明になった感じるのではないかと思います。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;実際には、単語帳にはそのまま残って、タグ &lt;code&gt;Leech&lt;/code&gt; が設定され保留状態になっています。このため、出題から除外されているのです。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Ankiマニュアルでは、無駄なカードをそのままの形で学習し続けることは時間の浪費なので、次のように処理することを勧めています。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
+      <description>Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じるかもしれません。 そこで無駄なカードを保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じるかもしれません。 そこで無駄なカードを保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_無駄なカード_leech_とは&#34;&gt;無駄なカード(Leech)とは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;
-他の項目と記憶の干渉が置きている場合は片方の記憶が完全になるまで、もう一方を保留する。
-&lt;/p&gt;
+無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;無駄なカードの詳細については、Anki日本語マニュアルの&lt;a href=&#34;http://wikiwiki.jp/rage2050/?2.0%2FLeeches&#34;&gt;無駄カード (Leeches)&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;問題は、既定の設定では、8回以上失敗し無駄なカードになると自動的に保留されてしまうことです。
+この仕組みを知らない方にとっては、繰り返し復習していたカードが、突然単語帳から消えて、行方不明になった感じるのではないかと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実際には、単語帳にはそのまま残って、タグ &lt;code&gt;Leech&lt;/code&gt; が設定され保留状態になっています。このため、出題から除外されているのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Ankiマニュアルでは、無駄なカードをそのままの形で学習し続けることは時間の浪費なので、次のように処理することを勧めています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;他の項目と記憶の干渉が置きている場合は片方の記憶が完全になるまで、もう一方を保留する。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-記憶する価値があるのか検討して、無駄であれば削除する。
-&lt;/p&gt;
+&lt;p&gt;記憶する価値があるのか検討して、無駄であれば削除する。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-カードを編集して覚えやすくする。
-&lt;/p&gt;
+&lt;p&gt;カードを編集して覚えやすくする。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;h2 id=&#34;保留になった無駄なカードを戻すには&#34; class=&#34;section&#34;&gt;保留になった無駄なカードを戻すには&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Ankiユーザーの皆さんの色々な事情から、無駄と判定されても学習し続けたい場合もあると思います。
-次のような手順で通常の復習セッションにカードを戻すことができます。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;&lt;div class=&#34;title&#34;&gt;無駄なカードを保留から復帰する手順&lt;/div&gt;&lt;ol class=&#34;arabic&#34;&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_保留になった無駄なカードを戻すには&#34;&gt;保留になった無駄なカードを戻すには&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Ankiユーザーの皆さんの色々な事情から、無駄と判定されても学習し続けたい場合もあると思います。
+次のような手順で通常の復習セッションにカードを戻すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;無駄なカードを保留から復帰する手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;
-Ankiのブラウザーを開き、サイドバーから[無駄]項目をクリックしてください。タグ &lt;code&gt;Leech&lt;/code&gt; が設定されているカード一覧が表示されます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-この中から保留を解除したいカードを選択して、ウィンドウ上部の[保留]ボタンを押します。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;
-&lt;h2 id=&#34;無駄なカードの設定を変える&#34; class=&#34;section&#34;&gt;無駄なカードの設定を変える&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;毎回無駄なカードが発生するたびに、元に戻す作業を行うのは手間な作業です。
-単語帳のオプション設定を編集すると、この処理を変更して、タグ &lt;code&gt;Leech&lt;/code&gt; を設定するだけで、保留を行わないようにすることができます。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;&lt;div class=&#34;title&#34;&gt;無駄なカードの処理をタグを追加するだけに変更する手順&lt;/div&gt;&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;
-Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
-&lt;/p&gt;
+&lt;p&gt;Ankiのブラウザーを開き、サイドバーから [Command/Ctrl] キーと押しながら [無駄] と [保留] 項目をクリックしてください。検索条件では &lt;code&gt;tag:leech is:suspended&lt;/code&gt; となります。タグ &lt;code&gt;Leech&lt;/code&gt; が設定されている保留カードの一覧が表示されます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-ウィンドウ下の[オプション]ボタンを押します。
-&lt;/p&gt;
+&lt;p&gt;この中から保留を解除したいカードを選択して、ウィンドウ上部の[保留]ボタンを押します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_無駄なカードの設定を変える&#34;&gt;無駄なカードの設定を変える&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;毎回無駄なカードが発生するたびに、元に戻す作業を行うのは手間な作業です。
+単語帳のオプション設定を編集すると、この処理を変更して、タグ &lt;code&gt;Leech&lt;/code&gt; を設定するだけで、保留を行わないようにすることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;無駄なカードの処理をタグを追加するだけに変更する手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-[忘却]タブをクリックします。
-&lt;/p&gt;
+&lt;p&gt;ウィンドウ下の[オプション]ボタンを押します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-[無駄なカードの処理]という項目のプルダウンメニューから[タグを付けるだけ]を選択します。
-&lt;/p&gt;
+&lt;p&gt;[忘却]タブをクリックします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-[OK]ボタンを押す。
-&lt;/p&gt;
+&lt;p&gt;[無駄なカードの処理]という項目のプルダウンメニューから[タグを付けるだけ]を選択します。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;
+&lt;li&gt;
+&lt;p&gt;[OK]ボタンを押す。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 単語帳のオプション設定&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;これで、無駄なカードに設定されても、学習を続けることができます。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;無駄なカードを隔離して学習する方法&#34; class=&#34;section&#34;&gt;無駄なカードを隔離して学習する方法&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;無駄なカードを保留したまま、通常の学習セッションと分離して学習することもできます。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;フィルター単語帳を作成し、検索条件に　&lt;code&gt;tag:leech&lt;/code&gt; を設定します。
-出題方法で、[無作為]や[忘却回数の多い順]などが設定できます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;これで、無駄なカードに設定されても、学習を続けることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_無駄なカードを隔離して学習する方法&#34;&gt;無駄なカードを隔離して学習する方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;無駄なカードを保留したまま、通常の学習セッションと分離して学習することもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;フィルター単語帳を作成し、検索条件に　&lt;code&gt;tag:leech&lt;/code&gt; を設定します。
+出題方法で、[無作為]や[忘却回数の多い順]などが設定できます。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/leech_2.png&#34; alt=&#34;無駄なカードを学習するフィルター単語帳&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. 無駄なカードを学習するフィルター単語帳&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;フィルター単語帳の詳しい使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;フィルター単語帳の詳しい使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; を使っている場合も同じように設定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_無駄なカードの保留を解除する&#34;&gt;無駄なカードの保留を解除する&lt;/h3&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;学習画面の中央にある [Find] ボタンをタップし、検索画面を開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;検索条件欄に &lt;code&gt;tag:leech is:suspended&lt;/code&gt; と入力して [Search] をタップすると保留中の無駄なカードを表示します。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-search-leech.png&#34; alt=&#34;保留中の無駄なカードを検索&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 保留中の無駄なカードを検索&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保留を解除したいカードをタップして編集画面を開き、画面下中央の上矢印のボタンをタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;メニューの中から [Unsuspend Card] をタップします。&lt;/p&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-edit-unsuspend.png&#34; alt=&#34;保留を解除&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 保留の解除&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_無駄なカードの処理設定の変更&#34;&gt;無駄なカードの処理設定の変更&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;無駄なカードの処理方法は、単語帳ごとに学習オプションで設定されています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;無駄なカードの処理は単語帳一覧から単語帳を選択し、学習画面右上の [Tools] ボタンをタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Study Options] を選択して、学習オプション画面を開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;LAPSES (忘却) 項目の [Leech action] を [Tag Only] に設定すると、無駄なカードと判定しても保留処理は行わなくなります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;[Leech threshold] では、無駄なカードと判定する忘却回数を設定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption-lapses.png&#34; alt=&#34;学習オプション&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 学習オプション&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_フィルター単語帳の設定&#34;&gt;フィルター単語帳の設定&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile でも &lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-custom-study/&#34;&gt;のフィルター単語帳の場合&lt;/a&gt;を同様に設定できます。出題順序を忘却回数が多い順に設定するには、オプションの [cards selected by] を [Most lapses] に設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. フィルター単語帳&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2013/07/13: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     

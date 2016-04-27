@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-<meta name="description" content='無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。'>
-<meta name="keywords" content="Anki">
+<meta name="description" content='Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じるかもしれません。 そこで無駄なカードを保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。'>
+<meta name="keywords" content="Anki, AnkiMobile">
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content='無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。'/>
+<meta property="og:description" content='Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じるかもしれません。 そこで無駄なカードを保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。'/>
 <meta property="og:title" content="無駄なカード(Leech)になってもAnki学習を続ける方法" />
 <meta property="og:site_name" content="the Right Stuff" />
 <meta property="og:url" content="http://rs.luminousspice.com/management_of_leeches/">
@@ -21,17 +21,17 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2013-07-13T23:45:22Z"/>
-<meta property="article:modified_time" content="2013-10-17T13:03:26Z"/>
+<meta property="article:modified_time" content="2016-04-27T14:29:53Z"/>
 
 
 
-<meta property="article:tag" content="Anki">
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="AnkiMobile">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@luminousspice">
 <meta name="twitter:title" content="無駄なカード(Leech)になってもAnki学習を続ける方法">
 <meta name="twitter:creator" content="@luminousspice">
-<meta name="twitter:description" content='無駄なカード(Leech)になってもAnki学習を続けるために、保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。'>
+<meta name="twitter:description" content='Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じるかもしれません。 そこで無駄なカードを保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。'>
 <meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
@@ -90,98 +90,224 @@
 
 <div class="post">
   <h1 class="post-title">無駄なカード(Leech)になってもAnki学習を続ける方法</h1>
-  <span class="post-date"><time datetime="2013-07-13T23:45:22Z"></time>2013-10-17 更新</span>
+  <span class="post-date"><time datetime="2013-07-13T23:45:22Z"></time>2016-04-27 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <p><h2 id="無駄なカード_leech_とは" class="section">無駄なカード(Leech)とは</h2>
-<div class="paragraph"><p>無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。</p></div>
-<div class="paragraph"><p>無駄なカードの詳細については、Anki日本語マニュアルの<a href="http://wikiwiki.jp/rage2050/?2.0%2FLeeches">無駄カード (Leeches)</a>をご覧ください。</p></div>
-<div class="paragraph"><p>問題は、既定の設定では、8回以上失敗し無駄なカードになると自動的に保留されてしまうことです。
-この仕組みを知らない方にとっては、繰り返し復習していたカードが、突然単語帳から消えて、行方不明になった感じるのではないかと思います。</p></div>
-<div class="paragraph"><p>実際には、単語帳にはそのまま残って、タグ <code>Leech</code> が設定され保留状態になっています。このため、出題から除外されているのです。</p></div>
-<div class="paragraph"><p>Ankiマニュアルでは、無駄なカードをそのままの形で学習し続けることは時間の浪費なので、次のように処理することを勧めています。</p></div>
-<div class="ulist"><ul>
-<li>
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じるかもしれません。 そこで無駄なカードを保留状態から戻す方法とフィルター単語帳で学習する方法を紹介します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_無駄なカード_leech_とは">無駄なカード(Leech)とは</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>
-他の項目と記憶の干渉が置きている場合は片方の記憶が完全になるまで、もう一方を保留する。
-</p>
+無駄なカード(Leech)とは、何度も記憶に失敗したカードのことです。既定では8回、復習で失敗すると無駄なカードになります。</p>
+</div>
+<div class="paragraph">
+<p>無駄なカードの詳細については、Anki日本語マニュアルの<a href="http://wikiwiki.jp/rage2050/?2.0%2FLeeches">無駄カード (Leeches)</a>をご覧ください。</p>
+</div>
+<div class="paragraph">
+<p>問題は、既定の設定では、8回以上失敗し無駄なカードになると自動的に保留されてしまうことです。
+この仕組みを知らない方にとっては、繰り返し復習していたカードが、突然単語帳から消えて、行方不明になった感じるのではないかと思います。</p>
+</div>
+<div class="paragraph">
+<p>実際には、単語帳にはそのまま残って、タグ <code>Leech</code> が設定され保留状態になっています。このため、出題から除外されているのです。</p>
+</div>
+<div class="paragraph">
+<p>Ankiマニュアルでは、無駄なカードをそのままの形で学習し続けることは時間の浪費なので、次のように処理することを勧めています。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>他の項目と記憶の干渉が置きている場合は片方の記憶が完全になるまで、もう一方を保留する。</p>
 </li>
 <li>
-<p>
-記憶する価値があるのか検討して、無駄であれば削除する。
-</p>
+<p>記憶する価値があるのか検討して、無駄であれば削除する。</p>
 </li>
 <li>
-<p>
-カードを編集して覚えやすくする。
-</p>
+<p>カードを編集して覚えやすくする。</p>
 </li>
-</ul></div>
-<h2 id="保留になった無駄なカードを戻すには" class="section">保留になった無駄なカードを戻すには</h2>
-<div class="paragraph"><p>Ankiユーザーの皆さんの色々な事情から、無駄と判定されても学習し続けたい場合もあると思います。
-次のような手順で通常の復習セッションにカードを戻すことができます。</p></div>
-<div class="olist arabic"><div class="title">無駄なカードを保留から復帰する手順</div><ol class="arabic">
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_保留になった無駄なカードを戻すには">保留になった無駄なカードを戻すには</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ankiユーザーの皆さんの色々な事情から、無駄と判定されても学習し続けたい場合もあると思います。
+次のような手順で通常の復習セッションにカードを戻すことができます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">無駄なカードを保留から復帰する手順</div>
+<ol class="arabic">
 <li>
-<p>
-Ankiのブラウザーを開き、サイドバーから[無駄]項目をクリックしてください。タグ <code>Leech</code> が設定されているカード一覧が表示されます。
-</p>
-</li>
-<li>
-<p>
-この中から保留を解除したいカードを選択して、ウィンドウ上部の[保留]ボタンを押します。
-</p>
-</li>
-</ol></div>
-<h2 id="無駄なカードの設定を変える" class="section">無駄なカードの設定を変える</h2>
-<div class="paragraph"><p>毎回無駄なカードが発生するたびに、元に戻す作業を行うのは手間な作業です。
-単語帳のオプション設定を編集すると、この処理を変更して、タグ <code>Leech</code> を設定するだけで、保留を行わないようにすることができます。</p></div>
-<div class="olist arabic"><div class="title">無駄なカードの処理をタグを追加するだけに変更する手順</div><ol class="arabic">
-<li>
-<p>
-Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。
-</p>
+<p>Ankiのブラウザーを開き、サイドバーから [Command/Ctrl] キーと押しながら [無駄] と [保留] 項目をクリックしてください。検索条件では <code>tag:leech is:suspended</code> となります。タグ <code>Leech</code> が設定されている保留カードの一覧が表示されます。</p>
 </li>
 <li>
-<p>
-ウィンドウ下の[オプション]ボタンを押します。
-</p>
+<p>この中から保留を解除したいカードを選択して、ウィンドウ上部の[保留]ボタンを押します。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_無駄なカードの設定を変える">無駄なカードの設定を変える</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>毎回無駄なカードが発生するたびに、元に戻す作業を行うのは手間な作業です。
+単語帳のオプション設定を編集すると、この処理を変更して、タグ <code>Leech</code> を設定するだけで、保留を行わないようにすることができます。</p>
+</div>
+<div class="olist arabic">
+<div class="title">無駄なカードの処理をタグを追加するだけに変更する手順</div>
+<ol class="arabic">
+<li>
+<p>Ankiのメインメニューの単語帳一覧から、設定したい単語帳をクリックします。</p>
 </li>
 <li>
-<p>
-[忘却]タブをクリックします。
-</p>
+<p>ウィンドウ下の[オプション]ボタンを押します。</p>
 </li>
 <li>
-<p>
-[無駄なカードの処理]という項目のプルダウンメニューから[タグを付けるだけ]を選択します。
-</p>
+<p>[忘却]タブをクリックします。</p>
 </li>
 <li>
-<p>
-[OK]ボタンを押す。
-</p>
+<p>[無駄なカードの処理]という項目のプルダウンメニューから[タグを付けるだけ]を選択します。</p>
 </li>
-</ol></div>
+<li>
+<p>[OK]ボタンを押す。</p>
+</li>
+</ol>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/leech_1.png" alt="単語帳のオプション設定">
 </div>
 <div class="title">図 1. 単語帳のオプション設定</div>
 </div>
-<div class="paragraph"><p>これで、無駄なカードに設定されても、学習を続けることができます。</p></div>
-<h2 id="無駄なカードを隔離して学習する方法" class="section">無駄なカードを隔離して学習する方法</h2>
-<div class="paragraph"><p>無駄なカードを保留したまま、通常の学習セッションと分離して学習することもできます。</p></div>
-<div class="paragraph"><p>フィルター単語帳を作成し、検索条件に　<code>tag:leech</code> を設定します。
-出題方法で、[無作為]や[忘却回数の多い順]などが設定できます。</p></div>
+<div class="paragraph">
+<p>これで、無駄なカードに設定されても、学習を続けることができます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_無駄なカードを隔離して学習する方法">無駄なカードを隔離して学習する方法</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>無駄なカードを保留したまま、通常の学習セッションと分離して学習することもできます。</p>
+</div>
+<div class="paragraph">
+<p>フィルター単語帳を作成し、検索条件に　<code>tag:leech</code> を設定します。
+出題方法で、[無作為]や[忘却回数の多い順]などが設定できます。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/leech_2.png" alt="無駄なカードを学習するフィルター単語帳">
 </div>
 <div class="title">図 2. 無駄なカードを学習するフィルター単語帳</div>
 </div>
-<div class="paragraph"><p>フィルター単語帳の詳しい使い方については、<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>をご覧ください。</p></div></p>
+<div class="paragraph">
+<p>フィルター単語帳の詳しい使い方については、<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>をご覧ください。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ankimobilenote">AnkiMobile ノート</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の iOS 版アプリ <a href="https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;at=11lGoS">AnkiMobile Flashcards</a> を使っている場合も同じように設定できます。</p>
+</div>
+<div class="sect2">
+<h3 id="_無駄なカードの保留を解除する">無駄なカードの保留を解除する</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>学習画面の中央にある [Find] ボタンをタップし、検索画面を開きます。</p>
+</li>
+<li>
+<p>検索条件欄に <code>tag:leech is:suspended</code> と入力して [Search] をタップすると保留中の無駄なカードを表示します。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-search-leech.png" alt="保留中の無駄なカードを検索" width="300">
+</div>
+<div class="title">図 3. 保留中の無駄なカードを検索</div>
+</div>
+</li>
+<li>
+<p>保留を解除したいカードをタップして編集画面を開き、画面下中央の上矢印のボタンをタップします。</p>
+</li>
+<li>
+<p>メニューの中から [Unsuspend Card] をタップします。</p>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-edit-unsuspend.png" alt="保留を解除" width="300">
+</div>
+<div class="title">図 4. 保留の解除</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_無駄なカードの処理設定の変更">無駄なカードの処理設定の変更</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>無駄なカードの処理方法は、単語帳ごとに学習オプションで設定されています。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>無駄なカードの処理は単語帳一覧から単語帳を選択し、学習画面右上の [Tools] ボタンをタップします。</p>
+</li>
+<li>
+<p>[Study Options] を選択して、学習オプション画面を開きます。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>LAPSES (忘却) 項目の [Leech action] を [Tag Only] に設定すると、無駄なカードと判定しても保留処理は行わなくなります。</p>
+</div>
+<div class="paragraph">
+<p>[Leech threshold] では、無駄なカードと判定する忘却回数を設定できます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-studyoption-lapses.png" alt="学習オプション" width="300">
+</div>
+<div class="title">図 5. 学習オプション</div>
+</div>
+<div class="sect2">
+<h3 id="_フィルター単語帳の設定">フィルター単語帳の設定</h3>
+<div class="paragraph">
+<p>AnkiMobile でも <a href="http://rs.luminousspice.com/how-to-ankimobile-custom-study/">のフィルター単語帳の場合</a>を同様に設定できます。出題順序を忘却回数が多い順に設定するには、オプションの [cards selected by] を [Most lapses] に設定します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/am-filter.png" alt="フィルター単語帳" width="300">
+</div>
+<div class="title">図 6. フィルター単語帳</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2013/07/13: 初出</p>
+</div>
+<div class="paragraph">
+<p>2016/04/27: 追加 AnkiMobile 2.0.21 対応</p>
+</div>
+</div>
+</div>
 
   </div>
   <aside class="reference">

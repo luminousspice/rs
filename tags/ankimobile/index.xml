@@ -297,7 +297,7 @@
 &lt;p&gt;関連カードの延期処理 (Bury related &amp;#8230;&amp;#8203;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;無駄なカードの処理 (LAPSES)&lt;/p&gt;
+&lt;p&gt;間違えたカードの処理 (LAPSES)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;自動再生の設定 (GENERAL - Automatically Play audio)&lt;/p&gt;
@@ -554,9 +554,9 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference.png&#34; alt=&#34;環境設定ウィンドウ&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 20. 環境設定&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 20. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;この画面の機能&lt;/div&gt;
@@ -721,7 +721,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-profile.png&#34; alt=&#34;プロファイル設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 25. プロファイルウィンドウ&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 25. プロファイル設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;この画面の機能&lt;/div&gt;
@@ -776,19 +776,19 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_統計ウィンドウ&#34;&gt;統計ウィンドウ&lt;/h2&gt;
+&lt;h2 id=&#34;_統計画面&#34;&gt;統計画面&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;単語帳の学習状況の統計をグラフ表示します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-forcast.png&#34; alt=&#34;統計ウィンドウ&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-forcast.png&#34; alt=&#34;統計画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 28. 統計ウィンドウ&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 28. 統計画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;このウィンドウの表示項目&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;この画面の表示項目&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;今日の学習概要&lt;/p&gt;
@@ -924,7 +924,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
@@ -1348,7 +1348,7 @@ Anki で復習しているのは必要な時に知識を使えるようにする
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
@@ -1397,6 +1397,308 @@ Anki で復習しているのは必要な時に知識を使えるようにする
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;正確な復習間隔や易しさの値の計算法は、Anki の &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34;&gt;anki/sched.py&lt;/a&gt; を参照ください。&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anki 共有単語帳の学び方</title>
+      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <pubDate>Sun, 14 Sep 2014 23:30:25 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が高まります。そこで共有単語帳を事前確認するための Anki の使い方を説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が高まります。そこで共有単語帳を事前確認するための Anki の使い方を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb には、Anki ユーザーがつくった共有単語帳が分類して共有しています。
+この中に自分の学習したい分野の単語帳が見つかれば、すぐに学習を始めることが出来大変便利です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;収録データの多さと、単語帳データの形式から、書籍のようにコンテンツの中身がどうなっているか簡単に知ることが出来ません。
+内容の理解が不十分なままダウンロードしてすぐ使うと、その後の学習がつまづきやすいです。
+そこで、今回は共有単語帳を使い始めるまえにやっておきたい、事前準備の方法を解説します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_既成単語帳の注意点&#34;&gt;既成単語帳の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳を自作した場合は、情報源となる書籍やノートなど理解しながら単語帳に登録しているので、
+Anki を使い始める時にはコンテンツの内容と全体像の十分理解できているはずです。
+つまり、Anki の学習段階の新規カードは先取りして完了していることになります。
+またコンテンツの質や正確さ、自分の目的に合っているか確認も済んでいます。
+このため、Anki で自作単語帳を学習し始めると、高い正解率で記憶が進むことになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一方、既成の単語帳はダウンロードサイトの説明だけではコンテンツの全体像が見通し難いです。
+また、自分が学習したい内容なのか確信が持てないのではないかと思います。
+ダウンロードしてすぐ共有単語帳を使い始めると、
+教材の理解不足からまず新規カードの学習に時間を取られ、
+場合によっては教材の質や整合性から復習の正解率も低めになって、
+結局毎日たくさんの復習カードを抱えることになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;テキストデータを一括で読み込んだ自作単語帳も同じ状況が発生しているのではないかと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_書籍を元にした共有単語帳&#34;&gt;書籍を元にした共有単語帳&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお、共有単語帳の中には、書籍の内容を元にしたものがあります。
+この場合は、Anki で単語帳の学習を始める前に元の書籍を繰り返し読んで内容理解を深めましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_を利用した事前プレビューのすすめ&#34;&gt;Anki を利用した事前プレビューのすすめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の単語帳データからコンテンツの全体像を通常の学習セッションの中で知ることは困難ですが、
+教材の全体理解を助ける機能を別途用意しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;共有単語帳を使っていらっしゃる方は特に学習のための機能に目がいきがちなので、
+Anki のコンテンツ作成管理の機能になかなか気がつけないと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、ブラウザーの機能を利用した、共有単語帳のプレビューの仕方を紹介します。
+Anki に組み込みの標準機能なので、レイアウトも含めてコンテンツの中身を簡単に確認することが出来ます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のカードブラウザーのプレビュー機能を使うと、学習セッションを始めなくても、カードの一覧表示から順番にカード内容を表示して確認できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この機能を使えば、全てのカードの内容を簡単に確認できます。
+5 回くらい繰り返し全てのカードを繰り返し眺めておけば、コンテンツの全体像と内容が理解できると思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_プレビュー時の確認項目&#34;&gt;プレビュー時の確認項目&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プレビューの際に気がついたら一緒にやっておきたい作業があります。Anki で学習を始める前に自分にとって使いやすいものか確認しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正確性&lt;/strong&gt; カードの内容に間違いがないか確認。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;妥当性&lt;/strong&gt; 質問と答えの組み合わせが妥当か。自分で納得できなければ修正しましょう。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;簡潔性&lt;/strong&gt; 不足している情報があれば追加し、余分な情報は削除しましょう。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;可読性&lt;/strong&gt; カードが読み難い場合は、自分の読みやすい内容に改めましょう。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ブラウザー機能の使い方&#34;&gt;ブラウザー機能の使い方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のメインウィンドウから、プレビューする単語帳を選択し、さらに画面上部の [ブラウザー] をクリックします。
+ブラウザーが起動したら、[Return] キーを押すか、ウィンドウ上部の検索欄の右にある [検索] ボタンを押します。
+単語帳内のカード一覧が、右上側のパネル内に表示されます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ブラウザーのプレビュー機能の使い方&#34;&gt;ブラウザーのプレビュー機能の使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;先頭項目を選択してウィンドウ上部の [プレビュー] ボタンを押すと、プレビュー画面を表示します。
+(OS X のショートカットは Command+Shift+P)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;上で紹介した確認項目を調べてみましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-preview.png&#34; alt=&#34;プレビュー画面&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. プレビュー画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ウィンドウ下部の [ &amp;gt; ] ボタンを押すと、一覧の上から下へカードをめくりながら移動します。
+項目を編集したい時は、ブラウザーの表示項目を編集します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお、ブラウザー機能には学習画面と比較すると一部制限があり、解答キー入力機能などが使えません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ブラウザーの一覧表示を使った確認&#34;&gt;ブラウザーの一覧表示を使った確認&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一覧の先頭列を右クリックして、メニューから [質問] と [解答] を選択すると、画面にカードの質問と解答が表示できます。
+単語帳の内容によっては、質問と解答の組をこの一覧の確認で済ませることが出来ます。
+この方法は、カードのレイアウトまでは確認できません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; では、検索画面で共有単語帳のデータ内容を一覧することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/find.png&#34; alt=&#34;AnkiMobile 検索画面&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile 検索画面&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;プレビュー機能も持っているのですが、PC 版のように一覧表示の内容を順番に移動する機能がありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_保留と延期機能を活用したプレビューの概要&#34;&gt;保留と延期機能を活用したプレビューの概要&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile 用に学習画面上で保留と延期機能を使ったプレビュー方法を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;プレビュー方法の手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;新規カードの一日の上限を共有単語帳のカード全てを表示するように指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習画面のタップジェスチャを左1/3に延期 (Bury Note)、右1/3に保留 (Suspend Note)を設定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カードを表示しながら内容を確認し、利用するカードは [延期 (左タップ)]、使わないカードは [保留 (右タップ)] に設定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習画面のタップジェスチャを元に戻します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新規カードの一日の上限を元に戻します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;延期を解除 (Unbury Deck) します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_新規カードの一日の上限を変更_1_5&#34;&gt;新規カードの一日の上限を変更 (1, 5)&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Tools 画面から [Study Options] を選択し、[NEW CARDS] の [Max new per day] を共有単語帳のカード枚数より大きい値に設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-studyoption.png&#34; alt=&#34;新規カードの一日の上限&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 新規カードの一日の上限&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_タップジェスチャの設定_2_4&#34;&gt;タップジェスチャの設定 (2, 4)&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;環境設定から [Review] - [Taps] を選択し [WHEN ANSWER SHOWN] 項目で指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-tap.png&#34; alt=&#34;環境設定画面 タップ&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 環境設定画面 タップ&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;解答を表示した時の画面にアクションを割り当てます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-all spread&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. 画面タップに割り当てるアクション&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&#34;width: 50%;&#34;&gt;
+&lt;col style=&#34;width: 50%;&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;指定項目&lt;/th&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;設定内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Top Left, Mid Left, Bottom Left&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Answer Again &amp;#8594; Bury Note&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Top Right, Mid Right, Bottom Right&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Answer Good &amp;#8594; Suspend Note&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_カードの振り分け_3&#34;&gt;カードの振り分け (3)&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;振り分けの方法は、普段の学習と同じ要領でカードの解答を表示します。必要なカードだけ、画面左をタップし、不要なものは画面右をタップします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;書き込みが必要な場合は、画面上 [Edit] ボタンから編集画面に移ります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;画面下の評価ボタンは使いません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/shared-decks-am-preview.png&#34; alt=&#34;プレビュー中のアクション配置&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. プレビュー中のアクション配置&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_延期を解除_6&#34;&gt;延期を解除 (6)&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Tools 画面から [More] - [Unbury Deck] を選択して作業します。
+これで、延期したカードは学習可能になり、保留状態のカードと分離できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_カスタム学習プレビュー機能について&#34;&gt;カスタム学習プレビュー機能について&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile のカスタム学習には、新規カードのプレビュー機能があり、初出ではこの機能を使って説明しました。
+現行のバージョンの AnkiMobile では、遡る日数が 31 日以上入力できなくなっています。この日数は、今使っている AnkiMobile に読み込んだ日付ではなく、オリジナルのカードを作成した日付になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ほとんどの共有単語帳は、原著者が作成してから一か月以上経っているでしょうから、カスタム学習を利用する方法は使えなくなりました。そこで、代替策を新たに考えて紹介しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;共有単語帳はダウンロードしたらすぐ学習を始められる利便性は捨て難いです。
+AnkiWeb に収録しているたくさんの単語帳が Anki の強みであることは疑いないです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;覚えようとする事柄の事前によく調べておくと、効果的に Anki 学習が進められます。
+この便利な共有単語帳を使い切るには、すこし準備作業が必要ですが、Anki はそのための機能も用意しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/14: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

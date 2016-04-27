@@ -12,6 +12,200 @@
     <atom:link href="http://rs.luminousspice.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>もっと Anki に集中する使い方</title>
+      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 12:53:48 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
+      <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki は、学習履歴やコンテンツについてリアルタイムに色々な情報を取り出せる設計になっています。
+この機能を利用して、ユーザーインターフェイスの至る所に情報を表示しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki について理解が不十分な場合には、Anki の動作を理解するのに非常に役立ちます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;しかし、Anki になれてたくさんの学習コンテンツを処理する場合には、
+学習コンテンツに関係ないデータの表示は、集中力を低下させたり、自己バイアスを混入させたり、
+Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、この記事では、Anki に使い慣れた人向けに、学習中の情報表示の設定変更方法を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習間隔の表示&#34;&gt;復習間隔の表示&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki は、暗記したカードをどれだけの日数を空ければ覚えているか、その限界を拡張していくソフトです。
+また、毎回の復習時に、記憶している強度を 3 段階で評価して、次の復習間隔に反映しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;下に示す 2 種類のカードの解答ボタンを見てください。
+両方とも次回の復習間隔として [5 日] のボタンを表示しています。
+同じ日数でも、カードの進捗によって評価の難易度まったく反対の結果になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-ease.png&#34; alt=&#34;復習間隔表示 2&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 復習間隔表示 簡単が5日&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-hard.png&#34; alt=&#34;復習間隔表示 1&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 復習間隔表示 難しいが5日&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;カードの解答ボタンを選択する場合に、このカードは 5 日にしておこうとか、難易度の評価から離れて日数だけで判断して選択してしまうのは無理のないことです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳を使い始めた時に、解答ボタン [難しい]、[普通]、[簡単] を押す明確な基準を決めていないことが原因の一つです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;残念ながらこのような選択方法では、 Anki の復習アルゴリズムを歪めてしまいます。わざわざ Anki を使う意味がなくなります。
+また、記憶すべき内容から離れて、日数の方に関心が移ってしまうと、集中力を削ぎ、学習速度を低下させることになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、そのような障害を防ぐために、日数表示をボタンから削除しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-empty.png&#34; alt=&#34;復習間隔を非表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 復習間隔を非表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この記事を書くために、久々に表示して毎日のルーチンをやってみました。
+無意識のうちに表示する情報に目が行きがちになり、なにか引っかかる感じで、集中力が削がれました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;非表示にすると最初のうちは、違和感がありますが、慣れてしまえばスピード感を持って復習に集中できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_セッション中の残り枚数&#34;&gt;セッション中の残り枚数&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;セッション中の残り枚数も、誘惑に駆られる情報です。
+時間がない場合や、再学習の枚数が多い時に、まだ十分学習が済んでいないのに、つい妥協してセッションを終わらせたくなってしまいます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-remain.png&#34; alt=&#34;セッションの残り枚数表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. セッションの残り枚数表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この枚数表示も設定を変更することで、消すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-remain-empty.png&#34; alt=&#34;残り枚数を非表示&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 残り枚数を非表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;時間がない、量が多いと感じるのは、単語帳の設計自体に無理があるのかもしれません。&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;では、統計情報を活用した単語帳サイズの最適化の方法を取り上げていますので参考にしてください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_設定方法&#34;&gt;設定方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[基本] タブを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[次回の復習時期を解答ボタンの上に表示する] と [復習の際にカードの残り枚数を表示する] の両方を無効にします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings.png&#34; alt=&#34;Anki 環境設定&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 6. Anki 環境設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; を使っている場合も同じように設定できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳一覧の右上歯車アイコンをタップして、環境設定画面を開き、[Review] を選択します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;[Next Time]&lt;/strong&gt; を無効にします。次回の復習までの間隔を解答ボタン上に表示する項目です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;[Remaining Counts]&lt;/strong&gt; を無効にします。学習セッション中の残り枚数を表示する項目です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings-ios.png&#34; alt=&#34;表示の設定箇所&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 7. 表示の設定箇所&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定後すぐに反映されない場合は、一度アプリを終了してみてください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-ios.png&#34; alt=&#34;ボタンから復習間隔が消えた&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 8. ボタンから復習間隔が消えた&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki はユーザーに仕組みや機能を理解してもらうために、色々な情報をユーザーインターフェイスの至る所に表示しています。
+Anki を使い慣れてくると、学習コンテンツに無関係な情報の表示は、学習への集中を妨げる不要なものになります。
+この点を考慮して設定画面で表示選択ができるようになっています。
+学習画面から不要な情報を除くと Anki にもっと集中でき、使いこなせるようになるのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/12: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+    <item>
       <title>AnkiMobile ユーザーインターフェイスガイド</title>
       <link>http://rs.luminousspice.com/ankimobile-gui-guide/</link>
       <pubDate>Sun, 17 Apr 2016 12:47:30 +0900</pubDate>
@@ -297,7 +491,7 @@
 &lt;p&gt;関連カードの延期処理 (Bury related &amp;#8230;&amp;#8203;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;無駄なカードの処理 (LAPSES)&lt;/p&gt;
+&lt;p&gt;間違えたカードの処理 (LAPSES)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;自動再生の設定 (GENERAL - Automatically Play audio)&lt;/p&gt;
@@ -554,9 +748,9 @@
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference.png&#34; alt=&#34;環境設定ウィンドウ&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 20. 環境設定&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 20. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;この画面の機能&lt;/div&gt;
@@ -721,7 +915,7 @@
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/am-profile.png&#34; alt=&#34;プロファイル設定&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 25. プロファイルウィンドウ&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 25. プロファイル設定&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;この画面の機能&lt;/div&gt;
@@ -776,19 +970,19 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_統計ウィンドウ&#34;&gt;統計ウィンドウ&lt;/h2&gt;
+&lt;h2 id=&#34;_統計画面&#34;&gt;統計画面&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;単語帳の学習状況の統計をグラフ表示します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-forcast.png&#34; alt=&#34;統計ウィンドウ&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-stats-forcast.png&#34; alt=&#34;統計画面&#34; width=&#34;300&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 28. 統計ウィンドウ&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 28. 統計画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;このウィンドウの表示項目&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;この画面の表示項目&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;今日の学習概要&lt;/p&gt;
@@ -1872,7 +2066,7 @@ WYISWYG 機能を持ち書式設定が可能なエディタで、画像や音声
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ankimobile_ノート&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
+&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; でも同じ設定ができます。&lt;/p&gt;
@@ -2238,204 +2432,6 @@ $ dvipng -D 200 -T tight tmp.dvi -o tmp.png&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki 復習予測の読み方</title>
-      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
-      <pubDate>Thu, 14 Apr 2016 03:40:00 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
-      <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_予測グラフから読み取れること&#34;&gt;予測グラフから読み取れること&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の統計情報の始めの方に予測という項目がある。この項目についてサポートサイトに繰り返し投稿が寄せられている。
-&lt;a href=&#34;http://ankisrs.net/docs/manual.html#the-graphs&#34;&gt;Anki 正式マニュアル&lt;/a&gt;とは視点からの違った説明をしたい。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;この棒グラフは、全ての復習カードの復習期日をプロットしたものだ。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一度学習したカードなら、保留や延期にしていても復習時期が設定されている。
-このグラフは、日付データを日付順に並び替えたものだ。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;images/stats-forcast.png&#34; alt=&#34;統計情報 予測&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 統計情報 予測&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_棒グラフの意味&#34;&gt;棒グラフの意味&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;たとえば、今日の日付を 3/31 として上のグラフを説明してみよう。
-現時点で 4/10 には 19 枚の復習カードが復習時期に設定している。これは確定情報で、カードを削除しない限り減ることはない。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;棒グラフは、その日の復習枚数の最小値を示している。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_線グラフの意味&#34;&gt;線グラフの意味&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実際に 4/10 に復習するカードはそればかりではない。今日 3/31 から前日の 4/9 にも 4/10 に復習するカードの中からも出ててくるはずだ。その間の復習カードの合計枚数が線グラフが示す値だ。3/31 から 4/9 までの棒グラフの数値の合計値である。
-この値は、新規にカードを追加しなければ変化しない確定値だ。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;線グラフは、その日の復習枚数の予想最大値だ。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;たとえば、今日から前日の 4/9 まで何もしなかった時は、この最大値 320枚くらい復習することになる。しかし、この値を超えた 400 枚になることはありえない。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_このグラフの意味はなにか&#34;&gt;このグラフの意味はなにか&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このグラフは、棒グラフと線グラフを組み合わせてみることに意味があり、復習数の最小値と最大値の広がりを示してくれる。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;予測項目が示してくれるのは、その日の復習枚数の予測最小値と、最大値。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実際の復習数は、棒グラフと線グラフの間におさまる。スペースの関係で二つのグラフのスケールは違っていますが。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;日にちが経って、4/10 に近づいていけば、グラフは左に移動する。10 日間のまだ不確定な情報が確定していくにつれて、4/10 の予測データの確度が上がっていく。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;4/10 の予想最小値は上がり、最大値は下がっていくだろう。
-そして前日の、4/9 に棒グラフと線グラフの値は一致する。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;その値が、[明日が期日のカード] あるいは [Due tomorrow] で示す値だ。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;images/am-stats-forcast.png&#34; alt=&#34;AnkiMobile Statistics&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. AnkiMobile Statistics&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_このグラフにまつわる議論&#34;&gt;このグラフにまつわる議論&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この棒グラフの値が実際の値よりかなり小さいと、繰り返しサポートサイトに投稿がある。
-おそらく、グラフは正常動作しているだろう。予測期間が長ければ、実測値との乖離が大きいのはなおさらだ。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;グラフが示す最大値、最小値から外れた異常値を示したということであれば、アプリケーションの修正を検討すべき問題であるがその様な報告は、まだ見たことがない。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_復習量シュミレーションについて&#34;&gt;復習量シュミレーションについて&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;現状の統計情報の代わりにシュミレーションを取り付ける要求も、ずいぶん長い間寄せられ続けている。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、Anki の予測シュミレーションプログラムを作った方がいる。このプログラムのアイデアは AnkiDroid アドオンとしてすでに取り入れられている。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki を長期的に使用した経験からシュミレーションについて気がつくことがあった。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;シュミレーションは正解率が固定&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Anki で記憶するカードは、追加してから慣れるに従って正解率が向上していく。経験上では 60 &amp;#8594; 90 % の幅で変化している。教材の習熟について考慮されていない。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;シュミレーションで使う正解率が高い&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;シュミレーションで使う正解率の固定値はだいたい 80-90% だ。自分の過去の学習データから正解率を作成した場合でも、慣れた時点での単語帳のデータを使うため正解率は高く出る。最初から正解率 90% のカードならそもそも SRS を使うまでもないのではないか。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki を使い始めた方や、新しく追加した単語帳についてはシュミレーションの予測は期待できない。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習量の蓄積のある単語帳については、このようなシュミレーション機能は有効だろう。Anki に慣れた人にためにこの機能はぜひとも Anki に取り入れるべきだろうか。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;次のグラフを見てほしい。はじめに紹介した単語帳の復習実績の統計だ。既に復習は定常状態に入って大きな変動はない。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;images/stats-review-count.png&#34; alt=&#34;復習した回数&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 統計情報 復習した回数&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki になれると大量の復習データを抱えていても、新規のカードを追加し続けたとしても、一日の作業に大きな変化はなくなる。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki を使う時間も復習する枚数も変わらないのだ。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;シュミレーションの機能には興味を持つが、自分の教材へ利用する必要性を感じない理由が分かった。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;統計情報の予測グラフは、線グラフと棒グラフを組み合わせて見ることに意義がある&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;グラフは予測する日の復習枚数の最小値と最大値の範囲を示してくれる&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;棒グラフは、その日の復習枚数の予測最小値を示す&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;線グラフは、その日の復習枚数の予測最大値を示す&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;予測日が近くなるにつれて、最大値と最小値が収斂していく&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_参考情報&#34;&gt;参考情報&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anki ソースファイル &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/stats.py&#34;&gt;anki/stats.py&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.zhtoolkit.com/posts/2014/11/anki-myth-1-the-cake-is-a-lie/&#34;&gt;Anki Myth 1: The Cake is a Lie&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
