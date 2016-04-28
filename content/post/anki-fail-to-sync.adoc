@@ -57,7 +57,7 @@ Anki サポートサイト Knowledge Base link:https://anki.tenderapp.com/kb/pro
 
 == 同期中にタイムアウトが発生する場合
 
-link:/changeinanki2/#_2031[Anki 変更履歴]によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。
+link:/changeinanki2/#_%E5%A4%89%E6%9B%B4%E7%82%B9_2_0_31[Anki 変更履歴]によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。
 
 == ファイル容量制限
 
