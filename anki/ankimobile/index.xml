@@ -12,200 +12,6 @@
     <atom:link href="http://rs.luminousspice.com/anki/ankimobile/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>もっと Anki に集中する使い方</title>
-      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 12:53:48 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
-      <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は、学習履歴やコンテンツについてリアルタイムに色々な情報を取り出せる設計になっています。
-この機能を利用して、ユーザーインターフェイスの至る所に情報を表示しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki について理解が不十分な場合には、Anki の動作を理解するのに非常に役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;しかし、Anki になれてたくさんの学習コンテンツを処理する場合には、
-学習コンテンツに関係ないデータの表示は、集中力を低下させたり、自己バイアスを混入させたり、
-Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、この記事では、Anki に使い慣れた人向けに、学習中の情報表示の設定変更方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_復習間隔の表示&#34;&gt;復習間隔の表示&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は、暗記したカードをどれだけの日数を空ければ覚えているか、その限界を拡張していくソフトです。
-また、毎回の復習時に、記憶している強度を 3 段階で評価して、次の復習間隔に反映しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;下に示す 2 種類のカードの解答ボタンを見てください。
-両方とも次回の復習間隔として [5 日] のボタンを表示しています。
-同じ日数でも、カードの進捗によって評価の難易度まったく反対の結果になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-ease.png&#34; alt=&#34;復習間隔表示 2&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 復習間隔表示 簡単が5日&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-hard.png&#34; alt=&#34;復習間隔表示 1&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 復習間隔表示 難しいが5日&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カードの解答ボタンを選択する場合に、このカードは 5 日にしておこうとか、難易度の評価から離れて日数だけで判断して選択してしまうのは無理のないことです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;単語帳を使い始めた時に、解答ボタン [難しい]、[普通]、[簡単] を押す明確な基準を決めていないことが原因の一つです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;残念ながらこのような選択方法では、 Anki の復習アルゴリズムを歪めてしまいます。わざわざ Anki を使う意味がなくなります。
-また、記憶すべき内容から離れて、日数の方に関心が移ってしまうと、集中力を削ぎ、学習速度を低下させることになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、そのような障害を防ぐために、日数表示をボタンから削除しましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-empty.png&#34; alt=&#34;復習間隔を非表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 復習間隔を非表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この記事を書くために、久々に表示して毎日のルーチンをやってみました。
-無意識のうちに表示する情報に目が行きがちになり、なにか引っかかる感じで、集中力が削がれました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;非表示にすると最初のうちは、違和感がありますが、慣れてしまえばスピード感を持って復習に集中できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_セッション中の残り枚数&#34;&gt;セッション中の残り枚数&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;セッション中の残り枚数も、誘惑に駆られる情報です。
-時間がない場合や、再学習の枚数が多い時に、まだ十分学習が済んでいないのに、つい妥協してセッションを終わらせたくなってしまいます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-remain.png&#34; alt=&#34;セッションの残り枚数表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. セッションの残り枚数表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この枚数表示も設定を変更することで、消すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-remain-empty.png&#34; alt=&#34;残り枚数を非表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 残り枚数を非表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;時間がない、量が多いと感じるのは、単語帳の設計自体に無理があるのかもしれません。&lt;a href=&#34;http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/&#34;&gt;長続きする Anki 単語帳の作り方&lt;/a&gt;では、統計情報を活用した単語帳サイズの最適化の方法を取り上げていますので参考にしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_設定方法&#34;&gt;設定方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[基本] タブを選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[次回の復習時期を解答ボタンの上に表示する] と [復習の際にカードの残り枚数を表示する] の両方を無効にします。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings.png&#34; alt=&#34;Anki 環境設定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 6. Anki 環境設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; を使っている場合も同じように設定できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;単語帳一覧の右上歯車アイコンをタップして、環境設定画面を開き、[Review] を選択します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Next Time]&lt;/strong&gt; を無効にします。次回の復習までの間隔を解答ボタン上に表示する項目です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;[Remaining Counts]&lt;/strong&gt; を無効にします。学習セッション中の残り枚数を表示する項目です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-settings-ios.png&#34; alt=&#34;表示の設定箇所&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 7. 表示の設定箇所&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;設定後すぐに反映されない場合は、一度アプリを終了してみてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/bias-free-due-ios.png&#34; alt=&#34;ボタンから復習間隔が消えた&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 8. ボタンから復習間隔が消えた&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はユーザーに仕組みや機能を理解してもらうために、色々な情報をユーザーインターフェイスの至る所に表示しています。
-Anki を使い慣れてくると、学習コンテンツに無関係な情報の表示は、学習への集中を妨げる不要なものになります。
-この点を考慮して設定画面で表示選択ができるようになっています。
-学習画面から不要な情報を除くと Anki にもっと集中でき、使いこなせるようになるのです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2014/09/12: 初出&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
       <title>AnkiMobile ユーザーインターフェイスガイド</title>
       <link>http://rs.luminousspice.com/ankimobile-gui-guide/</link>
       <pubDate>Sun, 17 Apr 2016 12:47:30 +0900</pubDate>
@@ -1591,6 +1397,159 @@ Anki で復習しているのは必要な時に知識を使えるようにする
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;正確な復習間隔や易しさの値の計算法は、Anki の &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34;&gt;anki/sched.py&lt;/a&gt; を参照ください。&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
+      <link>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
+      <pubDate>Tue, 12 Apr 2016 00:39:18 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
+      <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッドを用意しています。スクラッチパッドの使い方、サイズを大きくする方法、スワイプやタップを使って簡単に呼び出す方法を説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_スクラッチパッドの機能&#34;&gt;スクラッチパッドの機能&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; は、手書きで暗記する方のために、書き付けスクラッチパッド (Scratch Pad) を用意しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-handwriting.png&#34; alt=&#34;スクラッチパッド利用例&#34; width=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. スクラッチパッド利用例&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;直接指でなぞっても使えますし、市販のスライラスペン/タッチペンも使えます。Apple Pencil もサポートしています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_取り消しボタン&#34;&gt;取り消しボタン&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;スクラッチパッド右下のボタンから書いた内容を消すことができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;タップ&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;一画 (一ストローク)分取り消します&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;長押し&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;全て消去します&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_スクラッチパッドを呼び出す&#34;&gt;スクラッチパッドを呼び出す&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;学習画面でスクラッチパッドを呼び出すには &#39;Toggle ScratchPad&#39; というアクションを使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;スクラッチパッドを呼び出す手順&lt;/div&gt;
+&lt;p&gt;学習画面右上の [Tools] - [More] - [Toggle ScratchPad]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;スクラッチパッドをしまう手順&lt;/div&gt;
+&lt;p&gt;スクラッチパッドをしまう場合も、同じ &#39;Toggle ScratchPad&#39; を呼び出す手順です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_大きさを変える&#34;&gt;大きさを変える&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;環境設定からスクラッチパッドをもっと大きくすることもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;大きなサイズ&#34; width=&#34;450&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. 大きなサイズ&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;スクラッチパッドの大きさの設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Review]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Bigger Pad] を有効にする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定で大きなサイズを設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. 環境設定で大きなサイズを設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_呼び出し方をカスタマイズする&#34;&gt;呼び出し方をカスタマイズする&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このままでは、スクラッチパッドを呼び出すのが面倒です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;マルチタッチスクリーンのジェスチャに割り当てましょう。スワイプやタップに割り当てることができますが、画面上中央をタップした時に切り替える設定を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;解答画面 (裏面) で画面中央上をタップした時に呼び出す設定&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Review] - [Taps]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;WHEN ANSWER SHOWN の [Top Center] をタップし [Toggle ScratchPad] を選択&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;画面タップにスクラッチバッドの切り替えを設定&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 4. 画面タップにスクラッチバッドの切り替えを設定&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_手書きでの暗記にこだわりのある方のために&#34;&gt;手書きでの暗記にこだわりのある方のために&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;手書きでの暗記にこだわる方にぜひ試してみてほしい機能です。ためしにスクラッチパッドを指でなぞってください。手書きと Anki を組み合わせる威力が直感できるはずです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ちょうどそばにあったイカせんべいの包装紙を切り取って、いつも使っている筆記具の先端に巻き付けました。
+普段の物書きの感覚を残しながら Anki が使えるというなかなか興味深い体験ができました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/simple-stylus.jpg&#34; alt=&#34;普段使いの筆記具をタッチペンにする&#34; width=&#34;300&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 5. 普段使いの筆記具をタッチペンにする&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;狭い場所では指で使い、落ち着いた場所では使い慣れている筆記具を使ってという使い分けで、様々な学習環境で書き付けるという体験を  Anki に付け加えることができます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
