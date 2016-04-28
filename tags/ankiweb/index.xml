@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ankiweb on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/ankiweb/</link>
+    <description>Ankiweb | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 21 Nov 2013 16:17:56 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/ankiweb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ankiが同期できない問題について</title>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答のあるセキュリティソフトの設定、AnkiWeb の障害情報の入手方法を取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_設定の再確認&#34;&gt;設定の再確認&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki と AnkiWeb との同期で最初につまづく原因は、AnkiWeb のアカウント作成の失敗していること、Anki や連携して使用する AnkiMobile や AnkiDroid の設定が正しく行われていないことです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;設定方法に不安な方は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;で確認してください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_プロキシ認証の失敗_mac_os_x_および_windows&#34;&gt;プロキシ認証の失敗 (Mac OS X および Windows)&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/04/23 更新の &lt;a href=&#34;http://ankisrs.net/docs/manual.html#proxies&#34;&gt;Anki Manual Proxies&lt;/a&gt;によれば、Mac OS X および Windows 版の Anki ではツールキットの原因で、システム設定からユーザー名とパスワードの取得ができずプロキシ認証に失敗するとのことです。
+このため、Anki を認証が必要なプロキシ経由で同期するには、環境変数 HTTP_PROXY の設定が必要です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;設定値の一例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;http://user:pass@proxy.example.com:8080&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;その際にユーザー名やパスワードに @ を使用している場合には、%40 で置き換える必要があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;ユーザー名に@が入っている場合&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;http://user%40workspace:pass@proxy.example.com:8080&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Mac OS X および Windows ともにそれぞれのバージョンによって環境変数の設定方法が異なります。お使いになっている環境に適した方法で設定ください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_同期に必須なバージョン&#34;&gt;同期に必須なバージョン&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki サポートサイトの告知、&lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements/60-anki-and-heartbleed&#34;&gt;Anki and Heartbleed&lt;/a&gt; によれば、Heartbleed 問題の対応のため、AnkiWeb と同期して Anki を使い続けるには、Anki 2.0.24 以降に変更になりました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_mac_os_x_10_5_10_6_用代替ビルドを使用している場合&#34;&gt;Mac OS X 10.5, 10.6 用代替ビルドを使用している場合&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki サポートサイト Knowledge Base &lt;a href=&#34;https://anki.tenderapp.com/kb/problems/syncing-errors-with-older-macs&#34;&gt;Syncing errors with older Macs&lt;/a&gt; によれば、Anki 2.0.30 が必須になりました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_同期中にタイムアウトが発生する場合&#34;&gt;同期中にタイムアウトが発生する場合&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/#_%E5%A4%89%E6%9B%B4%E7%82%B9_2_0_31&#34;&gt;Anki 変更履歴&lt;/a&gt;によれば、Anki 2.0.31 では、定期的に大量のデータを同期した場合に発生するタイムアウトの問題を解決しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ファイル容量制限&#34;&gt;ファイル容量制限&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ファイル容量が 100MB を超えるファイルをアップロードすることは出来ません。サーバーエラーが発生します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki 2.0.29 Beta 2 (Sep 15) 以降では、100MB を超えるファイルは同期対象外になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_複数のプロファイルを使用している場合&#34;&gt;複数のプロファイルを使用している場合&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb の特定のアカウントに、特定の機器からは一つのプロファイルだけが接続できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一つの機器で複数のプロファイルを使っている場合、認証済みのプロファイルを認証解除して、アクセスしたいプロファイルに変更して認証し直します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_複数の機器からアクセスする場合&#34;&gt;複数の機器からアクセスする場合&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一つのアカウントに同時に複数の機器からアクセスすることはできません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それぞれの機器から順番にアクセスしてください。また、同期中の機器がないか確認してみてください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_サポートからのよくある回答&#34;&gt;サポートからのよくある回答&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のサポートサイトで AnkiWeb の接続障害にする質問に対する、よくある回答は
+アンチウィルス、ファイアウォールなどのセキュリティソフトの設定、VPN ソフトの設定、ISP によるフィルタリングを原因として指摘しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;セキュリティソフトの例外設定のために、Anki の再インストールを勧めている場合もあります。
+また、古いバージョンの Anki を使用していることを指摘されることも多いです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;サポートサイトへ質問する前に、これらの項目を事前に確認しておくと良いでしよう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankiweb_の障害情報&#34;&gt;AnkiWeb の障害情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki と同期する AnkiWeb に障害発生により、同期に失敗したり遅延したりする場合があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;最新情報の確認は、Anki サポートサイトの&lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements&#34;&gt;Announcements&lt;/a&gt;の告知をご覧下さい。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki サポートサイトの&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankiweb&#34;&gt;AnkiWeb&lt;/a&gt;カテゴリでは、AnkiWebについて障害報告したり、他のユーザーからの報告を読むことができます合わせてご利用ください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_主な障害情報の履歴&#34;&gt;主な障害情報の履歴&lt;/h3&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_2015_02_26&#34;&gt;2015/02/26&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb サーバーにパフォーマンス上の問題が発生していましたが、2015/03/02 に最終的な復旧報告がありました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki サポート情報:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements/80-ankiweb-performance-updates&#34;&gt;AnkiWeb performance updates&lt;/a&gt; (2015/03/02)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12070-slow-to-synchronise-last-few-days-could-you-check-it-for-me&#34;&gt;Slow to synchronise last few days - could you check it for me?&lt;/a&gt; (2015/03/01)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankiweb/928-ankiweb-too-busy-right-now&#34;&gt;AnkiWeb too busy right now&lt;/a&gt; (2015/02/26)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_2014_09_16&#34;&gt;2014/09/16&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;数時間にわたって発生していたサーバーのメンテナンスエラーが、6時40分過ぎに復旧しました。
+Anki サポート情報: &lt;a href=&#34;https://anki.tenderapp.com/discussions/ankiweb/721-ankiweb-maintenance&#34;&gt;AnkiWeb maintenance?&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_2014_04_04&#34;&gt;2014/04/04&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;数日前から発生していた AnkiWeb サーバーに発生していたパフォーマンス上の問題を、サーバーのアップグレードで解決しました。
+Anki サポート情報: &lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements/58-ankiweb-servers-upgraded&#34;&gt;AnkiWeb servers upgraded&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_2013_11_21&#34;&gt;2013/11/21&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;13時頃から、AnkiWeb サーバーにネットワーク上の問題が発生し、Anki クライアントアプリケーションとの同期ができなくなっていましが、16時20分過ぎに復旧しました。
+Anki サポート情報: &lt;a href=&#34;https://anki.tenderapp.com/discussions/announcements/40-ankiweb-problems-again&#34;&gt;AnkiWeb Problems Again&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_の同期に関する修正履歴&#34;&gt;Anki の同期に関する修正履歴&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/changeinanki2/&#34;&gt;Anki 2 の変更点 日本語訳&lt;/a&gt;では、これまで Anki に行った修正点を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankimobile_固有の問題&#34;&gt;AnkiMobile 固有の問題&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;iOS アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; の過去のバージョンが原因で発生した問題点を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_同期中にクラッシュ&#34;&gt;同期中にクラッシュ&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile 2.0.14 では、AnkiMobile 2.0.13 へ以前のバージョンからアップグレードすると、多数のメディアファイルを同期した場合にアプリケーションがクラッシュする問題を解決しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;参考情報: Anki サポート Knowledge Base &lt;a href=&#34;https://anki.tenderapp.com/kb/problems/ankimobile-2013-may-crash-when-syncing&#34;&gt;AnkiMobile 2.0.13 may crash when syncing&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_不要な完全同期を求めるメッセージ&#34;&gt;不要な完全同期を求めるメッセージ&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiMobile 2.0.15 では、不要な場合にも完全同期を促すメッセージを表示する問題を修正しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;参考情報: AnkiMobile サポートフォーラム &lt;a href=&#34;https://anki.tenderapp.com/discussions/ankimobile/2117-deck-needs-total-upload-download-all-the-time&#34;&gt;Inconsistent state upload/download messages&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ankimobile_の同期に関する修正履歴&#34;&gt;AnkiMobile の同期に関する修正履歴&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AppStore の &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; ページにおいて、これまで AnkiMobile に行った修正履歴を一覧することができます。同期に関する修正内容を確認することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2013/11/21: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/04/24: 追加: プロキシ認証失敗、必須条件 2.0.24 以上&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/08: 追加: 複数のプロファイルや機器からの接続、サポートからのよくある回答&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/11: 追加: AnkiDroid 固有の問題&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/09/15: 追加: ファイル容量制限&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/10/19: 追加: Anki 2.0.30、2.0.31 の変更点&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;201M/10/30: 追加: AnkiMobile 2.0.13 が同期中にクラッシュする問題&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/11/11: 追加: AnkiMobile 2.0.14 の変更点、AnkiDroid の必須バージョン&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/11/12: 追加: AnkiMobile 2.0.15 の変更点&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2015/02/26: 追加: AnkiWeb 処理能力の問題&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2015/03/02: 更新: AnkiWeb 処理能力の問題&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/04/28: 更新: AnkiMobile 2.0.21 対応&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
