@@ -85,7 +85,7 @@ AnkiMobile を利用する前に確認しておきたい項目をまとめまし
 具体的に説明するために サンプルデータを用意しましたので、これをダウンロードしてみましょう。link:https://ankiweb.net/shared/info/1112109660[数え方・数助詞]について 129 件の公開済みのデータを収録しています。
 
 +++
-<a class="btn" href="http://nossl.ankiweb.net/shared/download/1112109660" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'http://nossl.ankiweb.net/shared/download/1112109660');">サンプルデータ ダウンロード</a>
+<a class="btn" href="http://nossl.ankiweb.net/shared/download/1112109660" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'サンプルデータ');">サンプルデータ ダウンロード</a>
 +++
 
 ダウンロードが完了したら "Ankiを開く" をタップします。AnkiMobile が起動し、データが AnkiMobile に読み込まれます。

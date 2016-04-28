@@ -32,7 +32,7 @@ image::/images/how2anki_4_13.png["カード表示"]
 
 Mac OS X の場合は、内蔵の辞書アプリからテキストを検索して表示します。
 
-+++<a href="/apkg/how2anki4.apkg" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Ankiのカード表示を編集する');"> Anki 単語帳パッケージ how2anki4.apkg</a>+++
++++<a class="btn" href="/apkg/how2anki4.apkg" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Ankiのカード表示を編集する');"> Anki 単語帳パッケージ how2anki4.apkg</a>+++
 
 == 解答キー入力機能と空欄補充
 
@@ -43,7 +43,7 @@ image::/images/anki209_5.png["カードのプレビュー"]
 
 空欄補充問題の解答をカードの穴埋め欄に記入するカードです。解答を表示すると入力内容と正解の比較ができます。
 
-+++<a href="/apkg/anki209.apkg" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Anki解答キー入力機能の使い方');"> Anki 単語帳パッケージ anki209.apkg</a>+++
++++<a class="btn" href="/apkg/anki209.apkg" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Anki解答キー入力機能の使い方');"> Anki 単語帳パッケージ anki209.apkg</a>+++
 
 == Widows 開発者のための頻出語彙 MSDNワードリストt
 
@@ -70,7 +70,7 @@ image::/images/sample_deck_msdnwl.png["単語帳使用例" width="800"]
 .MSDNワードリスト iPhone での表示例
 image::/images/sample-decks-msdnwl.png["MSDNワードリスト iPhone での表示例",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/722400168" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'MSDNワードリスト');"> Anki 単語帳パッケージ</a>+++
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/722400168" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'MSDNワードリスト');"> Anki 単語帳パッケージ</a>+++
 
 == WordPress 開発者のための WordPress Codex 頻出語彙
 
@@ -91,7 +91,7 @@ image::/images/sample_deck_wpcxwl.png["単語帳使用例" width="800"]
 
 解答面には、link:http://codex.wordpress.org/[WordPress Codex]へのリンクを設定していますので、実際に使用している文例を確認することができます。
 
-+++<a href="/apkg/wpcxwl.apkg" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'WordPress Codexワードリスト');"> Anki 単語帳パッケージ wpcxwl.apkg</a>+++
++++<a class="btn" href="/apkg/wpcxwl.apkg" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'WordPress Codexワードリスト');"> Anki 単語帳パッケージ wpcxwl.apkg</a>+++
 
 == 追加用ノートタイプとしての共有単語帳
 
@@ -111,7 +111,7 @@ link:/ankimobile-survival-guide/[iPhone ユーザーのための AnkiMobile サ�
 .歌舞伎の演目名
 image::/images/how-to-ankimobile-theme-dark.png["歌舞伎の演目名",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/818749478" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '歌舞伎の演目名');">歌舞伎の演目名 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/818749478[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/818749478" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '歌舞伎の演目名');">歌舞伎の演目名 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/818749478[この単語帳の説明]
 
 ==== 航空用語集
 
@@ -120,7 +120,7 @@ image::/images/how-to-ankimobile-theme-dark.png["歌舞伎の演目名",width="3
 .航空用語集
 image::/images/sample-decks-aviation-term.png["航空用語集",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/818749478" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '航空用語集');">航空用語集 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1880478902[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/818749478" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '航空用語集');">航空用語集 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1880478902[この単語帳の説明]
 
 ==== GitHubチートシート
 
@@ -129,7 +129,7 @@ image::/images/sample-decks-aviation-term.png["航空用語集",width="300"]
 .GitHubチートシート
 image::/images/sample-decks-github-sheet.png["GitHubチートシート",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/1880478902" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'GitHubチートシート');">GitHubチートシート Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1205685053[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/1880478902" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'GitHubチートシート');">GitHubチートシート Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1205685053[この単語帳の説明]
 
 === 基本 + 外部リンク
 
@@ -138,7 +138,7 @@ image::/images/sample-decks-github-sheet.png["GitHubチートシート",width="3
 .Ankiの基礎知識
 image::/images/sample-decks-anki-basics.png["Ankiの基礎知識",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/206033178" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Ankiの基礎知識');">Ankiの基礎知識 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/206033178[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/206033178" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Ankiの基礎知識');">Ankiの基礎知識 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/206033178[この単語帳の説明]
 
 === 基本 + ルビ
 
@@ -152,7 +152,7 @@ link:/how-to-use-ankimobile/[iPhone ユーザーのためのはじめての Anki
 .数え方・数助詞
 image::/images/am-learn.png["数え方・数助詞",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/1112109660" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '数え方・数助詞');">数え方・数助詞 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1112109660[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/1112109660" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '数え方・数助詞');">数え方・数助詞 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1112109660[この単語帳の説明]
 
 ==== 宮内庁用語集
 
@@ -161,7 +161,7 @@ image::/images/am-learn.png["数え方・数助詞",width="300"]
 .宮内庁用語集
 image::/images/sample-decks-kunaicho.png["宮内庁用語集",width="300"]
 
-+++<a href="https://ankiweb.net/shared/info/25909930" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '宮内庁用語集');">宮内庁用語集 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/25909930[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/25909930" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '宮内庁用語集');">宮内庁用語集 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/25909930[この単語帳の説明]
 
 === 基本 (裏面カード付き) ノートタイプ
 
@@ -170,7 +170,7 @@ image::/images/sample-decks-kunaicho.png["宮内庁用語集",width="300"]
 .反意語・対義語
 image::/images/sample-decks-hantaigo.png["反意語・対義語",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/135130229" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '反意語・対義語');">反意語・対義語 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/135130229[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/135130229" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '反意語・対義語');">反意語・対義語 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/135130229[この単語帳の説明]
 
 === 穴埋め (Cloze) ノートタイプ
 
@@ -183,7 +183,7 @@ image::/images/sample-decks-hantaigo.png["反意語・対義語",width="300"]
 .摂氏華氏温度対応
 image::/images/sample-decks-cf.png["摂氏華氏温度対応",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/928657053" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '摂氏華氏温度対応');">摂氏華氏温度対応 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/928657053[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/928657053" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '摂氏華氏温度対応');">摂氏華氏温度対応 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/928657053[この単語帳の説明]
 
 ==== 日本史資料
 
@@ -193,11 +193,11 @@ image::/images/sample-decks-cf.png["摂氏華氏温度対応",width="300"]
 .日本史資料 五箇条の御誓文
 image::/images/sample-decks-gokajyo.png["日本史資料 五箇条の御誓文",width="300"]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/69487830" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '日本史資料 五箇条の御誓文');">五箇条の御誓文 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/69487830[この単語帳の説明] +
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/69487830" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '日本史資料 五箇条の御誓文');">五箇条の御誓文 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/69487830[この単語帳の説明] +
 
-+++<a href="http://nossl.ankiweb.net/shared/download/1639232676" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '日本史資料 武家諸法度');">武家諸法度 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1351395850[この単語帳の説明] +
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/1639232676" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '日本史資料 武家諸法度');">武家諸法度 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1351395850[この単語帳の説明] +
 
-+++<a href="http://nossl.ankiweb.net/shared/download/1351395850" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '日本史資料 十七条憲法');">十七条憲法 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1639232676[この単語帳の説明] +
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/1351395850" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '日本史資料 十七条憲法');">十七条憲法 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/1639232676[この単語帳の説明] +
 
 ==== 救急診療に役立つ暗記メモ集
 
@@ -205,7 +205,7 @@ image::/images/sample-decks-gokajyo.png["日本史資料 五箇条の御誓文",
 
 .救急診療に役立つ暗記メモ集
 image::/images/sample-decks-ems-nemonics.png["救急診療に役立つ暗記メモ集"]
-+++<a href="http://nossl.ankiweb.net/shared/download/697716450" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '救急診療に役立つ暗記メモ集');">救急診療に役立つ暗記メモ集 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/697716450[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/697716450" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '救急診療に役立つ暗記メモ集');">救急診療に役立つ暗記メモ集 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/697716450[この単語帳の説明]
 
 ==== 航空英語能力証明
 
@@ -213,7 +213,7 @@ image::/images/sample-decks-ems-nemonics.png["救急診療に役立つ暗記メ�
 
 .航空英語能力証明
 image::/images/sample-decks-aviation-english.png["航空英語能力証明",width="300"]
-+++<a href="http://nossl.ankiweb.net/shared/download/740650993" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '航空英語能力証明');">航空英語能力証明 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/740650993[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/740650993" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', '航空英語能力証明');">航空英語能力証明 Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/740650993[この単語帳の説明]
 
 === iOS によるテキスト読み上げ
 
@@ -222,7 +222,7 @@ link:https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (Ank
 .ノートタイプ選択
 image::/images/add-note.png[ノートタイプ選択]
 
-+++<a href="http://nossl.ankiweb.net/shared/download/810249417" class="btn btn-large btn-primary"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Speech Text template');">Speech Text template Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/810249417[この単語帳の説明]
++++<a class="btn" href="http://nossl.ankiweb.net/shared/download/810249417" rel="nofollow"  onclick="ga('send', 'event', 'Downloads', 'AKPG', 'Speech Text template');">Speech Text template Anki 単語帳パッケージ</a>+++ link:https://ankiweb.net/shared/info/810249417[この単語帳の説明]
 
 == 更新情報
 
