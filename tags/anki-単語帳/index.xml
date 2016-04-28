@@ -1087,7 +1087,7 @@
 &lt;p&gt;この単語帳は、&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34;&gt;AnkiWeb の共有単語帳として公開しています&lt;/a&gt;。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://nossl.ankiweb.net/shared/download/697716450&#34; class=&#34;btn btn-large btn-primary&#34;  onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;救急診療に役立つ暗記メモ集&#39;);&#34;&gt;救急診療に役立つ暗記メモ集 Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;http://nossl.ankiweb.net/shared/download/697716450&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;救急診療に役立つ暗記メモ集&#39;);&#34;&gt;救急診療に役立つ暗記メモ集 Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;共有単語帳の使い方&lt;/a&gt;&lt;/p&gt;

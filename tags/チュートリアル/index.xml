@@ -127,7 +127,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;
-&lt;a class=&#34;btn&#34; href=&#34;http://nossl.ankiweb.net/shared/download/1112109660&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;http://nossl.ankiweb.net/shared/download/1112109660&#39;);&#34;&gt;サンプルデータ ダウンロード&lt;/a&gt;
+&lt;a class=&#34;btn&#34; href=&#34;http://nossl.ankiweb.net/shared/download/1112109660&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;サンプルデータ&#39;);&#34;&gt;サンプルデータ ダウンロード&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
