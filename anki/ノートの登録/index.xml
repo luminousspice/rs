@@ -716,6 +716,10 @@ AnkiMobile は使い続けてみたいと思ったら、明日からはこれま
 &lt;p&gt;AnkiMobile では、カードのデザインつまりノートタイプの作成編集ができません。
 カスタマイズするには PC 版 Anki で編集して、AnkiMobile に持ち込みます。&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で、その編集方法を説明しています。&lt;/p&gt;
 &lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;簡易ノートタイプ一覧&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;拡張済のノートタイプを使った単語帳を AnkiMobile に読み込むと、別の単語帳でノートを新規作成する時にも利用できます。過去記事の使用したサンプル単語帳のノートタイプを再利用できるよう、機能別に分類して&lt;a href=&#34;http://rs.luminousspice.com/sample-decks/&#34;&gt;Anki 単語帳サンプル一覧&lt;/a&gt;としてまとめました。&lt;/p&gt;
+&lt;/dd&gt;
 &lt;dt class=&#34;hdlist1&#34;&gt;学習統計&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;統計情報を表示するには、単語帳一覧の画面右上のグラフのボタンを押します。&lt;/p&gt;
