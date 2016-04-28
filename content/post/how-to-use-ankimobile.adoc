@@ -1,7 +1,7 @@
 ---
 slug: "how-to-use-ankimobile"
 date: "2014-09-13T21:30:52+00:00"
-lastmod: "2016-04-18T00:17:19+00:00"
+lastmod: "2016-04-28T04:20:26+00:00"
 title: "iPhone ユーザーのためのはじめての Anki"
 weight: 30
 type: "post"
@@ -332,17 +332,18 @@ link:/ankimobile-survival-guide/[iPhone ユーザーのための AnkiMobile サ�
 link:/how-to-ankimobile-io/[データ入出力]:: AnkiMobile での単語帳データを読み込み、書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方について説明します。
 
 link:/how-to-ankimobile-search/[データ検索]:: AnkiMobile が提供するデータ検索機能の使い方を説明します。複雑な検索条件が設定できれば、高度なカスタム学習セッションの設計が可能になります。
-link:/how-to-ankimobile-custom-study/[カスタム学習]:: フィルター単語帳やカスタム学習を使うと、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。
+link:/how-to-ankimobile-custom-study/[カスタム学習、フィルター単語帳]:: フィルター単語帳やカスタム学習を使うと、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。
 link:/how-to-ankimobile-backup/[自動バックアップ]:: 自動バックアップを使った復旧方法と設定方法を説明します。
-link:/how-to-choose-notetype/[ノートタイプ]:: 　Anki および AnkiMobile に組み込みの 4 種類のノートタイプについて説明します。
+link:/how-to-choose-notetype/#ankimobilenote[ノートタイプ]:: 　Anki および AnkiMobile に組み込みの 4 種類のノートタイプについて説明します。
 
 カードデザイン:: AnkiMobile では、カードのデザインつまりノートタイプの作成編集ができません。
 カスタマイズするには PC 版 Anki で編集して、AnkiMobile に持ち込みます。link:/how-to-edit-cards/[Ankiのカード表示を編集する]で、その編集方法を説明しています。
 学習統計:: 統計情報を表示するには、単語帳一覧の画面右上のグラフのボタンを押します。
 
-
 link:/ankimobile-study-options/[学習オプション]:: 既知に知の学習上限などを設定している学習オプションのカスタマイズ法を紹介します。
 //AnkiMobile の学習オプションを最適化する
+link:/how-to-suspend-this-card/#ankimobilenote[保留 (Suspend)、延期 (Bury)]:: カードを学習対象から除外する保留 (Suspend)、延期 (Bury) の使い方を説明します。
+link:/management_of_leeches/#ankimobilenote[無駄なカード (Leech)]:: 一定回数以上間違えたカードは、無駄なカード (Leech) と判定され、学習対象から外されます。無駄なカードの復活処理について説明します。
 link:/speech-text-on-ankimobile/[テキストの読み上げ]:: iOS システムが提供する読み上げ機能の活用法を説明します。
 //iPhone 版 Anki でテキストを読み上げるには
 link:/how-to-sync-with-ankiweb/[AnkiWeb 同期機能]:: AnkiWeb 同期機能を使って他の機器とデータを交換する方法を説明します。
@@ -352,7 +353,8 @@ link:/how-to-use-profile/[プロファイル]:: 一つの機器を多人数で�
 
 link:/ankimobile-scratchpad-for-handwriting/[スクラッチパッド]:: 画面に手書きできるスクラッチパッドの使い方を説明します。
 
-link:/ankimobile-audio-control/[音声制御アップデート]:: 音声再生の注意点をまとめました。
+link:/ankimobile-audio-control/[音声制御アップデート]:: 自動再生やマナーモード中の処理、再生ボタンなど音声データを利用する際の注意点をまとめました。
+
 
 link:/anki_glossary/[Anki 用語集 - Anki Glossary]::
 AnkiMobile で使用している特別な意味を持つ用語が理解できます。
@@ -360,17 +362,12 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 
 link:/ankimobile-gui-guide/[AnkiMobile ユーザーインターフェイスガイド]は、主要なユーザーインターフェイスをまとめた機能フロアーマップです。 AnkiMobile の機能の全体像を理解し、その呼び出し方を調べるのに役立ちます。
 
-
 == 更新情報
 
-2014/09/13: 初出
-
-2014/09/18: 追加: 自動バックアップ、カスタム学習、ユーザーサポート
-
-2014/10/19: 追加: Wi-Fi 接続による iTunes ファイル共有方法へのリンク追加
-
-2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法
-
-2016/04/09: 更新: 全面的な構成変更
-
-2016/04/18: 更新: 詳細情報の追加
+2014/09/13: 初出 +
+2014/09/18: 追加: 自動バックアップ、カスタム学習、ユーザーサポート +
+2014/10/19: 追加: Wi-Fi 接続による iTunes ファイル共有方法へのリンク追加 +
+2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法 +
+2016/04/09: 更新: 全面的な構成変更 +
+2016/04/18: 更新: 詳細情報の追加 +
+2016/04/28: 更新: 詳細情報の追加 +
