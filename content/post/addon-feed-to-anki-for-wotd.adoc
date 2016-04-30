@@ -1,0 +1,129 @@
+---
+date: "2016-04-30T11:24:52+00:00"
+title: "Feed to Anki 毎日英単語のカードを増やせるアドオン"
+categories: ["Anki"]
+tags: ["Anki","アドオン","RSS","Atom","英単語","開発"]
+anki: ["アドオン","読み込み"]
+excerpt: "オンライン辞書サイトで毎日単語を紹介する Word of th Day (今日の言葉) の RSS フィードから Anki のカードを作るアドオンを作りました。メニューから呼び出すとカードを自動作成する単純な機能です。"
+---
+= Feed to Anki 毎日英単語のカードを増やせるアドオン
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: オンライン辞書サイトで毎日単語を紹介する Word of th Day (今日の言葉) の RSS フィードから Anki のカードを作るアドオンを作りました。メニューから呼び出すとカードを自動作成する単純な機能です。
+:figure-caption: 図
+
+////
+http://rightstuff.luminousspice.com/addon-feed-to-anki-for-wotd/
+////
+
+{description}
+
+== はじめに
+
+辞書サイトのlink:http://www.merriam-webster.com/wotd/feed/rss2[Merriam-Webster's Word of the Day]やlink:http://www.macmillandictionary.com/wotd/wotdrss.xml[Macmillan Dictionary - Word of the Day]の配信を毎日楽しみにしています。最新のニュースからの用例や語源の説明、新しい語彙や新しい語義を知ることができ、教材の用語集や辞書とは違った良さがあります。
+
+気に入った項目をすぐに Anki に入力すれば良いのでしょうが、単純なコピペでもまとめてやるとずいぶん手間がかかります。
+
+「RSS フィードを直接 Anki に読めないだろうか」という動機からこのアドオンを作りました。
+
+....
+このアドオンを使えば毎日一枚ずつ継続的にカードを増やすことができます。
+....
+
+負担のない復習を考えると Anki を少しずつ継続的にカードを追加していくのが理想です。しかし、少しずつ足す作業を続けるのがなかなか難しい。このような負担を大幅に圧縮できます。
+
+.作成例 Merriam-Webster's Word of the Day
+image::/images/feed-to-anki-am.png["作成例 Merriam-Webster's Word of the Day",width="300"]
+
+== アドオンの入手方法
+
+link:https://ankiweb.net/shared/info/1895937979[Feed to Anki (for Word of the Day RSS)]という名前で、AnkiWeb 上で公開しています。
+
+アドオンのダウンロードコードは `1895937979` です。
+
+アドオンのインストールなどの基本情報は、link:/how-to-use-shared-resources/[Ankiの共有リソースを使ってみる]で説明しています。
+
+== Feed to Anki の説明
+
+このアドオンは、メニューから呼び出と、新たに RSS を取得してカードを作成します。
+
+既に読み込んだ項目がある場合は、無視します。繰り返し読み込んでもカードは重複しません。
+
+XML の要素内に直接 HTML のタグが使われている場合も、Anki のフィールド内に HTML の記述を持ち込みます。
+
+=== 呼び出し方
+
+メニューバーから [ツール] – [Feed to Anki]
+
+=== ノートのフィールドと XML 要素の対応
+
+フィードの XML 要素の内容と、Anki のカードのフィールドの対応は次の通りです。
+----
+Front: title
+Back: description (RSS) or summary (Atom)
+----
+
+=== 設定方法
+
+ソースコードを編集すると、参照元の RSS、読み込み先の単語帳、タグを指定することができます。単語帳名やタグ名に日本語が使えます。
+
+.ソースコードエディタの開き方
+メニューバーから [ツール] – [アドオン] - [Feed_to_Anki] -[編集]
+
+.設定項目の説明
+----
+# 単語帳名を指定、サブ単語帳も可能
+DECK = u"Word of the Day"
+# タグを指定。複数指定可能
+tags = [u"wotd",u"OAAD"]
+
+# フィードの URL を指定 (例: Oxford Learner's Dictionaries - Word of the Day)
+URL = "http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml"
+----
+
+タグやサブ単語帳を利用すると、複数のフィードを取り込んだ時に整理が簡単になります。
+
+.サブ単語帳を使った管理
+image::/images/feed-to-anki-mw.png["サブ単語帳を使った管理"]
+
+=== 制限事項
+
+* HTTPS は使えません。URL の記述を http: に変更してお使いください。
+* 一度に複数のフィードを読み込む機能はありません。
+* GUI はありません。
+
+== まとめ
+
+* Feed to Anki アドオンを呼び出すと RSS からカードを自動生成する
+* 作成済みのカードと重複作成はしない
+* RSS の URL の指定や、読み込み先の単語帳の指定はソースコードを編集する
+* サブ単語帳やタグを活用して整理するのがおすすめ
+
+=== もっと高度な読み込みを
+
+今回紹介した、Feed to Anki は RSS を読み込む単機能なアドオンですが、もっと複雑な設定をして XML や HTML を一括して読み込むためのアドオンを簡単に紹介します。
+
+link:https://ankiweb.net/shared/info/618450151[FlashGrab]:: このアドオンは汎用的な XML 読み込みアドオンです。ローカルに保存した XML ファイル限定です。読み先の指定に XPath を使用するので、この分野の経験がないと敷居が高いかと。
+
+link:https://ankiweb.net/shared/info/2097873320[HTML 2 ANKI]:: 高度な設定ができる GUI を持ったウェブスクレイピングアドオンです。ローカルもネットのファイルも扱えます。
+
+=== 動作確認済みフィード
+
+このアドオンを作成するのに動作確認をした英単語のフィードを紹介します。
+
+* http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml[Oxford Learner's Dictionaries - Word of the Day] + 
+基本語彙ばかりですが、正確に意味が分かっているか問う作りになっています。
+* http://www.macmillandictionary.com/wotd/wotdrss.xml">[Macmillan Dictionary - Word of the Day] +
+テーマ別に配信していて今は髪型についての言葉が続いています。
+* http://www.macmillandictionary.com/potw/potwrss.xml[Macmillan Dictionary - Phrase of the Week] +
+毎週配信ですが慣用句が学べます。
+* http://www.macmillandictionary.com/buzzword/rss.xml[Macmillan Dictionary - BuzzWord] +
+IT関連の業界用語あるいは新しい語義を仕入れるのに役立ちます。
+* http://www.merriam-webster.com/wotd/feed/rss2[Merriam-Webster's Word of the Day] +
+英語を母国語とする方のための内容で、用例や解説、語源まで充実しています。
+* http://wordsmith.org/awad/rss2.xml[Wordsmith.org: This week's words]
+* http://wordsmith.org/awad/rss1.xml[Wordsmith.org: Today's Word]
+* http://www.dictionary.com/wordoftheday/wotd.rss[Dictionary.com Word of the Day]
+
