@@ -171,6 +171,7 @@ https://ankiweb.net/shared/info/428194897[Quranic Arabic Verses word for word SI
 https://ankiweb.net/shared/info/3396002907[Russian Alphabet with Handwritten and Print fonts and sounds], ロシア語 発音 キリル文字 音声
 https://ankiweb.net/shared/info/534801471[Visual Spanish Plus Sound Files from Forvo], スペイン語 音声
 https://ankiweb.net/shared/info/629972372[French 500 coloured words with pictures and audio], フランス語 画像 音声
+https://ankiweb.net/shared/info/932662308[French Pronunciation], フランス語 発音 画像 音声
 https://ankiweb.net/shared/info/1529958967[Norwegian Sentences with Audio], ノルウェー語 音声
 "https://ankiweb.net/shared/info/822208674[Top 5000 - 1,395 Russian Verbs +audio +perfective +conjugati]", ロシア語 音声
 https://ankiweb.net/shared/info/733910527[500 English words(with pictures and audio)], 英語 画像 音声
