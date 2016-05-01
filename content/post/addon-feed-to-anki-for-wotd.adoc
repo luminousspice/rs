@@ -116,7 +116,7 @@ link:https://ankiweb.net/shared/info/2097873320[HTML 2 ANKI]:: 高度な設定�
 
 * http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml[Oxford Learner's Dictionaries - Word of the Day] + 
 基本語彙ばかりですが、正確に意味が分かっているか問う作りになっています。
-* http://www.macmillandictionary.com/wotd/wotdrss.xml">[Macmillan Dictionary - Word of the Day] +
+* http://www.macmillandictionary.com/wotd/wotdrss.xml[Macmillan Dictionary - Word of the Day] +
 テーマ別に配信していて今は髪型についての言葉が続いています。
 * http://www.macmillandictionary.com/potw/potwrss.xml[Macmillan Dictionary - Phrase of the Week] +
 毎週配信ですが慣用句が学べます。
