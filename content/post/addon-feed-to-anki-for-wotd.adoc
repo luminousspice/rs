@@ -1,5 +1,6 @@
 ---
 date: "2016-04-30T11:24:52+00:00"
+lastmod: "2016-05-01T13:30:23+00:00"
 title: "Feed to Anki 毎日英単語のカードを増やせるアドオン"
 categories: ["Anki"]
 tags: ["Anki","アドオン","RSS","Atom","英単語","開発"]
@@ -91,7 +92,7 @@ image::/images/feed-to-anki-mw.png["サブ単語帳を使った管理"]
 === 制限事項
 
 * HTTPS は使えません。URL の記述を http: に変更してお使いください。
-* 一度に複数のフィードを読み込む機能はありません。
+* 一度に複数のフィードを読み込む機能はありません。link:http://www.rssmix.com[RSSMix] のような RSS Aggregator をお使いください。
 * GUI はありません。
 
 == まとめ
@@ -101,7 +102,7 @@ image::/images/feed-to-anki-mw.png["サブ単語帳を使った管理"]
 * RSS の URL の指定や、読み込み先の単語帳の指定はソースコードを編集する
 * サブ単語帳やタグを活用して整理するのがおすすめ
 
-=== もっと高度な読み込みを
+== もっと高度な読み込みを
 
 今回紹介した、Feed to Anki は RSS を読み込む単機能なアドオンですが、もっと複雑な設定をして XML や HTML を一括して読み込むためのアドオンを簡単に紹介します。
 
@@ -109,7 +110,7 @@ link:https://ankiweb.net/shared/info/618450151[FlashGrab]:: このアドオン�
 
 link:https://ankiweb.net/shared/info/2097873320[HTML 2 ANKI]:: 高度な設定ができる GUI を持ったウェブスクレイピングアドオンです。ローカルもネットのファイルも扱えます。
 
-=== 動作確認済みフィード
+== 動作確認済みフィード
 
 このアドオンを作成するのに動作確認をした英単語のフィードを紹介します。
 
@@ -127,3 +128,21 @@ IT関連の業界用語あるいは新しい語義を仕入れるのに役立ち
 * http://wordsmith.org/awad/rss1.xml[Wordsmith.org: Today's Word]
 * http://www.dictionary.com/wordoftheday/wotd.rss[Dictionary.com Word of the Day]
 
+=== NHK 語学番組フレーズ集 RSS
+
+NHK 語学番組のフレーズ集がlink:http://gogakuru.com/rss/[RSS 配信]されています。
+
+NHK の基礎英語やビジネス英会話を視聴中の方は、番組のテキストから Anki にコピペする作業が自動化できます。
+このアドオンを活用すれば、番組の復習がもっと効果的になるのではないでしょうか。
+
+* http://gogakuru.com/rss/new_en_phrase_feed.xml[英語全番組 新着フレーズ]
+
+* http://gogakuru.com/rss/program_222_feed.xml[おとなの基礎英語]
+* http://gogakuru.com/rss/program_224_feed.xml[ニュースで英会話]
+* http://gogakuru.com/rss/program_227_feed.xml[ラジオ英会話]
+* http://gogakuru.com/rss/program_228_feed.xml[英会話タイムトライアル]
+* http://gogakuru.com/rss/program_230_feed.xml[基礎英語１]
+* http://gogakuru.com/rss/program_231_feed.xml[基礎英語２]
+* http://gogakuru.com/rss/program_232_feed.xml[基礎英語３]
+* http://gogakuru.com/rss/program_233_feed.xml[入門ビジネス英語]
+* http://gogakuru.com/rss/program_234_feed.xml[実践ビジネス英語]
