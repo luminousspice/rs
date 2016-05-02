@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2013-09-28T22:00:25Z"/>
-<meta property="article:modified_time" content="2014-04-19T06:49:53Z"/>
+<meta property="article:modified_time" content="2016-05-02T23:41:06Z"/>
 
 
 
@@ -90,182 +90,296 @@
 
 <div class="post">
   <h1 class="post-title">Ankiと初期化</h1>
-  <span class="post-date"><time datetime="2013-09-28T22:00:25Z"></time>2014-04-19 更新</span>
+  <span class="post-date"><time datetime="2013-09-28T22:00:25Z"></time>2016-05-02 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <section id="preamble">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
 <p>Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を紹介します。復習間隔や学習履歴を初期化、リセットする方法を取り上げます。</p>
-</section>
-<section id="ankiの環境設定を初期化する">
-  <div class="page-header">
-    <h2>Ankiの環境設定を初期化する</h2>
-  </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ankiの環境設定を初期化する">Ankiの環境設定を初期化する</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Ankiの環境設定を初期化するには設定ファイル <strong>prefs.db</strong> (Documents/Anki/prefs.db) を削除します。
 この削除作業はAnkiを終了してから行います。
 なお、<strong>prefs.db</strong> を削除しても単語帳の内容や学習履歴は影響を受けません。</p>
+</div>
+<div class="paragraph">
 <p>安全のため、<strong>prefs.db</strong> を削除するよりも別のファイル名に変更する方法がよいでしょう。
-もし、元の設定に戻したくなったら名前を <strong>prefs.db</strong> 戻せば設定を復元できます。
+もし、元の設定に戻したくなったら名前を <strong>prefs.db</strong> に戻せば設定を復元できます。
 この場合も、名前の変更はAnkiを終了してから行います。</p>
+</div>
+<div class="paragraph">
 <p><strong>prefs.db</strong> がない状態でAnkiを起動すると、言語設定画面が開きます。これでAnkiの設定が初期化したことが分かります。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/how2anki_1_1.png" alt="言語設定画面">
 </div>
 <div class="title">図 1. 言語設定画面</div>
 </div>
-<p>Ankiの設定を初期化する際の詳しい注意点は、<a href="http://rs.luminousspice.com/how-to-change-lang/">Anki2の言語設定を変更する</a>で説明しています。あわせてご覧ください。</p>
-<h3 id="ankiの再インストールと設定初期化">Ankiの再インストールと設定初期化</h3>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ankiの再インストールと設定初期化">Ankiの再インストールと設定初期化</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Ankiを再インストールと同時に設定も初期化したいのであれば、事前にAnkiのアプリケーション本体に加えて設定ファイル <strong>prefs.db</strong> も削除します。</p>
+</div>
+<div class="paragraph">
 <p>この場合、既存のユーザプロファイル、ユーザープロファイル、単語帳、学習履歴、バックアップファイルは残ります。</p>
-<h3 id="ankiのクリーンインストール">Ankiのクリーンインストール</h3>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ankiのクリーンインストール">Ankiのクリーンインストール</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Ankiのクリーンインストールを実行して、設定したユーザープロファイルや単語帳、学習履歴、バックアップファイルも消去するには、Ankiの再インストールの前にAnkiのアプリケーション本体と、Ankiフォルダー (Documents/Anki/) を削除します。</p>
-</section>
-<section id="カードの復習間隔を初期化する">
-  <div class="page-header">
-    <h2>カードの復習間隔を初期化する</h2>
-  </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードの復習間隔を初期化する">カードの復習間隔を初期化する</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>ブラウザーでカードを選択し、メニューバーから[編集]-[スケジュールを変更]-[新規カードの最後に設定]を選択します。
 この処理では、復習間隔とカードの易しさの指標を初期化します。学習後の復習期日の設定は追加したばかりの新規カードと同じになります。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/reset_1.png" alt="復習間隔の初期化の手順">
 </div>
 <div class="title">図 2. 復習間隔の初期化の手順</div>
 </div>
+<div class="paragraph">
 <p>ただし、学習履歴はそのまま残ります。この項目も削除したい場合は次の項目をご覧ください。</p>
+</div>
+<div class="paragraph">
 <p>この処理は、単語帳をスケジュール情報を含めずにAnki単語帳パッケージ(apkg)で書き出して、再度読み込んだ時と同じ結果になります。</p>
-</section>
-<section id="カードの学習履歴を初期化する">
-  <div class="page-header">
-    <h2>カードの学習履歴を初期化する</h2>
-  </div>
-<p>概略としては、ノートの内容をテキストファイルに書き出し、再度読み込んでカードを再作成する作業になります。
-この説明では、安全を見込んでバックアップファイルを作りながら行っていきます。</p>
-<p>安全で確実な手順は次の通りです。</p>
-<h3 id="ノートの書き出し">ノートの書き出し</h3>
-<ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードの学習履歴を初期化する">カードの学習履歴を初期化する</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>アドオン <a href="https://ankiweb.net/shared/info/787914845">Create Copy of Selected Cards</a>を使うと簡単に履歴の初期化ができます。</p>
+</div>
+<div class="paragraph">
+<p>このアドオンを使ってカードをコピーすると、学習履歴はコピーしない機能を活用します。</p>
+</div>
+<div class="olist arabic">
+<div class="title">カード初期化の手順</div>
+<ol class="arabic">
 <li>
-直近の自動バックアップファイルを取ります(a)。一旦Ankiを終了し、再起動します。複数のプロファイルを使用している場合は、一旦別のプロファイル変更して戻る処理でも良いです。
+<p>アドオンをインストールして Anki を再起動します・。</p>
 </li>
 <li>
-履歴を初期化したいカードだけを集めた単語帳を作ります。複数のノートタイプがある場合はノートタイプ毎に分割します。ノートタイプの名前は記録しておいてください。
+<p>カードブラウザで、初期化したいカードを選択します。</p>
 </li>
 <li>
-この単語帳の内容をテキストファイルに書き出します。
-メニューバーから[ファイル]-[書き出す](図3-1)を選択するか、ショートカット(Mac OS X: Command+E, Windows: Ctrl+E)を使います。
-<div class="ulist"><ul>
-<li>
-<p>
-書き出しオプション　(図3-2)
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-ファイルの形式: [テキストファイル形式のノート(*.txt)]
-</p>
+<p>メニューバーから [編集] - [Copy Cards] を選択します。</p>
 </li>
 <li>
-<p>
-対象: [書き出す単語帳名]
-</p>
-</li>
-</ul></div>
-</li>
-</ul></div>
-</li>
-<li>
-さらにバックアップとしてAnki単語帳パッケージで書き出します(b)。
-メニューバーから[ファイル]-[書き出す] \(Mac OS X: Command+E; Windows: Ctrl+E)
-<div class="ulist"><ul>
-<li>
-<p>
-書き出しオプション
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-ファイルの形式: [Anki単語帳パッケージ(*.apkg)]
-</p>
-</li>
-<li>
-<p>
-対象: [書き出す単語帳名]
-</p>
-</li>
-</ul></div>
-</li>
-</ul></div>
-</li>
-<li>
-書き出しが終わった単語帳を削除します(図3-3)。単語帳一覧から単語帳名右のドロップダウンリストで[削除]を選択します。
+<p>開いたダイアログにカードを保存する単語帳を指定して完了です。</p>
 </li>
 </ol>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/addon-copy-selected-cards.png" alt="Create Copy of Selected Cards 保存先指定">
+</div>
+<div class="title">図 3. Create Copy of Selected Cards 保存先指定</div>
+</div>
+<div class="ulist">
+<div class="title">Create Copy of Selected Cards の特徴</div>
+<ul>
+<li>
+<p>タグやマークを複製します。</p>
+</li>
+<li>
+<p>保留、延期の状態は引き継ぎません。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_アドオンを使わないでカードで学習履歴を初期化する">アドオンを使わないでカードで学習履歴を初期化する</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>アドオンを使わない方法も紹介しましょう。多少手順は複雑になります。</p>
+</div>
+<div class="paragraph">
+<p>概略としては、ノートの内容をテキストファイルに書き出し、再度読み込んでカードを再作成する作業になります。
+この説明では、安全を見込んでバックアップファイルを作りながら行っていきます。</p>
+</div>
+<div class="paragraph">
+<p>安全で確実な手順は次の通りです。</p>
+</div>
+<div class="sect2">
+<h3 id="_ノートの書き出し">ノートの書き出し</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>直近の自動バックアップファイルを取ります(a)。一旦Ankiを終了し、再起動します。複数のプロファイルを使用している場合は、一旦別のプロファイル変更して戻る処理でも良いです。</p>
+</li>
+<li>
+<p>履歴を初期化したいカードだけを集めた単語帳を作ります。複数のノートタイプがある場合はノートタイプ毎に分割します。ノートタイプの名前は記録しておいてください。</p>
+</li>
+<li>
+<p>この単語帳の内容をテキストファイルに書き出します。
+メニューバーから[ファイル]-[書き出す](図4 1)を選択するか、ショートカット(Mac OS X: Command+E, Windows: Ctrl+E)を使います。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>書き出しオプション　(図4 2)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ファイルの形式: [テキストファイル形式のノート(*.txt)]</p>
+</li>
+<li>
+<p>対象: [書き出す単語帳名]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>さらにバックアップとしてAnki単語帳パッケージで書き出します(b)。
+メニューバーから[ファイル]-[書き出す] (Mac OS X: Command+E; Windows: Ctrl+E)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>書き出しオプション</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ファイルの形式: [Anki単語帳パッケージ(*.apkg)]</p>
+</li>
+<li>
+<p>対象: [書き出す単語帳名]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>書き出しが終わった単語帳を削除します(図4 3)。単語帳一覧から単語帳名右のドロップダウンリストで[削除]を選択します。</p>
+</li>
+</ol>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/reset_2.png" alt="ノートを書き出す手順">
 </div>
-<div class="title">図 3. ノートを書き出す手順</div>
+<div class="title">図 4. ノートを書き出す手順</div>
 </div>
+<div class="paragraph">
 <p>Ankiのノートを書き出す方法は、<a href="http://rs.luminousspice.com/how-to-share-anki-decks/">Anki単語帳を共有する方法</a>でさらに詳しく説明しています。</p>
-<h3 id="テキストファイルの読み込み">テキストファイルの読み込み</h3>
-<ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_テキストファイルの読み込み">テキストファイルの読み込み</h3>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-書き出したテキストファイルを読み込みます。
-[ファイルを読み込む]ボタン(図4-1)を押すか、メニューバーから[ファイル]-[読み込む]を選択するか、ショートカット(Mac OS X: Command+I; Windows: Ctrl+I)を使います。
-<div class="ulist"><ul>
+<p>書き出したテキストファイルを読み込みます。
+[ファイルを読み込む]ボタン(図5 1)を押すか、メニューバーから[ファイル]-[読み込む]を選択するか、ショートカット(Mac OS X: Command+I; Windows: Ctrl+I)を使います。</p>
+<div class="ulist">
+<ul>
 <li>
-<p>
-読み込みファイルの指定(図4-2)
-</p>
-<div class="ulist"><ul>
+<p>読み込みファイルの指定(図5 2)</p>
+<div class="ulist">
+<ul>
 <li>
-<p>
-ファイルの種類 [タブ区切りまたはセミコロン区切り(*)]
-</p>
+<p>ファイルの種類 [タブ区切りまたはセミコロン区切り(*)]</p>
 </li>
-</ul></div>
-</li>
-<li>
-<p>
-読み込みオプション(図4-3)
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-種類 [ノートタイプの名前]
-</p>
+</ul>
+</div>
 </li>
 <li>
-<p>
-単語帳 [読み込み先の単語帳名]
-</p>
+<p>読み込みオプション(図5 3)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>種類 [ノートタイプの名前]</p>
 </li>
-</ul></div>
+<li>
+<p>単語帳 [読み込み先の単語帳名]</p>
 </li>
-</ul></div>
+</ul>
+</div>
+</li>
+</ul>
+</div>
 </li>
 </ol>
+</div>
+<div class="paragraph">
 <p>Ankiのブラウザーを開き、読み込み先の単語帳を選択して、カードが正しく作成されているか確認します。
 読み込み先の単語帳が分からなくなった場合は、ブラウザーのサイドバーから[今日追加したカード]を選択してみてください。</p>
+</div>
+<div class="paragraph">
 <p>いずれの場合も、正しく作成していれば、期日と易しさは初期化され、学習履歴は消えているはずです。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/reset_3.png" alt="テキストファイルを読み込む手順">
 </div>
-<div class="title">図 4. テキストファイルを読み込む手順</div>
+<div class="title">図 5. テキストファイルを読み込む手順</div>
 </div>
+<div class="paragraph">
 <p>テキストファイルの読み込み方の詳しい設定は、<a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>で説明しています。</p>
-<h3 id="読み込みに失敗したときのバックアップの使い方">読み込みに失敗したときのバックアップの使い方</h3>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_読み込みに失敗したときのバックアップの使い方">読み込みに失敗したときのバックアップの使い方</h3>
+<div class="paragraph">
 <p>何らかのトラブルで書き出したテキストファイルの読み込みができなかった場合、(b)で作成した単語帳を読み込むと、元の単語帳が修復できます。apkgファイルをダブルクリックすると読み込まれます。</p>
+</div>
+<div class="paragraph">
 <p>(b)のバックアップ単語帳を作らなかった時、読み込みに失敗したときは、(a)の自動バックアップファイルから修復すると(a)の時点での単語帳コレクションの状態まで復元できます。</p>
+</div>
+<div class="paragraph">
 <p>バックアップファイルについては、<a href="http://rs.luminousspice.com/anki_automatic_backup/">Anki自動バックアップ機能の使い方</a>で詳しく説明しています。</p>
-<h3 id="元のカードを上書きしない理由">元のカードを上書きしない理由</h3>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_元のカードを上書きしない理由">元のカードを上書きしない理由</h3>
+<div class="paragraph">
 <p>学習履歴を消去したいカードを削除してから読み込んだのは、読み込み時にカードを上書きしても、学習履歴は消去できないためです。</p>
+</div>
+<div class="paragraph">
 <p>読み込みのオプションで[最初のフィールドが既存ノートと同じであっても読み込む]を選択した場合は、古いカードが残り、重複することになります。
 [最初のフィールドが一致した場合、既存のノートを更新する]を選択した場合は、学習履歴の変更が行われません。</p>
-</section>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2013/09/28: 初出</p>
+</div>
+<div class="paragraph">
+<p>2016/05/03: 更新: カード履歴の初期化をアドオンを利用した方法に変更</p>
+</div>
+</div>
+</div>
 
   </div>
   <aside class="reference">
