@@ -260,246 +260,370 @@ speechSynthesis.speak(speech);
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
-      <description>Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。Anki の本体機能にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。Simple tutorial to create Anki Add-ons for developer with an custom hook.</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることができます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことができます。この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「Anki 2.0 アドオンの作成」を補足する内容です。&lt;/p&gt;
-&lt;p&gt;この記事は、АnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/1299246957&#34; target=&#34;_new&#34;&gt;Mature Tag&lt;/a&gt;を例にとって、解説します。
-完成品をインストールして動作させることができますし、ソースコードを見ることもできます。最後に作成したアドオンを AnkiWeb の共有アドオン一覧に登録する方法を紹介します。&lt;/p&gt;
+      <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオンのチュートリアルです。Anki の標準のフックがない場所にカスタムのフック (Hook) を追加し、機能拡張するアドオンを作成する方法を簡単に説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki アドオン作成のチュートリアルです。復習で熟知になったカードのノートにタグを付けるアドオンを作ります。Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki は、アドオンを作成することで、標準機能を拡張したり、変更したりすることが出来ます。このアドオンの作成を簡単にするために、Anki はフック (Hook) という機能を提供しています。フックを使うと標準機能の中に簡単に外部の関数を組み込むことが出来ます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この記事では更に進んで Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。復習後、熟知になったカードのノートにタグを付けるアドオンを開発します。オフィシャルドキュメント「&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;」を補足する内容です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/17741639&#34;&gt;Mature Tag&lt;/a&gt; (Code: &lt;code&gt;17741639&lt;/code&gt;) を例にとって解説します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;完成品をインストールして動作させることが出来ますし、ソースコードを見ることも出来ます。最後に作成したアドオンを AnkiWeb の共有アドオン一覧に登録する方法を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;アドオンのインストール方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介しています。&lt;/p&gt;
-&lt;p&gt;また、ソースコードの表示方法は、インストールが完了した後、メニューバーの[ツール]-[アドオン]-[Mature_Tag]-[編集&amp;#8230;]を選択してください。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;前提知識&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;前提知識&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、ソースコードの表示方法は、インストールが完了した後、メニューバーの[ツール]-[アドオン]-[Mature_Tag]-[編集&amp;#8230;&amp;#8203;]を選択してください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_前提知識&#34;&gt;前提知識&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この記事の内容を理解するには、次の知識が必要です。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-Anki の操作方法
-特に、Anki というアプリケーションの機能を十分理解した上での操作方法の習熟は必須です。
-&lt;/p&gt;
+&lt;p&gt;Anki の操作方法
+特に、Anki というアプリケーションの機能を十分理解した上での操作方法の習熟は必須です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Python による開発経験
-他の開発言語の経験でも構いませんが、自分で資料を読み Python の開発方法を学べる能力は必要です。
-&lt;/p&gt;
+&lt;p&gt;Python による開発経験
+他の開発言語の経験でも構いませんが、自分で資料を読み Python の開発方法を学べる能力は必要です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
-本文中のサンプルコードを実際に動かしてアドオンを作成する経験があると理解に役立ちます。
-&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;の内容理解
+本文中のサンプルコードを実際に動かしてアドオンを作成する経験があると理解に役立ちます。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この記事の最後に &lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/#review&#34;&gt;Anki アドオン開発のおさらい&lt;/a&gt; という項目を設けて、必要な知識をまとめています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;つくるアドオンの要件&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;つくるアドオンの要件&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_つくるアドオンの要件&#34;&gt;つくるアドオンの要件&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;まず最初にアドオンの要件を決めておきます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;「復習が終わったら、新たに設定した復習間隔を調べ、熟知なら &#34;Mature&#34; というタグをノートに追加し、それ以外なら  &#34;Mature&#34; を削除します。」&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;モジュールのインポート&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;モジュールのインポート&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_モジュールのインポート&#34;&gt;モジュールのインポート&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;最初に必要なモジュールをインポートします。
-Anki の復習で解答した時の処理は &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34; target=&#34;_new&#34;&gt;sched.py&lt;/a&gt; の中のクラス &lt;code&gt;Scheduler&lt;/code&gt; のメソッド &lt;code&gt;answerCard&lt;/code&gt; で記述しています。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;from&lt;/strong&gt; anki.sched &lt;strong&gt;import&lt;/strong&gt; Scheduler&lt;/pre&gt;&lt;/div&gt;
+Anki の復習で解答した時の処理は &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sched.py&#34;&gt;sched.py&lt;/a&gt; の中のクラス &lt;code&gt;Scheduler&lt;/code&gt; のメソッド &lt;code&gt;answerCard&lt;/code&gt; で記述しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;from anki.sched import Scheduler&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;残念ながら復習に関する処理の中にフック (Hook) は存在しません。そこで独自のフックをこのメソッドの最後に追加します。
 フックの設置、呼び出しに必要なモジュールをインポートします。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;from&lt;/strong&gt; anki.hooks &lt;strong&gt;import&lt;/strong&gt; addHook, runHook, wrap&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;もちろん &lt;code&gt;answerCard&lt;/code&gt; を書き換えることもできますが、今回の様な条件では独自フックの設置したほうが簡単に記述できます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;復習の解答後に処理するフックを設置する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;復習の解答後に処理するフックを設置する&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;from anki.hooks import addHook, runHook, wrap&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;もちろん &lt;code&gt;answerCard&lt;/code&gt; を書き換えることも出来ますが、今回の様な条件では独自フックの設置したほうが簡単に記述できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習の解答後に処理するフックを設置する&#34;&gt;復習の解答後に処理するフックを設置する&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;まず、独自のフック &#34;anseweredRevCard&#34; を追加する関数 &lt;code&gt;newAnswerCard()&lt;/code&gt; を定義します。
 runHook() はフックを新たに設置する標準の関数です。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;def&lt;/strong&gt; newAnswerCard(self, card, ease):
-    runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;def newAnswerCard(self, card, ease):
+    runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;次に標準の &lt;code&gt;wrap()&lt;/code&gt; 関数を使って、&lt;code&gt;answerCard&lt;/code&gt; の後に &lt;code&gt;newAnswerCard&lt;/code&gt; の内容を追加する処理を記述します。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;すると &lt;code&gt;answerCard&lt;/code&gt; の最後に次の行が追加されます。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;これで、復習で解凍した後に処理を呼び出すフックを設置できました。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;タグを追加_削除する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;タグを追加、削除する&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_タグを追加_削除する&#34;&gt;タグを追加、削除する&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;復習が終わったら、復習間隔を調べ 21 日以上であったら、&#34;Mature&#34; タグを追加し、それ以外の場合は削除する関数　&lt;code&gt;matureCheck()&lt;/code&gt; を定義します。
 熟知の基準日数は変数 &lt;code&gt;threshold&lt;/code&gt; に、設定するタグ文字列は変数 &lt;code&gt;MatureTag&lt;/code&gt; に設定しました。
 タグをノートに追加するには &lt;code&gt;Note&lt;/code&gt; クラスのメソッド &lt;code&gt;addTag()&lt;/code&gt; を、削除するには &lt;code&gt;delTag()&lt;/code&gt; を使います。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;i&gt;# Threshold interval for tagging&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;# Threshold interval for tagging
 threshold = 21
-&lt;i&gt;# Tag string for mature note&lt;/i&gt;
+# Tag string for mature note
 MatureTag = u&#34;Mature&#34;
 
-&lt;strong&gt;def&lt;/strong&gt; matureCheck(self, card):
+def matureCheck(self, card):
     f = card.note()
-    &lt;strong&gt;if&lt;/strong&gt; (card.ivl &amp;gt;= threshold):
+    if (card.ivl &amp;gt;= threshold):
         f.addTag(MatureTag)
-    &lt;strong&gt;else&lt;/strong&gt;:
+    else:
         f.delTag(MatureTag)
     f.flush()
-    &lt;strong&gt;return&lt;/strong&gt; True&lt;/pre&gt;&lt;/div&gt;
+    return True&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;最後に &lt;code&gt;addHook()&lt;/code&gt; 関数を使って上で作成したカスタムフック &#34;anseweredRevCard&#34;　で &lt;code&gt;matureCheck()&lt;/code&gt; 関数を呼び出す設定をします。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;これで、完成です。完成品は次の通りです。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;strong&gt;from&lt;/strong&gt; anki.hooks &lt;strong&gt;import&lt;/strong&gt; addHook, runHook, wrap
-&lt;strong&gt;from&lt;/strong&gt; anki.sched &lt;strong&gt;import&lt;/strong&gt; Scheduler
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Mature_Tag.py&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;from anki.hooks import addHook, runHook, wrap
+from anki.sched import Scheduler
 
-&lt;i&gt;# Threshold interval for tagging&lt;/i&gt;
+# Threshold interval for tagging
 threshold = 21
-&lt;i&gt;# Tag string for mature note&lt;/i&gt;
+# Tag string for mature note
 MatureTag = u&#34;Mature&#34;
 
-&lt;strong&gt;def&lt;/strong&gt; matureCheck(self, card):
+def matureCheck(self, card):
     f = card.note()
-    &lt;strong&gt;if&lt;/strong&gt; (card.ivl &amp;gt;= threshold):
+    if (card.ivl &amp;gt;= threshold):
         f.addTag(MatureTag)
-    &lt;strong&gt;else&lt;/strong&gt;:
+    else:
         f.delTag(MatureTag)
     f.flush()
-    &lt;strong&gt;return&lt;/strong&gt; True
+    return True
 
-&lt;strong&gt;def&lt;/strong&gt; newAnswerCard(self, card, ease):
+def newAnswerCard(self, card, ease):
     runHook(&#39;anseweredRevCard&#39;, self, card)
 
 Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
 
-addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;もっとかんたんに書く&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;もっとかんたんに書く&lt;/h2&gt;
-  &lt;/div&gt;
+addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_もっとかんたんに書く&#34;&gt;もっとかんたんに書く&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;実は、フックを設置せずに記述を簡略化できます。メソッドを上書きする方法です。
 &lt;code&gt;wrap()&lt;/code&gt; 関数で直接 &lt;code&gt;matureCheck&lt;/code&gt; を指定します。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;- &lt;strong&gt;def&lt;/strong&gt; newAnswerCard(self, card, ease):
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;変更点　(- で始まる行を削除、+ で始まる行を追加)&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;- def newAnswerCard(self, card, ease):
 -    runHook(&#39;anseweredRevCard&#39;, self, card)
 
 - Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
 + Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)
 
-- addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;この場合は、フックを使わないので、他の関数も追加で呼び出すような追加拡張はできません。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ファイルの配置&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ファイルの配置&lt;/h2&gt;
-  &lt;/div&gt;
+- addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この場合は、フックを使わないので、他の関数も追加で呼び出すような追加拡張は出来ません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ファイルの配置&#34;&gt;ファイルの配置&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;完成したファイル Mature_Tag.py を動作させるには、&lt;code&gt;Documents/Anki/addons&lt;/code&gt; フォルダの中に保存します。Anki を再起動すると、この Python スクリプトファイルを読み込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;アドオンが読み込まれるとメニューバーに [ツール]-[アドオン]-[Mature_Tag] という項目が追加されます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ankiweb_の共有アドオン一覧に登録する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;AnkiWeb の共有アドオン一覧に登録する&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ankiweb_の共有アドオン一覧に登録する&#34;&gt;AnkiWeb の共有アドオン一覧に登録する&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;作成したアドオンを AnkiWeb に公開して、アドオン一覧に登録する方法を紹介します。
-まず、&lt;a href=&#34;https://ankiweb.net/shared/addons/&#34; target=&#34;_new&#34;&gt;共有アドオン一覧&lt;/a&gt;を開き、AnkiWeb にサインインします。&lt;/p&gt;
+まず、&lt;a href=&#34;https://ankiweb.net/shared/addons/&#34;&gt;共有アドオン一覧&lt;/a&gt;を開き、AnkiWeb にサインインします。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_1.png&#34; alt=&#34;アドオン一覧&#34; width=&#34;60%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. 共有アドオン一覧&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;登録フォームは画面右上の [Upload Add-on] ボタンをクリックすると表示します。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_2.png&#34; alt=&#34;登録フォーム&#34; width=&#34;60%&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. アドオン登録フォーム&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;このフォームでは次のように項目入力します。&lt;/p&gt;
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;Title:&lt;/strong&gt; アドオンの名前を入力します。アドオン一覧に表示する名前にになります。
-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; アドオンの名前を入力します。アドオン一覧に表示する名前にになります。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;File:&lt;/strong&gt; 登録したいアドオンの Python スクリプトを選択します。今回の例では &lt;code&gt;Mature_Tag.py&lt;/code&gt; です。
-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;File:&lt;/strong&gt; 登録したいアドオンの Python スクリプトを選択します。今回の例では &lt;code&gt;Mature_Tag.py&lt;/code&gt; です。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;Description&lt;/strong&gt; アドオンユーザーのためにアドオンの機能や使い方の説明を入力します。
-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt; アドオンユーザーのためにアドオンの機能や使い方の説明を入力します。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;入力が済んだら [Upload] を押すと登録できます。特に AnkiWeb に障害がなければ即座に公開されます。
 登録したアドオンのページに移動します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;公開したアドオンのページの下にある [Update] ボタンを押すと登録内容の編集ができ、[Remove] ボタンを押すとアドオンを削除することができます。&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/anki_addon_tutorial_3.png&#34; alt=&#34;アドオンページ 編集、削除ボタン&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 3. アドオンページ 編集、削除ボタン&lt;/div&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;まとめ&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;まとめ&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;「Anki 2.0 アドオンの作成」で説明しているとおり、Anki が標準で用意しているフックを利用すると Anki の機能の修正や追加が簡単になります。フックが用意されていない箇所にも、この記事で紹介した方法で自分でカスタムのフックを自由に追加することができます。フックの使い方になれると Anki アドオン作成するを能力が向上し、Anki 自身の機能についても理解を深めることができます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;review&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;遺補: Anki アドオン開発のおさらい&lt;/h2&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;review&#34;&gt;遺補: Anki アドオン開発のおさらい&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki のアドオンは、Python スクリプトで記述し、&lt;code&gt;Documents/Anki/addons&lt;/code&gt; フォルダの中に保存します。
 Anki に Python インタープリタが含まれているため、アドオンの開発に Python のインストールは必要ありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki は起動時に &lt;code&gt;addons&lt;/code&gt; フォルダの中の &lt;code&gt;.py&lt;/code&gt; ファイルを読み込みます。
 従って、新たにアドオンファイルを追加した場合、再起動して初めて機能するようになります。
 なお、シフトキーを押したまま Anki を起動すると、アドオンファイルの読み込みは行いません。&lt;/p&gt;
-&lt;p&gt;Anki には、WordPress のようにフック (Hook) という機能を提供していて、標準機能を拡張したり、変更したりするアドオン開発が容易にできます。Anki 自身もたくさんのフックを利用しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki には、WordPress のようにフック (Hook) という機能を提供していて、標準機能を拡張したり、変更したりするアドオン開発が容易に出来ます。Anki 自身もたくさんのフックを利用しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;アドオンをつくるために Anki が用意している関数は次の通りです。&lt;/p&gt;
-&lt;table rules=&#34;rows&#34; frame=&#34;hsides&#34;cellspacing=&#34;0&#34; cellpadding=&#34;4&#34;&gt;
+&lt;/div&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 1. アドオン開発用関数&lt;/caption&gt;
 &lt;colgroup&gt;
-&lt;col class=&#34;span1&#34;&gt;
-&lt;col class=&#34;span4&#34;&gt;
+&lt;col style=&#34;width: 20%;&#34;&gt;
+&lt;col style=&#34;width: 80%;&#34;&gt;
 &lt;/colgroup&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;関数名&lt;/th&gt;
-&lt;th&gt;説明&lt;/th&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;関数名&lt;/th&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;説明&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;runHook&lt;/td&gt;
-&lt;td&gt;フックを実行する。値は返さない。&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;runHook&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;フックを実行する。値は返さない。&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;runFilter&lt;/td&gt;
-&lt;td&gt;フィルターを実行し値を返す。&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;runFilter&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;フィルターを実行し値を返す。&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;addHook&lt;/td&gt;
-&lt;td&gt;フックを追加する。&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;addHook&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;フックを追加する。&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;remHook&lt;/td&gt;
-&lt;td&gt;フックを削除する。&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;remHook&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;フックを削除する。&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;wrap&lt;/td&gt;
-&lt;td&gt;既存の関数を上書きする。第3引数でオリジナルの関数の位置を指定。既定はオリジナルの後にカスタム関数を実行する。&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;wrap&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;既存の関数を上書きする。第3引数でオリジナルの関数の位置を指定。既定はオリジナルの後にカスタム関数を実行する。&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;フックを見つけるには、Anki のソースコードを　&#34;runHook&#34;、&#34;runFilter&#34; で検索します。Anki 2.0.20 現在　36 のフックが存在します。&lt;/p&gt;
-&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34; target=&#34;_new&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
-&lt;/section&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;フックを見つけるには、Anki のソースコードを　&#34;runHook&#34;、&#34;runFilter&#34; で検索します。Anki 2.0.36 現在 49 のフックが存在します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;フックの使い方を詳しく知るには、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons/&#34;&gt;Anki 2.0 アドオンの作成&lt;/a&gt;、および &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/hooks.py&#34;&gt;anki/hooks.py&lt;/a&gt; をお読みください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2014/01/17: 初出&lt;br&gt;
+2016/05/04: 更新: サンプルファイルの保存場所を変更&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
     </item>
     
