@@ -1,6 +1,6 @@
 ---
 date: "2016-04-30T11:24:52+00:00"
-lastmod: "2016-05-01T13:30:23+00:00"
+lastmod: "2016-05-04T16:15:52+00:00"
 title: "Feed to Anki 毎日英単語のカードを増やせるアドオン"
 categories: ["Anki"]
 tags: ["Anki","アドオン","RSS","Atom","英単語","開発"]
@@ -114,16 +114,23 @@ link:https://ankiweb.net/shared/info/2097873320[HTML 2 ANKI]:: 高度な設定�
 
 このアドオンを作成するのに動作確認をした英単語のフィードを紹介します。
 
-* http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml[Oxford Learner's Dictionaries - Word of the Day] + 
-基本語彙ばかりですが、正確に意味が分かっているか問う作りになっています。
+* http://www.merriam-webster.com/wotd/feed/rss2[Merriam-Webster's Word of the Day] +
+英語を母国語とする方のための内容で、用例や解説、語源まで充実しています。
+
 * http://www.macmillandictionary.com/wotd/wotdrss.xml[Macmillan Dictionary - Word of the Day] +
 テーマ別に配信していて今は髪型についての言葉が続いています。
 * http://www.macmillandictionary.com/potw/potwrss.xml[Macmillan Dictionary - Phrase of the Week] +
 毎週配信ですが慣用句が学べます。
 * http://www.macmillandictionary.com/buzzword/rss.xml[Macmillan Dictionary - BuzzWord] +
 IT関連の業界用語あるいは新しい語義を仕入れるのに役立ちます。
-* http://www.merriam-webster.com/wotd/feed/rss2[Merriam-Webster's Word of the Day] +
-英語を母国語とする方のための内容で、用例や解説、語源まで充実しています。
+
+* http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml[Oxford Learner's Dictionaries - Word of the Day] + 
+学習辞典からの基本語彙ばかりですが、正確に意味が分かっているか問う作りになっています。
+* http://www.oxforddictionaries.com/wordoftheday/wotdrss.xml[Oxford Dictionaries Online - Word of the Day] +
+英語を母国語とする方のための ODE からの言葉を収録しています。こちらも新しく意味を学ぶというよりも、既知の言葉を確認するための内容です。
+* http://www.oed.com/rss/wordoftheday[The word of the day from Oxford English Dictionary] +
+歴史的な辞書 OED からの言葉で、歴史的な事物の名称を取り上げることが多く、学習というよりも蘊蓄が深まる内容です。
+
 * http://wordsmith.org/awad/rss2.xml[Wordsmith.org: This week's words]
 * http://wordsmith.org/awad/rss1.xml[Wordsmith.org: Today's Word]
 * http://www.dictionary.com/wordoftheday/wotd.rss[Dictionary.com Word of the Day]
