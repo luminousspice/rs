@@ -1,11 +1,12 @@
-+++
-date = "2016-04-13T12:40:52+00:00"
-title = "Anki 単語帳データ配布ガイド"
-categories = ["Anki"]
-tags = ["Anki","単語帳","配布","共有単語帳","APKG"]
-anki = ["Anki","単語帳","配布","共有単語帳","APKG"]
-excerpt = "Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケージ APKG ファイルの作り方を説明します。"
-+++
+---
+date: "2016-04-13T12:40:52+00:00"
+lastmod: "2016-05-07T15:31:44+00:00"
+title: "Anki 単語帳データ配布ガイド"
+categories: ["Anki"]
+tags: ["Anki","単語帳","配布","共有単語帳","APKG"]
+anki: ["Anki","単語帳","配布","共有単語帳","APKG"]
+excerpt: "Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケージ APKG ファイルの作り方を説明します。"
+---
 = Anki 単語帳データ配布ガイド
 :author: luminousspice
 :lang: ja
@@ -155,6 +156,19 @@ AnkiMobile の iTuens ファイル共有の読み込み (import) 機能は、 co
 
 ブラウザーでダウンロードするか、メールに添付して開きます。または、AnkiDroid の読み込み (インポート) 機能を使います。
 
+== RSS 配信を利用する方法
+
+アドオン Feed to Anki を利用すれば、RSS を使ってカード内容を配信できます。
+
+例えば、タイトルがカードの表、本文がカードの裏に相当するブログを立てて、その RSS をこのアドオンを使って受信する使い方ができます。
+
+ユーザーがブラウザを使ってウェブページからダウンロードしたり、ユーザーに APKG ファイルを送付する手間が省略できます。Anki のメニューからコマンドを実行するだけです。
+データ作成者は配布用の APKG ファイルの作成や管理の必要がなくなります。
+
+残念ながらスマホからの利用ができないため、配布先が PC だけの条件であれば有効活用できるのではないかと思います。
+
+このアドオンの詳しい内容は、link:/addon-feed-to-anki-for-wotd/[Feed to Anki 毎日英単語のカードを増やせるアドオン]をご覧下さい。
+
 == まとめ
 
 * 単語帳データの継続配布に適したフォーマットは APKG
@@ -166,3 +180,8 @@ AnkiMobile の iTuens ファイル共有の読み込み (import) 機能は、 co
 
 * Anki ソースファイル https://github.com/dae/anki/blob/master/anki/importing/anki2.py[anki/importing/anki2.py]
 * Anki リリースノート link:http://ankisrs.net/docs/changes.html[Changes in Anki 2]
+
+== 更新情報
+
+2016-04-13: 初出 +
+2016-05-07: RSS 配信について加筆 +
