@@ -1,7 +1,7 @@
 ---
 slug: "anki2addons"
 date: "2012-09-16T00:00:47+00:00"
-lastmod: "2016-05-01T15:47:30+00:00"
+lastmod: "2016-05-07T13:54:21+00:00"
 title: "Anki 2.0 アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
 tags: ["Anki","Python","Qt","SQLite","アドオン"]
@@ -1255,6 +1255,8 @@ https://ankiweb.net/shared/addons/ にアドオンをアップロードしてく
 Anki 2 の変更点を知るには、link:/changeinanki2/[Anki 2の変更点] が役立ちます。
 
 更に、アプリケーションの個々の機能や処理を詳しく理解するには link:http://ankisrs.net/docs/manual.html[Anki User Manual] をご覧ください。
+
+Anki 2.0.36 現在、Anki に同梱している Python のバージョンは `2.7.6` です。
 
 アドオン開発の簡単なチュートリアルとして link:/how_to_create_anki_add-ons/[フックを使った Anki アドオンのつくり方]を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。
 
