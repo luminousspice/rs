@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2013-07-08T00:00:15Z"/>
-<meta property="article:modified_time" content="2013-07-08T00:08:56Z"/>
+<meta property="article:modified_time" content="2016-05-07T13:38:24Z"/>
 
 
 
@@ -90,112 +90,168 @@
 
 <div class="post">
   <h1 class="post-title">Ankiのノートを追加順に学習する方法</h1>
-  <span class="post-date"><time datetime="2013-07-08T00:00:15Z"></time>2013-07-08 更新</span>
+  <span class="post-date"><time datetime="2013-07-08T00:00:15Z"></time>2016-05-07 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <section id="順番に意味があるノートを学習する">
-  <div class="page-header">
-    <h2>順番に意味があるノートを学習する</h2>
-  </div>
-<div class="paragraph"><p>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。
-Ankiの既定の機能は、ノート毎の解答履歴によって、復習間隔や順序を設定します。
-この機能を外して、学習する方法を紹介します。</p></div>
-<div class="paragraph"><p>例として、単語帳 <code>default</code> に100枚のカードがあり、毎日先頭から順番に20枚ずつ5日に分けて学習したいとします。</p></div>
-<div class="paragraph"><p>まず、20枚ずつタグを付けます。たとえば 1-20 まではsession1、21−40 までは、session2 と設定し、最後の session5 は　81−100　のカードに割り当てます。</p></div>
-<div class="paragraph"><p>タグの割り当て方は、Ankiに読み込む前にテキストファイルの状態で表計算ソフトによって設定する方法 (参考 <a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>) と既に読み込み済みのカードをブラウザーから選んで設定する方法 (参考: <a href="http://rs.luminousspice.com/browser-overview/">Ankiのブラウザーの使い方とデータ検索</a>) の2種類があります。</p></div>
-</section>
-<section id="フィルター単語帳の設定">
-  <div class="page-header">
-    <h2>フィルター単語帳の設定</h2>
-  </div>
-<div class="paragraph"><p>次に20枚ずつに分割したsession毎に、ノートの追加順にカードを表示するフィルター単語帳を作ります。
-メニューバーから[ツール]&gt;[フィルター単語帳]を選択して(またはショートカット F)、フィルター単語帳設定画面を開きます。</p></div>
-<div class="paragraph"><p>設定項目は次の通りです。</p></div>
-<div class="ulist"><div class="title">フィルター単語帳の設定例</div><ul>
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。Anki の既定の機能は、ノート毎の解答履歴によって、復習間隔や順序を設定します。この機能を外して、学習する方法を紹介します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードブラウザのプレビュー機能を利用">カードブラウザのプレビュー機能を利用</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>追加順にカードを表示する一番簡単な方法は、カードブラウザのプレビュー機能を利用することです。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>
-検索欄には、<code>"deck:&lt;単語帳名&gt;" "tag:&lt;タグで指定するsession名&gt;"</code> を入力します。
-</p>
+<p>カードブラウザを開き、表示してからしたい単語帳を選択してから見出し項目 [作成日] をクリックして、作成日順に並び替えます。</p>
 </li>
 <li>
-<p>
-最大枚数は、20枚を指定。
-</p>
+<p>画面右上の [プレビュー] ボタンを押します。</p>
 </li>
-<li>
-<p>
-出題方法は、[追加した順番]を指定します。
-</p>
-</li>
-<li>
-<p>
-項目[この単語帳の解答に基づいてカードをスケジュールし直す] のチェックを外す。
-</p>
-</li>
-<li>
-<p>
-項目[カスタム学習ステップ]をチェックし、20枚のカードを学習するのに掛かる時間より十分余裕のある時間を分単位で入力します。例えば10。
-</p>
-</li>
-</ul></div>
+</ol>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="http://rs.luminousspice.com/images/learn_in_original_squence_1.png" alt="フィルター単語帳の設定">
+<img src="http://rs.luminousspice.com/images/shared-decks-preview.png" alt="プレビュー画面">
 </div>
-<div class="title">図 1. フィルター単語帳の設定</div>
+<div class="title">図 1. プレビュー画面</div>
 </div>
-<div class="paragraph"><p>[作成ボタン]を押すと、フィルター単語帳の作成が完了します。
-単語帳一覧に戻り、[カスタム学習セッション]という名前で保存しているフィルター単語帳の名前を変更します。例えば、タグ[session1]のフィルター単語帳には <code>session1</code> という名前をつけます。</p></div>
-<div class="paragraph"><p>これを session1 から　session5 まで全てのタグに対して、フィルター単語帳を作成します。</p></div>
-<div class="paragraph"><p>なお、フィルター単語帳の詳しい設定方法については、<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>をご覧ください。</p></div>
-</section>
-<section id="フィルター単語帳の使い方">
-  <div class="page-header">
-    <h2>フィルター単語帳の使い方</h2>
-  </div>
-<div class="paragraph"><p>毎日順番に　session1 から　session5 の中から一つづつフィルター単語帳を選択して学習すると、100枚のカードを追加した順番に20枚ずつ学習できます。</p></div>
-<div class="paragraph"><p>フィルター単語帳の使い方は次の通りです。</p></div>
-<div class="olist arabic"><ol class="arabic">
+<div class="paragraph">
+<p>ウィンドウ下部の [ &lt; ] [ &gt; ] ボタンで項目移動します。</p>
+</div>
+<div class="ulist">
+<div class="title">注意</div>
+<ul>
 <li>
-<p>
-毎日順番にフィルター単語帳を選択して開きます。
-</p>
+<p>[作成日] が見出し項目にない場合は、見出し項目を Control + クリックします。コンテキストメニューから [作成日] を選択すると見出しに追加します。</p>
 </li>
 <li>
-<p>
-画面下の[再構築]ボタンを押して初期化します。
-</p>
+<p>プレビュー画面では、学習画面の機能が利用できない場合があります。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_フィルター単語帳の利用">フィルター単語帳の利用</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>実際の学習画面で表示したい場合は、フィルター単語帳を利用します。</p>
+</div>
+<div class="paragraph">
+<p>フィルター単語帳は、元の単語帳から条件にあったカードを移動してきて学習する特殊な単語帳です。学習セッションが終わったカードは、自動的にもとの単語帳に戻ります。</p>
+</div>
+<div class="paragraph">
+<p>例として、単語帳 <code>default</code> に 100 枚のカードがあり、先頭から順番に学習する場合で説明しましょう。</p>
+</div>
+<div class="sect2">
+<h3 id="_フィルター単語帳の設定">フィルター単語帳の設定</h3>
+<div class="paragraph">
+<p>メニューバーから [ツール] - [フィルター単語帳] を選択して(またはショートカット F)、フィルター単語帳設定画面を開きます。</p>
+</div>
+<div class="paragraph">
+<p>設定項目は次の通りです。</p>
+</div>
+<div class="ulist">
+<div class="title">フィルター単語帳の設定例</div>
+<ul>
+<li>
+<p>検索欄には、<code>"deck:default"</code> を入力します。</p>
 </li>
 <li>
-<p>
-[学習する]ボタンを押して学習をはじめます。
-</p>
+<p>最大枚数は、100 枚以上を指定。</p>
 </li>
-</ol></div>
-<div class="paragraph"><p>解答を表示した後に、この問題の難易度を選択するボタンが次のように表示されます。</p></div>
+<li>
+<p>出題方法は、[追加した順番]を指定します。</p>
+</li>
+<li>
+<p>項目 [この単語帳の解答に基づいてカードをスケジュールし直す] のチェックを外す。</p>
+</li>
+<li>
+<p>項目 [カスタム学習ステップ] をチェックし、100 枚のカードを学習するのに掛かる時間より十分余裕のある時間を分単位で入力します。例えば 10。</p>
+</li>
+</ul>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="http://rs.luminousspice.com/images/learn_in_original_squence_2.png" alt="解答表示後のボタン">
+<img src="images/learn_in_original_squence_1.png" alt="フィルター単語帳の設定">
 </div>
-<div class="title">図 2. 解答表示後のボタン</div>
+<div class="title">図 2. フィルター単語帳の設定</div>
 </div>
-<div class="ulist"><ul>
+<div class="paragraph">
+<p>[作成] ボタンを押すと、フィルター単語帳の作成が完了します。
+単語帳一覧に戻ると [フィルター単語帳 (数字)] という名前で新しい単語帳ができていることを確認してください。</p>
+</div>
+<div class="paragraph">
+<p>フィルター単語帳の詳しい設定方法については、<a href="http://rs.luminousspice.com/how-to-customize-learning/">フィルター単語帳でAnki学習をカスタマイズしよう</a>をご覧ください。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_フィルター単語帳の使い方">フィルター単語帳の使い方</h3>
+<div class="paragraph">
+<p>フィルター単語帳の使い方は次の通りです。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>
-毎回再学習をせずに終了するなら、常に(終了)ボタンを押します。
-</p>
+<p>フィルター単語帳を選択して開きます。</p>
 </li>
 <li>
-<p>
-間違えたカードだけ、連続表示の後に学習し直したいなら[&lt;10分]ボタンを押します。
-</p>
+<p>画面下の [再構築] ボタンを押してカードを集めます。</p>
 </li>
-</ul></div>
-<div class="paragraph"><p>その日、もう一度最初から20枚のカードを表示し直したいなら、フィルター単語帳の先頭に戻り、[再構築]ボタンを押します。
-するとカードは初期化されます。</p></div>
-</section>
+<li>
+<p>[学習する] ボタンを押して学習をはじめます。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>解答を表示した後に、この問題の難易度を選択するボタンを次のように表示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/learn_in_original_squence_2.png" alt="解答表示後のボタン">
+</div>
+<div class="title">図 3. 解答表示後のボタン</div>
+</div>
+<div class="ulist">
+<div class="title">解答ボタンを押す時の注意点</div>
+<ul>
+<li>
+<p>常に[普通] (終了) ボタンを押します。</p>
+</li>
+<li>
+<p>間違えたカードだけ、連続表示の後に学習し直したいなら [もう一度] (&lt;10分) ボタンを押します。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<div class="title">再学習したい時</div>
+<p>もう一度最初からカードを表示し直したいなら、単語帳の終了画面の下にある、[再構築] ボタンを押します。何度でも繰り返して使用できます。</p>
+</div>
+<div class="paragraph">
+<div class="title">途中で最初からやり直し</div>
+<p>単語帳の先頭画面に戻り、[空に戻す] ボタンを押し、さらに [再構築] ボタンを押します。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2013/07/08: 初出<br>
+2016/05/07: 再構成<br></p>
+</div>
+</div>
+</div>
 
   </div>
   <aside class="reference">
