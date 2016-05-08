@@ -181,6 +181,7 @@ https://ankiweb.net/shared/info/1875520915[FSI II Hungarian Basic Sentences (wit
 https://ankiweb.net/shared/info/2530965591[Hangul (Korean Alphabet)], 韓国語 ハングル 音声
 https://ankiweb.net/shared/info/281628775[Norwegian with Audio], ノルウェー語 音声
 https://ankiweb.net/shared/info/1126003944[German-English top 1000 words - usage frequency (with audio)], ドイツ語 音声
+https://ankiweb.net/shared/info/66361580[Deutsch: 4000 German Words by Frequency (with pictures)], ドイツ語 画像 音声
 https://ankiweb.net/shared/info/3004519841[French Numbers 0-99 - Audio Drill], フランス語 数字 音声
 https://ankiweb.net/shared/info/1836502846[Spanish numbers 1-200 with audio], スペイン語 数字 音声
 https://ankiweb.net/shared/info/1197265380[Spanish numbers 200-400 with audio], スペイン語 数字 音声
