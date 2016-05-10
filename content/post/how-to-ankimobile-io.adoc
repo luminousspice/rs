@@ -91,7 +91,7 @@ AnkiWeb の同期機能は、原則的に差分同期でデータ転送量を押
 
 iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。
 
-iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 http://support.apple.com/kb/ht1386?viewlocale=ja_JP[iOS：iTunes とデータを同期する]を参考にしてください。
+iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 link:https://support.apple.com/ja-jp/HT201253[iOS：iTunes とデータを同期する]を参考にしてください。
 
 ==== AnkiMobile 側の手順
 
