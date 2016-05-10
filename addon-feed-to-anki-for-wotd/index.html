@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2016-04-30T11:24:52Z"/>
-<meta property="article:modified_time" content="2016-05-06T23:59:56Z"/>
+<meta property="article:modified_time" content="2016-05-10T00:50:56Z"/>
 
 
 
@@ -90,7 +90,7 @@
 
 <div class="post">
   <h1 class="post-title">Feed to Anki 毎日英単語のカードを増やせるアドオン</h1>
-  <span class="post-date"><time datetime="2016-04-30T11:24:52Z"></time>2016-05-06 更新</span>
+  <span class="post-date"><time datetime="2016-04-30T11:24:52Z"></time>2016-05-10 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -183,16 +183,36 @@ Back: description (RSS) or summary (Atom)</pre>
 <div class="title">ソースコードエディタの開き方</div>
 <p>メニューバーから [ツール] – [アドオン] - [Feed_to_Anki] -[編集]</p>
 </div>
-<div class="listingblock">
+<div class="ulist">
 <div class="title">設定項目の説明</div>
+<ul>
+<li>
+<p>URL: フィードの URL を指定</p>
+</li>
+<li>
+<p>DECK: 単語帳名を指定、サブ単語帳も可能</p>
+</li>
+<li>
+<p>tags: タグを指定。複数指定可能</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>初期設定では、"Oxford Learner&#8217;s Dictionaries - Word of the Day" と "Merriam-Webster&#8217;s Word of the Day" を指定しています。</p>
+</div>
+<div class="listingblock">
+<div class="title">読み込みフィードの設定箇所</div>
 <div class="content">
-<pre># 単語帳名を指定、サブ単語帳も可能
-DECK = u"Word of the Day"
-# タグを指定。複数指定可能
-tags = [u"wotd",u"OAAD"]
-
-# フィードの URL を指定 (例: Oxford Learner's Dictionaries - Word of the Day)
-URL = "http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml"</pre>
+<pre>##### Feeds info (URL, deck, tags) #####
+Feeds = [
+    {"URL": "http://www.merriam-webster.com/wotd/feed/rss2",
+     "DECK": u"Word of the Day::Merriam-Webster",
+     "tags": [u"wotd",u"MW"]},
+    {"URL": "http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml",
+     "DECK": u"Word of the Day::Oxford",
+     "tags": [u"wotd",u"OAAD"]},
+]
+########################################</pre>
 </div>
 </div>
 <div class="paragraph">
@@ -210,13 +230,10 @@ URL = "http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml"</pre>
 <div class="ulist">
 <ul>
 <li>
+<p>このアドオンが作成するノートタイプ "Feed_to_Anki" の中のフィールドの名前と順序は変更しないでください。</p>
+</li>
+<li>
 <p>HTTPS で通信できない場合があります。URL の記述を http: に変更してお使いください。</p>
-</li>
-<li>
-<p>一度に複数のフィードを読み込む機能はありません。<a href="http://www.rssmix.com">RSSMix</a> のような RSS Aggregator をお使いください。</p>
-</li>
-<li>
-<p>GUI はありません。</p>
 </li>
 </ul>
 </div>
@@ -354,6 +371,15 @@ IT関連の業界用語あるいは新しい語義を仕入れるのに役立ち
 </li>
 </ul>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2016-04-30: 初出<br>
+2016-05-10: Feed to Anki 0.3.1 の内容に合わせて更新<br></p>
 </div>
 </div>
 </div>
