@@ -171,6 +171,7 @@ https://ankiweb.net/shared/info/428194897[Quranic Arabic Verses word for word SI
 https://ankiweb.net/shared/info/3396002907[Russian Alphabet with Handwritten and Print fonts and sounds], ロシア語 発音 キリル文字 音声
 https://ankiweb.net/shared/info/534801471[Visual Spanish Plus Sound Files from Forvo], スペイン語 音声
 https://ankiweb.net/shared/info/629972372[French 500 coloured words with pictures and audio], フランス語 画像 音声
+https://ankiweb.net/shared/info/293367340[A Frequency Dictionary of French (Complete)], フランス語
 https://ankiweb.net/shared/info/932662308[French Pronunciation], フランス語 発音 画像 音声
 https://ankiweb.net/shared/info/1529958967[Norwegian Sentences with Audio], ノルウェー語 音声
 "https://ankiweb.net/shared/info/822208674[Top 5000 - 1,395 Russian Verbs +audio +perfective +conjugati]", ロシア語 音声
@@ -178,6 +179,7 @@ https://ankiweb.net/shared/info/733910527[500 English words(with pictures and au
 https://ankiweb.net/shared/info/1693270835[German FSI Vocab & Basic Sentences (with audio)], ドイツ語 音声
 https://ankiweb.net/shared/info/124854924[FSI Hungarian I Vocab & Basic Sentences (with audio)], ハンガリー語 音声
 https://ankiweb.net/shared/info/1875520915[FSI II Hungarian Basic Sentences (with audio)], ハンガリー語 音声
+https://ankiweb.net/shared/info/1028528798[Medical French - Defense Language Institute LSK], フランス語 英語 音声 医療
 https://ankiweb.net/shared/info/2530965591[Hangul (Korean Alphabet)], 韓国語 ハングル 音声
 https://ankiweb.net/shared/info/281628775[Norwegian with Audio], ノルウェー語 音声
 https://ankiweb.net/shared/info/1126003944[German-English top 1000 words - usage frequency (with audio)], ドイツ語 音声
