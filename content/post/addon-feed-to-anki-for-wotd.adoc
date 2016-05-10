@@ -1,6 +1,6 @@
 ---
 date: "2016-04-30T11:24:52+00:00"
-lastmod: "2016-05-06T23:59:56+00:00"
+lastmod: "2016-05-10T00:50:56+00:00"
 title: "Feed to Anki 毎日英単語のカードを増やせるアドオン"
 categories: ["Anki"]
 tags: ["Anki","アドオン","RSS","Atom","英単語","開発"]
@@ -74,14 +74,24 @@ Back: description (RSS) or summary (Atom)
 メニューバーから [ツール] – [アドオン] - [Feed_to_Anki] -[編集]
 
 .設定項目の説明
-----
-# 単語帳名を指定、サブ単語帳も可能
-DECK = u"Word of the Day"
-# タグを指定。複数指定可能
-tags = [u"wotd",u"OAAD"]
+* URL: フィードの URL を指定
+* DECK: 単語帳名を指定、サブ単語帳も可能
+* tags: タグを指定。複数指定可能
 
-# フィードの URL を指定 (例: Oxford Learner's Dictionaries - Word of the Day)
-URL = "http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml"
+初期設定では、"Oxford Learner's Dictionaries - Word of the Day" と "Merriam-Webster's Word of the Day" を指定しています。
+
+.読み込みフィードの設定箇所
+----
+##### Feeds info (URL, deck, tags) #####
+Feeds = [
+    {"URL": "http://www.merriam-webster.com/wotd/feed/rss2",
+     "DECK": u"Word of the Day::Merriam-Webster",
+     "tags": [u"wotd",u"MW"]},
+    {"URL": "http://feeds.feedburner.com/OAAD-WordOfTheDay?format=xml",
+     "DECK": u"Word of the Day::Oxford",
+     "tags": [u"wotd",u"OAAD"]},
+]
+########################################
 ----
 
 タグやサブ単語帳を利用すると、複数のフィードを取り込んだ時に整理が簡単になります。
@@ -91,9 +101,8 @@ image::/images/feed-to-anki-mw.png["サブ単語帳を使った管理"]
 
 === 制限事項
 
+* このアドオンが作成するノートタイプ "Feed_to_Anki" の中のフィールドの名前と順序は変更しないでください。
 * HTTPS で通信できない場合があります。URL の記述を http: に変更してお使いください。
-* 一度に複数のフィードを読み込む機能はありません。link:http://www.rssmix.com[RSSMix] のような RSS Aggregator をお使いください。
-* GUI はありません。
 
 == まとめ
 
@@ -153,3 +162,8 @@ NHK の基礎英語やビジネス英会話を視聴中の方は、番組のテ�
 * http://gogakuru.com/rss/program_232_feed.xml[基礎英語３]
 * http://gogakuru.com/rss/program_233_feed.xml[入門ビジネス英語]
 * http://gogakuru.com/rss/program_234_feed.xml[実践ビジネス英語]
+
+== 更新情報
+
+2016-04-30: 初出 +
+2016-05-10: Feed to Anki 0.3.1 の内容に合わせて更新 +
