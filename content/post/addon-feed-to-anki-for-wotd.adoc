@@ -73,11 +73,6 @@ Back: description (RSS) or summary (Atom)
 .ソースコードエディタの開き方
 メニューバーから [ツール] – [アドオン] - [Feed_to_Anki] -[編集]
 
-.設定項目の説明
-* URL: フィードの URL を指定
-* DECK: 単語帳名を指定、サブ単語帳も可能
-* tags: タグを指定。複数指定可能
-
 初期設定では、"Oxford Learner's Dictionaries - Word of the Day" と "Merriam-Webster's Word of the Day" を指定しています。
 
 .読み込みフィードの設定箇所
@@ -93,6 +88,11 @@ Feeds = [
 ]
 ########################################
 ----
+
+.設定項目の説明
+* URL: フィードの URL を指定
+* DECK: 単語帳名を指定、サブ単語帳も可能
+* tags: タグを指定。複数指定可能
 
 タグやサブ単語帳を利用すると、複数のフィードを取り込んだ時に整理が簡単になります。
 
