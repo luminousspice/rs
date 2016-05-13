@@ -6,10 +6,168 @@
     <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 Apr 2016 11:24:52 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 May 2016 14:42:29 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
+      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
+      <pubDate>Fri, 13 May 2016 14:42:29 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
+      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性を示す指標として役立ちます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性を示す指標として役立ちます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_熟知しているのに辛い単語帳&#34;&gt;熟知しているのに辛い単語帳&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の利用歴を重ねて、教材に慣れ復習間隔も大分開いてきたにもかかわらず、やればやるほど負担に感じることありませんか。
+ある単語帳の学習履歴を紹介しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-reviews.png&#34; alt=&#34;再学習が際立つ単語帳&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 再学習が際立つ単語帳&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実はこの単語帳は熟知の比率 86%、平均復習間隔 7.1 か月です。統計情報の円グラフを見る限りでは何の問題もありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;以前にも増して、一度間違えたカードが中々消えてくれない点が気になる単語帳だったのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;熟知なカードの比率が高い単語帳が、やさしい単語帳とは限らない。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔を決定するのは、直前の復習間隔と易しさの値、解答時の評価です。
+この単語帳は [もう一回] と [普通] 以外押すことがないので、易しさの値について詳しく見ていきましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_易しさの値とは&#34;&gt;易しさの値とは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値 (Ease Factor) は、次回の復習間隔を決定する際に、直前の復習間隔に書ける係数で初期値では 250% です。
+前回から 10 日後に復習して [普通] ボタンを押すと、次は 25 日後になるのはこのような仕組みからです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値が変化するのは、復習で [普通] ボタン以外のボタンを押した時で、[簡単] ボタンを押さない限り増えません。易しさの値というのはカードの学習履歴を数値化した指標とも言えるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値には下限があり 130% に設定されています。これ以下になるともはや SRS としての機能は働かなくなり普通の単語帳ソフトと変わらなくなります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ちなみに初期値 250% のカードを復習で [もう一回] を 8 回押すと、易しさの値はめでたく下限の 130% に到達します。そしてそのカードは&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカードという扱いを受け保留状態&lt;/a&gt;になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;もし易しさの値の度数分布を求めることができれば、単語帳全体の易しさや、設問の適切さの評価に使えるのではないかかと考えました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_易しさの値の統計値を知りたい&#34;&gt;易しさの値の統計値を知りたい&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値はカードブラウザからカード一枚一枚について調べることができますが、集団としての情報を知ることができません。そこで、単語帳単位で易しさの数値の度数分布表を表示するアドオンを作りました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このアドオンを使って調べた上図の単語帳の易しさのデータを次に示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-hard.png&#34; alt=&#34;Ease Factor Histogram 表示例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. Ease Factor Histogram 表示例&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔から見れば十分広がって、成熟した教材なのですが、学習負担が一向に軽くならない理由がわかりました。
+一度間違えたカードが中々消えてくれないのは、易しさの値の下限に集中していることが原因だったのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;これに対してやさしいと感じる単語帳のデータを紹介しましょう。初期値の 250 %を中心に分布しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-ease.png&#34; alt=&#34;やさしい単語帳の易しさの値の分布&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. やさしい単語帳の易しさの値の分布&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔は教材の習熟度を示す指標にはなりますが、教材の難易度や設問設定の妥当性の理解には使えません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;やさしい単語帳も難しい単語帳も、慣れてしまえば復習間隔では見分けがつかない。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki で学習する時のやさしさ、負担の軽さを判断するには易しさのデータが適しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_アドオンの入手方法&#34;&gt;アドオンの入手方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/494944895&#34;&gt;Ease Factor Histogram&lt;/a&gt;という名前で、AnkiWeb 上に公開しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;アドオンのダウンロードコードは &lt;code&gt;494944895&lt;/code&gt; です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;アドオンのインストールなどの基本情報は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_カードを再編集する場合の注意点&#34;&gt;カードを再編集する場合の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値が下限まで落ち込んだカードの内容を再編集しても、設定済みの易しさの値は変わりません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;今までのカードとは連続性のないカードと割り切って新規作成すれば、また初期値の 250% から再出発することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ただし作業効率上、既存のデータを流用したいのではないでしょうか。
+このような時にアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/787914845&#34;&gt;Create Copy of Selected Cards&lt;/a&gt; が役立ちます。このアドオンを使ってカードをコピーすると、学習履歴や易しさはコピーしないしません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Create Copy of Selected Cards の簡単な使い方は、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;で取り上げています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;易しさの値の統計情報は、単語帳のやさしさや、設問の適切さといった健全性を示す指標になる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;熟知なカードが多いが下限に達した易しさの値の比率が高いと、学習の負担が高くなる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;易しさの値は初期化できない。既存のカードを流用して新規作成すれば初期値から再出発できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Feed to Anki 毎日英単語のカードを増やせるアドオン</title>
@@ -2244,297 +2402,6 @@ Anki で復習しているのは必要な時に知識を使えるようにする
 &lt;p&gt;本質的な解決策はその知識を Anki の外でも積極的に使うこと&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki ユーザーのための LaTeX 利用ガイド</title>
-      <link>http://rs.luminousspice.com/anki-latex-guide/</link>
-      <pubDate>Thu, 14 Apr 2016 11:23:07 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/anki-latex-guide/</guid>
-      <description>Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_における_latex_処理の仕組み&#34;&gt;Anki における LaTeX 処理の仕組み&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki における LaTeX の処理をザックリ説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;最初にカードに LaTeX 表現が使われていると Anki 内部から PC にインストールしている LaTeX 処理系のコマンドを呼び出して、png ファイルを作成し、表示します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;その際に、LaTeX の表現内容から SHA-1 ハッシュ値を計算し、ファイル名の一部として記録します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;次回以降は、このハッシュ値を比較し、更新があった時には画像を作成し直します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;画像などを保存するメディアフォルダ &lt;code&gt;(Anki フォルダ)\(プロファイル名)\collection.media&lt;/code&gt; の中に latex-(40桁の英数字).png として保存しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_初期設定での処理内容&#34;&gt;初期設定での処理内容&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は、カードの中に LaTeX の表現があると次のコマンドを実行して画像化します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;Anki 内部から呼び出す LaTeX 処理&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ latex -interaction=nonstopmode tmp.tex
-$ dvipng -D 200 -T tight tmp.dvi -o tmp.png&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;初期設定では、&lt;code&gt;latex&lt;/code&gt; によって dvi ファイルを作り、&lt;code&gt;dvipng&lt;/code&gt; を使って png ファイルを生成しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_latex_内容の一括画像化&#34;&gt;LaTeX 内容の一括画像化&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;複雑な表現だと画像生成に時間がかかり、学習の際に待ち時間が発生します。そのため事前に一括して画像化しておくことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;メニューバーから [ツール] - [メディアをチェック] を選択します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;iPhone アプリの AnkiMobile に LaTeX 表現を持ち込みたい場合も、この機能を使っておくと iPhone での数式表示ができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_処理コマンドのカスタマイズ&#34;&gt;処理コマンドのカスタマイズ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/937148547&#34;&gt;Edit LaTeX build proces&lt;/a&gt; を使うと、Anki 内部で呼び出すコマンドをカスタマイズできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;使い方はアドオンファイルの &lt;code&gt;Edit_LaTeX_build_process.py&lt;/code&gt; を開き、多重リスト &lt;code&gt;newLaTeX&lt;/code&gt; の内容を編集します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;Anki 初期設定のコマンド&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;newLaTeX = \
-[
-    [&#34;latex&#34;, &#34;-interaction=nonstopmode&#34;, &#34;tmp.tex&#34;],
-    [&#34;dvipng&#34;, &#34;-D&#34;, &#34;200&#34;, &#34;-T&#34;, &#34;tight&#34;, &#34;tmp.dvi&#34;, &#34;-o&#34;, &#34;tmp.png&#34;]
-]&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_のノートに_latex_を書く方法&#34;&gt;Anki のノートに LaTeX を書く方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;基本的な表現は、特殊なタグ &lt;code&gt;[latex]&lt;/code&gt; と &lt;code&gt;[/latex]&lt;/code&gt; の間に書きます。
-&lt;code&gt;\begin{document}&lt;/code&gt; と &lt;code&gt;\end{document}&lt;/code&gt; の間に表記すべき内容を書くことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;その外側に指定したい内容の書き方は、後述の TikZ パッケージの導入で説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;なお、ノート内に LaTeX を使うタグには省略表記が使えます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;表 1. latex 記述タグの省略表記&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 20%;&#34;&gt;
-&lt;col style=&#34;width: 80%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;省略形&lt;/th&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;元の表現&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[$] &amp;#8230;&amp;#8203; [/$]&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[latex]\begin{math} &amp;#8230;&amp;#8203; \end{math}[/latex]&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[$$] ... [/$$]&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;[latex]\begin{displaymath} &amp;#8230;&amp;#8203; \end{displaymath}[/latex]&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_tikz_を使う&#34;&gt;TikZ を使う&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki では、TikZ パッケージを使った図解表現を表示することもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/latex-tikz.png&#34; alt=&#34;TikZ を利用したカード&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. TikZ を利用したカード&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_tikz_パッケージの導入&#34;&gt;TikZ パッケージの導入&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;TikZ パッケージを読み込むためのプリアンブル設定方法を紹介します。プリアンブルはノートタイプごとに指定できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;プリアンブル設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;メニューバーから [ツール] - [ノートタイプを管理]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カードが使用しているノートタイプを選択して、[オプション] を選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ヘッダー欄で必要な設定項目を入力&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/latex-option.png&#34; alt=&#34;TikZ パッケージ設定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. TikZ パッケージ設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_コマンドのカスタマイズ&#34;&gt;コマンドのカスタマイズ&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の初期状態のコマンドでは、TikZ を使用できないため、先ほどのアドオンを使って変更します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;pdflatex によって PDF ファイルを作り、その次に ImageMagick を使って PNG ファイルを生成する例を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;tikz のための設定例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;newLaTeX = \
-[
-    [&#34;pdflatex&#34;, &#34;-interaction=nonstopmode&#34;, &#34;tmp.tex&#34;],
-    [&#34;convert&#34;, &#34;-trim&#34;, &#34;-density&#34;, &#34;300&#34;, &#34;tmp.pdf&#34;, &#34;tmp.png&#34;]
-]&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_で_latex_を使う場合の注意点&#34;&gt;Anki で LaTeX を使う場合の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のサポートサイトで LaTeX に関する投稿が繰り返し寄せられていますが、Anki 外の問題も多いようです。
-最初に準備しておきたい項目をまとめました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anki を使う前に、PC に使用する LaTeX システムが正しくインストールできているか確認する。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用する表現をコマンドラインを使って表示できるか事前に表示する。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;問題が発生した場合は、Anki のカード面に表示するエラーメッセージをよく読み、コマンドラインでも発生するか確認する。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_mathjax_の使い方&#34;&gt;MathJax の使い方&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;LaTeX 処理系のインストールを必要としない、JavaScritp ライブラリの &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt; を使った LaTeX の数式の表示方法を取り上げましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/latex-mathjax.png&#34; alt=&#34;MathJax 表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. MathJax 表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;MathJax を Anki のカードで使うには、テンプレートに MathJax を呼び出すスクリプトを書き込みます。
-例えば表面のテンプレートに、次のようなタグを追加します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;テンプレート記述例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&amp;lt;script type=&#34;text/javascript&#34;
-  src=&#34;http://cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-AMS_HTML&#34;&amp;gt;
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_注意事項&#34;&gt;注意事項&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;バージョン指定&lt;/div&gt;
-&lt;p&gt;私の環境では、最新の 2.6 系列は [Math Processing Error] が発生して表示できませんでしたので 2.5 を指定しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;ローカルファイルから呼び出しについて&lt;/div&gt;
-&lt;p&gt;Anki は、メディアフォルダーのサブディレクトリの呼び出しができません。&lt;code&gt;MathJax.js&lt;/code&gt; がサブディレクトリを読むことができません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;アドオンについて&lt;/div&gt;
-&lt;p&gt;以前 MathJax を使うためのアドオンが公開されていましたが、現在では削除されています。このためテンプレートに直接呼び出しスクリプトを書き込む方法を紹介しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anki は、内部的に LaTeX 表記を画像にして保存している。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Anki がする生成した画像は、ソースの LaTeX に変更があると作り直す。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Anki が呼び出すコマンドは、アドオンでカスタマイズ可能。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;LaTeX のプリアンブルは、ノートタイプごとに指定でき、パッケージの追加ができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MathJax は、カードテンプレートから外部共有ファイルへの参照を記述すれば可能。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_参考情報&#34;&gt;参考情報&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anki ソースファイル &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/latex.py&#34;&gt;anki/latex.py&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html&#34;&gt;BeamerのためのTikZ&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://tex.stackexchange.com/questions/119349/what-preamble-does-math-stackexchange-com-use&#34;&gt;What preamble does math.stackexchange.com use?&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

@@ -6,10 +6,168 @@
     <description>統計 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 Apr 2016 03:40:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 May 2016 14:42:29 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/tags/%E7%B5%B1%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
+      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
+      <pubDate>Fri, 13 May 2016 14:42:29 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
+      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性を示す指標として役立ちます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性を示す指標として役立ちます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_熟知しているのに辛い単語帳&#34;&gt;熟知しているのに辛い単語帳&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の利用歴を重ねて、教材に慣れ復習間隔も大分開いてきたにもかかわらず、やればやるほど負担に感じることありませんか。
+ある単語帳の学習履歴を紹介しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-reviews.png&#34; alt=&#34;再学習が際立つ単語帳&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 再学習が際立つ単語帳&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実はこの単語帳は熟知の比率 86%、平均復習間隔 7.1 か月です。統計情報の円グラフを見る限りでは何の問題もありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;以前にも増して、一度間違えたカードが中々消えてくれない点が気になる単語帳だったのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;熟知なカードの比率が高い単語帳が、やさしい単語帳とは限らない。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔を決定するのは、直前の復習間隔と易しさの値、解答時の評価です。
+この単語帳は [もう一回] と [普通] 以外押すことがないので、易しさの値について詳しく見ていきましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_易しさの値とは&#34;&gt;易しさの値とは&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値 (Ease Factor) は、次回の復習間隔を決定する際に、直前の復習間隔に書ける係数で初期値では 250% です。
+前回から 10 日後に復習して [普通] ボタンを押すと、次は 25 日後になるのはこのような仕組みからです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値が変化するのは、復習で [普通] ボタン以外のボタンを押した時で、[簡単] ボタンを押さない限り増えません。易しさの値というのはカードの学習履歴を数値化した指標とも言えるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値には下限があり 130% に設定されています。これ以下になるともはや SRS としての機能は働かなくなり普通の単語帳ソフトと変わらなくなります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ちなみに初期値 250% のカードを復習で [もう一回] を 8 回押すと、易しさの値はめでたく下限の 130% に到達します。そしてそのカードは&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカードという扱いを受け保留状態&lt;/a&gt;になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;もし易しさの値の度数分布を求めることができれば、単語帳全体の易しさや、設問の適切さの評価に使えるのではないかかと考えました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_易しさの値の統計値を知りたい&#34;&gt;易しさの値の統計値を知りたい&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値はカードブラウザからカード一枚一枚について調べることができますが、集団としての情報を知ることができません。そこで、単語帳単位で易しさの数値の度数分布表を表示するアドオンを作りました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このアドオンを使って調べた上図の単語帳の易しさのデータを次に示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-hard.png&#34; alt=&#34;Ease Factor Histogram 表示例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. Ease Factor Histogram 表示例&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔から見れば十分広がって、成熟した教材なのですが、学習負担が一向に軽くならない理由がわかりました。
+一度間違えたカードが中々消えてくれないのは、易しさの値の下限に集中していることが原因だったのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;これに対してやさしいと感じる単語帳のデータを紹介しましょう。初期値の 250 %を中心に分布しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-ease.png&#34; alt=&#34;やさしい単語帳の易しさの値の分布&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 3. やさしい単語帳の易しさの値の分布&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習間隔は教材の習熟度を示す指標にはなりますが、教材の難易度や設問設定の妥当性の理解には使えません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;やさしい単語帳も難しい単語帳も、慣れてしまえば復習間隔では見分けがつかない。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki で学習する時のやさしさ、負担の軽さを判断するには易しさのデータが適しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_アドオンの入手方法&#34;&gt;アドオンの入手方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/494944895&#34;&gt;Ease Factor Histogram&lt;/a&gt;という名前で、AnkiWeb 上に公開しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;アドオンのダウンロードコードは &lt;code&gt;494944895&lt;/code&gt; です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;アドオンのインストールなどの基本情報は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_カードを再編集する場合の注意点&#34;&gt;カードを再編集する場合の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;易しさの値が下限まで落ち込んだカードの内容を再編集しても、設定済みの易しさの値は変わりません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;今までのカードとは連続性のないカードと割り切って新規作成すれば、また初期値の 250% から再出発することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ただし作業効率上、既存のデータを流用したいのではないでしょうか。
+このような時にアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/787914845&#34;&gt;Create Copy of Selected Cards&lt;/a&gt; が役立ちます。このアドオンを使ってカードをコピーすると、学習履歴や易しさはコピーしないしません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Create Copy of Selected Cards の簡単な使い方は、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;で取り上げています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;易しさの値の統計情報は、単語帳のやさしさや、設問の適切さといった健全性を示す指標になる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;熟知なカードが多いが下限に達した易しさの値の比率が高いと、学習の負担が高くなる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;易しさの値は初期化できない。既存のカードを流用して新規作成すれば初期値から再出発できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki 復習予測の読み方</title>

@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://rs.luminousspice.com/addon-ease-factor-histogram/</loc>
+    <lastmod>2016-05-13T14:42:29+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</loc>
     <lastmod>2016-05-10T00:50:56+00:00</lastmod>
   </url>
