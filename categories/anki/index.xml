@@ -16,11 +16,11 @@
       <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
       <pubDate>Fri, 13 May 2016 14:42:29 +0900</pubDate>
       <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
-      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性を示す指標として役立ちます。</description>
+      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の評価に役立ちます。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性を示す指標として役立ちます。&lt;/p&gt;
+&lt;p&gt;Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の評価に役立ちます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -154,7 +154,7 @@
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;易しさの値の統計情報は、単語帳のやさしさや、設問の適切さといった健全性を示す指標になる。&lt;/p&gt;
+&lt;p&gt;易しさの値の統計情報は、単語帳のやさしさや、設問の適切さといった健全性の評価に使える。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;熟知なカードが多いが下限に達した易しさの値の比率が高いと、学習の負担が高くなる。&lt;/p&gt;
