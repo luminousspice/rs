@@ -5,6 +5,7 @@ lastmod: "2013-07-03T14:05:27+00:00"
 title: "はじめてのLearning with Texts(LWT) インストール"
 categories: ["LWT"]
 tags: ["Anki","Learning with Texts","LWT"]
+aliases: ["/2013/07/how_to_lwt_install/"]
 excerpt: "この連載では、Ankiユーザーを対象として、LWTのインストール、設定、基本的な使い方からAnkiへのデータ移行までを解説したいと思います。まず最初にLWTのインストール方法を紹介します。"
 ---
 <section id="preamble">
