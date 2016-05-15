@@ -68,7 +68,7 @@
 &lt;p&gt;易しさの値には下限があり 130% に設定されています。これ以下になるともはや SRS としての機能は働かなくなり普通の単語帳ソフトと変わらなくなります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ちなみに初期値 250% のカードを復習で [もう一回] を 8 回押すと、易しさの値はめでたく下限の 130% に到達します。そしてそのカードは&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカードという扱いを受け保留状態&lt;/a&gt;になります。&lt;/p&gt;
+&lt;p&gt;ちなみに初期値 250% のカードを復習で [もう一回] を 6 回押すと、易しさの値は下限の 130% に到達します。そしてさらに二回押すと、めでたくそのカードは&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカードという扱いを受け保留状態&lt;/a&gt;になります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;もし易しさの値の度数分布を求めることができれば、単語帳全体の易しさや、設問の適切さの評価に使えるのではないかかと考えました。&lt;/p&gt;
