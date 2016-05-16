@@ -500,7 +500,7 @@ function speak(word)
 var speech = new SpeechSynthesisUtterance();
 speech.text = word;
 speech.volume = 0.5; // 音量: 0 to 1 (1)
-speech.rate = 0.6; // 速度: 0.1 to 9 (2)
+speech.rate = 1; // 速度: 0.1 to 9 (2)
 speech.pitch = 1; // ピッチ: 0 to 2, 1=normal (3)
 speech.lang = &#34;en-US&#34;; // 言語: アメリカ英語、日本語なら ja-JP (4)
 speechSynthesis.cancel();
