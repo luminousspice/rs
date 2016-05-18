@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-<meta name="description" content='Anki で復習に失敗したカードの復習間隔を一律に一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。iPhone アプリの AnkiMobile の例も取り上げます。Anki での学習コスト効率化の提案です。'>
-<meta name="keywords" content="Anki, AnkiMobile, 忘却, 学習オプション">
+<meta name="description" content='Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプションを利用して iPhone アプリの AnkiMobile と共用する方法を取り上げます。'>
+<meta name="keywords" content="Anki, AnkiMobile, 忘却, 学習オプション, アドオン">
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content='Anki で復習に失敗したカードの復習間隔を一律に一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。iPhone アプリの AnkiMobile の例も取り上げます。Anki での学習コスト効率化の提案です。'/>
+<meta property="og:description" content='Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプションを利用して iPhone アプリの AnkiMobile と共用する方法を取り上げます。'/>
 <meta property="og:title" content="忘れた Anki カードの出直し方" />
 <meta property="og:site_name" content="the Right Stuff" />
 <meta property="og:url" content="http://rs.luminousspice.com/anki-lapse-management/">
@@ -21,17 +21,17 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2016-04-13T05:20:21Z"/>
-<meta property="article:modified_time" content="2016-04-13T05:20:21Z"/>
+<meta property="article:modified_time" content="2016-05-18T00:22:14Z"/>
 
 
 
-<meta property="article:tag" content="Anki"><meta property="article:tag" content="AnkiMobile"><meta property="article:tag" content="忘却"><meta property="article:tag" content="学習オプション">
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="AnkiMobile"><meta property="article:tag" content="忘却"><meta property="article:tag" content="学習オプション"><meta property="article:tag" content="アドオン">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@luminousspice">
 <meta name="twitter:title" content="忘れた Anki カードの出直し方">
 <meta name="twitter:creator" content="@luminousspice">
-<meta name="twitter:description" content='Anki で復習に失敗したカードの復習間隔を一律に一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。iPhone アプリの AnkiMobile の例も取り上げます。Anki での学習コスト効率化の提案です。'>
+<meta name="twitter:description" content='Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプションを利用して iPhone アプリの AnkiMobile と共用する方法を取り上げます。'>
 <meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
@@ -90,7 +90,7 @@
 
 <div class="post">
   <h1 class="post-title">忘れた Anki カードの出直し方</h1>
-  <span class="post-date"><time datetime="2016-04-13T05:20:21Z"></time>2016-04-13</span>
+  <span class="post-date"><time datetime="2016-04-13T05:20:21Z"></time>2016-05-18 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -98,7 +98,7 @@
   <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Anki で復習に失敗したカードの復習間隔を一律に一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。iPhone アプリの AnkiMobile の例も取り上げます。Anki での学習コスト効率化の提案です。</p>
+<p>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプションを利用して iPhone アプリの AnkiMobile と共用する方法を取り上げます。</p>
 </div>
 </div>
 </div>
@@ -137,7 +137,7 @@
 </div>
 <div class="paragraph">
 <p>例えば、10 日間空けて覚えることに成功して、次に 25 日に挑戦したら間違えました。
-初期設定では、1 日からやり直すのですが、もう一度 10 日に戻ってやり直せないだろうかとうのが今回の趣旨です。</p>
+初期設定では、1 日からやり直すのですが、もう一度 10 日に戻ってやり直せないだろうかというのが今回の提案の趣旨です。</p>
 </div>
 <div class="paragraph">
 <p>ライトナーシステムのモデルでは次のようになります。</p>
@@ -148,16 +148,31 @@
 </div>
 <div class="title">図 2. SRS 学習モデル (カスタマイズ後)</div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_アドオンを利用">アドオンを利用</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Anki の処理を変更して直前の成功した間隔からやり直しを実現するアドオン <a href="https://ankiweb.net/shared/info/1481634779">Another Retreat</a>を Anki Web に公開しました。</p>
+</div>
+<div class="paragraph">
+<p>アドオンのダウンロードコードは <code>1481634779</code> です。</p>
+</div>
 <div class="paragraph">
 <div class="title">注意</div>
-<p>正確には、Anki のデータベースを使うアドオン作成する必要がありますが、
-学習オプションによっても近い動作が実現できますのでその方法を紹介します。</p>
+<p>Anki のアドオンは、PC 版でのみ動作します、このため AnkiMobile を共用している場合は、スケジュール処理の一貫性が損なわれます。</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_忘れたカードの復習間隔">忘れたカードの復習間隔</h2>
+<h2 id="_学習オプションを利用">学習オプションを利用</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>アドオンによらなくても学習オプションの設定で近い動作が実現できますので、次にその方法を紹介します。この方法であれば、AnkiMobile と同期しながら利用している場合でも、同じ処理が行われます。</p>
+</div>
+<div class="sect2">
+<h3 id="_忘れたカードの復習間隔">忘れたカードの復習間隔</h3>
 <div class="paragraph">
 <p>忘れたカードの次回の復習間隔は、カードごとに計算によって決まります。</p>
 </div>
@@ -180,10 +195,8 @@
 <p>上の例で言えば、一つ前の値 10 日に戻す [新しい間隔] の値を求めればよいのです。</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_成功したカードの復習間隔">成功したカードの復習間隔</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_成功したカードの復習間隔">成功したカードの復習間隔</h3>
 <div class="paragraph">
 <p>忘れたカードの復習間隔の一つ前の値は、成功したカードの復習間隔の決まり方から分かります。
 復習に成功したカードの次回の復習間隔は、単純化すると次のように決まります。</p>
@@ -218,10 +231,8 @@
 <p>この単語帳では平均 191 でした。この単語帳では 100/191 = 0.52 つまり、一つ前の復習間隔に戻す [新しい間隔] の値は、52% になります。</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_単語帳オプションの設定">単語帳オプションの設定</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_単語帳オプションの設定">単語帳オプションの設定</h3>
 <div class="paragraph">
 <p>それでは求めた値を設定しましょう。設定項目 [新しい間隔] は、単語帳オプションの設定画面の [忘却] タブの中にあります。</p>
 </div>
@@ -230,6 +241,7 @@
 <img src="http://rs.luminousspice.com/images/lapse-study-option.png" alt="単語帳オプションの設定">
 </div>
 <div class="title">図 5. 単語帳オプションの設定</div>
+</div>
 </div>
 </div>
 </div>
@@ -265,16 +277,16 @@
 <div class="ulist">
 <ul>
 <li>
-<p>忘却したカードの復習間隔は初期値では一律に一日に設定しているが、学習オプションで変更可能</p>
+<p>復習間隔を一つ前の段階に戻すにはアドオンで実現できる。ただし Anki PC 版のみで利用可能。</p>
 </li>
 <li>
-<p>復習間隔を一つ前の段階に戻すにはプログラミングが必要だが、オプション設定で近似的な動作が再現できる</p>
+<p>オプション設定で近似的な動作が再現でき、Anki と AnkiMobile 共通に利用できる。</p>
 </li>
 <li>
-<p>設定の計算に使うカードの易しさのデータは、単語帳の統計値で代用する</p>
+<p>忘却したカードの復習間隔は初期値では一律に一日に設定しているが、学習オプションで変更可能。</p>
 </li>
 <li>
-<p>iPhone アプリの AnkiMobile でも全く同じ設定が可能</p>
+<p>設定の計算に使うカードの易しさのデータは、単語帳の統計値で代用する。</p>
 </li>
 </ul>
 </div>
@@ -283,6 +295,15 @@
 <div class="paragraph">
 <p>正確な復習間隔や易しさの値の計算法は、Anki の <a href="https://github.com/dae/anki/blob/master/anki/sched.py">anki/sched.py</a> を参照ください。</p>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2016-04-13: 初出<br>
+2016-05-18: 更新: アドオン Another Retreat に基づいて加筆<br></p>
 </div>
 </div>
 </div>
