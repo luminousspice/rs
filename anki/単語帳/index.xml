@@ -217,7 +217,7 @@
 &lt;p&gt;最後に作成したファイルをユーザーの機器に読み込む方法を簡単に紹介していきましょう。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_anki_pc版&#34;&gt;Anki PC版&lt;/h3&gt;
+&lt;h3 id=&#34;_anki_pc_版&#34;&gt;Anki PC 版&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;apkg ファイルを開きます。あるいは Anki の読み込み機能を使います。&lt;/p&gt;
 &lt;/div&gt;
@@ -225,7 +225,8 @@
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_ankimobile_ios&#34;&gt;AnkiMobile (iOS)&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ブラウザーでダウンロードするか、メールに添付して、[Ankiで開く] を選択します。&lt;/p&gt;
+&lt;p&gt;ブラウザーでダウンロードするか、メールに添付して、[Ankiで開く] を選択します。
+DropBox アプリでは、[別のアプリで開く] - [Anki にコピー] を選択します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;注意:&lt;/div&gt;
