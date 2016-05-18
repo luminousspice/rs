@@ -1,6 +1,6 @@
 ---
 date: "2016-04-13T12:40:52+00:00"
-lastmod: "2016-05-07T15:31:44+00:00"
+lastmod: "2016-05-18T01:49:52+00:00"
 title: "Anki 単語帳データ配布ガイド"
 categories: ["Anki"]
 tags: ["Anki","単語帳","配布","共有単語帳","APKG"]
@@ -141,13 +141,14 @@ image::images/anki-deck-deploy-export.png["書き出し"]
 
 最後に作成したファイルをユーザーの機器に読み込む方法を簡単に紹介していきましょう。
 
-=== Anki PC版
+=== Anki PC 版
 
 apkg ファイルを開きます。あるいは Anki の読み込み機能を使います。
 
 === AnkiMobile (iOS)
 
 ブラウザーでダウンロードするか、メールに添付して、[Ankiで開く] を選択します。
+DropBox アプリでは、[別のアプリで開く] - [Anki にコピー] を選択します。
 
 .注意:
 AnkiMobile の iTuens ファイル共有の読み込み (import) 機能は、 collection.apkg 専用です。
