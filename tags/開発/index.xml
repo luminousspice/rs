@@ -6,10 +6,290 @@
     <description>開発 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 May 2016 14:42:29 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 May 2016 13:49:38 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/tags/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
+      <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
+      <pubDate>Sat, 21 May 2016 13:49:38 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
+      <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込んでいます。完成品をダウンロードして利用できます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込んでいます。完成品をダウンロードして利用できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;Anki カードへの HTML5 メディアの埋め込み&lt;/a&gt;では、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介しました。動画を教材とする場合、教材の学習効果を高めるために再生速度の調整をしたいことがよくあります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;HTML5 のメディア要素はタグだけでは速度調節できませんが JavaScript を使って制御できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ここまでは、普通に Web ページに動画を埋め込む作業と違いはありませんが、Anki に JavaScript を使い場合に若干の工夫が必要になります。そのための手法を紹介していきます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;まずは、完成品を見て頂きましょう。メディアプレイヤーの下にあるスライドバーが今回作成するコントロールです。再生中にスライダーを変化させると、再生速度が変化します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/html5controller-anki.png&#34; alt=&#34;HTML5 動画速度調節コントロール完成図&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. HTML5 動画速度調節コントロール完成図&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;今回作成するのは、HTML5 で記述したメディアプレイヤーとスライダー、それを制御する JavaScript になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;スライダーは jQuery のユーザーインターフェイスライブラリ jQuery UI を使って表示することにしました。理由は Anki の表示に利用していてファイルが組み込まれていて、追加ファイルの必要がないためです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;さらに JavaScript を読み込むためのアドオンの作成とJavaScript ライブラリが使用する CSS の配置方法を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_テンプレートの構成&#34;&gt;テンプレートの構成&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;今回は、基本ノートタイプから拡張した新規のノートタイプのテンプレートにメディアプレイヤーを記述していきます。動画ファイル名を格納するフィールドを追加しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;フィールドの構成&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Front:&lt;/strong&gt; 質問内容 (既定のまま)&lt;br&gt;
+&lt;strong&gt;Back:&lt;/strong&gt; 解答内容 (既定のまま)&lt;br&gt;
+&lt;strong&gt;Video:&lt;/strong&gt; 質問中に表示する動画ファイル名 (URL を記述するとネット上の動画を表示)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_html5_メディアの記述&#34;&gt;HTML5 メディアの記述&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;HTML の記述は、ウェブページを作成する場合と変わりありません。動画のファイル名が Video フィールドに格納されているので &lt;code&gt;{{Video}}&lt;/code&gt; タグで表示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;code&gt;#slider&lt;/code&gt; が、jQuery UI のスライダーを表示する領域、&lt;code&gt;#playbackRate&lt;/code&gt; はスライダーを変化させた時の数値を表示する領域になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;表面テンプレートの内容&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;video id=&#34;video&#34; controls&amp;gt;
+  &amp;lt;source src=&#34;{{Video}}&#34; type=&#34;video/mp4&#34;&amp;gt;
+  &amp;lt;source src=&#34;{{Video}}&#34; type=&#34;video/3gpp&#34;&amp;gt;
+  &amp;lt;source src=&#34;{{Video}}&#34; type=&#34;video/webm&#34;&amp;gt;
+&amp;lt;/video&amp;gt;
+&amp;lt;br&amp;gt;
+&amp;lt;div id=&#34;control&#34;&amp;gt;
+再生速度(0.3〜3.0)：&amp;lt;span id=&#34;playbackRate&#34;&amp;gt;1.0倍速&amp;lt;/span&amp;gt;&amp;lt;div id=&#34;slider&#34;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;br&amp;gt;{{Front}}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_再生速度を制御する_javascript_の記述&#34;&gt;再生速度を制御する JavaScript の記述&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;再生速度を制御する JavaScript は、jQuery を使って記述しました。この点もウェブページの制作と変わりありません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;再生速度を制御するスクリプト&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;var video = document.getElementById(&#34;video&#34;);
+var playbackRate  = document.getElementById(&#34;playbackRate&#34;);
+
+$(function() {
+    $(&#34;#slider&#34;).slider({
+        value: 1.0,
+        min: 0.3,
+        max: 3.0,
+        step: 0.1,
+        slide: function(event, ui) {
+            video.playbackRate = ui.value;
+            playbackRate.innerHTML = ui.value.toFixed(1) + &#34; 倍速&#34;;
+        }
+    });
+    $(&#34;#playbackRate&#34;).val($(&#34;#slider&#34;).slider(&#34;value&#34;));
+});&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_で_javascript_を使う時に陥るワナ&#34;&gt;Anki で JavaScript を使う時に陥るワナ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この JavaScript のコードと、jQuery UI のコード、CSS をテンプレートに直接書き込むと、カードレイアウトやブラウザのプレビュー機能では、表示され正しく機能します。しかし、実際の学習画面では機能しません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;理由は、プレビュー機能と学習画面では、コンテンツを書き出す方法が異なっているためです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_学習画面に_javascript_を読み込むアドオン&#34;&gt;学習画面に JavaScript を読み込むアドオン&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで通常のカードテンプレートやフィールドにスクリプトを書き込むのとは違った方法で、学習画面に表示するアドオンを作ります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ということは、残念ながら今回の機能は、Anki PC 版でしか機能しません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;表面を表示する時に呼び出すフック &lt;code&gt;showQuestion&lt;/code&gt; と裏面を表示する時に呼び出す フック &lt;code&gt;showAnswer&lt;/code&gt; を使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;先ほど説明した、再生速度調節のスクリプト (html5controller) と、Anki に同梱していますが学習画面では読み込まれていない jQuery UI (anki.js.ui) をフックを使って学習画面に読み込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;学習画面に JavaScript を読み込むアドオン (html5controller.py)&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;from anki.hooks import addHook
+from aqt import mw
+import anki.js
+
+
+html5controller = u&#34;&#34;&#34;
+var video = document.getElementById(&#34;video&#34;);
+var playbackRate  = document.getElementById(&#34;playbackRate&#34;);
+
+$(function() {
+    $(&#34;#slider&#34;).slider({
+        value: 1.0,
+        min: 0.3,
+        max: 3.0,
+        step: 0.1,
+        slide: function(event, ui) {
+            video.playbackRate = ui.value;
+            playbackRate.innerHTML = ui.value.toFixed(1) + &#34; 倍速&#34;;
+        }
+    });
+    $(&#34;#playbackRate&#34;).val($(&#34;#slider&#34;).slider(&#34;value&#34;));
+});
+&#34;&#34;&#34;
+
+
+def loadhtml5controller():
+    &#34;&#34;&#34;Load js to control playback rate of #video through #slider.&#34;&#34;&#34;
+    mw.web.eval(anki.js.ui)
+    mw.web.eval(html5controller)
+
+addHook(&#34;showQuestion&#34;, loadhtml5controller)
+addHook(&#34;showAnswer&#34;, loadhtml5controller)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_jquery_ui_css_の記述方法について&#34;&gt;jQuery UI CSS の記述方法について&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;最後に JavaScript ライブラリが利用するスタイルシート &lt;code&gt;jquery-ui.css&lt;/code&gt; の読み込み方を紹介しましょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ファイルを読み込む方法&#34;&gt;ファイルを読み込む方法&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ローカルに保存して使うのであれば、メディアフォルダーに &lt;code&gt;_jquery-ui.css&lt;/code&gt; と名前を変更して配置します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;カードテンプレートに次のリンクを追加します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;ローカルに配置する場合のリンク記述例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;_jquery-ui.css&#34;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;CDN などネット上のファイルを使うのであれば、上のファイル名に代えて URL を指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_テンプレートに直接記述する方法&#34;&gt;テンプレートに直接記述する方法&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;テンプレートの CSS 欄に &lt;code&gt;jquery-ui.css&lt;/code&gt; の中でスライダーに関係する CSS だけを直接記述することもできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_完成品のダウンロード&#34;&gt;完成品のダウンロード&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;今回作成したアドオンファイルとノートタイプが入った単語帳ファイルを公開しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;http://rs.luminousspice.com/apkg/html5controller.zip&#34; rel=&#34;nofollow&#34;  onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;HTML5 メディアの速度調整&#39;);&#34;&gt;ダウンロードファイル html5controller.zip&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_ダウンロードファイルの使い方&#34;&gt;ダウンロードファイルの使い方&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このダウンロードファイルを使うには次の手順でカードを作ってください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;ダウンロードファイルの利用手順&lt;/div&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;html5controller.zip&lt;/code&gt; を解凍して &lt;code&gt;html5controller.py&lt;/code&gt; と &lt;code&gt;html5controller.apkg&lt;/code&gt; が含まれていることを確認します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;アドオンファイル &lt;code&gt;html5controller.py&lt;/code&gt; をアドオンフォルダーに配置して、Anki を再起動します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;単語帳ファイル &lt;code&gt;html5controller.apkg&lt;/code&gt; を開いて Anki に読み込みます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ノートタイプ選択画面で &lt;code&gt;HTML5 Video Controller&lt;/code&gt; を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Video フィールドに表示したいファイル名を入力します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;追加した単語帳 &lt;code&gt;HTML5 Video Controller&lt;/code&gt; の中にはローカルの動画とネットの動画を表示する二枚のカードが含まれています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/html5controller-anki.png&#34; alt=&#34;ウンロードサンプル表示例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. ダウンロードサンプル表示例&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;HTML5 のメディア機能で動画の再生速度は JavaScript で制御できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki には、jQuery と jQuery UI が組み込まれているので追加ファイル不要で利用可能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習画面とプレビュー画面では読み込んだ JavaSript の動作が異なる場合がある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学習画面でアドオンを使って JavaScript を読み込ませることができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
@@ -950,176 +1230,6 @@ title: &#34;全文検索&#34;
 &lt;p&gt;Hugo の機能拡張をするなら、最新動向を一度調べた方がよい。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
-      <pubDate>Thu, 31 Dec 2015 23:00:39 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
-      <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点についても扱います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki に動画を埋め込むと別ウィンドウで再生します。この動作が些細なことですが違和感を覚えていました。Anki の動画再生に使っている &lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;MPlayer のショートカット&lt;/a&gt;を使えばかなり動作を細かく制御できることは分かったのですが、別ウィンドウが開くことへわだかまりは消えませんでした。そこでこの問題を解決するするために辿り着いた、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介します。なお、HTML5 によるメディアの埋め込みは Anki のサポート対象外です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;こちらもサポート対象外ながら Iframe を使うという方法もあります。この方法を以前利用していたのですが、Google API のサポートの変更にともなって今年の 4 月頃から YouTube の動画を Anki 上に埋め込み表示できなくなりました。さて、何か代わりの方法はないだろうかというのが、HTML5 の利用を考え始めた切っ掛けです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_注意事項&#34;&gt;注意事項&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この記事は、Anki のサポート対象外の機能について説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;たとえば、Anki サポートフォーラムの記事 &lt;a href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/12516-can-i-embed-youtube-videos&#34;&gt;Can I embed Youtube videos?&lt;/a&gt; 、&lt;a href=&#34;https://anki.tenderapp.com/discussions/ankidesktop/4745-embedding-external-websites-with-iframe-or-object-html-tags&#34;&gt;Embedding external websites with iframe or object html tags&lt;/a&gt;によれば、Anki は HTML5 や Flash の埋め込みコンテンツやIFrame によるリモート表示をサポートしていません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このことを理解した上で、動作している自分の環境 (OS X および iOS)の経験に基づいてこの投稿を作成しています。お使いになっている環境によっては、この記事の方法では動作しないかもしれません。
-この記事を理解するには、HTML5 メディア埋め込みに関するの知識が必要です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_html5_の記述&#34;&gt;HTML5 の記述&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一番シンプルな書き方は、Anki のメディアフォルダに &lt;code&gt;myvideo.mp4&lt;/code&gt; という動画を表示するなら、次のような HTML の記述をノートに書き込みます。&lt;code&gt;controls&lt;/code&gt; 属性を付けているのは、再生位置や音量などの再生コントロールを表示するためです。&lt;code&gt;src&lt;/code&gt; 属性は、http サーバー上にあるコンテンツを指定しても動作します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;動画の埋め込み&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;video src=&#34;myvideo.mp4&#34; controls&amp;gt;&amp;lt;/video&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_コードの入力&#34;&gt;コードの入力&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML を入力する際の注意点は、HTML エディタを開いて入力することです。ノートエディタで入力したいフィールドにフォーカスをあわせたら、Command + Shift + X を押すと HTML エディタが開きます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-htmleditor.png&#34; alt=&#34;HTML エディタで HTML5 Video 要素を入力する&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. HTML エディタで HTML5 Video 要素を入力する&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;完成品は次の通りです。動画下部に再生コントロールが現れます。左から、再生ボタン、再生時間、再生位置表示、全画面表示、音量が調節できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-card.png&#34; alt=&#34;HTML5 Video で動画をカードに埋め込む&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. HTML5 Video で動画をカードに埋め込む&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_音声の埋め込み&#34;&gt;音声の埋め込み&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;なお、HTML5 Audio 機能を使って音声も埋め込むことができます。
-この場合は次のように HTML を記述します。この場合は、動画と同様のコントロールだけを表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;音声の埋め込み&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;audio src=&#34;myvideo.mp4&#34; controls&amp;gt;&amp;lt;/audio&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_iphone_との連携&#34;&gt;iPhone との連携&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;なお、HTML5 Video および Audio ともに iPhone (iOS) 上で動作します。同じデータを Mac、iPhone 間で同期して使うことができます。双方の環境で利用可能なフォーマットは、動画は mp4、音声は mp3 でした。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、iPhone から HTML5 のコードを直接入力しても動作します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;動画の場合は、動画の真ん中のボタンをタップすると &lt;code&gt;[sound:]&lt;/code&gt; タグで埋め込んだときと同様のコントロールが立ち上がって、動画を再生します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-video.png&#34; alt=&#34;HTML5 Video を iPhone 上で表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. HTML5 Video を iPhone 上で表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;音声の場合は、再生コントロールを表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5-anki-iphone-audio.png&#34; alt=&#34;HTML5 Audio を iPhone 上で表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. HTML5 Audio を iPhone 上で表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ファイルを書き出す際の注意点&#34;&gt;ファイルを書き出す際の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML5 の Video、Audio 要素を使ったカードを Anki 単語帳パッケージ (APKG) として書き出す場合、特定の単語帳を指定すると &lt;code&gt;[sound:]&lt;/code&gt; タグを使っていないメディアファイルは同梱しません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;コレクション全体を指定した場合は、同梱します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、AnkiWeb と同期する場合には、このようなメディアファイルは同期の対象になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ただし、AnkiWeb と同期後、共有単語帳として公開した場合、ダウンロードファイルには &lt;code&gt;[sound:]&lt;/code&gt; タグを使っていないメディアファイルは同梱しません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一番単純な回避策は、通常の &lt;code&gt;[sound:]&lt;/code&gt; タグを使ったダミーのカードを一枚作ることではないかと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_訂正&#34;&gt;訂正&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;初出では、テンプレートに書き込んだ HTML5 要素から参照しているメディアファイルが、iTunes ファイル共有や AnkiWeb の同期の対象外になると書きましたが、正しくありませんでしたので訂正します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML5 の力を借りれば、ちょっと HTML のコードを書くだけで、Anki のカードの使い勝手を変更できることが分かりました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki を使った学習は、毎日継続する作業なので、ちょっとしたユーザーインターフェイスの使い勝手であっても、モチベーションに大きな影響を与えます。たとえ、正式にサポートされていない機能であっても、自分が使っている機器で動作が確認できれば、そのインターフェイスを帰ることもできる柔軟性を Anki は持っています。
-自分の知識を活用して、毎日少しずつ Anki の学習環境を改善していくことも、Anki を使う楽しみではないかと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_更新履歴&#34;&gt;更新履歴&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2015/12/31 初出&lt;br&gt;
-2016/04/25 ファイルを書き出す際の注意点を訂正&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
