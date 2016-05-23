@@ -1,7 +1,7 @@
 ---
 slug: "html5-on-anki"
 date: "2015-12-31T23:00:39+00:00"
-lastmod: "2016-04-25T14:56:15+00:00"
+lastmod: "2016-05-23T13:40:59+00:00"
 title: "Anki カードへの HTML5 メディアの埋め込み"
 categories: ["Anki"]
 tags: ["Anki","HTML5","iOS","iPhone","開発"]
@@ -58,6 +58,9 @@ image::/images/html5-anki-htmleditor.png["HTML エディタで HTML5 Video 要�
 
 .HTML5 Video で動画をカードに埋め込む
 image::/images/html5-anki-card.png["HTML5 Video で動画をカードに埋め込む"]
+
+なお、再生速度を調節するスライダーの追加方法をlink:/html5controller-on-anki/[Anki カードに埋め込んだ HTML5 Video の速度調整]で説明しています。
+
 
 == 音声の埋め込み
 
