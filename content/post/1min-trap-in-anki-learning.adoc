@@ -1,0 +1,96 @@
+---
+date: "2016-05-23T13:14:21+00:00"
+title: "Anki における新規カード一分間トラップの分析"
+categories: ["Anki"]
+tags: ["Anki","アドオン","統計","開発"]
+anki: ["アドオン","統計","復習間隔","新規学習"]
+excerpt: "Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価する方法を紹介したいと思います。"
+---
+= Anki における新規カード一分間トラップの分析
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価する方法を紹介したいと思います。
+:figure-caption: 図
+
+////
+http://rightstuff.luminousspice.com/1min-trap-in-anki-learning/
+////
+
+{description}
+
+== 復習間隔一分に注目した理由
+
+Anki の処理を変更して直前の成功した間隔からやり直しを実現するアドオン link:https://ankiweb.net/shared/info/1481634779[Another Retreat] を公開したらある人から、このアドオンを応用して復習間隔一分のデータを取れないかとの相談を受けました。
+
+新規カードの学習で復習間隔一分で繰り返し失敗する "1min Hell" の分析に使うのに必要で、最初の一歩として定量的なデータが欲しいとのことでした。
+
+とりあえず Anki にデータを入れて、事前に十分な理解をせずにただ見る回数だけこなせばなんとかなるだろうという、SRS から逸脱した浅はかな使い方を自ら戒めるためにアドオンを作ってみました。
+
+== 一分間隔報告アドオン
+
+そこでクエリーを簡単に改造して復習履歴のデータを検索し、コレクション全体について間隔一分の学習回数とその比率を単語帳別に報告するアドオンを作りました。
+
+このアドオンは GitHub に link:https://raw.githubusercontent.com/luminousspice/anki-addons/master/1minIvls.py[1minIvls.py] (1min Interval Report) として公開しました。
+
+個人的な限られた用途で作ったアドオンなので AnkiWeb に公開の予定はありません。もちろん無サポート、無責任、無保証です。
+大きなサイズのコレクションの場合は報告作成まで時間がかかります。
+
+.使い方
+メニューバーから [ツール] - [1min Interval Report] を選択すると新規ウィンドウに報告を表示します。
+
+.表示内容
+左から単語帳名、一分間隔の回数、全セッション中の比率、新規セッションでの比率です。
+
+注目すべき数値は一番左の、新規セッション中の一分間隔の比率です。初期設定では、新規追加カードの学習ステップは 1 分と 10 分ですので、普通を二回押して終了した場合は 0%、一回もう一度、一回普通を押した場合は 50% になります。
+
+.出力例
+----
+1min Interval Report:
+
+Deck	Count	% Total	% in Learn
+Level1	 4618	 7.0	50.0
+Level2	10569	15.0	67.0
+Level31	11275	13.0	76.0
+Level32	11169	15.0	75.0
+Anatomy	  428	11.0	64.0
+MWVB	 2801	18.0	54.0
+MWDSA	　256	16.0	52.0
+----
+
+== 使用データの説明
+
+実際の出力は単語帳名で並び替えますが、説明ために上からやさしい単語帳から難しいものになるように並べました。
+
+先頭四行は同じ枚数の頻出別の単語帳です。Level31 と Level32 は同じ頻度ですがカード枚数を他の単語帳と同じにするために分けました。
+
+Anatomy とは、グレコローマンを語源とする解剖学用語のカードです。カードの構成は上の頻出用語集と全く同じです。上の単語帳の Level3 と重複した語彙が多いです。
+
+MWVBとは、link:/learn-with-anki/[暗記に強くなるために Anki から上手くサポートを得るには]で学習モデルに利用した +++<a  href="http://www.amazon.co.jp/gp/product/0877798559/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0877798559&linkCode=as2&tag=rsls-22">Merriam-Webster's Vocabulary Builder</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=rsls-22&l=as2&o=9&a=0877798559" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />+++ のデータです。カードにする前に十分な分量の文章を読むため、理解が進み一分間隔の学習が抑えられていることがわかります。また本文中で例文がたくさん掲載されているため、カードにも比較的長い文を掲載しています。
+
+MWDSA とは、+++<a  href="http://www.amazon.co.jp/gp/product/0877799067/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0877799067&linkCode=as2&tag=rsls-22">The Merriam-Webster Dictionary of Synonyms and Antonyms</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=rsls-22&l=as2&o=9&a=0877799067" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />+++ です。同時に同じ意味の言葉を大量に知ることができ、事前に例文のたくさん読むことができます。カードの作りは MWVB と同じです。この単語帳だけ追加継続中です。
+
+== データから読めたこと
+
+難易度が上がるに従って、一分間隔の比率も上がっています。これは期待通りの結果ですが、定量的なデータとして確認できました。
+
+こちらは若干驚くべきことですが、相当な難語、古語、文語であっても、事前に親本の文章を読み、そこから例文を拾ったカードを作ると、最頻出語並に一分間隔の比率を抑えることができました。今日初めて知りました。ただし Anki で学習を始めるまでに本などで時間をかけて学習することになります。
+
+....
+Anki のカード学習の難しさと、元の教材の難しさは必ずしも一致しない。
+....
+
+link:/addon-ease-factor-histogram/[Ease Factor Histogram 単語帳の健全性を診断するアドオン] では、易しさの値の分布を使って単語帳全体としての教材の難しさ、カードの構成の適切さを評価しました。
+
+実は、今回作ったアドオンは Ease Factor Histogram と相補的な関係にあることに気がつきました。
+
+Ease Factor Histogram は、復習の継続の困難さ評価する指標となり、このアドオン 1min Interval Report は、学習を開始する困難さを評価する指標になります。
+
+特に 1min Interval Report は、カードを Anki で使う前に十分な準備をしたか、カードの構成は適切だったかなど新規学習を効果を高めるための視点を与えてくれます。
+
+== まとめ
+
+* 新規学習での間隔一分の統計を取ると、Anki の新規学習の評価ができる。
+* 教材の難度は一分間隔の頻度に反映される。
+* 教材の事前準備やカードの構成によって、新規学習の難度を下げることができる。
