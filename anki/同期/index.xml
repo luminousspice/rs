@@ -327,6 +327,9 @@ AnkiWeb が常に万能な訳ではなく、同期するファイルの内容に
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. HTML5 Video で動画をカードに埋め込む&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお、再生速度を調節するスライダーの追加方法を&lt;a href=&#34;http://rs.luminousspice.com/html5controller-on-anki/&#34;&gt;Anki カードに埋め込んだ HTML5 Video の速度調整&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
