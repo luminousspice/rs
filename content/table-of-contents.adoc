@@ -115,6 +115,7 @@ Anki の主要なユーザーインターフェイスを紹介し、利用可能
 * link:/audio-stdout-into-anki-for-mac/[Mac で再生中の音声を Anki に直接録音する]
 * link:/mplayer-shortcut-for-anki-video/[Anki の動画再生に使えるショートカットキー]
 * link:/html5-on-anki/[HTML5 を利用した Anki カードへのメディアの埋め込み]
+* link:/html5controller-on-anki/[Anki カードに埋め込んだ HTML5 Video の速度調整]
 * link:/learn-audio-material-with-anki/[Anki を使って音声データ付き書籍の理解を深めよう]
 * link:/mpv-on-anki/[Anki のメディアプレイヤーを mpv に取り替える]
 * link:/awesometts-preset/[AwesomeTTS プリセットの活用]
@@ -160,6 +161,8 @@ AnkiMobile の特定の機能を取り上げてその使い方を説明します
 * link:/anki-lapse-management/[忘れた Anki カードの出直し方]
 * link:/anki-stats-due-forcast/[Anki 復習予測の読み方]
 * link:/long-interval-management/[復習が進んだカードの手入れ]
+* link:/addon-ease-factor-histogram/[Ease Factor Histogram 単語帳の健全性を診断するアドオン]
+* link:/1min-trap-in-anki-learning/[Anki における新規カード一分間トラップの分析]
 
 == 最新 Anki 情報源
 
