@@ -6,10 +6,147 @@
     <description>アドオン | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 May 2016 14:42:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 May 2016 13:14:21 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E3%82%A2%E3%83%89%E3%82%AA%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anki における新規カード一分間トラップの分析</title>
+      <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
+      <pubDate>Mon, 23 May 2016 13:14:21 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
+      <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価する方法を紹介したいと思います。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価する方法を紹介したいと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習間隔一分に注目した理由&#34;&gt;復習間隔一分に注目した理由&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の処理を変更して直前の成功した間隔からやり直しを実現するアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/1481634779&#34;&gt;Another Retreat&lt;/a&gt; を公開したらある人から、このアドオンを応用して復習間隔一分のデータを取れないかとの相談を受けました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;新規カードの学習で復習間隔一分で繰り返し失敗する &#34;1min Hell&#34; の分析に使うのに必要で、最初の一歩として定量的なデータが欲しいとのことでした。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;とりあえず Anki にデータを入れて、事前に十分な理解をせずにただ見る回数だけこなせばなんとかなるだろうという、SRS から逸脱した浅はかな使い方を自ら戒めるためにアドオンを作ってみました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_一分間隔報告アドオン&#34;&gt;一分間隔報告アドオン&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこでクエリーを簡単に改造して復習履歴のデータを検索し、コレクション全体について間隔一分の学習回数とその比率を単語帳別に報告するアドオンを作りました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このアドオンは GitHub に &lt;a href=&#34;https://raw.githubusercontent.com/luminousspice/anki-addons/master/1minIvls.py&#34;&gt;1minIvls.py&lt;/a&gt; (1min Interval Report) として公開しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;個人的な限られた用途で作ったアドオンなので AnkiWeb に公開の予定はありません。もちろん無サポート、無責任、無保証です。
+大きなサイズのコレクションの場合は報告作成まで時間がかかります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;使い方&lt;/div&gt;
+&lt;p&gt;メニューバーから [ツール] - [1min Interval Report] を選択すると新規ウィンドウに報告を表示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;表示内容&lt;/div&gt;
+&lt;p&gt;左から単語帳名、一分間隔の回数、全セッション中の比率、新規セッションでの比率です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;注目すべき数値は一番左の、新規セッション中の一分間隔の比率です。初期設定では、新規追加カードの学習ステップは 1 分と 10 分ですので、普通を二回押して終了した場合は 0%、一回もう一度、一回普通を押した場合は 50% になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;出力例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;1min Interval Report:
+
+Deck	Count	% Total	% in Learn
+Level1	 4618	 7.0	50.0
+Level2	10569	15.0	67.0
+Level31	11275	13.0	76.0
+Level32	11169	15.0	75.0
+Anatomy	  428	11.0	64.0
+MWVB	 2801	18.0	54.0
+MWDSA	　256	16.0	52.0&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_使用データの説明&#34;&gt;使用データの説明&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実際の出力は単語帳名で並び替えますが、説明ために上からやさしい単語帳から難しいものになるように並べました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;先頭四行は同じ枚数の頻出別の単語帳です。Level31 と Level32 は同じ頻度ですがカード枚数を他の単語帳と同じにするために分けました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anatomy とは、グレコローマンを語源とする解剖学用語のカードです。カードの構成は上の頻出用語集と全く同じです。上の単語帳の Level3 と重複した語彙が多いです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;MWVBとは、&lt;a href=&#34;http://rs.luminousspice.com/learn-with-anki/&#34;&gt;暗記に強くなるために Anki から上手くサポートを得るには&lt;/a&gt;で学習モデルに利用した &lt;a  href=&#34;http://www.amazon.co.jp/gp/product/0877798559/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=0877798559&amp;linkCode=as2&amp;tag=rsls-22&#34;&gt;Merriam-Webster&#39;s Vocabulary Builder&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=rsls-22&amp;l=as2&amp;o=9&amp;a=0877798559&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt; のデータです。カードにする前に十分な分量の文章を読むため、理解が進み一分間隔の学習が抑えられていることがわかります。また本文中で例文がたくさん掲載されているため、カードにも比較的長い文を掲載しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;MWDSA とは、&lt;a  href=&#34;http://www.amazon.co.jp/gp/product/0877799067/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=0877799067&amp;linkCode=as2&amp;tag=rsls-22&#34;&gt;The Merriam-Webster Dictionary of Synonyms and Antonyms&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=rsls-22&amp;l=as2&amp;o=9&amp;a=0877799067&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt; です。同時に同じ意味の言葉を大量に知ることができ、事前に例文のたくさん読むことができます。カードの作りは MWVB と同じです。この単語帳だけ追加継続中です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_データから読めたこと&#34;&gt;データから読めたこと&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;難易度が上がるに従って、一分間隔の比率も上がっています。これは期待通りの結果ですが、定量的なデータとして確認できました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;こちらは若干驚くべきことですが、相当な難語、古語、文語であっても、事前に親本の文章を読み、そこから例文を拾ったカードを作ると、最頻出語並に一分間隔の比率を抑えることができました。今日初めて知りました。ただし Anki で学習を始めるまでに本などで時間をかけて学習することになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;Anki のカード学習の難しさと、元の教材の難しさは必ずしも一致しない。&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/addon-ease-factor-histogram/&#34;&gt;Ease Factor Histogram 単語帳の健全性を診断するアドオン&lt;/a&gt; では、易しさの値の分布を使って単語帳全体としての教材の難しさ、カードの構成の適切さを評価しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実は、今回作ったアドオンは Ease Factor Histogram と相補的な関係にあることに気がつきました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Ease Factor Histogram は、復習の継続の困難さ評価する指標となり、このアドオン 1min Interval Report は、学習を開始する困難さを評価する指標になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;特に 1min Interval Report は、カードを Anki で使う前に十分な準備をしたか、カードの構成は適切だったかなど新規学習を効果を高めるための視点を与えてくれます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;新規学習での間隔一分の統計を取ると、Anki の新規学習の評価ができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;教材の難度は一分間隔の頻度に反映される。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;教材の事前準備やカードの構成によって、新規学習の難度を下げることができる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
@@ -972,227 +1109,6 @@ $ dvipng -D 200 -T tight tmp.dvi -o tmp.png&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016-04-13: 初出&lt;br&gt;
 2016-05-18: 更新: アドオン Another Retreat に基づいて加筆&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>AwesomeTTS プリセットの活用</title>
-      <link>http://rs.luminousspice.com/awesometts-preset/</link>
-      <pubDate>Tue, 12 Apr 2016 12:55:25 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
-      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_awesometts_プリセットとは&#34;&gt;AwesomeTTS プリセットとは&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、設定項目を保存して後日再利用するためのプリセット (Preset) という機能を持っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この機能は、音声 (Voice) の種類や読み上げ速度の設定項目を切り替えて使っている場合に重宝します。
-さらに複数の設定項目をグループ化することもでき、ランダムに設定を切り替えながら AwesomeTTS の機能を呼び出すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、プリセットの設定方法を紹介し、そのプリセットの機能を活用した使い方を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anki 2.0.35 (OS X)、AwesomeTTS v1.7.0 に基づいて説明します。プリセットは v1.3.0 以降で利用できますが設定画面や呼び出し方が異なる場合があります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ここでは OS X 内蔵の音声を例に使って説明します。ウェブサービスの音声を利用した場合は、再生に時間がかかることがあります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile ではアドオンは使えませんが、AwesomeTTS を作成した音声を読み込んで再生することはできます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_プリセットグループのメリット&#34;&gt;プリセットグループのメリット&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;プリセットグループの最大のメリットは、複数音声の自動的切り替えです。順序を指定することもランダムに呼び出すこともできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一つの音声を聴き続けた時の飽きが避けられます。また聴き取りにくい苦手な音声でも、聴き取りやすい音声の中に含めれば聴き取りの練習になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS の機能は多彩ですが、この機能は具体的には次のようなメリットをもたらします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;ノートエディタ&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;テキストを読み上げる音声ファイルを、複数の設定を切り替えて作成します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;カードブラウザ&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;フィールドのテキストを読み上げる音声ファイルを、複数の設定を切り替えながら一括作成します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;カードレイアウト&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;フィールドのテキストを複数の設定を切り替えながら読み上げるタグを作成できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;学習画面&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;選択範囲を指定してコンテキストメニューから読み上げる際に、複数の設定を切り替えながら再生します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-say.png&#34; alt=&#34;コンテキストメニューからの呼び出し (EN: プリセットグループ)&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. コンテキストメニューからの呼び出し (EN: プリセットグループ)&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;テンプレートで指定する時のポイント&lt;/div&gt;
-&lt;p&gt;テンプレートの中に　&lt;code&gt;tts&lt;/code&gt; タグを含める場合は、音声の種類は固定しません。カードを表示するたびに音声を選択して読み上げます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_プリセットの設定&#34;&gt;プリセットの設定&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS では音声の設定を画面全てで保存できます。また、プリセットは共通で利用できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ノートエディタで、テキストを読み上げた音声ファイルを作成する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カードブラウザで、カードを選択してフィールドのテキストを読み上げた音声ファイルを一括作成する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カードレイアウトで、フィールドのテキストを読み上げるタグを作成する&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;それぞれの画面下中央の [Save] ボタンを押します (図 2)。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一例として、カードレイアウトから呼び出すタグ作成画面を示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;AwesomeTTS 用タグ作成画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. AwesomeTTS 用タグ作成画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_プリセットの使い方&#34;&gt;プリセットの使い方&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で画面左下のプルダウンメニュー [Load Preset] から使用するプリセットを選択します (図 2)。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_プリセットグループの管理&#34;&gt;プリセットグループの管理&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;設定したプリセットをグループ化して利用するための設定方法を紹介しましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;管理画面の呼び出し方&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;メニューバーから [ツール] - [AwesomeTTS] (または Command/Ctrl + T) で AwesomeTTS の設定画面を開く&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Advanced] タブを選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Manage Groups] ボタンを選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup.png&#34; alt=&#34;プリセットグループ管理画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. プリセットグループ管理画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この画面で、右の ＋ ボタンを押すとプリセットの新規作成ができます。
-プルダウンメニューから設定済みのプリセットグループを選んで編集することもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;プリセットグループを作成して、設定済みのプリセットを読み込むには、プリセット一覧の右にある　＋ ボタンを押します。
-下の図のように、プルダウンから選択できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-edit.png&#34; alt=&#34;プリセットグループ編集&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. プリセットグループ編集&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;[Mode] 項目では、グループ内のプリセットを呼び出す順番を指定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;randomaize&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;ランダムに&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;in-order&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;上から順番に&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;順番を並び替えるには、プリセット一覧右の ▲ ▼ ボタンを使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_グループプリセットの使い方&#34;&gt;グループプリセットの使い方&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で Configure Services の Generate using 項目のプルダウンメニューの中から作成したプリセットグループを指定します (図 5)。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-note.png&#34; alt=&#34;プリセットグループ EN を指定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. プリセットグループ EN を指定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;プリセット機能を使うと AwesomeTTS 設定の再利用でき作業が効率的になる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;プリセットとプリセットグループは AwesomeTTS の機能で共通に使える。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;プリセットグループ機能を使うと特定の音声に偏らない音声学習ができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;テンプレート内でプリセットグループ機能を使うとテキストを読み上げる音声に常に変わる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
