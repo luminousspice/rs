@@ -518,7 +518,7 @@ filter が変更を加えない場合は、修正フラグは受け取った値�
     srcTxt = mw.col.media.strip(n[src])
     if not srcTxt:
         return flag
-    # 欄を更新
+    # フィールドを更新
     try:
         n[dst] = mecab.reading(srcTxt)
     except Exception, e:
@@ -682,7 +682,7 @@ aqt.utils.showInfo を使うか、sys.stderr.write(&#34;text\n&#34;) で標準�
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki には、REPL が含まれています。プログラムの中から Ctrl+: または Command+: を押すと
-ウィンドウが立ち上がります。上の欄に式や文を入力し、ctrl+return/command+return を押すと
+ウィンドウが立ち上がります。上のテキストエリアに式や文を入力し、ctrl+return/command+return を押すと
 評価します。セッション例を次に挙げます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -735,7 +735,7 @@ NameError: name &#39;invalidName&#39; is not defined
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;何が評価されたか知るためには、式を明示的に出力する必要があることに注意してください。Anki では
 pp() (pretty print) がスコープの中でオブジェクトの詳細を素早くダンプすることが簡単に
-できるようになっています。ショートカット ctrl+shift+return は上の欄中の現在のテキストを
+できるようになっています。ショートカット ctrl+shift+return は上のテキストエリア中の現在のテキストを
 pp() で囲んで実行し結果を表示します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;

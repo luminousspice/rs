@@ -82,6 +82,13 @@
 &lt;p&gt;アドオンのダウンロードコードは &lt;code&gt;1481634779&lt;/code&gt; です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;バージョン 0.3.0 からは単語帳オプション別にこのアドオンの機能を有効にできます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;設定方法&lt;/div&gt;
+&lt;p&gt;単語帳オプションの [忘却] タブで [Activate Another Retreat Addon] を選択すると このアドオンの機能が有効になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
 &lt;p&gt;Anki のアドオンは、PC 版でのみ動作します、このため AnkiMobile を共用している場合は、スケジュール処理の一貫性が損なわれます。&lt;/p&gt;
 &lt;/div&gt;
