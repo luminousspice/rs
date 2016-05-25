@@ -1,6 +1,6 @@
 ---
 date: "2016-04-13T05:20:21+00:00"
-lastmod: "2016-05-18T00:22:14+00:00"
+lastmod: "2016-05-25T10:35:53+00:00"
 title: "忘れた Anki カードの出直し方"
 categories: ["Art of Anki"]
 tags: ["Anki","AnkiMobile","忘却","学習オプション","アドオン"]
@@ -61,6 +61,11 @@ image::/images/Leitner_system.svg["SRS 学習モデル (カスタマイズ後)"]
 Anki の処理を変更して直前の成功した間隔からやり直しを実現するアドオン link:https://ankiweb.net/shared/info/1481634779[Another Retreat]を Anki Web に公開しました。
 
 アドオンのダウンロードコードは `1481634779` です。
+
+バージョン 0.3.0 からは単語帳オプション別にこのアドオンの機能を有効にできます。
+
+.設定方法
+単語帳オプションの [忘却] タブで [Activate Another Retreat Addon] を選択すると このアドオンの機能が有効になります。
 
 .注意
 Anki のアドオンは、PC 版でのみ動作します、このため AnkiMobile を共用している場合は、スケジュール処理の一貫性が損なわれます。
