@@ -6,10 +6,235 @@
     <description>音声 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 May 2016 13:49:38 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 May 2016 14:37:07 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/anki/%E9%9F%B3%E5%A3%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>YouTube の字幕付き動画をを活用した Anki カードの作成</title>
+      <link>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
+      <pubDate>Sat, 28 May 2016 14:37:07 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
+      <description>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_字幕付き動画から_anki_カードを作成&#34;&gt;字幕付き動画から Anki カードを作成&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;動画と字幕から Anki 用のカードを作成するアプリケーションとしては、Windows 版では、&lt;a href=&#34;http://subs2srs.sourceforge.net/&#34;&gt;subs2srs&lt;/a&gt;という非常に高機能なアプリケーションが Anki1 の頃から存在し、非常に有名です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;OS X などの他のプラットフォームで Anki を使っているユーザに取っては羨ましい限りだったのですが、ついにこの作業を自動化する &lt;a href=&#34;https://github.com/katspaugh/youtube-flashcards&#34;&gt;YouTube Flashcards&lt;/a&gt; が GitHub に公開されました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このアプリの機能をザックリと説明すると &lt;a href=&#34;https://github.com/rg3/youtube-dl/&#34;&gt;youtube-dl&lt;/a&gt; というアプリで動画と字幕をダウンロードし、その字幕のタイムラインの情報を元に &lt;a href=&#34;https://ffmpeg.org/&#34;&gt;FFmpeg&lt;/a&gt; で音声を分割し、画面ショットを取得し、さらに Anki に読み込むための TSV ファイルを作成してくれます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;動画をダウンロードしますが、カードには音声と画像を配置します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;字幕用ファイルのフォーマットは &lt;a href=&#34;https://www.w3.org/TR/webvtt1/&#34;&gt;WebVTT (Web Video Text Tracks)&lt;/a&gt; を使っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;YouTube Flashcards を使うには、youtube-dl と FFmpeg がインストールされていることが前提です。OS X の場合は両方とも Homebrew から入手できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_youtube_flashcards_の内容&#34;&gt;YouTube Flashcards の内容&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;YouTube Flashcards の構成は極めてシンプル、ダウンロード部分の作業を行う &lt;code&gt;download.sh&lt;/code&gt; とメディアファイルの加工を行う &lt;code&gt;extract.sh&lt;/code&gt; という二つのシェルスクリプトで構成しています。youtube-dl がサポートしているサイトなら、YouTube 以外でも利用できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;内容も簡潔に記述しており、好みに応じて youtube-dl や FFmpeg のオプションを自分で記述できる容易なっています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_メディアのダウンロード&#34;&gt;メディアのダウンロード&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;まず、動画ファイルと字幕ファイル (VTT) を取得します。ダウンロードしたファイルは &lt;code&gt;downloads&lt;/code&gt; フォルダに保存します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;メディアファイルと字幕ファイルの取得&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;./download.sh (メディアファイルのURL)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;画像ファイルが存在するか、どの言語で提供されているかについては youtube-dl を使って調べることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;字幕ファイルの一覧&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;youtube-dl --list-subs (メディアファイルのURL)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;利用可能なメディアファイルの一覧もダウンロード前に調べることができます。好みのフォーマットを入手するには &lt;code&gt;downloads&lt;/code&gt; を編集して &lt;code&gt;-f&lt;/code&gt; で指定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;メディアファイルフォーマットの一覧&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;youtube-dl -F (メディアファイルのURL)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_カード用にダウンロードファイルの加工&#34;&gt;Anki カード用にダウンロードファイルの加工&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;メディアファイルからの音声ファイルの切り出しと、画面キャプチャの取得、字幕ファイルからのテキストファイルの抽出を &lt;code&gt;extract.sh&lt;/code&gt; で行います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;メディアファイルの加工&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;./extract.sh (メディアファイルのパス) (字幕ファイルのパス) [(翻訳字幕ファイルのパス)] &amp;gt; (書き出す TSV ファイルのパス)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;翻訳字幕ファイルのパスは、テキストを抽出するだけなので任意です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;加工した音声や画像は &lt;code&gt;output&lt;/code&gt; フォルダに保存します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;作成する TSV の内容は次のようになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;TSV ファイルの内容&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;原音声字幕	(翻訳字幕)	(画面キャプチャファイル名)	[sound:音声ファイル名]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_tsv_ファイル利用の注意&#34;&gt;TSV ファイル利用の注意&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;字幕内の改行に HTML の &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; タグを指定していますので、HTML を読み込む設定が必要になります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;画像ファイルは、&lt;code&gt;&amp;lt;IMG&amp;gt;&lt;/code&gt; タグを設定していませんので、カードに画像を表示するには TSV を自分で加工してタグを付けるか、テンプレートの中でタグを設定する必要があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_への読み込み&#34;&gt;Anki への読み込み&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;code&gt;output&lt;/code&gt; の中の動画や画像は、Anki のメディアフォルダに保存します。
+書き出した TSV ファイルは、Anki のテキストファイル読み込み機能を使って読み込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;オプションでは、[フィールドに HTML を利用する] を有効にします。
+TSV ファイルは最低でも三つの列の内容がありますので、標準のノートタイプでは対応できません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私の場合は、基本ノートタイプに Picture フィールドを追加したノートタイプを作りました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;フィールドの対応表は次の通りです。表面に音声ファイルと画像ファイルを配置し、裏面に字幕の内容を表示する内容です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;テキストファイル読み込み設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;フィールド1	Back
+フィールド2	&amp;lt;無視&amp;gt;
+フィールド3	Picture
+フィールド4	Front&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_カードテンプレートの準備&#34;&gt;カードテンプレートの準備&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;さて、さらにカードテンプレートの編集が必要で、表面のテンプレートを次のように設定しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;表面テンプレートの設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;{{Front}}
+&amp;lt;img src=&#34;{{Picture}}&#34;&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_作成例とポイント&#34;&gt;作成例とポイント&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;完成品の一例を紹介しましょう。RussianPod101.com の番組を利用して作成したカードです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/anki-card-from-youtube-caption.png&#34; alt=&#34;作成例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 作成例&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;参考: &lt;a href=&#34;https://www.youtube.com/watch?v=htqx5YkTUms&#34;&gt;Weekly Russian Words with Katya - At the Aquarium&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_カード枚数の目安&#34;&gt;カード枚数の目安&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この動画の長さは約二分で 24 枚のカードが自動作成できました。同じチャンネルの 8 分間の英語の番組では、120 枚になりました。また VOA の一分間のニュースフラッシュで 20 枚程度です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実際に字幕ファイルを見れば、何枚カードができるかわかりますが、実用に適した番組の長さは数分程度が限界なのではないかと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_この方法で作ったカードを使ってみると&#34;&gt;この方法で作ったカードを使ってみると&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;普段は YouTube の動画番組は、必要な箇所だけ&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;で紹介していた方法で直接録音しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;あらためていつも見ている番組を YouTube Flashcards で作ったカードと比較してみると、細かく区切った文章がある分、一つ一つの音を意識した聴き取りのカードに仕上がったのではないかと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;RussianPod101.com は、字幕にする音声を取捨選択していて、比較的切りのいいところで字幕が区切られています。番組によっては、特にニュースなどは、全ての音声を文字に書き起こすためか中途半端なところで音が切れて、人によっては気にするかもしれませんので、作成前に番組内容や字幕内容を確認することをお勧めします。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;手動で音声を区切るとどうしても繰り返し作業が多くなります。事前に正確なタイムラインを指定しているデータを使えるのは非常にありがたく、重宝します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;YouTube Flashcards を使うと OS X や Linux でも YouTube の動画と字幕を使ったカードを作成できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ファイルのダウンロードや加工方法は、シェルスクリプトの編集で指定きる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一分間あたりのカード枚数は　10-20 枚程度になるため、実用には番組の長さに注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字幕の区切り方が番組の種類によって異なる。きれいに区切った音声が必要なら番組を選ぶ必要がある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
@@ -842,92 +1067,6 @@ Anki に入れたのは覚えたい単語のみで、忘れた時には本を読
   &lt;/div&gt;
 &lt;p&gt;2016/01/03: 初出&lt;/p&gt;
 &lt;p&gt;2016/01/24: 発音教材の追加と単語帳学習データの更新&lt;/p&gt;
-&lt;/section&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
-      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
-      <pubDate>Fri, 01 Jan 2016 23:15:03 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
-      <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;はじめに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;はじめに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;最近の外国語の音源付き書籍には、音声データを一分以内に分割して、本文の説明もオーディオブックのように収録しているものもあり重宝しています。ただ残念なことに、データを音楽プレイヤーで苦手なデータだけを繰り返し聴けないことが不自由でした。
-毎日音楽プレイヤーを持ち歩いて復習する時、最初から再生すると、先頭のデータに再生頻度が集中するし、ランダムに再生すると、まだ学習していないデータを先に聞かなければなりません。自分の進度に合わせて少しずつ足していくのも面倒です。
-本当にやりたかったことは、音声データを聞いてその場で理解出来たか記録し、繰り返し聞く必要のあるデータ順に並び替えたいのです。&lt;/p&gt;
-&lt;p&gt;Anki を利用すれば、苦手なデータを集中して聞くように並び替えてくれます。また、復習対象のデータは少しずつ追加できるので、本体の書籍の学習進度に合わせてデータを聴くことが出来ます。
-今回の趣旨は、Anki を使って理解度順のソートする自動プレイリスト機能が付いたメディアプレイヤーを作ることです。&lt;/p&gt;
-&lt;p&gt;なお、ここでは書籍のデータを全て Anki に持ち込むことは意図していません。
-手間をかけずに書籍で学ぶアフォーダンスを残しながら、特殊な音声プレーヤーでの学習経験も付け加える方法になります。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;音声データの取り込み方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;音声データの取り込み方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;書籍に付属している CD データや専用ダウンロードデータは、&lt;a target=&#34;_new&#34; href=&#34;https://ankiweb.net/shared/info/1531997860&#34;&gt;Media Import&lt;/a&gt; というアドオンを使うと一括で Anki に登録できます。
-このアドオンは、音楽データを保存しているディレクトリと、埋め込むフィールドを指定すれば、自動的にカードを作ってくれます。&lt;/p&gt;
-&lt;p&gt;アドオンの設定画面は、メニューバーから [ツール] - [Media Import] で呼び出すことが出来ます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-media-import.png&#34; alt=&#34;Media Import&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. Media Import&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;上図の設定では、基本ノートタイプの Front フィールドに音声ファイル (Media) に指定しています。
-そして Back フィールドにファイル名 (File Name) を指定したときに作ったカードが下の図になります。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-audio-card.png&#34; alt=&#34;カード表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. カード表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;このカードは、表面の表示はなく音声データのみです。裏面は書籍を使って分からない箇所を確認する際に手がかりになるファイル名を表示する設計です。あまりに表示内容が少なくて物足りないと感じるかもしれませんが、使ってみると音声内容に集中できる必要十分な内容だと分かります。&lt;/p&gt;
-&lt;p&gt;実際にフィールドの内容を表示すると次のようになります。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/audio-material-noteeditor.png&#34; alt=&#34;ノートエディタ&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. ノートエディタ&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;このアドオンの詳しい使い方は、&lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt; で説明しています。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;学習の進め方&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;学習の進め方&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;教材の理解は書籍を読んで行った上で、その理解を Anki で繰り返し復習します。
-実は最初の紙面での教材の理解が大切で、ここで十分理解が深まれば Anki での復習が捗ります。不十分なまま復習をはじめると、Anki と書籍の間の往復が頻繁に発生し効率が低下します。&lt;/p&gt;
-&lt;h3 id=&#34;anki_の学習設定&#34;&gt;Anki の学習設定&lt;/h3&gt;
-&lt;p&gt;Anki の単語帳のオプションの設定 (新規カード) は、表示順を [新規カードを追加順に表示する] を選び、一日の新規カードの上限を書籍の学習進度と合わせます。
-毎日一章ずつ進める計画であれば、音声データも一章分のファイル数に設定します。ファイル数が一定しない場合は、新規カードの追加はゼロにしておき、&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;カスタム学習&lt;/a&gt;で必要な枚数を補充するとよいでしょう。&lt;/p&gt;
-&lt;h3 id=&#34;anki_での学習&#34;&gt;Anki での学習&lt;/h3&gt;
-&lt;p&gt;カードを開いたら再生する音声を聴いて、聴き取れたかどうか判断して解答ボタンを押します。
-何回聞き直しても聴き取れない場合は、カードには原稿はないので、保留扱い (ショートカット: @) にして後でまとめて本で確認します。本で分からなかった内容を確認したら、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;ブラウザから保留したカードを選んで保留状態を解除&lt;/a&gt;します。&lt;/p&gt;
-&lt;p&gt;この方法だと、途中で学習セッションを中断することがなく、音の聴き取りに集中できます。音楽プレイヤーでループ再生して聞き流していた頃に比べると、音声の内容や論理展開に注意が向くようになりました。&lt;/p&gt;
-&lt;p&gt;また、単語帳のオプション [忘却] 項目で、&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカード&lt;/a&gt;になる回数を 2 回、無駄なカードの処理を [カードを保留] に設定しておけば、[もう一回] を 2 回押したら自動的に保留処理を行うので、さらに手数を減らすことが出来ます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/leech_1.png&#34; alt=&#34;単語帳のオプション設定 (忘却)&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 単語帳のオプション設定 (忘却)&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;iPhone (AnkiMobile) で学習するのであれば、マルチタッチスクリーンのジェスチャを活用して、限りなく画面を見る時間を減らし、更に音に集中することが出来ます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;おわりに&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;おわりに&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;この投稿は Anki の固定観念から外れた使い方を試しているうちに生まれたものです。&lt;/p&gt;
-&lt;p&gt;Anki はフラッシュカードをメタファーとしているので、紙のカードの視覚イメージに縛られて、カードに文字や画像を表示することから外れた使う発想はなかなか出来ません。カードの上に音を貼り付けるというのは、直感に反することですが、メディアを扱うアプリケーションとしては自然な使い方です。&lt;/p&gt;
-&lt;p&gt;Anki の復習がペースメーカーになってくれるので、書籍での学習も事前に立てたスケジュールの精度が上がると言う効果も得られました。
-簡単な方法で組み合わせても書籍と Anki の特長をそれぞれ補い合った使い方を体験できるのではないかと思います。&lt;/p&gt;
 &lt;/section&gt;
 </content>
     </item>

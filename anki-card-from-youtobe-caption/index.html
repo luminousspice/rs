@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。'>
+<meta name="keywords" content="Anki, youtube-dl, ffmpeg, 動画, 字幕">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。'/>
+<meta property="og:title" content="YouTube の字幕付き動画をを活用した Anki カードの作成" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/anki-card-from-youtobe-caption/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-05-28T14:37:07Z"/>
+<meta property="article:modified_time" content="2016-05-28T14:37:07Z"/>
+
+
+
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="youtube-dl"><meta property="article:tag" content="ffmpeg"><meta property="article:tag" content="動画"><meta property="article:tag" content="字幕">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="YouTube の字幕付き動画をを活用した Anki カードの作成">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>YouTube の字幕付き動画をを活用した Anki カードの作成 | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/anki-card-from-youtobe-caption/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">YouTube の字幕付き動画をを活用した Anki カードの作成</h1>
+  <span class="post-date"><time datetime="2016-05-28T14:37:07Z"></time>2016-05-28</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_字幕付き動画から_anki_カードを作成">字幕付き動画から Anki カードを作成</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>動画と字幕から Anki 用のカードを作成するアプリケーションとしては、Windows 版では、<a href="http://subs2srs.sourceforge.net/">subs2srs</a>という非常に高機能なアプリケーションが Anki1 の頃から存在し、非常に有名です。</p>
+</div>
+<div class="paragraph">
+<p>OS X などの他のプラットフォームで Anki を使っているユーザに取っては羨ましい限りだったのですが、ついにこの作業を自動化する <a href="https://github.com/katspaugh/youtube-flashcards">YouTube Flashcards</a> が GitHub に公開されました。</p>
+</div>
+<div class="paragraph">
+<p>このアプリの機能をザックリと説明すると <a href="https://github.com/rg3/youtube-dl/">youtube-dl</a> というアプリで動画と字幕をダウンロードし、その字幕のタイムラインの情報を元に <a href="https://ffmpeg.org/">FFmpeg</a> で音声を分割し、画面ショットを取得し、さらに Anki に読み込むための TSV ファイルを作成してくれます。</p>
+</div>
+<div class="paragraph">
+<p>動画をダウンロードしますが、カードには音声と画像を配置します。</p>
+</div>
+<div class="paragraph">
+<p>字幕用ファイルのフォーマットは <a href="https://www.w3.org/TR/webvtt1/">WebVTT (Web Video Text Tracks)</a> を使っています。</p>
+</div>
+<div class="paragraph">
+<p>YouTube Flashcards を使うには、youtube-dl と FFmpeg がインストールされていることが前提です。OS X の場合は両方とも Homebrew から入手できます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_flashcards_の内容">YouTube Flashcards の内容</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>YouTube Flashcards の構成は極めてシンプル、ダウンロード部分の作業を行う <code>download.sh</code> とメディアファイルの加工を行う <code>extract.sh</code> という二つのシェルスクリプトで構成しています。youtube-dl がサポートしているサイトなら、YouTube 以外でも利用できます。</p>
+</div>
+<div class="paragraph">
+<p>内容も簡潔に記述しており、好みに応じて youtube-dl や FFmpeg のオプションを自分で記述できる容易なっています。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_メディアのダウンロード">メディアのダウンロード</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>まず、動画ファイルと字幕ファイル (VTT) を取得します。ダウンロードしたファイルは <code>downloads</code> フォルダに保存します。</p>
+</div>
+<div class="listingblock">
+<div class="title">メディアファイルと字幕ファイルの取得</div>
+<div class="content">
+<pre>./download.sh (メディアファイルのURL)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>画像ファイルが存在するか、どの言語で提供されているかについては youtube-dl を使って調べることができます。</p>
+</div>
+<div class="listingblock">
+<div class="title">字幕ファイルの一覧</div>
+<div class="content">
+<pre>youtube-dl --list-subs (メディアファイルのURL)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>利用可能なメディアファイルの一覧もダウンロード前に調べることができます。好みのフォーマットを入手するには <code>downloads</code> を編集して <code>-f</code> で指定します。</p>
+</div>
+<div class="listingblock">
+<div class="title">メディアファイルフォーマットの一覧</div>
+<div class="content">
+<pre>youtube-dl -F (メディアファイルのURL)</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anki_カード用にダウンロードファイルの加工">Anki カード用にダウンロードファイルの加工</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>メディアファイルからの音声ファイルの切り出しと、画面キャプチャの取得、字幕ファイルからのテキストファイルの抽出を <code>extract.sh</code> で行います。</p>
+</div>
+<div class="listingblock">
+<div class="title">メディアファイルの加工</div>
+<div class="content">
+<pre>./extract.sh (メディアファイルのパス) (字幕ファイルのパス) [(翻訳字幕ファイルのパス)] &gt; (書き出す TSV ファイルのパス)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>翻訳字幕ファイルのパスは、テキストを抽出するだけなので任意です。</p>
+</div>
+<div class="paragraph">
+<p>加工した音声や画像は <code>output</code> フォルダに保存します。</p>
+</div>
+<div class="paragraph">
+<p>作成する TSV の内容は次のようになります。</p>
+</div>
+<div class="listingblock">
+<div class="title">TSV ファイルの内容</div>
+<div class="content">
+<pre>原音声字幕	(翻訳字幕)	(画面キャプチャファイル名)	[sound:音声ファイル名]</pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tsv_ファイル利用の注意">TSV ファイル利用の注意</h3>
+<div class="paragraph">
+<p>字幕内の改行に HTML の <code>&lt;br&gt;</code> タグを指定していますので、HTML を読み込む設定が必要になります。</p>
+</div>
+<div class="paragraph">
+<p>画像ファイルは、<code>&lt;IMG&gt;</code> タグを設定していませんので、カードに画像を表示するには TSV を自分で加工してタグを付けるか、テンプレートの中でタグを設定する必要があります。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anki_への読み込み">Anki への読み込み</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>output</code> の中の動画や画像は、Anki のメディアフォルダに保存します。
+書き出した TSV ファイルは、Anki のテキストファイル読み込み機能を使って読み込みます。</p>
+</div>
+<div class="paragraph">
+<p>オプションでは、[フィールドに HTML を利用する] を有効にします。
+TSV ファイルは最低でも三つの列の内容がありますので、標準のノートタイプでは対応できません。</p>
+</div>
+<div class="paragraph">
+<p>私の場合は、基本ノートタイプに Picture フィールドを追加したノートタイプを作りました。</p>
+</div>
+<div class="paragraph">
+<p>フィールドの対応表は次の通りです。表面に音声ファイルと画像ファイルを配置し、裏面に字幕の内容を表示する内容です。</p>
+</div>
+<div class="listingblock">
+<div class="title">テキストファイル読み込み設定例</div>
+<div class="content">
+<pre>フィールド1	Back
+フィールド2	&lt;無視&gt;
+フィールド3	Picture
+フィールド4	Front</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_カードテンプレートの準備">カードテンプレートの準備</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>さて、さらにカードテンプレートの編集が必要で、表面のテンプレートを次のように設定しました。</p>
+</div>
+<div class="listingblock">
+<div class="title">表面テンプレートの設定例</div>
+<div class="content">
+<pre>{{Front}}
+&lt;img src="{{Picture}}"&gt;</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_作成例とポイント">作成例とポイント</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>完成品の一例を紹介しましょう。RussianPod101.com の番組を利用して作成したカードです。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/anki-card-from-youtube-caption.png" alt="作成例">
+</div>
+<div class="title">図 1. 作成例</div>
+</div>
+<div class="paragraph">
+<p>参考: <a href="https://www.youtube.com/watch?v=htqx5YkTUms">Weekly Russian Words with Katya - At the Aquarium</a></p>
+</div>
+<div class="sect2">
+<h3 id="_カード枚数の目安">カード枚数の目安</h3>
+<div class="paragraph">
+<p>この動画の長さは約二分で 24 枚のカードが自動作成できました。同じチャンネルの 8 分間の英語の番組では、120 枚になりました。また VOA の一分間のニュースフラッシュで 20 枚程度です。</p>
+</div>
+<div class="paragraph">
+<p>実際に字幕ファイルを見れば、何枚カードができるかわかりますが、実用に適した番組の長さは数分程度が限界なのではないかと思います。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_この方法で作ったカードを使ってみると">この方法で作ったカードを使ってみると</h3>
+<div class="paragraph">
+<p>普段は YouTube の動画番組は、必要な箇所だけ<a href="http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/">Mac で再生中の音声を Anki に直接録音する</a>で紹介していた方法で直接録音しています。</p>
+</div>
+<div class="paragraph">
+<p>あらためていつも見ている番組を YouTube Flashcards で作ったカードと比較してみると、細かく区切った文章がある分、一つ一つの音を意識した聴き取りのカードに仕上がったのではないかと思います。</p>
+</div>
+<div class="paragraph">
+<p>RussianPod101.com は、字幕にする音声を取捨選択していて、比較的切りのいいところで字幕が区切られています。番組によっては、特にニュースなどは、全ての音声を文字に書き起こすためか中途半端なところで音が切れて、人によっては気にするかもしれませんので、作成前に番組内容や字幕内容を確認することをお勧めします。</p>
+</div>
+<div class="paragraph">
+<p>手動で音声を区切るとどうしても繰り返し作業が多くなります。事前に正確なタイムラインを指定しているデータを使えるのは非常にありがたく、重宝します。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>YouTube Flashcards を使うと OS X や Linux でも YouTube の動画と字幕を使ったカードを作成できる。</p>
+</li>
+<li>
+<p>ファイルのダウンロードや加工方法は、シェルスクリプトの編集で指定きる。</p>
+</li>
+<li>
+<p>一分間あたりのカード枚数は　10-20 枚程度になるため、実用には番組の長さに注意。</p>
+</li>
+<li>
+<p>字幕の区切り方が番組の種類によって異なる。きれいに区切った音声が必要なら番組を選ぶ必要がある。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/anki-card-from-youtobe-caption\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

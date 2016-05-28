@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>動画 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E5%8B%95%E7%94%BB/</link>
-    <description>動画 | the Right Stuff</description>
+    <title>字幕 on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/%E5%AD%97%E5%B9%95/</link>
+    <description>字幕 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 28 May 2016 14:37:07 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/%E5%8B%95%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rs.luminousspice.com/tags/%E5%AD%97%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>YouTube の字幕付き動画をを活用した Anki カードの作成</title>
@@ -230,155 +230,6 @@ TSV ファイルは最低でも三つの列の内容がありますので、標�
 &lt;p&gt;字幕の区切り方が番組の種類によって異なる。きれいに区切った音声が必要なら番組を選ぶ必要がある。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Anki のメディアプレイヤーを mpv に取り替える</title>
-      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
-      <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
-      <description>Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区間リピートやコマ送り再生ができるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_はメディアプレイヤーのカスタマイズを前提に作っていた&#34;&gt;Anki はメディアプレイヤーのカスタマイズを前提に作っていた&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はメディアプレイヤーとして外部ブログラムの MPlayer (MPlayer 1.1-4.2.1, Anki 2.0.35 の場合) を同梱して 使用しています。このため、動画再生時の制御方法を Anki  のマニュアルで取り上げられていません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、&lt;a href=&#34;http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/&#34;&gt;ショートカットキー&lt;/a&gt;をまとめたり、&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;HTML5 を利用した Anki カードへのメディアの埋め込み&lt;/a&gt; でユーザーインターフェイスを変更する方法を取り上げてきました。今回は、メディアプレイヤー自体を取り替える方法を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;コマンドラインで呼び出せるプレイヤーであれば、自分好みのアプリに設定し、動画再生機能を強化できます。
-なお、OS X 版を前提として説明を進めます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最近 reddit で &lt;a href=&#34;https://www.reddit.com/r/Anki/comments/4c1ihg/does_anyone_use_vlc_with_anki/&#34;&gt;Does anyone use VLC with Anki?&lt;/a&gt; という面白い投稿を見つけました。MPlayer を VLC media player に変更する方法を取り上げています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; を公開している説明していて、先ほどの投稿の中でも利用していました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで高機能な軽量動画プレイヤーの &lt;a href=&#34;https://mpv.io&#34;&gt;mpv&lt;/a&gt; を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;参考:&lt;/strong&gt; &lt;a href=&#34;https://github.com/dae/anki/blob/master/anki/sound.py&#34;&gt;anki/sound.py&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アドオンの設定方法&#34;&gt;アドオンの設定方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
-初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;customPlayer.py 変更箇所&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;# change &#39;customPlayer&#39; to the player you want
-#externalPlayer = [&#34;mplayer&#34;, &#34;-really-quiet&#34;]
-externalPlayer = [&#34;customPlayer&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;具体的な設定方法は、｀externalPlayer = [&#34;customPlayer&#34;]` の &lt;code&gt;customPlayer&lt;/code&gt; を使いたいアプリのコマンドで置き換えます。
-mpv に変更したい場合は、次のように指定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;mpv に交換する設定例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;mpv&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;変更したアドオンを、アドオンフォルダーに移動して Anki を再起動すると、新しいメディアプレイヤーが機能するようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_mpv_で強化できる動画再生&#34;&gt;mpv で強化できる動画再生&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;mpv に変更すると Anki の動画再生機能に区間リピート (AB ループ) やコマ送り再生機能などが追加できます。
-聞き逃した、見逃した箇所を繰り返し練習するのに重宝する機能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/mpv.png&#34; alt=&#34;mpv で区間リピート中&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. mpv で区間リピート中&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;区間リピートやコマ送り再生のショートカットキーは次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;Table 1. mpv ショートカットキー&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 10%;&#34;&gt;
-&lt;col style=&#34;width: 90%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;tableblock halign-center valign-top&#34;&gt;キー&lt;/th&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;操作内容&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-center valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;l&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;AB ループ (区間リピート) の設定、解除&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-center valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;, / .&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;前後のフレーム (コマ送り再生; 一時停止して一フレーム再生)&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;mpv の機能やショートカットは、&lt;a href=&#34;https://mpv.io/manual/master/#keyboard-control&#34;&gt;マニュアル&lt;/a&gt;で詳しく調べることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_その他のアプリへの設定例&#34;&gt;その他のアプリへの設定例&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最初の参考情報で取り上げている VLC や、Quick Look に交換することもできます。高音質な音声を聴きたいなら afplay を指定することもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;VLC media player の場合&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;/Applications/VLC.app/Contents/MacOS/VLC&#34;, &#34;--video-on-top&#34;, &#34;--play-and-exit&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;Quick Look の場合&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;qlmanage&#34;, &#34;-p&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;afplay の場合 (高音質設定)&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;externalPlayer = [&#34;afplay&#34;,&#34;-q&#34;,&#34;1&#34;]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ここまで分かれば、セレクターを使って切り替えるとか、ノートからメディアプレイヤーを指定するとかアドオンのアイデアが沸いてきてお楽しみが増えますね。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はユーザーがカスタマイズすることを前提に作られていて、いろいろな場所にその糸口が見つかります。
-自分の好みに調節してさらに使いやすくするという Anki の楽しみ方も体験していただけたらと思います。&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
