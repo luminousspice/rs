@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。'>
+<meta name="keywords" content="画像, メディア, DataURI, Base64">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。'/>
+<meta property="og:title" content="Data URI を使って画像を Anki カードに埋め込む" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/datauri-on-anki/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-05-29T13:33:42Z"/>
+<meta property="article:modified_time" content="2016-05-29T13:33:42Z"/>
+
+
+
+<meta property="article:tag" content="画像"><meta property="article:tag" content="メディア"><meta property="article:tag" content="DataURI"><meta property="article:tag" content="Base64">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="Data URI を使って画像を Anki カードに埋め込む">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>Data URI を使って画像を Anki カードに埋め込む | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/datauri-on-anki/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Data URI を使って画像を Anki カードに埋め込む</h1>
+  <span class="post-date"><time datetime="2016-05-29T13:33:42Z"></time>2016-05-29</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。</p>
+</div>
+<div class="paragraph">
+<p>Data URI はBase64 エンコードした小さな画像やフォントなどのデータを直接 HTML や CSS に埋め込んでウェブサイトを高速化するために利用されています。</p>
+</div>
+<div class="paragraph">
+<p>Anki の場合には、画像をテンプレートに埋め込んでカード共通に利用する使い方が考えられます。メディアフォルダの画像を参照する場合に比べて、単語帳データを書き出す際に特別な作業が不要になる利点があります。</p>
+</div>
+<div class="paragraph">
+<p>もちろん、ノートのフィールドに直接書き込んでカード面に表示することもできます。テキストファイルの読み込み機能を使って一括して読み込めます。</p>
+</div>
+<div class="ulist">
+<div class="title">注意事項</div>
+<ul>
+<li>
+<p>今回の記事の内容は Anki の正規サポート外の機能です。</p>
+</li>
+<li>
+<p>Anki PC 版 (OS X, Windows) と AnkiMobile (iOS) で動作確認済みです。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anki_で_data_uri_を使う場合の注意点">Anki で Data URI を使う場合の注意点</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>img</code> タグを使って画像を指定した場合、<code>src</code> 属性の値が URL エンコード (パーセントエンコード) されるため、Anki がカードを表示する際に Base64 エンコードした内容の復号に失敗します。</p>
+</div>
+<div class="paragraph">
+<p>この問題の解決に Anki の動作を変更しようとすると、アドオンや JavaScript を使うことになります。ちょっと敷居が高いです。</p>
+</div>
+<div class="paragraph">
+<p>最も簡単な回避策は <code>object</code> 要素を使うことです。この方法は Anki に何ら変更を加えません。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_object_要素を使った記述例">object 要素を使った記述例</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Data URI を使うための object タグの使い方を紹介しましょう。<code>img</code> 要素を使う場合との違いは、<code>type</code> 属性を新たに指定する点と、<code>src</code> 属性の代わりに <code>data</code> 属性を使います。</p>
+</div>
+<div class="listingblock">
+<div class="title">object 要素の指定の仕方</div>
+<div class="content">
+<pre>&lt;object type="image/png" data="data:image/png;base64,(Base64 エンコードした内容)"&gt;&lt;/object&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>次に簡単な 32x32 ピクセルの正方形の PNG 画像 (113 バイト) を記述した使用例を紹介します。</p>
+</div>
+<div class="listingblock">
+<div class="title">object 要素の記述例</div>
+<div class="content">
+<pre>&lt;object type="image/png" data="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeAQMAAADuPFffAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURVJ+uctDmFQAAAAMSURBVAjXY2AYjAAAAJYAAWIWDdIAAAAASUVORK5CYII="&gt;&lt;/object&gt;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>なお、base64 エンコードには、OS X に付属している base64 コマンドを使いました。</p>
+</div>
+<div class="listingblock">
+<div class="title">base64 コマンドの使い方</div>
+<div class="content">
+<pre>base64 (画像ファイル名) &gt; (エンコード結果の出力ファイル名)</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_テキストファイルとして読み込む場合の注意点">テキストファイルとして読み込む場合の注意点</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>テキストファイルとして読み込む場合は、フィールド長には、128 KB の制限があります。これは Python の csv モジュールの初期設定の条件で、この制限を 10 MB まで拡張する <a href="https://ankiweb.net/shared/info/389776307">Increase field size limit</a> というアドオンが利用できます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Object タグを使えば、Anki のカードにも Data URI を使って画像を埋め込める。</p>
+</li>
+<li>
+<p>Data URI は、テンプレートとフィールドの両方で利用可能。</p>
+</li>
+<li>
+<p>テキストファイルの読み込みには、128 KB のフィールド長さの制限に注意。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/datauri-on-anki\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datauri on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/datauri/</link>
+    <description>Datauri | the Right Stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 May 2016 13:33:42 +0900</lastBuildDate>
+    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="http://rs.luminousspice.com/tags/datauri/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data URI を使って画像を Anki カードに埋め込む</title>
+      <link>http://rs.luminousspice.com/datauri-on-anki/</link>
+      <pubDate>Sun, 29 May 2016 13:33:42 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/datauri-on-anki/</guid>
+      <description>Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Data URI はBase64 エンコードした小さな画像やフォントなどのデータを直接 HTML や CSS に埋め込んでウェブサイトを高速化するために利用されています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki の場合には、画像をテンプレートに埋め込んでカード共通に利用する使い方が考えられます。メディアフォルダの画像を参照する場合に比べて、単語帳データを書き出す際に特別な作業が不要になる利点があります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;もちろん、ノートのフィールドに直接書き込んでカード面に表示することもできます。テキストファイルの読み込み機能を使って一括して読み込めます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;注意事項&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;今回の記事の内容は Anki の正規サポート外の機能です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki PC 版 (OS X, Windows) と AnkiMobile (iOS) で動作確認済みです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_で_data_uri_を使う場合の注意点&#34;&gt;Anki で Data URI を使う場合の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;code&gt;img&lt;/code&gt; タグを使って画像を指定した場合、&lt;code&gt;src&lt;/code&gt; 属性の値が URL エンコード (パーセントエンコード) されるため、Anki がカードを表示する際に Base64 エンコードした内容の復号に失敗します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この問題の解決に Anki の動作を変更しようとすると、アドオンや JavaScript を使うことになります。ちょっと敷居が高いです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;最も簡単な回避策は &lt;code&gt;object&lt;/code&gt; 要素を使うことです。この方法は Anki に何ら変更を加えません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_object_要素を使った記述例&#34;&gt;object 要素を使った記述例&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Data URI を使うための object タグの使い方を紹介しましょう。&lt;code&gt;img&lt;/code&gt; 要素を使う場合との違いは、&lt;code&gt;type&lt;/code&gt; 属性を新たに指定する点と、&lt;code&gt;src&lt;/code&gt; 属性の代わりに &lt;code&gt;data&lt;/code&gt; 属性を使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;object 要素の指定の仕方&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&amp;lt;object type=&#34;image/png&#34; data=&#34;data:image/png;base64,(Base64 エンコードした内容)&#34;&amp;gt;&amp;lt;/object&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;次に簡単な 32x32 ピクセルの正方形の PNG 画像 (113 バイト) を記述した使用例を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;object 要素の記述例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;&amp;lt;object type=&#34;image/png&#34; data=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeAQMAAADuPFffAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURVJ+uctDmFQAAAAMSURBVAjXY2AYjAAAAJYAAWIWDdIAAAAASUVORK5CYII=&#34;&amp;gt;&amp;lt;/object&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお、base64 エンコードには、OS X に付属している base64 コマンドを使いました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;base64 コマンドの使い方&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;base64 (画像ファイル名) &amp;gt; (エンコード結果の出力ファイル名)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_テキストファイルとして読み込む場合の注意点&#34;&gt;テキストファイルとして読み込む場合の注意点&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;テキストファイルとして読み込む場合は、フィールド長には、128 KB の制限があります。これは Python の csv モジュールの初期設定の条件で、この制限を 10 MB まで拡張する &lt;a href=&#34;https://ankiweb.net/shared/info/389776307&#34;&gt;Increase field size limit&lt;/a&gt; というアドオンが利用できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Object タグを使えば、Anki のカードにも Data URI を使って画像を埋め込める。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data URI は、テンプレートとフィールドの両方で利用可能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テキストファイルの読み込みには、128 KB のフィールド長さの制限に注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
