@@ -1,7 +1,7 @@
 ---
 slug: "anki-card-from-youtobe-caption"
 date: "2016-05-28T14:37:07+00:00"
-title: "YouTube の字幕付き動画をを活用した Anki カードの作成"
+title: "YouTube の字幕付き動画を活用した Anki カードの作成"
 categories: ["Anki"]
 tags: ["Anki","youtube-dl","ffmpeg","動画","字幕"]
 anki: ["メディア","動画","音声"]
