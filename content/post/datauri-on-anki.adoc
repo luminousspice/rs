@@ -1,0 +1,72 @@
+---
+slug: "datauri-on-anki"
+date: "2016-05-29T13:33:42+00:00"
+title: "Data URI を使って画像を Anki カードに埋め込む"
+type: "post"
+categories: ["Anki"]
+tags: ["画像","メディア","DataURI","Base64"]
+excerpt: "Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。"
+---
+= Data URI を使って画像を Anki カードに埋め込む
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。
+
+////
+http://rs.luminousspice.com/datauri-on-anki/
+////
+
+{description}
+
+Data URI はBase64 エンコードした小さな画像やフォントなどのデータを直接 HTML や CSS に埋め込んでウェブサイトを高速化するために利用されています。
+
+Anki の場合には、画像をテンプレートに埋め込んでカード共通に利用する使い方が考えられます。メディアフォルダの画像を参照する場合に比べて、単語帳データを書き出す際に特別な作業が不要になる利点があります。
+
+もちろん、ノートのフィールドに直接書き込んでカード面に表示することもできます。テキストファイルの読み込み機能を使って一括して読み込めます。
+
+.注意事項
+* 今回の記事の内容は Anki の正規サポート外の機能です。
+* Anki PC 版 (OS X, Windows) と AnkiMobile (iOS) で動作確認済みです。
+
+== Anki で Data URI を使う場合の注意点
+
+`img` タグを使って画像を指定した場合、`src` 属性の値が URL エンコード (パーセントエンコード) されるため、Anki がカードを表示する際に Base64 エンコードした内容の復号に失敗します。
+
+この問題の解決に Anki の動作を変更しようとすると、アドオンや JavaScript を使うことになります。ちょっと敷居が高いです。
+
+最も簡単な回避策は `object` 要素を使うことです。この方法は Anki に何ら変更を加えません。
+
+== object 要素を使った記述例
+
+Data URI を使うための object タグの使い方を紹介しましょう。`img` 要素を使う場合との違いは、`type` 属性を新たに指定する点と、`src` 属性の代わりに `data` 属性を使います。
+
+.object 要素の指定の仕方
+----
+<object type="image/png" data="data:image/png;base64,(Base64 エンコードした内容)"></object>
+----
+
+次に簡単な 32x32 ピクセルの正方形の PNG 画像 (113 バイト) を記述した使用例を紹介します。
+
+.object 要素の記述例
+----
+<object type="image/png" data="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeAQMAAADuPFffAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURVJ+uctDmFQAAAAMSURBVAjXY2AYjAAAAJYAAWIWDdIAAAAASUVORK5CYII="></object>
+----
+
+なお、base64 エンコードには、OS X に付属している base64 コマンドを使いました。
+
+.base64 コマンドの使い方
+----
+base64 (画像ファイル名) > (エンコード結果の出力ファイル名)
+----
+
+== テキストファイルとして読み込む場合の注意点
+
+テキストファイルとして読み込む場合は、フィールド長には、128 KB の制限があります。これは Python の csv モジュールの初期設定の条件で、この制限を 10 MB まで拡張する link:https://ankiweb.net/shared/info/389776307[Increase field size limit] というアドオンが利用できます。
+
+== まとめ
+
+* Object タグを使えば、Anki のカードにも Data URI を使って画像を埋め込める。
+* Data URI は、テンプレートとフィールドの両方で利用可能。
+* テキストファイルの読み込みには、128 KB のフィールド長さの制限に注意。
