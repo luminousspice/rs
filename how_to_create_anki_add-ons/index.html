@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-<meta name="description" content='復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオンのチュートリアルです。Anki の標準のフックがない場所にカスタムのフック (Hook) を追加し、機能拡張するアドオンを作成する方法を簡単に説明します。'>
+<meta name="description" content='復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。'>
 <meta name="keywords" content="Anki, Python, 開発, アドオン, フック">
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content='復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオンのチュートリアルです。Anki の標準のフックがない場所にカスタムのフック (Hook) を追加し、機能拡張するアドオンを作成する方法を簡単に説明します。'/>
+<meta property="og:description" content='復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。'/>
 <meta property="og:title" content="フックを使った Anki アドオンのつくり方" />
 <meta property="og:site_name" content="the Right Stuff" />
 <meta property="og:url" content="http://rs.luminousspice.com/how_to_create_anki_add-ons/">
@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2014-01-17T22:55:53Z"/>
-<meta property="article:modified_time" content="2016-05-04T10:57:26Z"/>
+<meta property="article:modified_time" content="2016-05-30T23:54:07Z"/>
 
 
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@luminousspice">
 <meta name="twitter:title" content="フックを使った Anki アドオンのつくり方">
 <meta name="twitter:creator" content="@luminousspice">
-<meta name="twitter:description" content='復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオンのチュートリアルです。Anki の標準のフックがない場所にカスタムのフック (Hook) を追加し、機能拡張するアドオンを作成する方法を簡単に説明します。'>
+<meta name="twitter:description" content='復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。'>
 <meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
@@ -90,7 +90,7 @@
 
 <div class="post">
   <h1 class="post-title">フックを使った Anki アドオンのつくり方</h1>
-  <span class="post-date"><time datetime="2014-01-17T22:55:53Z"></time>2016-05-04 更新</span>
+  <span class="post-date"><time datetime="2014-01-17T22:55:53Z"></time>2016-05-30 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -98,7 +98,7 @@
   <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Anki アドオン作成のチュートリアルです。復習で熟知になったカードのノートにタグを付けるアドオンを作ります。Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。</p>
+<p>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。</p>
 </div>
 </div>
 </div>
@@ -176,7 +176,8 @@ Anki の復習で解答した時の処理は <a href="https://github.com/dae/ank
 </div>
 </div>
 <div class="paragraph">
-<p>残念ながら復習に関する処理の中にフック (Hook) は存在しません。そこで独自のフックをこのメソッドの最後に追加します。
+<p>残念ながら復習に関する処理の中にフック (Hook) は存在しません。
+そこで独自のフックをこのメソッドの最後に追加します。
 フックの設置、呼び出しに必要なモジュールをインポートします。</p>
 </div>
 <div class="listingblock">
@@ -185,7 +186,8 @@ Anki の復習で解答した時の処理は <a href="https://github.com/dae/ank
 </div>
 </div>
 <div class="paragraph">
-<p>もちろん <code>answerCard</code> を書き換えることも出来ますが、今回の様な条件では独自フックの設置したほうが簡単に記述できます。</p>
+<p>フックを設置すると、複数の関数がそのの場所で実行できるようになります。
+今回の例のように一つの関数しか実行しないのであれば、<code>wrap()</code> 関数だけを利用して単純に書くこともできます。その<a href="http://rs.luminousspice.com/how_to_create_anki_add-ons/#wrap">書き換え例</a>は完成品の後に示します。</p>
 </div>
 </div>
 </div>
@@ -196,13 +198,13 @@ Anki の復習で解答した時の処理は <a href="https://github.com/dae/ank
 <p></p>
 </div>
 <div class="paragraph">
-<p>まず、独自のフック "anseweredRevCard" を追加する関数 <code>newAnswerCard()</code> を定義します。
+<p>まず、独自のフック "answeredRevCard" を追加する関数 <code>newAnswerCard()</code> を定義します。
 runHook() はフックを新たに設置する標準の関数です。</p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-python" data-lang="python">def newAnswerCard(self, card, ease):
-    runHook('anseweredRevCard', self, card)</code></pre>
+    runHook('answeredRevCard', self, card)</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -218,7 +220,7 @@ runHook() はフックを新たに設置する標準の関数です。</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-python" data-lang="python">runHook('anseweredRevCard', self, card)</code></pre>
+<pre class="highlight"><code class="language-python" data-lang="python">runHook('answeredRevCard', self, card)</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -252,11 +254,11 @@ def matureCheck(self, card):
 </div>
 </div>
 <div class="paragraph">
-<p>最後に <code>addHook()</code> 関数を使って上で作成したカスタムフック "anseweredRevCard"　で <code>matureCheck()</code> 関数を呼び出す設定をします。</p>
+<p>最後に <code>addHook()</code> 関数を使って上で作成したカスタムフック "answeredRevCard"　で <code>matureCheck()</code> 関数を呼び出す設定をします。</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-python" data-lang="python">addHook("anseweredRevCard", matureCheck)</code></pre>
+<pre class="highlight"><code class="language-python" data-lang="python">addHook("answeredRevCard", matureCheck)</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -283,36 +285,54 @@ def matureCheck(self, card):
     return True
 
 def newAnswerCard(self, card, ease):
-    runHook('anseweredRevCard', self, card)
+    runHook('answeredRevCard', self, card)
 
 Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
 
-addHook("anseweredRevCard", matureCheck)</code></pre>
+addHook("answeredRevCard", matureCheck)</code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_もっとかんたんに書く">もっとかんたんに書く</h2>
+<h2 id="wrap">もっとかんたんに書く</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>実は、フックを設置せずに記述を簡略化できます。メソッドを上書きする方法です。
-<code>wrap()</code> 関数で直接 <code>matureCheck</code> を指定します。</p>
+<p>フックを設置せずに <code>wrap()</code> 関数を使う方法を紹介しましょう。直接 <code>matureCheck</code> を指定します。</p>
 </div>
 <div class="listingblock">
-<div class="title">変更点　(- で始まる行を削除、+ で始まる行を追加)</div>
+<div class="title">変更箇所の差分表示　(- で始まる行を削除、+ で始まる行を追加)</div>
 <div class="content">
-<pre class="highlight"><code class="language-python" data-lang="python">- def newAnswerCard(self, card, ease):
+<pre class="highlight"><code class="language-python" data-lang="python">@@ -1,4 +1,4 @@
+-from anki.hooks import addHook, runHook, wrap
++from anki.hooks import wrap
+ from anki.sched import Scheduler
+
+ # Threshold interval for tagging
+@@ -6,7 +6,7 @@
+ # Tag string for mature note
+ MatureTag = u"Mature"
+
+-def matureCheck(self, card):
++def matureCheck(self, card, ease):
+     f = card.note()
+     if (card.ivl &gt;= threshold):
+         f.addTag(MatureTag)
+@@ -15,9 +15,4 @@
+     f.flush()
+     return True
+
+-def newAnswerCard(self, card, ease):
 -    runHook('anseweredRevCard', self, card)
-
-- Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
-+ Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)
-
-- addHook("anseweredRevCard", matureCheck)</code></pre>
+-
+-Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
+-
+-addHook("anseweredRevCard", matureCheck)
++Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>この場合は、フックを使わないので、他の関数も追加で呼び出すような追加拡張は出来ません。</p>
+<p>AnkiWeb に公開済みの Аnki アドオン (Add-on) <a href="https://ankiweb.net/shared/info/17741639">Mature Tag</a> (Code: <code>17741639</code>) は、この簡略版を公開しています。</p>
 </div>
 </div>
 </div>
@@ -454,7 +474,8 @@ Anki に Python インタープリタが含まれているため、アドオン�
 <div class="sectionbody">
 <div class="paragraph">
 <p>2014/01/17: 初出<br>
-2016/05/04: 更新: サンプルファイルの保存場所を変更<br></p>
+2016/05/04: 更新: サンプルファイルの保存場所を変更<br>
+2016/05/31: 更新: カスタムフックを設置しない方法について加筆<br></p>
 </div>
 </div>
 </div>

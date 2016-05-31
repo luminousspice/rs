@@ -260,11 +260,11 @@ speechSynthesis.speak(speech);
       <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0900</pubDate>
       <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
-      <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオンのチュートリアルです。Anki の標準のフックがない場所にカスタムのフック (Hook) を追加し、機能拡張するアドオンを作成する方法を簡単に説明します。</description>
+      <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki アドオン作成のチュートリアルです。復習で熟知になったカードのノートにタグを付けるアドオンを作ります。Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。&lt;/p&gt;
+&lt;p&gt;復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -342,7 +342,8 @@ Anki の復習で解答した時の処理は &lt;a href=&#34;https://github.com/
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;残念ながら復習に関する処理の中にフック (Hook) は存在しません。そこで独自のフックをこのメソッドの最後に追加します。
+&lt;p&gt;残念ながら復習に関する処理の中にフック (Hook) は存在しません。
+そこで独自のフックをこのメソッドの最後に追加します。
 フックの設置、呼び出しに必要なモジュールをインポートします。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -351,7 +352,8 @@ Anki の復習で解答した時の処理は &lt;a href=&#34;https://github.com/
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;もちろん &lt;code&gt;answerCard&lt;/code&gt; を書き換えることも出来ますが、今回の様な条件では独自フックの設置したほうが簡単に記述できます。&lt;/p&gt;
+&lt;p&gt;フックを設置すると、複数の関数がそのの場所で実行できるようになります。
+今回の例のように一つの関数しか実行しないのであれば、&lt;code&gt;wrap()&lt;/code&gt; 関数だけを利用して単純に書くこともできます。その&lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/#wrap&#34;&gt;書き換え例&lt;/a&gt;は完成品の後に示します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -362,13 +364,13 @@ Anki の復習で解答した時の処理は &lt;a href=&#34;https://github.com/
 &lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;まず、独自のフック &#34;anseweredRevCard&#34; を追加する関数 &lt;code&gt;newAnswerCard()&lt;/code&gt; を定義します。
+&lt;p&gt;まず、独自のフック &#34;answeredRevCard&#34; を追加する関数 &lt;code&gt;newAnswerCard()&lt;/code&gt; を定義します。
 runHook() はフックを新たに設置する標準の関数です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;def newAnswerCard(self, card, ease):
-    runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/code&gt;&lt;/pre&gt;
+    runHook(&#39;answeredRevCard&#39;, self, card)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -384,7 +386,7 @@ runHook() はフックを新たに設置する標準の関数です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;runHook(&#39;anseweredRevCard&#39;, self, card)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;runHook(&#39;answeredRevCard&#39;, self, card)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -418,11 +420,11 @@ def matureCheck(self, card):
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最後に &lt;code&gt;addHook()&lt;/code&gt; 関数を使って上で作成したカスタムフック &#34;anseweredRevCard&#34;　で &lt;code&gt;matureCheck()&lt;/code&gt; 関数を呼び出す設定をします。&lt;/p&gt;
+&lt;p&gt;最後に &lt;code&gt;addHook()&lt;/code&gt; 関数を使って上で作成したカスタムフック &#34;answeredRevCard&#34;　で &lt;code&gt;matureCheck()&lt;/code&gt; 関数を呼び出す設定をします。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;addHook(&#34;answeredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -449,36 +451,54 @@ def matureCheck(self, card):
     return True
 
 def newAnswerCard(self, card, ease):
-    runHook(&#39;anseweredRevCard&#39;, self, card)
+    runHook(&#39;answeredRevCard&#39;, self, card)
 
 Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
 
-addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
+addHook(&#34;answeredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_もっとかんたんに書く&#34;&gt;もっとかんたんに書く&lt;/h2&gt;
+&lt;h2 id=&#34;wrap&#34;&gt;もっとかんたんに書く&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実は、フックを設置せずに記述を簡略化できます。メソッドを上書きする方法です。
-&lt;code&gt;wrap()&lt;/code&gt; 関数で直接 &lt;code&gt;matureCheck&lt;/code&gt; を指定します。&lt;/p&gt;
+&lt;p&gt;フックを設置せずに &lt;code&gt;wrap()&lt;/code&gt; 関数を使う方法を紹介しましょう。直接 &lt;code&gt;matureCheck&lt;/code&gt; を指定します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;変更点　(- で始まる行を削除、+ で始まる行を追加)&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;変更箇所の差分表示　(- で始まる行を削除、+ で始まる行を追加)&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;- def newAnswerCard(self, card, ease):
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;@@ -1,4 +1,4 @@
+-from anki.hooks import addHook, runHook, wrap
++from anki.hooks import wrap
+ from anki.sched import Scheduler
+
+ # Threshold interval for tagging
+@@ -6,7 +6,7 @@
+ # Tag string for mature note
+ MatureTag = u&#34;Mature&#34;
+
+-def matureCheck(self, card):
++def matureCheck(self, card, ease):
+     f = card.note()
+     if (card.ivl &amp;gt;= threshold):
+         f.addTag(MatureTag)
+@@ -15,9 +15,4 @@
+     f.flush()
+     return True
+
+-def newAnswerCard(self, card, ease):
 -    runHook(&#39;anseweredRevCard&#39;, self, card)
-
-- Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
-+ Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)
-
-- addHook(&#34;anseweredRevCard&#34;, matureCheck)&lt;/code&gt;&lt;/pre&gt;
+-
+-Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
+-
+-addHook(&#34;anseweredRevCard&#34;, matureCheck)
++Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この場合は、フックを使わないので、他の関数も追加で呼び出すような追加拡張は出来ません。&lt;/p&gt;
+&lt;p&gt;AnkiWeb に公開済みの Аnki アドオン (Add-on) &lt;a href=&#34;https://ankiweb.net/shared/info/17741639&#34;&gt;Mature Tag&lt;/a&gt; (Code: &lt;code&gt;17741639&lt;/code&gt;) は、この簡略版を公開しています。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -620,7 +640,8 @@ Anki に Python インタープリタが含まれているため、アドオン�
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2014/01/17: 初出&lt;br&gt;
-2016/05/04: 更新: サンプルファイルの保存場所を変更&lt;br&gt;&lt;/p&gt;
+2016/05/04: 更新: サンプルファイルの保存場所を変更&lt;br&gt;
+2016/05/31: 更新: カスタムフックを設置しない方法について加筆&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
