@@ -1,19 +1,19 @@
 ---
 slug: "how_to_create_anki_add-ons"
 date: "2014-01-17T22:55:53+00:00"
-lastmod: "2016-05-04T10:57:26+00:00"
+lastmod: "2016-05-30T23:54:07+00:00"
 title: "フックを使った Anki アドオンのつくり方"
 categories: ["Anki","開発"]
 tags: ["Anki","Python","開発","アドオン","フック"]
 anki: ["AnkiWeb","アドオン","タグ","フック"]
-excerpt: "復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオンのチュートリアルです。Anki の標準のフックがない場所にカスタムのフック (Hook) を追加し、機能拡張するアドオンを作成する方法を簡単に説明します。"
+excerpt: "復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。"
 ---
 = フックを使った Anki アドオンのつくり方
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: Anki アドオン作成のチュートリアルです。復習で熟知になったカードのノートにタグを付けるアドオンを作ります。Anki の標準のフックがない場所にカスタムのフックを追加し、機能拡張するアドオンを作成する方法を簡単に説明します。
+:description: 復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフックを設置する方法にも触れます。最後にアドオンを AnkiWeb に公開する手順を紹介します。
 :figure-caption: 図
 :table-caption: 表
 
@@ -69,7 +69,8 @@ Anki の復習で解答した時の処理は link:https://github.com/dae/anki/bl
 from anki.sched import Scheduler
 -----
 
-残念ながら復習に関する処理の中にフック (Hook) は存在しません。そこで独自のフックをこのメソッドの最後に追加します。
+残念ながら復習に関する処理の中にフック (Hook) は存在しません。
+そこで独自のフックをこのメソッドの最後に追加します。
 フックの設置、呼び出しに必要なモジュールをインポートします。
 
 [source,python]
@@ -77,18 +78,19 @@ from anki.sched import Scheduler
 from anki.hooks import addHook, runHook, wrap
 -----
 
-もちろん `answerCard` を書き換えることも出来ますが、今回の様な条件では独自フックの設置したほうが簡単に記述できます。
+フックを設置すると、複数の関数がそのの場所で実行できるようになります。
+今回の例のように一つの関数しか実行しないのであれば、`wrap()` 関数だけを利用して単純に書くこともできます。そのlink:/how_to_create_anki_add-ons/#wrap[書き換え例]は完成品の後に示します。
 
 == 復習の解答後に処理するフックを設置する
 ((("フックの設置",sortas="フックノセッチ")))
 
-まず、独自のフック "anseweredRevCard" を追加する関数 `newAnswerCard()` を定義します。
+まず、独自のフック "answeredRevCard" を追加する関数 `newAnswerCard()` を定義します。
 runHook() はフックを新たに設置する標準の関数です。
 
 [source,python]
 -----
 def newAnswerCard(self, card, ease):
-    runHook('anseweredRevCard', self, card)
+    runHook('answeredRevCard', self, card)
 -----
 
 次に標準の `wrap()` 関数を使って、`answerCard` の後に `newAnswerCard` の内容を追加する処理を記述します。
@@ -102,7 +104,7 @@ Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
 
 [source,python]
 -----
-runHook('anseweredRevCard', self, card)
+runHook('answeredRevCard', self, card)
 -----
 
 これで、復習で解凍した後に処理を呼び出すフックを設置できました。
@@ -130,11 +132,11 @@ def matureCheck(self, card):
     return True
 -----
 
-最後に `addHook()` 関数を使って上で作成したカスタムフック "anseweredRevCard"　で `matureCheck()` 関数を呼び出す設定をします。
+最後に `addHook()` 関数を使って上で作成したカスタムフック "answeredRevCard"　で `matureCheck()` 関数を呼び出す設定をします。
 
 [source,python]
 -----
-addHook("anseweredRevCard", matureCheck)
+addHook("answeredRevCard", matureCheck)
 -----
 
 これで、完成です。完成品は次の通りです。
@@ -160,33 +162,50 @@ def matureCheck(self, card):
     return True
 
 def newAnswerCard(self, card, ease):
-    runHook('anseweredRevCard', self, card)
+    runHook('answeredRevCard', self, card)
 
 Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
 
-addHook("anseweredRevCard", matureCheck)
+addHook("answeredRevCard", matureCheck)
 -----
 
+[[wrap]]
 == もっとかんたんに書く
 
-実は、フックを設置せずに記述を簡略化できます。メソッドを上書きする方法です。
-`wrap()` 関数で直接 `matureCheck` を指定します。
+フックを設置せずに `wrap()` 関数を使う方法を紹介しましょう。直接 `matureCheck` を指定します。
 
-.変更点　(- で始まる行を削除、+ で始まる行を追加)
+.変更箇所の差分表示　(- で始まる行を削除、+ で始まる行を追加)
 [source,python]
 -----
-- def newAnswerCard(self, card, ease):
+@@ -1,4 +1,4 @@
+-from anki.hooks import addHook, runHook, wrap
++from anki.hooks import wrap
+ from anki.sched import Scheduler
+ 
+ # Threshold interval for tagging
+@@ -6,7 +6,7 @@
+ # Tag string for mature note
+ MatureTag = u"Mature"
+ 
+-def matureCheck(self, card):
++def matureCheck(self, card, ease):
+     f = card.note()
+     if (card.ivl >= threshold):
+         f.addTag(MatureTag)
+@@ -15,9 +15,4 @@
+     f.flush()
+     return True
+ 
+-def newAnswerCard(self, card, ease):
 -    runHook('anseweredRevCard', self, card)
-
-- Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
-+ Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)
-
-- addHook("anseweredRevCard", matureCheck)
+-
+-Scheduler.answerCard = wrap(Scheduler.answerCard, newAnswerCard)
+-
+-addHook("anseweredRevCard", matureCheck)
++Scheduler.answerCard = wrap(Scheduler.answerCard, matureCheck)
 -----
 
-
-
-この場合は、フックを使わないので、他の関数も追加で呼び出すような追加拡張は出来ません。
+AnkiWeb に公開済みの Аnki アドオン (Add-on) link:https://ankiweb.net/shared/info/17741639[Mature Tag] (Code: `17741639`) は、この簡略版を公開しています。
 
 == ファイルの配置
 
@@ -260,3 +279,4 @@ Anki には、WordPress のようにフック (Hook) という機能を提供し
 
 2014/01/17: 初出 +
 2016/05/04: 更新: サンプルファイルの保存場所を変更 +
+2016/05/31: 更新: カスタムフックを設置しない方法について加筆 +
