@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2016-04-26T09:47:35+00:00"
+lastmod: "2016-06-02T07:33:49+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -18,7 +18,7 @@ excerpt: "日本語ユーザーが利用可能な Anki 共有単語帳を独自�
 :description: 日本語ユーザーが利用可能な Anki 共有単語帳を独自に収集し、検索画面を作成しました。 共有単語帳の日本語分類表を使って、詳しく調べることもできます。
 
 ////
-http://rightstuff.luminousspice.com/?p=2483
+http://rs.luminousspice.com/shared-deck-list-in-japanese
 ////
 
 {description}
@@ -122,6 +122,7 @@ https://ankiweb.net/shared/info/196511944[Выражения 6 урока An Int
 https://ankiweb.net/shared/info/2872379547[慣用句(あ行)　Идиоматические выражения (а-ряд)(rus)], ロシア語 日本語
 https://ankiweb.net/shared/info/2447397931[Japanisch/Deutsch Vokabular I und II], ドイツ語 日本語
 https://ankiweb.net/shared/info/249991587[Japanisch/Deutsch Vokabular II und III], ドイツ語 日本語
+https://ankiweb.net/shared/info/742912115[語彙と表現　日独ー独日], ドイツ語 日本語
 https://ankiweb.net/shared/info/1625541380[Health and Medical Pictures with English and Japanese], 術語 英語 日本語 医学 医療
 https://ankiweb.net/shared/info/1082920264[Japanese Radiological Terms], 術語 医学 医療 放射線 英語 日本語
 https://ankiweb.net/shared/info/214864764[Japanese Math Pictures], 術語 英語 日本語 数学 算数
@@ -171,6 +172,8 @@ https://ankiweb.net/shared/info/428194897[Quranic Arabic Verses word for word SI
 https://ankiweb.net/shared/info/3396002907[Russian Alphabet with Handwritten and Print fonts and sounds], ロシア語 発音 キリル文字 音声
 https://ankiweb.net/shared/info/534801471[Visual Spanish Plus Sound Files from Forvo], スペイン語 音声
 https://ankiweb.net/shared/info/629972372[French 500 coloured words with pictures and audio], フランス語 画像 音声
+https://ankiweb.net/shared/info/1467326161[5000 most common French words (with audio)], フランス語 音声
+https://ankiweb.net/shared/info/1045784819[• The Top 4000 Most Frequently Used French Words w/ Audio], フランス語 音声
 https://ankiweb.net/shared/info/293367340[A Frequency Dictionary of French (Complete)], フランス語
 https://ankiweb.net/shared/info/932662308[French Pronunciation], フランス語 発音 画像 音声
 https://ankiweb.net/shared/info/1529958967[Norwegian Sentences with Audio], ノルウェー語 音声
