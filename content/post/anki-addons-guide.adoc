@@ -1,7 +1,7 @@
 ---
 slug: "anki-addons-guide"
 date: "2014-04-14T05:00:17+00:00"
-lastmod: "2016-04-25T15:08:36+00:00"
+lastmod: "2016-06-02T07:32:11+00:00"
 title: "Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち"
 weight: 20
 categories: ["Anki"]
@@ -88,7 +88,7 @@ image::/images/addons_newmax_cards.png["New/Max Cards 設定画面"]
 復習をさぼってたくさんのカードを抱えた人限定でおすすめです。
 統計情報に難易度の予測項目 (Difficulty Forecast) が追加されます。
 
-このアドオンの設定項目は、メニューバーから [Anki] - [環境設定] - [load balancer] タブを選択すると呼び出せます。インストールしたら必ず確認しておきましょう。
+このアドオンの設定項目は、メニューバーから [Anki] - [環境設定] (または [ツール] - [設定]) を選択し、[load balancer] タブを選択すると呼び出せます。インストールしたら必ず確認しておきましょう。
 
 .load balancer 設定画面
 image::/images/how2anki_3_10.png["load balancer"]

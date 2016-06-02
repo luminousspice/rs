@@ -1,7 +1,7 @@
 ---
 slug: "how-to-sync-with-ankiweb"
 date: "2014-08-31T22:00:26+00:00"
-lastmod: "2016-04-27T10:58:32+00:00"
+lastmod: "2016-06-02T07:33:18+00:00"
 title: "AnkiWeb 同期機能の使い方"
 weight: 30
 categories: ["Anki"]
@@ -75,7 +75,7 @@ image::/images/sync-signin.png["Anki 上でのアカウント設定画面"]
 ==== 同期機能の設定
 
 同期機能の設定画面は、環境設定の中にあります。
-メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。
+メニューバーから [Anki]-[環境設定] (または [ツール] - [設定]) を選択し、[ネットワーク] タブを選択します。
 
 .デスクトップ版 Anki ネットワーク設定
 image::/images/sync-settings.png["デスクトップ版 Anki ネットワーク設定"]

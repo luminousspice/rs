@@ -1,7 +1,7 @@
 ---
 slug: "how-to-change-lang"
 date: "2013-04-28T00:00:22+00:00"
-lastmod: "2016-04-05T02:35:32+00:00"
+lastmod: "2016-06-02T07:32:58+00:00"
 title: "Anki2の言語設定を変更する"
 categories: ["Anki"]
 tags: ["Anki","環境設定"]
@@ -21,7 +21,7 @@ http://rightstuff.luminousspice.com/?p=320
 
 {description}
 
-環境設定画面は、メニューバーから [Anki] - [環境設定] で呼び出せます。
+環境設定画面は、メニューバーから [Anki] - [環境設定] (または [ツール] - [設定]) で呼び出せます。
 
 .環境設定画面
 image::/images/preference.png["環境設定画面"]
