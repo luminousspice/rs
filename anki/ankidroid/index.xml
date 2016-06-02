@@ -129,7 +129,7 @@ Anki の得意とする本来の機能の妨げになります。&lt;/p&gt;
 &lt;div class=&#34;olist arabic&#34;&gt;
 &lt;ol class=&#34;arabic&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[基本] タブを選択します。&lt;/p&gt;
+&lt;p&gt;メニューバーから [Anki]-[環境設定] (または [ツール] - [設定]) を選択し、[基本] タブを選択します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[次回の復習時期を解答ボタンの上に表示する] と [復習の際にカードの残り枚数を表示する] の両方を無効にします。&lt;/p&gt;

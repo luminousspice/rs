@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2015-02-22T23:50:12Z"/>
-<meta property="article:modified_time" content="2015-02-23T00:45:23Z"/>
+<meta property="article:modified_time" content="2016-06-02T07:29:30Z"/>
 
 
 
@@ -90,101 +90,169 @@
 
 <div class="post">
   <h1 class="post-title">Anki 学習セッション中の予測とは異なる体感</h1>
-  <span class="post-date"><time datetime="2015-02-22T23:50:12Z"></time>2015-02-23 更新</span>
+  <span class="post-date"><time datetime="2015-02-22T23:50:12Z"></time>2016-06-02 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <section id="preamble">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
 <p>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、複数の学習設定が関係する場合にこのような状況が発生します。その典型的な例について解説します。</p>
+</div>
+<div class="paragraph">
 <p><strong>AnkiMobile ユーザー向けの注意:</strong> この投稿で紹介する設定項目は、iOS アプリ AnkiMobile では直接設定できませんが、PC 版 Anki で設定し AnkiWeb 経由で同期すると AnkiMobile に反映させることが出来ます。</p>
-</section>
-<section id="学習セッションが体感と異なる長さになる">
-  <div class="page-header">
-    <h2>学習セッションが体感と異なる長さになる</h2>
-  </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_学習セッションが体感と異なる長さになる">学習セッションが体感と異なる長さになる</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>学習に関する時間や時刻の設定が重複する場合に、予想とは異なるセッション時間を体感する場合があります。まずそれぞれの設定内容を確認していきましょう。</p>
-<h3 id="学習ステップ">学習ステップ</h3>
+</div>
+<div class="sect2">
+<h3 id="_学習ステップ">学習ステップ</h3>
+<div class="paragraph">
 <p>学習ステップは、単語帳毎に指定する項目です。
 新たに学習するカードの学習セッションでは、初回の表示で、正解であれば 1 分後と 10 分後に復習する学習ステップが初期値です。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/how2anki_1_8.png" alt="新規カード">
 </div>
 <div class="title">図 1. 学習オプション 新規カード</div>
 </div>
+<div class="paragraph">
 <p>復習セッションで思い出せなかった (忘却) カードは、[もう一回]ボタンを押して、再学習します。
 この場合の学習ステップの初期値は 10 分後です。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/how2anki_1_11.png" alt="忘却">
 </div>
 <div class="title">図 2. 学習オプション 忘却</div>
 </div>
+<div class="paragraph">
 <p>設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面下の [オプション] ボタンを押して設定画面を開きます。</p>
-<h3 id="先取り学習">先取り学習</h3>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_先取り学習">先取り学習</h3>
+<div class="paragraph">
 <p>先取り学習とは、指定した時間 (分単位) 以内に期日の達するカードがあれば、学習セッションに追加する機能です。</p>
+</div>
+<div class="paragraph">
 <p>この機能によって、学習セッションが断続した細切れの時間になることを防ぎます。初期値は 20 分です。</p>
-<p>先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[先取り学習の限度] に時間を指定します。(図 3)</p>
+</div>
+<div class="paragraph">
+<p>先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] (または [ツール] - [設定]) を選択し、[基本] タブの [先取り学習の限度] に時間を指定します。(図 3)</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/preference.png" alt="環境設定 基本">
 </div>
 <div class="title">図 3. 環境設定 基本</div>
 </div>
-<h3 id="一日の開始時刻">一日の開始時刻</h3>
+</div>
+<div class="sect2">
+<h3 id="_一日の開始時刻">一日の開始時刻</h3>
+<div class="paragraph">
 <p>その日新たに期日に達するカードが発生する時刻を指定できます。
 夜型の人のための機能ですね。</p>
-<p>先取り時間はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] - [基本] を選択し、[一日の開始] に時間を指定します。(図 3)</p>
-<h3 id="体感より早くセッションが終わる">体感より早くセッションが終わる</h3>
+</div>
+<div class="paragraph">
+<p>一日の開始時刻はプロファイル毎に共通で、メニューバーから [Anki] - [環境設定] (または [ツール] - [設定]) を選択し、[基本] タブの [一日の開始] に時間を指定します。(図 3)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_体感より早くセッションが終わる">体感より早くセッションが終わる</h3>
+<div class="paragraph">
 <p>解答ボタンの上に表示する時間を確認しながら、学習セッションをしている時に、
 まだ後で学習すべきカードが残っているはずなのに突然終わってしまうことがあります。
 多くの場合は、先取り学習の設定が原因です。</p>
+</div>
+<div class="paragraph">
 <p>この場合の注目すべき点は、新規カードや忘却の学習ステップの 10 分後と先取り学習の 20 分が重なっていることです。</p>
+</div>
+<div class="paragraph">
 <p>何が起るかというと、本来 10 分後に学習すべきカードが先取り学習の範囲内にあるため 10 分待たずに出題されます。</p>
+</div>
+<div class="paragraph">
 <p>10 分後のつもりでいたのに、学習セッションが終わってしまうことに戸惑うかもしれません。
 この機能によって、学習セッションが小出しにでてくる煩雑さが解放される利点もあります。また、統計情報を見ると期日に達したカードが計上されているのに出題されない状態を避けることが出来ます。</p>
+</div>
+<div class="paragraph">
 <p>結局のところは、表示する情報から判断すると直感に反するようですが、実用的な理由から使いやすくなるように処理しているのです。</p>
+</div>
+<div class="paragraph">
 <p>厳密に 10 分のインターバルを設定したい場合は、先取り学習の限度の設定を変更します。</p>
-<h3 id="体感よりセッションが長くなる">体感よりセッションが長くなる</h3>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_体感よりセッションが長くなる">体感よりセッションが長くなる</h3>
+<div class="paragraph">
 <p>一日の開始時刻と先取り学習の限度が重なっている場合に発生します。
 図 3 の例だと 03:40 以降に学習セッションを続けると翌日分のカードが加算されます。
 突然カードが増えて、いつもの倍以上のノルマをこなしたような体感がします。</p>
+</div>
+<div class="paragraph">
 <p>このような問題を避けたい場合は、一日の開始時刻が近づいたら先の時刻に一時的に設定変更をします。</p>
-</section>
-<section id="無駄なカードの判定で学習中のカードが消える">
-  <div class="page-header">
-    <h2>無駄なカードの判定で学習中のカードが消える</h2>
-  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_無駄なカードの判定で学習中のカードが消える">無駄なカードの判定で学習中のカードが消える</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>初期値では 8 回忘却したカードは、保留扱いとなって復習カードから除外されます。
 学習セッションからも除かれます。</p>
+</div>
+<div class="paragraph">
 <p>記憶に失敗しつづけるカードを出題し続けても、何も対策が取られなければ時間のムダなので、学習効率の面から行われている処理です。</p>
+</div>
+<div class="paragraph">
 <p>設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面したの [オプション] ボタンを押して設定画面を開き、[忘却] タブを選択します。(図 4)</p>
+</div>
+<div class="paragraph">
 <p>[無駄なカードになる回数]で判定回数を変更することが出来ます。[無駄なカードの処理]では、保留扱いの処理を解除することも出来ます。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/how2anki_1_11.png" alt="忘却">
 </div>
 <div class="title">図 4. 学習オプション 忘却</div>
 </div>
+<div class="paragraph">
 <p>無駄なカードについては、<a href="http://rs.luminousspice.com/management_of_leeches/">無駄なカード(Leech)になってもAnki学習を続ける方法</a>で更に詳しく説明しています。</p>
-</section>
-<section id="延長処理で復習カードの枚数が減る">
-  <div class="page-header">
-    <h2>延長処理で復習カードの枚数が減る</h2>
-  </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_延長処理で復習カードの枚数が減る">延長処理で復習カードの枚数が減る</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>同じノートから作った複数のカードを作った場合、同じセッション内に一枚出題すると残りのカードの答えが分かってしまうため、残りのカードは翌日まで出題を延長します。</p>
+</div>
+<div class="paragraph">
 <p>この処理は、最初の一枚を出題した時に行われるため、あたかもセッション中復習カード枚数が減ったように感じられます。</p>
+</div>
+<div class="paragraph">
 <p>設定方法は、起動直後に表示する単語帳一覧から、指定したい単語帳をクリックし、画面したの [オプション] ボタンを押して設定画面を開き、[復習] タブを選択します。
 [関連カードの復習を翌日まで延期する]の選択を外すとこの機能を無効に出来ます。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/how2anki_1_10.png" alt="復習">
 </div>
 <div class="title">図 5. 学習オプション 復習</div>
 </div>
+<div class="paragraph">
 <p>延期処理については、<a href="http://rs.luminousspice.com/how-to-suspend-this-card/">いま表示しているAnkiカードだけ学習をやめる方法</a>で更に詳しく説明しています。</p>
-</section>
+</div>
+</div>
+</div>
 
   </div>
   <aside class="reference">

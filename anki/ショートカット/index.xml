@@ -132,7 +132,7 @@
 統計情報に難易度の予測項目 (Difficulty Forecast) が追加されます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオンの設定項目は、メニューバーから [Anki] - [環境設定] - [load balancer] タブを選択すると呼び出せます。インストールしたら必ず確認しておきましょう。&lt;/p&gt;
+&lt;p&gt;このアドオンの設定項目は、メニューバーから [Anki] - [環境設定] (または [ツール] - [設定]) を選択し、[load balancer] タブを選択すると呼び出せます。インストールしたら必ず確認しておきましょう。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;

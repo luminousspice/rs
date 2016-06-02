@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2014-09-23T17:00:10Z"/>
-<meta property="article:modified_time" content="2014-11-01T01:47:41Z"/>
+<meta property="article:modified_time" content="2016-06-02T07:30:02Z"/>
 
 
 
@@ -90,64 +90,86 @@
 
 <div class="post">
   <h1 class="post-title">Anki を共有機器で利用するためのプロファイルの使い方</h1>
-  <span class="post-date"><time datetime="2014-09-23T17:00:10Z"></time>2014-11-01 更新</span>
+  <span class="post-date"><time datetime="2014-09-23T17:00:10Z"></time>2016-06-02 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <p><p>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。</p>
-<div class="sect1">
-<h2 id="はじめに">はじめに</h2>
+  <div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設定方法や AnkiWeb 同期機能を使う場合の注意点を取り上げます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_はじめに">はじめに</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Anki のプロファイルとは、同じマシンで Anki を共同利用する場合に利用できるユーザープロファイルです。
 プロファイルを利用すると、プロファイル毎に独自の設定をして、独自の教材で学習を進めることが出来ます。</p>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="プロファイルとは">プロファイルとは</h2>
+<h2 id="_プロファイルとは">プロファイルとは</h2>
 <div class="sectionbody">
+<div class="paragraph">
 <p>プロファイルを作成すると、Anki のドキュメントファイルの中に、プロファイル名のフォルダーを作成します。
 その中に、コレクションファイルやメディアファイルを保存して使います。</p>
-<div class="ulist"><ul>
+</div>
+<div class="ulist">
+<ul>
 <li>
-<p>
-統計情報はプロファイル別に表示します。全プロファイルのデータをまとめて表示することは出来ません。
-</p>
+<p>統計情報はプロファイル別に表示します。全プロファイルのデータをまとめて表示することは出来ません。</p>
 </li>
 <li>
-<p>
-アドオンは、全てのプロファイルに共通に使用します。(PC 版の場合)
-</p>
+<p>アドオンは、全てのプロファイルに共通に使用します。(PC 版の場合)</p>
 </li>
-</ul></div>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="プロファイルの作り方">プロファイルの作り方</h2>
+<h2 id="_プロファイルの作り方">プロファイルの作り方</h2>
 <div class="sectionbody">
+<div class="paragraph">
 <p>プロファイル設定画面を呼び出すにはメニューバーから [ファイル]-[プロファイルを変える] を選択します。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/profile-dialog.png" alt="プロファイルダイアログ">
 </div>
 <div class="title">図 1. プロファイルダイアログ</div>
 </div>
+<div class="paragraph">
 <p>この画面の右のボタンから、プロファイルの新規作成、名称変更、削除することができます。</p>
+</div>
+<div class="paragraph">
 <p>複数のプロファイルを作っている場合は、起動直後にこのプロファイルダイアログが開きます。
 ここでプロファイルを選択すると、Anki のメインウィンドウが開きます。</p>
+</div>
 <div class="sect2">
-<h3 id="パスワード設定">パスワード設定</h3>
+<h3 id="_パスワード設定">パスワード設定</h3>
+<div class="paragraph">
 <p>プロファイルにパスワードを設定することが出来ます。
-設定したいプロファイルを開き、メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[一般] タブを選択します。</p>
+設定したいプロファイルを開き、メニューバーから [Anki]-[環境設定] (または [ツール] - [設定]) を選択し、[一般] タブを選択します。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/profile-password-setting.png" alt="デスクトップ版 環境設定 一般">
 </div>
 <div class="title">図 2. デスクトップ版 Anki　環境設定 一般</div>
 </div>
+<div class="paragraph">
 <p>[プロファイルパスワード] ボタンを押すと表示する入力画面にパスワードを入力します。</p>
+</div>
+<div class="paragraph">
 <p>解除したい場合は、この入力画面に何も入力せずに [OK] ボタンを押せば、パスワードは解除します。</p>
+</div>
+<div class="paragraph">
 <p>プロファイルダイアログの中でパスワード設定しているプロファイルを選択すると、パスワード入力欄を表示します。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/profile-dialog.png" alt="プロファイルダイアログ パスワード入力">
@@ -156,116 +178,124 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="自動同期の設定">自動同期の設定</h3>
+<h3 id="_自動同期の設定">自動同期の設定</h3>
+<div class="paragraph">
 <p>初期設定では、プロファイルを変更する時に自動同期が行われます。この機能の設定画面は、環境設定の中にあります。
-メニューバーから [Anki]-[環境設定] (または、Command+,) を選択し、[ネットワーク] タブを選択します。</p>
+メニューバーから [Anki]-[環境設定] (または [ツール] - [設定]) を選択し、[ネットワーク] タブを選択します。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/sync-settings.png" alt="デスクトップ版 Anki ネットワーク設定">
 </div>
 <div class="title">図 4. デスクトップ版 Anki ネットワーク設定</div>
 </div>
-<div class="ulist"><ul>
+<div class="ulist">
+<ul>
 <li>
-<p>
-[プロファイルを開閉する際に自動的に同期する] を無効にすると、AnkiWeb と自動同期しなくなります。
-</p>
+<p>[プロファイルを開閉する際に自動的に同期する] を無効にすると、AnkiWeb と自動同期しなくなります。</p>
 </li>
-</ul></div>
+</ul>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="ankimobile_の設定方法">AnkiMobile の設定方法</h2>
+<h2 id="_ankimobile_の設定方法">AnkiMobile の設定方法</h2>
 <div class="sectionbody">
+<div class="paragraph">
 <p>iPhone などで Anki の iOS アプリ AnkiMobile を使っている場合もプロファイルを利用できます。
  単語帳一覧の画面右上の歯車アイコンをタップすると環境設定画面が開きます。</p>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="http://rs.luminousspice.com/images/how-to-ankimobile-preferences.png" alt="AnkiMobile 環境設定画面">
+<img src="http://rs.luminousspice.com/images/how-to-ankimobile-preferences.png" alt="AnkiMobile 環境設定画面" width="300" height="450">
 </div>
 <div class="title">図 5. AnkiMobile 環境設定画面</div>
 </div>
+<div class="paragraph">
 <p>[Profiles] をタップするとプロファイル設定画面が開きます。</p>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="http://rs.luminousspice.com/images/profile-ankimobile-screen2013.png" alt="AnkiMobile プロファイル画面">
+<img src="http://rs.luminousspice.com/images/profile-ankimobile-screen2013.png" alt="AnkiMobile プロファイル画面" width="300" height="450">
 </div>
 <div class="title">図 6. AnkiMobile プロファイル画面</div>
 </div>
+<div class="paragraph">
 <p>このプロファイル一覧の中で現在使用中のプロファイルは、名前の右にチェックマークが付いています。
 使用するプロファイルを変更したい場合は、そのプロファイルをタップします。</p>
-<div class="ulist"><ul>
+</div>
+<div class="ulist">
+<ul>
 <li>
-<p>
-<strong>新規作成</strong> 画面右上 [+] ボタンをタップ。
-</p>
+<p><strong>新規作成</strong> 画面右上 [+] ボタンをタップ。</p>
 </li>
 <li>
-<p>
-<strong>名前変更</strong> プロファイル名を長押し (タッチアンドホールド) して、[Rename] をタップ。
-</p>
+<p><strong>名前変更</strong> プロファイル名を長押し (タッチアンドホールド) して、[Rename] をタップ。</p>
 </li>
 <li>
-<p>
-<strong>削除</strong> プロファイル名を長押しして、[Remove] をタップ。
-</p>
+<p><strong>削除</strong> プロファイル名を長押しして、[Remove] をタップ。</p>
 </li>
-</ul></div>
+</ul>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="http://rs.luminousspice.com/images/profile-ankimobile-rename.png" alt="AnkiMobile プロファイル名長押し後の選択項目">
+<img src="http://rs.luminousspice.com/images/profile-ankimobile-rename.png" alt="AnkiMobile プロファイル名長押し後の選択項目" width="300" height="450">
 </div>
 <div class="title">図 7. AnkiMobile プロファイル名長押し後の選択項目</div>
 </div>
 <div class="sect2">
-<h3 id="ankimobile_プロファイルの注意点">AnkiMobile プロファイルの注意点</h3>
-<div class="ulist"><ul>
+<h3 id="_ankimobile_プロファイルの注意点">AnkiMobile プロファイルの注意点</h3>
+<div class="ulist">
+<ul>
 <li>
-<p>
-AnkiMobile のプロファイルには、パスワードが設定できません。
-</p>
+<p>AnkiMobile のプロファイルには、パスワードが設定できません。</p>
 </li>
 <li>
-<p>
-プロファイル変更時の自動同期の機能はありません。
-</p>
+<p>プロファイル変更時の自動同期の機能はありません。</p>
 </li>
 <li>
-<p>
-使用中のプロファイルの名前変更や削除はできません。
-</p>
+<p>使用中のプロファイルの名前変更や削除はできません。</p>
 </li>
 <li>
-<p>
-AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出す操作がスワイプから長押しに変更になりました。
-</p>
+<p>AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出す操作がスワイプから長押しに変更になりました。</p>
 </li>
-</ul></div>
+</ul>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="ankiweb_を利用する場合の注意事項">AnkiWeb を利用する場合の注意事項</h2>
+<h2 id="_ankiweb_を利用する場合の注意事項">AnkiWeb を利用する場合の注意事項</h2>
 <div class="sectionbody">
+<div class="paragraph">
 <p>AnkiWeb の一つのアカウントにアクセスできるプロファイルは一つの機器に一つだけです。
 すでに同じ機器の別のプロファイルからアクセスしている場合は、そのプロファイルから [認証解除] をする必要があります。</p>
+</div>
+<div class="paragraph">
 <p>Anki と AnkiMobile を同期する場合、プロファイル情報は同期しません。それぞれ別々に設定する必要があります。</p>
+</div>
+<div class="paragraph">
 <p>AnkiWeb のアカウントに割り当てたプロファイル同士で同期します。
 名前が同じプロファイルであっても自動認識する訳ではありません。</p>
+</div>
 <div class="sect2">
-<h3 id="認証解除の仕方">認証解除の仕方</h3>
+<h3 id="_認証解除の仕方">認証解除の仕方</h3>
+<div class="paragraph">
 <p>PC 版 Anki は、環境設定画面の [ネットワーク] タブを選択し、[認証解除] ボタンを押します。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/sync-settings.png" alt="デスクトップ版 Anki ネットワーク設定">
 </div>
 <div class="title">図 8. デスクトップ版 Anki ネットワーク設定</div>
 </div>
+<div class="paragraph">
 <p>AnkiMobile は、環境設定画面から [Syncing] を選択し、[Deauth] ボタンを押します。</p>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="http://rs.luminousspice.com/images/sync-am-pref-sync.png" alt="同期設定">
+<img src="http://rs.luminousspice.com/images/sync-am-pref-sync.png" alt="同期設定" width="300" height="450">
 </div>
 <div class="title">図 9. AnkiMobile 同期設定</div>
 </div>
@@ -273,19 +303,23 @@ AnkiMobile 2.0.12 よりプロファイルの名前変更や削除を呼び出�
 </div>
 </div>
 <div class="sect1">
-<h2 id="おわりに">おわりに</h2>
+<h2 id="_おわりに">おわりに</h2>
 <div class="sectionbody">
+<div class="paragraph">
 <p>プロファイル機能を使うと、一つの機器に独自の Anki 学習環境を別々に作ることが出来ます。
 この機能によって家族や研究室内でマシンを共有している環境でも、それぞれが競合することなく Anki 学習を進めることが出来ます。</p>
 </div>
 </div>
-<div class="sect1">
-<h2 id="更新情報">更新情報</h2>
-<div class="sectionbody">
-<p>2014/09/23: 初出</p>
-<p>2014/10/31: 更新 AnkiMobile 2.0.12 の変更点を反映</p>
 </div>
-</div></p>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2014/09/23: 初出<br>
+2014/10/31: 更新 AnkiMobile 2.0.12 の変更点を反映<br></p>
+</div>
+</div>
+</div>
 
   </div>
   <aside class="reference">
