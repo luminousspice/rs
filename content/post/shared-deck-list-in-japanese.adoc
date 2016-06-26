@@ -139,7 +139,7 @@ https://ankiweb.net/shared/info/1073450896[Japanese Newspaper 4560 Additional Ne
 https://ankiweb.net/shared/info/135266511[Japanese signs], 英語 日本語 標識 ピクトグラム 画像
 "https://ankiweb.net/shared/info/2754914665[55k WordNet Definitions & Sentences (Monolingual, Bilingual)]", 英語 日本語
 https://ankiweb.net/shared/info/615343093[sentenças em japonês], ポルトガル語 日本語
-https://ankiweb.net/shared/info/651556905[Japanese deck for Harry Potter, Vol 1 and 2], 英語 日本語
+"https://ankiweb.net/shared/info/651556905[Japanese deck for Harry Potter, Vol 1 and 2]", 英語 日本語
 https://ankiweb.net/shared/info/651475745[słówka japońskie], ポーランド語 日本語
 https://ankiweb.net/shared/info/224108184[Vocabulaire Japonais-Français], フランス語 日本語
 https://ankiweb.net/shared/info/722824598[Vocabulaire français-japonais], フランス語 日本語
