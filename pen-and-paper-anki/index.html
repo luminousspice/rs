@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="description" content='紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。'>
+<meta name="keywords" content="暗記, Supermemo, SRS">
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content='紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。'/>
+<meta property="og:title" content="紙とペンで簡単にできる Anki" />
+<meta property="og:site_name" content="the Right Stuff" />
+<meta property="og:url" content="http://rs.luminousspice.com/pen-and-paper-anki/">
+<meta property="og:locale" content="ja">
+<meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
+
+<meta property="article:published_time" content="2016-06-25T09:21:36Z"/>
+<meta property="article:modified_time" content="2016-06-25T09:21:36Z"/>
+
+
+
+<meta property="article:tag" content="暗記"><meta property="article:tag" content="Supermemo"><meta property="article:tag" content="SRS">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@luminousspice">
+<meta name="twitter:title" content="紙とペンで簡単にできる Anki">
+<meta name="twitter:creator" content="@luminousspice">
+<meta name="twitter:description" content='紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。'>
+<meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
+<meta name="twitter:domain" content="luminousspice.com">
+
+  <base href="http://rs.luminousspice.com">
+  <title>紙とペンで簡単にできる Anki | the right stuff</title>
+
+  <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
+
+  <link rel="apple-touch-icon" href="http://rs.luminousspice.com/apple-touch-icon.png">
+  <link rel="shortcut icon" href="http://rs.luminousspice.com/favicon.ico" type="image/x-icon">
+  
+  <link rel="canonical" href="http://rs.luminousspice.com/pen-and-paper-anki/">
+  <link href="http://rs.luminousspice.com/index.xml" rel="alternate" type="application/rss+xml" title="the Right Stuff" />
+  <link href="http://rs.luminousspice.com/index.xml" rel="feed" type="application/rss+xml" title="the Right Stuff" />
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。
+  </div>
+
+  <nav class="sidebar-nav">
+    
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/table-of-contents/">総目次</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/index-how-to-anki/">Anki 索引</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/post/">アーカイブ</a>
+    <a class="sidebar-nav-item " href="http://rs.luminousspice.com/search/">全文検索</a>
+    
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://rs.luminousspice.com/" title="Home">the Right Stuff</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">紙とペンで簡単にできる Anki</h1>
+  <span class="post-date"><time datetime="2016-06-25T09:21:36Z"></time>2016-06-25</span>
+  <nav class="toc">
+    <div id="toc"></div>
+  </nav>
+  <div class="post-content">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。</p>
+</div>
+<div class="paragraph">
+<p>Anki のアルゴリズムの元となる SuperMemo の作者 Piotr Woźniak 博士は、<a href="https://www.supermemo.com/articles/paper.htm">Using SuperMemo without a computer</a> で紙と鉛筆を使って簡単に SRS (Spaced Repetition) の機能を体験する方法を解説しています。この内容を使いやすいように調整を加えて紹介します。</p>
+</div>
+<div class="paragraph">
+<p>この方法に慣れれば Anki が行う処理を理解し、その能力を引き出すための学習オプションが理解できるようになります。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_はじめかた">はじめかた</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>必要な物は、紙のノート一冊と筆記具です。縦線を引くための定規があると便利です。
+オリジナルではデータブックとスケジュールブックの二冊を使う方法を説明していますが、ここでは一冊のノートで完結する方法を説明します。</p>
+</div>
+<div class="paragraph">
+<p>問題を作成するための教材を決めておきます。オリジナルでは英語とポーランド語の単語の対訳表を使っています。また、書籍の内容から問題文を作る例を紹介しています。</p>
+</div>
+<div class="paragraph">
+<p>イメージをつかんで頂くために私が実際に使用したノートの実物 4 ページ目をご覧下さい。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/pen-and-paper-anki-databook1.jpg" alt="データブック">
+</div>
+<div class="title">図 1. データブック 実物</div>
+</div>
+<div class="paragraph">
+<p>これは、<a href="http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/">Feed to Anki 毎日英単語のカードを増やせるアドオン</a> に掲載した word of the day から、特に Merriam-Webster’s Word of the Day を中心に集めた英語表現です。</p>
+</div>
+<div class="paragraph">
+<p>作業は次の三段階に分かれます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>問題を新規追加します。行単位で問題と解答を記入します。</p>
+</li>
+<li>
+<p>問題を見て記憶内容を確認します。間違えた問題を記録し、全てが正解するまで続けます。</p>
+</li>
+<li>
+<p>復習間隔表を見て次回の復習日を決定します。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ノートの準備">ノートの準備</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>まず用意したノートを開きます。 1 ページ目は、スケジュールブックとして使いますのでそのまま何も書き込まずに空けておきます。</p>
+</div>
+<div class="paragraph">
+<p>次の見開き 2 ページからデータブックとして使っていきます。</p>
+</div>
+<div class="listingblock">
+<div class="title">データブック見出し設定例</div>
+<div class="content">
+<pre>[ 1 ]
+|Answer         |Quetsion            |１|２|３|４|５|No|Date|U |
+|               |                    |　|　|　|　|　|  |    |  |</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>2ページ目のページ上の余白にページの通し番号 1 と上の図解に示すように一行目に見出しを書き込みます。</p>
+</div>
+<div class="paragraph">
+<p>教材をよく読んで質問内容を決め、二行目以降に一列目と二列目に問題の解答と質問を書き込んでいきます。一日に学習できる分量まで追加します。始めのうちは一日一ページで抑えておくとよいでしょう。</p>
+</div>
+<div class="paragraph">
+<p>上に示した図 1 をテキストで書き起こすと次のようになります。</p>
+</div>
+<div class="listingblock">
+<div class="title">データブック 図 1 の図解 (4 ページ目)</div>
+<div class="content">
+<pre>[ 4 ]
+|Answer         |Quetsion            |１|２|３|４|５|No|Date|U |
+|foodie         |epicure             |　|　|　|　|一| 1|5/28| 1|
+|blunder        |faux pas            |　|　|　|　|　| 2|5/29| 5|
+|re-align       |realign             |　|　|　|　|　| 3|5/31| 5|
+|fluff          |fuzz                |　|一|丁|一|　| 4|6/04| 4|
+|infuse         |instill             |　|下|丁|丁|一| 5|6/12| 6|</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_新しいページの学習方法">新しいページの学習方法</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>その日新たに学習するページを読んで暗記します。</p>
+</li>
+<li>
+<p>一行目から解答を隠して問題文を読み答え合わせをします。間違っていたら、質問列の右にある [1] 列に正の字の一画目の一を書きます。</p>
+</li>
+<li>
+<p>全ての行の答え合わせが終わったら、間違えていた [1] 列に一の文字のある問題だけやり直します。また間違えたら[1] 列に正の字の二画目の｜を書きます。</p>
+</li>
+<li>
+<p>以後間違えている問題をやり直し、間違えた回数を [1] 列に数え上げていきます。</p>
+</li>
+<li>
+<p>全ての問題が正解できたら、一行目の右三列に 1、日付、間違えた問題の数を書きます。上の図解では、1, 5/28, 1 となっています。</p>
+</li>
+<li>
+<p>二行目右から三列目に 2 と書き、次の列に次回の復習日を書き込みます。これで新規学習は終了です。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>復習スケジュールはデータブックのページ単位でまとめて設定します。</p>
+</div>
+<div class="paragraph">
+<p>この日付を決めるためのスケジュールブックの使い方をつぎに説明します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_スケジュールブックの使い方">スケジュールブックの使い方</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>空白として残しておいたノートの最初のページ目を開きます。一行目左端に今の月を書きます。さらに2行目以降に 1 から月末までの日にちを書き込みます。</p>
+</div>
+<div class="listingblock">
+<div class="title">スケジュールブック 図解</div>
+<div class="content">
+<pre>2016.06           2016.07
+6/1 |             7/1 |
+6/2 | 1           7/2 |
+6/3 |             7/3 |
+6/4 |             7/4 |
+6/5 |             7/5 |
+   ...
+6/30|             7/30|
+                  7/31|</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>次に復習間隔表を写します。ページ上の余白か、裏表紙に書き込みます。</p>
+</div>
+<table class="tableblock frame-topbot grid-rows spread">
+<caption class="title">表 1. 復習間隔表 (Anki アルゴリズム: Ease Factor 200%)</caption>
+<colgroup>
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2858%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">復習回</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">間隔日</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>この表を見ると、最初の復習間隔は 1 日となっているので翌日が次回の復習日です。スケジュールブックの相当する日付にスケジュールが決まったページ数を書きます。</p>
+</div>
+<div class="paragraph">
+<p>6/1 に開始した 1 ページ目は、1 回目の復習を 6/2 に行います。この場合スケジュールブックの 6/2 に 1 と記録します。</p>
+</div>
+<div class="sect2">
+<h3 id="_スケジュールブック実例">スケジュールブック実例</h3>
+<div class="paragraph">
+<p>次に実際に使ったスケジュールブックの内容を示します。私の場合は 5/25 から始めたので、5/26 から詰めて書きました。()で括った箇所は実際に○で囲っています。</p>
+</div>
+<div class="listingblock">
+<div class="title">スケジュールブック利用例 図解</div>
+<div class="content">
+<pre>2016.05         2016.06
+(5/26)| 1        6/26 |28 21 2
+(5/27)| 2        6/27 |29 22 3
+(5/28)| 3  1     6/28 |30 23 4
+(5/29)| 4  2     6/29 |
+(5/30)| 5  3     6/30 |
+(5/31)| 6  4
+(6/01)| 7  5 1
+   ...</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>上の図解では、5/28 に新規追加した 4 ページ目は、次の復習日は 5/29 になります。5/29 に 4 と記入している点に注意してください。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_復習間隔表の説明">復習間隔表の説明</h3>
+<div class="paragraph">
+<p>オリジナルの SM-0 に代えて、Anki のアルゴリズムを使いました。初回の復習間隔を一日で、その後は二倍になる間隔に設定しています。これは自分の Anki のカードの Ease Factor の平均値が 200% 程度であること、計算しやすいこと、一つのページを五回復習し終えるのに丁度一か月になる <code>1+2+4+8+16=31</code> という切りの良さから決めました。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_復習の方法">復習の方法</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>その日まず最初に、先頭ページのスケジュールブックを開きます。</p>
+</li>
+<li>
+<p>その日の日付に記録しているページ数を開いて復習します。</p>
+</li>
+<li>
+<p>二回目の学習であれば間違えた回数は、[2] の列に正の字を書いて数え上げます。</p>
+</li>
+<li>
+<p>間違えた問題だけを絞り込んで学習し直し、全ての問題が正解になるまで続けます。</p>
+</li>
+<li>
+<p>一番右の Unknown 列に今日そのページで間違えた問題の数を記入します。</p>
+</li>
+<li>
+<p>スケジュールブックに戻って次回の日付を決め、スケジュールブックのカレンダーとデータブックに次回の日付を記入します。2回目の学習での次の学習間隔は 2 日です。上の図解の　5/28 に 1 と記入している点に注意してください。</p>
+</li>
+<li>
+<p>その日に割り当てている全てのページが終わったら、その日付を○で囲んでその日の作業は終わります。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>前日以前に○で囲っていない日付があれば、そのページも復習します。</p>
+</div>
+<div class="paragraph">
+<p>新規追加したいページがあればそのページを学習します。</p>
+</div>
+<div class="paragraph">
+<p>あとは、同じ要領で同じように復習を続けていきます。一か月後には 5 回復習するように設計しています。</p>
+</div>
+<div class="paragraph">
+<p>なお、紙上体験だけを目的としているのであれば二週間も続ければ十分だろうと思います。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_難しい問題の扱い">難しい問題の扱い</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>5 回学習しても間違えている問題は、新しいページに書き写して、新しい問題として登録しなおします。元のデータは残しておいて学習を継続し、問題を重複して利用します。</p>
+</div>
+<div class="paragraph">
+<p>改めて問題を登録する時に問題文を見直す必要もあるでしょう。</p>
+</div>
+<div class="paragraph">
+<p>また、難しい問題用の Ease Factor を低く設定した復習間隔表を使うこともよいでしょう。この先で紹介する改訂例で使用した SM-0 (表 2) もその一例です。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_オリジナルからの変更点のまとめ">オリジナルからの変更点のまとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>データブックとスケジュールブックを統合しました。</p>
+</li>
+<li>
+<p>復習間隔を Anki アルゴリズム (Ease Factor 200%) で計算しました。 (表 1)<br>
+易しさの値 (Ease Factor) について更に知りたい場合は、<a href="http://rs.luminousspice.com/addon-ease-factor-histogram/">Ease Factor Histogram 単語帳の健全性を診断するアドオン</a> をご覧下さい。</p>
+</li>
+<li>
+<p>答えを隠す実用性から、質問と答えの位置を入れ替えました。</p>
+</li>
+<li>
+<p>復習で間違えた回数は・を打つより、正の時を書いて数える方法に変えました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_改訂版の作成">改訂版の作成</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>15 日間の使用経験からレイアウトを変更しました。次に実物の写真を示します。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://rs.luminousspice.com/images/pen-and-paper-anki-databook2.jpg" alt="データブック 改訂版">
+</div>
+<div class="title">図 2. データブック改訂版 実物</div>
+</div>
+<div class="paragraph">
+<p>オリジナルのレイアウトはデータブックの一行に性質の異なるデータが共存しているので分割しました。
+ページの各行は、一つの問題 (Note) に関するデータだけに整理しました。
+スケジュールの情報はページ全体に関わるデータなので、ページの右部分から上段の余白に移動しました。</p>
+</div>
+<div class="paragraph">
+<p>また、15 日が経過したところで、問題の元ネタが尽きてしまいました。そこで <a href="http://www.amazon.co.jp/exec/obidos/ASIN/0199663114/rsls-22/ref=nosim/" name="amazletlink" target="_blank">Compact Oxford-Hachette French Dictionary</a>
+ に掲載しているフランス語頻出2000語の暗記に学習を切り替えました。</p>
+</div>
+<div class="paragraph">
+<p><a href="http://rs.luminousspice.com/1min-trap-in-anki-learning/">Anki における新規カード一分間トラップの分析</a>で自分の学習履歴を分析したところ文単位の方が Anki での学習がしやすくなるという結果を得たため、問題を単語から文に変更しました。</p>
+</div>
+<div class="paragraph">
+<p>複数の復習間隔表の利用を評価するために、オリジナルの SM-0 アルゴリズム (表 2) を使用しました。</p>
+</div>
+<div class="listingblock">
+<div class="title">データブック改訂版 図解</div>
+<div class="content">
+<pre>|No     | 1  | 2  | 3  | 4  | 5  |                         [18]
+|Date   |6/12|6/16|6/23|7/05|    |
+|Unknown|  8 |  8 |  5 |    |    |
+---------------------------------------------------------------
+|Answer         |Quetsion                        |１|２|３|４|５|
+|to lower       |Il a baissé les bras.           |一|　|　|　|　|
+|goal m.        |Il va droit au but.             |一|一|　|　|　|
+|end m.         |Elle est à bout.                |一|　|　|　|　|
+|postman m./f.  |un facteur, une factrice        |一|　|一|　|　|
+|much talked    |fameux                          |一|一|一|　|　|</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>実際に使った復習間隔の表を次に示します。復習 1、2 回目は固定で、それ以後は Ease Factor 170% で計算しています。5回目は 33 日ではなくなぜ一か月なのかと言うと、紙でも簡単に次の期日を決められるからだと思います。</p>
+</div>
+<table class="tableblock frame-topbot grid-rows spread">
+<caption class="title">表 2. 参考: 復習間隔表 (SuperMemo 0 アルゴリズム)</caption>
+<colgroup>
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2858%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">復習回数</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">間隔日数</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1か月</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2か月</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_改訂版での変更点">改訂版での変更点</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>アルゴリズムをオリジナルの SM-0 に変更しました。(表 2)</p>
+</li>
+<li>
+<p>質問の単位を単語から文に変更しました。</p>
+</li>
+<li>
+<p>データブックの復習スケジュール欄を切り離して、ノート上の余白に移動しました。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_紙とペンでどこまでできるか">紙とペンでどこまでできるか</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>B5 ノート A 罫で一ページ 30 行あります。Anki の初期設定の新規上限 20 問をこなせない人が多い現状からすると、一日一ページ学習するだけでも十分な量の学習ができます。一年で一万件に達します。</p>
+</div>
+<div class="paragraph">
+<p>自分で使ってみたところ、30日で 620 個の単語や表現を覚えることが出来ました。復習量の最大量は 4 ページでした。</p>
+</div>
+<div class="paragraph">
+<p>特に Compact Oxford-Hachette French Dictionary に掲載しているフランス語の頻出語 2000 語を二週間で学習できました。その中から理解が不十分な 320 個を抽出して覚え終えることが出来ました。</p>
+</div>
+<div class="sect2">
+<h3 id="_アプリとの使い分け">アプリとの使い分け</h3>
+<div class="paragraph">
+<p>単語帳や例文集であれば、ある程度余白があって問題が密集しているので、ノートを使わずに本に直接スケジュールや間違えの数え上げを直接書き込むことも可能です。復習間隔表だけを裏表紙に書き込めば実用可能です。</p>
+</div>
+<div class="paragraph">
+<p>そして、5 回学習しても覚えられなかった問題だけを集めてノートを作る使い方をすれば、SRS をするのに必要な作業は大幅に圧縮できます。</p>
+</div>
+<div class="paragraph">
+<p>例えば、本 &#8594; ノート &#8594; アプリといった多段階の絞り込みを行えば、データ変換のような学習とは無関係な作業から解放され覚えることに集中できます。</p>
+</div>
+<div class="paragraph">
+<p>ノートでの学習はフラッシュカードアプリとは違って、自分のペースで学習できるので圧迫感がありません。無理なく学習できる点が優れています。</p>
+</div>
+<div class="paragraph">
+<p>紙のノートで音声や動画を再生すること、画像を表示することはできません。それ以外の文字情報であれば全く問題ありません。あるいは、文字情報で覚えられなかった難しい情報だけをメディアファイルを活用して Anki で覚えるという使い分けが出来るでしょう。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_誰でも使える_srs">誰でも使える SRS</h3>
+<div class="paragraph">
+<p>学校の教材を暗記する位の量であれば十分な機能をこの紙とペンを使った Anki は提供してくれます。</p>
+</div>
+<div class="paragraph">
+<p>アプリが高い、スマホや PC がないことを悲観する必要はありません。
+大切なのは復習間隔表とスケジュールブックです。この二つを使いこなせるようになればよいのです。</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>復習間隔表とスケジュールブックを使いこなすことが重要</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>復習スケジュールの設定がページ単位であること、復習間隔は表の形で計算済みなので、手作業でも簡単にスケジュールを割り当てることが出来ます。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_まとめ">まとめ</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>ノートと筆記具だけで SRS を利用できる</p>
+</li>
+<li>
+<p>スケジュールブックと復習間隔表の使い方が重要</p>
+</li>
+<li>
+<p>復習スケジュールの設定はページ単位で設定する</p>
+</li>
+<li>
+<p>B5 A罫ノートで一日一ページこなせば年間一万件に達する</p>
+</li>
+<li>
+<p>本、ノート、アプリで使い分ければ、データ作成の作業量を圧縮できる</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+  </div>
+  <aside class="reference">
+  
+  
+  </aside>
+</div>
+
+      <footer>
+        <div class="footer">
+          &copy; 2016 luminousspice.com.
+        </div>
+      </footer>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+var addtoc = function() {
+
+  var threshold = 5;
+  var toc = document.getElementById('toc');      
+  var widget = document.querySelector('.toc');   
+  var pre1 = document.querySelector('.sect1');   
+  var pre2 = document.querySelector('#preamble');
+  var headings = document.querySelectorAll('.post-content h2');
+  if (!toc || !widget) {
+    return;
+  }
+  if (headings.length < threshold) {
+    return;
+  }
+
+  list = [];
+  list.push('<div class="toc-title">この記事の内容</div><ol>');
+
+    for (var i=0; i < headings.length; i++) {
+      var h = headings[i];
+      var d = document.createElement('a');
+      var aname = 'i-' + i;
+      d.name = aname;
+      h.parentNode.insertBefore(d, h);
+      var s = '<li><a href="http:\/\/rs.luminousspice.com\/pen-and-paper-anki\/#' + aname + '">' + h.innerHTML + '</a></li>';
+      list.push(s);
+    }
+
+  list.push('</ol>');
+  toc.innerHTML = list.join("");
+ 
+  if (pre2){
+    pre2.appendChild(widget);
+  } else {
+    pre1.parentNode.insertBefore(widget, pre1); 
+   }
+}
+
+addtoc();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29141274-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

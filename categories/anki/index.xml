@@ -6,10 +6,484 @@
     <description>Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 May 2016 13:33:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jun 2016 09:21:36 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <atom:link href="http://rs.luminousspice.com/categories/anki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>紙とペンで簡単にできる Anki</title>
+      <link>http://rs.luminousspice.com/pen-and-paper-anki/</link>
+      <pubDate>Sat, 25 Jun 2016 09:21:36 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/pen-and-paper-anki/</guid>
+      <description>紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki のアルゴリズムの元となる SuperMemo の作者 Piotr Woźniak 博士は、&lt;a href=&#34;https://www.supermemo.com/articles/paper.htm&#34;&gt;Using SuperMemo without a computer&lt;/a&gt; で紙と鉛筆を使って簡単に SRS (Spaced Repetition) の機能を体験する方法を解説しています。この内容を使いやすいように調整を加えて紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この方法に慣れれば Anki が行う処理を理解し、その能力を引き出すための学習オプションが理解できるようになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_はじめかた&#34;&gt;はじめかた&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;必要な物は、紙のノート一冊と筆記具です。縦線を引くための定規があると便利です。
+オリジナルではデータブックとスケジュールブックの二冊を使う方法を説明していますが、ここでは一冊のノートで完結する方法を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;問題を作成するための教材を決めておきます。オリジナルでは英語とポーランド語の単語の対訳表を使っています。また、書籍の内容から問題文を作る例を紹介しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;イメージをつかんで頂くために私が実際に使用したノートの実物 4 ページ目をご覧下さい。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/pen-and-paper-anki-databook1.jpg&#34; alt=&#34;データブック&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. データブック 実物&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;これは、&lt;a href=&#34;http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/&#34;&gt;Feed to Anki 毎日英単語のカードを増やせるアドオン&lt;/a&gt; に掲載した word of the day から、特に Merriam-Webster’s Word of the Day を中心に集めた英語表現です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;作業は次の三段階に分かれます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;問題を新規追加します。行単位で問題と解答を記入します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;問題を見て記憶内容を確認します。間違えた問題を記録し、全てが正解するまで続けます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔表を見て次回の復習日を決定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_ノートの準備&#34;&gt;ノートの準備&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;まず用意したノートを開きます。 1 ページ目は、スケジュールブックとして使いますのでそのまま何も書き込まずに空けておきます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;次の見開き 2 ページからデータブックとして使っていきます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;データブック見出し設定例&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;[ 1 ]
+|Answer         |Quetsion            |１|２|３|４|５|No|Date|U |
+|               |                    |　|　|　|　|　|  |    |  |&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2ページ目のページ上の余白にページの通し番号 1 と上の図解に示すように一行目に見出しを書き込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;教材をよく読んで質問内容を決め、二行目以降に一列目と二列目に問題の解答と質問を書き込んでいきます。一日に学習できる分量まで追加します。始めのうちは一日一ページで抑えておくとよいでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;上に示した図 1 をテキストで書き起こすと次のようになります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;データブック 図 1 の図解 (4 ページ目)&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;[ 4 ]
+|Answer         |Quetsion            |１|２|３|４|５|No|Date|U |
+|foodie         |epicure             |　|　|　|　|一| 1|5/28| 1|
+|blunder        |faux pas            |　|　|　|　|　| 2|5/29| 5|
+|re-align       |realign             |　|　|　|　|　| 3|5/31| 5|
+|fluff          |fuzz                |　|一|丁|一|　| 4|6/04| 4|
+|infuse         |instill             |　|下|丁|丁|一| 5|6/12| 6|&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_新しいページの学習方法&#34;&gt;新しいページの学習方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;その日新たに学習するページを読んで暗記します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一行目から解答を隠して問題文を読み答え合わせをします。間違っていたら、質問列の右にある [1] 列に正の字の一画目の一を書きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全ての行の答え合わせが終わったら、間違えていた [1] 列に一の文字のある問題だけやり直します。また間違えたら[1] 列に正の字の二画目の｜を書きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;以後間違えている問題をやり直し、間違えた回数を [1] 列に数え上げていきます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全ての問題が正解できたら、一行目の右三列に 1、日付、間違えた問題の数を書きます。上の図解では、1, 5/28, 1 となっています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;二行目右から三列目に 2 と書き、次の列に次回の復習日を書き込みます。これで新規学習は終了です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習スケジュールはデータブックのページ単位でまとめて設定します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この日付を決めるためのスケジュールブックの使い方をつぎに説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_スケジュールブックの使い方&#34;&gt;スケジュールブックの使い方&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;空白として残しておいたノートの最初のページ目を開きます。一行目左端に今の月を書きます。さらに2行目以降に 1 から月末までの日にちを書き込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;スケジュールブック 図解&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;2016.06           2016.07
+6/1 |             7/1 |
+6/2 | 1           7/2 |
+6/3 |             7/3 |
+6/4 |             7/4 |
+6/5 |             7/5 |
+   ...
+6/30|             7/30|
+                  7/31|&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;次に復習間隔表を写します。ページ上の余白か、裏表紙に書き込みます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 1. 復習間隔表 (Anki アルゴリズム: Ease Factor 200%)&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2858%;&#34;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習回&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;6&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;間隔日&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;8&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;16&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;32&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;この表を見ると、最初の復習間隔は 1 日となっているので翌日が次回の復習日です。スケジュールブックの相当する日付にスケジュールが決まったページ数を書きます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;6/1 に開始した 1 ページ目は、1 回目の復習を 6/2 に行います。この場合スケジュールブックの 6/2 に 1 と記録します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_スケジュールブック実例&#34;&gt;スケジュールブック実例&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;次に実際に使ったスケジュールブックの内容を示します。私の場合は 5/25 から始めたので、5/26 から詰めて書きました。()で括った箇所は実際に○で囲っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;スケジュールブック利用例 図解&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;2016.05         2016.06
+(5/26)| 1        6/26 |28 21 2
+(5/27)| 2        6/27 |29 22 3
+(5/28)| 3  1     6/28 |30 23 4
+(5/29)| 4  2     6/29 |
+(5/30)| 5  3     6/30 |
+(5/31)| 6  4
+(6/01)| 7  5 1
+   ...&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;上の図解では、5/28 に新規追加した 4 ページ目は、次の復習日は 5/29 になります。5/29 に 4 と記入している点に注意してください。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_復習間隔表の説明&#34;&gt;復習間隔表の説明&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;オリジナルの SM-0 に代えて、Anki のアルゴリズムを使いました。初回の復習間隔を一日で、その後は二倍になる間隔に設定しています。これは自分の Anki のカードの Ease Factor の平均値が 200% 程度であること、計算しやすいこと、一つのページを五回復習し終えるのに丁度一か月になる &lt;code&gt;1+2+4+8+16=31&lt;/code&gt; という切りの良さから決めました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_復習の方法&#34;&gt;復習の方法&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;olist arabic&#34;&gt;
+&lt;ol class=&#34;arabic&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;その日まず最初に、先頭ページのスケジュールブックを開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;その日の日付に記録しているページ数を開いて復習します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;二回目の学習であれば間違えた回数は、[2] の列に正の字を書いて数え上げます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;間違えた問題だけを絞り込んで学習し直し、全ての問題が正解になるまで続けます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一番右の Unknown 列に今日そのページで間違えた問題の数を記入します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スケジュールブックに戻って次回の日付を決め、スケジュールブックのカレンダーとデータブックに次回の日付を記入します。2回目の学習での次の学習間隔は 2 日です。上の図解の　5/28 に 1 と記入している点に注意してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;その日に割り当てている全てのページが終わったら、その日付を○で囲んでその日の作業は終わります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;前日以前に○で囲っていない日付があれば、そのページも復習します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;新規追加したいページがあればそのページを学習します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;あとは、同じ要領で同じように復習を続けていきます。一か月後には 5 回復習するように設計しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;なお、紙上体験だけを目的としているのであれば二週間も続ければ十分だろうと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_難しい問題の扱い&#34;&gt;難しい問題の扱い&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;5 回学習しても間違えている問題は、新しいページに書き写して、新しい問題として登録しなおします。元のデータは残しておいて学習を継続し、問題を重複して利用します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;改めて問題を登録する時に問題文を見直す必要もあるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、難しい問題用の Ease Factor を低く設定した復習間隔表を使うこともよいでしょう。この先で紹介する改訂例で使用した SM-0 (表 2) もその一例です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_オリジナルからの変更点のまとめ&#34;&gt;オリジナルからの変更点のまとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;データブックとスケジュールブックを統合しました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習間隔を Anki アルゴリズム (Ease Factor 200%) で計算しました。 (表 1)&lt;br&gt;
+易しさの値 (Ease Factor) について更に知りたい場合は、&lt;a href=&#34;http://rs.luminousspice.com/addon-ease-factor-histogram/&#34;&gt;Ease Factor Histogram 単語帳の健全性を診断するアドオン&lt;/a&gt; をご覧下さい。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;答えを隠す実用性から、質問と答えの位置を入れ替えました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習で間違えた回数は・を打つより、正の時を書いて数える方法に変えました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_改訂版の作成&#34;&gt;改訂版の作成&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;15 日間の使用経験からレイアウトを変更しました。次に実物の写真を示します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/pen-and-paper-anki-databook2.jpg&#34; alt=&#34;データブック 改訂版&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. データブック改訂版 実物&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;オリジナルのレイアウトはデータブックの一行に性質の異なるデータが共存しているので分割しました。
+ページの各行は、一つの問題 (Note) に関するデータだけに整理しました。
+スケジュールの情報はページ全体に関わるデータなので、ページの右部分から上段の余白に移動しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、15 日が経過したところで、問題の元ネタが尽きてしまいました。そこで &lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0199663114/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Compact Oxford-Hachette French Dictionary&lt;/a&gt;
+ に掲載しているフランス語頻出2000語の暗記に学習を切り替えました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/1min-trap-in-anki-learning/&#34;&gt;Anki における新規カード一分間トラップの分析&lt;/a&gt;で自分の学習履歴を分析したところ文単位の方が Anki での学習がしやすくなるという結果を得たため、問題を単語から文に変更しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;複数の復習間隔表の利用を評価するために、オリジナルの SM-0 アルゴリズム (表 2) を使用しました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;データブック改訂版 図解&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;|No     | 1  | 2  | 3  | 4  | 5  |                         [18]
+|Date   |6/12|6/16|6/23|7/05|    |
+|Unknown|  8 |  8 |  5 |    |    |
+---------------------------------------------------------------
+|Answer         |Quetsion                        |１|２|３|４|５|
+|to lower       |Il a baissé les bras.           |一|　|　|　|　|
+|goal m.        |Il va droit au but.             |一|一|　|　|　|
+|end m.         |Elle est à bout.                |一|　|　|　|　|
+|postman m./f.  |un facteur, une factrice        |一|　|一|　|　|
+|much talked    |fameux                          |一|一|一|　|　|&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;実際に使った復習間隔の表を次に示します。復習 1、2 回目は固定で、それ以後は Ease Factor 170% で計算しています。5回目は 33 日ではなくなぜ一か月なのかと言うと、紙でも簡単に次の期日を決められるからだと思います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;表 2. 参考: 復習間隔表 (SuperMemo 0 アルゴリズム)&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2857%;&#34;&gt;
+&lt;col style=&#34;width: 14.2858%;&#34;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習回数&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;6&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;間隔日数&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;7&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;12&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;20&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1か月&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2か月&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_改訂版での変更点&#34;&gt;改訂版での変更点&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;アルゴリズムをオリジナルの SM-0 に変更しました。(表 2)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;質問の単位を単語から文に変更しました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;データブックの復習スケジュール欄を切り離して、ノート上の余白に移動しました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_紙とペンでどこまでできるか&#34;&gt;紙とペンでどこまでできるか&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;B5 ノート A 罫で一ページ 30 行あります。Anki の初期設定の新規上限 20 問をこなせない人が多い現状からすると、一日一ページ学習するだけでも十分な量の学習ができます。一年で一万件に達します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;自分で使ってみたところ、30日で 620 個の単語や表現を覚えることが出来ました。復習量の最大量は 4 ページでした。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;特に Compact Oxford-Hachette French Dictionary に掲載しているフランス語の頻出語 2000 語を二週間で学習できました。その中から理解が不十分な 320 個を抽出して覚え終えることが出来ました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_アプリとの使い分け&#34;&gt;アプリとの使い分け&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;単語帳や例文集であれば、ある程度余白があって問題が密集しているので、ノートを使わずに本に直接スケジュールや間違えの数え上げを直接書き込むことも可能です。復習間隔表だけを裏表紙に書き込めば実用可能です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そして、5 回学習しても覚えられなかった問題だけを集めてノートを作る使い方をすれば、SRS をするのに必要な作業は大幅に圧縮できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;例えば、本 &amp;#8594; ノート &amp;#8594; アプリといった多段階の絞り込みを行えば、データ変換のような学習とは無関係な作業から解放され覚えることに集中できます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ノートでの学習はフラッシュカードアプリとは違って、自分のペースで学習できるので圧迫感がありません。無理なく学習できる点が優れています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;紙のノートで音声や動画を再生すること、画像を表示することはできません。それ以外の文字情報であれば全く問題ありません。あるいは、文字情報で覚えられなかった難しい情報だけをメディアファイルを活用して Anki で覚えるという使い分けが出来るでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_誰でも使える_srs&#34;&gt;誰でも使える SRS&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;学校の教材を暗記する位の量であれば十分な機能をこの紙とペンを使った Anki は提供してくれます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;アプリが高い、スマホや PC がないことを悲観する必要はありません。
+大切なのは復習間隔表とスケジュールブックです。この二つを使いこなせるようになればよいのです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;literalblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;復習間隔表とスケジュールブックを使いこなすことが重要&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;復習スケジュールの設定がページ単位であること、復習間隔は表の形で計算済みなので、手作業でも簡単にスケジュールを割り当てることが出来ます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ノートと筆記具だけで SRS を利用できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スケジュールブックと復習間隔表の使い方が重要&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;復習スケジュールの設定はページ単位で設定する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;B5 A罫ノートで一日一ページこなせば年間一万件に達する&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本、ノート、アプリで使い分ければ、データ作成の作業量を圧縮できる&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
     
     <item>
       <title>Data URI を使って画像を Anki カードに埋め込む</title>
@@ -756,164 +1230,6 @@ addHook(&#34;showAnswer&#34;, loadhtml5controller)&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;学習画面でアドオンを使って JavaScript を読み込ませることができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
-      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
-      <pubDate>Fri, 13 May 2016 14:42:29 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
-      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の評価に役立ちます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の評価に役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_熟知しているのに辛い単語帳&#34;&gt;熟知しているのに辛い単語帳&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の利用歴を重ねて、教材に慣れ復習間隔も大分開いてきたにもかかわらず、やればやるほど負担に感じることありませんか。
-ある単語帳の学習履歴を紹介しましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-reviews.png&#34; alt=&#34;再学習が際立つ単語帳&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 再学習が際立つ単語帳&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実はこの単語帳は熟知の比率 86%、平均復習間隔 7.1 か月です。統計情報の円グラフを見る限りでは何の問題もありません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;以前にも増して、一度間違えたカードが中々消えてくれない点が気になる単語帳だったのです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;熟知なカードの比率が高い単語帳が、やさしい単語帳とは限らない。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習間隔を決定するのは、直前の復習間隔と易しさの値、解答時の評価です。
-この単語帳は [もう一回] と [普通] 以外押すことがないので、易しさの値について詳しく見ていきましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_易しさの値とは&#34;&gt;易しさの値とは&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値 (Ease Factor) は、次回の復習間隔を決定する際に、直前の復習間隔に書ける係数で初期値では 250% です。
-前回から 10 日後に復習して [普通] ボタンを押すと、次は 25 日後になるのはこのような仕組みからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値が変化するのは、復習で [普通] ボタン以外のボタンを押した時で、[簡単] ボタンを押さない限り増えません。易しさの値というのはカードの学習履歴を数値化した指標とも言えるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値には下限があり 130% に設定されています。これ以下になるともはや SRS としての機能は働かなくなり普通の単語帳ソフトと変わらなくなります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ちなみに初期値 250% のカードを復習で [もう一回] を 6 回押すと、易しさの値は下限の 130% に到達します。そしてさらに二回押すと、めでたくそのカードは&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカードという扱いを受け保留状態&lt;/a&gt;になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;もし易しさの値の度数分布を求めることができれば、単語帳全体の易しさや、設問の適切さの評価に使えるのではないかかと考えました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_易しさの値の統計値を知りたい&#34;&gt;易しさの値の統計値を知りたい&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値はカードブラウザからカード一枚一枚について調べることができますが、集団としての情報を知ることができません。そこで、単語帳単位で易しさの数値の度数分布表を表示するアドオンを作りました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオンを使って調べた上図の単語帳の易しさのデータを次に示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-hard.png&#34; alt=&#34;Ease Factor Histogram 表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. Ease Factor Histogram 表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習間隔から見れば十分広がって、成熟した教材なのですが、学習負担が一向に軽くならない理由がわかりました。
-一度間違えたカードが中々消えてくれないのは、易しさの値の下限に集中していることが原因だったのです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これに対してやさしいと感じる単語帳のデータを紹介しましょう。初期値の 250 %を中心に分布しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-ease.png&#34; alt=&#34;やさしい単語帳の易しさの値の分布&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. やさしい単語帳の易しさの値の分布&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習間隔は教材の習熟度を示す指標にはなりますが、教材の難易度や設問設定の妥当性の理解には使えません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;やさしい単語帳も難しい単語帳も、慣れてしまえば復習間隔では見分けがつかない。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki で学習する時のやさしさ、負担の軽さを判断するには易しさのデータが適しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アドオンの入手方法&#34;&gt;アドオンの入手方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/494944895&#34;&gt;Ease Factor Histogram&lt;/a&gt;という名前で、AnkiWeb 上に公開しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンのダウンロードコードは &lt;code&gt;494944895&lt;/code&gt; です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンのインストールなどの基本情報は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_カードを再編集する場合の注意点&#34;&gt;カードを再編集する場合の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値が下限まで落ち込んだカードの内容を再編集しても、設定済みの易しさの値は変わりません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;今までのカードとは連続性のないカードと割り切って新規作成すれば、また初期値の 250% から再出発することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ただし作業効率上、既存のデータを流用したいのではないでしょうか。
-このような時にアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/787914845&#34;&gt;Create Copy of Selected Cards&lt;/a&gt; が役立ちます。このアドオンを使ってカードをコピーすると、学習履歴や易しさはコピーしないしません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Create Copy of Selected Cards の簡単な使い方は、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;で取り上げています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;易しさの値の統計情報は、単語帳のやさしさや、設問の適切さといった健全性の評価に使える。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;熟知なカードが多いが下限に達した易しさの値の比率が高いと、学習の負担が高くなる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;易しさの値は初期化できない。既存のカードを流用して新規作成すれば初期値から再出発できる。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
