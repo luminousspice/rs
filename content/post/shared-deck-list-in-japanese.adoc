@@ -54,6 +54,7 @@ https://ankiweb.net/shared/info/1639232676[日本史資料 武家諸法度], 歴
 https://ankiweb.net/shared/info/69487830[日本史資料 五箇条の御誓文], 歴史 日本史 古文 政治 法律
 https://ankiweb.net/shared/info/25909930[宮内庁用語集], 国語 儀式 漢字
 https://ankiweb.net/shared/info/818749478[歌舞伎の演目名], 日本史 演劇 漢字
+https://ankiweb.net/shared/info/1533786575[重要古文単語315 改訂版], 国語 古文
 https://ankiweb.net/shared/info/333780058[重要古文単語315], 国語 古文
 https://ankiweb.net/shared/info/641220595[古文単語], 国語 古文
 https://ankiweb.net/shared/info/152104200[小倉百人一首], 国語 古文 和歌
@@ -138,6 +139,7 @@ https://ankiweb.net/shared/info/1073450896[Japanese Newspaper 4560 Additional Ne
 https://ankiweb.net/shared/info/135266511[Japanese signs], 英語 日本語 標識 ピクトグラム 画像
 "https://ankiweb.net/shared/info/2754914665[55k WordNet Definitions & Sentences (Monolingual, Bilingual)]", 英語 日本語
 https://ankiweb.net/shared/info/615343093[sentenças em japonês], ポルトガル語 日本語
+https://ankiweb.net/shared/info/651556905[Japanese deck for Harry Potter, Vol 1 and 2], 英語 日本語
 https://ankiweb.net/shared/info/651475745[słówka japońskie], ポーランド語 日本語
 https://ankiweb.net/shared/info/224108184[Vocabulaire Japonais-Français], フランス語 日本語
 https://ankiweb.net/shared/info/722824598[Vocabulaire français-japonais], フランス語 日本語
