@@ -92,6 +92,10 @@ https://ankiweb.net/shared/info/3985963857[電験三種_機械], 電気 電気�
 https://ankiweb.net/shared/info/614725473[公害防止管理者（公害総論）], 環境 公害防止管理者 資格
 https://ankiweb.net/shared/info/1585384509[公害管理者試験（振動・騒音概論）], 環境 公害防止管理者 資格
 https://ankiweb.net/shared/info/611525897[確定給付企業年金法の法令解釈], 法律
+https://ankiweb.net/shared/info/1991613496[広告概論], 広告 心理
+https://ankiweb.net/shared/info/1047642993[Fox English 英検3級], 英語 日本語 音声
+https://ankiweb.net/shared/info/885914708[Fox English 英検4級], 英語 日本語 音声
+https://ankiweb.net/shared/info/787338013[Fox English 英検5級], 英語 日本語 音声
 https://ankiweb.net/shared/info/417940470[英語発音聞き取り改善（日本人のための）], 英語 日本語 発音 音声
 https://ankiweb.net/shared/info/676760195[英語Boost! ‐ 200 Common Phrasal Verbs (句動詞・熟語)], 英語 音声
 https://ankiweb.net/shared/info/1503073102[TOEIC Vocab - English for Japanese - 日本人のための英語コース], 英語 日本語 TOEIC 検定 画像
