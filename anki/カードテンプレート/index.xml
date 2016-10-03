@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>カードテンプレート on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/</link>
-    <description>カードテンプレート | the Right Stuff</description>
+    <title>the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml</link>
+    <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 17 Jun 2013 00:00:51 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
@@ -153,7 +152,7 @@
 &lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&amp;lt;span id=&#34;word&#34;&amp;gt;{{Front}}&amp;lt;/span&amp;gt;
 &amp;lt;script&amp;gt;
 var w = document.getElementById(&#34;word&#34;);
-window.setTimeout(&#34;speak(w.innerHTML)&#34;, 500);
+window.setTimeout(&#34;speak(w.innerText)&#34;, 500);
 function speak(word)
 {
 var speech = new SpeechSynthesisUtterance();
@@ -249,6 +248,9 @@ speechSynthesis.speak(speech);
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016/04/08: AnkiMobile 2.0.20 アップデートによる更新を反映&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/10/03: HTML タグを読まないようにカードテンプレートを変更&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

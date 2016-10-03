@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zencoding on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/zencoding/</link>
-    <description>Zencoding | the Right Stuff</description>
+    <title>the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/zencoding/index.xml</link>
+    <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Aug 2012 20:49:29 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/zencoding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/zencoding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Zencoding Automator Services</title>

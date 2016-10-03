@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/javascript/</link>
-    <description>Javascript | the Right Stuff</description>
+    <title>the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/javascript/index.xml</link>
+    <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 May 2016 13:49:38 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
@@ -774,7 +773,7 @@ title: &#34;全文検索&#34;
 &lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&amp;lt;span id=&#34;word&#34;&amp;gt;{{Front}}&amp;lt;/span&amp;gt;
 &amp;lt;script&amp;gt;
 var w = document.getElementById(&#34;word&#34;);
-window.setTimeout(&#34;speak(w.innerHTML)&#34;, 500);
+window.setTimeout(&#34;speak(w.innerText)&#34;, 500);
 function speak(word)
 {
 var speech = new SpeechSynthesisUtterance();
@@ -870,6 +869,9 @@ speechSynthesis.speak(speech);
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016/04/08: AnkiMobile 2.0.20 アップデートによる更新を反映&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/10/03: HTML タグを読まないようにカードテンプレートを変更&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

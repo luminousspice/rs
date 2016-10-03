@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>索引 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E7%B4%A2%E5%BC%95/</link>
-    <description>索引 | the Right Stuff</description>
+    <title>the Right Stuff</title>
+    <link>http://rs.luminousspice.com/tags/%E7%B4%A2%E5%BC%95/index.xml</link>
+    <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Jun 2013 00:00:48 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/tags/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

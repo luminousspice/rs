@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>手書き on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/</link>
-    <description>手書き | the Right Stuff</description>
+    <title>the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/index.xml</link>
+    <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Apr 2016 00:39:18 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>

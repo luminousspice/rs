@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>プレビュー on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC/</link>
-    <description>プレビュー | the Right Stuff</description>
+    <title>the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC/index.xml</link>
+    <description>the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Jun 2013 22:00:56 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="http://rs.luminousspice.com/anki/%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
