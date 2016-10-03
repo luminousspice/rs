@@ -1,7 +1,7 @@
 ---
 slug: "speech-text-on-ankimobile"
 date: "2014-06-21T23:30:03+00:00"
-lastmod: "2016-04-08T06:02:32+00:00"
+lastmod: "2016-10-03T13:43:20+00:00"
 title: "iPhone 版 Anki でテキストを読み上げるには"
 weight: 10
 categories: ["AnkiMobile","開発"]
@@ -95,7 +95,7 @@ AnkiMobile でカードを表示した時に自動的にテキストを読み上
 <span id="word">{{Front}}</span> 
 <script> 
 var w = document.getElementById("word"); 
-window.setTimeout("speak(w.innerHTML)", 500); 
+window.setTimeout("speak(w.innerText)", 500); 
 function speak(word) 
 { 
 var speech = new SpeechSynthesisUtterance(); 
@@ -155,3 +155,4 @@ iPhone のシステム iOS 自体は音声に関する豊富な機能を持っ�
 
 2016/04/08: AnkiMobile 2.0.20 アップデートによる更新を反映
 
+2016/10/03: HTML タグを読まないようにカードテンプレートを変更
