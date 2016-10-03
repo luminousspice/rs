@@ -27,7 +27,7 @@ test:
   post:
     - hugo version
     - hugo --baseURL="/"
-    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/la.ma.la/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/
+    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/la.ma.la/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/ --external_only
     - rm -rf public
 
 deployment:
