@@ -1,7 +1,7 @@
 ---
 slug: "anki-addons-guide"
 date: "2014-04-14T05:00:17+00:00"
-lastmod: "2016-06-02T07:32:11+00:00"
+lastmod: "2016-10-04T13:47:17+00:00"
 title: "Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち"
 weight: 20
 categories: ["Anki"]
@@ -155,14 +155,14 @@ image::/images/media_bulk_import_4.png["Media Import の処理完了"]
 
 このアドオン Media Import の簡単な利用例をlink:/bulk-import-media-files-into-anki/[画像、音声、動画などメディアファイルを Anki へ一括登録]で紹介しています。
 
-=== https://ankiweb.net/shared/info/1111933094[Image Occlusion 2.0 Enhanced]
+=== https://ankiweb.net/shared/info/1111933094[Image Occlusion Enhanced]
 
 暗記ペンを Anki 上で実現するアドオン。
 地図、解剖図、反応回路図など図表の一部をマスクして出題できます。
 
 このアドオンは、Image Occlusion の開発者から保守引き継いだ方による機能拡張版です。
 
-詳しい設定はlink:http://tmbb.bitbucket.org/image-occlusion-2/index.html[ドキュメント]をお読みください。
+詳しい設定はlink:https://github.com/Glutanimate/image-occlusion-enhanced/wiki[ドキュメント]あるいはlink:https://www.youtube.com/playlist?list=PL3MozITKTz5YFHDGB19ypxcYfJ1ITk_6o[チュートリアル動画]をお読みください。
 
 === https://ankiweb.net/shared/info/162313389[Power format pack]
 
@@ -322,3 +322,5 @@ Anki はアドオンの形でユーザーが機能拡張する機会を与えて
 2016/04/18: 更新: Image Occlusion、AwesomeTTS
 
 2016/04/26: 更新: ウェブブラウザ機能拡張
+
+2016/10/04: 更新: Image Occlusion
