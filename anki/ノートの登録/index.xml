@@ -1379,7 +1379,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;__a_href_https_ankiweb_net_shared_info_1111933094_image_occlusion_2_0_enhanced_a&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1111933094&#34;&gt;Image Occlusion 2.0 Enhanced&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;__a_href_https_ankiweb_net_shared_info_1111933094_image_occlusion_enhanced_a&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1111933094&#34;&gt;Image Occlusion Enhanced&lt;/a&gt;&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;暗記ペンを Anki 上で実現するアドオン。
 地図、解剖図、反応回路図など図表の一部をマスクして出題できます。&lt;/p&gt;
@@ -1388,7 +1388,7 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 &lt;p&gt;このアドオンは、Image Occlusion の開発者から保守引き継いだ方による機能拡張版です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;詳しい設定は&lt;a href=&#34;http://tmbb.bitbucket.org/image-occlusion-2/index.html&#34;&gt;ドキュメント&lt;/a&gt;をお読みください。&lt;/p&gt;
+&lt;p&gt;詳しい設定は&lt;a href=&#34;https://github.com/Glutanimate/image-occlusion-enhanced/wiki&#34;&gt;ドキュメント&lt;/a&gt;あるいは&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3MozITKTz5YFHDGB19ypxcYfJ1ITk_6o&#34;&gt;チュートリアル動画&lt;/a&gt;をお読みください。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
@@ -1664,6 +1664,9 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016/04/26: 更新: ウェブブラウザ機能拡張&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/10/04: 更新: Image Occlusion&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
