@@ -1,7 +1,7 @@
 baseurl = "http://rs.luminousspice.com"
 languageCode = "ja"
 title = "the Right Stuff"
-author = "luminosspice"
+author = "luminousspice"
 theme = "lanyon"
 paginate = 5
 paginatePath ="p"
@@ -22,9 +22,9 @@ googleAnalytics = "UA-29141274-4"
 [params]
 	description = "このコンテンツは @luminousspice が非同期的に更新しています。経時的な順序に意味はありません。"
 	topitem = 5
-	author = "luminosspice"
-	githubName = "luminosspice"
-	twitterName = "luminosspice"
+	author = "luminousspice"
+	githubName = "luminousspice"
+	twitterName = "luminousspice"
 	siteImage = "/apple-touch-icon.png"
 	twitterCardImage = "/apple-touch-icon.png"
 	feeditem = 5
