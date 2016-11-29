@@ -143,7 +143,7 @@ image::/images/awesometts-presetgroup-say.png["選択範囲の読み上げ"]
 .Download audio
 image::/images/addon-download-audio.png["Download audio"]
 
-このアドオンを詳細に設定するための、link:http://ospalh.github.io/anki-addons/Download%20audio.html[マニュアル]も用意されています。
+このアドオンを詳細に設定するための、link:https://ospalh.github.io/anki-addons/Download_audio.html[マニュアル]も用意されています。
 
 === https://ankiweb.net/shared/info/1531997860[Media Import]
 
