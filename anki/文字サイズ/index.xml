@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the Right Stuff</title>
+    <title>文字サイズ on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E6%96%87%E5%AD%97%E3%82%B5%E3%82%A4%E3%82%BA/index.xml</link>
-    <description>the Right Stuff</description>
+    <description>文字サイズ | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
@@ -224,7 +224,7 @@
 &lt;div class=&#34;title&#34;&gt;図 8. Download audio&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオンを詳細に設定するための、&lt;a href=&#34;http://ospalh.github.io/anki-addons/Download%20audio.html&#34;&gt;マニュアル&lt;/a&gt;も用意されています。&lt;/p&gt;
+&lt;p&gt;このアドオンを詳細に設定するための、&lt;a href=&#34;https://ospalh.github.io/anki-addons/Download_audio.html&#34;&gt;マニュアル&lt;/a&gt;も用意されています。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;

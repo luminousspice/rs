@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the Right Stuff</title>
+    <title>削除ログ on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E5%89%8A%E9%99%A4%E3%83%AD%E3%82%B0/index.xml</link>
-    <description>the Right Stuff</description>
+    <description>削除ログ | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>

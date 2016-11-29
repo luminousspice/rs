@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the Right Stuff</title>
+    <title>開発 on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/%E9%96%8B%E7%99%BA/index.xml</link>
-    <description>the Right Stuff</description>
+    <description>開発 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>

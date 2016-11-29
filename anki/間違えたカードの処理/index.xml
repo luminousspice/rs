@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the Right Stuff</title>
+    <title>間違えたカードの処理 on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E9%96%93%E9%81%95%E3%81%88%E3%81%9F%E3%82%AB%E3%83%BC%E3%83%89%E3%81%AE%E5%87%A6%E7%90%86/index.xml</link>
-    <description>the Right Stuff</description>
+    <description>間違えたカードの処理 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>

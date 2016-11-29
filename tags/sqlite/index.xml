@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the Right Stuff</title>
+    <title>Sqlite on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/sqlite/index.xml</link>
-    <description>the Right Stuff</description>
+    <description>Sqlite | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
@@ -146,7 +146,12 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
 &lt;hr&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;_anki_2_0_アドオンの作成&#34; class=&#34;sect0&#34;&gt;Anki 2.0 アドオンの作成&lt;/h1&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_anki_2_0_アドオンの作成&#34;&gt;Anki 2.0 アドオンの作成&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
 &lt;h2 id=&#34;_原文&#34;&gt;原文&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
