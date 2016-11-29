@@ -29,7 +29,7 @@ Anki 2.0 は 2016 年 5 月 1 日現在、最新バージョンは 2.0.36 です
 _ Writing Anki 2.0 Add-ons _
 /////
 
-= Anki 2.0 アドオンの作成
+== Anki 2.0 アドオンの作成
 
 /////
 = Translations =
