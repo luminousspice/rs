@@ -1,0 +1,39 @@
+---
+slug: "skype-audio-into-anki-for-mac"
+date: "2016-11-29T09:44:27+00:00"
+title: "Skype 音声を Anki に録音する"
+categories: ["Anki"]
+tags: ["Anki","Soundflower","Skyep"]
+anki: ["ノートの登録","メディアの登録","録音","音声"]
+excerpt: "オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。"
+---
+= Skype 音声を Anki に録音する
+:author: luminousspice
+:lang: ja
+:encoding: UTF-8
+:keywords:
+:description: オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。
+:figure-caption: 図
+
+{description}
+
+この投稿は、Mac ユーザー限定の内容です。
+
+link:http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/[Mac で再生中の音声を Anki に直接録音する]では、Mac で再生した音声を Anki に直接取り込む方法を紹介しました。
+
+Skype での会話内容を Anki に取り込むには、さらに次のように Skype を設定します。
+
+メニューバーから [設定] を選択し、[音声/ビデオ] タブを選択します。 
+
+ここで、スピーカー項目を [複数出力装置] に設定すると完了です。
+
+.Skype 音声の設定例
+image::images/skype-audio-preference.png["Skype 音声の設定例"]
+
+これで、Anki の録音機能を使って音声を登録できるようになります。
+
+Skype での会話を繰り返し練習して、効果を高めるために Anki をご活用ください。
+
+
+
+
