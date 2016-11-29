@@ -12,7 +12,7 @@
     {{ if .IsPage }}{{ $.Scratch.Add "thisrel" .RelPermalink }}{{ else }}{{ $.Scratch.Add "thisrel" .URL }}{{ end }}{{ range .Site.Menus.main }}
     <a class="sidebar-nav-item {{ if eq .URL ($.Scratch.Get "thisrel")}} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>{{ end }}
     {{ $thisperma := .Permalink }}{{ range .Site.Pages.ByWeight }}{{ if isset .Params "sidebar" }}<a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}{{ end }}{{ if .Site.Params.Githubname }}
-    <a class="sidebar-nav-item" href="http://github.com/{{ .Site.Params.Githubname }}">GitHub project</a>{{ end }}
+    <a class="sidebar-nav-item" href="https://github.com/{{ .Site.Params.Githubname }}">GitHub project</a>{{ end }}
   </nav>
 
   <div class="sidebar-item">
