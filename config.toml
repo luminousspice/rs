@@ -33,7 +33,7 @@ googleAnalytics = "UA-29141274-4"
 	DateForm = "2006-01-02"
 
 [params.github]
-	url = "http://github.com/luminousspice/"
+	url = "https://github.com/luminousspice/"
 
 [[menu.main]]
 	name = "総目次"
