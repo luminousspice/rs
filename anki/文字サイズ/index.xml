@@ -343,6 +343,18 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;div class=&#34;title&#34;&gt;図 13. サイドバー内のタグを階層化表示&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;__a_href_https_ankiweb_net_shared_info_544521385_advanced_previewer_a&#34;&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/544521385&#34;&gt;Advanced Previewer&lt;/a&gt;&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ブラウザのカードプレビュー機能を強化するアドオンです。カードの両面を同時に表示したり、カードブラウザで選択した複数のカードを一度にプレビューすることができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-advanced-previewer.png&#34; alt=&#34;Advanced Previewer&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 14. 複数のカードの両面をプレビュー表示&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
@@ -378,7 +390,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/addons_ankifox.png&#34; alt=&#34;AnkiFox&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 14. AnkiFox&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 15. AnkiFox&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。&lt;/p&gt;
@@ -448,7 +460,7 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/addons_guide_2.png&#34; alt=&#34;レイティングを付ける場所&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 15. レイティングを付ける場所&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 16. レイティングを付ける場所&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;それでは、作者のやる気を引き出す評価基準を参考までにあげておきましょう。
@@ -532,6 +544,9 @@ Anki の標準機能に盛り込んでもおかしくない機能を提供して
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;2016/10/04: 更新: Image Occlusion&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/12/10: 追加: Advanced Previewer&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
