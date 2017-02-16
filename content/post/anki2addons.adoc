@@ -58,7 +58,7 @@ tutorial] before proceeding with the rest of this document.
 Anki は、ユーザーフレンドリーなプログラミング言語 Python で作成しています。
 Python についてあまり詳しくない方は、この文書の先を読む前に
 link:http://docs.python.org/tutorial/[Python tutorial] をお読みください。
-(訳注: link:http://www.python.jp/doc/release/tutorial/index.html[Python チュートリアル
+(訳注: link:http://docs.python.jp/3/tutorial/index.html[Python チュートリアル
 日本語版])
 
 /////
