@@ -71,11 +71,16 @@
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_通話以外での音声データの録音&#34;&gt;通話以外での音声データの録音&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;通話やチャットできない相手との発音やアクセント練習のための音声は、録音共有サービスの &lt;a href=&#34;https://clyp.it&#34;&gt;clyp.it&lt;/a&gt;, &lt;a href=&#34;http://vocaroo.com&#34;&gt;vocaroo.com&lt;/a&gt; を使って交換しています。&lt;/p&gt;
+&lt;p&gt;通話やチャットできない相手との発音やアクセント練習のための音声は、録音共有サービスの &lt;a href=&#34;https://clyp.it&#34;&gt;Clyp&lt;/a&gt; を使って交換しています。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;それぞれのサービスでは埋め込み機能を用意していますが、現状では Anki では動作しません。
-現在アルファ版の Anki 2.1 系列では変更があるかもしれません。&lt;/p&gt;
+&lt;p&gt;Clyp の埋め込み機能は Anki 上で表示することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;images/reinforce-online-lesson-clyp.png&#34; alt=&#34;Clyp データの表示例&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. Clyp データの表示例&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
