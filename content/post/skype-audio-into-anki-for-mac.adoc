@@ -3,7 +3,7 @@ slug: "skype-audio-into-anki-for-mac"
 date: "2016-11-29T09:44:27+00:00"
 title: "Skype 音声を Anki に録音する"
 categories: ["Anki"]
-tags: ["Anki","Soundflower","Skyep"]
+tags: ["Anki","Soundflower","Skype"]
 anki: ["ノートの登録","メディアの登録","録音","音声"]
 excerpt: "オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。"
 ---
