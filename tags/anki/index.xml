@@ -11,6 +11,135 @@
     <atom:link href="/tags/anki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>オンラインレッスンを強化する Anki の使い方</title>
+      <link>http://rs.luminousspice.com/reinfoce-online-lesson-with-anki/</link>
+      <pubDate>Thu, 16 Feb 2017 12:26:59 +0900</pubDate>
+      <guid>http://rs.luminousspice.com/reinfoce-online-lesson-with-anki/</guid>
+      <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。</description>
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_オンラインレッスンが言語学習を変えた&#34;&gt;オンラインレッスンが言語学習を変えた&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;動画チャットやボイスチャットのアプリケーションの利用率が上がり、オンラインで外国語のレッスンが簡単に受けられるようになりました。
+さらに教師や言語交換パートナーをマッチングする SNS の完成度が高まったお陰で、自分の都合の良い時間に都合の良い場所で、世界中から自分の学習したい内容に見合った相手と外国語を練習できるようになりました。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私もポルトガル語、フランス語、英語の練習を毎日ネイティブスピーカーとできるようになりました。発音でも、朗読でも、作文でも、会話でも目的に適った方法を指定して練習できます。ゼロから始めた外国語でも進歩の実感がこれまでとは格段に違います。これは、とても素晴らしいことです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;一つ気になる点は、レッスンが簡単に受けられる分、復習がおろそかになりがちなことです。気を抜くとレッスンを受け流してしまい、大切な事項が中々身につかなくなります。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;そこで、今回はオンラインレッスンの効果を上げるための Anki を活用した復習の仕方を紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_音声データの復習&#34;&gt;音声データの復習&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Skype などでのビデオ通話や通常の通話でのオンラインレッスンの記録として一番使いやすいのは音声データです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私は、相手から許可を取って発音練習、テキスト朗読、例文の読み上げや、ディクテーションなどで記録したデータを Anki のカードにしています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;発音やディクテーションといったフラッシュカードとはなじみのない練習方法でも、Anki を使って復習の管理ができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;で紹介した方法で通話アプリから音声を取り込んでいます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私は、音声データは必要な部分だけを編集して使っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_既に加工済みデータがある方へ&#34;&gt;既に加工済みデータがある方へ&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;すでに音声データを作って復習している場合は、分割したデータを大量に Anki に登録する方法は、&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt; を参考にすると良いでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki への音声や画像データの基本的な一括登録方法は &lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt; で説明してます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_通話以外での音声データの録音&#34;&gt;通話以外での音声データの録音&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;通話やチャットできない相手との発音やアクセント練習のための音声は、録音共有サービスの &lt;a href=&#34;https://clyp.it&#34;&gt;clyp.it&lt;/a&gt;, &lt;a href=&#34;http://vocaroo.com&#34;&gt;vocaroo.com&lt;/a&gt; を使って交換しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;それぞれのサービスでは埋め込み機能を用意していますが、現状では Anki では動作しません。
+現在アルファ版の Anki 2.1 系列では変更があるかもしれません。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_チャットログの復習&#34;&gt;チャットログの復習&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;テキストチャットやメッセージ交換で言語交換しているとテキストのログデータが大量に溜まります。このデータも Anki に持ち込めば、漏らさずスケジュール管理して復習することができます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Skype でのビデオ通話での文字データでの説明にテキストチャットを併用しています。またディクテーションや発音練習、聴き取り練習の際にも利用しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;このデータも表計算ソフトやテキストエディタで TSV か CSV に加工して、&lt;a href=&#34;https://ankiweb.net/shared/info/1749692420&#34;&gt;Add Note From Clipboard&lt;/a&gt;というアドオンを使ってクリップボード経由で Anki に取り込んでいます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;ファイルへの書き出しも不要で、ノートタイプやタグの指定もでき、レッスン後すぐにカード化できます。実際の手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介している通りです。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;また、このカードでは &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; というアドオンを使って、合成音声で読み上げをしています。設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki へのテキストデータの一括登録方法の基本は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_添削データの復習&#34;&gt;添削データの復習&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://Lang-8.com&#34;&gt;Lang-8&lt;/a&gt; や &lt;a href=&#34;https://italki.com&#34;&gt;iTalki&lt;/a&gt; などの言語交換 SNS を使うとネイティブスピーカーから作文の添削を受けることができます。また、直接ネイティブスピーカーとレッスンしている方でも、作文の練習をしている方もいるでしょう。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;私は、作文だけに特化した言語パートナーと添削の交換をしています。
+添削済みのデータも Anki に登録して復習しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;添削データの場合には、解説やメモを付けるので一括登録ではなく、文字を装飾しながら一件ずつ登録しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;オンラインレッスンは Anki を使うと復習管理ができ、繰り返し練習できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;発音練習やディクテーションのなど一人で復習するのが難しい練習も Anki を使うと可能になる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テキストのログデータもアドオンを使うと簡単に Anki でカード化できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Skype 音声を Anki に録音する</title>
       <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
       <pubDate>Tue, 29 Nov 2016 09:44:27 +0900</pubDate>
@@ -686,164 +815,6 @@ addHook(&#34;showAnswer&#34;, loadhtml5controller)&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;学習画面でアドオンを使って JavaScript を読み込ませることができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
-      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
-      <pubDate>Fri, 13 May 2016 14:42:29 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
-      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の評価に役立ちます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の評価に役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_熟知しているのに辛い単語帳&#34;&gt;熟知しているのに辛い単語帳&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の利用歴を重ねて、教材に慣れ復習間隔も大分開いてきたにもかかわらず、やればやるほど負担に感じることありませんか。
-ある単語帳の学習履歴を紹介しましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-reviews.png&#34; alt=&#34;再学習が際立つ単語帳&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 再学習が際立つ単語帳&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実はこの単語帳は熟知の比率 86%、平均復習間隔 7.1 か月です。統計情報の円グラフを見る限りでは何の問題もありません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;以前にも増して、一度間違えたカードが中々消えてくれない点が気になる単語帳だったのです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;熟知なカードの比率が高い単語帳が、やさしい単語帳とは限らない。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習間隔を決定するのは、直前の復習間隔と易しさの値、解答時の評価です。
-この単語帳は [もう一回] と [普通] 以外押すことがないので、易しさの値について詳しく見ていきましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_易しさの値とは&#34;&gt;易しさの値とは&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値 (Ease Factor) は、次回の復習間隔を決定する際に、直前の復習間隔に書ける係数で初期値では 250% です。
-前回から 10 日後に復習して [普通] ボタンを押すと、次は 25 日後になるのはこのような仕組みからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値が変化するのは、復習で [普通] ボタン以外のボタンを押した時で、[簡単] ボタンを押さない限り増えません。易しさの値というのはカードの学習履歴を数値化した指標とも言えるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値には下限があり 130% に設定されています。これ以下になるともはや SRS としての機能は働かなくなり普通の単語帳ソフトと変わらなくなります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ちなみに初期値 250% のカードを復習で [もう一回] を 6 回押すと、易しさの値は下限の 130% に到達します。そしてさらに二回押すと、めでたくそのカードは&lt;a href=&#34;http://rs.luminousspice.com/management_of_leeches/&#34;&gt;無駄なカードという扱いを受け保留状態&lt;/a&gt;になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;もし易しさの値の度数分布を求めることができれば、単語帳全体の易しさや、設問の適切さの評価に使えるのではないかかと考えました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_易しさの値の統計値を知りたい&#34;&gt;易しさの値の統計値を知りたい&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値はカードブラウザからカード一枚一枚について調べることができますが、集団としての情報を知ることができません。そこで、単語帳単位で易しさの数値の度数分布表を表示するアドオンを作りました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオンを使って調べた上図の単語帳の易しさのデータを次に示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-hard.png&#34; alt=&#34;Ease Factor Histogram 表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. Ease Factor Histogram 表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習間隔から見れば十分広がって、成熟した教材なのですが、学習負担が一向に軽くならない理由がわかりました。
-一度間違えたカードが中々消えてくれないのは、易しさの値の下限に集中していることが原因だったのです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これに対してやさしいと感じる単語帳のデータを紹介しましょう。初期値の 250 %を中心に分布しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-ease-factor-ease.png&#34; alt=&#34;やさしい単語帳の易しさの値の分布&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. やさしい単語帳の易しさの値の分布&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習間隔は教材の習熟度を示す指標にはなりますが、教材の難易度や設問設定の妥当性の理解には使えません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;やさしい単語帳も難しい単語帳も、慣れてしまえば復習間隔では見分けがつかない。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki で学習する時のやさしさ、負担の軽さを判断するには易しさのデータが適しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アドオンの入手方法&#34;&gt;アドオンの入手方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/494944895&#34;&gt;Ease Factor Histogram&lt;/a&gt;という名前で、AnkiWeb 上に公開しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンのダウンロードコードは &lt;code&gt;494944895&lt;/code&gt; です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンのインストールなどの基本情報は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_カードを再編集する場合の注意点&#34;&gt;カードを再編集する場合の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;易しさの値が下限まで落ち込んだカードの内容を再編集しても、設定済みの易しさの値は変わりません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;今までのカードとは連続性のないカードと割り切って新規作成すれば、また初期値の 250% から再出発することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ただし作業効率上、既存のデータを流用したいのではないでしょうか。
-このような時にアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/787914845&#34;&gt;Create Copy of Selected Cards&lt;/a&gt; が役立ちます。このアドオンを使ってカードをコピーすると、学習履歴や易しさはコピーしないしません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Create Copy of Selected Cards の簡単な使い方は、&lt;a href=&#34;http://rs.luminousspice.com/anki_reset/&#34;&gt;Ankiと初期化&lt;/a&gt;で取り上げています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;易しさの値の統計情報は、単語帳のやさしさや、設問の適切さといった健全性の評価に使える。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;熟知なカードが多いが下限に達した易しさの値の比率が高いと、学習の負担が高くなる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;易しさの値は初期化できない。既存のカードを流用して新規作成すれば初期値から再出発できる。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
