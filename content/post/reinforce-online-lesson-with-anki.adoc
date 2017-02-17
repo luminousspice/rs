@@ -1,5 +1,5 @@
 ---
-slug: "reinfoce-online-lesson-with-anki"
+slug: "reinforce-online-lesson-with-anki"
 date: "2017-02-16T12:26:59+00:00"
 title: "オンラインレッスンを強化する Anki の使い方"
 categories: ["Anki"]

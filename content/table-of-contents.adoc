@@ -99,7 +99,7 @@ Anki の主要なユーザーインターフェイスを紹介し、利用可能
 * link:/suitable-deck/[おすすめ Anki 単語帳について]
 * link:/anki-restore-guide/[転んでもタダでは起きない Anki 再履修の手引き]
 * link:/learn-with-anki/[暗記に強くなるために Anki から上手くサポートを得るには]
-* link:/reinfoce-online-lesson-with-anki/[オンラインレッスンを強化する Anki の使い方]
+* link:/reinforce-online-lesson-with-anki/[オンラインレッスンを強化する Anki の使い方]
 
 === Anki の教材作成
 
