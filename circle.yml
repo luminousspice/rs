@@ -15,7 +15,8 @@ machine:
 
 dependencies:
   pre:
-    - go get -v github.com/spf13/hugo
+    - go get github.com/kardianos/govendor
+    - govendor get github.com/spf13/hugo
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@example.com"
   override:
