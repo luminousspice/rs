@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>メディアの登録 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/</link>
     <description>メディアの登録 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Fri, 01 Jan 2016 23:15:03 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>

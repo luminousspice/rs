@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Base64 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/base64/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/base64/</link>
     <description>Base64 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sun, 29 May 2016 13:33:42 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/base64/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/base64/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Data URI を使って画像を Anki カードに埋め込む</title>

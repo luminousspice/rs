@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ipod Touch on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/ipod-touch/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/ipod-touch/</link>
     <description>Ipod Touch | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/ipod-touch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ipod-touch/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>

@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/mac/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/mac/</link>
     <description>Mac | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Fri, 07 Jun 2013 22:30:38 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/mac/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>

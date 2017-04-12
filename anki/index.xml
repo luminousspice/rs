@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>索引 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E7%B4%A2%E5%BC%95/</link>
-    <description>索引 | the Right Stuff</description>
+    <title>Anki on the Right Stuff</title>
+    <link>http://rs.luminousspice.com/anki/</link>
+    <description>Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Jun 2013 00:00:48 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2013 10:00:37 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/%E7%B4%A2%E5%BC%95/" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

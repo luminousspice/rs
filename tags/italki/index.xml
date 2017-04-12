@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Italki on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/italki/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/italki/</link>
     <description>Italki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Thu, 16 Feb 2017 12:26:59 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/italki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/italki/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>

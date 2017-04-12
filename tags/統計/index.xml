@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>統計 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E7%B5%B1%E8%A8%88/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/%E7%B5%B1%E8%A8%88/</link>
     <description>統計 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 06 Sep 2014 19:00:09 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/%E7%B5%B1%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E7%B5%B1%E8%A8%88/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki における新規カード一分間トラップの分析</title>

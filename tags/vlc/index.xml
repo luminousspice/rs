@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vlc on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/vlc/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/vlc/</link>
     <description>Vlc | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 02 Apr 2016 20:03:15 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/vlc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/vlc/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki のメディアプレイヤーを mpv に取り替える</title>

@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>単語帳の作成 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%81%AE%E4%BD%9C%E6%88%90/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%81%AE%E4%BD%9C%E6%88%90/</link>
     <description>単語帳の作成 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 20 Apr 2013 09:00:02 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%81%AE%E4%BD%9C%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%81%AE%E4%BD%9C%E6%88%90/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ankiにデータをまとめて取り込む</title>

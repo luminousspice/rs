@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>穴埋め on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/</link>
     <description>穴埋め | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Tue, 18 Jun 2013 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>

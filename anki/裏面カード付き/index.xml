@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>裏面カード付き on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/</link>
     <description>裏面カード付き | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 12 Oct 2013 23:30:56 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E8%A3%8F%E9%9D%A2%E3%82%AB%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>

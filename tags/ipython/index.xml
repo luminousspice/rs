@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ipython on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/ipython/index.xml</link>
+    <link>http://rs.luminousspice.com/tags/ipython/</link>
     <description>Ipython | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Mon, 02 Dec 2013 00:00:49 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/ipython/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ipython/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>

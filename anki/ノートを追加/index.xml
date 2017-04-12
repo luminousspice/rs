@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ノートを追加 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/</link>
     <description>ノートを追加 | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki ショートカットキー</title>

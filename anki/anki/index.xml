@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anki on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/anki/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/anki/</link>
     <description>Anki | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 16 Apr 2016 11:09:59 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/anki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/anki/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anki ユーザーインターフェイスガイド</title>

@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>書き出し on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E6%9B%B8%E3%81%8D%E5%87%BA%E3%81%97/index.xml</link>
+    <link>http://rs.luminousspice.com/anki/%E6%9B%B8%E3%81%8D%E5%87%BA%E3%81%97/</link>
     <description>書き出し | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Sat, 28 Sep 2013 22:00:25 +0900</lastBuildDate>
     <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E6%9B%B8%E3%81%8D%E5%87%BA%E3%81%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/anki/%E6%9B%B8%E3%81%8D%E5%87%BA%E3%81%97/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AnkiMobile ノート: データ入出力</title>
