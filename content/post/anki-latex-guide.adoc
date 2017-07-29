@@ -1,11 +1,12 @@
-+++
-date = "2016-04-14T11:23:07+00:00"
-title = "Anki ユーザーのための LaTeX 利用ガイド"
-categories = ["Anki"]
-tags = ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
-anki = ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
-excerpt = "Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。"
-+++
+---
+date: "2016-04-14T11:23:07+00:00"
+lastmod: "2017-07-29T08:08:34+00:00"
+title: "Anki ユーザーのための LaTeX 利用ガイド"
+categories: ["Anki"]
+tags: ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
+anki: ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
+excerpt: "Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。"
+---
 = Anki ユーザーのための LaTeX 利用ガイド
 :author: luminousspice
 :lang: ja
@@ -167,6 +168,18 @@ Anki は、メディアフォルダーのサブディレクトリの呼び出し
 .アドオンについて
 以前 MathJax を使うためのアドオンが公開されていましたが、現在では削除されています。このためテンプレートに直接呼び出しスクリプトを書き込む方法を紹介しました。
 
+== 将来のバージョンについて
+
+今後リリース予定の Anki 2.1 と AnkiMobile 2.0.32 では、LaTeX に関係する機能拡張が行われる予定です。
+
+=== MathJax の取り込み
+
+Anki 2.1 beta 5 で MathJax が Anki に組み込まれました。これ以後のバーションでは、MathJax を呼び出すタグをテンプレートに書き込むことが不要になります。また、AnkiMobile 2.0.32 以降のバージョンにも MathJax が取り込まれる予定です。
+
+=== SVG ファイルサポート
+
+数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには `dvisvgm` がインストール済みであることが必要です。この機能を有効にするには、メニューバーから [Tools] - [Manage Note Types] - [Options] を開き、[Create scalable images with dvisvgm] を選択します。AnkiMobile 2.0.32 以降では、SVG ファイルのサポートをする予定ですので、同期したSVGファイルも表示できるようになります。
+
 == まとめ
 
 * Anki は、内部的に LaTeX 表記を画像にして保存している。
@@ -180,6 +193,12 @@ Anki は、メディアフォルダーのサブディレクトリの呼び出し
 * Anki ソースファイル https://github.com/dae/anki/blob/master/anki/latex.py[anki/latex.py]
 * http://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html[BeamerのためのTikZ]
 * http://tex.stackexchange.com/questions/119349/what-preamble-does-math-stackexchange-com-use[What preamble does math.stackexchange.com use?]
+
+== 更新情報
+
+2016/04/14: 初出
+
+2017/07/29: 追加: 2.1 beta 5 における機能拡張について
 
 ////
 .MathJax アドオン
