@@ -501,10 +501,8 @@ addHook(&#34;showAnswer&#34;, loadhtml5controller)&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;HTML5 のメディア機能で動画の再生速度は JavaScript で制御できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Anki には、jQuery と jQuery UI が組み込まれているので追加ファイル不要で利用可能。&lt;/p&gt;
+&lt;p&gt;HTML5 のメディア機能で動画の再生速度は JavaScript で制御できる。
+*　Anki には、jQuery と jQuery UI が組み込まれているので追加ファイル不要で利用可能。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;学習画面とプレビュー画面では読み込んだ JavaSript の動作が異なる場合がある。&lt;/p&gt;

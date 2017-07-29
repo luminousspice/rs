@@ -50,17 +50,9 @@
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この方法は、単語帳単位での読み込みが可能ですが、&lt;code&gt;collection.apkg&lt;/code&gt; も同様に可能です。&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;Safari 経由で apkg ファイルをダウンロード&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;メールに apkg ファイルを添付する&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Safari 経由で apkg ファイルをダウンロード::　ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。
+メールに apkg ファイルを添付する::  受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
