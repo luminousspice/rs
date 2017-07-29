@@ -223,40 +223,6 @@ image::/images/addons_hierarchical_tags.png["Hierarchical Tags"]
 .複数のカードの両面をプレビュー表示
 image::/images/addon-advanced-previewer.png["Advanced Previewer"]
 
-== 番外: AnkiWeb と連携するウェブブラウザの機能拡張
-
-Anki のアドオンではありませんが、Anki と連携して機能強化するウェブブラウザの機能拡張を紹介しましょう。
-
-ウェブブラウザの表示内容から AnkiWeb に直接書き込んで単語帳を作成できるようになります。
-同時にオンライン辞書などのオンラインリソースから訳語を調べる機能を持っています。
-
-オンラインの文書を読んで、語彙を拾って単語帳を作っている方に役立ちます。
-
-=== https://addons.mozilla.org/ja/firefox/addon/ankifox/[AnkiFox] (FireFox)
-
-FireFox 用のアドオンで、画面上で選択した文字列から AnkiWeb の単語帳に登録するものです。
-オンライン辞書を同時に開き、訳語を調べることが出来ます。辞書は4つまで登録可能です。
-
-. AnkiWeb にサインインした状態で、ブラウザ上で登録したい文字列を選択します。
-. 右クリックから[Add to Anki:(選択した文字列)]を選択すると、AnkiWeb の編集画面が開きます。
-
-.AnkiFox
-image::/images/addons_ankifox.png["AnkiFox"]
-
-なお、標準設定で Dictionary 2 に設定している WordReference.com の設定内容は次のように書き換えると英和辞典が機能します。
-
-.WordReference 英和設定例
-----
-http://www.wordreference.com/enja/%s
-----
-
-Weblio を使いたい場合は、次のように設定します。
-
-.Weblio 設定例
-----
-http://ejje.weblio.jp/content/%s
-----
-
 == アドオンを使い続けるのに必要なこと
 
 気に入って使い続けているアドオンがあれば、ぜひ AnkiWeb のダウンロードサイトでレイティングやコメントを付けてください。
