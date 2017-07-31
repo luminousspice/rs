@@ -178,7 +178,13 @@ Anki 2.1 beta 5 で MathJax が Anki に組み込まれました。これ以後�
 
 === SVG ファイルサポート
 
-数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには `dvisvgm` がインストール済みであることが必要です。この機能を有効にするには、メニューバーから [Tools] - [Manage Note Types] - [Options] を開き、[Create scalable images with dvisvgm] を選択します。AnkiMobile 2.0.32 以降では、SVG ファイルのサポートをする予定ですので、同期したSVGファイルも表示できるようになります。
+数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには `dvisvgm` がインストール済みであることが必要です。AnkiMobile 2.0.32 以降では、SVG ファイルのサポートをする予定ですので、同期したSVGファイルも表示できるようになります。
+
+.この機能を使うには
+この機能を有効にするには、メニューバーから [Tools] - [Manage Note Types] - [Options] を開き、[Create scalable images with dvisvgm] を選択します。
+
+.既存の PNG ファイルを一括変換
+この機能を有効にした後に [メディアをチェック] を実行すると、既存の PNG ファイルを SVG ファイルに置き換えます。
 
 == まとめ
 
