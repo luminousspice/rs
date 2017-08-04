@@ -37,7 +37,7 @@ link:https://ankiweb.net/shared/decks/[AnkiWeb に登録されている単語帳
 |===
 題名,タグ
 https://ankiweb.net/shared/info/206033178[Ankiの基礎知識], Tips 用語 ショートカット
-https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobile)], 英語 フランス語 ドイツ語 TTS 読み上げ
+https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobile)], 英語 フランス語 ドイツ語 スペイン語 ポルトガル語 TTS 読み上げ
 https://ankiweb.net/shared/info/722400168[MSDNワードリスト], 英語 情報 プログラミング 開発
 https://ankiweb.net/shared/info/740650993[航空英語能力証明], 英語 航空 交通 航空従事者 資格 音声
 https://ankiweb.net/shared/info/697716450[救急診療に役立つ暗記メモ集], 医学 医療
