@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2016-06-02T07:33:49+00:00"
+lastmod: "2017-08-04T11:31:22+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -41,19 +41,12 @@ https://ankiweb.net/shared/info/810249417[Speech Text template for iOS (AnkiMobi
 https://ankiweb.net/shared/info/722400168[MSDNワードリスト], 英語 情報 プログラミング 開発
 https://ankiweb.net/shared/info/740650993[航空英語能力証明], 英語 航空 交通 航空従事者 資格 音声
 https://ankiweb.net/shared/info/697716450[救急診療に役立つ暗記メモ集], 医学 医療
-https://ankiweb.net/shared/info/1205685053[GitHubチートシート], 情報 バージョン管理 プログラミング
-https://ankiweb.net/shared/info/928657053[摂氏華氏温度対応 (Celsius vs Fahrenheit)], 物理 化学 温度 単位
-https://ankiweb.net/shared/info/1880478902[航空用語集], 英語 略語 航空 交通
 https://ankiweb.net/shared/info/1112109660[数え方・数助詞], 国語 数助詞
 https://ankiweb.net/shared/info/135130229[反意語・対義語], 国語 漢字 熟語 反対語
 https://ankiweb.net/shared/info/263892501[変体仮名], 国語 古文 かな 変体仮名 毛筆
 https://ankiweb.net/shared/info/329800646[変体仮名 Hentaigana Variant Kana], 国語 古文 かな 変体仮名
 https://ankiweb.net/shared/info/587958922[Man'yougana 万葉仮名], 国語 古文 かな 万葉仮名
-https://ankiweb.net/shared/info/1351395850[日本史資料 十七条憲法], 歴史 日本史 古文 政治 法律
-https://ankiweb.net/shared/info/1639232676[日本史資料 武家諸法度], 歴史 日本史 古文 政治 法律
-https://ankiweb.net/shared/info/69487830[日本史資料 五箇条の御誓文], 歴史 日本史 古文 政治 法律
 https://ankiweb.net/shared/info/25909930[宮内庁用語集], 国語 儀式 漢字
-https://ankiweb.net/shared/info/818749478[歌舞伎の演目名], 日本史 演劇 漢字
 https://ankiweb.net/shared/info/1533786575[重要古文単語315 改訂版], 国語 古文
 https://ankiweb.net/shared/info/333780058[重要古文単語315], 国語 古文
 https://ankiweb.net/shared/info/641220595[古文単語], 国語 古文
@@ -72,27 +65,10 @@ https://ankiweb.net/shared/info/3372203342[簡単フランス語], フランス�
 https://ankiweb.net/shared/info/1194828453[フランス語単語], フランス語 日本語
 https://ankiweb.net/shared/info/3245135572[Rosetta stone ドイツ語(German) Level 3], ドイツ語 日本語
 https://ankiweb.net/shared/info/485323808[Rosetta stone ドイツ語(German) Level 4], ドイツ語 日本語
-https://ankiweb.net/shared/info/396806471[ポルトガル語ー日本語], ポルトガル語 日本語
-https://ankiweb.net/shared/info/1981573963[ポルトガル語ー日本語 複数形], ポルトガル語 日本語
-https://ankiweb.net/shared/info/1785823362[ポルトガル語ー日本語p], ポルトガル語 日本語
-https://ankiweb.net/shared/info/788807830[ソマリ語], ソマリ語 日本語
-https://ankiweb.net/shared/info/2946080634[日本人の為のペルシア語], ペルシア語 日本語
-https://ankiweb.net/shared/info/1252765692[ベトナム語666], ベトナム語 日本語
-https://ankiweb.net/shared/info/625959472[越語], ベトナム語 日本語
-https://ankiweb.net/shared/info/1235147594[越語2700], ベトナム語 日本語
 https://ankiweb.net/shared/info/1238396573[簡単中国語（北京語）], 中国語 日本語
 https://ankiweb.net/shared/info/771647964[簡単韓国語], 韓国語 日本語
 https://ankiweb.net/shared/info/1030183555[旧字体新字体 Kyuujitai Shinjitai], 国語 漢字
 https://ankiweb.net/shared/info/799735887[說文部首：楷體與小篆], 漢字 説文解字
-https://ankiweb.net/shared/info/833115970[十六進数掛け算], 算数 16進 情報
-https://ankiweb.net/shared/info/1037174978[電気通信主任技術者_伝送交換設備及び設備管理], 電気 通信 電気通信主任技術者 資格
-https://ankiweb.net/shared/info/4091424041[電験三種_法規], 電気 電気主任技術者 資格
-https://ankiweb.net/shared/info/1087111583[電験三種_電力], 電気 電気主任技術者 資格
-https://ankiweb.net/shared/info/3985963857[電験三種_機械], 電気 電気主任技術者 資格
-https://ankiweb.net/shared/info/614725473[公害防止管理者（公害総論）], 環境 公害防止管理者 資格
-https://ankiweb.net/shared/info/1585384509[公害管理者試験（振動・騒音概論）], 環境 公害防止管理者 資格
-https://ankiweb.net/shared/info/611525897[確定給付企業年金法の法令解釈], 法律
-https://ankiweb.net/shared/info/1991613496[広告概論], 広告 心理
 https://ankiweb.net/shared/info/1047642993[Fox English 英検3級], 英語 日本語 音声
 https://ankiweb.net/shared/info/885914708[Fox English 英検4級], 英語 日本語 音声
 https://ankiweb.net/shared/info/787338013[Fox English 英検5級], 英語 日本語 音声
@@ -106,7 +82,15 @@ https://ankiweb.net/shared/info/159860789[中学英語(English Japanese)], 英�
 https://ankiweb.net/shared/info/1955159956[TARGET ターゲット 1400 頻出単語 1-1100 English->Japanese], 英語 日本語
 https://ankiweb.net/shared/info/1794720435[GRE Quant英単語], 英語 日本語 GRE 数的推論 度量衡 検定
 https://ankiweb.net/shared/info/2041494066[800ベーシック英単語[CC4.0\]], 英語 日本語 ベーシック・イングリッシュ
-https://ankiweb.net/shared/info/333469572[Books of the Bible in Japanese], 英語 日本語 宗教 聖書
+https://ankiweb.net/shared/info/658718515[アラビア語基本単語 100 (Arabic Basic words 100)], アラビア語 日本語
+https://ankiweb.net/shared/info/1205516357[アラビア語基本動詞100 (Arabic Basic Verb 100)], アラビア語 日本語
+https://ankiweb.net/shared/info/1753112782[古典単語330], 国語 古文
+https://ankiweb.net/shared/info/1118571021[ターゲット1900], 英語 日本語
+https://ankiweb.net/shared/info/611525897[会社法 Japanese corporation law], 法律
+https://ankiweb.net/shared/info/1512683700[民法条文丸覚え Japanese Civil Law], 法律
+https://ankiweb.net/shared/info/1986604248[民法の見出しだけを覚える Japanese Civil Law], 法律
+https://ankiweb.net/shared/info/637229473[日本国憲法 （昭和二十一年十一月三日憲法）条文ー＞内容 Japanese constitution], 法律
+https://ankiweb.net/shared/info/593994427[Books of the Bible in Japanese], 英語 日本語 宗教 聖書
 https://ankiweb.net/shared/info/87825824[LSI Japanisch Aufbaukurs], ドイツ語 日本語
 https://ankiweb.net/shared/info/1871575935[日本語会話・和独 Japanisch Konversation・Japanisch-Deutsch], ドイツ語 日本語
 https://ankiweb.net/shared/info/1645174257[日常語彙], フランス語 日本語
@@ -118,7 +102,6 @@ https://ankiweb.net/shared/info/2095212688[Hán Tự Thường Dùng (Tiếng Nh
 https://ankiweb.net/shared/info/1781457420[Japonština LEDA], チェコ語 日本語
 https://ankiweb.net/shared/info/231402903[Polski-japonski by Adam], ポーランド語 日本語
 https://ankiweb.net/shared/info/398382772[Yhdyssanoja Basic Kanji book 2 (Finnish/Japanese)], フィンランド語 日本語
-https://ankiweb.net/shared/info/1384794163[Vocaboli ed espressioni giapponesi], イタリア語 日本語
 https://ankiweb.net/shared/info/4036197163[Italiano-Giapponese], イタリア語 日本語
 https://ankiweb.net/shared/info/1056471432[kotoba], スペイン語 日本語
 "https://ankiweb.net/shared/info/93980248[Japanese everyday words and phrases, translated into Russian]", ロシア語 日本語 音声
@@ -170,7 +153,6 @@ https://ankiweb.net/shared/info/274734459[Amino Acid Flashcards], 生化学 英�
 https://ankiweb.net/shared/info/275584315[Perodic table with atomic data], 化学 英語 ドイツ語 元素 周期表 融点 電子配置
 https://ankiweb.net/shared/info/1472635709[Ashtanga Yoga], ヨガ アシュタンガ 英語 サンスクリット アサナ 画像
 https://ankiweb.net/shared/info/441595417[Physical Exam: Heart Sounds], 医学 医療 心音 英語 音源
-https://ankiweb.net/shared/info/1475716870[Mathematical terms], 術語 英語 数学 算数
 https://ankiweb.net/shared/info/1085268504[American english pronunciation], 英語 発音 音声
 https://ankiweb.net/shared/info/168692952[Pronunciation practice phonetics (US accent+extra UK) M.F], 英語 発音 音声
 https://ankiweb.net/shared/info/644151027[Portuguese Phrase Book (Continental pronunciation)], ポルトガル語 発音 音声
@@ -178,7 +160,6 @@ https://ankiweb.net/shared/info/428194897[Quranic Arabic Verses word for word SI
 https://ankiweb.net/shared/info/3396002907[Russian Alphabet with Handwritten and Print fonts and sounds], ロシア語 発音 キリル文字 音声
 https://ankiweb.net/shared/info/534801471[Visual Spanish Plus Sound Files from Forvo], スペイン語 音声
 https://ankiweb.net/shared/info/629972372[French 500 coloured words with pictures and audio], フランス語 画像 音声
-https://ankiweb.net/shared/info/1467326161[5000 most common French words (with audio)], フランス語 音声
 https://ankiweb.net/shared/info/1045784819[• The Top 4000 Most Frequently Used French Words w/ Audio], フランス語 音声
 https://ankiweb.net/shared/info/293367340[A Frequency Dictionary of French (Complete)], フランス語
 https://ankiweb.net/shared/info/932662308[French Pronunciation], フランス語 発音 画像 音声
@@ -211,6 +192,7 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 === 注意事項
 
 * このデータは、AnkiWeb 共有単語帳の内容を自動的に反映したものではありません。
+* AnkiWeb では、定期的にダウンロードが少ない共有単語帳を自動削除しています。このためすでに削除された単語帳を含んでいる可能性があります。
 * 個人的な視点に基づいて選択したデータであって、AnkiWeb 登録の日本語単語帳の一部です。
 * 外国語がネイティブの方向けの日本語教材の中に、カードのデザインを工夫すれば、日本人向けの教材として使える物も手録しました。
 
@@ -238,11 +220,11 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 [frame="topbot",grid="rows",cols="2,3",width="",options="header",role="table table-striped table-bordered  table-hover"]
 |====
 |日本語キーワード|英語キーワード
-|link:https://ankiweb.net/shared/decks/%E6%97%A5%E6%9C%AC%E8%AA%9E[日本語], link:https://ankiweb.net/shared/decks/%E5%9B%BD%E8%AA%9E[国語],  link:https://ankiweb.net/shared/decks/%E6%BC%A2%E5%AD%97[漢字],  link:https://ankiweb.net/shared/decks/%E4%BB%AE%E5%90%8D[仮名], link:https://ankiweb.net/shared/decks/%E5%8F%A4%E6%96%87[古文], link:https://ankiweb.net/shared/decks/%E9%83%A8%E9%A6%96[部首]| link:https://ankiweb.net/shared/decks/japanese/[Japanese], link:https://ankiweb.net/shared/decks/kanji[Kanji]
-|アラビア語|link:https://ankiweb.net/shared/decks/arabic[Arabic]
+|link:https://ankiweb.net/shared/decks/%E6%97%A5%E6%9C%AC%E8%AA%9E[日本語]| link:https://ankiweb.net/shared/decks/japanese/[Japanese], link:https://ankiweb.net/shared/decks/kanji[Kanji]
+|link:https://ankiweb.net/shared/decks/%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2%E8%AA%9E[アラビア語]|link:https://ankiweb.net/shared/decks/arabic[Arabic]
 |イタリア語|link:https://ankiweb.net/shared/decks/Italian[Italian]
 |ウクライナ語|link:https://ankiweb.net/shared/decks/Ukrainian[Ukrainian]
-|link:https://ankiweb.net/shared/decks/%E8%8B%B1%E8%AA%9E[英語], link:https://ankiweb.net/shared/decks/%E8%8B%B1%E6%A4%9C[英検]|link:https://ankiweb.net/shared/decks/english[English],link:https://ankiweb.net/shared/decks/TOEFL[TOEFL], link:https://ankiweb.net/shared/decks/TOEIC[TOEIC], link:https://ankiweb.net/shared/decks/IELTS[IELTS], link:https://ankiweb.net/shared/decks/CAE[CAE]
+|英語|link:https://ankiweb.net/shared/decks/english[English],link:https://ankiweb.net/shared/decks/TOEFL[TOEFL], link:https://ankiweb.net/shared/decks/TOEIC[TOEIC], link:https://ankiweb.net/shared/decks/IELTS[IELTS], link:https://ankiweb.net/shared/decks/CAE[CAE]
 |link:https://ankiweb.net/shared/decks/%E9%9F%93%E5%9B%BD%E8%AA%9E[韓国語]|link:https://ankiweb.net/shared/decks/korean[Korean]
 |ギリシャ語|link:https://ankiweb.net/shared/decks/greek[Greek]
 |クメール語|link:https://ankiweb.net/shared/decks/Khmer[Khmer]
@@ -254,9 +236,9 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 |トルコ語|link:https://ankiweb.net/shared/decks/Turkish[Turkish]
 |ヒンディー語|link:https://ankiweb.net/shared/decks/hindi[Hindi]
 |link:https://ankiweb.net/shared/decks/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E8%AA%9E[フランス語]|link:https://ankiweb.net/shared/decks/french[French]
-|link:https://ankiweb.net/shared/decks/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E8%AA%9E[ベトナム語]|link:https://ankiweb.net/shared/decks/Vietnamese[Vietnamese]
+|ベトナム語|link:https://ankiweb.net/shared/decks/Vietnamese[Vietnamese]
 |ヘブライ語|link:https://ankiweb.net/shared/decks/Hebrew[Hebrew]
-|link:https://ankiweb.net/shared/decks/%E3%83%9A%E3%83%AB%E3%82%B7%E3%82%A2%E8%AA%9E[ペルシャ語]|link:https://ankiweb.net/shared/decks/persian[Persian]
+|ペルシャ語|link:https://ankiweb.net/shared/decks/persian[Persian]
 |ベンガル語|link:https://ankiweb.net/shared/decks/bengal[Bengal]
 |ポーランド語|link:https://ankiweb.net/shared/decks/Polish[Polish]
 |link:https://ankiweb.net/shared/decks/%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB%E8%AA%9E[ポルトガル語]|link:https://ankiweb.net/shared/decks/portugues[Portugues]
@@ -277,13 +259,13 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 |仏教|link:https://ankiweb.net/shared/decks/buddha[Buddha], link:https://ankiweb.net/shared/decks/buddhism[Buddhism]
 |心理|link:https://ankiweb.net/shared/decks/Psychology[Psychology]
 |言語|link:https://ankiweb.net/shared/decks/linguistics[Linguistics]
-|link:https://ankiweb.net/shared/decks/%E6%AD%B4%E5%8F%B2[歴史]|link:https://ankiweb.net/shared/decks/history[History], link:https://ankiweb.net/shared/decks/history%20of%20japan[History of Japan]
-|link:https://ankiweb.net/shared/decks/%E5%9C%B0%E7%90%86[地理]|link:https://ankiweb.net/shared/decks/Geography[Geography]
+|歴史|link:https://ankiweb.net/shared/decks/history[History], link:https://ankiweb.net/shared/decks/history%20of%20japan[History of Japan]
+|地理|link:https://ankiweb.net/shared/decks/Geography[Geography]
 |音楽|link:https://ankiweb.net/shared/decks/music[Music]
-|link:https://ankiweb.net/shared/decks/%E6%95%99%E8%82%B2[教育]|link:https://ankiweb.net/shared/decks/education[Education]
+|教育|link:https://ankiweb.net/shared/decks/education[Education]
 |学力試験|link:https://ankiweb.net/shared/decks/GCSE[GCSE], link:https://ankiweb.net/shared/decks/AQA[AQA], link:https://ankiweb.net/shared/decks/sat%20vocab[SAT Vocab]ulary, link:https://ankiweb.net/shared/decks/gre%20vocab[GRE Vocab]ulary
-|link:https://ankiweb.net/shared/decks/%E6%B3%95%E5%BE%8B[法律], link:https://ankiweb.net/shared/decks/%E6%B3%95%E4%BB%A4[法令]|link:https://ankiweb.net/shared/decks/law[Law]
-|link:https://ankiweb.net/shared/decks/%E6%94%BF%E6%B2%BB[政治]|link:https://ankiweb.net/shared/decks/politics[Politics]
+|法律|link:https://ankiweb.net/shared/decks/law[Law]
+|政治|link:https://ankiweb.net/shared/decks/politics[Politics]
 |経済|link:https://ankiweb.net/shared/decks/Economics[Economics]
 |会計|link:https://ankiweb.net/shared/decks/CPA[CPA]
 |マーケティング|link:https://ankiweb.net/shared/decks/Marketing[Marketing]
@@ -297,22 +279,22 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 |日本語キーワード|英語キーワード
 |数学|link:https://ankiweb.net/shared/decks/math[Math]
 |統計|link:https://ankiweb.net/shared/decks/statistics[Statistics]
-|link:https://ankiweb.net/shared/decks/%E7%89%A9%E7%90%86[物理]|link:https://ankiweb.net/shared/decks/physics[Physics]
-|link:https://ankiweb.net/shared/decks/%E5%8C%96%E5%AD%A6[化学]|link:https://ankiweb.net/shared/decks/chemistry[Chemistry]
+|物理|link:https://ankiweb.net/shared/decks/physics[Physics]
+|化学|link:https://ankiweb.net/shared/decks/chemistry[Chemistry]
 |生物|link:https://ankiweb.net/shared/decks/biology[Biology]
 |解剖学|link:https://ankiweb.net/shared/decks/anatomy[Anatomy]
 |生理学|link:https://ankiweb.net/shared/decks/Physiology[Physiology]
-|link:https://ankiweb.net/shared/decks/%E5%8C%BB%E5%AD%A6[医学], link:https://ankiweb.net/shared/decks/%E5%8C%BB%E7%99%82[医療]|link:https://ankiweb.net/shared/decks/medicine[Medicine], link:https://ankiweb.net/shared/decks/medical[Medical], link:https://ankiweb.net/shared/decks/USMLE[USMLE]
+|医学|link:https://ankiweb.net/shared/decks/medicine[Medicine], link:https://ankiweb.net/shared/decks/medical[Medical], link:https://ankiweb.net/shared/decks/USMLE[USMLE]
 |病理学|link:https://ankiweb.net/shared/decks/pathology[Pathology]
 |歯学|link:https://ankiweb.net/shared/decks/Dentistry[Dentistry], link:https://ankiweb.net/shared/decks/dental[Dental]
 |薬学|link:https://ankiweb.net/shared/decks/Pharmacology[Pharmacology],link:https://ankiweb.net/shared/decks/drug[Drug]
 |獣医学|link:https://ankiweb.net/shared/decks/Veterinary[Veterinary]
 |エンジニアリング|link:https://ankiweb.net/shared/decks/Engineering[Engineering]
 |建築|link:https://ankiweb.net/shared/decks/Architecture[Architecture]
-|link:https://ankiweb.net/shared/decks/%E6%83%85%E5%A0%B1[情報]|link:https://ankiweb.net/shared/decks/software[Software], link:https://ankiweb.net/shared/decks/Programming[Programming], link:https://ankiweb.net/shared/decks/network[Network]
+|情報|link:https://ankiweb.net/shared/decks/software[Software], link:https://ankiweb.net/shared/decks/Programming[Programming], link:https://ankiweb.net/shared/decks/network[Network]
 |金属|link:https://ankiweb.net/shared/decks/metal[Metal]
 |デザイン|link:https://ankiweb.net/shared/decks/design[Design]
-|環境, link:https://ankiweb.net/shared/decks/%E5%85%AC%E5%AE%B3[公害]|link:https://ankiweb.net/shared/decks/environment[Environment]
+|環境|link:https://ankiweb.net/shared/decks/environment[Environment]
 |====
 
 == 更新情報
@@ -324,3 +306,5 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 2016/01/27: 最新情報にあわせて全面更新
 
 2016/02/05: 単語帳検索画面を追加
+
+2017/08/04: 情報更新
