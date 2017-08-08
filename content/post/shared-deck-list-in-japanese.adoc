@@ -129,8 +129,6 @@ https://ankiweb.net/shared/info/414459136[Japanese Counters], 英語 日本語 �
 https://ankiweb.net/shared/info/1771382918[Japanese Counters], 英語 日本語 数助詞
 https://ankiweb.net/shared/info/1036098926[Japanese Counters], 英語 日本語 数助詞
 https://ankiweb.net/shared/info/115255341[Japanese Counting Systems Version 1.01 (mostly JTMW)], 英語 日本語 数助詞
-https://ankiweb.net/shared/info/188437368[Japanese Newspaper 4560], 英語 日本語 新聞 報道 ニュース
-https://ankiweb.net/shared/info/1073450896[Japanese Newspaper 4560 Additional News], 英語 日本語 新聞 報道 ニュース
 https://ankiweb.net/shared/info/135266511[Japanese signs], 英語 日本語 標識 ピクトグラム 画像
 "https://ankiweb.net/shared/info/2754914665[55k WordNet Definitions & Sentences (Monolingual, Bilingual)]", 英語 日本語
 https://ankiweb.net/shared/info/615343093[sentenças em japonês], ポルトガル語 日本語
