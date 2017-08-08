@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2017-08-04T11:31:22+00:00"
+lastmod: "2017-08-08T13:11:11+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -111,6 +111,14 @@ https://ankiweb.net/shared/info/2872379547[慣用句(あ行)　Идиомати�
 https://ankiweb.net/shared/info/2447397931[Japanisch/Deutsch Vokabular I und II], ドイツ語 日本語
 https://ankiweb.net/shared/info/249991587[Japanisch/Deutsch Vokabular II und III], ドイツ語 日本語
 https://ankiweb.net/shared/info/742912115[語彙と表現　日独ー独日], ドイツ語 日本語
+"https://ankiweb.net/shared/info/1972321539[イタリアで学ぶ日本語　Ｖｏｌ．１ (Saito Mariko, Giapponese per italiani 1)]", イタリア語 日本語
+https://ankiweb.net/shared/info/3434318753[Corso di lingua Giapponese per Italiani - Lezioni 1-15], イタリア語 日本語
+https://ankiweb.net/shared/info/3488983896[Corso di lingua Giapponese per Italiani - Lezioni 16-29], イタリア語 日本語
+https://ankiweb.net/shared/info/1395979918[Corso di lingua Giapponese per Italiani - Lezioni 30-34], イタリア語 日本語
+https://ankiweb.net/shared/info/1551185211[tout le japonais I], フランス語 日本語
+https://ankiweb.net/shared/info/1874622096[tout le japonais II], フランス語 日本語
+https://ankiweb.net/shared/info/1823889940[きそにほんご 1 - Kiso Nihongo 1 - Vocabulário Básico Japonês], ポルトガル語 日本語
+https://ankiweb.net/shared/info/1890832591[Express Your Feeling in Japanese], 英語 日本語
 https://ankiweb.net/shared/info/1625541380[Health and Medical Pictures with English and Japanese], 術語 英語 日本語 医学 医療
 https://ankiweb.net/shared/info/1082920264[Japanese Radiological Terms], 術語 医学 医療 放射線 英語 日本語
 https://ankiweb.net/shared/info/214864764[Japanese Math Pictures], 術語 英語 日本語 数学 算数
@@ -307,4 +315,4 @@ https://ankiweb.net/shared/info/1364481455[US Postal Abbreviations], 英語 ア�
 
 2016/02/05: 単語帳検索画面を追加
 
-2017/08/04: 情報更新
+2017/08/08: 情報追加更新
