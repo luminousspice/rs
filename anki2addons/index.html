@@ -9,19 +9,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-<meta name="description" content='Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。'>
+<meta name="description" content='Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。'>
 <meta name="keywords" content="Anki, Python, Qt, SQLite, アドオン">
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content='Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。'/>
-<meta property="og:title" content="Anki 2.0 アドオンの作成 日本語訳" />
+<meta property="og:description" content='Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。'/>
+<meta property="og:title" content="Anki 2.x アドオンの作成 日本語訳" />
 <meta property="og:site_name" content="the Right Stuff" />
 <meta property="og:url" content="http://rs.luminousspice.com/anki2addons/">
 <meta property="og:locale" content="ja">
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2012-09-16T00:00:47Z"/>
-<meta property="article:modified_time" content="2016-05-24T08:58:53Z"/>
+<meta property="article:modified_time" content="2017-08-14T15:36:31Z"/>
 
 
 
@@ -29,14 +29,14 @@
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@luminousspice">
-<meta name="twitter:title" content="Anki 2.0 アドオンの作成 日本語訳">
+<meta name="twitter:title" content="Anki 2.x アドオンの作成 日本語訳">
 <meta name="twitter:creator" content="@luminousspice">
-<meta name="twitter:description" content='Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。'>
+<meta name="twitter:description" content='Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。'>
 <meta name="twitter:image:src" content="http://rs.luminousspice.com/apple-touch-icon.png">
 <meta name="twitter:domain" content="luminousspice.com">
 
   <base href="http://rs.luminousspice.com">
-  <title>Anki 2.0 アドオンの作成 日本語訳 | the right stuff</title>
+  <title>Anki 2.x アドオンの作成 日本語訳 | the right stuff</title>
 
   <link rel="stylesheet" href="http://rs.luminousspice.com/css/rs.css">
 
@@ -90,8 +90,8 @@
 
 
 <div class="post">
-  <h1 class="post-title">Anki 2.0 アドオンの作成 日本語訳</h1>
-  <span class="post-date"><time datetime="2012-09-16T00:00:47Z"></time>2016-05-24 更新</span>
+  <h1 class="post-title">Anki 2.x アドオンの作成 日本語訳</h1>
+  <span class="post-date"><time datetime="2012-09-16T00:00:47Z"></time>2017-08-14 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -99,7 +99,7 @@
   <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</p>
+<p>Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。</p>
 </div>
 </div>
 </div>
@@ -107,27 +107,30 @@
 <h2 id="_日本語版をご覧いただく前に">日本語版をご覧いただく前に</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>この文書は、<a href="http://ankisrs.net/docs/addons.html">Writing Anki 2.0 Add-ons</a> 2016-03-04 版の日本語訳です。</p>
+<p>この文書は、<a href="http://ankisrs.net/docs/addons.html">Writing Anki 2.x Add-ons</a> 2017-07-14 版の日本語訳です。</p>
 </div>
 <div class="paragraph">
-<p>Anki 2.0 は 2016 年 5 月 1 日現在、最新バージョンは 2.0.36 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。</p>
+<p>Anki 2.x は 2017 年 8 月 14 日現在、最新バージョンは 2.0.46 および 2.1 Beta 11 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。</p>
 </div>
 <hr>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_anki_2_0_アドオンの作成">Anki 2.0 アドオンの作成</h2>
+<h2 id="_anki_2_x_アドオンの作成">Anki 2.x アドオンの作成</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="_原文">原文</h2>
+<h2 id="_原文および翻訳">原文および翻訳</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
 <p>英語: <a href="http://ankisrs.net/docs/addons.html" class="bare">http://ankisrs.net/docs/addons.html</a></p>
+</li>
+<li>
+<p>ロシア語: <a href="http://finpapa.ucoz.ru/ankitest-addons.html" class="bare">http://finpapa.ucoz.ru/ankitest-addons.html</a></p>
 </li>
 </ul>
 </div>
@@ -140,7 +143,7 @@
 <p>Anki は、ユーザーフレンドリーなプログラミング言語 Python で作成しています。
 Python についてあまり詳しくない方は、この文書の先を読む前に
 <a href="http://docs.python.org/tutorial/">Python tutorial</a> をお読みください。
-(訳注: <a href="http://docs.python.jp/3/tutorial/index.html">Python チュートリアル
+(訳注: <a href="https://docs.python.org/ja/3/tutorial/">Python チュートリアル
 日本語版</a>)</p>
 </div>
 <div class="paragraph">
@@ -169,7 +172,7 @@ Windows や Mac をお使いの方は、このサイトで提供しているパ�
 <p>'aqt' には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
 インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
 ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
-します。<a href="http://doc.qt.io/qt-4.8/index.html">Qt documentation</a> は、特定の GUI
+します。<a href="http://doc.qt.io/qt-5/index.html">Qt documentation</a> は、特定の GUI
 コンポーネントの使い方を調べたい時に、非常に役立ちます。</p>
 </div>
 <div class="paragraph">
@@ -428,8 +431,8 @@ from aqt.mw import mw
 def onLeech(card):
     # スケジューラーが修正する際には、 .flush() を使わずに修正できます。
     card.did = mw.col.decks.id("Difficult")
-    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して
-    # 取得元の単語帳に戻さなければなりません
+    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して取得元の単語帳に
+    # 戻さなければなりません
     card.odid = 0
     if card.odue:
         card.due = card.odue
@@ -454,7 +457,7 @@ addHook("leech", onLeech)</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>filter は 3 つの引数を指定できます。修正フラグ、ノート、現在のフィールドです。
+<p>このサンプルでは、それぞれの filter は 3 つの引数を受け取ります。修正フラグ、ノート、現在のフィールドです。
 filter が変更を加えない場合は、修正フラグは受け取った値と同じ値を返します。
 変更を加えた場合は、True を返します。このようにして、どんなアドオンでも変更を加えると
 ユーザーインターフェイスは、ノートを読み込み直して、更新内容を表示します。</p>
@@ -491,7 +494,7 @@ filter が変更を加えない場合は、修正フラグは受け取った値�
     srcTxt = mw.col.media.strip(n[src])
     if not srcTxt:
         return flag
-    # フィールドを更新
+    # 欄を更新
     try:
         n[dst] = mecab.reading(srcTxt)
     except Exception, e:
@@ -508,6 +511,28 @@ addHook('editFocusLost', onFocusLost)</pre>
 の中では、_renderQA() は、カードの表面と裏面用に生成した HTML を収容する "mungeQA" filter
 を呼び出します。latex.py は、この filter を LaTeX タグの中のテキストを画像に変換する
 のに使っています。</p>
+</div>
+<div class="paragraph">
+<p>Anki 2.1 では、エディタにボタンを追加するフックを追加しました。次のように使います。</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>from aqt.utils import showInfo
+from anki.hooks import addHook
+
+# cross out the currently selected text
+def onStrike(editor):
+    editor.web.eval("wrap('&lt;del&gt;', '&lt;/del&gt;');")
+
+def addMyButton(buttons, editor):
+    editor._links['strike'] = onStrike
+    return buttons + [editor._addButton(
+        "iconname", # "/full/path/to/icon.png",
+        "strike", # link name
+        "tooltip")]
+
+addHook("setupEditorButtons", addMyButton)</pre>
+</div>
 </div>
 </div>
 </div>
@@ -607,7 +632,7 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, "around")</pre>
 <h2 id="_qt">Qt</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>上記にあるとおり、<a href="http://doc.qt.io/qt-4.8/index.html">Qt documentation</a> が
+<p>上記にあるとおり、<a href="http://doc.qt.io/qt-5/index.html">Qt documentation</a> が
 色々な GUI を表示する方法を学ぶのに非常に貴重な文書です。</p>
 </div>
 <div class="paragraph">
@@ -654,8 +679,8 @@ aqt.utils.showInfo を使うか、sys.stderr.write("text\n") で標準エラー�
 必要があります。</p>
 </div>
 <div class="paragraph">
-<p>Anki には、REPL が含まれています。プログラムの中から Ctrl+: または Command+: を押すと
-ウィンドウが立ち上がります。上のテキストエリアに式や文を入力し、ctrl+return/command+return を押すと
+<p>Anki には、REPL が含まれています。プログラムの中から <a href="https://apps.ankiweb.net/docs/manual.html#debug-console">shortcut key</a> を押すと
+ウィンドウが立ち上がります。上の欄に式や文を入力し、ctrl+return/command+return を押すと
 評価します。セッション例を次に挙げます。</p>
 </div>
 <div class="listingblock">
@@ -708,7 +733,7 @@ NameError: name 'invalidName' is not defined
 <div class="paragraph">
 <p>何が評価されたか知るためには、式を明示的に出力する必要があることに注意してください。Anki では
 pp() (pretty print) がスコープの中でオブジェクトの詳細を素早くダンプすることが簡単に
-できるようになっています。ショートカット ctrl+shift+return は上のテキストエリア中の現在のテキストを
+できるようになっています。ショートカット ctrl+shift+return は上の欄中の現在のテキストを
 pp() で囲んで実行し結果を表示します。</p>
 </div>
 <div class="paragraph">
@@ -840,10 +865,19 @@ jp.py</pre>
 <p>更に、アプリケーションの個々の機能や処理を詳しく理解するには <a href="http://ankisrs.net/docs/manual.html">Anki User Manual</a> をご覧ください。</p>
 </div>
 <div class="paragraph">
-<p>Anki 2.0.36 現在、Anki に同梱している Python のバージョンは <code>2.7.6</code> です。</p>
+<p>Anki 2.0.46 現在、Anki に同梱している Python のバージョンは <code>2.7.6</code> です。</p>
 </div>
 <div class="paragraph">
 <p>アドオン開発の簡単なチュートリアルとして <a href="http://rs.luminousspice.com/how_to_create_anki_add-ons/">フックを使った Anki アドオンのつくり方</a>を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。</p>
+</div>
+<div class="sect2">
+<h3 id="_次期バージョン_anki_2_1_について">次期バージョン Anki 2.1 について</h3>
+<div class="paragraph">
+<p>Anki 2.1 Beta 11 現在、Anki に同梱している Python のバージョンは <code>3.6.1</code> です。</p>
+</div>
+<div class="paragraph">
+<p>既存のアドオンを Anki 2.1 対応へ移行するために必要な情報は、Anki のソースコードに同梱している <a href="https://github.com/dae/anki/blob/master/README.addons">README.addons</a> で詳しく解説しています。</p>
+</div>
 </div>
 </div>
 </div>
@@ -853,22 +887,25 @@ jp.py</pre>
 <div class="ulist">
 <ul>
 <li>
-<p>2012/09/16 Anki 2 Release Candidate 4準拠 (2012/09/08版)</p>
+<p>2012/09/16 Anki 2 Release Candidate 4 準拠 (2012/09/08版)</p>
 </li>
 <li>
-<p>2013/02/03 Anki 2.0.5準拠 (2012/12/20版)</p>
+<p>2013/02/03 Anki 2.0.5 準拠 (2012/12/20版)</p>
 </li>
 <li>
-<p>2013/05/07 Anki 2.0.8準拠 (2013/05/07版)</p>
+<p>2013/05/07 Anki 2.0.8 準拠 (2013/05/07版)</p>
 </li>
 <li>
-<p>2013/06/07 Anki 2.0.8準拠 (2013/05/13版)</p>
+<p>2013/06/07 Anki 2.0.8 準拠 (2013/05/13版)</p>
 </li>
 <li>
-<p>2014/02/15 Anki 2.0.22準拠 (2014/02/14版)</p>
+<p>2014/02/15 Anki 2.0.22 準拠 (2014/02/14版)</p>
 </li>
 <li>
-<p>2016/05/01 Anki 2.0.33準拠 (2016/03/04版)</p>
+<p>2016/05/01 Anki 2.0.33 準拠 (2016/03/04版)</p>
+</li>
+<li>
+<p>2017/07/28 Anki 2.1 Beta 3 準拠 (2017/07/14版)</p>
 </li>
 </ul>
 </div>

@@ -123,15 +123,15 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
     </item>
     
     <item>
-      <title>Anki 2.0 アドオンの作成 日本語訳</title>
+      <title>Anki 2.x アドオンの作成 日本語訳</title>
       <link>http://rs.luminousspice.com/anki2addons/</link>
       <pubDate>Sun, 16 Sep 2012 00:00:47 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki2addons/</guid>
-      <description>Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。</description>
+      <description>Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。&lt;/p&gt;
+&lt;p&gt;Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -139,27 +139,30 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
 &lt;h2 id=&#34;_日本語版をご覧いただく前に&#34;&gt;日本語版をご覧いただく前に&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この文書は、&lt;a href=&#34;http://ankisrs.net/docs/addons.html&#34;&gt;Writing Anki 2.0 Add-ons&lt;/a&gt; 2016-03-04 版の日本語訳です。&lt;/p&gt;
+&lt;p&gt;この文書は、&lt;a href=&#34;http://ankisrs.net/docs/addons.html&#34;&gt;Writing Anki 2.x Add-ons&lt;/a&gt; 2017-07-14 版の日本語訳です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.0 は 2016 年 5 月 1 日現在、最新バージョンは 2.0.36 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。&lt;/p&gt;
+&lt;p&gt;Anki 2.x は 2017 年 8 月 14 日現在、最新バージョンは 2.0.46 および 2.1 Beta 11 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_2_0_アドオンの作成&#34;&gt;Anki 2.0 アドオンの作成&lt;/h2&gt;
+&lt;h2 id=&#34;_anki_2_x_アドオンの作成&#34;&gt;Anki 2.x アドオンの作成&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_原文&#34;&gt;原文&lt;/h2&gt;
+&lt;h2 id=&#34;_原文および翻訳&#34;&gt;原文および翻訳&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;英語: &lt;a href=&#34;http://ankisrs.net/docs/addons.html&#34; class=&#34;bare&#34;&gt;http://ankisrs.net/docs/addons.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ロシア語: &lt;a href=&#34;http://finpapa.ucoz.ru/ankitest-addons.html&#34; class=&#34;bare&#34;&gt;http://finpapa.ucoz.ru/ankitest-addons.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -172,7 +175,7 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
 &lt;p&gt;Anki は、ユーザーフレンドリーなプログラミング言語 Python で作成しています。
 Python についてあまり詳しくない方は、この文書の先を読む前に
 &lt;a href=&#34;http://docs.python.org/tutorial/&#34;&gt;Python tutorial&lt;/a&gt; をお読みください。
-(訳注: &lt;a href=&#34;http://docs.python.jp/3/tutorial/index.html&#34;&gt;Python チュートリアル
+(訳注: &lt;a href=&#34;https://docs.python.org/ja/3/tutorial/&#34;&gt;Python チュートリアル
 日本語版&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -201,7 +204,7 @@ Windows や Mac をお使いの方は、このサイトで提供しているパ�
 &lt;p&gt;&#39;aqt&#39; には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
 インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
 ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
-します。&lt;a href=&#34;http://doc.qt.io/qt-4.8/index.html&#34;&gt;Qt documentation&lt;/a&gt; は、特定の GUI
+します。&lt;a href=&#34;http://doc.qt.io/qt-5/index.html&#34;&gt;Qt documentation&lt;/a&gt; は、特定の GUI
 コンポーネントの使い方を調べたい時に、非常に役立ちます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -460,8 +463,8 @@ from aqt.mw import mw
 def onLeech(card):
     # スケジューラーが修正する際には、 .flush() を使わずに修正できます。
     card.did = mw.col.decks.id(&#34;Difficult&#34;)
-    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して
-    # 取得元の単語帳に戻さなければなりません
+    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して取得元の単語帳に
+    # 戻さなければなりません
     card.odid = 0
     if card.odue:
         card.due = card.odue
@@ -486,7 +489,7 @@ addHook(&#34;leech&#34;, onLeech)&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;filter は 3 つの引数を指定できます。修正フラグ、ノート、現在のフィールドです。
+&lt;p&gt;このサンプルでは、それぞれの filter は 3 つの引数を受け取ります。修正フラグ、ノート、現在のフィールドです。
 filter が変更を加えない場合は、修正フラグは受け取った値と同じ値を返します。
 変更を加えた場合は、True を返します。このようにして、どんなアドオンでも変更を加えると
 ユーザーインターフェイスは、ノートを読み込み直して、更新内容を表示します。&lt;/p&gt;
@@ -523,7 +526,7 @@ filter が変更を加えない場合は、修正フラグは受け取った値�
     srcTxt = mw.col.media.strip(n[src])
     if not srcTxt:
         return flag
-    # フィールドを更新
+    # 欄を更新
     try:
         n[dst] = mecab.reading(srcTxt)
     except Exception, e:
@@ -540,6 +543,28 @@ addHook(&#39;editFocusLost&#39;, onFocusLost)&lt;/pre&gt;
 の中では、_renderQA() は、カードの表面と裏面用に生成した HTML を収容する &#34;mungeQA&#34; filter
 を呼び出します。latex.py は、この filter を LaTeX タグの中のテキストを画像に変換する
 のに使っています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki 2.1 では、エディタにボタンを追加するフックを追加しました。次のように使います。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre&gt;from aqt.utils import showInfo
+from anki.hooks import addHook
+
+# cross out the currently selected text
+def onStrike(editor):
+    editor.web.eval(&#34;wrap(&#39;&amp;lt;del&amp;gt;&#39;, &#39;&amp;lt;/del&amp;gt;&#39;);&#34;)
+
+def addMyButton(buttons, editor):
+    editor._links[&#39;strike&#39;] = onStrike
+    return buttons + [editor._addButton(
+        &#34;iconname&#34;, # &#34;/full/path/to/icon.png&#34;,
+        &#34;strike&#34;, # link name
+        &#34;tooltip&#34;)]
+
+addHook(&#34;setupEditorButtons&#34;, addMyButton)&lt;/pre&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -639,7 +664,7 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, &#34;around&#34;
 &lt;h2 id=&#34;_qt&#34;&gt;Qt&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上記にあるとおり、&lt;a href=&#34;http://doc.qt.io/qt-4.8/index.html&#34;&gt;Qt documentation&lt;/a&gt; が
+&lt;p&gt;上記にあるとおり、&lt;a href=&#34;http://doc.qt.io/qt-5/index.html&#34;&gt;Qt documentation&lt;/a&gt; が
 色々な GUI を表示する方法を学ぶのに非常に貴重な文書です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -686,8 +711,8 @@ aqt.utils.showInfo を使うか、sys.stderr.write(&#34;text\n&#34;) で標準�
 必要があります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki には、REPL が含まれています。プログラムの中から Ctrl+: または Command+: を押すと
-ウィンドウが立ち上がります。上のテキストエリアに式や文を入力し、ctrl+return/command+return を押すと
+&lt;p&gt;Anki には、REPL が含まれています。プログラムの中から &lt;a href=&#34;https://apps.ankiweb.net/docs/manual.html#debug-console&#34;&gt;shortcut key&lt;/a&gt; を押すと
+ウィンドウが立ち上がります。上の欄に式や文を入力し、ctrl+return/command+return を押すと
 評価します。セッション例を次に挙げます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
@@ -740,7 +765,7 @@ NameError: name &#39;invalidName&#39; is not defined
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;何が評価されたか知るためには、式を明示的に出力する必要があることに注意してください。Anki では
 pp() (pretty print) がスコープの中でオブジェクトの詳細を素早くダンプすることが簡単に
-できるようになっています。ショートカット ctrl+shift+return は上のテキストエリア中の現在のテキストを
+できるようになっています。ショートカット ctrl+shift+return は上の欄中の現在のテキストを
 pp() で囲んで実行し結果を表示します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -872,10 +897,19 @@ jp.py&lt;/pre&gt;
 &lt;p&gt;更に、アプリケーションの個々の機能や処理を詳しく理解するには &lt;a href=&#34;http://ankisrs.net/docs/manual.html&#34;&gt;Anki User Manual&lt;/a&gt; をご覧ください。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.0.36 現在、Anki に同梱している Python のバージョンは &lt;code&gt;2.7.6&lt;/code&gt; です。&lt;/p&gt;
+&lt;p&gt;Anki 2.0.46 現在、Anki に同梱している Python のバージョンは &lt;code&gt;2.7.6&lt;/code&gt; です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;アドオン開発の簡単なチュートリアルとして &lt;a href=&#34;http://rs.luminousspice.com/how_to_create_anki_add-ons/&#34;&gt;フックを使った Anki アドオンのつくり方&lt;/a&gt;を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_次期バージョン_anki_2_1_について&#34;&gt;次期バージョン Anki 2.1 について&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Anki 2.1 Beta 11 現在、Anki に同梱している Python のバージョンは &lt;code&gt;3.6.1&lt;/code&gt; です。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;既存のアドオンを Anki 2.1 対応へ移行するために必要な情報は、Anki のソースコードに同梱している &lt;a href=&#34;https://github.com/dae/anki/blob/master/README.addons&#34;&gt;README.addons&lt;/a&gt; で詳しく解説しています。&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -885,22 +919,25 @@ jp.py&lt;/pre&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;2012/09/16 Anki 2 Release Candidate 4準拠 (2012/09/08版)&lt;/p&gt;
+&lt;p&gt;2012/09/16 Anki 2 Release Candidate 4 準拠 (2012/09/08版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;2013/02/03 Anki 2.0.5準拠 (2012/12/20版)&lt;/p&gt;
+&lt;p&gt;2013/02/03 Anki 2.0.5 準拠 (2012/12/20版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;2013/05/07 Anki 2.0.8準拠 (2013/05/07版)&lt;/p&gt;
+&lt;p&gt;2013/05/07 Anki 2.0.8 準拠 (2013/05/07版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;2013/06/07 Anki 2.0.8準拠 (2013/05/13版)&lt;/p&gt;
+&lt;p&gt;2013/06/07 Anki 2.0.8 準拠 (2013/05/13版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;2014/02/15 Anki 2.0.22準拠 (2014/02/14版)&lt;/p&gt;
+&lt;p&gt;2014/02/15 Anki 2.0.22 準拠 (2014/02/14版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;2016/05/01 Anki 2.0.33準拠 (2016/03/04版)&lt;/p&gt;
+&lt;p&gt;2016/05/01 Anki 2.0.33 準拠 (2016/03/04版)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2017/07/28 Anki 2.1 Beta 3 準拠 (2017/07/14版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
