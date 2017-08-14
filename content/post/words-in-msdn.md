@@ -432,11 +432,11 @@ MSDNは難しいという先入観は捨てましょう。難しい感じるの�
 ご自身の著作を公開してくれたCobb教授、Nation教授に感謝したいです。</p>
 <p>Cobb, Tom. <a href="http://www.lextutor.ca/cv/awl_F.htm">Chapter 2. Is There Room for an Academic Word List in French?</a></p>
 <p>Cobb, Tom. <a href="http://www.lextutor.ca/research/rationale.htm">Why &amp; how to use frequency lists to learn words</a></p>
-<p>Hwang, K. and Nation, I.S.P. (1995) <a href="http://www.victoria.ac.nz/lals/staff/Publications/paul-nation/1995-Hwang-Special-purposes.pdf">Where would general service vocabulary stop and special purposes vocabulary begin?</a> System 23, 1: 35-41.</p>
+<p>Hwang, K. and Nation, I.S.P. (1995) <a href="https://www.victoria.ac.nz/lals/about/staff/publications/paul-nation/1995-Hwang-Special-purposes.pdf">Where would general service vocabulary stop and special purposes vocabulary begin?</a> System 23, 1: 35-41.</p>
 <p>Nation, P., &amp; Waring, R. (1997). <a href="http://www.lextutor.ca/research/nation_waring_97.html">Vocabulary size, text coverage, and word lists. In Schmitt, N., &amp; McCarthy, M. (Eds.) Vocabulary: Description, acquisition, pedagogy</a> (pp. 6-19). New York: Cambridge University Press.</p>
 <p>Nation, I.S.P. (2001), Learning Vocabulary in Another Language, Cambridge University Press, ISBN 0-521-80498-1</p>
-<p>Nation, I.S.P. (2004) <a href="https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2004-BNC-3000.pdf">A study of the most frequent word families in the British National Corpus.</a> In P. Bogaards and B. Laufer (eds.) Vocabulary in a Second Language: Selection, Acquisition and Testing Amsterdam: John Benjamins: 3-13.</p>
-<p>Nation, I.S.P. <a href="https://www.victoria.ac.nz/lals/staff/Publications/paul-nation/2006-How-large-a-vocab.pdf">How large a vocabulary is needed for reading and listening?</a> Canadian Modern Language Review 63, 1 (2006): 59-82.</p>
+<p>Nation, I.S.P. (2004) <a href="https://www.victoria.ac.nz/lals/about/staff/Publications/paul-nation/2004-BNC-3000.pdf">A study of the most frequent word families in the British National Corpus.</a> In P. Bogaards and B. Laufer (eds.) Vocabulary in a Second Language: Selection, Acquisition and Testing Amsterdam: John Benjamins: 3-13.</p>
+<p>Nation, I.S.P. <a href="https://www.victoria.ac.nz/lals/about/staff/Publications/paul-nation/2006-How-large-a-vocab.pdf">How large a vocabulary is needed for reading and listening?</a> Canadian Modern Language Review 63, 1 (2006): 59-82.</p>
 </section>
 
 
