@@ -1,53 +1,60 @@
 ---
 slug: "anki2addons"
 date: "2012-09-16T00:00:47+00:00"
-lastmod: "2016-05-24T08:58:53+00:00"
-title: "Anki 2.0 アドオンの作成 日本語訳"
+lastmod: "2017-08-14T15:36:31+00:00"
+title: "Anki 2.x アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
 tags: ["Anki","Python","Qt","SQLite","アドオン"]
 anki: ["アドオン"]
 aliases: ["/2012/09/anki2addons/"]
-excerpt: "Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。"
+excerpt: "Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。"
 ---
-= Anki 2.0 アドオンの作成 日本語訳
+= Anki 2.x アドオンの作成 日本語訳
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: Writing Anki 2.0 Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、直前バージョン 1.2 のプラグインからの移行、アドオンの共有方法について説明しています。
+:description: Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、次期バージョン 2.1 の対応アドオンの作り方、アドオンの共有方法について説明しています。
 
 {description}
 
 == 日本語版をご覧いただく前に
 
-この文書は、link:http://ankisrs.net/docs/addons.html[Writing Anki 2.0 Add-ons] 2016-03-04 版の日本語訳です。
+この文書は、link:http://ankisrs.net/docs/addons.html[Writing Anki 2.x Add-ons] 2017-07-14 版の日本語訳です。
 
-Anki 2.0 は 2016 年 5 月 1 日現在、最新バージョンは 2.0.36 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
+Anki 2.x は 2017 年 8 月 14 日現在、最新バージョンは 2.0.46 および 2.1 Beta 11 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
 
 ---
 /////
-_ Writing Anki 2.0 Add-ons _
+++++++++++++++++++++++++++++++
+<%def name="title()">
+Writing Anki 2.x Add-ons
+</%def>
+
+<h1>Writing Anki 2.x Add-ons</h1>
+++++++++++++++++++++++++++++++
 /////
 
-== Anki 2.0 アドオンの作成
+== Anki 2.x アドオンの作成 ==
 
 /////
 = Translations =
 /////
 
-== 原文
+== 原文および翻訳 ==
 
 /////
- * 日本語: http://rightstuff.luminousspice.com/2012/09/anki2addons/
+ * 日本語: http://rs.luminousspice.com/anki2addons/
 /////
 
  * 英語: http://ankisrs.net/docs/addons.html
+ * ロシア語: http://finpapa.ucoz.ru/ankitest-addons.html
 
 /////
-= Overview =
+== Overview ==
 /////
 
-== 概要
+== 概要 ==
 
 /////
 Anki is written in a user-friendly language called Python. If you're not
@@ -57,8 +64,8 @@ tutorial] before proceeding with the rest of this document.
 
 Anki は、ユーザーフレンドリーなプログラミング言語 Python で作成しています。
 Python についてあまり詳しくない方は、この文書の先を読む前に
-link:http://docs.python.org/tutorial/[Python tutorial] をお読みください。
-(訳注: link:http://docs.python.jp/3/tutorial/index.html[Python チュートリアル
+http://docs.python.org/tutorial/[Python tutorial] をお読みください。
+(訳注: https://docs.python.org/ja/3/tutorial/[Python チュートリアル
 日本語版])
 
 /////
@@ -99,7 +106,7 @@ Anki is comprised of two parts:
 Anki を構成する2つの要素
 
 /////
-'libanki' contains all the "backend" code - opening collections, fetching and
+'anki' contains all the "backend" code - opening collections, fetching and
 answering cards, and so on. It is used by Anki's GUI, and can also be included
 in command line programs to access Anki decks without the GUI.
 /////
@@ -109,16 +116,16 @@ in command line programs to access Anki decks without the GUI.
 に Anki 単語帳にアクセスするコマンドラインプログラムに含めることもできます。
 
 /////
-'ankiqt' contains the UI part of Anki. Anki's UI is built upon PyQt, Python
+'aqt' contains the UI part of Anki. Anki's UI is built upon PyQt, Python
 bindings for the cross-platform GUI toolkit Qt. PyQt follows Qt's API very
-closely, so the http://doc.qt.io/qt-4.8/index.html[Qt documentation] can
+closely, so the http://doc.qt.io/qt-5/index.html[Qt documentation] can
 be very useful when you want to know how to use a particular GUI component.
 /////
 
 'aqt' には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
 インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
 ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
-します。link:http://doc.qt.io/qt-4.8/index.html[Qt documentation] は、特定の GUI
+します。link:http://doc.qt.io/qt-5/index.html[Qt documentation] は、特定の GUI
 コンポーネントの使い方を調べたい時に、非常に役立ちます。
 
 /////
@@ -132,10 +139,10 @@ Anki が起動すると、Anki は、Documents/Anki/addons フォルダの中に
 新しい機能を提供する新しいメニュー項目を増やしたりします。
 
 /////
-= A Simple Add-On =
+== A Simple Add-On ==
 /////
 
-== 簡単なアドオンの一例
+== 簡単なアドオンの一例 ==
 
 /////
 Add the following to a test.py file in your add-ons folder:
@@ -145,7 +152,7 @@ Add the following to a test.py file in your add-ons folder:
 
 /////
 -----
-# import the main window object (mw) from ankiqt
+# import the main window object (mw) from aqt
 from aqt import mw
 # import the "show info" tool from utils.py
 from aqt.utils import showInfo
@@ -165,7 +172,7 @@ def testFunction():
 # create a new menu item, "test"
 action = QAction("test", mw)
 # set it to call testFunction when it's clicked
-mw.connect(action, SIGNAL("triggered()"), testFunction)
+action.triggered.connect(testFunction)
 # and add it to the tools menu
 mw.form.menuTools.addAction(action)
 -----
@@ -214,10 +221,10 @@ message on startup indicating where the problem is.
 どこに問題があるか指摘します。
 
 /////
-= The Collection =
+== The Collection ==
 /////
 
-== コレクション
+== コレクション ==
 
 /////
 All operations on a collection file are accessed via mw.col. Some basic
@@ -355,7 +362,7 @@ ti.run()
 -----
 
 /////
-Almost every GUI operation has an associated function in libanki, so any of
+Almost every GUI operation has an associated function in anki, so any of
 the operations that Anki makes available can also be called in an add-on.
 /////
 
@@ -384,13 +391,13 @@ Anki の外部のコレクションに何らかの修正を加えたときは、
 これを怠ると修正点は失われます。
 
 /////
-= The Database =
+== The Database ==
 /////
 
-== データベース
+== データベース ==
 
 /////
-When you need to perform operations that are not already supported by libanki,
+When you need to perform operations that are not already supported by anki,
 you can access the database directly. Anki collections are stored in SQLite
 files. Please see the http://www.sqlite.org/lang.html[SQLite documentation]
 for more information.
@@ -398,7 +405,7 @@ for more information.
 
 'anki' がサポートしていない処理を実行する必要がある場合は、データベースに直接アクセスする
 ことができます。Anki コレクションは、SQLite ファイル内に保存されています。詳しい情報は、
-link:http://www.sqlite.org/lang.html[SQLite documentation]をご覧ください。
+http://www.sqlite.org/lang.html[SQLite documentation]をご覧ください。
 
 /////
 Anki's DB object supports the following functions:
@@ -489,10 +496,10 @@ on every sync.
 大規模なデータを保存しないでください。
 
 /////
-= Hooks =
+== Hooks ==
 /////
 
-== フック
+== フック ==
 
 /////
 Hooks have been added to a few parts of the code to make writing add-ons
@@ -506,7 +513,7 @@ and 'filters' take a value and return it (perhaps modified).
 
 /////
 A simple example of the former is in the leech handling. When the scheduler
-(libanki/sched.py) discovers a leech, it calls:
+(anki/sched.py) discovers a leech, it calls:
 /////
 
 'hook' の簡単な例は、無駄なカード (leech) の処理の中に見つかります。スケジューラー
@@ -529,7 +536,7 @@ code:
 /////
 -----
 from anki.hooks import addHook
-from aqt.mw import mw
+from aqt import mw
 
 def onLeech(card):
     # can modify without .flush(), as scheduler will do it for us
@@ -552,8 +559,8 @@ from aqt.mw import mw
 def onLeech(card):
     # スケジューラーが修正する際には、 .flush() を使わずに修正できます。
     card.did = mw.col.decks.id("Difficult")
-    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して
-    # 取得元の単語帳に戻さなければなりません
+    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して取得元の単語帳に
+    # 戻さなければなりません
     card.odid = 0
     if card.odue:
         card.due = card.odue
@@ -595,13 +602,14 @@ if runFilter(
 -----
 
 /////
-Each filter accepts three arguments: a modified flag, the note, and the
-current field. If a filter makes no changes it returns the modified flag the
-same as it received it; if it makes a change it returns True. In this way, if
-any single add-on makes a change, the UI will reload the note to show updates.
+Each filter in this example accepts three arguments: a modified flag, the
+note, and the current field. If a filter makes no changes it returns the
+modified flag the same as it received it; if it makes a change it returns
+True. In this way, if any single add-on makes a change, the UI will reload the
+note to show updates.
 /////
 
-filter は 3 つの引数を指定できます。修正フラグ、ノート、現在のフィールドです。
+このサンプルでは、それぞれの filter は 3 つの引数を受け取ります。修正フラグ、ノート、現在のフィールドです。
 filter が変更を加えない場合は、修正フラグは受け取った値と同じ値を返します。
 変更を加えた場合は、True を返します。このようにして、どんなアドオンでも変更を加えると
 ユーザーインターフェイスは、ノートを読み込み直して、更新内容を表示します。
@@ -681,7 +689,7 @@ def onFocusLost(flag, n, fidx):
     srcTxt = mw.col.media.strip(n[src])
     if not srcTxt:
         return flag
-    # フィールドを更新
+    # 欄を更新
     try:
         n[dst] = mecab.reading(srcTxt)
     except Exception, e:
@@ -695,7 +703,7 @@ addHook('editFocusLost', onFocusLost)
 /////
 The first argument of a filter is the argument that should be returned. In the
 focus lost filter this is a flag, but in other cases it may be some other
-object. For example, in libanki/collection.py, _renderQA() calls the "mungeQA"
+object. For example, in anki/collection.py, _renderQA() calls the "mungeQA"
 filter which contains the generated HTML for the front and back of cards.
 latex.py uses this filter to convert text in LaTeX tags into images.
 /////
@@ -707,10 +715,35 @@ filter の第一引数は、必ず返される引数です。このフォーカ�
 のに使っています。
 
 /////
-= Monkey Patching and Method Wrapping =
+In Anki 2.1, a hook was added for adding buttons to the editor. It can be used
+like so:
 /////
 
-== モンキーパッチとメソッドの隠蔽
+Anki 2.1 では、エディタにボタンを追加するフックを追加しました。次のように使います。
+
+-----
+from aqt.utils import showInfo
+from anki.hooks import addHook
+
+# cross out the currently selected text
+def onStrike(editor):
+    editor.web.eval("wrap('<del>', '</del>');")
+
+def addMyButton(buttons, editor):
+    editor._links['strike'] = onStrike
+    return buttons + [editor._addButton(
+        "iconname", # "/full/path/to/icon.png",
+        "strike", # link name
+        "tooltip")]
+
+addHook("setupEditorButtons", addMyButton)
+-----
+
+/////
+== Monkey Patching and Method Wrapping ==
+/////
+
+== モンキーパッチとメソッドの隠蔽 ==
 
 /////
 If you want to modify a function that doesn't already have a hook, it's
@@ -890,15 +923,15 @@ hook to be added.
 中の対象とする関数にフックを追加するのが良い方法かも知れません。このような場合には、
 追加するフックについての質問をフォーラムに投稿してください。
 
-== Qt
+== Qt ==
 
 /////
-As mentioned above, the http://doc.qt.io/qt-4.8/index.html[Qt
+As mentioned above, the http://doc.qt.io/qt-5/index.html[Qt
 documentation] is invaluable for learning how to display different GUI
 widgets.
 /////
 
-上記にあるとおり、link:http://doc.qt.io/qt-4.8/index.html[Qt documentation] が
+上記にあるとおり、link:http://doc.qt.io/qt-5/index.html[Qt documentation] が
 色々な GUI を表示する方法を学ぶのに非常に貴重な文書です。
 
 /////
@@ -931,10 +964,10 @@ def myfunc():
         
 
 /////
-= Standard Modules =
+== Standard Modules ==
 /////
 
-== 標準モジュール
+== 標準モジュール ==
 
 /////
 Anki ships with only the standard modules necessary to run the program - a
@@ -948,10 +981,10 @@ Anki は、このプログラムの実行に必要な標準モジュールだけ
 ある場合には、自分のアドオンに同梱する必要があります。
 
 /////
-= Debugging =
+== Debugging ==
 /////
 
-== デバッグ
+== デバッグ ==
 
 /////
 If your code throws an exception, it will be caught by Anki's standard
@@ -966,14 +999,14 @@ aqt.utils.showInfo を使うか、sys.stderr.write("text\n") で標準エラー�
 必要があります。
 
 /////
-Anki also includes a REPL. From within the program, press Ctrl+: or Command+:
+Anki also includes a REPL. From within the program, press the https://apps.ankiweb.net/docs/manual.html#debug-console[shortcut key]
 and a window will open up. You can enter expressions or statements into the
 top area, and then press ctrl+return/command+return to evaluate them. An
 example session follows:
 /////
 
-Anki には、REPL が含まれています。プログラムの中から Ctrl+: または Command+: を押すと
-ウィンドウが立ち上がります。上のテキストエリアに式や文を入力し、ctrl+return/command+return を押すと
+Anki には、REPL が含まれています。プログラムの中から https://apps.ankiweb.net/docs/manual.html#debug-console[shortcut key] を押すと
+ウィンドウが立ち上がります。上の欄に式や文を入力し、ctrl+return/command+return を押すと
 評価します。セッション例を次に挙げます。
 
 
@@ -982,7 +1015,7 @@ Anki には、REPL が含まれています。プログラムの中から Ctrl+:
 >>> mw
 <no output>
 
->>> print mw
+>>> print(mw)
 <aqt.main.AnkiQt object at 0x10c0ddc20>
 
 >>> invalidName
@@ -993,8 +1026,8 @@ Traceback (most recent call last):
 NameError: name 'invalidName' is not defined
 
 >>> a = [a for a in dir(mw.form) if a.startswith("action")]
-... print a
-... print
+... print(a)
+... print()
 ... pp(a)
 ['actionAbout', 'actionCheckMediaDatabase', ...]
 
@@ -1080,7 +1113,7 @@ will wrap the current text in the upper area with pp() and execute the result.
 
 何が評価されたか知るためには、式を明示的に出力する必要があることに注意してください。Anki では
 pp() (pretty print) がスコープの中でオブジェクトの詳細を素早くダンプすることが簡単に
-できるようになっています。ショートカット ctrl+shift+return は上のテキストエリア中の現在のテキストを
+できるようになっています。ショートカット ctrl+shift+return は上の欄中の現在のテキストを
 pp() で囲んで実行し結果を表示します。
 
 /////
@@ -1107,13 +1140,14 @@ debugger on an uncaught exception.
 デバッガーが立ち上がります。
 
 /////
-= Learning More =
+== Learning More ==
 /////
 
-== もっと詳しく学びたい場合には
+== もっと詳しく学びたい場合には ==
+
 /////
-Both libanki and ankiqt are available at http://github.com/dae/. The
-colllection object is defined in libanki's collection.py. Other useful files
+Both anki and aqt are available at http://github.com/dae/. The
+colllection object is defined in anki's collection.py. Other useful files
 to check out are cards.py, notes.py, sched.py, models.py and decks.py.
 /////
 
@@ -1122,8 +1156,8 @@ anki と aqt の両方が http://github.com/dae/ で入手できます。コレ�
 ファイルは、cards.py、notes.py、sched.py、models.py や decks.py です。
 
 /////
-It can also be helpful to look in the ankiqt source to see how it's calling
-libanki for a particular operation, or to learn more about the GUI.
+It can also be helpful to look in the aqt source to see how it's calling
+anki for a particular operation, or to learn more about the GUI.
 /////
 
 aqt のソースコード見ることも、特定の処理のための anki の呼び出し方や GUI の詳細
@@ -1145,10 +1179,10 @@ how they accomplish something.
 最後になりますが、他のアドオンが何かを実現している方法を見ることも、非常に役立ちます。
 
 /////
-= Porting Anki 1.2 plugins =
+== Porting Anki 1.2 plugins ==
 /////
 
-== Anki 1.2 プラグインからの移植
+== Anki 1.2 プラグインからの移植 ==
 
 /////
 Some of the main changes to be aware of:
@@ -1203,10 +1237,10 @@ Some of the main changes to be aware of:
    テーブルから引き出す必要があります。
 
 /////
-= Sharing Add-ons =
+== Sharing Add-ons ==
 /////
 
-== アドオンの共有
+== アドオンの共有 ==
 
 /////
 For a simple one-file add-on, you can upload the .py file. For multi-file
@@ -1256,15 +1290,22 @@ Anki 2 の変更点を知るには、link:/changeinanki2/[Anki 2の変更点] �
 
 更に、アプリケーションの個々の機能や処理を詳しく理解するには link:http://ankisrs.net/docs/manual.html[Anki User Manual] をご覧ください。
 
-Anki 2.0.36 現在、Anki に同梱している Python のバージョンは `2.7.6` です。
+Anki 2.0.46 現在、Anki に同梱している Python のバージョンは `2.7.6` です。
 
 アドオン開発の簡単なチュートリアルとして link:/how_to_create_anki_add-ons/[フックを使った Anki アドオンのつくり方]を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。
 
+=== 次期バージョン Anki 2.1 について
+
+Anki 2.1 Beta 11 現在、Anki に同梱している Python のバージョンは `3.6.1` です。
+
+既存のアドオンを Anki 2.1 対応へ移行するために必要な情報は、Anki のソースコードに同梱している link:https://github.com/dae/anki/blob/master/README.addons[README.addons] で詳しく解説しています。
+
 == 日本語版更新履歴
 
-*   2012/09/16 Anki 2 Release Candidate 4準拠 (2012/09/08版)
-*   2013/02/03 Anki 2.0.5準拠 (2012/12/20版)
-*   2013/05/07 Anki 2.0.8準拠 (2013/05/07版)
-*   2013/06/07 Anki 2.0.8準拠 (2013/05/13版)
-*   2014/02/15 Anki 2.0.22準拠 (2014/02/14版)
-*   2016/05/01 Anki 2.0.33準拠 (2016/03/04版)
+*   2012/09/16 Anki 2 Release Candidate 4 準拠 (2012/09/08版)
+*   2013/02/03 Anki 2.0.5 準拠 (2012/12/20版)
+*   2013/05/07 Anki 2.0.8 準拠 (2013/05/07版)
+*   2013/06/07 Anki 2.0.8 準拠 (2013/05/13版)
+*   2014/02/15 Anki 2.0.22 準拠 (2014/02/14版)
+*   2016/05/01 Anki 2.0.33 準拠 (2016/03/04版)
+*   2017/07/28 Anki 2.1 Beta 3 準拠 (2017/07/14版)
