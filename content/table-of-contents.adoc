@@ -1,11 +1,11 @@
 ---
 slug: "table-of-contents"
 date: "2014-04-07T18:30:27+00:00"
-lastmod: "2017-02-17T01:46:27+00:00"
+lastmod: "2017-08-15T01:17:27+00:00"
 title: "投稿記事目次"
 type: "page"
 categories: ["Anki","AnkiMobile","コーパス","開発"]
-tags: ["Anki","AnkiMobile","Corpus","Learning with Texts","LWT","コーパス"]
+tags: ["Anki","AnkiMobile","Corpus","Learning with Texts","LWT","コーパス","アドオン","Add-on"]
 excerpt: "このサイトで公開しているコンテンツを分類して紹介します。Ankiに関する情報はこのページで一覧できるようにしました。table of contents"
 ---
 = 投稿記事 目次
@@ -26,7 +26,7 @@ http://rs.luminousspice.com/table-of-contents/
 マニュアルを補足する文書の日本語訳。バージョン間での機能の違いを調べたりや機能を独自にカスタマイズしたり拡張したりするのに役立ちます。
 
 * link:/changeinanki2/[Anki 2 の変更点 日本語訳] 
-* link:/anki2addons/[Anki 2.0 アドオンの作成 日本語訳] 
+* link:/anki2addons/[Anki 2.x アドオンの作成 日本語訳] 
 
 == Anki 連載チュートリアル
 
