@@ -131,7 +131,7 @@ def testFunction():
 # 新しいメニュー項目 &#34;test&#34; を作成します。
 action = QAction(&#34;test&#34;, mw)
 # この項目をクリックしたら testFunction を呼び出すように設定します。
-mw.connect(action, SIGNAL(&#34;triggered()&#34;), testFunction)
+action.triggered.connect(testFunction)
 # そして、この設定をツールメニューに反映します。
 mw.form.menuTools.addAction(action)&lt;/pre&gt;
 &lt;/div&gt;
@@ -347,7 +347,7 @@ mw.col.db.executemany(same_sql_as_above, data)&lt;/pre&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;pre&gt;from anki.hooks import addHook
-from aqt.mw import mw
+from aqt import mw
 
 def onLeech(card):
     # スケジューラーが修正する際には、 .flush() を使わずに修正できます。
@@ -620,8 +620,8 @@ Traceback (most recent call last):
 NameError: name &#39;invalidName&#39; is not defined
 
 &amp;gt;&amp;gt;&amp;gt; a = [a for a in dir(mw.form) if a.startswith(&#34;action&#34;)]
-... print a
-... print
+... print(a)
+... print()
 ... pp(a)
 [&#39;actionAbout&#39;, &#39;actionCheckMediaDatabase&#39;, ...]
 
