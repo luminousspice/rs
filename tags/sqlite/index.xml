@@ -204,8 +204,18 @@ Windows や Mac をお使いの方は、このサイトで提供しているパ�
 &lt;p&gt;&#39;aqt&#39; には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
 インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
 ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
-します。&lt;a href=&#34;http://doc.qt.io/qt-5/index.html&#34;&gt;Qt documentation&lt;/a&gt; は、特定の GUI
+します。Qt documentation は、特定の GUI
 コンポーネントの使い方を調べたい時に、非常に役立ちます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anki 2.0.x は、&lt;a href=&#34;http://doc.qt.io/qt-4.8/index.html&#34;&gt;Qt 4.8&lt;/a&gt; を使っています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki 2.1.x は、&lt;a href=&#34;http://doc.qt.io/qt-5/index.html&#34;&gt;Qt 5.9&lt;/a&gt; を使っています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Anki が起動すると、Anki は、Documents/Anki/addons フォルダの中にある .py ファイルを
@@ -664,8 +674,7 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, &#34;around&#34;
 &lt;h2 id=&#34;_qt&#34;&gt;Qt&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上記にあるとおり、&lt;a href=&#34;http://doc.qt.io/qt-5/index.html&#34;&gt;Qt documentation&lt;/a&gt; が
-色々な GUI を表示する方法を学ぶのに非常に貴重な文書です。&lt;/p&gt;
+&lt;p&gt;概要で話したとおり、Qt documentation は 色々な GUI ウィジェットを表示する方法を学ぶのに非常に貴重な文書です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;一つ覚えておいてほしいことは、Python ではオブジェクトはガベージコレクションされます。
@@ -688,6 +697,9 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, &#34;around&#34;
     mw.myWidget = widget = QWidget()
     widget.show()&lt;/pre&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Qt オブジェクトを作って、既存のオブジェクトを親とするときには、このことはあまり必要としません。それは、親オブジェクトが新規オブジェクトを参照し続けるからです。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -938,6 +950,9 @@ jp.py&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;2017/07/28 Anki 2.1 Beta 3 準拠 (2017/07/14版)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2017/08/15 Anki 2.1 Beta 11 準拠 (2017/08/15版)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
