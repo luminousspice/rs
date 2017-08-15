@@ -1,7 +1,7 @@
 ---
 slug: "anki2addons"
 date: "2012-09-16T00:00:47+00:00"
-lastmod: "2017-08-15T01:10:38+00:00"
+lastmod: "2017-08-15T11:32:51+00:00"
 title: "Anki 2.x アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
 tags: ["Anki","Python","Qt","SQLite","アドオン"]
@@ -20,9 +20,9 @@ excerpt: "Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを�
 
 == 日本語版をご覧いただく前に
 
-この文書は、link:http://ankisrs.net/docs/addons.html[Writing Anki 2.x Add-ons] 2017-07-14 版の日本語訳です。
+この文書は、link:http://ankisrs.net/docs/addons.html[Writing Anki 2.x Add-ons] 2017-08-15 版の日本語訳です。
 
-Anki 2.x は 2017 年 8 月 14 日現在、最新バージョンは 2.0.46 および 2.1 Beta 11 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
+Anki 2.x は 2017 年 8 月 15 日現在、最新バージョンは 2.0.46 および 2.1 Beta 11 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
 
 ---
 /////
@@ -118,15 +118,21 @@ in command line programs to access Anki decks without the GUI.
 /////
 'aqt' contains the UI part of Anki. Anki's UI is built upon PyQt, Python
 bindings for the cross-platform GUI toolkit Qt. PyQt follows Qt's API very
-closely, so the http://doc.qt.io/qt-5/index.html[Qt documentation] can
-be very useful when you want to know how to use a particular GUI component.
+closely, so the documentation can be very useful when you want to know how to
+use a particular GUI component.
+
+* Anki 2.0.x uses http://doc.qt.io/qt-4.8/index.html[Qt 4.8]
+* Anki 2.1.x uses http://doc.qt.io/qt-5/index.html[Qt 5.9]
 /////
 
 'aqt' には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
 インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
 ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
-します。link:http://doc.qt.io/qt-5/index.html[Qt documentation] は、特定の GUI
+します。Qt documentation は、特定の GUI
 コンポーネントの使い方を調べたい時に、非常に役立ちます。
+
+* Anki 2.0.x は、link:http://doc.qt.io/qt-4.8/index.html[Qt 4.8] を使っています。
+* Anki 2.1.x は、link:http://doc.qt.io/qt-5/index.html[Qt 5.9] を使っています。
 
 /////
 When Anki starts up, it checks for .py files in the Documents/Anki/addons
@@ -926,13 +932,11 @@ hook to be added.
 == Qt ==
 
 /////
-As mentioned above, the http://doc.qt.io/qt-5/index.html[Qt
-documentation] is invaluable for learning how to display different GUI
-widgets.
+As mentioned in the overview, the Qt documentation is invaluable for learning
+how to display different GUI widgets.
 /////
 
-上記にあるとおり、link:http://doc.qt.io/qt-5/index.html[Qt documentation] が
-色々な GUI を表示する方法を学ぶのに非常に貴重な文書です。
+概要で話したとおり、Qt documentation は 色々な GUI ウィジェットを表示する方法を学ぶのに非常に貴重な文書です。
 
 /////
 One particular thing to bear in mind is that objects are garbage collected in
@@ -961,7 +965,13 @@ def myfunc():
     mw.myWidget = widget = QWidget()
     widget.show()
 -----
-        
+
+/////
+This is often not required when you create a Qt object and give it an existing
+object as the parent, as the parent will keep a reference to the object.
+/////
+
+Qt オブジェクトを作って、既存のオブジェクトを親とするときには、このことはあまり必要としません。それは、親オブジェクトが新規オブジェクトを参照し続けるからです。
 
 /////
 == Standard Modules ==
@@ -1309,3 +1319,4 @@ Anki 2.1 Beta 11 現在、Anki に同梱している Python のバージョン�
 *   2014/02/15 Anki 2.0.22 準拠 (2014/02/14版)
 *   2016/05/01 Anki 2.0.33 準拠 (2016/03/04版)
 *   2017/07/28 Anki 2.1 Beta 3 準拠 (2017/07/14版)
+*   2017/08/15 Anki 2.1 Beta 11 準拠 (2017/08/15版)
