@@ -415,7 +415,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した差分の単語帳は、&lt;a href=&#34;http://rs.luminousspice.com/apkg/msdnwl_adx.apkg&#34;&gt;Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)&lt;/a&gt;をダウンロードしてお使いいただけます。
 子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。&lt;/p&gt;
-&lt;p&gt;全体の単語帳は、&lt;a href=&#34;http://nossl.ankiweb.net/shared/download/722400168&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;MSDNワードリスト&#39;);&#34;&gt;Anki単語帳パッケージ&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
+&lt;p&gt;全体の単語帳は、&lt;a href=&#34;https://ankiweb.net/shared/info/722400168&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;MSDNワードリスト&#39;);&#34;&gt;Anki単語帳パッケージ&lt;/a&gt;をダウンロードしてお使いいただけます。&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
@@ -1158,7 +1158,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は &lt;a href
 &lt;p&gt;アドオンのインストール方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;h2 id=&#34;完成品のダウンロード&#34; class=&#34;section&#34;&gt;完成品のダウンロード&lt;/h2&gt;
 &lt;p&gt;この記事で作成した単語帳は、Anki単語帳パッケージをダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;http://nossl.ankiweb.net/shared/download/722400168&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;MSDNワードリスト&#39;);&#34;&gt; Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;https://ankiweb.net/shared/info/722400168&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;MSDNワードリスト&#39;);&#34;&gt; Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この単語帳を使うにはAnkiのインストールが必要です。&lt;a href=&#34;http://ankisrs.net/&#34;&gt;Ankiサイト&lt;/a&gt;から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。&lt;/p&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;

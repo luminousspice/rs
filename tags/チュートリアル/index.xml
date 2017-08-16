@@ -127,7 +127,7 @@
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;
-&lt;a class=&#34;btn&#34; href=&#34;http://nossl.ankiweb.net/shared/download/1112109660&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;サンプルデータ&#39;);&#34;&gt;サンプルデータ ダウンロード&lt;/a&gt;
+&lt;a class=&#34;btn&#34; href=&#34;https://ankiweb.net/shared/info/1112109660&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;サンプルデータ&#39;);&#34;&gt;サンプルデータ ダウンロード&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -660,7 +660,8 @@ Anki と AnkiMobile で共通な用語を日英並列した上で、日本語で
 2015/01/24: 追加: PC 版 Anki を利用した学習オプションの設定方法&lt;br&gt;
 2016/04/09: 更新: 全面的な構成変更&lt;br&gt;
 2016/04/18: 更新: 詳細情報の追加&lt;br&gt;
-2016/04/28: 更新: 詳細情報の追加&lt;br&gt;&lt;/p&gt;
+2016/04/28: 更新: 詳細情報の追加&lt;br&gt;
+2017/08/16: 修正: サンプルデータダウンロードリンク&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
