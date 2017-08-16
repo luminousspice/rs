@@ -1,7 +1,7 @@
 ---
 slug: "frequent-words-in-msdn-magazine-in-10years"
 date: "2013-06-07T22:30:38+00:00"
-lastmod: "2014-03-24T18:24:05+00:00"
+lastmod: "2017-08-16T11:34:14+00:00"
 title: "MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る"
 categories: ["Anki","コーパス","開発"]
 tags: ["Anki","Anki 単語帳","CasualConc","Corpus","mac","msdn","msdn magazine","Python","コーパス"]
@@ -102,7 +102,7 @@ MSDN Magazineは、1105 Media, Inc.の出版物です。</p>
 <h2 id="完成品のダウンロード" class="section">完成品のダウンロード</h2>
 <p>この記事で作成した差分の単語帳は、<a href="/apkg/msdnwl_adx.apkg">Anki単語帳パッケージ msdnwl_adx.apkg (15.2KB)</a>をダウンロードしてお使いいただけます。
 子単語帳`MSDNWords::Level3`として作成していますので、既にダウンロード済みの単語帳に追加して使うことができます。</p>
-<p>全体の単語帳は、<a href="http://nossl.ankiweb.net/shared/download/722400168" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'MSDNワードリスト');">Anki単語帳パッケージ</a>をダウンロードしてお使いいただけます。</p>
+<p>全体の単語帳は、<a href="https://ankiweb.net/shared/info/722400168" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'MSDNワードリスト');">Anki単語帳パッケージ</a>をダウンロードしてお使いいただけます。</p>
 <p>この単語帳を使うにはAnkiのインストールが必要です。<a href="http://ankisrs.net/">Ankiサイト</a>から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。</p>
 <div class="imageblock">
 <div class="content">

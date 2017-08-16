@@ -1,7 +1,7 @@
 ---
 slug: "how-to-use-ankimobile"
 date: "2014-09-13T21:30:52+00:00"
-lastmod: "2016-04-28T10:19:45+00:00"
+lastmod: "2017-08-16T11:23:16+00:00"
 title: "iPhone ユーザーのためのはじめての Anki"
 weight: 30
 type: "post"
@@ -85,7 +85,7 @@ AnkiMobile を利用する前に確認しておきたい項目をまとめまし
 具体的に説明するために サンプルデータを用意しましたので、これをダウンロードしてみましょう。link:https://ankiweb.net/shared/info/1112109660[数え方・数助詞]について 129 件の公開済みのデータを収録しています。
 
 +++
-<a class="btn" href="http://nossl.ankiweb.net/shared/download/1112109660" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'サンプルデータ');">サンプルデータ ダウンロード</a>
+<a class="btn" href="https://ankiweb.net/shared/info/1112109660" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'サンプルデータ');">サンプルデータ ダウンロード</a>
 +++
 
 ダウンロードが完了したら "Ankiを開く" をタップします。AnkiMobile が起動し、データが AnkiMobile に読み込まれます。
@@ -374,3 +374,4 @@ link:/ankimobile-gui-guide/[AnkiMobile ユーザーインターフェイスガ�
 2016/04/09: 更新: 全面的な構成変更 +
 2016/04/18: 更新: 詳細情報の追加 +
 2016/04/28: 更新: 詳細情報の追加 +
+2017/08/16: 修正: サンプルデータダウンロードリンク +

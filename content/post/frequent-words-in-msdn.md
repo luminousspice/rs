@@ -1,7 +1,7 @@
 ---
 slug: "frequent-words-in-msdn"
 date: "2013-05-27T00:30:32+00:00"
-lastmod: "2014-04-14T13:15:42+00:00"
+lastmod: "2017-08-16T11:34:35+00:00"
 title: "Windows開発者の必修語彙をAnki学習する方法"
 categories: ["Anki","コーパス"]
 tags: ["Anki","Anki 単語帳","AWL","BNC","CasualConc","Corpus","GSL","msdn magazine","TTS","コーパス"]
@@ -249,7 +249,7 @@ MSDNの語彙水準と完成したMSDN word listの内容の検討は <a href="/
 <p>アドオンのインストール方法については、<a href="/how-to-use-shared-resources/">Ankiの共有リソースを使ってみる</a>で説明しています。</p>
 <h2 id="完成品のダウンロード" class="section">完成品のダウンロード</h2>
 <p>この記事で作成した単語帳は、Anki単語帳パッケージをダウンロードしてお使いいただけます。</p>
-<p><a class="btn" href="http://nossl.ankiweb.net/shared/download/722400168" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'MSDNワードリスト');"> Anki 単語帳パッケージ</a></p>
+<p><a class="btn" href="https://ankiweb.net/shared/info/722400168" rel="nofollow" onclick="ga('send', 'event', 'Downloads', 'AKPG', 'MSDNワードリスト');"> Anki 単語帳パッケージ</a></p>
 <p>この単語帳を使うにはAnkiのインストールが必要です。<a href="http://ankisrs.net/">Ankiサイト</a>から最新版をダウンロードできます。Ankiは、Windows、Mac、Linux/BSD、iOS、Androidに対応しています。その他のデバイスからはAnkiWebを通じて利用可能です。詳しくはAnkiサイトをご覧ください。</p>
 <div class="imageblock">
 <div class="content">
