@@ -45,10 +45,10 @@
 &lt;p&gt;そこでクエリーを簡単に改造して復習履歴のデータを検索し、コレクション全体について間隔一分の学習回数とその比率を単語帳別に報告するアドオンを作りました。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオンは GitHub に &lt;a href=&#34;https://raw.githubusercontent.com/luminousspice/anki-addons/master/1minIvls.py&#34;&gt;1minIvls.py&lt;/a&gt; (1min Interval Report) として公開しました。&lt;/p&gt;
+&lt;p&gt;このアドオンは AnkiWeb に &lt;a href=&#34;https://ankiweb.net/shared/info/1353526614&#34;&gt;1min Interval Report&lt;/a&gt; として公開しています。Anki 2.1.x Beta 11 以降でも動作します。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;個人的な限られた用途で作ったアドオンなので AnkiWeb に公開の予定はありません。もちろん無サポート、無責任、無保証です。
+&lt;p&gt;無サポート、無責任、無保証です。
 大きなサイズのコレクションの場合は報告作成まで時間がかかります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -142,6 +142,17 @@ MWDSA	　256	16.0	52.0&lt;/pre&gt;
 &lt;p&gt;教材の事前準備やカードの構成によって、新規学習の難度を下げることができる。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2016/05/23: 初出&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2017/08/16: AnkiWeb へアドオン公開に伴い更新&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
