@@ -1,7 +1,7 @@
 ---
 slug: "anki-addons-guide"
 date: "2014-04-14T05:00:17+00:00"
-lastmod: "2016-12-10T13:02:22+00:00"
+lastmod: "2017-08-18T03:49:28+00:00"
 title: "Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち"
 weight: 20
 categories: ["Anki"]
@@ -27,7 +27,10 @@ http://rs.luminousspice.com/anki-addons-guide/
 
 link:/how-to-use-shared-resources/[Ankiの共有リソースを使ってみる]では、Anki の共有アドオンの取得、インストール、削除など基本的な説明しています。もし、まだアドオンを使ったことがない方はそちらも参考にしてみてください。
 
-*注意*: Anki のアドオンは、PC (Desktop) 版でのみ動作します。AnkiMoblie (iOS) や AnkiDroid (Android) では動作しません。
+*注意*: 
+
+* Anki のアドオンは、PC (Desktop) 版でのみ動作します。PC 版で作成したカードが、モバイル版で動作する場合もあります。
+* ここでは、Anki 2.0.x 対応のアドオンを紹介しています。Anki 2.1.x では基本的には動作しません。
 
 このガイドで紹介するそれぞれのアドオンのタイトルは、AnkiWeb のダウンロードページにリンクしています。
 
@@ -67,6 +70,20 @@ image::/images/addons_guide_1.png["かゆいところに手が届くアドオン
 学習画面の文字サイズをキーボードショートカットで拡大縮小できるようになります。(Command/Ctrl + +, Command/Ctrl + -)
 
 *注:* 入手できなくなった View Size Adjust と同じ機能を持つアドオンです。
+
+=== https://ankiweb.net/shared/info/1496166067[Night Mode]
+
+このアドオンは、暗い場所でも学習しやすくなるよう、ナイトモードの画面表示を実現します。
+
+.ナイトモード設定画面
+image::http://ankigene.luminousspice.com/images/night-mode.png[ナイトモード設定画面]
+
+=== https://ankiweb.net/shared/info/1790131139[Backup Key]
+
+このアドオンは、メインウィンドウの単語帳一覧でバックアップ作成するショートカットキー (Cmd/Ctrl+S) を追加します。
+
+.バックアップ機能呼び出し例
+image::/images/addon-backup_key.png[バックアップ機能呼び出し例]
 
 == 学習管理に役立つアドオンたち
 
@@ -114,6 +131,37 @@ image::/images/addons_progress_graph.png["Progress graph"]
 
 .Separate Learn and Relearn in the Answer Buttons graph
 image::/images/addon-learn-relearn.png["Separate Learn and Relearn in the Answer Buttons graph"]
+
+=== https://ankiweb.net/shared/info/1771074083[Review Heatmap]
+
+このアドオンは、Anki での学習活動を可視化するヒートマップを提供します。
+このグラフを見るだけで、毎日休まず続けようというやる気が湧いてきます。
+
+.Review Heatmap
+image::/images/addon-review-heatmap.png["Review Heatmap"]
+
+=== https://ankiweb.net/shared/info/494944895[Ease Factor Histogram]
+
+このアドオンは易しさの値の分布表を統計情報に追加します。Spaced Repetition が機能する限界値 130% に偏り過ぎていないか確認できます。
+
+.易しさの値 度数分布表
+image::/images/addon-ease-factor-hard.png[易しさの値 度数分布表]
+
+このアドオンの機能については、link:/addon-ease-factor-histogram/[Ease Factor Histogram 単語帳の健全性を診断するアドオン]で詳しく説明しています。
+
+=== https://ankiweb.net/shared/info/1481634779[Another Retreat]
+
+このアドオンは、忘れてしまったカードの復習期日設定アルゴリズムに修正を加えます。現状の SM2 とその派生系のアルゴリズムは、失敗したカードは新規カードと同じ状態からやり直しますが、このアドオンで過去の学習実績を考慮するように変更しました。
+
+例えば、3日間覚えていて 6 日間たったら忘れてしまったカードも、3 ヵ月間覚えていて半年たったら忘れてしまったカードも、Anki では間隔 1 日からやり直しです。
+
+このアドオンは、それぞれのカードの失敗後の復習期間を、それぞれ 3 日、3 ヵ月に割り当てます。
+
+.Another Retreat 導入後 学習モデル
+image::/images/Leitner_system.svg[Another Retreat 導入後 学習モデル]
+
+このアドオンについての詳しい説明は、link:/anki-lapse-management/[忘れた Anki カードの出直し方]に掲載しています。
+
 
 == 教材作成に役立つアドオン
 
@@ -174,6 +222,31 @@ image::/images/media_bulk_import_4.png["Media Import の処理完了"]
 .Power format pack を使った表組の指定
 image::/images/addons-power-format-pack.png["Power format pack を使った表組の指定"]
 
+=== https://ankiweb.net/shared/info/1749692420[Add Note From Clipboard]
+
+このアドオンは、Anki のメインウィンドウにフォーカスが移ると、クリップボードの内容から直接ノートを追加します。HTML タグ、[sound:] タグ、穴埋め {{c1::}} タグも正しく処理し、単語帳やノートの名前、タグに日本語が使えます。同時に複数のコマンドを使用して、ノートタイプを指定し、複数の単語帳に振り分けて登録することも可能です。表計算ソフト LibreOffice Calc のセルから直接追加できました。
+
+.サンプル登録用データ
+----
+@anki-add	基本	漢字::反対語	メディア
+黒字	<b>赤字</b>
+起筆	擱筆 [sound:擱筆.mp3]
+凝固	融解 [sound:融解.mp4]
+無常	常住 <audio src="常住.mp3" controls>
+経度	緯度 <img src="緯度.png">
+@anki-add	穴埋め	漢字::反対語	穴埋め
+直行 {{c1::迂回}}	うかい
+----
+
+=== https://ankiweb.net/shared/info/1895937979[Feed to Anki]
+
+このアドオンは、RSS フィードからカードを自動生成します。毎日少しずつカードを楽して追加したい場合に適しています。色々な辞書サイトの Word of the Day をカード化するために作りました。
+
+.カード作成例
+image::/images/feed-to-anki-am.png[カード作成例]
+
+このアドオンの詳しい説明は、link:/addon-feed-to-anki-for-wotd/[Feed to Anki 毎日英単語のカードを増やせるアドオン]をご覧ください。
+
 == 教材管理に役立つアドオン
 
 登録ノートの件数が増えてくると威力を発揮するアドオンたちです。
@@ -222,6 +295,20 @@ image::/images/addons_hierarchical_tags.png["Hierarchical Tags"]
 
 .複数のカードの両面をプレビュー表示
 image::/images/addon-advanced-previewer.png["Advanced Previewer"]
+
+=== https://ankiweb.net/shared/info/138501288[Search and Replace Tags]
+
+カードブラウザにタグの検索置換機能を追加するアドオンです。
+
+.設定画面
+image::http://ankigene.luminousspice.com/images/addon-search-and-replace-tags.png["設定画面"]
+
+=== https://ankiweb.net/shared/info/225180905[Highlight Search Results in the Browser]
+
+このアドオンは、カードブラウザでの検索結果をハイライトして見やすくします。
+
+.検索結果
+image::/images/addon-highlight-search.png["検索結果"]
 
 == アドオンを使い続けるのに必要なこと
 
@@ -299,3 +386,5 @@ Anki はアドオンの形でユーザーが機能拡張する機会を与えて
 2016/10/04: 更新: Image Occlusion
 
 2016/12/10: 追加: Advanced Previewer
+
+2017/08/18: 追加: Anki 2.1.x に関する注意
