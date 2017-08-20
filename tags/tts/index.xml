@@ -787,7 +787,7 @@ speechSynthesis.speak(speech);
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/addon-toggle-bury.png&#34; alt=&#34;延期切替ボタン追加例&#34;&gt;
+&lt;img src=&#34;http://rs.luminousspice.com/images/addon-toggle_bury.png&#34; alt=&#34;延期切替ボタン追加例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 4. 延期切替ボタン追加例&lt;/div&gt;
 &lt;/div&gt;
