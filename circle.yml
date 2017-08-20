@@ -28,7 +28,7 @@ test:
   post:
     - hugo version
     - hugo #--baseURL="/"
-    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/ankiweb.net/','/la.ma.la/','/apple.com/','/rs.luminousspice.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/ --external_only
+    - bundle exec htmlproof ./public --only-4xx --href-ignore '/anki.tenderapp.com/','/ankiweb.net/','/la.ma.la/','/apple.com/','/rs.luminousspice.com/','/www.microsoft.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/ --external_only
     - rm -rf public
 
 deployment:
