@@ -1,7 +1,7 @@
 ---
 slug: "mpv-on-anki"
 date: "2016-04-02T20:03:15+09:00"
-lastmod: "2016-04-06T06:00:00+00:00"
+lastmod: "2017-08-27T12:33:37+00:00"
 title: "Anki のメディアプレイヤーを mpv に取り替える"
 type: "post"
 categories: ["Anki"]
@@ -41,7 +41,7 @@ Anki はメディアプレイヤーとして外部ブログラムの MPlayer (MP
 
 何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。
 
-Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン https://github.com/dae/ankiplugins/blob/master/customPlayer.py[customPlayer.py] を公開している説明していて、先ほどの投稿の中でも利用していました。
+Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン https://github.com/dae/ankiplugins/blob/master/archive/customPlayer.py[customPlayer.py] を公開している説明していて、先ほどの投稿の中でも利用していました。
 
 そこで高機能な軽量動画プレイヤーの link:https://mpv.io[mpv] を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。
 
@@ -49,7 +49,7 @@ Anki はメディアプレイヤーをカスタマイズするインターフェ
 
 == アドオンの設定方法
 
-このアドオン https://github.com/dae/ankiplugins/blob/master/customPlayer.py[customPlayer.py] の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
+このアドオン https://github.com/dae/ankiplugins/blob/master/archive/customPlayer.py[customPlayer.py] の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
 初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。
 
 .customPlayer.py 変更箇所
