@@ -1,70 +1,57 @@
 ---
-slug: "anki2addons"
-date: "2012-09-16T00:00:47+00:00"
-lastmod: "2017-08-27T11:53:19+00:00"
-title: "Anki 2.0.x アドオンの作成 日本語訳"
+slug: "ankiaddons21"
+date: "2017-08-27T11:48:38+00:00"
+lastmod: "2017-08-27T11:48:38+00:00"
+title: "Anki 2.1.x アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
-tags: ["Anki","Python","Qt","SQLite","アドオン"]
+tags: ["Anki","Anki 2.1","WebEngine","Python","Qt","SQLite","アドオン"]
 anki: ["アドオン"]
-aliases: ["/2012/09/anki2addons/"]
-excerpt: "Writing Anki 2.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、アドオンの共有方法について説明しています。"
+excerpt: "Writing Anki 2.1.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、v 2.0 からの移植、アドオンの共有方法について説明しています。"
 ---
-= Anki 2.0.x アドオンの作成 日本語訳
+= Anki 2.1.x アドオンの作成 日本語訳
 :author: luminousspice
 :lang: ja
 :encoding: UTF-8
 :keywords:
-:description: Writing Anki 2.0.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、アドオンの共有方法について説明しています。
+:description: Writing Anki 2.0.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、v 2.0 からの移植、アドオンの共有方法について説明しています。
+:dbl_: __
 
 {description}
 
 == 日本語版をご覧いただく前に
 
-この文書は、link:http://ankisrs.net/docs/addons.html[Writing Anki 2.0.x Add-ons] 2017-08-26 版の日本語訳です。
+この文書は、link:http://ankisrs.net/docs/addons21.html[Writing Anki 2.1.x Add-ons] 2017-08-26 版の日本語訳です。
 
-Anki 2.0.x は 2017 年 8 月 27 日現在、最新バージョンは 2.0.47  です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
+Anki 2.1.x は 2017 年 8 月 27 日現在、最新バージョンは 2.1 Beta 13 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
 
-また、link:/ankiaddons21[Anki 2.1.x 用の文書の日本語訳]もご覧頂けます。
+また、link:/anki2addons[Anki 2.0.x 用の文書の日本語訳]もご覧頂けます。
 
 ---
 /////
 ++++++++++++++++++++++++++++++
 <%def name="title()">
-Writing Anki 2.0.x Add-ons
+Writing Anki 2.1.x Add-ons
 </%def>
 
-<h1>Writing Anki 2.0.x Add-ons</h1>
+<h1>Writing Anki 2.1.x Add-ons</h1>
 ++++++++++++++++++++++++++++++
 /////
 
-== Anki 2.0.x アドオンの作成 ==
+== Anki 2.1.x アドオンの作成 ==
 
 /////
-= Other Versions =
+== Other Versions ==
 /////
 
-== 他のバージョン == 
+== 他のバージョン ==
 
 /////
-This document covers add-on writing for Anki 2.0.x. For instructions on
-writing add-ons for the beta builds of Anki 2.1.x, please see
-https://apps.ankiweb.net/docs/addons21.html
+This document covers add-on writing for the (not yet released) Anki 2.1.x. For
+instructions on writing add-ons for Anki 2.0.x, please see
+https://apps.ankiweb.net/docs/addons.html
 /////
 
-この文書では、Anki 2.0.x 用のアドオンの作成について扱います。Anki 2.1.x Beta 用については https://apps.ankiweb.net/docs/addons21.html をご覧ください。
-
-/////
-= Translations =
-/////
-
-== 原文および翻訳 ==
-
-/////
- * 日本語: http://rs.luminousspice.com/anki2addons/
-/////
-
- * 英語: http://ankisrs.net/docs/addons.html
- * ロシア語: http://finpapa.ucoz.ru/ankitest-addons.html
+この文書では、まだリリースしていませんが Anki 2.1.x 用のアドオンの作成について扱います。Anki 2.0.x 用については https://apps.ankiweb.net/docs/addons.html をご覧ください。
 
 /////
 == Overview ==
@@ -136,9 +123,6 @@ in command line programs to access Anki decks without the GUI.
 bindings for the cross-platform GUI toolkit Qt. PyQt follows Qt's API very
 closely, so the documentation can be very useful when you want to know how to
 use a particular GUI component.
-
-* Anki 2.0.x uses http://doc.qt.io/qt-4.8/index.html[Qt 4.8]
-* Anki 2.1.x uses http://doc.qt.io/qt-5/index.html[Qt 5.9]
 /////
 
 'aqt' には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
@@ -147,18 +131,81 @@ use a particular GUI component.
 します。Qt documentation は、特定の GUI
 コンポーネントの使い方を調べたい時に、非常に役立ちます。
 
-* Anki 2.0.x は、link:http://doc.qt.io/qt-4.8/index.html[Qt 4.8] を使っています。
-* Anki 2.1.x は、link:http://doc.qt.io/qt-5/index.html[Qt 5.9] を使っています。
-
 /////
-When Anki starts up, it checks for .py files in the Documents/Anki/addons
-folder, and runs each one it finds. When add-ons are run, they typically
-modify existing code or add new menu items to provide a new feature.
+Anki 2.1.x uses http://doc.qt.io/qt-5/index.html[Qt 5.9]
 /////
 
-Anki が起動すると、Anki は、Documents/Anki/addons フォルダの中にある .py ファイルを
-探し、見つけたら一つずつ実行します。アドオンが実行されると、通常は既存のコードを修正したり、
-新しい機能を提供する新しいメニュー項目を増やしたりします。
+Anki 2.1.x は http://doc.qt.io/qt-5/index.html[Qt 5.9] を使用しています。
+
+/////
+When Anki starts up, it checks for modules in the add-ons folder, and runs
+each one it finds. When add-ons are run, they typically modify existing code
+or add new menu items to provide a new feature.
+/////
+
+Anki が起動すると、アドオンフォルダ内のモジュールを確認し、見つけたモジュールを一つづつ実行します。アドオンを実行すると、通常は既存のコードを変更したり、新しい機能を呼び出すメニュー項目を新たに追加します。
+
+/////
+== Add-on folders ==
+/////
+
+== アドオンフォルダ ==
+
+/////
+You can access the top level add-ons folder by going to the Tools>Add-ons menu
+item in the main Anki window. Click on the View Files button, and a folder
+will pop up. If you had no add-ons installed, the top level add-ons folder
+will be shown. If you had an add-on selected, the add-on's module folder will
+be shown, and you will need to go up one level.
+/////
+
+Anki のメインウィンドウのメニューから Tools>Add-ons と選ぶと、アドオンフォルダの最上位階層にアクセスできます。View Files ボタンを押すとフォルダがポップアップします。アドオンをまだ何もインストールしていない場合は、最上位のアドオンフォルダが開きます。アドオンを選択している場合は、アドオンのモジュールフォルダーが開きます。これは最上位階層の一つ下の階層になります。
+
+/////
+The add-ons folder is named "addons21", corresponding to Anki 2.1. If you have
+an "addons" folder, it is because you have previously used Anki 2.0.x.
+/////
+
+アドオンフォルダの名前は、"addons21"　です。Anki 2.1 に対応しています。"addons" があるのは、以前 Anki 2.0.x を使っていたためです。
+
+/////
+Each add-on uses one folder inside the add-on folder. Anki looks for a
+file called `__init__.py` file inside the folder, eg:
+/////
+
+それぞれのアドオンは、アドオンフォルダの中の一つのフォルダを使います。Anki はそのフォルダの中にあるファイル `{dbl_}init{dbl_}.py` を探します。
+
+  addons21/my_addon/{dbl_}init{dbl_}.py
+
+/////
+If `__init__.py` does not exist, Anki will ignore the folder.
+/////
+
+もし `{dbl_}init{dbl_}.py` がなければ、Anki はそのフォルダを無視します。
+
+/////
+When choosing a folder name, it is recommended to stick to a-z and 0-9
+characters to avoid problems with Python's module system.
+/////
+
+フォルダ名を決めるときには、a-z と 0-9 の範囲の文字から選ぶことおすすめします。これによって、Python モジュールシステムによる問題を避けることができます。
+
+/////
+While you can use whatever folder name you wish for folders you create
+yourself, when you download an add-on from AnkiWeb, Anki will use the item's
+ID as the folder name, such as:
+/////
+
+自分でフォルダを作るときはどんな名前でも使えますが、AnkiWeb からアドオンをダウンロードするときは、Anki はそのアドオンの ID をフォルダ名に使います。例えば次の通りです。
+
+ addons21/48927303923/{dbl_}init{dbl_}.py
+
+/////
+Anki will also place a meta.json file in the folder, which keeps track of the
+original add-on name, when it was downloaded, and whether it's enabled or not.
+/////
+
+Anki はさらにフォルダに meta.json ファイルを保存して、ダウンロードした時の元のアドオン名と、アドオンの利用許可を追跡ます。
 
 /////
 == A Simple Add-On ==
@@ -167,10 +214,10 @@ Anki が起動すると、Anki は、Documents/Anki/addons フォルダの中に
 == 簡単なアドオンの一例 ==
 
 /////
-Add the following to a test.py file in your add-ons folder:
+Add the following to `my_first_addon/__init__.py` in your add-ons folder:
 /////
 
-次に示す test.py ファイルを、自分のアドオンフォルダーに追加してみてください:
+次に示す `my_first_addon/{dbl_}init{dbl_}.py` を、自分のアドオンフォルダーに追加してみてください:
 
 /////
 -----
@@ -787,6 +834,15 @@ aqt/editor.py には、setupButtons() という関数があり、エディター
 みましょう。
 
 /////
+WARNING: Anki 2.1 no longer uses setupButtons(). The code below is still
+useful to understand how monkey patching works, but for adding buttons to the
+editor please see the setupEditorButtons hook described in the previous
+section.
+/////
+
+警告: Anki 2.1 は、setupButtons() をもう使用していません。このコードは、モンキーパッチがどのように動作しているか、理解するのに役立ちますが、エディタにボタンと追加するには、前の項目で説明した setupEditorButtons フックを見てください。
+
+/////
 The simplest way is to copy and paste the function from the Anki source code,
 add your text to the bottom, and then overwrite the original, like so:
 /////
@@ -937,13 +993,13 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, "around")
 /////
 If you need to modify the middle of a function rather than run code before or
 after it, there may a good argument for adding a hook to that function in the
-original code. In these situations, please post on the forum and ask for a
-hook to be added.
+original code. In these situations, please post on the support site and ask
+for a hook to be added.
 /////
 
 関数の前後でコードを実行するのではなく、関数の中を修正する必要がある場合には、元のコードの
 中の対象とする関数にフックを追加するのが良い方法かも知れません。このような場合には、
-追加するフックについての質問をフォーラムに投稿してください。
+追加するフックについての質問をサポートサイトに投稿してください。
 
 == Qt ==
 
@@ -1005,6 +1061,16 @@ your add-on.
 Anki は、このプログラムの実行に必要な標準モジュールだけを含めて提供しています。Python
 の完全な複製を含んではいません。このために、Anki が含んでいない標準モジュールを使う必要が
 ある場合には、自分のアドオンに同梱する必要があります。
+
+/////
+This only works with pure Python modules - modules that require C extensions
+such as numpy will not work when bundled, since your modules will not match
+the architecture Anki was packaged on. If you're doing something
+sophisticated, you'll need to get your users to install a standalone copy of
+Python instead.
+/////
+
+この場合、pure Python モジュールは使えますが、numpy のような C 拡張を必要とするモジュールを同梱しても動作しません。その理由は、そのモジュールが Anki をパッケージしたアーキテクチャと一致しないためです。もし込み入ったことをするのであれば、代わりにユーザーに Python のスタンドアロンファイルをインストールしてもらう必要があります。
 
 /////
 == Debugging ==
@@ -1088,7 +1154,7 @@ NameError: name 'invalidName' is not defined
 >>> mw
 <no output>
 
->>> print mw
+>>> print(mw)
 <aqt.main.AnkiQt object at 0x10c0ddc20>
 
 >>> invalidName
@@ -1172,12 +1238,12 @@ debugger on an uncaught exception.
 == もっと詳しく学びたい場合には ==
 
 /////
-Both anki and aqt are available at http://github.com/dae/. The
+Anki's source code is available at http://github.com/dae/. The
 colllection object is defined in anki's collection.py. Other useful files
 to check out are cards.py, notes.py, sched.py, models.py and decks.py.
 /////
 
-anki と aqt の両方が http://github.com/dae/ で入手できます。コレクション
+Anki のソースコードは http://github.com/dae/ で入手できます。コレクション
 オブジェクトは、anki の collection.py の中で定義されています。他に調べる価値のある
 ファイルは、cards.py、notes.py、sched.py、models.py や decks.py です。
 
@@ -1205,129 +1271,232 @@ how they accomplish something.
 最後になりますが、他のアドオンが何かを実現している方法を見ることも、非常に役立ちます。
 
 /////
-== Porting Anki 1.2 plugins ==
-/////
-
-== Anki 1.2 プラグインからの移植 ==
-
-/////
-Some of the main changes to be aware of:
-/////
-
-注意すべき主な変更点:
-
-/////
- * Table changes: facts->notes, reviewHistory->revlog
- * Fields are stored in the notes tables now, in a single text field 'flds'.
-   The fields are separated by \x1f.
- * There's no cardTags table now. Use col.findCards("tag:x note:y card:z") to
-   search in a similar way to before.
- * The scheduling code is all in sched.py; the deck code is now in
-   collection.py.
- * If you do bulk updates of the notes table and don't use findReplace(), make
-   sure to call col.updateFieldCache()
- * There's no Q/A cache anymore, so you can't search for text in the card
-   question or answer without generating it first.
- * Instead of the old undo system, call mw.checkpoint("Undo Name") to save the
-   collection before you make changes. If the user undoes the operation, it
-   will revert back to the saved state.
- * In order to ensure changes sync, if you modify notes or cards in the DB,
-   make sure you update mod and set usn to col.usn().
- * Likewise, when you modify models or decks, make sure to call save() in the
-   relevant manager.
- * If you set up a timer, use mw.progress.timer() to ensure the timer doesn't
-   fire in the middle of a DB operation.
- * There's no stats table anymore, since it can't be merged when syncing. The
-   statistics now need to be derived from the revlog table.
-/////
-
- * テーブルの変更: facts->notes、reviewHistory->revlog
- * フィールドは、現在 notes テーブルに 'flds' という単体のテキストフィールドに保存している。
-   各フィールドは \x1f で区切られている。
- * cardTags テーブルを廃止しました。以前と同様の方法で検索するには
-   col.findCards("tag:x note:y card:z") をお使いください。
- * スケジュールのコードは全て sched.py にあります。単語帳のコードは collection.py です。
- * notes テーブルを一括更新する場合は、findReplace() を使わないでください。
-   必ず col.updateFieldCache() を呼び出してください。
- * Q/A キャッシュを廃止しました。このため質問か解答を生成していないカードの中を
-   テキスト検索することはできません。
- * 変更の前にコレクションを保存するには、古いアンドゥ (元に戻す) システムの代わりに 
-   mw.checkpoint("Undo Name") を呼び出してください。ユーザーが操作をやり直す場合、
-   保存済みの状態に戻ります。
- * 変更の同期を確実にするには、ノートやカードをデータベース内で修正した場合に、mod の更新と
-   usn が col.usn() に設定を必ず行ってください。
- * 同様に、モデルや単語帳を修正した場合は、適切なマネージャで必ず save() を呼んでください。
- * タイマーを設定する場合は、mw.progress.timer() を使って、データベース処理の最中に
-   タイマーが起動することが決して起らないようにしてください。
- * stats テーブルを廃止しました。同期中のマージはできなくなりました。統計は revlog 
-   テーブルから引き出す必要があります。
-
-/////
 == Sharing Add-ons ==
 /////
 
 == アドオンの共有 ==
 
 /////
-For a simple one-file add-on, you can upload the .py file. For multi-file
-add-ons, please create a subfolder that acts as a Python package, and create a
-small .py file that imports that package. Using the Japanese support add-on as
-an example, the structure looks like:
+AnkiWeb expects a .zip file of the contents of an add-on module, without
+the folder name. For example, if you have a module like the following:
 /////
 
-単純な一つのファイルからなるアドオンは、その .py をアップロードできます。複数のファイルの
-アドオンは、Python パッケージとして動作するようにサブホルダーを作って、パッケージを読み込む
-小さな .py ファイルを作ってください。Japanese support アドオンを使って説明しますと
-次のような構造になります。
+AnkiWeb は、アドオンモジュールを収録するには .zip ファイルを要求します。フォルダー名は必要しとません。例えば、次のようなモジュールを持っているとします。
+
+  addons21/myaddon/__init__.py
+  addons21/myaddon/my.data
 
 /////
-  japanese/file1.py
-  japanese/file2.py
-  japanese/__init__.py # can be empty; marks the folder as a package
-  japanese/<binary support files>
-  jp.py
+Then the zip file contents should be:
 /////
 
-  japanese/file1.py
-  japanese/file2.py
-  japanese/__init__.py # 空も可能。このフォルダーがパッケージであることを示す
-  japanese/<バイナリーのサポートファイル>
-  jp.py
+この場合、zip ファイルの内容を次のようにしてください。
+
+  __init__.py
+  my.data
 
 /////
-To upload a multi-file add-on, please zip up the folder and the loader .py
-file and upload the zip.
+If you include the folder name in the zip like the following, AnkiWeb will not
+accept the zip file:
 /////
 
-複数ファイルのアドオンをアップロードするには、フォルダーとローダー .py ファイルを zip
-ファイルにして、その zip ファイルをアップロードしてください。
+フォルダー名を含めた次のような zip ファイルは、AnkiWeb は受け付けません。
+
+ myaddon/__init__.py
+ myaddon/my.data
 
 /////
-Please upload add-ons to https://ankiweb.net/shared/addons/
+You can give the .zip file any name.
 /////
 
-https://ankiweb.net/shared/addons/ にアドオンをアップロードしてください。
+.zip ファイルの名前は自由に付けることができます。
+
+/////
+Python automatically creates `__pycache__` folders when your add-on is run.
+Please make sure you delete these prior to creating the zip file, as AnkiWeb
+can not accept .zip files that contain `__pycache__` folders.
+/////
+
+Python は、実行するときに `{dbl_}pycache{dbl_}` フォルダを自動的に作ります。zip を作る前に必ずこのフォルダを削除してください。AnkiWeb は、`{dbl_}pycache{dbl_}` フォルダを含んだ .zip ファイルを受け付けないからです。
+
+/////
+You can upload a .zip you've created to https://ankiweb.net/shared/addons/
+/////
+
+zip ファイルを作ったら https://ankiweb.net/shared/addons/ にアップロードできます。
+
+/////
+== Porting Anki 2.0 add-ons ==
+/////
+
+== Anki 2.0 アドオンの移植 ==
+
+Python 3
+--------
+
+/////
+Anki 2.1 requires Python 3.6 or later. After installing Python 3 on your
+machine, you can use the 2to3 tool to automatically convert your existing
+scripts to Python 3 code on a folder by folder basis, like:
+/////
+
+Anki 2.1 は Python 3.6 以降が必須です。Python 3 を自分のマシンにインストールしたら、2to3 ツールを使って、自動的に既存のスクリプトを Python 3 のコードにフォルダ単位で変換できます。 次の通りです。
+
+  2to3-3.6 --output-dir=aqt3 -W -n aqt
+  mv aqt aqt-old
+  mv aqt3 aqt
+
+/////
+Most simple code can be converted automatically, but there may be parts of the
+code that you need to manually modify.
+/////
+
+ほとんどの単純なコードは自動的に変換できますが、手作業で変更の必要がある箇所が残るかもしれません。
+
+Qt5 / PyQt5
+-----------
+
+/////
+The syntax for connecting signals and slots has changed in PyQt5. Recent PyQt4
+versions support the new syntax as well, so the same syntax can be used for
+both Anki 2.0 and 2.1 add-ons.
+/////
+
+PyQt5 でシグナルとスロットをつなぐ構文が変わりました。最近の PyQt4 バージョンではこの新しい構文を同じようにサポートしていますので、Anki 2.0 と 2.1 の両方のアドオンで同じ構文を使えます。
+
+/////
+More info is available at
+/////
+さらに詳しい情報は次のリンクをご覧ください。
+http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html
+
+/////
+One add-on author reported that the following tool was useful to automatically
+convert the code:
+/////
+あるアドオン作者が次のツールがコードを自動的に変換するのに役立ったと報告してくれました。
+https://github.com/rferrazz/pyqt4topyqt5
+
+/////
+Compatibility with Anki 2.0
+/////
+Anki 2.0 との互換性
+---------------
+
+/////
+Most add-ons that affect the scheduler should require only minor changes to
+work on 2.1. Add-ons that alter the behaviour of the reviewer, browser or
+editor may require more work.
+/////
+
+scheduler に手を加えているほとんどのアドオンは、わずかな変更だけで 2.1 で動作するでしょう。reviewer、browser、editor の動作を変更するアドオンはさらに多くの作業を必要とします。
+
+/////
+If you previously distributed your add-on in a single .py file, it will now
+need to be zipped up as described in the 'sharing add-ons' section above.
+/////
+
+これまで単一の .py ファイルでアドオンを配布していた方は、前の「アドオンの共有」項目で紹介した方法で、改めて zip ファイルを作る必要があります。
+
+/////
+The Qt modules are in 'PyQt5' instead of 'PyQt4'. You can do a conditional
+import, but an easier way is to import from aqt.qt - eg
+/////
+
+Qt モジュールは、'PyQt4' の代わりに 'PyQt5' の中にあります。条件分岐で読み込むこともできますが、さらに簡単な方法は aqt.qt から読み込むことです。例えば次のようにします。
+
+  from aqt.qt import *
+
+/////
+The most difficult part is the change from the unsupported QtWebKit to
+QtWebEngine. If you do any non-trivial work with webviews, some work will be
+required to port your code to Anki 2.1, as described in the next section.
+/////
+
+最も困難な箇所は、サポートを停止した QtWebKit から QtWebEngine への変更です。WebView を使って単純ではない操作をしている場合は、Anki 2.1 へのコードの移植は、ある程度の作業が必要になります。
+
+/////
+Most Python 3 code will run on Python 2 as well, so it is theoretically
+possible to update your add-ons in such a way that they run on both Anki 2.0
+and 2.1. Depending on what you're doing, you may be able to do this without
+any special code, or you may need to add some if statements to run separate
+codepaths. This may be more work than it is worth however. AnkiWeb now
+supports uploading separate files for 2.0.x and 2.1.x add-ons, so you may find
+it easier to copy your code, port it to 2.1, and then upload the ported copy
+separately. You can continue to update the 2.0.x code if you wish, or avoid
+further updates if you do not have time.
+/////
+
+ほとんどの Python 3 のコードは、Python 2 でも動作します。このため理論上は、Anki 2.0 と 2.1 の両方で動作するようにアドオンを更新することが可能です。アドオンの動作の内容によって、特別なコードを使わずに両方のバージョンで動作することができるか、別々のコードパスで実行する if 文を追加する必要があるか決まります。しかし、これは必要以上の作業になるかもしれません。そこで AnkiWeb は 2.0.x 用と 2.1.x 用のアドオンを別々のファイルでアップロードすることをサポートしました。これによって、既存のコードをコピーし、2.1 へ移植し、そして移植したファイルを別にアップロードすることがもっと簡単になります。必要に応じて 2.0.x のコードを更新し続けられますし、時間がないなら追加の更新を避けることもできます。
+ 
+/////
+Webview changes
+/////
+Webview の変更点
+-------------
+
+/////
+Qt 5 has dropped WebKit in favour of the Chromium-based WebEngine, so
+Anki's webviews are now using WebEngine. Of note:
+/////
+
+Qt 5 は、WebKit の代わりに Chromium ベースの WebEngine を採用しました。このため、Anki の WebView には、WebEngine を現在使用しています。そのためのノートです。
+
+/////
+- You can now debug the webviews using an external Chrome instance, by setting
+  the env var QTWEBENGINE_REMOTE_DEBUGGING to 8080 prior to starting Anki,
+  then surfing to localhost:8080 in Chrome.
+/////
+- 外部の Chrome インスタンスを使って WebView をデバッグできるようになりました。Anki を起動する前に環境変数 QTWEBENGINE_REMOTE_DEBUGGING を 8080 に設定して、Chrome で localhost:8080 にアクセスします。
+/////
+- WebEngine uses a different method of communicating back to Python.
+  AnkiWebView() is a wrapper for webviews which provides a pycmd(str) function in
+  Javascript which will call the ankiwebview's onBridgeCmd(str) method. Various
+  parts of Anki's UI like reviewer.py and deckbrowser.py have had to be
+  modified to use this.
+/////
+- WebEngine は Python との通信に別の方法を使います。
+  AnkiWebView() は、WebView 用のラッパーで pycmd(str) 関数を提供します。この関数は Javascript の中で ankiwebview の onBridgeCmd(str) メドッドを呼び出します。 Anki の UI の reviewer.py や deckbrowser.py といった様々な場所で、これを使うために変更しなければなりませんでした。
+/////
+- Javascript is evaluated asynchronously, so if you need the result of a JS
+  expression you can use ankiwebview's evalWithCallback().
+/////
+- Javascript を非同期的に評価します。このため、JS の式の結果が必要な場合は ankiwebview の evalWithCallback() を使うことができます。
+/////
+- As a result of this asynchronous behaviour, editor.saveNow() now requires a
+  callback. If your add-on performs actions in the browser, you likely need to
+  call editor.saveNow() first and then run the rest of your code in the callback.
+  Calls to .onSearch() will need to be changed to .search()/.onSearchActivated()
+  as well. See the browser's .deleteNotes() for an example.
+/////
+- この非同期の動作の結果、editor.saveNow() はコールバックが必要になりました。アドオンがブラウザ内でアクションを実行する場合、editor.saveNow() を最初に呼んでから、コールバックの中のコードの残りを実行する必要がおそらくあるでしょう。
+  .onSearch() を呼ぶには、.search()/.onSearchActivated() も変更する必要があります。例えば、ブラウザの .deleteNotes() をご覧ください。
+/////
+- Various operations that were supported by WebKit like setScrollPosition() now
+need to be implemented in javascript.
+/////
+- setScrollPosition() のような WebKit でサポートした様々な操作は、JavaScript で実装する必要があります。
+/////
+- Page actions like mw.web.triggerPageAction(QWebEnginePage.Copy) are also
+asynchronous, and need to be rewritten to use javascript or a delay.
+/////
+- mw.web.triggerPageAction(QWebEnginePage.Copy) のようなページの動作も非同期で、JavaScript や遅延を使って書き直す必要があります。
+/////
+- WebEngine doesn't provide a keyPressEvent() like WebKit did, so the code
+that catches shortcuts not attached to a menu or button has had to be changed.
+See the way reviewer.py calls setStateShortcuts() for an example.
+/////
+- WebEngine には、WebKit のような keyPressEvent() を提供していません。このため、メニューやボタンに割り当ててないショートカットを捕捉するコードは変更しなければなりませんでした。例として、reviewer.py が setStateShortcuts() を呼んでいる方法をご覧ください。
 
 ---
 
+
 == 日本語版訳注
 
-Anki 2 の変更点を知るには、link:/changeinanki2/[Anki 2の変更点] が役立ちます。
+Anki 2.1 Beta の更新履歴を知るには、link:https://apps.ankiweb.net/docs/beta.html[Anki 2.1 Beta] が役立ちます。
 
-更に、アプリケーションの個々の機能や処理を詳しく理解するには link:http://ankisrs.net/docs/manual.html[Anki User Manual] をご覧ください。
-
-Anki 2.0.47 現在、Anki に同梱している Python のバージョンは `2.7.6` です。
-
-アドオン開発の簡単なチュートリアルとして link:/how_to_create_anki_add-ons/[フックを使った Anki アドオンのつくり方]を用意しました。この記事を補足して独自フックの追加してアドオンを作成する方法や、作成したアドオンを AnkiWeb のアドオン一覧へ登録する方法について説明しています。
+Anki 2.1 Beta 13 現在、Anki に同梱している Python のバージョンは `3.6.1` です。
 
 == 日本語版更新履歴
 
-*   2012/09/16 Anki 2 Release Candidate 4 準拠 (2012/09/08版) 初出
-*   2013/02/03 Anki 2.0.5 準拠 (2012/12/20版)
-*   2013/05/07 Anki 2.0.8 準拠 (2013/05/07版)
-*   2013/06/07 Anki 2.0.8 準拠 (2013/05/13版)
-*   2014/02/15 Anki 2.0.22 準拠 (2014/02/14版)
-*   2016/05/01 Anki 2.0.33 準拠 (2016/03/04版)
-*   2017/07/28 Anki 2.1 Beta 3 準拠 (2017/07/14版)
-*   2017/08/15 Anki 2.1 Beta 11 準拠 (2017/08/15版)
-*   2017/08/27 Anki 2.0.47 準拠 (2017/08/26版)
+*   2017/08/27 Anki 2.1 Beta 13 準拠 (2017/08/26版) 初出
