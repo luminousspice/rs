@@ -330,7 +330,7 @@
 &lt;p&gt;何がそんなに面白いかと言うと、Anki は、ユーザーがメディアプレイヤーを自由に変更することを前提に作っていることです。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; を公開している説明していて、先ほどの投稿の中でも利用していました。&lt;/p&gt;
+&lt;p&gt;Anki はメディアプレイヤーをカスタマイズするインターフェイスを標準で持っています。その使い方を Anki の作者が純正アドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/archive/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; を公開している説明していて、先ほどの投稿の中でも利用していました。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;そこで高機能な軽量動画プレイヤーの &lt;a href=&#34;https://mpv.io&#34;&gt;mpv&lt;/a&gt; を一つ具体例に取り上げて、Anki のメディアプレイヤーの交換方法を紹介したいと思います。&lt;/p&gt;
@@ -344,7 +344,7 @@
 &lt;h2 id=&#34;_アドオンの設定方法&#34;&gt;アドオンの設定方法&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
+&lt;p&gt;このアドオン &lt;a href=&#34;https://github.com/dae/ankiplugins/blob/master/archive/customPlayer.py&#34;&gt;customPlayer.py&lt;/a&gt; の使い方は、変更すべき箇所の直前のコメント中に書き込まれています。
 初期設定 MPlayer の内容がコメントアウトで残されているので、引数の設定の参考にしてください。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;listingblock&#34;&gt;
