@@ -175,7 +175,7 @@ file called `__init__.py` file inside the folder, eg:
 
 それぞれのアドオンは、アドオンフォルダの中の一つのフォルダを使います。Anki はそのフォルダの中にあるファイル `{dbl_}init{dbl_}.py` を探します。
 
-  addons21/my_addon/{dbl_}init{dbl_}.py
+  addons21/my_addon/__init__.py
 
 /////
 If `__init__.py` does not exist, Anki will ignore the folder.
@@ -198,7 +198,7 @@ ID as the folder name, such as:
 
 自分でフォルダを作るときはどんな名前でも使えますが、AnkiWeb からアドオンをダウンロードするときは、Anki はそのアドオンの ID をフォルダ名に使います。例えば次の通りです。
 
- addons21/48927303923/{dbl_}init{dbl_}.py
+ addons21/48927303923/__init__.py
 
 /////
 Anki will also place a meta.json file in the folder, which keeps track of the
