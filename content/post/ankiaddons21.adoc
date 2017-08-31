@@ -37,7 +37,7 @@ Writing Anki 2.1.x Add-ons
 ++++++++++++++++++++++++++++++
 /////
 
-= Anki 2.1.x アドオンの作成 =
+== Anki 2.1.x アドオンの作成 ==
 
 /////
 == Other Versions ==
