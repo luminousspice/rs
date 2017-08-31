@@ -15,8 +15,8 @@ machine:
 
 dependencies:
   pre:
-    - wget https://github.com/spf13/hugo/releases/download/v0.20/hugo_0.20_i386.deb
-    - sudo dpkg -i hugo_0.20_i386.deb
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.deb
+    - sudo dpkg -i hugo_0.26_Linux-64bit.deb
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@example.com"
   override:
