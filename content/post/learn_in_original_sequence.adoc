@@ -60,7 +60,7 @@ image::/images/shared-decks-preview.png["プレビュー画面"]
 * 項目 [カスタム学習ステップ] をチェックし、100 枚のカードを学習するのに掛かる時間より十分余裕のある時間を分単位で入力します。例えば 10。
 
 .フィルター単語帳の設定
-image::images/learn_in_original_squence_1.png["フィルター単語帳の設定"]
+image::/images/learn_in_original_squence_1.png["フィルター単語帳の設定"]
 
 [作成] ボタンを押すと、フィルター単語帳の作成が完了します。
 単語帳一覧に戻ると [フィルター単語帳 (数字)] という名前で新しい単語帳ができていることを確認してください。
@@ -78,7 +78,7 @@ image::images/learn_in_original_squence_1.png["フィルター単語帳の設定
 解答を表示した後に、この問題の難易度を選択するボタンを次のように表示します。
 
 .解答表示後のボタン
-image::images/learn_in_original_squence_2.png["解答表示後のボタン"]
+image::/images/learn_in_original_squence_2.png["解答表示後のボタン"]
 
 .解答ボタンを押す時の注意点
 * 常に[普通] (終了) ボタンを押します。

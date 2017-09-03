@@ -169,7 +169,7 @@ Font Scale: スライダーを使って、画面表示のフォントの大き�
 All Actions: Tools 画面 から [More] ボタンを押すと、AnkiMobile のアクションの一覧を表示します。
 
 .アクション一覧
-image::images/actions.png["アクション一覧",width="300"]
+image::/images/actions.png["アクション一覧",width="300"]
 
 *Action:* [More]
 

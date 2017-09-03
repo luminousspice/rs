@@ -54,7 +54,7 @@ Anki への音声や画像データの基本的な一括登録方法は link:htt
 Clyp の埋め込み機能は Anki 上で表示することができます。
 
 .Clyp データの表示例
-image::images/reinforce-online-lesson-clyp.png["Clyp データの表示例"]
+image::/images/reinforce-online-lesson-clyp.png["Clyp データの表示例"]
 
 
 == チャットログの復習

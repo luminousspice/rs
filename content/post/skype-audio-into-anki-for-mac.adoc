@@ -28,7 +28,7 @@ Skype での会話内容を Anki に取り込むには、さらに次のよう�
 ここで、スピーカー項目を [複数出力装置] に設定すると完了です。
 
 .Skype 音声の設定例
-image::images/skype-audio-preference.png["Skype 音声の設定例"]
+image::/images/skype-audio-preference.png["Skype 音声の設定例"]
 
 これで、Anki の録音機能を使って音声を登録できるようになります。
 

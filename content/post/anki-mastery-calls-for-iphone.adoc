@@ -60,7 +60,7 @@ AnkiMobile では、スワイプ、タップなどジェスチャや学習画面
 === ユーザーインターフェイスのカスタマイズ設定
 
 .学習画面のアクション設定
-image::images/anki-mastery-settings-review.png["学習画面の設定",width="300"]
+image::/images/anki-mastery-settings-review.png["学習画面の設定",width="300"]
 
 * *スワイプ* 上下左右の 4 方向にアクションを割り当てることが出来ます。
 * *タップ* 学習画面の画面を 9 分割してアクションを割り当てることが出来ます。質問表示、解答表示で別々のアクションが設定できます。
@@ -120,7 +120,7 @@ AnkiMobile のユーザーサポートは、実際の開発者が直接サポー
 https://anki.tenderapp.com/discussions/ankimobile[AnkiMobile ユーザーフォーラム]のスレッド一覧を見てもらうと分かると思いますが、ほどんどの案件がクローズしています。オープンになっているのは、ユーザーからの返事待ちのものばかりです。
 
 .サインイン後のサポートスレッド内容
-image::images/anki-mastery-support.png["サインイン後のサポートスレッド内容",width="600"]
+image::/images/anki-mastery-support.png["サインイン後のサポートスレッド内容",width="600"]
 
 == コンテンツ作成機能の制限について
 

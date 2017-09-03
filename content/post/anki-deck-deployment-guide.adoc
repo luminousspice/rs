@@ -55,7 +55,7 @@ Anki をよく分かっている人が、そうでない人たちにデータを
 Anki の書き出し機能は、単語帳単位で apkg を書き出す方式とコレクション全体を書き出す collection.apkg の二通りがあります。
 
 .書き出し
-image::images/anki-deck-deploy-export.png["書き出し"]
+image::/images/anki-deck-deploy-export.png["書き出し"]
 
 ファイル形式を [Anki 単語帳パッケージ　(*.apkg)]、対象に [全ての単語帳] を選択するとコレクション全体を書き出し、具体的な単語帳を指定した時には単語帳単位で apkg を書き出します。
 
