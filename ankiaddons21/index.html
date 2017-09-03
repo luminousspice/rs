@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2017-08-27T11:48:38Z"/>
-<meta property="article:modified_time" content="2017-08-31T15:23:05Z"/>
+<meta property="article:modified_time" content="2017-09-03T04:14:21Z"/>
 
 
 
@@ -91,7 +91,7 @@
 
 <div class="post">
   <h1 class="post-title">Anki 2.1.x アドオンの作成 日本語訳</h1>
-  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-08-31 更新</span>
+  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-09-03 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -198,7 +198,7 @@ Windows や Mac をお使いの方は、このサイトで提供しているパ�
 <h2 id="_アドオンフォルダ">アドオンフォルダ</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Anki のメインウィンドウのメニューから Tools&gt;Add-ons と選ぶと、アドオンフォルダの最上位階層にアクセスできます。View Files ボタンを押すとフォルダがポップアップします。アドオンをまだ何もインストールしていない場合は、最上位のアドオンフォルダが開きます。アドオンを選択している場合は、アドオンのモジュールフォルダーが開きます。これは最上位階層の一つ下の階層になります。</p>
+<p>Anki のメインウィンドウのメニューから Tools&gt;Add-ons と選ぶと、アドオンフォルダの最上位階層にアクセスできます。View Files ボタンを押すとフォルダがポップアップします。アドオンをまだ何もインストールしていない場合は、最上位のアドオンフォルダが開きます。アドオンを選択している場合は、アドオンのモジュールフォルダが開きます。これは最上位階層の一つ下の階層になります。</p>
 </div>
 <div class="paragraph">
 <p>アドオンフォルダの名前は、"addons21"　です。Anki 2.1 に対応しています。"addons" があるのは、以前 Anki 2.0.x を使っていたためです。</p>
@@ -228,13 +228,16 @@ Windows や Mac をお使いの方は、このサイトで提供しているパ�
 <div class="paragraph">
 <p>Anki はさらにフォルダに meta.json ファイルを保存して、ダウンロードした時の元のアドオン名と、アドオンの利用許可を追跡ます。</p>
 </div>
+<div class="paragraph">
+<p>ユーザーデータをアドオンフォルダに保存できません。<a href="#configuration">そのようなデータは、ユーザーがアドオンをアップグレードすると、削除される</a>からです。</p>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_簡単なアドオンの一例">簡単なアドオンの一例</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>次に示す <code>my_first_addon/__init__.py</code> を、自分のアドオンフォルダーに追加してみてください:</p>
+<p>次に示す <code>my_first_addon/__init__.py</code> を、自分のアドオンフォルダに追加してみてください:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -784,6 +787,17 @@ print("var is", config['myvar'])</pre>
 <pre>mw.addonManager.setConfigAction(__name__, myOptionsFunc)</pre>
 </div>
 </div>
+<div class="paragraph">
+<p>ユーザーデータを外部ファイルに記録する場合は、アドオンフォルダに保存するのは避けてください。ユーザーがアドオンをアップグレードすると失われるからです。一つの代替案として、次のようにドキュメントフォルダに保存する方法があります。</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>os.path.join(
+  QStandardPaths.writableLocation(
+    QStandardPaths.DocumentsLocation),
+  "myfile.data")</pre>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -932,7 +946,7 @@ pp() で囲んで実行し結果を表示します。</p>
 <h2 id="sharing">アドオンの共有</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>AnkiWeb は、アドオンモジュールを収録するには .zip ファイルを要求します。フォルダー名は必要しとません。例えば、次のようなモジュールを持っているとします。</p>
+<p>AnkiWeb は、アドオンモジュールを収録するには .zip ファイルを要求します。フォルダ名は必要しとません。例えば、次のようなモジュールを持っているとします。</p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -950,7 +964,7 @@ my.data</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>フォルダー名を含めた次のような zip ファイルは、AnkiWeb は受け付けません。</p>
+<p>フォルダ名を含めた次のような zip ファイルは、AnkiWeb は受け付けません。</p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -1028,7 +1042,7 @@ mv aqt3 aqt</pre>
 <p>2.0 との互換性を気にしないなら、名前を <code>demo.py</code> を <code>demo/__init__.py</code> に変更するだけで済みます。</p>
 </div>
 <div class="paragraph">
-<p>同じファイルで 2.0 をサポートする計画の場合は、元のファイルをフォルダーにコピーして (<code>demo.py</code> &#8594; <code>demo/demo.py</code>)、さらに次のような <code>demo/__init__.py</code> を追加して、相対的にアドオンを読み込みます。</p>
+<p>同じファイルで 2.0 をサポートする計画の場合は、元のファイルをフォルダにコピーして (<code>demo.py</code> &#8594; <code>demo/demo.py</code>)、さらに次のような <code>demo/__init__.py</code> を追加して、相対的にアドオンを読み込みます。</p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -1037,6 +1051,14 @@ mv aqt3 aqt</pre>
 </div>
 <div class="paragraph">
 <p>AnkiWeb にアップロードする時にはフォルダを Zip ファイルに収める必要があります。さらに詳しい情報は <a href="#sharing">アドオンの共有</a> をご覧ください。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_アップグレードでフォルダを削除">アップグレードでフォルダを削除</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>アドオンフォルダにユーザーデータを保存するのは避けてください。ユーザーがアップデートをダウンロードする時にそのフォルダを削除するからです。代わりに新しい <a href="#configuration">Config API</a> や、ドキュメントフォルダを検討してください。</p>
 </div>
 </div>
 </div>
@@ -1168,6 +1190,9 @@ else:
 </li>
 <li>
 <p>2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版)</p>
+</li>
+<li>
+<p>2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版)</p>
 </li>
 </ul>
 </div>
