@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2013-07-05T23:00:59Z"/>
-<meta property="article:modified_time" content="2016-06-02T07:31:23Z"/>
+<meta property="article:modified_time" content="2017-09-04T01:23:30Z"/>
 
 
 
@@ -91,12 +91,19 @@
 
 <div class="post">
   <h1 class="post-title">Anki自動バックアップ機能の使い方</h1>
-  <span class="post-date"><time datetime="2013-07-05T23:00:59Z"></time>2016-06-02 更新</span>
+  <span class="post-date"><time datetime="2013-07-05T23:00:59Z"></time>2017-09-04 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
   <div class="post-content">
-  <div class="sect1">
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_自動バックアップとは">自動バックアップとは</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -144,7 +151,7 @@ Ankiがコレクションファイルを閉じるタイミングとは、Ankiを
 <div class="content">
 <img src="http://rs.luminousspice.com/images/automatic_backup_1.png" alt="環境設定画面">
 </div>
-<div class="title">Figure 1. 環境設定画面</div>
+<div class="title">図 1. 環境設定画面</div>
 </div>
 <div class="paragraph">
 <p>この設定画面で、保存するファイル数を指定できます。既定では30です。</p>
@@ -181,6 +188,32 @@ Ankiがコレクションファイルを閉じるタイミングとは、Ankiを
 </div>
 <div class="paragraph">
 <p>読み込み機能の詳しい内容については、<a href="http://rs.luminousspice.com/how-to-import/">Ankiにデータをまとめて取り込む</a>で説明しています。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_手動でバックアップを作るアドオン">手動でバックアップを作るアドオン</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p></p>
+</div>
+<div class="paragraph">
+<p><a href="https://ankiweb.net/shared/info/1790131139">Buckup Key</a> はバックアップ機能を手動で呼び出すアドオンです。メニューバーで [File] - [Save Backup] を選択するか、ショートカットキー [Cmd/Ctrl+S] から呼び出せます。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://raw.githubusercontent.com/luminousspice/anki-addons/master/screenshots/backup_key.png" alt="メニューからの呼び出し">
+</div>
+<div class="title">図 2. メニューからの呼び出し</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_更新情報">更新情報</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>2013/07/05: 初出<br>
+2017/09/04: 追加 手動でバックアップを作るアドオン<br></p>
 </div>
 </div>
 </div>

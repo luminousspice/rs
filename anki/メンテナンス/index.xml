@@ -704,7 +704,14 @@ Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベース�
       <pubDate>Fri, 05 Jul 2013 23:00:59 +0900</pubDate>
       <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
       <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。</description>
-      <content>&lt;div class=&#34;sect1&#34;&gt;
+      <content>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックアップファイルを使った復旧方法を説明します。さらに、Anki2.0.9から導入された削除ログからの復旧方法も紹介します。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
 &lt;h2 id=&#34;_自動バックアップとは&#34;&gt;自動バックアップとは&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -752,7 +759,7 @@ Ankiがコレクションファイルを閉じるタイミングとは、Ankiを
 &lt;div class=&#34;content&#34;&gt;
 &lt;img src=&#34;http://rs.luminousspice.com/images/automatic_backup_1.png&#34; alt=&#34;環境設定画面&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. 環境設定画面&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 1. 環境設定画面&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;この設定画面で、保存するファイル数を指定できます。既定では30です。&lt;/p&gt;
@@ -789,6 +796,32 @@ Ankiがコレクションファイルを閉じるタイミングとは、Ankiを
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;読み込み機能の詳しい内容については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_手動でバックアップを作るアドオン&#34;&gt;手動でバックアップを作るアドオン&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/info/1790131139&#34;&gt;Buckup Key&lt;/a&gt; はバックアップ機能を手動で呼び出すアドオンです。メニューバーで [File] - [Save Backup] を選択するか、ショートカットキー [Cmd/Ctrl+S] から呼び出せます。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/luminousspice/anki-addons/master/screenshots/backup_key.png&#34; alt=&#34;メニューからの呼び出し&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;図 2. メニューからの呼び出し&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;2013/07/05: 初出&lt;br&gt;
+2017/09/04: 追加 手動でバックアップを作るアドオン&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
