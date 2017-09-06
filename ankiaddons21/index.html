@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2017-08-27T11:48:38Z"/>
-<meta property="article:modified_time" content="2017-09-03T04:14:21Z"/>
+<meta property="article:modified_time" content="2017-09-06T08:07:09Z"/>
 
 
 
@@ -91,7 +91,7 @@
 
 <div class="post">
   <h1 class="post-title">Anki 2.1.x アドオンの作成 日本語訳</h1>
-  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-09-03 更新</span>
+  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-09-06 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -801,22 +801,54 @@ print("var is", config['myvar'])</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="reviewjs">Reviewer 内の Javascript</h2>
+<h2 id="reviewjs">質問解答画面での JavaScript</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>前のカードをフェードアウトした後にコードを実行するフックが使えるようになりました。その後次のカードをフェードインします。簡単な例を紹介します。</p>
+<p>(2.1.0beta16 で導入予定)</p>
+</div>
+<div class="paragraph">
+<p>Anki は、復習画面やプレビューダイアログ、カードレイアウト画面に質問や解答を表示する前に HTML を変更するフックを提供します。 このフックはカードに JavaScript を追加するのに役立ちます。</p>
+</div>
+<div class="paragraph">
+<p>例:</p>
 </div>
 <div class="literalblock">
 <div class="content">
 <pre>from anki.hooks import addHook
-def prepare(q):
-    return q + """
+def prepare(html, card, context):
+    return html + """
+&lt;script&gt;
+document.body.style.background = "blue";
+&lt;/script&gt;"""
+addHook('prepareQA', prepare)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>このフックは三つの引数を取ります。質問または解答の HTML、現在のカードオブジェクト (これによって、例えば特定のノートタイプにアドオンを限定することができます)、フックを実行するコンテキストを示す文字列です。</p>
+</div>
+<div class="paragraph">
+<p>変更した HTML を必ず戻すようにしてください。</p>
+</div>
+<div class="paragraph">
+<p>コンテキストは次の中から一つ選びます。"reviewQuestion", "reviewAnswer", "clayoutQuestion", "clayoutAnswer", "previewQuestion", "previewAnswer"</p>
+</div>
+<div class="paragraph">
+<p>注意: カードレイアウト面での解答のプレビューや、"show both sides (両面表示)" を設定したプレビュー画面は、"Answer" コンテキストだけ使えます。これは カードの裏面に追加した JavaScript は、表面だけに追加した JavaScript に依存すべきではないことを意味します。</p>
+</div>
+<div class="paragraph">
+<p>Anki は新しいテキストを表示する前に、前のテキストをフェードアウトするため、JavaScript のフックは、適切なタイミングでスクロールするようにアクションを実行する必要があります。次のように行います。</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>from anki.hooks import addHook
+def prepare(html, card, context):
+    return html + """
 &lt;script&gt;
 onUpdateHook.push(function () {
     window.scrollTo(0, 2000);
 })
 &lt;/script&gt;"""
-addHook('prepareQuestion', prepare)</pre>
+addHook('prepareQA', prepare)</pre>
 </div>
 </div>
 <div class="ulist">
@@ -1183,16 +1215,19 @@ else:
 <div class="ulist">
 <ul>
 <li>
-<p>2017/08/27 Anki 2.1 Beta 13 準拠 (2017/08/26版) 初出</p>
+<p>2017/08/27 Anki 2.1 Beta 13 準拠 (2017/08/26版) 初出<br></p>
 </li>
 <li>
-<p>2017/08/29 Anki 2.1 Beta 14 準拠 (2017/08/28版)</p>
+<p>2017/08/29 Anki 2.1 Beta 14 準拠 (2017/08/28版)<br></p>
 </li>
 <li>
-<p>2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版)</p>
+<p>2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版)<br></p>
 </li>
 <li>
-<p>2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版)</p>
+<p>2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版)<br></p>
+</li>
+<li>
+<p>2017/09/06 Anki 2.1 Beta 16 準拠 (2017/09/06版)<br></p>
 </li>
 </ul>
 </div>
