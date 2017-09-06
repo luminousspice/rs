@@ -1,7 +1,7 @@
 ---
 slug: "ankiaddons21"
 date: "2017-08-27T11:48:38+00:00"
-lastmod: "2017-09-03T04:14:21+00:00"
+lastmod: "2017-09-06T08:07:09+00:00"
 title: "Anki 2.1.x アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
 tags: ["Anki","Anki 2.1","WebEngine","Python","Qt","SQLite","アドオン","JavaScript","JSON"]
@@ -1197,28 +1197,88 @@ alternative would be to store files in the documents folder:
 
 [[reviewjs]]
 /////
-== Javascript in the reviewer ==
+== Javascript in the question and answer ==
 /////
-== Reviewer 内の Javascript ==
+== 質問解答画面での JavaScript ==
 
 /////
-Hooks are available to to run code after the previous card has faded out, and the next card faded in. A simple example:
+(coming in 2.1.0beta16)
 /////
 
-前のカードをフェードアウトした後にコードを実行するフックが使えるようになりました。その後次のカードをフェードインします。簡単な例を紹介します。
+(2.1.0beta16 で導入予定)
+
+/////
+Anki provides a hook to modify the question and answer HTML before it is
+displayed in the review screen, preview dialog, and card layout screen. This
+can be useful for adding Javascript to the card.
+/////
+
+Anki は、復習画面やプレビューダイアログ、カードレイアウト画面に質問や解答を表示する前に HTML を変更するフックを提供します。 このフックはカードに JavaScript を追加するのに役立ちます。
+
+/////
+An example:
+/////
+例:
 
     from anki.hooks import addHook
-    def prepare(q):
-        return q + """
+    def prepare(html, card, context):
+        return html + """
+    <script>
+    document.body.style.background = "blue";
+    </script>"""
+    addHook('prepareQA', prepare)
+
+/////
+The hook takes three arguments: the HTML of the question or answer, the
+current card object (so you can limit your add-on to specific note types for
+example), and a string representing the context the hook is running in.
+/////
+
+このフックは三つの引数を取ります。質問または解答の HTML、現在のカードオブジェクト (これによって、例えば特定のノートタイプにアドオンを限定することができます)、フックを実行するコンテキストを示す文字列です。
+
+/////
+Make sure you return the modified HTML.
+/////
+
+変更した HTML を必ず戻すようにしてください。
+
+/////
+Context is one of: "reviewQuestion", "reviewAnswer", "clayoutQuestion",
+"clayoutAnswer", "previewQuestion" or "previewAnswer".
+/////
+
+コンテキストは次の中から一つ選びます。"reviewQuestion", "reviewAnswer", "clayoutQuestion", "clayoutAnswer", "previewQuestion", "previewAnswer"
+
+/////
+NOTE: The answer preview in the card layout screen, and the previewer set to
+"show both sides" will only use the "Answer" context. This means Javascript
+you append on the back side of the card should not depend on Javascript that
+is only added on the front.
+/////
+
+注意: カードレイアウト面での解答のプレビューや、"show both sides (両面表示)" を設定したプレビュー画面は、"Answer" コンテキストだけ使えます。これは カードの裏面に追加した JavaScript は、表面だけに追加した JavaScript に依存すべきではないことを意味します。
+
+/////
+Because Anki fades the previous text out before revealing the new text,
+Javascript hooks are required to perform actions like scrolling at the correct
+time. You can use them like so:
+/////
+
+Anki は新しいテキストを表示する前に、前のテキストをフェードアウトするため、JavaScript のフックは、適切なタイミングでスクロールするようにアクションを実行する必要があります。次のように行います。
+
+    from anki.hooks import addHook
+    def prepare(html, card, context):
+        return html + """
     <script>
     onUpdateHook.push(function () {
         window.scrollTo(0, 2000);
     })
     </script>"""
-    addHook('prepareQuestion', prepare)
+    addHook('prepareQA', prepare)
 
 /////
-- onUpdateHook fires after the new card has been placed in the DOM, but before it is shown.
+- onUpdateHook fires after the new card has been placed in the DOM, but before
+it is shown.
 /////
 - onUpdateHook は新しいカードを DOM に配置した後に発生しますが、このカードを表示する前です。
 /////
@@ -1754,7 +1814,8 @@ Anki 2.1 Beta 15 現在、Anki に同梱している Python のバージョン�
 
 == 日本語版更新履歴
 
-* 2017/08/27 Anki 2.1 Beta 13 準拠 (2017/08/26版) 初出
-* 2017/08/29 Anki 2.1 Beta 14 準拠 (2017/08/28版)
-* 2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版)
-* 2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版)
+* 2017/08/27 Anki 2.1 Beta 13 準拠 (2017/08/26版) 初出 +
+* 2017/08/29 Anki 2.1 Beta 14 準拠 (2017/08/28版) +
+* 2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版) +
+* 2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版) +
+* 2017/09/06 Anki 2.1 Beta 16 準拠 (2017/09/06版) +
