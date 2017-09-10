@@ -1,7 +1,7 @@
 ---
 slug: "ankiaddons21"
 date: "2017-08-27T11:48:38+00:00"
-lastmod: "2017-09-06T08:07:09+00:00"
+lastmod: "2017-09-10T10:43:00+00:00"
 title: "Anki 2.1.x アドオンの作成 日本語訳"
 categories: ["Anki","AnkiDoc","開発"]
 tags: ["Anki","Anki 2.1","WebEngine","Python","Qt","SQLite","アドオン","JavaScript","JSON"]
@@ -20,9 +20,9 @@ excerpt: "Writing Anki 2.1.x Add-ons  の日本語訳。簡単なサンプルを
 
 == 日本語版をご覧いただく前に
 
-この文書は、link:http://ankisrs.net/docs/addons21.html[Writing Anki 2.1.x Add-ons] 2017-08-28 版の日本語訳です。
+この文書は、link:http://ankisrs.net/docs/addons21.html[Writing Anki 2.1.x Add-ons] 2017-09-10 版の日本語訳です。
 
-Anki 2.1.x は 2017 年 8 月 31 日現在、最新バージョンは 2.1 Beta 15 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
+Anki 2.1.x は 2017 年 9 月 10 日現在、最新バージョンは 2.1 Beta 16 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。
 
 また、link:/anki2addons[Anki 2.0.x 用の文書の日本語訳]もご覧頂けます。
 
@@ -1183,17 +1183,40 @@ displayed when the config button is clicked:
     mw.addonManager.setConfigAction(__name__, myOptionsFunc)
 
 /////
-If you need to store user data in external files, avoid storing the files in
-the add-on folder, as they will be lost when the user upgrades the add-on. One
-alternative would be to store files in the documents folder:
+Avoid key names starting with an underscore - they are reserved for future use
+by Anki.
 /////
 
-ユーザーデータを外部ファイルに記録する場合は、アドオンフォルダに保存するのは避けてください。ユーザーがアドオンをアップグレードすると失われるからです。一つの代替案として、次のようにドキュメントフォルダに保存する方法があります。
+キー名の最初にアンダースコアを使うのを避けてください。Anki が将来利用するために予約しています。
 
-    os.path.join(
-      QStandardPaths.writableLocation(
-        QStandardPaths.DocumentsLocation),
-      "myfile.data")
+[[userfiles]]
+/////
+== User Files ==
+/////
+== ユーザーファイル ==
+
+/////
+When your add-on needs configuration data other than simple keys and values,
+it can use a special folder called user_files in the root of your add-on's
+folder. Any files placed in this folder will be preserved when the add-on is
+upgraded. All other files in the add-on folder are removed on upgrade.
+/////
+
+アドオンの設定に簡単なキーと値の組み合わせ以外のデータが必要な時は、"user_files" という名前の特別なフォルダをアドオンフォルダのルートに置いて使うことができます。このフォルダに置いたファイルはどれも、アドオンの更新時に保護します。アドオンフォルダのこれ以外のファイルは全て更新時に削除します。
+
+/////
+To ensure the user_files folder is created for the user, you can put a
+README.txt or similar file inside it before zipping up your add-on.
+/////
+
+ユーザー用の "user_files" フォルダを必ず確実に作るには、アドオンを zip ファイルにする前に README.txt や 同じようなファイルをその中に置くことで可能です。
+
+/////
+When Anki upgrades an add-on, it will ignore any files in the .zip that
+already exist in the user_files folder.
+/////
+
+Anki がアドオンを更新する時は、zip ファイルの中で "user_files" にすでに存在するファイルはどれも無視します。
 
 [[reviewjs]]
 /////
@@ -1502,7 +1525,7 @@ AnkiWeb expects a .zip file of the contents of an add-on module, without
 the folder name. For example, if you have a module like the following:
 /////
 
-AnkiWeb は、アドオンモジュールを収録するには .zip ファイルを要求します。フォルダ名は必要しとません。例えば、次のようなモジュールを持っているとします。
+AnkiWeb は、アドオンモジュールを収録するには zip ファイルを要求します。フォルダ名は必要しとません。例えば、次のようなモジュールを持っているとします。
 
   addons21/myaddon/__init__.py
   addons21/myaddon/my.data
@@ -1530,7 +1553,7 @@ accept the zip file:
 You can give the .zip file any name.
 /////
 
-.zip ファイルの名前は自由に付けることができます。
+zip ファイルの名前は自由に付けることができます。
 
 /////
 Python automatically creates `__pycache__` folders when your add-on is run.
@@ -1538,7 +1561,7 @@ Please make sure you delete these prior to creating the zip file, as AnkiWeb
 can not accept .zip files that contain `__pycache__` folders.
 /////
 
-Python は、実行するときに `{dbl_}pycache{dbl_}` フォルダを自動的に作ります。zip を作る前に必ずこのフォルダを削除してください。AnkiWeb は、`{dbl_}pycache{dbl_}` フォルダを含んだ .zip ファイルを受け付けないからです。
+Python は、実行するときに `{dbl_}pycache{dbl_}` フォルダを自動的に作ります。zip を作る前に必ずこのフォルダを削除してください。AnkiWeb は、`{dbl_}pycache{dbl_}` フォルダを含んだ zip ファイルを受け付けないからです。
 
 /////
 You can upload a .zip you've created to https://ankiweb.net/shared/addons/
@@ -1658,12 +1681,13 @@ Folders are deleted when upgrading
 --------------
 
 /////
-Avoid storing user data in your add-on's folder, as the folder is deleted when
-users download an update. Consider using the new <<configuration,config API>>
-or the documents folder instead.
+When an add-on is upgraded, all files in the add-on folder are deleted. The
+only exception is the special <<userfiles,user_files folder>>. If your add-on
+requires more than simple key/value configuration, make sure you store the
+associated files in the user_files folder, or it will be lost on upgrade.
 /////
 
-アドオンフォルダにユーザーデータを保存するのは避けてください。ユーザーがアップデートをダウンロードする時にそのフォルダを削除するからです。代わりに新しい <<configuration,Config API>> や、ドキュメントフォルダを検討してください。
+アドオンを更新する時には、アドオンフォルダのすべてのファイルを削除します。例外は特別な <<userfiles,user_files フォルダ>> だけです。アドオンが単純なキー/値の組み合わせ以外の設定データが必要な場合は、必ず関連するファイルを "user_files" に保存して、更新時に失われるのを避けてください。
 
 /////
 Supporting both 2.0 and 2.1 in one codebase
@@ -1810,7 +1834,7 @@ Many small 2.0 add-ons relied on users editing the sourcecode to customize them.
 
 Anki 2.1 Beta の更新履歴を知るには、link:https://apps.ankiweb.net/docs/beta.html[Anki 2.1 Beta] が役立ちます。
 
-Anki 2.1 Beta 15 現在、Anki に同梱している Python のバージョンは `3.6.1` です。
+Anki 2.1 Beta 16 現在、Anki に同梱している Python のバージョンは `3.6.1` です。
 
 == 日本語版更新履歴
 
@@ -1819,3 +1843,4 @@ Anki 2.1 Beta 15 現在、Anki に同梱している Python のバージョン�
 * 2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版) +
 * 2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版) +
 * 2017/09/06 Anki 2.1 Beta 16 準拠 (2017/09/06版) +
+* 2017/09/10 Anki 2.1 Beta 16 準拠 (2017/09/10版) +
