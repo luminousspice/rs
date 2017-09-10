@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2017-08-27T11:48:38Z"/>
-<meta property="article:modified_time" content="2017-09-06T08:07:09Z"/>
+<meta property="article:modified_time" content="2017-09-10T10:43:00Z"/>
 
 
 
@@ -91,7 +91,7 @@
 
 <div class="post">
   <h1 class="post-title">Anki 2.1.x アドオンの作成 日本語訳</h1>
-  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-09-06 更新</span>
+  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-09-10 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -107,10 +107,10 @@
 <h2 id="_日本語版をご覧いただく前に">日本語版をご覧いただく前に</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>この文書は、<a href="http://ankisrs.net/docs/addons21.html">Writing Anki 2.1.x Add-ons</a> 2017-08-28 版の日本語訳です。</p>
+<p>この文書は、<a href="http://ankisrs.net/docs/addons21.html">Writing Anki 2.1.x Add-ons</a> 2017-09-10 版の日本語訳です。</p>
 </div>
 <div class="paragraph">
-<p>Anki 2.1.x は 2017 年 8 月 31 日現在、最新バージョンは 2.1 Beta 15 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。</p>
+<p>Anki 2.1.x は 2017 年 9 月 10 日現在、最新バージョンは 2.1 Beta 16 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。</p>
 </div>
 <div class="paragraph">
 <p>また、<a href="http://rs.luminousspice.com/anki2addons">Anki 2.0.x 用の文書の日本語訳</a>もご覧頂けます。</p>
@@ -788,15 +788,21 @@ print("var is", config['myvar'])</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>ユーザーデータを外部ファイルに記録する場合は、アドオンフォルダに保存するのは避けてください。ユーザーがアドオンをアップグレードすると失われるからです。一つの代替案として、次のようにドキュメントフォルダに保存する方法があります。</p>
+<p>キー名の最初にアンダースコアを使うのを避けてください。Anki が将来利用するために予約しています。</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>os.path.join(
-  QStandardPaths.writableLocation(
-    QStandardPaths.DocumentsLocation),
-  "myfile.data")</pre>
 </div>
+</div>
+<div class="sect1">
+<h2 id="userfiles">ユーザーファイル</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>アドオンの設定に簡単なキーと値の組み合わせ以外のデータが必要な時は、"user_files" という名前の特別なフォルダをアドオンフォルダのルートに置いて使うことができます。このフォルダに置いたファイルはどれも、アドオンの更新時に保護します。アドオンフォルダのこれ以外のファイルは全て更新時に削除します。</p>
+</div>
+<div class="paragraph">
+<p>ユーザー用の "user_files" フォルダを必ず確実に作るには、アドオンを zip ファイルにする前に README.txt や 同じようなファイルをその中に置くことで可能です。</p>
+</div>
+<div class="paragraph">
+<p>Anki がアドオンを更新する時は、zip ファイルの中で "user_files" にすでに存在するファイルはどれも無視します。</p>
 </div>
 </div>
 </div>
@@ -978,7 +984,7 @@ pp() で囲んで実行し結果を表示します。</p>
 <h2 id="sharing">アドオンの共有</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>AnkiWeb は、アドオンモジュールを収録するには .zip ファイルを要求します。フォルダ名は必要しとません。例えば、次のようなモジュールを持っているとします。</p>
+<p>AnkiWeb は、アドオンモジュールを収録するには zip ファイルを要求します。フォルダ名は必要しとません。例えば、次のようなモジュールを持っているとします。</p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -1005,8 +1011,10 @@ myaddon/my.data</pre>
 </div>
 </div>
 <div class="paragraph">
-<div class="title">zip ファイルの名前は自由に付けることができます。</div>
-<p>Python は、実行するときに <code>__pycache__</code> フォルダを自動的に作ります。zip を作る前に必ずこのフォルダを削除してください。AnkiWeb は、<code>__pycache__</code> フォルダを含んだ .zip ファイルを受け付けないからです。</p>
+<p>zip ファイルの名前は自由に付けることができます。</p>
+</div>
+<div class="paragraph">
+<p>Python は、実行するときに <code>__pycache__</code> フォルダを自動的に作ります。zip を作る前に必ずこのフォルダを削除してください。AnkiWeb は、<code>__pycache__</code> フォルダを含んだ zip ファイルを受け付けないからです。</p>
 </div>
 <div class="paragraph">
 <p>Zip ファイルを作ったら <a href="https://ankiweb.net/shared/addons/" class="bare">https://ankiweb.net/shared/addons/</a> にアップロードできます。</p>
@@ -1090,7 +1098,7 @@ mv aqt3 aqt</pre>
 <h2 id="_アップグレードでフォルダを削除">アップグレードでフォルダを削除</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>アドオンフォルダにユーザーデータを保存するのは避けてください。ユーザーがアップデートをダウンロードする時にそのフォルダを削除するからです。代わりに新しい <a href="#configuration">Config API</a> や、ドキュメントフォルダを検討してください。</p>
+<p>アドオンを更新する時には、アドオンフォルダのすべてのファイルを削除します。例外は特別な <a href="#userfiles">user_files フォルダ</a> だけです。アドオンが単純なキー/値の組み合わせ以外の設定データが必要な場合は、必ず関連するファイルを "user_files" に保存して、更新時に失われるのを避けてください。</p>
 </div>
 </div>
 </div>
@@ -1205,7 +1213,7 @@ else:
 <p>Anki 2.1 Beta の更新履歴を知るには、<a href="https://apps.ankiweb.net/docs/beta.html">Anki 2.1 Beta</a> が役立ちます。</p>
 </div>
 <div class="paragraph">
-<p>Anki 2.1 Beta 15 現在、Anki に同梱している Python のバージョンは <code>3.6.1</code> です。</p>
+<p>Anki 2.1 Beta 16 現在、Anki に同梱している Python のバージョンは <code>3.6.1</code> です。</p>
 </div>
 </div>
 </div>
@@ -1228,6 +1236,9 @@ else:
 </li>
 <li>
 <p>2017/09/06 Anki 2.1 Beta 16 準拠 (2017/09/06版)<br></p>
+</li>
+<li>
+<p>2017/09/10 Anki 2.1 Beta 16 準拠 (2017/09/10版)<br></p>
 </li>
 </ul>
 </div>
