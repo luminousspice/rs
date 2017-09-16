@@ -2,7 +2,7 @@
 date: "2016-04-11T11:26:29+00:00"
 title: "AnkiMobile ノート: 音声制御アップデート"
 type: "note"
-categories: ["AnkiMobile",width="300"]
+categories: ["AnkiMobile"]
 tags: ["iOS","iPhone","音声","メディア","TTS","Web Speech API",width="300"]
 anki: ["AnkiMobile","音声","メディア",width="300"]
 excerpt: "Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。"
