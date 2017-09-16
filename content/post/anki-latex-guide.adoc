@@ -1,10 +1,10 @@
 ---
 date: "2016-04-14T11:23:07+00:00"
-lastmod: "2017-07-29T08:08:34+00:00"
+lastmod: "2017-09-16T03:14:22+00:00"
 title: "Anki ユーザーのための LaTeX 利用ガイド"
 categories: ["Anki"]
-tags: ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
-anki: ["Anki","LaTeX","数式","TikZ","MathJax","アドオン"]
+tags: ["Anki","LaTeX","数式","TikZ","MathJax","アドオン","mhchem","化学式"]
+anki: ["Anki","LaTeX","数式","TikZ","MathJax","アドオン","mhchem","化学式"]
 excerpt: "Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。"
 ---
 = Anki ユーザーのための LaTeX 利用ガイド
@@ -143,6 +143,8 @@ Anki のサポートサイトで LaTeX に関する投稿が繰り返し寄せ�
 
 LaTeX 処理系のインストールを必要としない、JavaScritp ライブラリの https://www.mathjax.org/[MathJax] を使った LaTeX の数式の表示方法を取り上げましょう。
 
+*注意:* 次期メジャーアップグレード Anki 2.1 では MathJax が取り込まれます。また、AnkiMobile 2.0.32 でもサポートしました。詳しくは次の項目 <<future,将来のバージョンについて>> をご覧ください。
+
 .MathJax 表示例
 image::/images/latex-mathjax.png["MathJax 表示例"]
 
@@ -168,17 +170,18 @@ Anki は、メディアフォルダーのサブディレクトリの呼び出し
 .アドオンについて
 以前 MathJax を使うためのアドオンが公開されていましたが、現在では削除されています。このためテンプレートに直接呼び出しスクリプトを書き込む方法を紹介しました。
 
+[[future]]
 == 将来のバージョンについて
 
-今後リリース予定の Anki 2.1 と AnkiMobile 2.0.32 では、LaTeX に関係する機能拡張が行われる予定です。
+Anki 2.1 Beta と AnkiMobile 2.0.32 では、LaTeX に関係する機能拡張が行われました。
 
-=== MathJax の取り込み
+=== MathJax と mhchem サポート
 
-Anki 2.1 beta 5 で MathJax が Anki に組み込まれました。これ以後のバーションでは、MathJax を呼び出すタグをテンプレートに書き込むことが不要になります。また、AnkiMobile 2.0.32 以降のバージョンにも MathJax が取り込まれる予定です。
+Anki 2.1 beta 5 で MathJax と化学式を記述するための拡張 mhchem が Anki に組み込まれました。これ以後のバーションでは、MathJax を呼び出すタグをテンプレートに書き込むことが不要になります。また、AnkiMobile 2.0.32 でも MathJax と mhchem が取り込まれました。
 
 === SVG ファイルサポート
 
-数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには `dvisvgm` がインストール済みであることが必要です。AnkiMobile 2.0.32 以降では、SVG ファイルのサポートをする予定ですので、同期したSVGファイルも表示できるようになります。
+数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには `dvisvgm` がインストール済みであることが必要です。AnkiMobile 2.0.32 で SVG ファイルのサポートをしましたので、同期した SVG ファイルも表示できます。
 
 .この機能を使うには
 この機能を有効にするには、メニューバーから [Tools] - [Manage Note Types] - [Options] を開き、[Create scalable images with dvisvgm] を選択します。
@@ -202,9 +205,9 @@ Anki 2.1 beta 5 で MathJax が Anki に組み込まれました。これ以後�
 
 == 更新情報
 
-2016/04/14: 初出
-
-2017/07/29: 追加: 2.1 beta 5 における機能拡張について
+2016/04/14: 初出 +
+2017/07/29: 追加: 2.1 beta 5 における機能拡張について +
+2017/09/16: 追加: AnkiMobile 2.0.32 の機能拡張について +
 
 ////
 .MathJax アドオン
