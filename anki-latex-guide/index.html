@@ -10,7 +10,7 @@
 
   
 <meta name="description" content='Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。'>
-<meta name="keywords" content="Anki, LaTeX, 数式, TikZ, MathJax, アドオン">
+<meta name="keywords" content="Anki, LaTeX, 数式, TikZ, MathJax, アドオン, mhchem, 化学式">
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content='Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScript のライブラリ MathJax を利用した表示方法についても取り上げます。'/>
@@ -21,11 +21,11 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2016-04-14T11:23:07Z"/>
-<meta property="article:modified_time" content="2017-07-29T08:08:34Z"/>
+<meta property="article:modified_time" content="2017-09-16T03:14:22Z"/>
 
 
 
-<meta property="article:tag" content="Anki"><meta property="article:tag" content="LaTeX"><meta property="article:tag" content="数式"><meta property="article:tag" content="TikZ"><meta property="article:tag" content="MathJax"><meta property="article:tag" content="アドオン">
+<meta property="article:tag" content="Anki"><meta property="article:tag" content="LaTeX"><meta property="article:tag" content="数式"><meta property="article:tag" content="TikZ"><meta property="article:tag" content="MathJax"><meta property="article:tag" content="アドオン"><meta property="article:tag" content="mhchem"><meta property="article:tag" content="化学式">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@luminousspice">
@@ -91,7 +91,7 @@
 
 <div class="post">
   <h1 class="post-title">Anki ユーザーのための LaTeX 利用ガイド</h1>
-  <span class="post-date"><time datetime="2016-04-14T11:23:07Z"></time>2017-07-29 更新</span>
+  <span class="post-date"><time datetime="2016-04-14T11:23:07Z"></time>2017-09-16 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -303,6 +303,9 @@ $ dvipng -D 200 -T tight tmp.dvi -o tmp.png</code></pre>
 <div class="paragraph">
 <p>LaTeX 処理系のインストールを必要としない、JavaScritp ライブラリの <a href="https://www.mathjax.org/">MathJax</a> を使った LaTeX の数式の表示方法を取り上げましょう。</p>
 </div>
+<div class="paragraph">
+<p><strong>注意:</strong> 次期メジャーアップグレード Anki 2.1 では MathJax が取り込まれます。また、AnkiMobile 2.0.32 でもサポートしました。詳しくは次の項目 <a href="#future">将来のバージョンについて</a> をご覧ください。</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="http://rs.luminousspice.com/images/latex-mathjax.png" alt="MathJax 表示例">
@@ -339,21 +342,21 @@ $ dvipng -D 200 -T tight tmp.dvi -o tmp.png</code></pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_将来のバージョンについて">将来のバージョンについて</h2>
+<h2 id="future">将来のバージョンについて</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>今後リリース予定の Anki 2.1 と AnkiMobile 2.0.32 では、LaTeX に関係する機能拡張が行われる予定です。</p>
+<p>Anki 2.1 Beta と AnkiMobile 2.0.32 では、LaTeX に関係する機能拡張が行われました。</p>
 </div>
 <div class="sect2">
-<h3 id="_mathjax_の取り込み">MathJax の取り込み</h3>
+<h3 id="_mathjax_と_mhchem_サポート">MathJax と mhchem サポート</h3>
 <div class="paragraph">
-<p>Anki 2.1 beta 5 で MathJax が Anki に組み込まれました。これ以後のバーションでは、MathJax を呼び出すタグをテンプレートに書き込むことが不要になります。また、AnkiMobile 2.0.32 以降のバージョンにも MathJax が取り込まれる予定です。</p>
+<p>Anki 2.1 beta 5 で MathJax と化学式を記述するための拡張 mhchem が Anki に組み込まれました。これ以後のバーションでは、MathJax を呼び出すタグをテンプレートに書き込むことが不要になります。また、AnkiMobile 2.0.32 でも MathJax と mhchem が取り込まれました。</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_svg_ファイルサポート">SVG ファイルサポート</h3>
 <div class="paragraph">
-<p>数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには <code>dvisvgm</code> がインストール済みであることが必要です。AnkiMobile 2.0.32 以降では、SVG ファイルのサポートをする予定ですので、同期したSVGファイルも表示できるようになります。</p>
+<p>数式を表示するための画像フォーマットに SVG が利用できるようになります。SVG を使うには <code>dvisvgm</code> がインストール済みであることが必要です。AnkiMobile 2.0.32 で SVG ファイルのサポートをしましたので、同期した SVG ファイルも表示できます。</p>
 </div>
 <div class="paragraph">
 <div class="title">この機能を使うには</div>
@@ -410,10 +413,9 @@ $ dvipng -D 200 -T tight tmp.dvi -o tmp.png</code></pre>
 <h2 id="_更新情報">更新情報</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>2016/04/14: 初出</p>
-</div>
-<div class="paragraph">
-<p>2017/07/29: 追加: 2.1 beta 5 における機能拡張について</p>
+<p>2016/04/14: 初出<br>
+2017/07/29: 追加: 2.1 beta 5 における機能拡張について<br>
+2017/09/16: 追加: AnkiMobile 2.0.32 の機能拡張について<br></p>
 </div>
 </div>
 </div>
