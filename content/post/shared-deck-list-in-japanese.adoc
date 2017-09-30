@@ -2,7 +2,7 @@
 slug: "shared-deck-list-in-japanese"
 date: "2015-02-15T05:00:57+00:00"
 type: "datatable"
-lastmod: "2017-09-19T04:27:10+00:00"
+lastmod: "2017-09-30T08:05:51+00:00"
 title: "日本語ユーザーのための Anki 共有単語帳リスト"
 weight: 30
 categories: ["Anki"]
@@ -57,6 +57,7 @@ https://ankiweb.net/shared/info/1432056637[難読漢字（昆虫、動物、鳥�
 https://ankiweb.net/shared/info/1286270423[難読漢字（植物、果実、野菜の名前）], 国語 漢字
 https://ankiweb.net/shared/info/458314799[難読漢字（物、職業、色の名前）], 国語 漢字
 https://ankiweb.net/shared/info/538946132[難読漢字（魚類、水生動物の名前）], 国語 漢字
+https://ankiweb.net/shared/info/882934170[漢字プラス語彙2040], 国語 漢字
 https://ankiweb.net/shared/info/2020347104[まいにちロシア語（入門編）：大人のためのロシア語], ロシア語 日本語
 https://ankiweb.net/shared/info/1653099452[まいにちロシア語（入門編）：繰り返しでマスター！　文法の基礎固め], ロシア語 日本語
 https://ankiweb.net/shared/info/2071573759[まいにちロシア語（応用編）：うきうきルースキー　～私が見たロシア], ロシア語 日本語
@@ -124,6 +125,7 @@ https://ankiweb.net/shared/info/1890832591[Express Your Feeling in Japanese], �
 https://ankiweb.net/shared/info/1625541380[Health and Medical Pictures with English and Japanese], 術語 英語 日本語 医学 医療
 https://ankiweb.net/shared/info/1082920264[Japanese Radiological Terms], 術語 医学 医療 放射線 英語 日本語
 https://ankiweb.net/shared/info/214864764[Japanese Math Pictures], 術語 英語 日本語 数学 算数
+https://ankiweb.net/shared/info/1747071754[Mathematics terms in Japanese], 術語 英語 日本語 数学 算数
 https://ankiweb.net/shared/info/63102099[Japanese Programming], 術語 英語 日本語 プログラミング 情報
 https://ankiweb.net/shared/info/1944071542[Japanese and English Fruit Pictures], 英語 日本語 果物 フルーツ 画像
 https://ankiweb.net/shared/info/2107766673[Japanese and English School Pictures], 英語 日本語 学校 教室 画像
@@ -134,7 +136,7 @@ https://ankiweb.net/shared/info/115255341[Japanese Counting Systems Version 1.01
 https://ankiweb.net/shared/info/135266511[Japanese signs], 英語 日本語 標識 ピクトグラム 画像
 "https://ankiweb.net/shared/info/2754914665[55k WordNet Definitions & Sentences (Monolingual, Bilingual)]", 英語 日本語
 https://ankiweb.net/shared/info/615343093[sentenças em japonês], ポルトガル語 日本語
-"https://ankiweb.net/shared/info/651556905[Japanese deck for Harry Potter, Vol 1 and 2]", 英語 日本語
+"https://ankiweb.net/shared/info/1637931872[Japanese deck for Harry Potter, Vol 1 and 2]", 英語 日本語
 https://ankiweb.net/shared/info/651475745[słówka japońskie], ポーランド語 日本語
 https://ankiweb.net/shared/info/224108184[Vocabulaire Japonais-Français], フランス語 日本語
 https://ankiweb.net/shared/info/722824598[Vocabulaire français-japonais], フランス語 日本語
