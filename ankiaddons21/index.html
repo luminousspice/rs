@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://rs.luminousspice.com/apple-touch-icon.png" />
 
 <meta property="article:published_time" content="2017-08-27T11:48:38Z"/>
-<meta property="article:modified_time" content="2017-09-10T10:43:00Z"/>
+<meta property="article:modified_time" content="2017-10-29T07:45:29Z"/>
 
 
 
@@ -91,7 +91,7 @@
 
 <div class="post">
   <h1 class="post-title">Anki 2.1.x アドオンの作成 日本語訳</h1>
-  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-09-10 更新</span>
+  <span class="post-date"><time datetime="2017-08-27T11:48:38Z"></time>2017-10-29 更新</span>
   <nav class="toc">
     <div id="toc"></div>
   </nav>
@@ -726,7 +726,7 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, "around")</pre>
 ある場合には、自分のアドオンに同梱する必要があります。</p>
 </div>
 <div class="paragraph">
-<p>この場合、pure Python モジュールは使えますが、numpy のような C 拡張を必要とするモジュールを同梱しても動作しません。その理由は、そのモジュールが Anki をパッケージしたアーキテクチャと一致しないためです。もし込み入ったことをするのであれば、代わりにユーザーに Python のスタンドアロンファイルをインストールしてもらう必要があります。</p>
+<p>この場合、pure Python モジュールは使えますが、numpy のような C 拡張を必要とするモジュールを同梱するのは非常に困難です。その理由は、Anki がサポートするオペレーティングシステム用にそれぞれコンパイルする必要があるからです。もし込み入ったことをするのであれば、代わりにユーザーに Python のスタンドアロンファイルをインストールしてもらう方が簡単です。</p>
 </div>
 </div>
 </div>
@@ -1175,7 +1175,7 @@ AnkiWebView() は、WebView 用のラッパーで pycmd(str) 関数を提供し�
 <div class="ulist">
 <ul>
 <li>
-<p>WebEngine には、WebKit のような keyPressEvent() を提供していません。このため、メニューやボタンに割り当ててないショートカットを捕捉するコードは変更しなければなりませんでした。例として、reviewer.py が setStateShortcuts() を呼んでいる方法をご覧ください。</p>
+<p>WebEngine には、WebKit のような keyPressEvent() を提供していません。このため、メニューやボタンに割り当ててないショートカットを捕捉するコードは変更しなければなりませんでした。setStateShortcuts()  は、指定した状態のショートカットを調節するのに使えるフックを呼び出します。</p>
 </li>
 </ul>
 </div>
@@ -1239,6 +1239,9 @@ else:
 </li>
 <li>
 <p>2017/09/10 Anki 2.1 Beta 16 準拠 (2017/09/10版)<br></p>
+</li>
+<li>
+<p>2017/10/29 Anki 2.1 Beta 17 準拠 (2017/10/03版)<br></p>
 </li>
 </ul>
 </div>

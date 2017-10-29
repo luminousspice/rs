@@ -647,7 +647,7 @@ Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, &#34;around&#34;
 ある場合には、自分のアドオンに同梱する必要があります。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この場合、pure Python モジュールは使えますが、numpy のような C 拡張を必要とするモジュールを同梱しても動作しません。その理由は、そのモジュールが Anki をパッケージしたアーキテクチャと一致しないためです。もし込み入ったことをするのであれば、代わりにユーザーに Python のスタンドアロンファイルをインストールしてもらう必要があります。&lt;/p&gt;
+&lt;p&gt;この場合、pure Python モジュールは使えますが、numpy のような C 拡張を必要とするモジュールを同梱するのは非常に困難です。その理由は、Anki がサポートするオペレーティングシステム用にそれぞれコンパイルする必要があるからです。もし込み入ったことをするのであれば、代わりにユーザーに Python のスタンドアロンファイルをインストールしてもらう方が簡単です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1096,7 +1096,7 @@ AnkiWebView() は、WebView 用のラッパーで pycmd(str) 関数を提供し�
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;WebEngine には、WebKit のような keyPressEvent() を提供していません。このため、メニューやボタンに割り当ててないショートカットを捕捉するコードは変更しなければなりませんでした。例として、reviewer.py が setStateShortcuts() を呼んでいる方法をご覧ください。&lt;/p&gt;
+&lt;p&gt;WebEngine には、WebKit のような keyPressEvent() を提供していません。このため、メニューやボタンに割り当ててないショートカットを捕捉するコードは変更しなければなりませんでした。setStateShortcuts()  は、指定した状態のショートカットを調節するのに使えるフックを呼び出します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1160,6 +1160,9 @@ else:
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;2017/09/10 Anki 2.1 Beta 16 準拠 (2017/09/10版)&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2017/10/29 Anki 2.1 Beta 17 準拠 (2017/10/03版)&lt;br&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
