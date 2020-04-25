@@ -2,7 +2,7 @@
 date = "2016-04-15T14:08:20+00:00"
 title = "復習が進んだカードの手入れ"
 type = "note"
-categories = ["Art of Anki"]
+categories = ["Anki","Art of Anki"]
 tags = ["Anki","AnkiMobile","復習間隔","学習オプション","フィルター単語帳"]
 anki = ["Anki","AnkiMobile","復習間隔","学習オプション","フィルター単語帳"]
 excerpt = "Anki  の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を使った手入れの仕方を説明します。iPhone アプリの AnkiMobile での設定も取り上げます。"

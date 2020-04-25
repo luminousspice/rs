@@ -2,7 +2,7 @@
 date = "2016-04-14T03:40:00+00:00"
 title = "Anki 復習予測の読み方"
 type = "note"
-categories = ["Art of Anki"]
+categories = ["Anki","Art of Anki"]
 tags = ["Anki","AnkiMobile","統計","予測","シュミレーション"]
 anki = ["Anki","AnkiMobile","統計","予測","シュミレーション"]
 excerpt = "Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。"

@@ -2,7 +2,7 @@
 date: "2016-04-13T05:20:21+00:00"
 lastmod: "2016-05-25T10:35:53+00:00"
 title: "忘れた Anki カードの出直し方"
-categories: ["Art of Anki"]
+categories: ["Anki","Art of Anki"]
 tags: ["Anki","AnkiMobile","忘却","学習オプション","アドオン"]
 anki: ["Anki","AnkiMobile","忘却","学習オプション","アドオン"]
 excerpt: "Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプションを利用して iPhone アプリの AnkiMobile と共用する方法を取り上げます。"
