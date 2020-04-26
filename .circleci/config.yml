@@ -1,0 +1,58 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.54
+        environment:
+          TZ: Asia/Tokyo
+
+    working_directory: ~/hugo
+
+    steps:
+      - add_ssh_keys:
+           fingerprints:
+             - "84:05:dd:65:28:06:e5:33:e2:05:2a:62:32:6a:86:dd"
+
+      - run:
+          name: "prepare Git"
+          command: |
+            git config --global user.name "CircleCI"
+            git config --global user.email "circleci@example.com"
+
+      - checkout
+
+      - run:
+          name: "update themes"
+          command: |
+            git submodule sync
+            git submodule update --init --recursive
+
+      - run:
+          name: "prepare asciidoctor"
+          command: |
+            apk update
+            apk add asciidoctor
+
+      - run:
+          name: "Run Hugo"
+          command: |
+            hugo version
+            hugo
+
+      - run:
+          name: "Test URL"
+          command: |
+            htmlproofer ./public --only-4xx --url-ignore '/anki.tenderapp.com/','/ankiweb.net/','/la.ma.la/','/apple.com/','/rs.luminousspice.com/','/www.microsoft.com/' --alt-ignore '/.*/' --file-ignore /.*vendor\/bundle*/ --external_only --http-status-ignore "999,401,404,410"
+            rm -rf public
+          
+      - run:
+          name: "Build & Push"
+          command: |
+            git clone --depth=1 -b gh-pages git@github.com:luminousspice/rs.git public
+            cd public && rm -rf * && git rm -rf .
+            cd ~/hugo
+            hugo
+            cd public 
+            git add -A
+            git commit -m "[ci skip] publish build ${CIRCLE_BUILD_NUM} (${CIRCLE_SHA1})"
+            git push origin gh-pages
