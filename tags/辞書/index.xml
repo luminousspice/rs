@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>辞書 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E8%BE%9E%E6%9B%B8/</link>
+    <link>https://rs.luminousspice.com/tags/%E8%BE%9E%E6%9B%B8/</link>
     <description>Recent content in 辞書 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Jul 2014 19:00:04 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E8%BE%9E%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E8%BE%9E%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
-      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <link>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
       <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <guid>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
     </item>
     

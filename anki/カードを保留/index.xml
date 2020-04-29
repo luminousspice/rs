@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>カードを保留 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%92%E4%BF%9D%E7%95%99/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%92%E4%BF%9D%E7%95%99/</link>
     <description>Recent content in カードを保留 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 May 2013 23:30:40 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%92%E4%BF%9D%E7%95%99/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%92%E4%BF%9D%E7%95%99/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
-      <link>http://rs.luminousspice.com/browser-overview/</link>
+      <link>https://rs.luminousspice.com/browser-overview/</link>
       <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/browser-overview/</guid>
+      <guid>https://rs.luminousspice.com/browser-overview/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第5回 Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると</description>
     </item>
     
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
-      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <link>https://rs.luminousspice.com/how-to-suspend-this-card/</link>
       <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <guid>https://rs.luminousspice.com/how-to-suspend-this-card/</guid>
       <description>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</description>
     </item>
     

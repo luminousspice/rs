@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>自動バックアップ on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E8%87%AA%E5%8B%95%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</link>
+    <link>https://rs.luminousspice.com/anki/%E8%87%AA%E5%8B%95%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</link>
     <description>Recent content in 自動バックアップ on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 28 Sep 2013 22:00:25 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E8%87%AA%E5%8B%95%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E8%87%AA%E5%8B%95%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiと初期化</title>
-      <link>http://rs.luminousspice.com/anki_reset/</link>
+      <link>https://rs.luminousspice.com/anki_reset/</link>
       <pubDate>Sat, 28 Sep 2013 22:00:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki_reset/</guid>
+      <guid>https://rs.luminousspice.com/anki_reset/</guid>
       <description>Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 自動バックアップ</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-backup/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-backup/</link>
       <pubDate>Thu, 07 Apr 2016 10:34:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
       <description>AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。 自動バックア</description>
     </item>
     
     <item>
       <title>Anki自動バックアップ機能の使い方</title>
-      <link>http://rs.luminousspice.com/anki_automatic_backup/</link>
+      <link>https://rs.luminousspice.com/anki_automatic_backup/</link>
       <pubDate>Fri, 05 Jul 2013 23:00:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
+      <guid>https://rs.luminousspice.com/anki_automatic_backup/</guid>
       <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックア</description>
     </item>
     

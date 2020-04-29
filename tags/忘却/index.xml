@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>忘却 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E5%BF%98%E5%8D%B4/</link>
+    <link>https://rs.luminousspice.com/tags/%E5%BF%98%E5%8D%B4/</link>
     <description>Recent content in 忘却 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 13 Apr 2016 05:20:21 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E5%BF%98%E5%8D%B4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E5%BF%98%E5%8D%B4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
-      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <link>https://rs.luminousspice.com/anki-lapse-management/</link>
       <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <guid>https://rs.luminousspice.com/anki-lapse-management/</guid>
       <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
     </item>
     

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ブラウザー on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/</link>
     <description>Recent content in ブラウザー on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 May 2013 23:30:40 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
-      <link>http://rs.luminousspice.com/browser-overview/</link>
+      <link>https://rs.luminousspice.com/browser-overview/</link>
       <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/browser-overview/</guid>
+      <guid>https://rs.luminousspice.com/browser-overview/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第5回 Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると</description>
     </item>
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>Ankiにデータをまとめて取り込む</title>
-      <link>http://rs.luminousspice.com/how-to-import/</link>
+      <link>https://rs.luminousspice.com/how-to-import/</link>
       <pubDate>Sat, 20 Apr 2013 09:00:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-import/</guid>
+      <guid>https://rs.luminousspice.com/how-to-import/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第2回 Ankiを使っている人なら知っている使い方をあえて紹介する連載の2回目は、学習教材の一括登</description>
     </item>
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>https://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>https://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki209/</link>
       <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラ</description>
     </item>
     
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
-      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
+      <link>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
       <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
+      <guid>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目 統計情報を活用して復習カードの山から回復しよう Ankiを使っている人なら知っている使い方</description>
     </item>
     

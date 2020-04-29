@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>フィルター単語帳 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
     <description>Recent content in フィルター単語帳 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 13 Jul 2013 23:45:22 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
-      <link>http://rs.luminousspice.com/management_of_leeches/</link>
+      <link>https://rs.luminousspice.com/management_of_leeches/</link>
       <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
+      <guid>https://rs.luminousspice.com/management_of_leeches/</guid>
       <description>Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じる</description>
     </item>
     
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
-      <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
+      <link>https://rs.luminousspice.com/how-to-customize-learning/</link>
       <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
+      <guid>https://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回 単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカ</description>
     </item>
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: カスタム学習とフィルター単語帳</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
       <pubDate>Thu, 07 Apr 2016 11:15:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
       <description>AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッション</description>
     </item>
     
     <item>
       <title>ためた Anki 復習カードをスライスして消化</title>
-      <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
+      <link>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
       <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
+      <guid>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
       <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバ</description>
     </item>
     
     <item>
       <title>Anki2.0.13の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki2013/</link>
       <pubDate>Tue, 08 Oct 2013 00:30:08 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki2013/</guid>
       <description>はじめに Anki 2.0.13が公開されました。このアップデートは、問題点の修正に加えて、新しい機能の追加が行われたAnki2.0.9以来の大規模な</description>
     </item>
     
     <item>
       <title>Ankiのノートを追加順に学習する方法</title>
-      <link>http://rs.luminousspice.com/learn_in_original_sequence/</link>
+      <link>https://rs.luminousspice.com/learn_in_original_sequence/</link>
       <pubDate>Mon, 08 Jul 2013 00:00:15 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn_in_original_sequence/</guid>
+      <guid>https://rs.luminousspice.com/learn_in_original_sequence/</guid>
       <description>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。Anki の既定の機能は、ノー</description>
     </item>
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki209/</link>
       <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラ</description>
     </item>
     
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
-      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
+      <link>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
       <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
+      <guid>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目 統計情報を活用して復習カードの山から回復しよう Ankiを使っている人なら知っている使い方</description>
     </item>
     

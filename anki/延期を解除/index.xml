@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>延期を解除 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%BB%B6%E6%9C%9F%E3%82%92%E8%A7%A3%E9%99%A4/</link>
+    <link>https://rs.luminousspice.com/anki/%E5%BB%B6%E6%9C%9F%E3%82%92%E8%A7%A3%E9%99%A4/</link>
     <description>Recent content in 延期を解除 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 25 Mar 2014 00:00:10 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E5%BB%B6%E6%9C%9F%E3%82%92%E8%A7%A3%E9%99%A4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E5%BB%B6%E6%9C%9F%E3%82%92%E8%A7%A3%E9%99%A4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>http://rs.luminousspice.com/anki-tips/</link>
+      <link>https://rs.luminousspice.com/anki-tips/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-tips/</guid>
+      <guid>https://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。 その多くが画面と連動してメニューに現れるため、なかなかその存在</description>
     </item>
     
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
-      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <link>https://rs.luminousspice.com/how-to-suspend-this-card/</link>
       <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <guid>https://rs.luminousspice.com/how-to-suspend-this-card/</guid>
       <description>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</description>
     </item>
     

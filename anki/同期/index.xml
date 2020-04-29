@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>同期 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%90%8C%E6%9C%9F/</link>
+    <link>https://rs.luminousspice.com/anki/%E5%90%8C%E6%9C%9F/</link>
     <description>Recent content in 同期 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 25 Mar 2014 00:00:10 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E5%90%8C%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E5%90%8C%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>http://rs.luminousspice.com/anki-tips/</link>
+      <link>https://rs.luminousspice.com/anki-tips/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-tips/</guid>
+      <guid>https://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。 その多くが画面と連動してメニューに現れるため、なかなかその存在</description>
     </item>
     
     <item>
       <title>Ankiが同期できない問題について</title>
-      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <link>https://rs.luminousspice.com/anki-fail-to-sync/</link>
       <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <guid>https://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答の</description>
     </item>
     
     <item>
       <title>Anki単語帳を共有する方法</title>
-      <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
+      <link>https://rs.luminousspice.com/how-to-share-anki-decks/</link>
       <pubDate>Thu, 30 May 2013 00:30:22 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
+      <guid>https://rs.luminousspice.com/how-to-share-anki-decks/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第8回目 最終回 Anki単語帳を共有する方法 Ankiを使っている人なら知っている使い方をあえて紹介</description>
     </item>
     
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
-      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
+      <link>https://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
       <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
+      <guid>https://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使っ</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ入出力</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-io/</link>
       <pubDate>Thu, 07 Apr 2016 12:18:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-io/</guid>
       <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利</description>
     </item>
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
     </item>
     
     <item>
       <title>AnkiMobile の学習オプションを最適化する</title>
-      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <link>https://rs.luminousspice.com/ankimobile-study-options/</link>
       <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-study-options/</guid>
       <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザー</description>
     </item>
     
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
-      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <link>https://rs.luminousspice.com/how-to-use-profile/</link>
       <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設</description>
     </item>
     
     <item>
       <title>Anki になれた方に iPhone をすすめたい理由</title>
-      <link>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
+      <link>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
       <pubDate>Mon, 15 Sep 2014 23:30:31 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
+      <guid>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
       <description>Anki に使い慣れて、もっと効率的な復習をしたいと考え始めたのなら iPhone アプリの AnkiMobile を使うことをすすめます。AnkiMobile を Anki と連動して使うと、P</description>
     </item>
     

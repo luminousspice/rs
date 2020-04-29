@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ankimobile on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/ankimobile/</link>
+    <link>https://rs.luminousspice.com/tags/ankimobile/</link>
     <description>Recent content in Ankimobile on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 06 Sep 2014 19:00:09 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/ankimobile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/ankimobile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>長続きする Anki 単語帳の作り方</title>
-      <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
+      <link>https://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
       <pubDate>Sat, 06 Sep 2014 19:00:09 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
+      <guid>https://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
       <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜カード</description>
     </item>
     
     <item>
       <title>Ankiが同期できない問題について</title>
-      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <link>https://rs.luminousspice.com/anki-fail-to-sync/</link>
       <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <guid>https://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答の</description>
     </item>
     
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
-      <link>http://rs.luminousspice.com/management_of_leeches/</link>
+      <link>https://rs.luminousspice.com/management_of_leeches/</link>
       <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
+      <guid>https://rs.luminousspice.com/management_of_leeches/</guid>
       <description>Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じる</description>
     </item>
     
     <item>
       <title>AnkiMobile ユーザーインターフェイスガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-gui-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-gui-guide/</link>
       <pubDate>Sun, 17 Apr 2016 12:47:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-gui-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-gui-guide/</guid>
       <description>Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進め</description>
     </item>
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     
     <item>
       <title>Anki 復習予測の読み方</title>
-      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
+      <link>https://rs.luminousspice.com/anki-stats-due-forcast/</link>
       <pubDate>Thu, 14 Apr 2016 03:40:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
+      <guid>https://rs.luminousspice.com/anki-stats-due-forcast/</guid>
       <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。 予測グ</description>
     </item>
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
-      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <link>https://rs.luminousspice.com/anki-lapse-management/</link>
       <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <guid>https://rs.luminousspice.com/anki-lapse-management/</guid>
       <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
     </item>
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>https://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>https://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     
     <item>
       <title>ためた Anki 復習カードをスライスして消化</title>
-      <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
+      <link>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
       <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
+      <guid>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
       <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバ</description>
     </item>
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
+      <link>https://rs.luminousspice.com/ems-mnemonics/</link>
       <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
+      <guid>https://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
     </item>
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <link>https://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <guid>https://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で利用した Anki 単語帳サンプルを紹介します。既定のテンプレートを拡張機能していますので、新しい教材をつくる時の参考として、テンプレ</description>
     </item>
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>https://rs.luminousspice.com/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>https://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
     </item>
     
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
-      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <link>https://rs.luminousspice.com/how-to-suspend-this-card/</link>
       <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <guid>https://rs.luminousspice.com/how-to-suspend-this-card/</guid>
       <description>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</description>
     </item>
     

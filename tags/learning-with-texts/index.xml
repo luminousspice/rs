@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning With Texts on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/learning-with-texts/</link>
+    <link>https://rs.luminousspice.com/tags/learning-with-texts/</link>
     <description>Recent content in Learning With Texts on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 07 Apr 2014 18:30:27 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/learning-with-texts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/learning-with-texts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>https://rs.luminousspice.com/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>https://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
     </item>
     
     <item>
       <title>はじめてのLWT データ出力</title>
-      <link>http://rs.luminousspice.com/how_to_export_for_anki/</link>
+      <link>https://rs.luminousspice.com/how_to_export_for_anki/</link>
       <pubDate>Sun, 21 Jul 2013 06:00:01 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_export_for_anki/</guid>
+      <guid>https://rs.luminousspice.com/how_to_export_for_anki/</guid>
       <description>連載: はじめてのLearning with Texts(LWT) 第3回目 Learning with Texts(LWT) Ankiへのデータ出力 はじめに Learning with Texts(LWT)とは、テキストの読解を基本とした、パ</description>
     </item>
     
     <item>
       <title>はじめてのLWT 基本的な使い方</title>
-      <link>http://rs.luminousspice.com/lwt_basics/</link>
+      <link>https://rs.luminousspice.com/lwt_basics/</link>
       <pubDate>Sat, 20 Jul 2013 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/lwt_basics/</guid>
+      <guid>https://rs.luminousspice.com/lwt_basics/</guid>
       <description>連載: はじめてのLearning with Texts(LWT) 第2回目 Learning with Texts(LWT) 基本的な使い方 はじめに Learning with Texts(LWT)とは、テキストの読解を基本とした、パブリック</description>
     </item>
     
     <item>
       <title>はじめてのLearning with Texts(LWT) インストール</title>
-      <link>http://rs.luminousspice.com/how_to_lwt_install/</link>
+      <link>https://rs.luminousspice.com/how_to_lwt_install/</link>
       <pubDate>Tue, 02 Jul 2013 19:00:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_lwt_install/</guid>
+      <guid>https://rs.luminousspice.com/how_to_lwt_install/</guid>
       <description>連載: はじめてのLearning with Texts(LWT) 第1回目 Learning with Texts(LWT)のインストール はじめに Learning with Texts(LWT)とは、テキストの読解を基本</description>
     </item>
     

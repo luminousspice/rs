@@ -2,264 +2,264 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ankimobile on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/ankimobile/</link>
+    <link>https://rs.luminousspice.com/anki/ankimobile/</link>
     <description>Recent content in Ankimobile on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Jan 2016 23:15:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/ankimobile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/ankimobile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
-      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <link>https://rs.luminousspice.com/learn-audio-material-with-anki/</link>
       <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。 はじめに 最近の外国</description>
     </item>
     
     <item>
       <title>もっと Anki に集中する使い方</title>
-      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
+      <link>https://rs.luminousspice.com/bias-free-anki-learning/</link>
       <pubDate>Fri, 12 Sep 2014 22:45:57 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/bias-free-anki-learning/</guid>
       <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。 はじめに Anki は、</description>
     </item>
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>https://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-survival-guide/</link>
       <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-survival-guide/</guid>
       <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多</description>
     </item>
     
     <item>
       <title>Ankiが同期できない問題について</title>
-      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <link>https://rs.luminousspice.com/anki-fail-to-sync/</link>
       <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <guid>https://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答の</description>
     </item>
     
     <item>
       <title>Anki 用語集 - Anki Glossary</title>
-      <link>http://rs.luminousspice.com/anki_glossary/</link>
+      <link>https://rs.luminousspice.com/anki_glossary/</link>
       <pubDate>Sun, 27 Oct 2013 19:30:55 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki_glossary/</guid>
+      <guid>https://rs.luminousspice.com/anki_glossary/</guid>
       <description>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、An</description>
     </item>
     
     <item>
       <title>Ankiのノートタイプの選び方</title>
-      <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
+      <link>https://rs.luminousspice.com/how-to-choose-notetype/</link>
       <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
+      <guid>https://rs.luminousspice.com/how-to-choose-notetype/</guid>
       <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
-      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <link>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
       <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <guid>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
     </item>
     
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
-      <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
+      <link>https://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
       <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
+      <guid>https://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
       <description>日本語ユーザーが利用可能な Anki 共有単語帳を独自に収集し、検索画面を作成しました。 共有単語帳の日本語分類表を使って、詳しく調べることもできます。</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
-      <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
+      <link>https://rs.luminousspice.com/how-to-use-ankimobile/</link>
       <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile を使いこなすのに必要な基本操作のオリエンテーションです。AnkiMobile を単独利用する方を想定しています。サンプルデータ</description>
     </item>
     
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
-      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
+      <link>https://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
       <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
+      <guid>https://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使っ</description>
     </item>
     
     <item>
       <title>Ankiのインストール</title>
-      <link>http://rs.luminousspice.com/install_anki/</link>
+      <link>https://rs.luminousspice.com/install_anki/</link>
       <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <guid>https://rs.luminousspice.com/install_anki/</guid>
       <description>最新 Anki 2.0.47 対応。Anki (OS X, Windows, Linux/BSD) のダウンロードとインストール、アンインストールの方法を説明します。iOS アプリと Android および Chromebook 用アプリ、さらに Windows 10</description>
     </item>
     
     <item>
       <title>AnkiMobile ユーザーインターフェイスガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-gui-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-gui-guide/</link>
       <pubDate>Sun, 17 Apr 2016 12:47:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-gui-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-gui-guide/</guid>
       <description>Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進め</description>
     </item>
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     
     <item>
       <title>Anki 復習予測の読み方</title>
-      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
+      <link>https://rs.luminousspice.com/anki-stats-due-forcast/</link>
       <pubDate>Thu, 14 Apr 2016 03:40:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
+      <guid>https://rs.luminousspice.com/anki-stats-due-forcast/</guid>
       <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。 予測グ</description>
     </item>
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
-      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <link>https://rs.luminousspice.com/anki-lapse-management/</link>
       <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <guid>https://rs.luminousspice.com/anki-lapse-management/</guid>
       <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
-      <link>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
+      <link>https://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
       <pubDate>Tue, 12 Apr 2016 00:39:18 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
       <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
-      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <link>https://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-audio-control/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ検索</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-search/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-search/</link>
       <pubDate>Sat, 09 Apr 2016 04:54:16 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-search/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-search/</guid>
       <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ入出力</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-io/</link>
       <pubDate>Thu, 07 Apr 2016 12:18:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-io/</guid>
       <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: カスタム学習とフィルター単語帳</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
       <pubDate>Thu, 07 Apr 2016 11:15:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
       <description>AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッション</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 自動バックアップ</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-backup/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-backup/</link>
       <pubDate>Thu, 07 Apr 2016 10:34:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
       <description>AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。 自動バックア</description>
     </item>
     
     <item>
       <title>Anki 学習セッション中の予測とは異なる体感</title>
-      <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
+      <link>https://rs.luminousspice.com/study-session-with-the-unexpected/</link>
       <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
+      <guid>https://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
       <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、</description>
     </item>
     
     <item>
       <title>AnkiMobile の学習オプションを最適化する</title>
-      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <link>https://rs.luminousspice.com/ankimobile-study-options/</link>
       <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-study-options/</guid>
       <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザー</description>
     </item>
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
-      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <link>https://rs.luminousspice.com/ankigene-bot-guide/</link>
       <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張す</description>
     </item>
     
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
-      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <link>https://rs.luminousspice.com/how-to-use-profile/</link>
       <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設</description>
     </item>
     
     <item>
       <title>Anki になれた方に iPhone をすすめたい理由</title>
-      <link>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
+      <link>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
       <pubDate>Mon, 15 Sep 2014 23:30:31 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
+      <guid>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
       <description>Anki に使い慣れて、もっと効率的な復習をしたいと考え始めたのなら iPhone アプリの AnkiMobile を使うことをすすめます。AnkiMobile を Anki と連動して使うと、P</description>
     </item>
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>https://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>https://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     

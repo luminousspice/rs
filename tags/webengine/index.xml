@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webengine on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/webengine/</link>
+    <link>https://rs.luminousspice.com/tags/webengine/</link>
     <description>Recent content in Webengine on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Aug 2017 11:48:38 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/webengine/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/webengine/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki 2.1.x アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/ankiaddons21/</link>
+      <link>https://rs.luminousspice.com/ankiaddons21/</link>
       <pubDate>Sun, 27 Aug 2017 11:48:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankiaddons21/</guid>
+      <guid>https://rs.luminousspice.com/ankiaddons21/</guid>
       <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ショートカット on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/</link>
+    <link>https://rs.luminousspice.com/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/</link>
     <description>Recent content in ショートカット on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki ショートカットキー</title>
-      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
+      <link>https://rs.luminousspice.com/anki-shortcuts/</link>
       <pubDate>Sat, 09 Jan 2016 11:20:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
+      <guid>https://rs.luminousspice.com/anki-shortcuts/</guid>
       <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについ</description>
     </item>
     
     <item>
       <title>Anki の動画再生に使えるショートカットキー</title>
-      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <link>https://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
       <pubDate>Wed, 30 Dec 2015 18:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <guid>https://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
       <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。 Anki で動画を再生する時、た</description>
     </item>
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
-      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <link>https://rs.luminousspice.com/ankigene-bot-guide/</link>
       <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張す</description>
     </item>
     

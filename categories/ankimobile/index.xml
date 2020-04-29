@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ankimobile on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/categories/ankimobile/</link>
+    <link>https://rs.luminousspice.com/categories/ankimobile/</link>
     <description>Recent content in Ankimobile on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/categories/ankimobile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/categories/ankimobile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>https://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-survival-guide/</link>
       <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-survival-guide/</guid>
       <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのためのはじめての Anki</title>
-      <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
+      <link>https://rs.luminousspice.com/how-to-use-ankimobile/</link>
       <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile を使いこなすのに必要な基本操作のオリエンテーションです。AnkiMobile を単独利用する方を想定しています。サンプルデータ</description>
     </item>
     
     <item>
       <title>AnkiMobile ユーザーインターフェイスガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-gui-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-gui-guide/</link>
       <pubDate>Sun, 17 Apr 2016 12:47:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-gui-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-gui-guide/</guid>
       <description>Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進め</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
-      <link>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
+      <link>https://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
       <pubDate>Tue, 12 Apr 2016 00:39:18 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
       <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
-      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <link>https://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-audio-control/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
     </item>
     
     <item>
       <title>不要な Anki 単語帳を片付ける</title>
-      <link>http://rs.luminousspice.com/hide-unused-anki-deck/</link>
+      <link>https://rs.luminousspice.com/hide-unused-anki-deck/</link>
       <pubDate>Mon, 11 Apr 2016 02:40:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/hide-unused-anki-deck/</guid>
+      <guid>https://rs.luminousspice.com/hide-unused-anki-deck/</guid>
       <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をし</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ検索</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-search/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-search/</link>
       <pubDate>Sat, 09 Apr 2016 04:54:16 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-search/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-search/</guid>
       <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ入出力</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-io/</link>
       <pubDate>Thu, 07 Apr 2016 12:18:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-io/</guid>
       <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: カスタム学習とフィルター単語帳</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
       <pubDate>Thu, 07 Apr 2016 11:15:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
       <description>AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッション</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 自動バックアップ</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-backup/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-backup/</link>
       <pubDate>Thu, 07 Apr 2016 10:34:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
       <description>AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。 自動バックア</description>
     </item>
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>https://rs.luminousspice.com/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>https://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
     </item>
     

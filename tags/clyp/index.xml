@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clyp on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/clyp/</link>
+    <link>https://rs.luminousspice.com/tags/clyp/</link>
     <description>Recent content in Clyp on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 16 Feb 2017 12:26:59 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/clyp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/clyp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
-      <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
+      <link>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
       <pubDate>Thu, 16 Feb 2017 12:26:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
       <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。 オンラインレッ</description>
     </item>
     

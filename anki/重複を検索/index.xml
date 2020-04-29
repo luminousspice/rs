@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>重複を検索 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E9%87%8D%E8%A4%87%E3%82%92%E6%A4%9C%E7%B4%A2/</link>
+    <link>https://rs.luminousspice.com/anki/%E9%87%8D%E8%A4%87%E3%82%92%E6%A4%9C%E7%B4%A2/</link>
     <description>Recent content in 重複を検索 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 08 Oct 2013 00:30:08 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E9%87%8D%E8%A4%87%E3%82%92%E6%A4%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E9%87%8D%E8%A4%87%E3%82%92%E6%A4%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki2.0.13の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki2013/</link>
       <pubDate>Tue, 08 Oct 2013 00:30:08 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki2013/</guid>
       <description>はじめに Anki 2.0.13が公開されました。このアップデートは、問題点の修正に加えて、新しい機能の追加が行われたAnki2.0.9以来の大規模な</description>
     </item>
     

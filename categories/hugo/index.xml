@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/categories/hugo/</link>
+    <link>https://rs.luminousspice.com/categories/hugo/</link>
     <description>Recent content in Hugo on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Apr 2016 21:27:23 +0900</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo に全文検索を取り付けた</title>
-      <link>http://rs.luminousspice.com/hugo-site-search/</link>
+      <link>https://rs.luminousspice.com/hugo-site-search/</link>
       <pubDate>Fri, 01 Apr 2016 21:27:23 +0900</pubDate>
       
-      <guid>http://rs.luminousspice.com/hugo-site-search/</guid>
+      <guid>https://rs.luminousspice.com/hugo-site-search/</guid>
       <description>静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo でのコンテンツと一緒にインデックスファイルも同時に書き</description>
     </item>
     

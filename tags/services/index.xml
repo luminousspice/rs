@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/services/</link>
+    <link>https://rs.luminousspice.com/tags/services/</link>
     <description>Recent content in Services on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 06 Aug 2012 20:49:29 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Zencoding Automator Services</title>
-      <link>http://rs.luminousspice.com/zencoding-automator-services/</link>
+      <link>https://rs.luminousspice.com/zencoding-automator-services/</link>
       <pubDate>Mon, 06 Aug 2012 20:49:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/zencoding-automator-services/</guid>
+      <guid>https://rs.luminousspice.com/zencoding-automator-services/</guid>
       <description>Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。 前回の記事のコードを書いていて、更に汎用的なautomatorのサービ</description>
     </item>
     

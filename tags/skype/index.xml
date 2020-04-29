@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skype on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/skype/</link>
+    <link>https://rs.luminousspice.com/tags/skype/</link>
     <description>Recent content in Skype on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 16 Feb 2017 12:26:59 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/skype/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/skype/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
-      <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
+      <link>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
       <pubDate>Thu, 16 Feb 2017 12:26:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
       <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。 オンラインレッ</description>
     </item>
     
     <item>
       <title>Skype 音声を Anki に録音する</title>
-      <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
+      <link>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
       <pubDate>Tue, 29 Nov 2016 09:44:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
+      <guid>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
       <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。 この投稿は、Mac ユーザ</description>
     </item>
     

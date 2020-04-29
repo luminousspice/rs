@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ユーザーインターフェイス on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9/</link>
+    <link>https://rs.luminousspice.com/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9/</link>
     <description>Recent content in ユーザーインターフェイス on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 17 Apr 2016 12:47:30 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AnkiMobile ユーザーインターフェイスガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-gui-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-gui-guide/</link>
       <pubDate>Sun, 17 Apr 2016 12:47:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-gui-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-gui-guide/</guid>
       <description>Anki の iPhone アプリ AnkiMobile の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を説明する AnkiMobile のフロアマップです。設定画面について理解が進め</description>
     </item>
     
     <item>
       <title>Anki ユーザーインターフェイスガイド</title>
-      <link>http://rs.luminousspice.com/anki-gui-guide/</link>
+      <link>https://rs.luminousspice.com/anki-gui-guide/</link>
       <pubDate>Sat, 16 Apr 2016 11:09:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-gui-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-gui-guide/</guid>
       <description>Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介する Anki のフロアマップです。代表的なウィンドウの役割を理解すると、</description>
     </item>
     

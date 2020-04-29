@@ -2,750 +2,750 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anki on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/anki/</link>
+    <link>https://rs.luminousspice.com/tags/anki/</link>
     <description>Recent content in Anki on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/anki/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/anki/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki ショートカットキー</title>
-      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
+      <link>https://rs.luminousspice.com/anki-shortcuts/</link>
       <pubDate>Sat, 09 Jan 2016 11:20:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
+      <guid>https://rs.luminousspice.com/anki-shortcuts/</guid>
       <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについ</description>
     </item>
     
     <item>
       <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
-      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <link>https://rs.luminousspice.com/learn-with-anki/</link>
       <pubDate>Sun, 03 Jan 2016 23:00:16 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/learn-with-anki/</guid>
       <description>暗記についての方法論が確立していない人のために Anki のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理</description>
     </item>
     
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
-      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <link>https://rs.luminousspice.com/learn-audio-material-with-anki/</link>
       <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。 はじめに 最近の外国</description>
     </item>
     
     <item>
       <title>もっと Anki に集中する使い方</title>
-      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
+      <link>https://rs.luminousspice.com/bias-free-anki-learning/</link>
       <pubDate>Fri, 12 Sep 2014 22:45:57 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/bias-free-anki-learning/</guid>
       <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。 はじめに Anki は、</description>
     </item>
     
     <item>
       <title>長続きする Anki 単語帳の作り方</title>
-      <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
+      <link>https://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
       <pubDate>Sat, 06 Sep 2014 19:00:09 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
+      <guid>https://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
       <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜カード</description>
     </item>
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>https://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
-      <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
+      <link>https://rs.luminousspice.com/ankimobile-survival-guide/</link>
       <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-survival-guide/</guid>
       <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多</description>
     </item>
     
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
-      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <link>https://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
       <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <guid>https://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオ</description>
     </item>
     
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>http://rs.luminousspice.com/anki-tips/</link>
+      <link>https://rs.luminousspice.com/anki-tips/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-tips/</guid>
+      <guid>https://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。 その多くが画面と連動してメニューに現れるため、なかなかその存在</description>
     </item>
     
     <item>
       <title>Ankiが同期できない問題について</title>
-      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <link>https://rs.luminousspice.com/anki-fail-to-sync/</link>
       <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <guid>https://rs.luminousspice.com/anki-fail-to-sync/</guid>
       <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答の</description>
     </item>
     
     <item>
       <title>Anki 用語集 - Anki Glossary</title>
-      <link>http://rs.luminousspice.com/anki_glossary/</link>
+      <link>https://rs.luminousspice.com/anki_glossary/</link>
       <pubDate>Sun, 27 Oct 2013 19:30:55 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki_glossary/</guid>
+      <guid>https://rs.luminousspice.com/anki_glossary/</guid>
       <description>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、An</description>
     </item>
     
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
-      <link>http://rs.luminousspice.com/cardtype/</link>
+      <link>https://rs.luminousspice.com/cardtype/</link>
       <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cardtype/</guid>
+      <guid>https://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動</description>
     </item>
     
     <item>
       <title>Ankiと初期化</title>
-      <link>http://rs.luminousspice.com/anki_reset/</link>
+      <link>https://rs.luminousspice.com/anki_reset/</link>
       <pubDate>Sat, 28 Sep 2013 22:00:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki_reset/</guid>
+      <guid>https://rs.luminousspice.com/anki_reset/</guid>
       <description>Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を</description>
     </item>
     
     <item>
       <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
-      <link>http://rs.luminousspice.com/management_of_leeches/</link>
+      <link>https://rs.luminousspice.com/management_of_leeches/</link>
       <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
+      <guid>https://rs.luminousspice.com/management_of_leeches/</guid>
       <description>Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じる</description>
     </item>
     
     <item>
       <title>はじめてAnkiを使う人のための索引</title>
-      <link>http://rs.luminousspice.com/index-how-to-anki/</link>
+      <link>https://rs.luminousspice.com/index-how-to-anki/</link>
       <pubDate>Wed, 19 Jun 2013 00:00:48 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/index-how-to-anki/</guid>
+      <guid>https://rs.luminousspice.com/index-how-to-anki/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集め</description>
     </item>
     
     <item>
       <title>Ankiにおける空欄補充問題の作り方</title>
-      <link>http://rs.luminousspice.com/cloze-deletion/</link>
+      <link>https://rs.luminousspice.com/cloze-deletion/</link>
       <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cloze-deletion/</guid>
+      <guid>https://rs.luminousspice.com/cloze-deletion/</guid>
       <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キ</description>
     </item>
     
     <item>
       <title>Ankiのノートタイプの選び方</title>
-      <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
+      <link>https://rs.luminousspice.com/how-to-choose-notetype/</link>
       <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
+      <guid>https://rs.luminousspice.com/how-to-choose-notetype/</guid>
       <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に</description>
     </item>
     
     <item>
       <title>Anki単語帳を共有する方法</title>
-      <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
+      <link>https://rs.luminousspice.com/how-to-share-anki-decks/</link>
       <pubDate>Thu, 30 May 2013 00:30:22 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
+      <guid>https://rs.luminousspice.com/how-to-share-anki-decks/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第8回目 最終回 Anki単語帳を共有する方法 Ankiを使っている人なら知っている使い方をあえて紹介</description>
     </item>
     
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
-      <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
+      <link>https://rs.luminousspice.com/how-to-customize-learning/</link>
       <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
+      <guid>https://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回 単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカ</description>
     </item>
     
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
-      <link>http://rs.luminousspice.com/browser-overview/</link>
+      <link>https://rs.luminousspice.com/browser-overview/</link>
       <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/browser-overview/</guid>
+      <guid>https://rs.luminousspice.com/browser-overview/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第5回 Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると</description>
     </item>
     
     <item>
       <title>Anki 2 の変更点 日本語訳</title>
-      <link>http://rs.luminousspice.com/changeinanki2/</link>
+      <link>https://rs.luminousspice.com/changeinanki2/</link>
       <pubDate>Sun, 03 Feb 2013 02:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changeinanki2/</guid>
+      <guid>https://rs.luminousspice.com/changeinanki2/</guid>
       <description>日本語版をご覧いただく前に この文書は、Changes in Anki 2 (http://ankisrs.net/docs/changes.html) 2015-3-25 版の日本語訳です。 この文書は、Anki 2へアップグレードする前に知っておきたい</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
-      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <link>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
       <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <guid>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
     </item>
     
     <item>
       <title>Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち</title>
-      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <link>https://rs.luminousspice.com/anki-addons-guide/</link>
       <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが標準機能を拡張変更できるアドオン機能を提供しています。ユーザーは AnkiWeb にアドオンを公開でき、Anki を使って簡単にインストールで</description>
     </item>
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>Ankiの共有リソースを使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-use-shared-resources/</link>
+      <link>https://rs.luminousspice.com/how-to-use-shared-resources/</link>
       <pubDate>Sat, 27 Apr 2013 06:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-shared-resources/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-shared-resources/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第3回 既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログ</description>
     </item>
     
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
-      <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
+      <link>https://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
       <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
+      <guid>https://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
       <description>日本語ユーザーが利用可能な Anki 共有単語帳を独自に収集し、検索画面を作成しました。 共有単語帳の日本語分類表を使って、詳しく調べることもできます。</description>
     </item>
     
     <item>
       <title>AnkiWeb 同期機能の使い方</title>
-      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
+      <link>https://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
       <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
+      <guid>https://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
       <description>AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使っ</description>
     </item>
     
     <item>
       <title>Ankiのインストール</title>
-      <link>http://rs.luminousspice.com/install_anki/</link>
+      <link>https://rs.luminousspice.com/install_anki/</link>
       <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <guid>https://rs.luminousspice.com/install_anki/</guid>
       <description>最新 Anki 2.0.47 対応。Anki (OS X, Windows, Linux/BSD) のダウンロードとインストール、アンインストールの方法を説明します。iOS アプリと Android および Chromebook 用アプリ、さらに Windows 10</description>
     </item>
     
     <item>
       <title>Ankiにデータをまとめて取り込む</title>
-      <link>http://rs.luminousspice.com/how-to-import/</link>
+      <link>https://rs.luminousspice.com/how-to-import/</link>
       <pubDate>Sat, 20 Apr 2013 09:00:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-import/</guid>
+      <guid>https://rs.luminousspice.com/how-to-import/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第2回 Ankiを使っている人なら知っている使い方をあえて紹介する連載の2回目は、学習教材の一括登</description>
     </item>
     
     <item>
       <title>はじめてのAnki – まず使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-anki/</link>
+      <link>https://rs.luminousspice.com/how-to-anki/</link>
       <pubDate>Fri, 12 Apr 2013 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-anki/</guid>
+      <guid>https://rs.luminousspice.com/how-to-anki/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回 Ankiを始めたいけど、何から始めて良いか分からない方のためにこの記事を書きました。インス</description>
     </item>
     
     <item>
       <title>Anki 2.1.x アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/ankiaddons21/</link>
+      <link>https://rs.luminousspice.com/ankiaddons21/</link>
       <pubDate>Sun, 27 Aug 2017 11:48:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankiaddons21/</guid>
+      <guid>https://rs.luminousspice.com/ankiaddons21/</guid>
       <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
-      <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
+      <link>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
       <pubDate>Thu, 16 Feb 2017 12:26:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
       <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。 オンラインレッ</description>
     </item>
     
     <item>
       <title>Skype 音声を Anki に録音する</title>
-      <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
+      <link>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
       <pubDate>Tue, 29 Nov 2016 09:44:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
+      <guid>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
       <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。 この投稿は、Mac ユーザ</description>
     </item>
     
     <item>
       <title>YouTube の字幕付き動画を活用した Anki カードの作成</title>
-      <link>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
+      <link>https://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
       <pubDate>Sat, 28 May 2016 14:37:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
+      <guid>https://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
       <description>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます</description>
     </item>
     
     <item>
       <title>Anki における新規カード一分間トラップの分析</title>
-      <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
+      <link>https://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
       <pubDate>Mon, 23 May 2016 13:14:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
       <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価</description>
     </item>
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
-      <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5controller-on-anki/</link>
       <pubDate>Sat, 21 May 2016 13:49:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5controller-on-anki/</guid>
       <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込</description>
     </item>
     
     <item>
       <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
-      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
+      <link>https://rs.luminousspice.com/addon-ease-factor-histogram/</link>
       <pubDate>Fri, 13 May 2016 14:42:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
+      <guid>https://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
       <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の</description>
     </item>
     
     <item>
       <title>Feed to Anki 毎日英単語のカードを増やせるアドオン</title>
-      <link>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</link>
+      <link>https://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</link>
       <pubDate>Sat, 30 Apr 2016 11:24:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</guid>
+      <guid>https://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</guid>
       <description>オンライン辞書サイトで毎日単語を紹介する Word of th Day (今日の言葉) の RSS フィードから Anki のカードを作るアドオンを作りました。メニューから呼び出すとカ</description>
     </item>
     
     <item>
       <title>Anki ユーザーインターフェイスガイド</title>
-      <link>http://rs.luminousspice.com/anki-gui-guide/</link>
+      <link>https://rs.luminousspice.com/anki-gui-guide/</link>
       <pubDate>Sat, 16 Apr 2016 11:09:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-gui-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-gui-guide/</guid>
       <description>Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介する Anki のフロアマップです。代表的なウィンドウの役割を理解すると、</description>
     </item>
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     
     <item>
       <title>Anki ユーザーのための LaTeX 利用ガイド</title>
-      <link>http://rs.luminousspice.com/anki-latex-guide/</link>
+      <link>https://rs.luminousspice.com/anki-latex-guide/</link>
       <pubDate>Thu, 14 Apr 2016 11:23:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-latex-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-latex-guide/</guid>
       <description>Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScri</description>
     </item>
     
     <item>
       <title>Anki 復習予測の読み方</title>
-      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
+      <link>https://rs.luminousspice.com/anki-stats-due-forcast/</link>
       <pubDate>Thu, 14 Apr 2016 03:40:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
+      <guid>https://rs.luminousspice.com/anki-stats-due-forcast/</guid>
       <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。 予測グ</description>
     </item>
     
     <item>
       <title>Anki 単語帳データ配布ガイド</title>
-      <link>http://rs.luminousspice.com/anki-deck-deployment-guide/</link>
+      <link>https://rs.luminousspice.com/anki-deck-deployment-guide/</link>
       <pubDate>Wed, 13 Apr 2016 12:40:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-deck-deployment-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-deck-deployment-guide/</guid>
       <description>Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケー</description>
     </item>
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
-      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <link>https://rs.luminousspice.com/anki-lapse-management/</link>
       <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <guid>https://rs.luminousspice.com/anki-lapse-management/</guid>
       <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
     </item>
     
     <item>
       <title>AwesomeTTS プリセットの活用</title>
-      <link>http://rs.luminousspice.com/awesometts-preset/</link>
+      <link>https://rs.luminousspice.com/awesometts-preset/</link>
       <pubDate>Tue, 12 Apr 2016 12:55:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
+      <guid>https://rs.luminousspice.com/awesometts-preset/</guid>
       <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音</description>
     </item>
     
     <item>
       <title>不要な Anki 単語帳を片付ける</title>
-      <link>http://rs.luminousspice.com/hide-unused-anki-deck/</link>
+      <link>https://rs.luminousspice.com/hide-unused-anki-deck/</link>
       <pubDate>Mon, 11 Apr 2016 02:40:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/hide-unused-anki-deck/</guid>
+      <guid>https://rs.luminousspice.com/hide-unused-anki-deck/</guid>
       <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をし</description>
     </item>
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
     </item>
     
     <item>
       <title>Anki の動画再生に使えるショートカットキー</title>
-      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <link>https://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
       <pubDate>Wed, 30 Dec 2015 18:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <guid>https://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
       <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。 Anki で動画を再生する時、た</description>
     </item>
     
     <item>
       <title>Mac で再生中の音声を Anki に直接録音する</title>
-      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
+      <link>https://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
       <pubDate>Sun, 27 Dec 2015 23:45:15 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
+      <guid>https://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
       <description>Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。 は</description>
     </item>
     
     <item>
       <title>転んでもタダでは起きない Anki 再履修の手引き</title>
-      <link>http://rs.luminousspice.com/anki-restore-guide/</link>
+      <link>https://rs.luminousspice.com/anki-restore-guide/</link>
       <pubDate>Fri, 06 Mar 2015 19:45:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-restore-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-restore-guide/</guid>
       <description>途中放棄してしまった Anki を再開するにあたって、今までやってきた自分なりの方法に付け加えると役立つようなヒントを紹介します。 この記事は、Anki</description>
     </item>
     
     <item>
       <title>Anki 学習セッション中の予測とは異なる体感</title>
-      <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
+      <link>https://rs.luminousspice.com/study-session-with-the-unexpected/</link>
       <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
+      <guid>https://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
       <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、</description>
     </item>
     
     <item>
       <title>AnkiMobile の学習オプションを最適化する</title>
-      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <link>https://rs.luminousspice.com/ankimobile-study-options/</link>
       <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-study-options/</guid>
       <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザー</description>
     </item>
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
-      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <link>https://rs.luminousspice.com/ankigene-bot-guide/</link>
       <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張す</description>
     </item>
     
     <item>
       <title>おすすめ Anki 単語帳について</title>
-      <link>http://rs.luminousspice.com/suitable-deck/</link>
+      <link>https://rs.luminousspice.com/suitable-deck/</link>
       <pubDate>Sat, 29 Nov 2014 00:25:13 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/suitable-deck/</guid>
+      <guid>https://rs.luminousspice.com/suitable-deck/</guid>
       <description>Anki を使い始めた人にとっては、既成の共有単語帳を使ってみても、自分に合うものがすぐに見つからないのではないかと思います。実は授業やレッスンなど</description>
     </item>
     
     <item>
       <title>時間制限して Anki 学習するタイムボックス機能</title>
-      <link>http://rs.luminousspice.com/anki-timebox-time-limit/</link>
+      <link>https://rs.luminousspice.com/anki-timebox-time-limit/</link>
       <pubDate>Fri, 31 Oct 2014 19:15:35 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-timebox-time-limit/</guid>
+      <guid>https://rs.luminousspice.com/anki-timebox-time-limit/</guid>
       <description>Anki のタイムボックス機能を使うと、学習セッションに制限時間を設定することができます。この機能の設定法と使い方を紹介します。 タイムボックスとは タ</description>
     </item>
     
     <item>
       <title>Anki 使いの原点</title>
-      <link>http://rs.luminousspice.com/anki-basics/</link>
+      <link>https://rs.luminousspice.com/anki-basics/</link>
       <pubDate>Wed, 24 Sep 2014 00:00:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-basics/</guid>
+      <guid>https://rs.luminousspice.com/anki-basics/</guid>
       <description>熟練者限定の Anki の使い方の基本を取り上げます。明確な目標を設定して、毎日の学習を最適化する考え方を紹介します。 Anki の利用経験が全くない、はじめて</description>
     </item>
     
     <item>
       <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
-      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <link>https://rs.luminousspice.com/how-to-use-profile/</link>
       <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-profile/</guid>
       <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設</description>
     </item>
     
     <item>
       <title>Anki になれた方に iPhone をすすめたい理由</title>
-      <link>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
+      <link>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
       <pubDate>Mon, 15 Sep 2014 23:30:31 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
+      <guid>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
       <description>Anki に使い慣れて、もっと効率的な復習をしたいと考え始めたのなら iPhone アプリの AnkiMobile を使うことをすすめます。AnkiMobile を Anki と連動して使うと、P</description>
     </item>
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>https://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>https://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     
     <item>
       <title>ためた Anki 復習カードをスライスして消化</title>
-      <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
+      <link>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
       <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
+      <guid>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
       <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバ</description>
     </item>
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
+      <link>https://rs.luminousspice.com/ems-mnemonics/</link>
       <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
+      <guid>https://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
     </item>
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <link>https://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <guid>https://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で利用した Anki 単語帳サンプルを紹介します。既定のテンプレートを拡張機能していますので、新しい教材をつくる時の参考として、テンプレ</description>
     </item>
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>https://rs.luminousspice.com/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>https://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
     </item>
     
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
-      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
+      <link>https://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
+      <guid>https://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフ</description>
     </item>
     
     <item>
       <title>Anki2.0.13の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki2013/</link>
       <pubDate>Tue, 08 Oct 2013 00:30:08 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki2013/</guid>
       <description>はじめに Anki 2.0.13が公開されました。このアップデートは、問題点の修正に加えて、新しい機能の追加が行われたAnki2.0.9以来の大規模な</description>
     </item>
     
     <item>
       <title>はじめてのLWT データ出力</title>
-      <link>http://rs.luminousspice.com/how_to_export_for_anki/</link>
+      <link>https://rs.luminousspice.com/how_to_export_for_anki/</link>
       <pubDate>Sun, 21 Jul 2013 06:00:01 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_export_for_anki/</guid>
+      <guid>https://rs.luminousspice.com/how_to_export_for_anki/</guid>
       <description>連載: はじめてのLearning with Texts(LWT) 第3回目 Learning with Texts(LWT) Ankiへのデータ出力 はじめに Learning with Texts(LWT)とは、テキストの読解を基本とした、パ</description>
     </item>
     
     <item>
       <title>はじめてのLWT 基本的な使い方</title>
-      <link>http://rs.luminousspice.com/lwt_basics/</link>
+      <link>https://rs.luminousspice.com/lwt_basics/</link>
       <pubDate>Sat, 20 Jul 2013 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/lwt_basics/</guid>
+      <guid>https://rs.luminousspice.com/lwt_basics/</guid>
       <description>連載: はじめてのLearning with Texts(LWT) 第2回目 Learning with Texts(LWT) 基本的な使い方 はじめに Learning with Texts(LWT)とは、テキストの読解を基本とした、パブリック</description>
     </item>
     
     <item>
       <title>Ankiのノートを追加順に学習する方法</title>
-      <link>http://rs.luminousspice.com/learn_in_original_sequence/</link>
+      <link>https://rs.luminousspice.com/learn_in_original_sequence/</link>
       <pubDate>Mon, 08 Jul 2013 00:00:15 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn_in_original_sequence/</guid>
+      <guid>https://rs.luminousspice.com/learn_in_original_sequence/</guid>
       <description>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。Anki の既定の機能は、ノー</description>
     </item>
     
     <item>
       <title>Ankiのカードにヒントを付ける方法</title>
-      <link>http://rs.luminousspice.com/hint_field/</link>
+      <link>https://rs.luminousspice.com/hint_field/</link>
       <pubDate>Sun, 07 Jul 2013 15:00:46 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/hint_field/</guid>
+      <guid>https://rs.luminousspice.com/hint_field/</guid>
       <description>カードにヒントを付ける方法 穴埋め機能を使って空欄にヒントを付ける方法は、Ankiにおける空欄補充問題の作り方で説明しました。この場合は、問題</description>
     </item>
     
     <item>
       <title>破損したAnkiデータの修復</title>
-      <link>http://rs.luminousspice.com/restore_corrupt_data/</link>
+      <link>https://rs.luminousspice.com/restore_corrupt_data/</link>
       <pubDate>Sat, 06 Jul 2013 21:00:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/restore_corrupt_data/</guid>
+      <guid>https://rs.luminousspice.com/restore_corrupt_data/</guid>
       <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。起動後に大量のデータ更新を行ったりして、自動バックアップ</description>
     </item>
     
     <item>
       <title>Anki自動バックアップ機能の使い方</title>
-      <link>http://rs.luminousspice.com/anki_automatic_backup/</link>
+      <link>https://rs.luminousspice.com/anki_automatic_backup/</link>
       <pubDate>Fri, 05 Jul 2013 23:00:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
+      <guid>https://rs.luminousspice.com/anki_automatic_backup/</guid>
       <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックア</description>
     </item>
     
     <item>
       <title>はじめてのLearning with Texts(LWT) インストール</title>
-      <link>http://rs.luminousspice.com/how_to_lwt_install/</link>
+      <link>https://rs.luminousspice.com/how_to_lwt_install/</link>
       <pubDate>Tue, 02 Jul 2013 19:00:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_lwt_install/</guid>
+      <guid>https://rs.luminousspice.com/how_to_lwt_install/</guid>
       <description>連載: はじめてのLearning with Texts(LWT) 第1回目 Learning with Texts(LWT)のインストール はじめに Learning with Texts(LWT)とは、テキストの読解を基本</description>
     </item>
     
     <item>
       <title>Anki解答キー入力機能の使い方</title>
-      <link>http://rs.luminousspice.com/type_answer/</link>
+      <link>https://rs.luminousspice.com/type_answer/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/type_answer/</guid>
+      <guid>https://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使</description>
     </item>
     
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
-      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <link>https://rs.luminousspice.com/how-to-suspend-this-card/</link>
       <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <guid>https://rs.luminousspice.com/how-to-suspend-this-card/</guid>
       <description>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</description>
     </item>
     
     <item>
       <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
-      <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
+      <link>https://rs.luminousspice.com/words_in_msdn_20130601/</link>
       <pubDate>Sun, 09 Jun 2013 20:00:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
+      <guid>https://rs.luminousspice.com/words_in_msdn_20130601/</guid>
       <description>この連載では、頻出語句(2000+AWL+MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォロー</description>
     </item>
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki209/</link>
       <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラ</description>
     </item>
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。</description>
     </item>
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば</description>
     </item>
     
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn/</link>
       <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介</description>
     </item>
     
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
-      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
+      <link>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
       <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
+      <guid>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目 統計情報を活用して復習カードの山から回復しよう Ankiを使っている人なら知っている使い方</description>
     </item>
     
     <item>
       <title>Anki2の言語設定を変更する</title>
-      <link>http://rs.luminousspice.com/how-to-change-lang/</link>
+      <link>https://rs.luminousspice.com/how-to-change-lang/</link>
       <pubDate>Sun, 28 Apr 2013 00:00:22 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-change-lang/</guid>
+      <guid>https://rs.luminousspice.com/how-to-change-lang/</guid>
       <description>一度設定した Anki ユーザーインターフェイスの言語を変更する方法を紹介します。Anki 2.0.35 アップデートから、環境設定画面で変更できるようになりました</description>
     </item>
     
     <item>
       <title>Anki 2.0.x アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/anki2addons/</link>
+      <link>https://rs.luminousspice.com/anki2addons/</link>
       <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki2addons/</guid>
+      <guid>https://rs.luminousspice.com/anki2addons/</guid>
       <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     

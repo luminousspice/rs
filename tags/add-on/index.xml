@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Add On on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/add-on/</link>
+    <link>https://rs.luminousspice.com/tags/add-on/</link>
     <description>Recent content in Add On on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 07 Apr 2014 18:30:27 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/add-on/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/add-on/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>https://rs.luminousspice.com/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>https://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
     </item>
     

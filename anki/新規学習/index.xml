@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>新規学習 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/</link>
+    <link>https://rs.luminousspice.com/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/</link>
     <description>Recent content in 新規学習 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 23 May 2016 13:14:21 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki における新規カード一分間トラップの分析</title>
-      <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
+      <link>https://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
       <pubDate>Mon, 23 May 2016 13:14:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
       <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価</description>
     </item>
     

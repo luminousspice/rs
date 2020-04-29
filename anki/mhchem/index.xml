@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mhchem on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/mhchem/</link>
+    <link>https://rs.luminousspice.com/anki/mhchem/</link>
     <description>Recent content in Mhchem on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 14 Apr 2016 11:23:07 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/mhchem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/mhchem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki ユーザーのための LaTeX 利用ガイド</title>
-      <link>http://rs.luminousspice.com/anki-latex-guide/</link>
+      <link>https://rs.luminousspice.com/anki-latex-guide/</link>
       <pubDate>Thu, 14 Apr 2016 11:23:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-latex-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-latex-guide/</guid>
       <description>Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScri</description>
     </item>
     

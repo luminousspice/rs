@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学習オプション on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+    <link>https://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/</link>
     <description>Recent content in 学習オプション on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 15 Apr 2016 14:08:20 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
-      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <link>https://rs.luminousspice.com/anki-lapse-management/</link>
       <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <guid>https://rs.luminousspice.com/anki-lapse-management/</guid>
       <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
     </item>
     
     <item>
       <title>AnkiMobile の学習オプションを最適化する</title>
-      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <link>https://rs.luminousspice.com/ankimobile-study-options/</link>
       <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-study-options/</guid>
       <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザー</description>
     </item>
     

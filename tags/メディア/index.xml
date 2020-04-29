@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>メディア on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/</link>
+    <link>https://rs.luminousspice.com/tags/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/</link>
     <description>Recent content in メディア on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 29 May 2016 13:33:42 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data URI を使って画像を Anki カードに埋め込む</title>
-      <link>http://rs.luminousspice.com/datauri-on-anki/</link>
+      <link>https://rs.luminousspice.com/datauri-on-anki/</link>
       <pubDate>Sun, 29 May 2016 13:33:42 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/datauri-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/datauri-on-anki/</guid>
       <description>Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。 Data URI はBase64 エンコードした小さな画像やフォントなど</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
-      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <link>https://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-audio-control/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
     </item>
     
     <item>
       <title>Anki のメディアプレイヤーを mpv に取り替える</title>
-      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
+      <link>https://rs.luminousspice.com/mpv-on-anki/</link>
       <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
       
-      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/mpv-on-anki/</guid>
       <description>Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区</description>
     </item>
     

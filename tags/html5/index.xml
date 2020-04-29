@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html5 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/html5/</link>
+    <link>https://rs.luminousspice.com/tags/html5/</link>
     <description>Recent content in Html5 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 May 2016 13:49:38 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/html5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
-      <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5controller-on-anki/</link>
       <pubDate>Sat, 21 May 2016 13:49:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5controller-on-anki/</guid>
       <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込</description>
     </item>
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
     </item>
     

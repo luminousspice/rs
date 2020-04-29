@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>アップグレード on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89/</link>
+    <link>https://rs.luminousspice.com/tags/%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89/</link>
     <description>Recent content in アップグレード on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 03 Feb 2013 02:00:26 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki 2 の変更点 日本語訳</title>
-      <link>http://rs.luminousspice.com/changeinanki2/</link>
+      <link>https://rs.luminousspice.com/changeinanki2/</link>
       <pubDate>Sun, 03 Feb 2013 02:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changeinanki2/</guid>
+      <guid>https://rs.luminousspice.com/changeinanki2/</guid>
       <description>日本語版をご覧いただく前に この文書は、Changes in Anki 2 (http://ankisrs.net/docs/changes.html) 2015-3-25 版の日本語訳です。 この文書は、Anki 2へアップグレードする前に知っておきたい</description>
     </item>
     

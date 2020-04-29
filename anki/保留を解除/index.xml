@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>保留を解除 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99%E3%82%92%E8%A7%A3%E9%99%A4/</link>
+    <link>https://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99%E3%82%92%E8%A7%A3%E9%99%A4/</link>
     <description>Recent content in 保留を解除 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 May 2013 23:30:40 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99%E3%82%92%E8%A7%A3%E9%99%A4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E4%BF%9D%E7%95%99%E3%82%92%E8%A7%A3%E9%99%A4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiのブラウザーの使い方とデータ検索</title>
-      <link>http://rs.luminousspice.com/browser-overview/</link>
+      <link>https://rs.luminousspice.com/browser-overview/</link>
       <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/browser-overview/</guid>
+      <guid>https://rs.luminousspice.com/browser-overview/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第5回 Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると</description>
     </item>
     

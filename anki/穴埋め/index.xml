@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>穴埋め on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/</link>
+    <link>https://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/</link>
     <description>Recent content in 穴埋め on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 18 Jun 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiにおける空欄補充問題の作り方</title>
-      <link>http://rs.luminousspice.com/cloze-deletion/</link>
+      <link>https://rs.luminousspice.com/cloze-deletion/</link>
       <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cloze-deletion/</guid>
+      <guid>https://rs.luminousspice.com/cloze-deletion/</guid>
       <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キ</description>
     </item>
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
+      <link>https://rs.luminousspice.com/ems-mnemonics/</link>
       <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
+      <guid>https://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
     </item>
     
     <item>
       <title>Anki解答キー入力機能の使い方</title>
-      <link>http://rs.luminousspice.com/type_answer/</link>
+      <link>https://rs.luminousspice.com/type_answer/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/type_answer/</guid>
+      <guid>https://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使</description>
     </item>
     

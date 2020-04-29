@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>メディアの登録 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/</link>
     <description>Recent content in メディアの登録 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Jan 2016 23:15:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E7%99%BB%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
-      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <link>https://rs.luminousspice.com/learn-audio-material-with-anki/</link>
       <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。 はじめに 最近の外国</description>
     </item>
     
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
-      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <link>https://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
       <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <guid>https://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオ</description>
     </item>
     
     <item>
       <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
-      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <link>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
       <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <guid>https://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
       <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
     </item>
     
     <item>
       <title>Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち</title>
-      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <link>https://rs.luminousspice.com/anki-addons-guide/</link>
       <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが標準機能を拡張変更できるアドオン機能を提供しています。ユーザーは AnkiWeb にアドオンを公開でき、Anki を使って簡単にインストールで</description>
     </item>
     
     <item>
       <title>はじめてのAnki – まず使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-anki/</link>
+      <link>https://rs.luminousspice.com/how-to-anki/</link>
       <pubDate>Fri, 12 Apr 2013 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-anki/</guid>
+      <guid>https://rs.luminousspice.com/how-to-anki/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回 Ankiを始めたいけど、何から始めて良いか分からない方のためにこの記事を書きました。インス</description>
     </item>
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
-      <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
+      <link>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
       <pubDate>Thu, 16 Feb 2017 12:26:59 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
       <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。 オンラインレッ</description>
     </item>
     
     <item>
       <title>Skype 音声を Anki に録音する</title>
-      <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
+      <link>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
       <pubDate>Tue, 29 Nov 2016 09:44:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
+      <guid>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
       <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。 この投稿は、Mac ユーザ</description>
     </item>
     
     <item>
       <title>Mac で再生中の音声を Anki に直接録音する</title>
-      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
+      <link>https://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
       <pubDate>Sun, 27 Dec 2015 23:45:15 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
+      <guid>https://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
       <description>Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。 は</description>
     </item>
     

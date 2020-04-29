@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Art of Anki on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/categories/art-of-anki/</link>
+    <link>https://rs.luminousspice.com/categories/art-of-anki/</link>
     <description>Recent content in Art of Anki on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 12 Sep 2014 22:45:57 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/categories/art-of-anki/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/categories/art-of-anki/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>もっと Anki に集中する使い方</title>
-      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
+      <link>https://rs.luminousspice.com/bias-free-anki-learning/</link>
       <pubDate>Fri, 12 Sep 2014 22:45:57 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/bias-free-anki-learning/</guid>
       <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。 はじめに Anki は、</description>
     </item>
     
     <item>
       <title>長続きする Anki 単語帳の作り方</title>
-      <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
+      <link>https://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
       <pubDate>Sat, 06 Sep 2014 19:00:09 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
+      <guid>https://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
       <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜カード</description>
     </item>
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     
     <item>
       <title>Anki 復習予測の読み方</title>
-      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
+      <link>https://rs.luminousspice.com/anki-stats-due-forcast/</link>
       <pubDate>Thu, 14 Apr 2016 03:40:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
+      <guid>https://rs.luminousspice.com/anki-stats-due-forcast/</guid>
       <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。 予測グ</description>
     </item>
     
     <item>
       <title>忘れた Anki カードの出直し方</title>
-      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <link>https://rs.luminousspice.com/anki-lapse-management/</link>
       <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <guid>https://rs.luminousspice.com/anki-lapse-management/</guid>
       <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
     </item>
     
     <item>
       <title>Anki 使いの原点</title>
-      <link>http://rs.luminousspice.com/anki-basics/</link>
+      <link>https://rs.luminousspice.com/anki-basics/</link>
       <pubDate>Wed, 24 Sep 2014 00:00:02 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-basics/</guid>
+      <guid>https://rs.luminousspice.com/anki-basics/</guid>
       <description>熟練者限定の Anki の使い方の基本を取り上げます。明確な目標を設定して、毎日の学習を最適化する考え方を紹介します。 Anki の利用経験が全くない、はじめて</description>
     </item>
     
     <item>
       <title>Anki になれた方に iPhone をすすめたい理由</title>
-      <link>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
+      <link>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
       <pubDate>Mon, 15 Sep 2014 23:30:31 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
+      <guid>https://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
       <description>Anki に使い慣れて、もっと効率的な復習をしたいと考え始めたのなら iPhone アプリの AnkiMobile を使うことをすすめます。AnkiMobile を Anki と連動して使うと、P</description>
     </item>
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>https://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>https://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     
     <item>
       <title>ためた Anki 復習カードをスライスして消化</title>
-      <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
+      <link>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
       <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
+      <guid>https://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
       <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバ</description>
     </item>
     

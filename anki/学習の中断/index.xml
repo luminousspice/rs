@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学習の中断 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%81%AE%E4%B8%AD%E6%96%AD/</link>
+    <link>https://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%81%AE%E4%B8%AD%E6%96%AD/</link>
     <description>Recent content in 学習の中断 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 12 Apr 2013 23:30:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%81%AE%E4%B8%AD%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E5%AD%A6%E7%BF%92%E3%81%AE%E4%B8%AD%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>はじめてのAnki – まず使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-anki/</link>
+      <link>https://rs.luminousspice.com/how-to-anki/</link>
       <pubDate>Fri, 12 Apr 2013 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-anki/</guid>
+      <guid>https://rs.luminousspice.com/how-to-anki/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回 Ankiを始めたいけど、何から始めて良いか分からない方のためにこの記事を書きました。インス</description>
     </item>
     

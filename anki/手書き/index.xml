@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>手書き on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/</link>
+    <link>https://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/</link>
     <description>Recent content in 手書き on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 12 Apr 2016 00:39:18 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E6%89%8B%E6%9B%B8%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
-      <link>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
+      <link>https://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
       <pubDate>Tue, 12 Apr 2016 00:39:18 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
       <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。</description>
     </item>
     

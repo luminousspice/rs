@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>カスタム学習 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%AD%A6%E7%BF%92/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%AD%A6%E7%BF%92/</link>
     <description>Recent content in カスタム学習 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 11 May 2013 20:00:43 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%AD%A6%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E5%AD%A6%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
-      <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
+      <link>https://rs.luminousspice.com/how-to-customize-learning/</link>
       <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
+      <guid>https://rs.luminousspice.com/how-to-customize-learning/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回 単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカ</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: カスタム学習とフィルター単語帳</title>
-      <link>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
+      <link>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
       <pubDate>Thu, 07 Apr 2016 11:15:00 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
+      <guid>https://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
       <description>AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッション</description>
     </item>
     
     <item>
       <title>Anki 共有単語帳の学び方</title>
-      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <link>https://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
       <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <guid>https://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
       <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     
     <item>
       <title>Anki統計情報を活用したバックログ解消法</title>
-      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
+      <link>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
       <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
+      <guid>https://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目 統計情報を活用して復習カードの山から回復しよう Ankiを使っている人なら知っている使い方</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>サンプル単語帳 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
     <description>Recent content in サンプル単語帳 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Apr 2014 00:00:30 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <link>https://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <guid>https://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で利用した Anki 単語帳サンプルを紹介します。既定のテンプレートを拡張機能していますので、新しい教材をつくる時の参考として、テンプレ</description>
     </item>
     

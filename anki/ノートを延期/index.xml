@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ノートを延期 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E5%BB%B6%E6%9C%9F/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E5%BB%B6%E6%9C%9F/</link>
     <description>Recent content in ノートを延期 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 15 Jun 2013 22:30:52 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E5%BB%B6%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%83%8E%E3%83%BC%E3%83%88%E3%82%92%E5%BB%B6%E6%9C%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
-      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <link>https://rs.luminousspice.com/how-to-suspend-this-card/</link>
       <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <guid>https://rs.luminousspice.com/how-to-suspend-this-card/</guid>
       <description>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</description>
     </item>
     

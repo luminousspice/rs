@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>カードテンプレート on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/</link>
     <description>Recent content in カードテンプレート on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>https://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
     </item>
     
     <item>
       <title>Ankiのカードタイプと出題方法の増やし方</title>
-      <link>http://rs.luminousspice.com/cardtype/</link>
+      <link>https://rs.luminousspice.com/cardtype/</link>
       <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/cardtype/</guid>
+      <guid>https://rs.luminousspice.com/cardtype/</guid>
       <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動</description>
     </item>
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>Anki解答キー入力機能の使い方</title>
-      <link>http://rs.luminousspice.com/type_answer/</link>
+      <link>https://rs.luminousspice.com/type_answer/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/type_answer/</guid>
+      <guid>https://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使</description>
     </item>
     

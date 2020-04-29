@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/categories/wordpress/</link>
+    <link>https://rs.luminousspice.com/categories/wordpress/</link>
     <description>Recent content in Wordpress on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Apr 2014 00:00:30 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <link>https://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <guid>https://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で利用した Anki 単語帳サンプルを紹介します。既定のテンプレートを拡張機能していますので、新しい教材をつくる時の参考として、テンプレ</description>
     </item>
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば</description>
     </item>
     

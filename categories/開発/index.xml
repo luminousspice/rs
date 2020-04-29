@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>開発 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/</link>
+    <link>https://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/</link>
     <description>Recent content in 開発 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>https://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
     </item>
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>Anki 2.1.x アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/ankiaddons21/</link>
+      <link>https://rs.luminousspice.com/ankiaddons21/</link>
       <pubDate>Sun, 27 Aug 2017 11:48:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankiaddons21/</guid>
+      <guid>https://rs.luminousspice.com/ankiaddons21/</guid>
       <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     
     <item>
       <title>投稿記事目次</title>
-      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <link>https://rs.luminousspice.com/table-of-contents/</link>
       <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <guid>https://rs.luminousspice.com/table-of-contents/</guid>
       <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
     </item>
     
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
-      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
+      <link>https://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
+      <guid>https://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフ</description>
     </item>
     
     <item>
       <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>
-      <link>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
+      <link>https://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
       <pubDate>Mon, 02 Dec 2013 00:00:49 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
+      <guid>https://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
       <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。 この記事は、Mac OS X 10.7 上に</description>
     </item>
     
     <item>
       <title>静的サイトジェネレータ Pelican で AsciiDoc を使う方法</title>
-      <link>http://rs.luminousspice.com/pelican_with_asciidoc/</link>
+      <link>https://rs.luminousspice.com/pelican_with_asciidoc/</link>
       <pubDate>Sun, 01 Dec 2013 21:00:53 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/pelican_with_asciidoc/</guid>
+      <guid>https://rs.luminousspice.com/pelican_with_asciidoc/</guid>
       <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。AsciiDoc API のインストール方法と、日本語を処</description>
     </item>
     
     <item>
       <title>日本語で読める Free Programming Books</title>
-      <link>http://rs.luminousspice.com/japanese-free-programming-books/</link>
+      <link>https://rs.luminousspice.com/japanese-free-programming-books/</link>
       <pubDate>Sat, 30 Nov 2013 23:00:44 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/japanese-free-programming-books/</guid>
+      <guid>https://rs.luminousspice.com/japanese-free-programming-books/</guid>
       <description>List of Free Programming Books とは List of Free Programming Books とは、インターネット上で自由に利用できるプログラミング書籍のリストで、Stack Overflow の &#34;List of freely available programming books&#34; が元になっています。</description>
     </item>
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。</description>
     </item>
     
     <item>
       <title>Anki 2.0.x アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/anki2addons/</link>
+      <link>https://rs.luminousspice.com/anki2addons/</link>
       <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki2addons/</guid>
+      <guid>https://rs.luminousspice.com/anki2addons/</guid>
       <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     
     <item>
       <title>Zencoding Automator Services</title>
-      <link>http://rs.luminousspice.com/zencoding-automator-services/</link>
+      <link>https://rs.luminousspice.com/zencoding-automator-services/</link>
       <pubDate>Mon, 06 Aug 2012 20:49:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/zencoding-automator-services/</guid>
+      <guid>https://rs.luminousspice.com/zencoding-automator-services/</guid>
       <description>Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。 前回の記事のコードを書いていて、更に汎用的なautomatorのサービ</description>
     </item>
     
     <item>
       <title>ZenCoding with mi</title>
-      <link>http://rs.luminousspice.com/zen-coding-with-mi/</link>
+      <link>https://rs.luminousspice.com/zen-coding-with-mi/</link>
       <pubDate>Sun, 05 Aug 2012 23:20:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/zen-coding-with-mi/</guid>
+      <guid>https://rs.luminousspice.com/zen-coding-with-mi/</guid>
       <description>ご注意: 2013.5.30追記 miの最新版、mi3ではZencodingの機能が実装になりました。この記事で取り上げている内容よりも豊富な機</description>
     </item>
     

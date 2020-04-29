@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>開発 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E9%96%8B%E7%99%BA/</link>
+    <link>https://rs.luminousspice.com/tags/%E9%96%8B%E7%99%BA/</link>
     <description>Recent content in 開発 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 23 May 2016 13:14:21 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki における新規カード一分間トラップの分析</title>
-      <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
+      <link>https://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
       <pubDate>Mon, 23 May 2016 13:14:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
       <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価</description>
     </item>
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
-      <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5controller-on-anki/</link>
       <pubDate>Sat, 21 May 2016 13:49:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5controller-on-anki/</guid>
       <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込</description>
     </item>
     
     <item>
       <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
-      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
+      <link>https://rs.luminousspice.com/addon-ease-factor-histogram/</link>
       <pubDate>Fri, 13 May 2016 14:42:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
+      <guid>https://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
       <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の</description>
     </item>
     
     <item>
       <title>Feed to Anki 毎日英単語のカードを増やせるアドオン</title>
-      <link>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</link>
+      <link>https://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</link>
       <pubDate>Sat, 30 Apr 2016 11:24:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</guid>
+      <guid>https://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</guid>
       <description>オンライン辞書サイトで毎日単語を紹介する Word of th Day (今日の言葉) の RSS フィードから Anki のカードを作るアドオンを作りました。メニューから呼び出すとカ</description>
     </item>
     
     <item>
       <title>Anki のメディアプレイヤーを mpv に取り替える</title>
-      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
+      <link>https://rs.luminousspice.com/mpv-on-anki/</link>
       <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
       
-      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/mpv-on-anki/</guid>
       <description>Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区</description>
     </item>
     
     <item>
       <title>Hugo に全文検索を取り付けた</title>
-      <link>http://rs.luminousspice.com/hugo-site-search/</link>
+      <link>https://rs.luminousspice.com/hugo-site-search/</link>
       <pubDate>Fri, 01 Apr 2016 21:27:23 +0900</pubDate>
       
-      <guid>http://rs.luminousspice.com/hugo-site-search/</guid>
+      <guid>https://rs.luminousspice.com/hugo-site-search/</guid>
       <description>静的サイトジェネレータ Hugo を使って生成したコンテンツに 全文検索を取り付けました。Hugo でのコンテンツと一緒にインデックスファイルも同時に書き</description>
     </item>
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
     </item>
     
     <item>
       <title>フックを使った Anki アドオンのつくり方</title>
-      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
+      <link>https://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
       <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
+      <guid>https://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
       <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフ</description>
     </item>
     

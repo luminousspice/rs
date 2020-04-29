@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mpv on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/mpv/</link>
+    <link>https://rs.luminousspice.com/tags/mpv/</link>
     <description>Recent content in Mpv on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 02 Apr 2016 20:03:15 +0900</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/mpv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/mpv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki のメディアプレイヤーを mpv に取り替える</title>
-      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
+      <link>https://rs.luminousspice.com/mpv-on-anki/</link>
       <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
       
-      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/mpv-on-anki/</guid>
       <description>Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区</description>
     </item>
     

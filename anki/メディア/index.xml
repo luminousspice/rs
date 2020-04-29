@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>メディア on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/</link>
+    <link>https://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/</link>
     <description>Recent content in メディア on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Jan 2016 23:15:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
-      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <link>https://rs.luminousspice.com/learn-audio-material-with-anki/</link>
       <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
       <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。 はじめに 最近の外国</description>
     </item>
     
     <item>
       <title>YouTube の字幕付き動画を活用した Anki カードの作成</title>
-      <link>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
+      <link>https://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
       <pubDate>Sat, 28 May 2016 14:37:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
+      <guid>https://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
       <description>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます</description>
     </item>
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
-      <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5controller-on-anki/</link>
       <pubDate>Sat, 21 May 2016 13:49:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5controller-on-anki/</guid>
       <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
-      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <link>https://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-audio-control/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
     </item>
     
     <item>
       <title>Anki カードへの HTML5 メディアの埋め込み</title>
-      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <link>https://rs.luminousspice.com/html5-on-anki/</link>
       <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/html5-on-anki/</guid>
       <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
     </item>
     
     <item>
       <title>Anki の動画再生に使えるショートカットキー</title>
-      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <link>https://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
       <pubDate>Wed, 30 Dec 2015 18:30:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <guid>https://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
       <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。 Anki で動画を再生する時、た</description>
     </item>
     

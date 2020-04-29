@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>復習間隔 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/anki/%E5%BE%A9%E7%BF%92%E9%96%93%E9%9A%94/</link>
+    <link>https://rs.luminousspice.com/anki/%E5%BE%A9%E7%BF%92%E9%96%93%E9%9A%94/</link>
     <description>Recent content in 復習間隔 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 23 May 2016 13:14:21 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/anki/%E5%BE%A9%E7%BF%92%E9%96%93%E9%9A%94/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/anki/%E5%BE%A9%E7%BF%92%E9%96%93%E9%9A%94/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki における新規カード一分間トラップの分析</title>
-      <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
+      <link>https://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
       <pubDate>Mon, 23 May 2016 13:14:21 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
+      <guid>https://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
       <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価</description>
     </item>
     
     <item>
       <title>復習が進んだカードの手入れ</title>
-      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <link>https://rs.luminousspice.com/long-interval-management/</link>
       <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <guid>https://rs.luminousspice.com/long-interval-management/</guid>
       <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
     </item>
     

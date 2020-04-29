@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tips on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/tips/</link>
+    <link>https://rs.luminousspice.com/tags/tips/</link>
     <description>Recent content in Tips on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 25 Mar 2014 00:00:10 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki Tips - 知っておくとお得な機能たち</title>
-      <link>http://rs.luminousspice.com/anki-tips/</link>
+      <link>https://rs.luminousspice.com/anki-tips/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-tips/</guid>
+      <guid>https://rs.luminousspice.com/anki-tips/</guid>
       <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。 その多くが画面と連動してメニューに現れるため、なかなかその存在</description>
     </item>
     
     <item>
       <title>Anki の基本知識をつぶやきます</title>
-      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <link>https://rs.luminousspice.com/ankigene-bot-guide/</link>
       <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <guid>https://rs.luminousspice.com/ankigene-bot-guide/</guid>
       <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張す</description>
     </item>
     

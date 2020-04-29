@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Casualconc on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/casualconc/</link>
+    <link>https://rs.luminousspice.com/tags/casualconc/</link>
     <description>Recent content in Casualconc on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 Jun 2013 22:30:38 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/casualconc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/casualconc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。</description>
     </item>
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば</description>
     </item>
     
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
-      <link>http://rs.luminousspice.com/words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/words-in-msdn/</link>
       <pubDate>Sat, 01 Jun 2013 23:00:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普</description>
     </item>
     
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn/</link>
       <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介</description>
     </item>
     

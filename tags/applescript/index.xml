@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Applescript on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/applescript/</link>
+    <link>https://rs.luminousspice.com/tags/applescript/</link>
     <description>Recent content in Applescript on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 04 May 2013 22:30:07 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>ZenCoding with mi</title>
-      <link>http://rs.luminousspice.com/zen-coding-with-mi/</link>
+      <link>https://rs.luminousspice.com/zen-coding-with-mi/</link>
       <pubDate>Sun, 05 Aug 2012 23:20:40 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/zen-coding-with-mi/</guid>
+      <guid>https://rs.luminousspice.com/zen-coding-with-mi/</guid>
       <description>ご注意: 2013.5.30追記 miの最新版、mi3ではZencodingの機能が実装になりました。この記事で取り上げている内容よりも豊富な機</description>
     </item>
     

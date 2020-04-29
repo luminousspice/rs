@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Msdnの英語 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/</link>
+    <link>https://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/</link>
     <description>Recent content in Msdnの英語 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 15 Apr 2014 00:00:30 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anki 単語帳サンプル一覧</title>
-      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <link>https://rs.luminousspice.com/sample-decks/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <guid>https://rs.luminousspice.com/sample-decks/</guid>
       <description>これまでの投稿で利用した Anki 単語帳サンプルを紹介します。既定のテンプレートを拡張機能していますので、新しい教材をつくる時の参考として、テンプレ</description>
     </item>
     
     <item>
       <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
-      <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
+      <link>https://rs.luminousspice.com/words_in_msdn_20130601/</link>
       <pubDate>Sun, 09 Jun 2013 20:00:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
+      <guid>https://rs.luminousspice.com/words_in_msdn_20130601/</guid>
       <description>この連載では、頻出語句(2000+AWL+MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォロー</description>
     </item>
     
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
-      <link>http://rs.luminousspice.com/words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/words-in-msdn/</link>
       <pubDate>Sat, 01 Jun 2013 23:00:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普</description>
     </item>
     

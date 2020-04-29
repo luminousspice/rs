@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>the Right Stuff on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/</link>
+    <link>https://rs.luminousspice.com/</link>
     <description>the Right Stuff | the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
@@ -13,9 +13,9 @@
     
     <item>
       <title>Anki 2.1.x アドオンの作成 日本語訳</title>
-      <link>http://rs.luminousspice.com/ankiaddons21/</link>
+      <link>https://rs.luminousspice.com/ankiaddons21/</link>
       <pubDate>Sun, 27 Aug 2017 11:48:38 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ankiaddons21/</guid>
+      <guid>https://rs.luminousspice.com/ankiaddons21/</guid>
       <description>Writing Anki 2.1.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、v 2.0 からの移植、アドオンの共有方法について説明しています。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
@@ -34,7 +34,7 @@
 &lt;p&gt;Anki 2.1.x は 2017 年 9 月 10 日現在、最新バージョンは 2.1 Beta 16 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons&#34;&gt;Anki 2.0.x 用の文書の日本語訳&lt;/a&gt;もご覧頂けます。&lt;/p&gt;
+&lt;p&gt;また、&lt;a href=&#34;https://rs.luminousspice.com/anki2addons&#34;&gt;Anki 2.0.x 用の文書の日本語訳&lt;/a&gt;もご覧頂けます。&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;/div&gt;
@@ -1173,9 +1173,9 @@ else:
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
-      <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
+      <link>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
       <pubDate>Thu, 16 Feb 2017 12:26:59 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
+      <guid>https://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
       <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
@@ -1239,7 +1239,7 @@ else:
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/reinforce-online-lesson-clyp.png&#34; alt=&#34;Clyp データの表示例&#34;&gt;
+&lt;img src=&#34;https://rs.luminousspice.com/images/reinforce-online-lesson-clyp.png&#34; alt=&#34;Clyp データの表示例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Clyp データの表示例&lt;/div&gt;
 &lt;/div&gt;
@@ -1307,9 +1307,9 @@ else:
     
     <item>
       <title>Skype 音声を Anki に録音する</title>
-      <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
+      <link>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
       <pubDate>Tue, 29 Nov 2016 09:44:27 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
+      <guid>https://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
       <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。</description>
       <content>&lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。&lt;/p&gt;
@@ -1331,7 +1331,7 @@ else:
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/skype-audio-preference.png&#34; alt=&#34;Skype 音声の設定例&#34;&gt;
+&lt;img src=&#34;https://rs.luminousspice.com/images/skype-audio-preference.png&#34; alt=&#34;Skype 音声の設定例&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. Skype 音声の設定例&lt;/div&gt;
 &lt;/div&gt;
@@ -1346,9 +1346,9 @@ else:
     
     <item>
       <title>紙とペンで簡単にできる Anki</title>
-      <link>http://rs.luminousspice.com/pen-and-paper-anki/</link>
+      <link>https://rs.luminousspice.com/pen-and-paper-anki/</link>
       <pubDate>Sat, 25 Jun 2016 09:21:36 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/pen-and-paper-anki/</guid>
+      <guid>https://rs.luminousspice.com/pen-and-paper-anki/</guid>
       <description>紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
@@ -1378,12 +1378,12 @@ else:
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/pen-and-paper-anki-databook1.jpg&#34; alt=&#34;データブック&#34;&gt;
+&lt;img src=&#34;https://rs.luminousspice.com/images/pen-and-paper-anki-databook1.jpg&#34; alt=&#34;データブック&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 1. データブック 実物&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これは、&lt;a href=&#34;http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/&#34;&gt;Feed to Anki 毎日英単語のカードを増やせるアドオン&lt;/a&gt; に掲載した word of the day から、特に Merriam-Webster’s Word of the Day を中心に集めた英語表現です。&lt;/p&gt;
+&lt;p&gt;これは、&lt;a href=&#34;https://rs.luminousspice.com/addon-feed-to-anki-for-wotd/&#34;&gt;Feed to Anki 毎日英単語のカードを増やせるアドオン&lt;/a&gt; に掲載した word of the day から、特に Merriam-Webster’s Word of the Day を中心に集めた英語表現です。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;作業は次の三段階に分かれます。&lt;/p&gt;
@@ -1634,7 +1634,7 @@ else:
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;復習間隔を Anki アルゴリズム (Ease Factor 200%) で計算しました。 (表 1)&lt;br&gt;
-易しさの値 (Ease Factor) について更に知りたい場合は、&lt;a href=&#34;http://rs.luminousspice.com/addon-ease-factor-histogram/&#34;&gt;Ease Factor Histogram 単語帳の健全性を診断するアドオン&lt;/a&gt; をご覧下さい。&lt;/p&gt;
+易しさの値 (Ease Factor) について更に知りたい場合は、&lt;a href=&#34;https://rs.luminousspice.com/addon-ease-factor-histogram/&#34;&gt;Ease Factor Histogram 単語帳の健全性を診断するアドオン&lt;/a&gt; をご覧下さい。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;答えを隠す実用性から、質問と答えの位置を入れ替えました。&lt;/p&gt;
@@ -1654,7 +1654,7 @@ else:
 &lt;/div&gt;
 &lt;div class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/pen-and-paper-anki-databook2.jpg&#34; alt=&#34;データブック 改訂版&#34;&gt;
+&lt;img src=&#34;https://rs.luminousspice.com/images/pen-and-paper-anki-databook2.jpg&#34; alt=&#34;データブック 改訂版&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;図 2. データブック改訂版 実物&lt;/div&gt;
 &lt;/div&gt;
@@ -1668,7 +1668,7 @@ else:
  に掲載しているフランス語頻出2000語の暗記に学習を切り替えました。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/1min-trap-in-anki-learning/&#34;&gt;Anki における新規カード一分間トラップの分析&lt;/a&gt;で自分の学習履歴を分析したところ文単位の方が Anki での学習がしやすくなるという結果を得たため、問題を単語から文に変更しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://rs.luminousspice.com/1min-trap-in-anki-learning/&#34;&gt;Anki における新規カード一分間トラップの分析&lt;/a&gt;で自分の学習履歴を分析したところ文単位の方が Anki での学習がしやすくなるという結果を得たため、問題を単語から文に変更しました。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;複数の復習間隔表の利用を評価するために、オリジナルの SM-0 アルゴリズム (表 2) を使用しました。&lt;/p&gt;
@@ -1820,9 +1820,9 @@ else:
     
     <item>
       <title>Data URI を使って画像を Anki カードに埋め込む</title>
-      <link>http://rs.luminousspice.com/datauri-on-anki/</link>
+      <link>https://rs.luminousspice.com/datauri-on-anki/</link>
       <pubDate>Sun, 29 May 2016 13:33:42 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/datauri-on-anki/</guid>
+      <guid>https://rs.luminousspice.com/datauri-on-anki/</guid>
       <description>Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。</description>
       <content>&lt;div id=&#34;preamble&#34;&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;

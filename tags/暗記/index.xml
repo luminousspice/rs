@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>暗記 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/%E6%9A%97%E8%A8%98/</link>
+    <link>https://rs.luminousspice.com/tags/%E6%9A%97%E8%A8%98/</link>
     <description>Recent content in 暗記 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 25 Jun 2016 09:21:36 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/%E6%9A%97%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/%E6%9A%97%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>紙とペンで簡単にできる Anki</title>
-      <link>http://rs.luminousspice.com/pen-and-paper-anki/</link>
+      <link>https://rs.luminousspice.com/pen-and-paper-anki/</link>
       <pubDate>Sat, 25 Jun 2016 09:21:36 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/pen-and-paper-anki/</guid>
+      <guid>https://rs.luminousspice.com/pen-and-paper-anki/</guid>
       <description>紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。 Anki のアルゴリズ</description>
     </item>
     

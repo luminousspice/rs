@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tts on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/tts/</link>
+    <link>https://rs.luminousspice.com/tags/tts/</link>
     <description>Recent content in Tts on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jun 2014 23:30:03 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/tts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/tts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iPhone 版 Anki でテキストを読み上げるには</title>
-      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <link>https://rs.luminousspice.com/speech-text-on-ankimobile/</link>
       <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <guid>https://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
     </item>
     
     <item>
       <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
-      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <link>https://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
       <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <guid>https://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
       <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオ</description>
     </item>
     
     <item>
       <title>Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち</title>
-      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <link>https://rs.luminousspice.com/anki-addons-guide/</link>
       <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <guid>https://rs.luminousspice.com/anki-addons-guide/</guid>
       <description>Anki は、ユーザーが標準機能を拡張変更できるアドオン機能を提供しています。ユーザーは AnkiWeb にアドオンを公開でき、Anki を使って簡単にインストールで</description>
     </item>
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>AwesomeTTS プリセットの活用</title>
-      <link>http://rs.luminousspice.com/awesometts-preset/</link>
+      <link>https://rs.luminousspice.com/awesometts-preset/</link>
       <pubDate>Tue, 12 Apr 2016 12:55:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
+      <guid>https://rs.luminousspice.com/awesometts-preset/</guid>
       <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
-      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <link>https://rs.luminousspice.com/ankimobile-audio-control/</link>
       <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <guid>https://rs.luminousspice.com/ankimobile-audio-control/</guid>
       <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
     </item>
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば</description>
     </item>
     
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn/</link>
       <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介</description>
     </item>
     

@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anki 単語帳 on the Right Stuff</title>
-    <link>http://rs.luminousspice.com/tags/anki-%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
+    <link>https://rs.luminousspice.com/tags/anki-%E5%8D%98%E8%AA%9E%E5%B8%B3/</link>
     <description>Recent content in Anki 単語帳 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 04 May 2013 22:30:07 +0000</lastBuildDate>
     
-	<atom:link href="http://rs.luminousspice.com/tags/anki-%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rs.luminousspice.com/tags/anki-%E5%8D%98%E8%AA%9E%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ankiのカード表示を編集する</title>
-      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <link>https://rs.luminousspice.com/how-to-edit-cards/</link>
       <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <guid>https://rs.luminousspice.com/how-to-edit-cards/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
     </item>
     
     <item>
       <title>Ankiの共有リソースを使ってみる</title>
-      <link>http://rs.luminousspice.com/how-to-use-shared-resources/</link>
+      <link>https://rs.luminousspice.com/how-to-use-shared-resources/</link>
       <pubDate>Sat, 27 Apr 2013 06:00:26 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/how-to-use-shared-resources/</guid>
+      <guid>https://rs.luminousspice.com/how-to-use-shared-resources/</guid>
       <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第3回 既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログ</description>
     </item>
     
     <item>
       <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
-      <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
+      <link>https://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
       <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
+      <guid>https://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
       <description>日本語ユーザーが利用可能な Anki 共有単語帳を独自に収集し、検索画面を作成しました。 共有単語帳の日本語分類表を使って、詳しく調べることもできます。</description>
     </item>
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
+      <link>https://rs.luminousspice.com/ems-mnemonics/</link>
       <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
+      <guid>https://rs.luminousspice.com/ems-mnemonics/</guid>
       <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
     </item>
     
     <item>
       <title>Anki解答キー入力機能の使い方</title>
-      <link>http://rs.luminousspice.com/type_answer/</link>
+      <link>https://rs.luminousspice.com/type_answer/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/type_answer/</guid>
+      <guid>https://rs.luminousspice.com/type_answer/</guid>
       <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使</description>
     </item>
     
     <item>
       <title>MSDNの英語[1] A Modern C&#43;&#43; Library for DirectX Programming June 2013から</title>
-      <link>http://rs.luminousspice.com/words_in_msdn_20130601/</link>
+      <link>https://rs.luminousspice.com/words_in_msdn_20130601/</link>
       <pubDate>Sun, 09 Jun 2013 20:00:25 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/words_in_msdn_20130601/</guid>
+      <guid>https://rs.luminousspice.com/words_in_msdn_20130601/</guid>
       <description>この連載では、頻出語句(2000+AWL+MSDN Wordlist)を身につけた方が実際にMSDN Magazineを読み進めるためのフォロー</description>
     </item>
     
     <item>
       <title>Anki2.0.9の注目すべき変更点</title>
-      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <link>https://rs.luminousspice.com/changes-in-anki209/</link>
       <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <guid>https://rs.luminousspice.com/changes-in-anki209/</guid>
       <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラ</description>
     </item>
     
     <item>
       <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
       <pubDate>Fri, 07 Jun 2013 22:30:38 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
       <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。</description>
     </item>
     
     <item>
       <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
       <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
       <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば</description>
     </item>
     
     <item>
       <title>MSDNの英語 MSDNを情報源として利用できる語彙水準と学習戦略</title>
-      <link>http://rs.luminousspice.com/words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/words-in-msdn/</link>
       <pubDate>Sat, 01 Jun 2013 23:00:37 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/words-in-msdn/</guid>
       <description>ネイティブ並みの語彙力を目指さず、MSDNを情報源として利用することに目標を絞った場合、学習リソースは圧縮できるのではないかと考えました。普</description>
     </item>
     
     <item>
       <title>Windows開発者の必修語彙をAnki学習する方法</title>
-      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <link>https://rs.luminousspice.com/frequent-words-in-msdn/</link>
       <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
       
-      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <guid>https://rs.luminousspice.com/frequent-words-in-msdn/</guid>
       <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介</description>
     </item>
     
