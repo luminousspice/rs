@@ -3,38 +3,21 @@
   <channel>
     <title>Matplotlib on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/matplotlib/</link>
-    <description>Matplotlib | the Right Stuff</description>
+    <description>Recent content in Matplotlib on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Dec 2013 00:00:49 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/matplotlib/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2013 00:00:49 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Mac OS X に IPython Notebook をインストールする場合の注意点</title>
       <link>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</link>
-      <pubDate>Mon, 02 Dec 2013 00:00:49 +0900</pubDate>
+      <pubDate>Mon, 02 Dec 2013 00:00:49 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/ipython-notebook-installation-on-macosx/</guid>
-      <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。&lt;/p&gt;
-&lt;p&gt;この記事は、Mac OS X 10.7 上に virtualenv で構築した Python 2.7.5 の仮想環境に IPython 1.1.0 をインストールする場合の注意点を取り上げます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://ipython.org/notebook.html&#34; target=&#34;_new&#34;&gt;IPython Notebook&lt;/a&gt; は、Python の対話的な Web ベースの使いやすいシェルで、グラフや数式を表示することができます。特に Python の科学計算パッケージを利用する場合に重宝します。
-IPython のオフィシャルサイトで紹介している Anaconda という Python の商用配布パッケージには、IPython と関連パッケージが全て含まれていて、簡単にインストール可能です。&lt;/p&gt;
-&lt;p&gt;しかしながら、既に Python の独自環境を構築していて、追加で IPython Notebook のインストールには、複数の Python パッケージをインストールする必要があります。
-Mac OS X 環境に IPython Notebook インストールする手順としては、 &lt;a href=&#34;http://slowquery.hatenablog.com/entry/2013/04/01/010927&#34; target=&#34;_new&#34;&gt;IPython notebookでブラウザ内にグラフを描画する&lt;/a&gt; などの記事が参考になります。&lt;/p&gt;
-&lt;p&gt;ただし Mac OS X の場合、&lt;code&gt;pip install matplotlib&lt;/code&gt; だけでは、matplotlib がインストールできず、IPython 実行後のグラフの描画の際にエラーが発生する場合があります。&lt;/p&gt;
-&lt;p&gt;これは、Stack Overflow の投稿 &lt;a href=&#34;http://superuser.com/questions/242190/how-to-install-matplotlib-on-os-x&#34; target=&#34;_new&#34;&gt;How to install matplotlib on OS X?&lt;/a&gt; によれば、Mac OS X の場合、matplotlib をインストールする前に、コンパイルオプションを指定すると解決できるそうです。&lt;/p&gt;
-&lt;p&gt;pip を使う場合は、次のように実行します。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nb&#34;&gt;export &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;-L/usr/X11/lib&amp;quot;&lt;/span&gt;
-&lt;span class=&#34;nb&#34;&gt;export &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;-I/usr/X11/include -I/usr/X11/include/freetype2 -I/usr/X11/include/libpng12&amp;quot;&lt;/span&gt;
-pip install matplotlib
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;インストール終了後、再度グラフを描画して、確認すれば作業完了です。&lt;/p&gt;
-&lt;/section&gt;
-</content>
+      <description>IPython Notebook を Mac OS X にインストールする際に発生する、matplotlib のインストールの問題を解決する方法を紹介します。 この記事は、Mac OS X 10.7 上に</description>
     </item>
     
   </channel>

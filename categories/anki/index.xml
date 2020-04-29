@@ -3,1927 +3,732 @@
   <channel>
     <title>Anki on the Right Stuff</title>
     <link>http://rs.luminousspice.com/categories/anki/</link>
-    <description>Anki | the Right Stuff</description>
+    <description>Recent content in Anki on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/categories/anki/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/categories/anki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anki ショートカットキー</title>
+      <link>http://rs.luminousspice.com/anki-shortcuts/</link>
+      <pubDate>Sat, 09 Jan 2016 11:20:37 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-shortcuts/</guid>
+      <description>Anki のショートカットキーをソースコードから直接作成しました。単語帳一覧、カードブラウザー、ノートエディタなど主なユーザーインターフェイスについ</description>
+    </item>
+    
+    <item>
+      <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
+      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <pubDate>Sun, 03 Jan 2016 23:00:16 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <description>暗記についての方法論が確立していない人のために Anki のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理</description>
+    </item>
+    
+    <item>
+      <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
+      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。 はじめに 最近の外国</description>
+    </item>
+    
+    <item>
+      <title>もっと Anki に集中する使い方</title>
+      <link>http://rs.luminousspice.com/bias-free-anki-learning/</link>
+      <pubDate>Fri, 12 Sep 2014 22:45:57 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/bias-free-anki-learning/</guid>
+      <description>Anki に慣れている方を対象に、Anki の本来持っている機能を使いこなすために、学習に不要な情報を非表示にする 設定方法を紹介します。 はじめに Anki は、</description>
+    </item>
+    
+    <item>
+      <title>長続きする Anki 単語帳の作り方</title>
+      <link>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</link>
+      <pubDate>Sat, 06 Sep 2014 19:00:09 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-make-anki-decks-sustainable/</guid>
+      <description>Anki を使うと効率的にカードを学習できますが、大量にこなせば当然それにともなって、負担が大きくなります。 Anki を長続きして使うコツとして、前菜カード</description>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
+      <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
+      <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
+      <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多</description>
+    </item>
+    
+    <item>
+      <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
+      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオ</description>
+    </item>
+    
+    <item>
+      <title>Anki Tips - 知っておくとお得な機能たち</title>
+      <link>http://rs.luminousspice.com/anki-tips/</link>
+      <pubDate>Tue, 25 Mar 2014 00:00:10 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-tips/</guid>
+      <description>マニュアルに記載されているだけでも Anki には便利な機能がたくさん用意されています。 その多くが画面と連動してメニューに現れるため、なかなかその存在</description>
+    </item>
+    
+    <item>
+      <title>Ankiが同期できない問題について</title>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答の</description>
+    </item>
+    
+    <item>
+      <title>Anki 用語集 - Anki Glossary</title>
+      <link>http://rs.luminousspice.com/anki_glossary/</link>
+      <pubDate>Sun, 27 Oct 2013 19:30:55 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki_glossary/</guid>
+      <description>Anki を使うために理解が必要な基本用語集です。カード、ノート、単語帳といった教材の名称や、復習、忘却、延期など学習に関する基本概念について、An</description>
+    </item>
+    
+    <item>
+      <title>Ankiのカードタイプと出題方法の増やし方</title>
+      <link>http://rs.luminousspice.com/cardtype/</link>
+      <pubDate>Sat, 12 Oct 2013 23:30:56 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/cardtype/</guid>
+      <description>Ankiは一つのノートタイプに複数のカードタイプを設定できます。カードタイプを追加すると、既存のデータから出題方法の異なる複数のカードを自動</description>
+    </item>
+    
+    <item>
+      <title>Ankiと初期化</title>
+      <link>http://rs.luminousspice.com/anki_reset/</link>
+      <pubDate>Sat, 28 Sep 2013 22:00:25 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki_reset/</guid>
+      <description>Ankiを使い込んでいくと、一旦設定を初期状態に戻したくなる場合があります。そこで、Ankiの環境設定とカードの設定の初期化の方法と注意点を</description>
+    </item>
+    
+    <item>
+      <title>無駄なカード(Leech)になってもAnki学習を続ける方法</title>
+      <link>http://rs.luminousspice.com/management_of_leeches/</link>
+      <pubDate>Sat, 13 Jul 2013 23:45:22 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/management_of_leeches/</guid>
+      <description>Anki は 復習で一定回数間違えると、無駄なカードとして保留になり以後の学習から除外されます。この機能を知らないとカードが消えてしまったように感じる</description>
+    </item>
+    
+    <item>
+      <title>はじめてAnkiを使う人のための索引</title>
+      <link>http://rs.luminousspice.com/index-how-to-anki/</link>
+      <pubDate>Wed, 19 Jun 2013 00:00:48 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/index-how-to-anki/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 の内容から索引を作りました。はじめてAnkiを使う人のためにAnkiの使い方の最低限の内容を集め</description>
+    </item>
+    
+    <item>
+      <title>Ankiにおける空欄補充問題の作り方</title>
+      <link>http://rs.luminousspice.com/cloze-deletion/</link>
+      <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/cloze-deletion/</guid>
+      <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キ</description>
+    </item>
+    
+    <item>
+      <title>Ankiのノートタイプの選び方</title>
+      <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
+      <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
+      <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に</description>
+    </item>
+    
+    <item>
+      <title>Anki単語帳を共有する方法</title>
+      <link>http://rs.luminousspice.com/how-to-share-anki-decks/</link>
+      <pubDate>Thu, 30 May 2013 00:30:22 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-share-anki-decks/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第8回目 最終回 Anki単語帳を共有する方法 Ankiを使っている人なら知っている使い方をあえて紹介</description>
+    </item>
+    
+    <item>
+      <title>フィルター単語帳でAnki学習をカスタマイズしよう</title>
+      <link>http://rs.luminousspice.com/how-to-customize-learning/</link>
+      <pubDate>Sat, 11 May 2013 20:00:43 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-customize-learning/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第6回 単語帳の学習オプションを一時的に変更するカスタム学習の使い方を説明します。試験直前などにカ</description>
+    </item>
+    
+    <item>
+      <title>Ankiのブラウザーの使い方とデータ検索</title>
+      <link>http://rs.luminousspice.com/browser-overview/</link>
+      <pubDate>Fri, 10 May 2013 23:30:40 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/browser-overview/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ 第5回 Ankiのブラウザーは単語帳のデータにアクセスするインターフェースです。この使い方になれると</description>
+    </item>
+    
+    <item>
+      <title>Anki 2 の変更点 日本語訳</title>
+      <link>http://rs.luminousspice.com/changeinanki2/</link>
+      <pubDate>Sun, 03 Feb 2013 02:00:26 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/changeinanki2/</guid>
+      <description>日本語版をご覧いただく前に この文書は、Changes in Anki 2 (http://ankisrs.net/docs/changes.html) 2015-3-25 版の日本語訳です。 この文書は、Anki 2へアップグレードする前に知っておきたい</description>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
+      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
+    </item>
+    
+    <item>
+      <title>Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち</title>
+      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <description>Anki は、ユーザーが標準機能を拡張変更できるアドオン機能を提供しています。ユーザーは AnkiWeb にアドオンを公開でき、Anki を使って簡単にインストールで</description>
+    </item>
+    
+    <item>
+      <title>Ankiのカード表示を編集する</title>
+      <link>http://rs.luminousspice.com/how-to-edit-cards/</link>
+      <pubDate>Sat, 04 May 2013 22:30:07 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-edit-cards/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ 第4回 カードテンプレートを利用すると、カードの学習画面を一括でカスタマイズできます。新しいノートタ</description>
+    </item>
+    
+    <item>
+      <title>Ankiの共有リソースを使ってみる</title>
+      <link>http://rs.luminousspice.com/how-to-use-shared-resources/</link>
+      <pubDate>Sat, 27 Apr 2013 06:00:26 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-use-shared-resources/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第3回 既にAnkiを使いこなしている人たちが、その熟練した経験をたくさんの単語帳やアドオンプログ</description>
+    </item>
+    
+    <item>
+      <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
+      <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
+      <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
+      <description>日本語ユーザーが利用可能な Anki 共有単語帳を独自に収集し、検索画面を作成しました。 共有単語帳の日本語分類表を使って、詳しく調べることもできます。</description>
+    </item>
+    
+    <item>
+      <title>AnkiWeb 同期機能の使い方</title>
+      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
+      <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
+      <description>AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使っ</description>
+    </item>
+    
+    <item>
+      <title>Ankiのインストール</title>
+      <link>http://rs.luminousspice.com/install_anki/</link>
+      <pubDate>Sun, 29 Sep 2013 18:00:18 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/install_anki/</guid>
+      <description>最新 Anki 2.0.47 対応。Anki (OS X, Windows, Linux/BSD) のダウンロードとインストール、アンインストールの方法を説明します。iOS アプリと Android および Chromebook 用アプリ、さらに Windows 10</description>
+    </item>
+    
+    <item>
+      <title>Ankiにデータをまとめて取り込む</title>
+      <link>http://rs.luminousspice.com/how-to-import/</link>
+      <pubDate>Sat, 20 Apr 2013 09:00:02 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-import/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第2回 Ankiを使っている人なら知っている使い方をあえて紹介する連載の2回目は、学習教材の一括登</description>
+    </item>
+    
+    <item>
+      <title>はじめてのAnki – まず使ってみる</title>
+      <link>http://rs.luminousspice.com/how-to-anki/</link>
+      <pubDate>Fri, 12 Apr 2013 23:30:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-anki/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回 Ankiを始めたいけど、何から始めて良いか分からない方のためにこの記事を書きました。インス</description>
+    </item>
     
     <item>
       <title>Anki 2.1.x アドオンの作成 日本語訳</title>
       <link>http://rs.luminousspice.com/ankiaddons21/</link>
-      <pubDate>Sun, 27 Aug 2017 11:48:38 +0900</pubDate>
+      <pubDate>Sun, 27 Aug 2017 11:48:38 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/ankiaddons21/</guid>
-      <description>Writing Anki 2.1.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、v 2.0 からの移植、アドオンの共有方法について説明しています。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Writing Anki 2.0.x Add-ons  の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、v 2.0 からの移植、アドオンの共有方法について説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_日本語版をご覧いただく前に&#34;&gt;日本語版をご覧いただく前に&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この文書は、&lt;a href=&#34;http://ankisrs.net/docs/addons21.html&#34;&gt;Writing Anki 2.1.x Add-ons&lt;/a&gt; 2017-09-10 版の日本語訳です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.1.x は 2017 年 9 月 10 日現在、最新バージョンは 2.1 Beta 16 です。より最新で正確な情報をご覧になりたい方は、原本をご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、&lt;a href=&#34;http://rs.luminousspice.com/anki2addons&#34;&gt;Anki 2.0.x 用の文書の日本語訳&lt;/a&gt;もご覧頂けます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_2_1_x_アドオンの作成&#34;&gt;Anki 2.1.x アドオンの作成&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_他のバージョン&#34;&gt;他のバージョン&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この文書では、まだリリースしていませんが Anki 2.1.x 用のアドオンの作成について扱います。Anki 2.0.x 用については &lt;a href=&#34;https://apps.ankiweb.net/docs/addons.html&#34; class=&#34;bare&#34;&gt;https://apps.ankiweb.net/docs/addons.html&lt;/a&gt; をご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_他の言語&#34;&gt;他の言語&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;英語 (原文): &lt;a href=&#34;https://apps.ankiweb.net/docs/addons21.html&#34; class=&#34;bare&#34;&gt;https://apps.ankiweb.net/docs/addons21.html&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ロシア語: &lt;a href=&#34;http://finpapa.ucoz.ru/ankitest-addons.html#addons21&#34; class=&#34;bare&#34;&gt;http://finpapa.ucoz.ru/ankitest-addons.html#addons21&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_概要&#34;&gt;概要&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は、ユーザーフレンドリーなプログラミング言語 Python で作成しています。
-Python についてあまり詳しくない方は、この文書の先を読む前に
-&lt;a href=&#34;http://docs.python.org/tutorial/&#34;&gt;Python tutorial&lt;/a&gt; をお読みください。
-(訳注: &lt;a href=&#34;https://docs.python.org/ja/3/tutorial/&#34;&gt;Python チュートリアル
-日本語版&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Python は動的言語なため、Anki ではアドオンが極めて強力に機能します。アドオンは Anki の処理
-を拡張するだけでなく、Anki の任意の側面に変更を加えることができます。例えば、スケジュール
-設定の処理を変更したり、ユーザーインターフェイスを修正したりすることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;プラグインの開発には、特別な開発環境は必要ありません。テキストエディタがあれば十分です。
-Windows や Mac をお使いの方は、このサイトで提供しているパッケージ版の Anki をお使いください。これらの
-プラットフォーム上でゼロから Anki を構築するための説明が入手できないためです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;メモ帳のような単純なテキストエディタでプラグインを作成できますが、シンタックスハイライト
-機能 (コードの色分け) を持ったエディタを探してみると、作業がより簡単になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki を構成する2つの要素&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&#39;anki&#39; には、「背後」で動作する全てのコードが含まれています。コレクションを開いたり、
-カードを取得し、回答する処理などです。これは、Anki の GUI が使用していますが、GUI を使わず
-に Anki 単語帳にアクセスするコマンドラインプログラムに含めることもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&#39;aqt&#39; には、Anki のユーザーインターフェイスの部分が含まれています。Anki のユーザー
-インターフェイスは、PyQt 上に構築されています。PyQt とは、クロスプラットフォーム GUI
-ツールキット Qt に対する Python バインディングです。PyQt は、Qt の API に密接に動作
-します。Qt documentation は、特定の GUI
-コンポーネントの使い方を調べたい時に、非常に役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.1.x は &lt;a href=&#34;http://doc.qt.io/qt-5/index.html&#34;&gt;Qt 5.9&lt;/a&gt; を使用しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki が起動すると、アドオンフォルダ内のモジュールを確認し、見つけたモジュールを一つづつ実行します。アドオンを実行すると、通常は既存のコードを変更したり、新しい機能を呼び出すメニュー項目を新たに追加します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アドオンフォルダ&#34;&gt;アドオンフォルダ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のメインウィンドウのメニューから Tools&amp;gt;Add-ons と選ぶと、アドオンフォルダの最上位階層にアクセスできます。View Files ボタンを押すとフォルダがポップアップします。アドオンをまだ何もインストールしていない場合は、最上位のアドオンフォルダが開きます。アドオンを選択している場合は、アドオンのモジュールフォルダが開きます。これは最上位階層の一つ下の階層になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンフォルダの名前は、&#34;addons21&#34;　です。Anki 2.1 に対応しています。&#34;addons&#34; があるのは、以前 Anki 2.0.x を使っていたためです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;それぞれのアドオンは、アドオンフォルダの中の一つのフォルダを使います。Anki はそのフォルダの中にあるファイル &lt;code&gt;__init__.py&lt;/code&gt; を探します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;addons21/my_addon/__init__.py&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;もし &lt;code&gt;__init__.py&lt;/code&gt; がなければ、Anki はそのフォルダを無視します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フォルダ名を決めるときには、a-z と 0-9 の範囲の文字から選ぶことおすすめします。これによって、Python モジュールシステムによる問題を避けることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;自分でフォルダを作るときはどんな名前でも使えますが、AnkiWeb からアドオンをダウンロードするときは、Anki はそのアドオンの ID をフォルダ名に使います。例えば次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;addons21/48927303923/__init__.py&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki はさらにフォルダに meta.json ファイルを保存して、ダウンロードした時の元のアドオン名と、アドオンの利用許可を追跡ます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ユーザーデータをアドオンフォルダに保存できません。&lt;a href=&#34;#configuration&#34;&gt;そのようなデータは、ユーザーがアドオンをアップグレードすると、削除される&lt;/a&gt;からです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_簡単なアドオンの一例&#34;&gt;簡単なアドオンの一例&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;次に示す &lt;code&gt;my_first_addon/__init__.py&lt;/code&gt; を、自分のアドオンフォルダに追加してみてください:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;# aqt からメインウィンドウオブジェクト (mw) を読み込みます
-from aqt import mw
-# utils.py から &#34;show info&#34; ツールを読み込みます
-from aqt.utils import showInfo
-# Qt GUI ライブラリの全てを読み込みます
-from aqt.qt import *
-
-# 次のようなメニュー項目を追加してみましょう。まず最初にメニュー項目が利用可能になったら
-# 呼び出す関数を作成します。
-
-def testFunction():
-    # 現在使用中のコレクションの中のカードの枚数を取得します
-    # このコレクションはメインウィンドウの中に保存しています
-    cardCount = mw.col.cardCount()
-    # メッセージボックスを表示します
-    showInfo(&#34;Card count: %d&#34; % cardCount)
-
-# 新しいメニュー項目 &#34;test&#34; を作成します。
-action = QAction(&#34;test&#34;, mw)
-# この項目をクリックしたら testFunction を呼び出すように設定します。
-action.triggered.connect(testFunction)
-# そして、この設定をツールメニューに反映します。
-mw.form.menuTools.addAction(action)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki を再起動すると、ツールメニューの中に &#39;test&#39; 項目が追加されていることに気づくでしょう。
-この項目を選択して実行するとカード枚数を表示するダイアログが現れます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;プラグインの入力中に間違いがあった場合には、Anki は起動時にエラーメッセージを表示して
-どこに問題があるか指摘します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_コレクション&#34;&gt;コレクション&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;コレクションファイル上の全ての操作は、mw.col を通じてアクセスします。基本的な例で
-何ができるがご紹介します。注意してほしいのは、上の例のように testFunction() の中で行ってください。
-アドオンの中で直接実行することはできません。それは、Anki を起動中にアドオンが初期化し、その後にコレクションやプロファイルを
-読み込むからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;復習時期のカードの取得:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;card = mw.col.sched.getCard()
-if not card:
-    # 現在の単語帳は復習済み&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;カードを解答する:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;mw.col.sched.answerCard(card, ease)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;ノートを編集する (各フィールドの最後に &#34; new&#34; を追加):&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;note = card.note()
-for (name, value) in note.items():
-    note[name] = value + &#34; new&#34;
-note.flush()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;ノートにタグ x を持つカードの ID を取得する:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;ids = mw.col.findCards(&#34;tag:x&#34;)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;指定したカード ID から質問と解答を取得する:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;for id in ids:
-    card = mw.col.getCard(id)
-    question = card.q()
-    answer = card.a()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;データベースの変更後にスケジュールをリセットする。GUI も更新しなければならないので、
-メインウィンドウ上で reset() を呼び出すことに注意してください:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;mw.reset()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;テキストファイルをコレクションに読み込む&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki.importing import TextImporter
-file = u&#34;/path/to/text.txt&#34;
-# 単語帳を選択
-did = mw.col.decks.id(&#34;ImportDeck&#34;)
-mw.col.decks.select(did)
-# 単語帳にノートタイプを設定
-m = mw.col.models.byName(&#34;Basic&#34;)
-deck = mw.col.decks.get(did)
-deck[&#39;mid&#39;] = m[&#39;id&#39;]
-mw.col.decks.save(deck)
-# コレクションに読み込む
-ti = TextImporter(mw.col, file)
-ti.initMapping()
-ti.run()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ほとんど全ての GUI 処理は &#39;anki&#39; 内に関連する関数を持っています。このため、Anki が利用
-できるどんな処理でも、アドオンの中で同様に呼び出すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;GUI の外側のコレクションにアクセスする場合は、次のようなコードを使います:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki import Collection
-col = Collection(&#34;/path/to/collection.anki2&#34;)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の外部のコレクションに何らかの修正を加えたときは、修正が済んだら col.close() を必ず呼び出さなければなりません。
-これを怠ると修正点は失われます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データベース&#34;&gt;データベース&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&#39;anki&#39; がサポートしていない処理を実行する必要がある場合は、データベースに直接アクセスする
-ことができます。Anki コレクションは、SQLite ファイル内に保存されています。詳しい情報は、
-&lt;a href=&#34;http://www.sqlite.org/lang.html&#34;&gt;SQLite documentation&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のデータベースオブジェクトは次のような関数をサポートしています:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;execute() は、挿入と更新処理を実行します。指定した引数は ? を一緒に使います。例えば:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;mw.col.db.execute(&#34;update cards set ivl = ? where id = ?&#34;, newIvl, cardId)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;executemany() は、更新と挿入を一括処理します。大規模な更新にはこの関数の方が、
-execute() で個別にデータを処理するよりも非常に高速に処理します。例えば:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;data = [[newIvl1, cardId1], [newIvl2, cardId2]]
-mw.col.db.executemany(same_sql_as_above, data)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;scalar() は、単一の項目を返します:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;showInfo(&#34;card count: %d&#34; % mw.col.db.scalar(&#34;select count() from cards&#34;))&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;list() は、各行の最初の列をリストで返します。次のコードの戻り値は [1, 2, 3]です:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;ids = mw.col.db.list(&#34;select id from cards limit 3&#34;)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;all() は、各行がリストの場合、行のリストを返します:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;ids_and_ivl = mw.col.db.all(&#34;select id, ivl from cards&#34;)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;execute() は、中間リストを作らずに結果の集合への処理を繰り返すのに使えます。例:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;for id, ivl in mw.col.db.execute(&#34;select id, ivl from cards limit 3&#34;):
-    showInfo(&#34;card id %d has ivl %d&#34; % (id, ivl))&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンは、既存のテーブルのスキーマを決して変更してはいけません。そうすると将来のバージョンの Anki を破壊するかもしれないからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオン独自のデータが必要な場合は、Anki の &lt;a href=&#34;#configuration&#34;&gt;設定&lt;/a&gt; サポートの使用を考慮してください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;デバイス間でデータを同期する必要する場合は、小さな設定項目を mw.col.conf に保存できます。そこに大量なデータは保存しないでください。同期のたびに送ることになるからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_フック&#34;&gt;フック&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フックをコードのわずかな箇所に追加して、アドオンの作成がもっと簡単になるようにしました。
-フックは 2 種類あります。&#39;hooks&#39; は引数を取り、戻り値はありませんが、&#39;filters&#39; 引数を取り、
-(おそらく何らかの修正を加えて) 値を返します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&#39;hook&#39; の簡単な例は、無駄なカード (leech) の処理の中に見つかります。スケジューラー
-(anki/sched.py) が、無駄なカードを見つけると、&#39;hook&#39; を呼び出します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;runHook(&#34;leech&#34;, card)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;無駄なカードが現れた時に、特定の処理を行いたい場合、例えばそのカードを &#34;Difficult&#34;
-という名前の単語帳に移動する場合、次のようなコードで実現できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki.hooks import addHook
-from aqt import mw
-
-def onLeech(card):
-    # スケジューラーが修正する際には、 .flush() を使わずに修正できます。
-    card.did = mw.col.decks.id(&#34;Difficult&#34;)
-    # カードがフィルター単語帳の中にある場合は、復習時期を元に戻して取得元の単語帳に
-    # 戻さなければなりません
-    card.odid = 0
-    if card.odue:
-        card.due = card.odue
-        card.odue = 0
-
-addHook(&#34;leech&#34;, onLeech)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;aqt/editor.py の中に &#39;filter&#39; の例があります。エディターは、入力欄からフォーカスが外れる
-と &#34;editFocusLost&#34; filter を呼び出します。そして、アドオンはノートに変更を加えます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;if runFilter(
-    &#34;editFocusLost&#34;, False, self.note, self.currentField):
-    # ノートを更新して、スケジュールを再度読み込む
-    def onUpdate():
-        self.loadNote()
-        self.checkValid()
-    self.mw.progress.timer(100, onUpdate, False)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このサンプルでは、それぞれの filter は 3 つの引数を受け取ります。修正フラグ、ノート、現在のフィールドです。
-filter が変更を加えない場合は、修正フラグは受け取った値と同じ値を返します。
-変更を加えた場合は、True を返します。このようにして、どんなアドオンでも変更を加えると
-ユーザーインターフェイスは、ノートを読み込み直して、更新内容を表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Japanese Support アドオンは、このフックを使って別のフィールドからフィールドを自動的に生成します。
-単純化したものを次に示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;def onFocusLost(flag, n, fidx):
-    from aqt import mw
-    # japanese model か?
-    if &#34;japanese&#34; not in n.model()[&#39;name&#39;].lower():
-        return flag
-    # src フィールドと dst フィールドがあるか?
-    for c, name in enumerate(mw.col.models.fieldNames(n.model())):
-        for f in srcFields:
-            if name == f:
-                src = f
-                srcIdx = c
-        for f in dstFields:
-            if name == f:
-                dst = f
-    if not src or not dst:
-        return flag
-    # dst フィールドは入力済みか?
-    if n[dst]:
-        return flag
-    # イベントは src フィールドで発生したか?
-    if fidx != srcIdx:
-        return flag
-    # ソーステキストを取得
-    srcTxt = mw.col.media.strip(n[src])
-    if not srcTxt:
-        return flag
-    # 欄を更新
-    try:
-        n[dst] = mecab.reading(srcTxt)
-    except Exception, e:
-        mecab = None
-        raise
-    return True
-
-addHook(&#39;editFocusLost&#39;, onFocusLost)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;filter の第一引数は、必ず返される引数です。このフォーカスを失った時の filter の中では、
-引数はフラグですが、別のオブジェクトになる場合もあります。例えば、anki/collection.py
-の中では、_renderQA() は、カードの表面と裏面用に生成した HTML を収容する &#34;mungeQA&#34; filter
-を呼び出します。latex.py は、この filter を LaTeX タグの中のテキストを画像に変換する
-のに使っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.1 では、エディタにボタンを追加するフックを追加しました。次のように使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from aqt.utils import showInfo
-from anki.hooks import addHook
-
-# cross out the currently selected text
-def onStrike(editor):
-    editor.web.eval(&#34;wrap(&#39;&amp;lt;del&amp;gt;&#39;, &#39;&amp;lt;/del&amp;gt;&#39;);&#34;)
-
-def addMyButton(buttons, editor):
-    editor._links[&#39;strike&#39;] = onStrike
-    return buttons + [editor._addButton(
-        &#34;iconname&#34;, # &#34;/full/path/to/icon.png&#34;,
-        &#34;strike&#34;, # link name
-        &#34;tooltip&#34;)]
-
-addHook(&#34;setupEditorButtons&#34;, addMyButton)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_モンキーパッチとメソッドの隠蔽&#34;&gt;モンキーパッチとメソッドの隠蔽&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フックを持っていない関数を修正したい場合には、カスタム版の関数で上書きすることが可能です。
-このことを、「モンキーパッチ」を呼ぶことがあります&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;aqt/editor.py には、setupButtons() という関数があり、エディターの中にある太字ボタン、
-斜字体ボタンのようなボタンを生成します。自分のアドオンに違ったボタンを追加することを考えて
-みましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;警告: Anki 2.1 は、setupButtons() をもう使用していません。このコードは、モンキーパッチがどのように動作しているか、理解するのに役立ちますが、エディタにボタンと追加するには、前の項目で説明した setupEditorButtons フックを見てください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一番簡単な方法は、Anki のソースコードからその関数をコピーペーストして、自分のテキストを
-ボタンに追加します。そして、元の関数を上書きします。次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from aqt.editor import Editor
-
-def mySetupButtons(self):
-    &amp;lt;オリジナルからコピーペーストしたコード&amp;gt;
-    &amp;lt;カスタムアドオンのコード&amp;gt;
-
-Editor.setupButtons = mySetupButtons&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この方法は、将来の Anki のバージョンで元のコードが更新されるような場合に、自分のアドオンも
-更新する必要になる問題をはらんでいます。もっと良い方法は、オリジナルの関数を保存しておいて
-自分のカスタムバージョンの中で呼び出すことです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from aqt.editor import Editor
-
-def mySetupButtons(self):
-    origSetupButtons(self)
-    &amp;lt;カスタムアドオンのコード&amp;gt;
-
-origSetupButtons = Editor.setupButtons
-Editor.setupButtons = mySetupButtons&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これはよく行われる処理なので、Anki では wrap() という関数を提供して、もう少し使いやすく
-しています。実際の例をご紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki.hooks import wrap
-from aqt.editor import Editor
-from aqt.utils import showInfo
-
-def buttonPressed(self):
-    showInfo(&#34;pressed &#34; + `self`)
-
-def mySetupButtons(self):
-    # - size=False は、小さいボタンは使わない
-    # - lambda は、予め設定されているメソッドの代わりに関数の中で
-    #    エディタインスタンスをコールバックに渡す時に必要
-    self._addButton(&#34;mybutton&#34;, lambda s=self: buttonPressed(self),
-                    text=&#34;PressMe&#34;, size=False)
-
-Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;既定では、wrap() は元のコードの後にカスタムコードを実行します。第3引数 &#34;before&#34; を渡すと
-これを逆転できます。元のバージョンの前と後の両方で実行する必要がある場合は、次のようにします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki.hooks import wrap
-from aqt.editor import Editor
-
-def mySetupButtons(self, _old):
-    &amp;lt;オリジナルの前で実行するコード&amp;gt;
-    ret = _old(self)
-    &amp;lt;オリジナルの後で実行するコード&amp;gt;
-    return ret
-
-Editor.setupButtons = wrap(Editor.setupButtons, mySetupButtons, &#34;around&#34;)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;関数の前後でコードを実行するのではなく、関数の中を修正する必要がある場合には、元のコードの
-中の対象とする関数にフックを追加するのが良い方法かも知れません。このような場合には、
-追加するフックについての質問をサポートサイトに投稿してください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_qt&#34;&gt;Qt&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;概要で話したとおり、Qt documentation は 色々な GUI ウィジェットを表示する方法を学ぶのに非常に貴重な文書です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一つ覚えておいてほしいことは、Python ではオブジェクトはガベージコレクションされます。
-次のように記述するとどうなるでしょうか。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;def myfunc():
-    widget = QWidget()
-    widget.show()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;すると、この関数を終了するとすぐにウェジットは消えてしまいます。これを避けるには、
-トップレベルのウェジットに既存のオブジェクトを割り当てます。次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;def myfunc():
-    mw.myWidget = widget = QWidget()
-    widget.show()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Qt オブジェクトを作って、既存のオブジェクトを親とするときには、このことはあまり必要としません。それは、親オブジェクトが新規オブジェクトを参照し続けるからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_標準モジュール&#34;&gt;標準モジュール&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は、このプログラムの実行に必要な標準モジュールだけを含めて提供しています。Python
-の完全な複製を含んではいません。このために、Anki が含んでいない標準モジュールを使う必要が
-ある場合には、自分のアドオンに同梱する必要があります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この場合、pure Python モジュールは使えますが、numpy のような C 拡張を必要とするモジュールを同梱するのは非常に困難です。その理由は、Anki がサポートするオペレーティングシステム用にそれぞれコンパイルする必要があるからです。もし込み入ったことをするのであれば、代わりにユーザーに Python のスタンドアロンファイルをインストールしてもらう方が簡単です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;configuration&#34;&gt;設定&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;JSON dictionary で設定を書いた config.json ファイルを入れると、ユーザーは Anki  のアドオンマネージャから編集できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;簡単な例として、config.json に次のように記述します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;{&#34;myvar&#34;: 5}&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;config.md は次のように記述します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;この文書はこのアドオンの設定用で、*markdown* フォーマットで書いています。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンのコードには次のように記述します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from aqt import mw
-config = mw.addonManager.getConfig(__name__)
-print(&#34;var is&#34;, config[&#39;myvar&#39;])&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンを更新する時には、config.json を変更することができます。既存の設定と新規追加のキーを統合します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;config.json の中の既存のキーの値を変更する場合は、設定をカスタマイズしたユーザーが、&#34;restore defaults&#34; ボタンを押さない限り、古い値を使い続けることになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;設定をプログラムで変更する必要がある場合は、次のように変更を保存します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;mw.addonManager.writeConfig(__name__, config)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;注意: config.json が存在しない場合は、getConfig() は None を返します。たとえ、writeConfig() を呼んでいたとしてもです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;独自の GUI に管理オプションを持っているアドオンは、config ボタンを押した時にその GUI を表示できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;mw.addonManager.setConfigAction(__name__, myOptionsFunc)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;キー名の最初にアンダースコアを使うのを避けてください。Anki が将来利用するために予約しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;userfiles&#34;&gt;ユーザーファイル&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンの設定に簡単なキーと値の組み合わせ以外のデータが必要な時は、&#34;user_files&#34; という名前の特別なフォルダをアドオンフォルダのルートに置いて使うことができます。このフォルダに置いたファイルはどれも、アドオンの更新時に保護します。アドオンフォルダのこれ以外のファイルは全て更新時に削除します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ユーザー用の &#34;user_files&#34; フォルダを必ず確実に作るには、アドオンを zip ファイルにする前に README.txt や 同じようなファイルをその中に置くことで可能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki がアドオンを更新する時は、zip ファイルの中で &#34;user_files&#34; にすでに存在するファイルはどれも無視します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;reviewjs&#34;&gt;質問解答画面での JavaScript&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;(2.1.0beta16 で導入予定)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は、復習画面やプレビューダイアログ、カードレイアウト画面に質問や解答を表示する前に HTML を変更するフックを提供します。 このフックはカードに JavaScript を追加するのに役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;例:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki.hooks import addHook
-def prepare(html, card, context):
-    return html + &#34;&#34;&#34;
-&amp;lt;script&amp;gt;
-document.body.style.background = &#34;blue&#34;;
-&amp;lt;/script&amp;gt;&#34;&#34;&#34;
-addHook(&#39;prepareQA&#39;, prepare)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このフックは三つの引数を取ります。質問または解答の HTML、現在のカードオブジェクト (これによって、例えば特定のノートタイプにアドオンを限定することができます)、フックを実行するコンテキストを示す文字列です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;変更した HTML を必ず戻すようにしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;コンテキストは次の中から一つ選びます。&#34;reviewQuestion&#34;, &#34;reviewAnswer&#34;, &#34;clayoutQuestion&#34;, &#34;clayoutAnswer&#34;, &#34;previewQuestion&#34;, &#34;previewAnswer&#34;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;注意: カードレイアウト面での解答のプレビューや、&#34;show both sides (両面表示)&#34; を設定したプレビュー画面は、&#34;Answer&#34; コンテキストだけ使えます。これは カードの裏面に追加した JavaScript は、表面だけに追加した JavaScript に依存すべきではないことを意味します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は新しいテキストを表示する前に、前のテキストをフェードアウトするため、JavaScript のフックは、適切なタイミングでスクロールするようにアクションを実行する必要があります。次のように行います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from anki.hooks import addHook
-def prepare(html, card, context):
-    return html + &#34;&#34;&#34;
-&amp;lt;script&amp;gt;
-onUpdateHook.push(function () {
-    window.scrollTo(0, 2000);
-})
-&amp;lt;/script&amp;gt;&#34;&#34;&#34;
-addHook(&#39;prepareQA&#39;, prepare)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;onUpdateHook は新しいカードを DOM に配置した後に発生しますが、このカードを表示する前です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;onShownHook はこのカードがフェードインした後に発生します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このフックは、質問や解答を表示するたびにリセットします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_デバッグ&#34;&gt;デバッグ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;自分のコードから例外が発生した時には、Anki の標準例外ハンドラー (標準エラー出力に書き出さ
-れるものは何でも) が補足します。デバッグ目的のために、情報を出力する必要がある場合は、
-aqt.utils.showInfo を使うか、sys.stderr.write(&#34;text\n&#34;) で標準エラー出力に書き出す
-必要があります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki には、REPL が含まれています。プログラムの中から &lt;a href=&#34;https://apps.ankiweb.net/docs/manual.html#debug-console&#34;&gt;shortcut key&lt;/a&gt; を押すと
-ウィンドウが立ち上がります。上の欄に式や文を入力し、ctrl+return/command+return を押すと
-評価します。セッション例を次に挙げます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; mw
-&amp;lt;no output&amp;gt;
-
-&amp;gt;&amp;gt;&amp;gt; print(mw)
-&amp;lt;aqt.main.AnkiQt object at 0x10c0ddc20&amp;gt;
-
-&amp;gt;&amp;gt;&amp;gt; invalidName
-Traceback (most recent call last):
-  File &#34;/Users/dae/Lib/anki/qt/aqt/main.py&#34;, line 933, in onDebugRet
-    exec text
-  File &#34;&amp;lt;string&amp;gt;&#34;, line 1, in &amp;lt;module&amp;gt;
-NameError: name &#39;invalidName&#39; is not defined
-
-&amp;gt;&amp;gt;&amp;gt; a = [a for a in dir(mw.form) if a.startswith(&#34;action&#34;)]
-... print(a)
-... print()
-... pp(a)
-[&#39;actionAbout&#39;, &#39;actionCheckMediaDatabase&#39;, ...]
-
-[&#39;actionAbout&#39;,
- &#39;actionCheckMediaDatabase&#39;,
- &#39;actionDocumentation&#39;,
- &#39;actionDonate&#39;,
- ...]
-
-&amp;gt;&amp;gt;&amp;gt; pp(mw.reviewer.card)
-&amp;lt;anki.cards.Card object at 0x112181150&amp;gt;
-
-&amp;gt;&amp;gt;&amp;gt; pp(card()) # mw.reviewer.card.__dict__ へのショートカット
-{&#39;_note&#39;: &amp;lt;anki.notes.Note object at 0x11221da90&amp;gt;,
- &#39;_qa&#39;: [...]
- &#39;col&#39;: &amp;lt;anki.collection._Collection object at 0x1122415d0&amp;gt;,
- &#39;data&#39;: u&#39;&#39;,
- &#39;did&#39;: 1,
- &#39;due&#39;: -1,
- &#39;factor&#39;: 2350,
- &#39;flags&#39;: 0,
- &#39;id&#39;: 1307820012852L,
- [...]
-}
-
-&amp;gt;&amp;gt;&amp;gt; pp(bcard()) # ブラウザで選択したカードへのショートカット
-&amp;lt;as above&amp;gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;何が評価されたか知るためには、式を明示的に出力する必要があることに注意してください。Anki では
-pp() (pretty print) がスコープの中でオブジェクトの詳細を素早くダンプすることが簡単に
-できるようになっています。ショートカット ctrl+shift+return は上の欄中の現在のテキストを
-pp() で囲んで実行し結果を表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Linux を使っているかソースコードから Anki を実行している場合は、自分のスクリプトを pdb を
-使ってデバッグすることも可能です。次の行を自分のコードのどこかに置けば、Anki がその場所に
-達するとターミナルにデバッガーが立ち上がります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from aqt.qt import debug; debug()&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;別の方法としては、export DEBUG=1 と自分のシェルで実行すれば、補足していない例外個所で
-デバッガーが立ち上がります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_もっと詳しく学びたい場合には&#34;&gt;もっと詳しく学びたい場合には&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のソースコードは &lt;a href=&#34;http://github.com/dae/&#34; class=&#34;bare&#34;&gt;http://github.com/dae/&lt;/a&gt; で入手できます。コレクション
-オブジェクトは、anki の collection.py の中で定義されています。他に調べる価値のある
-ファイルは、cards.py、notes.py、sched.py、models.py や decks.py です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;aqt のソースコード見ることも、特定の処理のための anki の呼び出し方や GUI の詳細
-を理解するのに役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;多くの GUI は、designer ファイルの中で定義されてます。Qt Designer というプログラムを
-使えば .ui ファイルを開いて、GUI をブラウズすることが簡単にできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最後になりますが、他のアドオンが何かを実現している方法を見ることも、非常に役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;sharing&#34;&gt;アドオンの共有&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb は、アドオンモジュールを収録するには zip ファイルを要求します。フォルダ名は必要しとません。例えば、次のようなモジュールを持っているとします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;addons21/myaddon/__init__.py
-addons21/myaddon/my.data&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この場合、zip ファイルの内容を次のようにしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;__init__.py
-my.data&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フォルダ名を含めた次のような zip ファイルは、AnkiWeb は受け付けません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;myaddon/__init__.py
-myaddon/my.data&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;zip ファイルの名前は自由に付けることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Python は、実行するときに &lt;code&gt;__pycache__&lt;/code&gt; フォルダを自動的に作ります。zip を作る前に必ずこのフォルダを削除してください。AnkiWeb は、&lt;code&gt;__pycache__&lt;/code&gt; フォルダを含んだ zip ファイルを受け付けないからです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Zip ファイルを作ったら &lt;a href=&#34;https://ankiweb.net/shared/addons/&#34; class=&#34;bare&#34;&gt;https://ankiweb.net/shared/addons/&lt;/a&gt; にアップロードできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_2_0_アドオンの移植&#34;&gt;Anki 2.0 アドオンの移植&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_python_3&#34;&gt;Python 3&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.1 は Python 3.6 以降が必須です。Python 3 を自分のマシンにインストールしたら、2to3 ツールを使って、自動的に既存のスクリプトを Python 3 のコードにフォルダ単位で変換できます。 次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;2to3-3.6 --output-dir=aqt3 -W -n aqt
-mv aqt aqt-old
-mv aqt3 aqt&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ほとんどの単純なコードは自動的に変換できますが、手作業で変更の必要がある箇所が残るかもしれません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_qt5_pyqt5&#34;&gt;Qt5 / PyQt5&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PyQt5 でシグナルとスロットをつなぐ構文が変わりました。最近の PyQt4 バージョンではこの新しい構文を同じようにサポートしていますので、Anki 2.0 と 2.1 の両方のアドオンで同じ構文を使えます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;さらに詳しい情報は次のリンクをご覧ください。
-&lt;a href=&#34;http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html&#34; class=&#34;bare&#34;&gt;http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;あるアドオン作者が次のツールがコードを自動的に変換するのに役立ったと報告してくれました。
-&lt;a href=&#34;https://github.com/rferrazz/pyqt4topyqt5&#34; class=&#34;bare&#34;&gt;https://github.com/rferrazz/pyqt4topyqt5&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Qt モジュールは、&#39;PyQt4&#39; の代わりに &#39;PyQt5&#39; の中にあります。条件分岐で読み込むこともできますが、さらに簡単な方法は aqt.qt から読み込むことです。例えば次のようにします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from aqt.qt import *&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これは、特定の Qt のバージョンを指定することなく、QDialog のような全ての Qt オブジェクトを読み込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_単一の_py_アドオンにも独自のフォルダが必要&#34;&gt;単一の .py アドオンにも独自のフォルダが必要&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;それぞれのアドオンは、独自のフォルダに保存することになりました。以前 &lt;code&gt;demo.py&lt;/code&gt; という名前をつけていたアドオンの場合、&lt;code&gt;demo&lt;/code&gt; というフォルダと、&lt;code&gt;__init__.py&lt;/code&gt; を一緒に作る必要あります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2.0 との互換性を気にしないなら、名前を &lt;code&gt;demo.py&lt;/code&gt; を &lt;code&gt;demo/__init__.py&lt;/code&gt; に変更するだけで済みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;同じファイルで 2.0 をサポートする計画の場合は、元のファイルをフォルダにコピーして (&lt;code&gt;demo.py&lt;/code&gt; &amp;#8594; &lt;code&gt;demo/demo.py&lt;/code&gt;)、さらに次のような &lt;code&gt;demo/__init__.py&lt;/code&gt; を追加して、相対的にアドオンを読み込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;from . import demo&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb にアップロードする時にはフォルダを Zip ファイルに収める必要があります。さらに詳しい情報は &lt;a href=&#34;#sharing&#34;&gt;アドオンの共有&lt;/a&gt; をご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アップグレードでフォルダを削除&#34;&gt;アップグレードでフォルダを削除&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アドオンを更新する時には、アドオンフォルダのすべてのファイルを削除します。例外は特別な &lt;a href=&#34;#userfiles&#34;&gt;user_files フォルダ&lt;/a&gt; だけです。アドオンが単純なキー/値の組み合わせ以外の設定データが必要な場合は、必ず関連するファイルを &#34;user_files&#34; に保存して、更新時に失われるのを避けてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_2_0_と_2_1_を一つのコードベースでサポート&#34;&gt;2.0 と 2.1 を一つのコードベースでサポート&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ほとんどの Python 3 のコードは、Python 2 でも動作します。このため、Anki 2.0 と 2.1 の両方で動作するようにアドオンを更新することが可能です。このようにする価値があるかどうかは、必要のある変更内容によります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;scheduler に手を加えているほとんどのアドオンは、わずかな変更だけで 2.1 で動作するでしょう。reviewer、browser、editor の動作を変更するアドオンはさらに多くの作業を必要とします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最も困難な箇所は、サポートを停止した QtWebKit から QtWebEngine への変更です。WebView を使って単純ではない操作をしている場合は、Anki 2.1 へのコードの移植は、ある程度の作業が必要になり、一つのコードベースで両方のバージョンの Anki をサポートするのは難しいと考えるかもしれません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;修正なしにアドオンが動作する場合、あるいはわずかな変更が必要な場合には、if 文をコードに追加して、同じファイルで 2.0.x と 2.1.x の両方をサポートするファイルをアップロードするのが一番簡単かもしれません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;もっと大きい変更が必要な場合は、2.0.x に対する更新を停止し、あるいは別のファイルで二つのバージョンをサポートすることを維持するのがより簡単かもしれません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_webview_の変更点&#34;&gt;Webview の変更点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Qt 5 は、WebKit の代わりに Chromium ベースの WebEngine を採用しました。このため、Anki の WebView には、WebEngine を現在使用しています。そのためのノートです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;外部の Chrome インスタンスを使って WebView をデバッグできるようになりました。Anki を起動する前に環境変数 QTWEBENGINE_REMOTE_DEBUGGING を 8080 に設定して、Chrome で localhost:8080 にアクセスします。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;WebEngine は Python との通信に別の方法を使います。
-AnkiWebView() は、WebView 用のラッパーで pycmd(str) 関数を提供します。この関数は Javascript の中で ankiwebview の onBridgeCmd(str) メドッドを呼び出します。 Anki の UI の reviewer.py や deckbrowser.py といった様々な場所で、これを使うために変更しなければなりませんでした。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Javascript を非同期的に評価します。このため、JS の式の結果が必要な場合は ankiwebview の evalWithCallback() を使うことができます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;この非同期の動作の結果、editor.saveNow() はコールバックが必要になりました。アドオンがブラウザ内でアクションを実行する場合、editor.saveNow() を最初に呼んでから、コールバックの中のコードの残りを実行する必要がおそらくあるでしょう。
-.onSearch() を呼ぶには、.search()/.onSearchActivated() も変更する必要があります。例えば、ブラウザの .deleteNotes() をご覧ください。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;setScrollPosition() のような WebKit でサポートした様々な操作は、JavaScript で実装する必要があります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;mw.web.triggerPageAction(QWebEnginePage.Copy) のようなページの動作も非同期で、JavaScript や遅延を使って書き直す必要があります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;WebEngine には、WebKit のような keyPressEvent() を提供していません。このため、メニューやボタンに割り当ててないショートカットを捕捉するコードは変更しなければなりませんでした。setStateShortcuts()  は、指定した状態のショートカットを調節するのに使えるフックを呼び出します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_reviewer_の変更点&#34;&gt;Reviewer の変更点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki は次のカードをフェードインする前に、前のカードをフェードアウトするようになりました。このため showQuestion フックが発生した時には、DOM の中の次のカードが表示できません。適切な時に Javascript を実行するのに使える新しいフックがあります。詳しくは、&lt;a href=&#34;#reviewjs&#34;&gt;こちら&lt;/a&gt; をご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_アドオンの設定&#34;&gt;アドオンの設定&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;多くの小さな 2.0 用のアドオンは、ユーザーがソースコードを編集してカスタマイズすることを必要としていました。2.1 では、これはもう良いアイデアではありません。ユーザーの変更が、更新の確認やダウンロードで上書きされるからです。2.1 では &lt;a href=&#34;#configuration&#34;&gt;設定&lt;/a&gt; システムを導入して、このような場合に対応するようになりました。2.0 も同様にサポートする必要がある場合には、次のようなコードが使えるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;if getattr(mw.addonsManager, &#34;getConfig&#34;, None):
-    config = mw.addonManager.getConfig(__name__)
-else:
-    config = dict(optionA=123, optionB=456)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_日本語版訳注&#34;&gt;日本語版訳注&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.1 Beta の更新履歴を知るには、&lt;a href=&#34;https://apps.ankiweb.net/docs/beta.html&#34;&gt;Anki 2.1 Beta&lt;/a&gt; が役立ちます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki 2.1 Beta 16 現在、Anki に同梱している Python のバージョンは &lt;code&gt;3.6.1&lt;/code&gt; です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_日本語版更新履歴&#34;&gt;日本語版更新履歴&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;2017/08/27 Anki 2.1 Beta 13 準拠 (2017/08/26版) 初出&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2017/08/29 Anki 2.1 Beta 14 準拠 (2017/08/28版)&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2017/08/31 Anki 2.1 Beta 15 準拠 (2017/08/31版)&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2017/09/03 Anki 2.1 Beta 15 準拠 (2017/09/02版)&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2017/09/06 Anki 2.1 Beta 16 準拠 (2017/09/06版)&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2017/09/10 Anki 2.1 Beta 16 準拠 (2017/09/10版)&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2017/10/29 Anki 2.1 Beta 17 準拠 (2017/10/03版)&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
       <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
-      <pubDate>Thu, 16 Feb 2017 12:26:59 +0900</pubDate>
+      <pubDate>Thu, 16 Feb 2017 12:26:59 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
-      <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_オンラインレッスンが言語学習を変えた&#34;&gt;オンラインレッスンが言語学習を変えた&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;動画チャットやボイスチャットのアプリケーションの利用率が上がり、オンラインで外国語のレッスンが簡単に受けられるようになりました。
-さらに教師や言語交換パートナーをマッチングする SNS の完成度が高まったお陰で、自分の都合の良い時間に都合の良い場所で、世界中から自分の学習したい内容に見合った相手と外国語を練習できるようになりました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私もポルトガル語、フランス語、英語の練習を毎日ネイティブスピーカーとできるようになりました。発音でも、朗読でも、作文でも、会話でも目的に適った方法を指定して練習できます。ゼロから始めた外国語でも進歩の実感がこれまでとは格段に違います。これは、とても素晴らしいことです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一つ気になる点は、レッスンが簡単に受けられる分、復習がおろそかになりがちなことです。気を抜くとレッスンを受け流してしまい、大切な事項が中々身につかなくなります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、今回はオンラインレッスンの効果を上げるための Anki を活用した復習の仕方を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_音声データの復習&#34;&gt;音声データの復習&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype などでのビデオ通話や通常の通話でのオンラインレッスンの記録として一番使いやすいのは音声データです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私は、相手から許可を取って発音練習、テキスト朗読、例文の読み上げや、ディクテーションなどで記録したデータを Anki のカードにしています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;発音やディクテーションといったフラッシュカードとはなじみのない練習方法でも、Anki を使って復習の管理ができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;で紹介した方法で通話アプリから音声を取り込んでいます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私は、音声データは必要な部分だけを編集して使っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_既に加工済みデータがある方へ&#34;&gt;既に加工済みデータがある方へ&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;すでに音声データを作って復習している場合は、分割したデータを大量に Anki に登録する方法は、&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt; を参考にすると良いでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki への音声や画像データの基本的な一括登録方法は &lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt; で説明してます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_通話以外での音声データの録音&#34;&gt;通話以外での音声データの録音&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;通話やチャットできない相手との発音やアクセント練習のための音声は、録音共有サービスの &lt;a href=&#34;https://clyp.it&#34;&gt;Clyp&lt;/a&gt; を使って交換しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Clyp の埋め込み機能は Anki 上で表示することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/reinforce-online-lesson-clyp.png&#34; alt=&#34;Clyp データの表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. Clyp データの表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_チャットログの復習&#34;&gt;チャットログの復習&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;テキストチャットやメッセージ交換で言語交換しているとテキストのログデータが大量に溜まります。このデータも Anki に持ち込めば、漏らさずスケジュール管理して復習することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype でのビデオ通話での文字データでの説明にテキストチャットを併用しています。またディクテーションや発音練習、聴き取り練習の際にも利用しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このデータも表計算ソフトやテキストエディタで TSV か CSV に加工して、&lt;a href=&#34;https://ankiweb.net/shared/info/1749692420&#34;&gt;Add Note From Clipboard&lt;/a&gt;というアドオンを使ってクリップボード経由で Anki に取り込んでいます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ファイルへの書き出しも不要で、ノートタイプやタグの指定もでき、レッスン後すぐにカード化できます。実際の手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介している通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、このカードでは &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; というアドオンを使って、合成音声で読み上げをしています。設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki へのテキストデータの一括登録方法の基本は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_添削データの復習&#34;&gt;添削データの復習&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://Lang-8.com&#34;&gt;Lang-8&lt;/a&gt; や &lt;a href=&#34;https://italki.com&#34;&gt;iTalki&lt;/a&gt; などの言語交換 SNS を使うとネイティブスピーカーから作文の添削を受けることができます。また、直接ネイティブスピーカーとレッスンしている方でも、作文の練習をしている方もいるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私は、作文だけに特化した言語パートナーと添削の交換をしています。
-添削済みのデータも Anki に登録して復習しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;添削データの場合には、解説やメモを付けるので一括登録ではなく、文字を装飾しながら一件ずつ登録しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;オンラインレッスンは Anki を使うと復習管理ができ、繰り返し練習できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;発音練習やディクテーションのなど一人で復習するのが難しい練習も Anki を使うと可能になる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;テキストのログデータもアドオンを使うと簡単に Anki でカード化できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。 オンラインレッ</description>
     </item>
     
     <item>
       <title>Skype 音声を Anki に録音する</title>
       <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
-      <pubDate>Tue, 29 Nov 2016 09:44:27 +0900</pubDate>
+      <pubDate>Tue, 29 Nov 2016 09:44:27 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
-      <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。</description>
-      <content>&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この投稿は、Mac ユーザー限定の内容です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;では、Mac で再生した音声を Anki に直接取り込む方法を紹介しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype での会話内容を Anki に取り込むには、さらに次のように Skype を設定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;メニューバーから [設定] を選択し、[音声/ビデオ] タブを選択します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ここで、スピーカー項目を [複数出力装置] に設定すると完了です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/skype-audio-preference.png&#34; alt=&#34;Skype 音声の設定例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. Skype 音声の設定例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これで、Anki の録音機能を使って音声を登録できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype での会話を繰り返し練習して、効果を高めるために Anki をご活用ください。&lt;/p&gt;
-&lt;/div&gt;
-</content>
+      <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。 この投稿は、Mac ユーザ</description>
     </item>
     
     <item>
       <title>紙とペンで簡単にできる Anki</title>
       <link>http://rs.luminousspice.com/pen-and-paper-anki/</link>
-      <pubDate>Sat, 25 Jun 2016 09:21:36 +0900</pubDate>
+      <pubDate>Sat, 25 Jun 2016 09:21:36 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/pen-and-paper-anki/</guid>
-      <description>紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のアルゴリズムの元となる SuperMemo の作者 Piotr Woźniak 博士は、&lt;a href=&#34;https://www.supermemo.com/articles/paper.htm&#34;&gt;Using SuperMemo without a computer&lt;/a&gt; で紙と鉛筆を使って簡単に SRS (Spaced Repetition) の機能を体験する方法を解説しています。この内容を使いやすいように調整を加えて紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この方法に慣れれば Anki が行う処理を理解し、その能力を引き出すための学習オプションが理解できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_はじめかた&#34;&gt;はじめかた&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;必要な物は、紙のノート一冊と筆記具です。縦線を引くための定規があると便利です。
-オリジナルではデータブックとスケジュールブックの二冊を使う方法を説明していますが、ここでは一冊のノートで完結する方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;問題を作成するための教材を決めておきます。オリジナルでは英語とポーランド語の単語の対訳表を使っています。また、書籍の内容から問題文を作る例を紹介しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;イメージをつかんで頂くために私が実際に使用したノートの実物 4 ページ目をご覧下さい。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/pen-and-paper-anki-databook1.jpg&#34; alt=&#34;データブック&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. データブック 実物&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これは、&lt;a href=&#34;http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/&#34;&gt;Feed to Anki 毎日英単語のカードを増やせるアドオン&lt;/a&gt; に掲載した word of the day から、特に Merriam-Webster’s Word of the Day を中心に集めた英語表現です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;作業は次の三段階に分かれます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;問題を新規追加します。行単位で問題と解答を記入します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;問題を見て記憶内容を確認します。間違えた問題を記録し、全てが正解するまで続けます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;復習間隔表を見て次回の復習日を決定します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ノートの準備&#34;&gt;ノートの準備&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;まず用意したノートを開きます。 1 ページ目は、スケジュールブックとして使いますのでそのまま何も書き込まずに空けておきます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;次の見開き 2 ページからデータブックとして使っていきます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;データブック見出し設定例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;[ 1 ]
-|Answer         |Quetsion            |１|２|３|４|５|No|Date|U |
-|               |                    |　|　|　|　|　|  |    |  |&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2ページ目のページ上の余白にページの通し番号 1 と上の図解に示すように一行目に見出しを書き込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;教材をよく読んで質問内容を決め、二行目以降に一列目と二列目に問題の解答と質問を書き込んでいきます。一日に学習できる分量まで追加します。始めのうちは一日一ページで抑えておくとよいでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上に示した図 1 をテキストで書き起こすと次のようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;データブック 図 1 の図解 (4 ページ目)&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;[ 4 ]
-|Answer         |Quetsion            |１|２|３|４|５|No|Date|U |
-|foodie         |epicure             |　|　|　|　|一| 1|5/28| 1|
-|blunder        |faux pas            |　|　|　|　|　| 2|5/29| 5|
-|re-align       |realign             |　|　|　|　|　| 3|5/31| 5|
-|fluff          |fuzz                |　|一|丁|一|　| 4|6/04| 4|
-|infuse         |instill             |　|下|丁|丁|一| 5|6/12| 6|&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_新しいページの学習方法&#34;&gt;新しいページの学習方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;その日新たに学習するページを読んで暗記します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一行目から解答を隠して問題文を読み答え合わせをします。間違っていたら、質問列の右にある [1] 列に正の字の一画目の一を書きます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;全ての行の答え合わせが終わったら、間違えていた [1] 列に一の文字のある問題だけやり直します。また間違えたら[1] 列に正の字の二画目の｜を書きます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;以後間違えている問題をやり直し、間違えた回数を [1] 列に数え上げていきます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;全ての問題が正解できたら、一行目の右三列に 1、日付、間違えた問題の数を書きます。上の図解では、1, 5/28, 1 となっています。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;二行目右から三列目に 2 と書き、次の列に次回の復習日を書き込みます。これで新規学習は終了です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習スケジュールはデータブックのページ単位でまとめて設定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この日付を決めるためのスケジュールブックの使い方をつぎに説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_スケジュールブックの使い方&#34;&gt;スケジュールブックの使い方&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;空白として残しておいたノートの最初のページ目を開きます。一行目左端に今の月を書きます。さらに2行目以降に 1 から月末までの日にちを書き込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スケジュールブック 図解&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;2016.06           2016.07
-6/1 |             7/1 |
-6/2 | 1           7/2 |
-6/3 |             7/3 |
-6/4 |             7/4 |
-6/5 |             7/5 |
-   ...
-6/30|             7/30|
-                  7/31|&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;次に復習間隔表を写します。ページ上の余白か、裏表紙に書き込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;表 1. 復習間隔表 (Anki アルゴリズム: Ease Factor 200%)&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2858%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習回&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;3&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;5&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;6&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;間隔日&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;8&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;16&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;32&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この表を見ると、最初の復習間隔は 1 日となっているので翌日が次回の復習日です。スケジュールブックの相当する日付にスケジュールが決まったページ数を書きます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;6/1 に開始した 1 ページ目は、1 回目の復習を 6/2 に行います。この場合スケジュールブックの 6/2 に 1 と記録します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_スケジュールブック実例&#34;&gt;スケジュールブック実例&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;次に実際に使ったスケジュールブックの内容を示します。私の場合は 5/25 から始めたので、5/26 から詰めて書きました。()で括った箇所は実際に○で囲っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スケジュールブック利用例 図解&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;2016.05         2016.06
-(5/26)| 1        6/26 |28 21 2
-(5/27)| 2        6/27 |29 22 3
-(5/28)| 3  1     6/28 |30 23 4
-(5/29)| 4  2     6/29 |
-(5/30)| 5  3     6/30 |
-(5/31)| 6  4
-(6/01)| 7  5 1
-   ...&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上の図解では、5/28 に新規追加した 4 ページ目は、次の復習日は 5/29 になります。5/29 に 4 と記入している点に注意してください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_復習間隔表の説明&#34;&gt;復習間隔表の説明&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オリジナルの SM-0 に代えて、Anki のアルゴリズムを使いました。初回の復習間隔を一日で、その後は二倍になる間隔に設定しています。これは自分の Anki のカードの Ease Factor の平均値が 200% 程度であること、計算しやすいこと、一つのページを五回復習し終えるのに丁度一か月になる &lt;code&gt;1+2+4+8+16=31&lt;/code&gt; という切りの良さから決めました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_復習の方法&#34;&gt;復習の方法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;その日まず最初に、先頭ページのスケジュールブックを開きます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;その日の日付に記録しているページ数を開いて復習します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;二回目の学習であれば間違えた回数は、[2] の列に正の字を書いて数え上げます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;間違えた問題だけを絞り込んで学習し直し、全ての問題が正解になるまで続けます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一番右の Unknown 列に今日そのページで間違えた問題の数を記入します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;スケジュールブックに戻って次回の日付を決め、スケジュールブックのカレンダーとデータブックに次回の日付を記入します。2回目の学習での次の学習間隔は 2 日です。上の図解の　5/28 に 1 と記入している点に注意してください。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;その日に割り当てている全てのページが終わったら、その日付を○で囲んでその日の作業は終わります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;前日以前に○で囲っていない日付があれば、そのページも復習します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;新規追加したいページがあればそのページを学習します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;あとは、同じ要領で同じように復習を続けていきます。一か月後には 5 回復習するように設計しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;なお、紙上体験だけを目的としているのであれば二週間も続ければ十分だろうと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_難しい問題の扱い&#34;&gt;難しい問題の扱い&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;5 回学習しても間違えている問題は、新しいページに書き写して、新しい問題として登録しなおします。元のデータは残しておいて学習を継続し、問題を重複して利用します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;改めて問題を登録する時に問題文を見直す必要もあるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、難しい問題用の Ease Factor を低く設定した復習間隔表を使うこともよいでしょう。この先で紹介する改訂例で使用した SM-0 (表 2) もその一例です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_オリジナルからの変更点のまとめ&#34;&gt;オリジナルからの変更点のまとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;データブックとスケジュールブックを統合しました。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;復習間隔を Anki アルゴリズム (Ease Factor 200%) で計算しました。 (表 1)&lt;br&gt;
-易しさの値 (Ease Factor) について更に知りたい場合は、&lt;a href=&#34;http://rs.luminousspice.com/addon-ease-factor-histogram/&#34;&gt;Ease Factor Histogram 単語帳の健全性を診断するアドオン&lt;/a&gt; をご覧下さい。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;答えを隠す実用性から、質問と答えの位置を入れ替えました。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;復習で間違えた回数は・を打つより、正の時を書いて数える方法に変えました。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_改訂版の作成&#34;&gt;改訂版の作成&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;15 日間の使用経験からレイアウトを変更しました。次に実物の写真を示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/pen-and-paper-anki-databook2.jpg&#34; alt=&#34;データブック 改訂版&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. データブック改訂版 実物&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オリジナルのレイアウトはデータブックの一行に性質の異なるデータが共存しているので分割しました。
-ページの各行は、一つの問題 (Note) に関するデータだけに整理しました。
-スケジュールの情報はページ全体に関わるデータなので、ページの右部分から上段の余白に移動しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、15 日が経過したところで、問題の元ネタが尽きてしまいました。そこで &lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/0199663114/rsls-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Compact Oxford-Hachette French Dictionary&lt;/a&gt;
- に掲載しているフランス語頻出2000語の暗記に学習を切り替えました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/1min-trap-in-anki-learning/&#34;&gt;Anki における新規カード一分間トラップの分析&lt;/a&gt;で自分の学習履歴を分析したところ文単位の方が Anki での学習がしやすくなるという結果を得たため、問題を単語から文に変更しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;複数の復習間隔表の利用を評価するために、オリジナルの SM-0 アルゴリズム (表 2) を使用しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;データブック改訂版 図解&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;|No     | 1  | 2  | 3  | 4  | 5  |                         [18]
-|Date   |6/12|6/16|6/23|7/05|    |
-|Unknown|  8 |  8 |  5 |    |    |
----------------------------------------------------------------
-|Answer         |Quetsion                        |１|２|３|４|５|
-|to lower       |Il a baissé les bras.           |一|　|　|　|　|
-|goal m.        |Il va droit au but.             |一|一|　|　|　|
-|end m.         |Elle est à bout.                |一|　|　|　|　|
-|postman m./f.  |un facteur, une factrice        |一|　|一|　|　|
-|much talked    |fameux                          |一|一|一|　|　|&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実際に使った復習間隔の表を次に示します。復習 1、2 回目は固定で、それ以後は Ease Factor 170% で計算しています。5回目は 33 日ではなくなぜ一か月なのかと言うと、紙でも簡単に次の期日を決められるからだと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;表 2. 参考: 復習間隔表 (SuperMemo 0 アルゴリズム)&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2857%;&#34;&gt;
-&lt;col style=&#34;width: 14.2858%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習回数&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;3&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;5&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;6&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;間隔日数&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;4&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;7&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;12&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;20&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;1か月&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;2か月&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_改訂版での変更点&#34;&gt;改訂版での変更点&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;アルゴリズムをオリジナルの SM-0 に変更しました。(表 2)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;質問の単位を単語から文に変更しました。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;データブックの復習スケジュール欄を切り離して、ノート上の余白に移動しました。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_紙とペンでどこまでできるか&#34;&gt;紙とペンでどこまでできるか&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;B5 ノート A 罫で一ページ 30 行あります。Anki の初期設定の新規上限 20 問をこなせない人が多い現状からすると、一日一ページ学習するだけでも十分な量の学習ができます。一年で一万件に達します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;自分で使ってみたところ、30日で 620 個の単語や表現を覚えることが出来ました。復習量の最大量は 4 ページでした。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;特に Compact Oxford-Hachette French Dictionary に掲載しているフランス語の頻出語 2000 語を二週間で学習できました。その中から理解が不十分な 320 個を抽出して覚え終えることが出来ました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_アプリとの使い分け&#34;&gt;アプリとの使い分け&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;単語帳や例文集であれば、ある程度余白があって問題が密集しているので、ノートを使わずに本に直接スケジュールや間違えの数え上げを直接書き込むことも可能です。復習間隔表だけを裏表紙に書き込めば実用可能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そして、5 回学習しても覚えられなかった問題だけを集めてノートを作る使い方をすれば、SRS をするのに必要な作業は大幅に圧縮できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;例えば、本 &amp;#8594; ノート &amp;#8594; アプリといった多段階の絞り込みを行えば、データ変換のような学習とは無関係な作業から解放され覚えることに集中できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ノートでの学習はフラッシュカードアプリとは違って、自分のペースで学習できるので圧迫感がありません。無理なく学習できる点が優れています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;紙のノートで音声や動画を再生すること、画像を表示することはできません。それ以外の文字情報であれば全く問題ありません。あるいは、文字情報で覚えられなかった難しい情報だけをメディアファイルを活用して Anki で覚えるという使い分けが出来るでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_誰でも使える_srs&#34;&gt;誰でも使える SRS&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;学校の教材を暗記する位の量であれば十分な機能をこの紙とペンを使った Anki は提供してくれます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;アプリが高い、スマホや PC がないことを悲観する必要はありません。
-大切なのは復習間隔表とスケジュールブックです。この二つを使いこなせるようになればよいのです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;復習間隔表とスケジュールブックを使いこなすことが重要&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;復習スケジュールの設定がページ単位であること、復習間隔は表の形で計算済みなので、手作業でも簡単にスケジュールを割り当てることが出来ます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ノートと筆記具だけで SRS を利用できる&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;スケジュールブックと復習間隔表の使い方が重要&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;復習スケジュールの設定はページ単位で設定する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;B5 A罫ノートで一日一ページこなせば年間一万件に達する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;本、ノート、アプリで使い分ければ、データ作成の作業量を圧縮できる&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>紙とペンだけで Anki の機能を再現する方法を紹介します。特別なアプリも、スマホもパソコンがなくても簡単に SRS を利用することが出来ます。 Anki のアルゴリズ</description>
     </item>
     
     <item>
       <title>Data URI を使って画像を Anki カードに埋め込む</title>
       <link>http://rs.luminousspice.com/datauri-on-anki/</link>
-      <pubDate>Sun, 29 May 2016 13:33:42 +0900</pubDate>
+      <pubDate>Sun, 29 May 2016 13:33:42 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/datauri-on-anki/</guid>
-      <description>Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Data URI はBase64 エンコードした小さな画像やフォントなどのデータを直接 HTML や CSS に埋め込んでウェブサイトを高速化するために利用されています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の場合には、画像をテンプレートに埋め込んでカード共通に利用する使い方が考えられます。メディアフォルダの画像を参照する場合に比べて、単語帳データを書き出す際に特別な作業が不要になる利点があります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;もちろん、ノートのフィールドに直接書き込んでカード面に表示することもできます。テキストファイルの読み込み機能を使って一括して読み込めます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;注意事項&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;今回の記事の内容は Anki の正規サポート外の機能です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Anki PC 版 (OS X, Windows) と AnkiMobile (iOS) で動作確認済みです。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_で_data_uri_を使う場合の注意点&#34;&gt;Anki で Data URI を使う場合の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;code&gt;img&lt;/code&gt; タグを使って画像を指定した場合、&lt;code&gt;src&lt;/code&gt; 属性の値が URL エンコード (パーセントエンコード) されるため、Anki がカードを表示する際に Base64 エンコードした内容の復号に失敗します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この問題の解決に Anki の動作を変更しようとすると、アドオンや JavaScript を使うことになります。ちょっと敷居が高いです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最も簡単な回避策は &lt;code&gt;object&lt;/code&gt; 要素を使うことです。この方法は Anki に何ら変更を加えません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_object_要素を使った記述例&#34;&gt;object 要素を使った記述例&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Data URI を使うための object タグの使い方を紹介しましょう。&lt;code&gt;img&lt;/code&gt; 要素を使う場合との違いは、&lt;code&gt;type&lt;/code&gt; 属性を新たに指定する点と、&lt;code&gt;src&lt;/code&gt; 属性の代わりに &lt;code&gt;data&lt;/code&gt; 属性を使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;object 要素の指定の仕方&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;&amp;lt;object type=&#34;image/png&#34; data=&#34;data:image/png;base64,(Base64 エンコードした内容)&#34;&amp;gt;&amp;lt;/object&amp;gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;次に簡単な 32x32 ピクセルの正方形の PNG 画像 (113 バイト) を記述した使用例を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;object 要素の記述例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;&amp;lt;object type=&#34;image/png&#34; data=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeAQMAAADuPFffAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURVJ+uctDmFQAAAAMSURBVAjXY2AYjAAAAJYAAWIWDdIAAAAASUVORK5CYII=&#34;&amp;gt;&amp;lt;/object&amp;gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;なお、base64 エンコードには、OS X に付属している base64 コマンドを使いました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;base64 コマンドの使い方&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;base64 (画像ファイル名) &amp;gt; (エンコード結果の出力ファイル名)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_テキストファイルとして読み込む場合の注意点&#34;&gt;テキストファイルとして読み込む場合の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;テキストファイルとして読み込む場合は、フィールド長には、128 KB の制限があります。これは Python の csv モジュールの初期設定の条件で、この制限を 10 MB まで拡張する &lt;a href=&#34;https://ankiweb.net/shared/info/389776307&#34;&gt;Increase field size limit&lt;/a&gt; というアドオンが利用できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Object タグを使えば、Anki のカードにも Data URI を使って画像を埋め込める。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Data URI は、テンプレートとフィールドの両方で利用可能。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;テキストファイルの読み込みには、128 KB のフィールド長さの制限に注意。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Data URI を利用して Base64 エンコードした画像データを Anki のカードに直接埋め込む方法を説明します。 Data URI はBase64 エンコードした小さな画像やフォントなど</description>
+    </item>
+    
+    <item>
+      <title>YouTube の字幕付き動画を活用した Anki カードの作成</title>
+      <link>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
+      <pubDate>Sat, 28 May 2016 14:37:07 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
+      <description>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます</description>
+    </item>
+    
+    <item>
+      <title>Anki における新規カード一分間トラップの分析</title>
+      <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
+      <pubDate>Mon, 23 May 2016 13:14:21 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
+      <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価</description>
+    </item>
+    
+    <item>
+      <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
+      <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
+      <pubDate>Sat, 21 May 2016 13:49:38 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
+      <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込</description>
+    </item>
+    
+    <item>
+      <title>Ease Factor Histogram 単語帳の健全性を診断するアドオン</title>
+      <link>http://rs.luminousspice.com/addon-ease-factor-histogram/</link>
+      <pubDate>Fri, 13 May 2016 14:42:29 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/addon-ease-factor-histogram/</guid>
+      <description>Anki の単語帳別にカードの易しさの数値の度数分布表を統計情報に追加するアドオンを作りました。カードの難しさや設問の妥当さといった単語帳の健全性の</description>
+    </item>
+    
+    <item>
+      <title>Feed to Anki 毎日英単語のカードを増やせるアドオン</title>
+      <link>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</link>
+      <pubDate>Sat, 30 Apr 2016 11:24:52 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/addon-feed-to-anki-for-wotd/</guid>
+      <description>オンライン辞書サイトで毎日単語を紹介する Word of th Day (今日の言葉) の RSS フィードから Anki のカードを作るアドオンを作りました。メニューから呼び出すとカ</description>
+    </item>
+    
+    <item>
+      <title>Anki ユーザーインターフェイスガイド</title>
+      <link>http://rs.luminousspice.com/anki-gui-guide/</link>
+      <pubDate>Sat, 16 Apr 2016 11:09:59 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-gui-guide/</guid>
+      <description>Anki の主要なユーザーインターフェイスを紹介し、利用可能な処理や呼び出し方を紹介する Anki のフロアマップです。代表的なウィンドウの役割を理解すると、</description>
+    </item>
+    
+    <item>
+      <title>復習が進んだカードの手入れ</title>
+      <link>http://rs.luminousspice.com/long-interval-management/</link>
+      <pubDate>Fri, 15 Apr 2016 14:08:20 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/long-interval-management/</guid>
+      <description>Anki の復習が進んで復習間隔が長くなると、忘れた時点から復習で気がつくまでの差も大きくなり無視できません。復習間隔の上限設定やフィルター単語帳を</description>
+    </item>
+    
+    <item>
+      <title>Anki ユーザーのための LaTeX 利用ガイド</title>
+      <link>http://rs.luminousspice.com/anki-latex-guide/</link>
+      <pubDate>Thu, 14 Apr 2016 11:23:07 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-latex-guide/</guid>
+      <description>Anki のカードに数式を表示するための LaTeX の設定方法を説明します。アドオンによる LaTeX の 処理内容のカスタマイズ、TikZ による図解表現、JavaScri</description>
+    </item>
+    
+    <item>
+      <title>Anki 復習予測の読み方</title>
+      <link>http://rs.luminousspice.com/anki-stats-due-forcast/</link>
+      <pubDate>Thu, 14 Apr 2016 03:40:00 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-stats-due-forcast/</guid>
+      <description>Anki の統計情報には復習予測についてのグラフを表示しています。このデータを正しく利用するために、マニュアルとは違った視点からの説明します。 予測グ</description>
+    </item>
+    
+    <item>
+      <title>Anki 単語帳データ配布ガイド</title>
+      <link>http://rs.luminousspice.com/anki-deck-deployment-guide/</link>
+      <pubDate>Wed, 13 Apr 2016 12:40:52 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-deck-deployment-guide/</guid>
+      <description>Anki の単語帳データを配布するための手引き。クラスでの教材の配布や AnkiWeb で単語帳を共有する場合の、コンテンツの継続的な更新を意識した Anki 単語帳パッケー</description>
+    </item>
+    
+    <item>
+      <title>忘れた Anki カードの出直し方</title>
+      <link>http://rs.luminousspice.com/anki-lapse-management/</link>
+      <pubDate>Wed, 13 Apr 2016 05:20:21 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-lapse-management/</guid>
+      <description>Anki で復習に失敗したカードの復習間隔を一日にリセットするのではなく、一つ前の復習間隔に戻す方法を紹介します。アドオンを利用する方法と学習オプシ</description>
+    </item>
+    
+    <item>
+      <title>AwesomeTTS プリセットの活用</title>
+      <link>http://rs.luminousspice.com/awesometts-preset/</link>
+      <pubDate>Tue, 12 Apr 2016 12:55:25 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
+      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音</description>
+    </item>
+    
+    <item>
+      <title>不要な Anki 単語帳を片付ける</title>
+      <link>http://rs.luminousspice.com/hide-unused-anki-deck/</link>
+      <pubDate>Mon, 11 Apr 2016 02:40:26 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/hide-unused-anki-deck/</guid>
+      <description>使わなくなった単語帳をこれ以上出題しないように片付ける方法を紹介します。単語帳データを Anki のコレクションから取り除く手順と、出題停止の設定をし</description>
+    </item>
+    
+    <item>
+      <title>Anki のメディアプレイヤーを mpv に取り替える</title>
+      <link>http://rs.luminousspice.com/mpv-on-anki/</link>
+      <pubDate>Sat, 02 Apr 2016 20:03:15 +0900</pubDate>
+      
+      <guid>http://rs.luminousspice.com/mpv-on-anki/</guid>
+      <description>Anki の標準メディアプレイヤー MPalyer をアドオンを使って取り替えてみましょう。高機能な軽量動画プレイヤーの mpv に切り替えると、カードに埋め込んだ動画の区</description>
+    </item>
+    
+    <item>
+      <title>Anki カードへの HTML5 メディアの埋め込み</title>
+      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
+    </item>
+    
+    <item>
+      <title>Anki の動画再生に使えるショートカットキー</title>
+      <link>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</link>
+      <pubDate>Wed, 30 Dec 2015 18:30:52 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/mplayer-shortcut-for-anki-video/</guid>
+      <description>Anki で動画を再生する時に、再生の速度、位置、音量、ウィンドウの大きさなどを操作できるショートカットキーをまとめました。 Anki で動画を再生する時、た</description>
+    </item>
+    
+    <item>
+      <title>Mac で再生中の音声を Anki に直接録音する</title>
+      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
+      <pubDate>Sun, 27 Dec 2015 23:45:15 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
+      <description>Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。 は</description>
+    </item>
+    
+    <item>
+      <title>転んでもタダでは起きない Anki 再履修の手引き</title>
+      <link>http://rs.luminousspice.com/anki-restore-guide/</link>
+      <pubDate>Fri, 06 Mar 2015 19:45:39 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-restore-guide/</guid>
+      <description>途中放棄してしまった Anki を再開するにあたって、今までやってきた自分なりの方法に付け加えると役立つようなヒントを紹介します。 この記事は、Anki</description>
+    </item>
+    
+    <item>
+      <title>Anki 学習セッション中の予測とは異なる体感</title>
+      <link>http://rs.luminousspice.com/study-session-with-the-unexpected/</link>
+      <pubDate>Sun, 22 Feb 2015 23:50:12 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/study-session-with-the-unexpected/</guid>
+      <description>Anki を使っていると、ユーザーインターフェイスから得られる予測とは異なる体感をし戸惑うことがあります。アプリケーション自体は正常動作していても、</description>
+    </item>
+    
+    <item>
+      <title>AnkiMobile の学習オプションを最適化する</title>
+      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザー</description>
+    </item>
+    
+    <item>
+      <title>Anki の基本知識をつぶやきます</title>
+      <link>http://rs.luminousspice.com/ankigene-bot-guide/</link>
+      <pubDate>Thu, 22 Jan 2015 22:00:52 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ankigene-bot-guide/</guid>
+      <description>ツイッターアカウント Ankigene (@Ankigene) は、Anki を使い始めた時に、知っておくと役立つ知識を定期的につぶやきます。用語、使い方、ショートカット、機能拡張す</description>
+    </item>
+    
+    <item>
+      <title>おすすめ Anki 単語帳について</title>
+      <link>http://rs.luminousspice.com/suitable-deck/</link>
+      <pubDate>Sat, 29 Nov 2014 00:25:13 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/suitable-deck/</guid>
+      <description>Anki を使い始めた人にとっては、既成の共有単語帳を使ってみても、自分に合うものがすぐに見つからないのではないかと思います。実は授業やレッスンなど</description>
+    </item>
+    
+    <item>
+      <title>時間制限して Anki 学習するタイムボックス機能</title>
+      <link>http://rs.luminousspice.com/anki-timebox-time-limit/</link>
+      <pubDate>Fri, 31 Oct 2014 19:15:35 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-timebox-time-limit/</guid>
+      <description>Anki のタイムボックス機能を使うと、学習セッションに制限時間を設定することができます。この機能の設定法と使い方を紹介します。 タイムボックスとは タ</description>
+    </item>
+    
+    <item>
+      <title>Anki 使いの原点</title>
+      <link>http://rs.luminousspice.com/anki-basics/</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:02 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-basics/</guid>
+      <description>熟練者限定の Anki の使い方の基本を取り上げます。明確な目標を設定して、毎日の学習を最適化する考え方を紹介します。 Anki の利用経験が全くない、はじめて</description>
+    </item>
+    
+    <item>
+      <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
+      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設</description>
+    </item>
+    
+    <item>
+      <title>Anki になれた方に iPhone をすすめたい理由</title>
+      <link>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
+      <pubDate>Mon, 15 Sep 2014 23:30:31 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
+      <description>Anki に使い慣れて、もっと効率的な復習をしたいと考え始めたのなら iPhone アプリの AnkiMobile を使うことをすすめます。AnkiMobile を Anki と連動して使うと、P</description>
+    </item>
+    
+    <item>
+      <title>Anki 共有単語帳の学び方</title>
+      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
+    </item>
+    
+    <item>
+      <title>ためた Anki 復習カードをスライスして消化</title>
+      <link>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</link>
+      <pubDate>Sun, 07 Sep 2014 23:45:40 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/cutting-up-your-anki-backlog/</guid>
+      <description>期日に達した復習カードを安定的に解消する Anki バックログ解消法の改良版を紹介します。学習履歴の統計から求めた最適なセッションに合わせて、全てのバ</description>
+    </item>
+    
+    <item>
+      <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
+      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
+      <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
+      <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
+    </item>
+    
+    <item>
+      <title>Anki 単語帳サンプル一覧</title>
+      <link>http://rs.luminousspice.com/sample-decks/</link>
+      <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/sample-decks/</guid>
+      <description>これまでの投稿で利用した Anki 単語帳サンプルを紹介します。既定のテンプレートを拡張機能していますので、新しい教材をつくる時の参考として、テンプレ</description>
+    </item>
+    
+    <item>
+      <title>投稿記事目次</title>
+      <link>http://rs.luminousspice.com/table-of-contents/</link>
+      <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/table-of-contents/</guid>
+      <description>このサイトで公開しているコンテンツを分類して紹介します。Anki に関する情報はこのページで一覧できるようにしました。 Anki 公式文書 日本語訳 マニュ</description>
+    </item>
+    
+    <item>
+      <title>フックを使った Anki アドオンのつくり方</title>
+      <link>http://rs.luminousspice.com/how_to_create_anki_add-ons/</link>
+      <pubDate>Fri, 17 Jan 2014 22:55:53 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how_to_create_anki_add-ons/</guid>
+      <description>復習で熟知になったカードのノートにタグを付けるアドオンを作る Anki アドオン作成のチュートリアルです。Anki の標準フックがない場所にカスタムのフ</description>
+    </item>
+    
+    <item>
+      <title>Anki2.0.13の注目すべき変更点</title>
+      <link>http://rs.luminousspice.com/changes-in-anki2013/</link>
+      <pubDate>Tue, 08 Oct 2013 00:30:08 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/changes-in-anki2013/</guid>
+      <description>はじめに Anki 2.0.13が公開されました。このアップデートは、問題点の修正に加えて、新しい機能の追加が行われたAnki2.0.9以来の大規模な</description>
+    </item>
+    
+    <item>
+      <title>Ankiのノートを追加順に学習する方法</title>
+      <link>http://rs.luminousspice.com/learn_in_original_sequence/</link>
+      <pubDate>Mon, 08 Jul 2013 00:00:15 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/learn_in_original_sequence/</guid>
+      <description>ノートの順番に意味があり、毎回最初から順番に学習したい場合があります。例えば、詩や文章の暗誦などに使う場合です。Anki の既定の機能は、ノー</description>
+    </item>
+    
+    <item>
+      <title>Ankiのカードにヒントを付ける方法</title>
+      <link>http://rs.luminousspice.com/hint_field/</link>
+      <pubDate>Sun, 07 Jul 2013 15:00:46 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/hint_field/</guid>
+      <description>カードにヒントを付ける方法 穴埋め機能を使って空欄にヒントを付ける方法は、Ankiにおける空欄補充問題の作り方で説明しました。この場合は、問題</description>
+    </item>
+    
+    <item>
+      <title>破損したAnkiデータの修復</title>
+      <link>http://rs.luminousspice.com/restore_corrupt_data/</link>
+      <pubDate>Sat, 06 Jul 2013 21:00:07 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/restore_corrupt_data/</guid>
+      <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。起動後に大量のデータ更新を行ったりして、自動バックアップ</description>
+    </item>
+    
+    <item>
+      <title>Anki自動バックアップ機能の使い方</title>
+      <link>http://rs.luminousspice.com/anki_automatic_backup/</link>
+      <pubDate>Fri, 05 Jul 2013 23:00:59 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki_automatic_backup/</guid>
+      <description>Ankiは、コレクションファイルを閉じる時に自動的にバックアップファイルを作成し、障害や操作ミスなどの不測の事態に備えています。このバックア</description>
+    </item>
+    
+    <item>
+      <title>Anki解答キー入力機能の使い方</title>
+      <link>http://rs.luminousspice.com/type_answer/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/type_answer/</guid>
+      <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使</description>
+    </item>
+    
+    <item>
+      <title>いま表示しているAnkiカードだけ学習をやめる方法</title>
+      <link>http://rs.luminousspice.com/how-to-suspend-this-card/</link>
+      <pubDate>Sat, 15 Jun 2013 22:30:52 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-suspend-this-card/</guid>
+      <description>学習中に表示している Anki カードだけ学習をやめる場合にどのコマンドを使うべきか迷います。カード、ノートの延期、保留処理の違いについて説明します。</description>
+    </item>
+    
+    <item>
+      <title>Anki2.0.9の注目すべき変更点</title>
+      <link>http://rs.luminousspice.com/changes-in-anki209/</link>
+      <pubDate>Sat, 08 Jun 2013 22:00:56 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/changes-in-anki209/</guid>
+      <description>Anki 2.0.9では121件の変更、修正が行われました。数ある変更点の中には一般ユーザーがAnkiをもっと楽しく使える機能が含まれています。ブラ</description>
+    </item>
+    
+    <item>
+      <title>MSDN Magazine過去10年分の頻出語彙からAnki単語帳を作る</title>
+      <link>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</link>
+      <pubDate>Fri, 07 Jun 2013 22:30:38 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/frequent-words-in-msdn-magazine-in-10years/</guid>
+      <description>以前の記事では、過去3年分のMSDN Magazineの記事のコーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介しました。</description>
+    </item>
+    
+    <item>
+      <title>WordPress Codexの英語 WordPress開発者のためのAnki単語帳</title>
+      <link>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</link>
+      <pubDate>Mon, 03 Jun 2013 18:00:58 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/frequent-words-in-wordpress-codex/</guid>
+      <description>日常日本語でコミュニケーションするWordPress開発者のための必修語句をAnki単語帳にしました。英語の基本語彙にこの頻出語句を加えれば</description>
+    </item>
+    
+    <item>
+      <title>Windows開発者の必修語彙をAnki学習する方法</title>
+      <link>http://rs.luminousspice.com/frequent-words-in-msdn/</link>
+      <pubDate>Mon, 27 May 2013 00:30:32 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/frequent-words-in-msdn/</guid>
+      <description>Windows開発者が必須の技術情報を原文で読むためのAnki学習法。コーパス分析から頻出語彙表を作成し、Anki単語帳に加工する方法を紹介</description>
+    </item>
+    
+    <item>
+      <title>Anki統計情報を活用したバックログ解消法</title>
+      <link>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</link>
+      <pubDate>Sun, 19 May 2013 20:00:04 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/reduce-anki-backlog-with-stats/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第7回目 統計情報を活用して復習カードの山から回復しよう Ankiを使っている人なら知っている使い方</description>
+    </item>
+    
+    <item>
+      <title>Anki2の言語設定を変更する</title>
+      <link>http://rs.luminousspice.com/how-to-change-lang/</link>
+      <pubDate>Sun, 28 Apr 2013 00:00:22 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-change-lang/</guid>
+      <description>一度設定した Anki ユーザーインターフェイスの言語を変更する方法を紹介します。Anki 2.0.35 アップデートから、環境設定画面で変更できるようになりました</description>
+    </item>
+    
+    <item>
+      <title>Anki 2.0.x アドオンの作成 日本語訳</title>
+      <link>http://rs.luminousspice.com/anki2addons/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:47 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki2addons/</guid>
+      <description>Writing Anki 2.0.x Add-ons の日本語訳。簡単なサンプルを使ったアドオン作成の概要、データベースアクセスの方法、フックを使った既存コードのカスタマイズ、デバッグ、</description>
     </item>
     
   </channel>

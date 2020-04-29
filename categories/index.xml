@@ -3,13 +3,112 @@
   <channel>
     <title>Categories on the Right Stuff</title>
     <link>http://rs.luminousspice.com/categories/</link>
-    <description>Categories | the Right Stuff</description>
+    <description>Recent content in Categories on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/categories/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2016 11:20:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anki</title>
+      <link>http://rs.luminousspice.com/categories/anki/</link>
+      <pubDate>Sat, 09 Jan 2016 11:20:37 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/anki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anki2の使い方</title>
+      <link>http://rs.luminousspice.com/categories/anki2%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</link>
+      <pubDate>Sun, 27 Oct 2013 19:30:55 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/anki2%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ankidoc</title>
+      <link>http://rs.luminousspice.com/categories/ankidoc/</link>
+      <pubDate>Sun, 03 Feb 2013 02:00:26 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/ankidoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ankimobile</title>
+      <link>http://rs.luminousspice.com/categories/ankimobile/</link>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/ankimobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Art of Anki</title>
+      <link>http://rs.luminousspice.com/categories/art-of-anki/</link>
+      <pubDate>Fri, 12 Sep 2014 22:45:57 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/art-of-anki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://rs.luminousspice.com/categories/hugo/</link>
+      <pubDate>Fri, 01 Apr 2016 21:27:23 +0900</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lwt</title>
+      <link>http://rs.luminousspice.com/categories/lwt/</link>
+      <pubDate>Sun, 21 Jul 2013 06:00:01 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/lwt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msdnの英語</title>
+      <link>http://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/</link>
+      <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/msdn%E3%81%AE%E8%8B%B1%E8%AA%9E/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>http://rs.luminousspice.com/categories/wordpress/</link>
+      <pubDate>Tue, 15 Apr 2014 00:00:30 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>コーパス</title>
+      <link>http://rs.luminousspice.com/categories/%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9/</link>
+      <pubDate>Mon, 07 Apr 2014 18:30:27 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開発</title>
+      <link>http://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/</link>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/categories/%E9%96%8B%E7%99%BA/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

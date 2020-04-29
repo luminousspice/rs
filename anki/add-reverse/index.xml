@@ -3,194 +3,21 @@
   <channel>
     <title>Add Reverse on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/add-reverse/</link>
-    <description>Add Reverse | the Right Stuff</description>
+    <description>Recent content in Add Reverse on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Jun 2013 10:00:37 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/add-reverse/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2013 10:00:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/anki/add-reverse/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ankiのノートタイプの選び方</title>
       <link>http://rs.luminousspice.com/how-to-choose-notetype/</link>
-      <pubDate>Sun, 16 Jun 2013 10:00:37 +0900</pubDate>
+      <pubDate>Sun, 16 Jun 2013 10:00:37 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/how-to-choose-notetype/</guid>
-      <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に設計、管理できるようになります。基本、基本(裏面カード付き)、基本(裏面カードを任意選択)、穴埋めの違いを説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ノートタイプを使った作業手順&#34;&gt;ノートタイプを使った作業手順&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki作者Damien Elmesの作ったYouTubeビデオ&#34;Switching Card Order&#34;を見てください。
-英語の説明音声が分からなくても、画面を眺めるだけで良いです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/DnbKwHEQ1mA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このビデオの次のような作業をしています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;カードテンプレートを編集してForwardカードの表裏を入れ替える。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カードテンプレートを裏面カード(Backwards)を追加する。表面と裏面の2枚になった。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一つのノートから裏面カードと表面カードが連続し出題すると答えが分かってしまうので、カードの順番を並び替える。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_既定のノートタイプ&#34;&gt;既定のノートタイプ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Ankiは既定で4つのノートタイプを用意しています。既定設定では基本になっているので、そのまま使い続けている方が多いと思います。[Front]フィールドと[Back]フィールドからなる基本的なものです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;既定の4種類のノートタイプ&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;基本&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;基本(裏面カード付き)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;基本(裏面カードを任意選択)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;穴埋め&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートタイプ選択画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. ノートタイプ選択画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;はじめに見ていただいた、ビデオでは裏面カードを編集して作りました。同じことはノートタイプを &lt;strong&gt;[基本(裏面カード付き)]&lt;/strong&gt; へ変更することでもできます。この場合は、自動的に裏面カードを生成します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ノートタイプを変更する操作手順は、次の通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;ブラウザーで変更したいノートを選択。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;メニューバーから[編集]&amp;gt;[ノートタイプを変更]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;変更先のノートタイプを[基本(裏面カード付き)]に指定。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_基本_裏面カードを任意選択_の違いは何か&#34;&gt;基本(裏面カードを任意選択)の違いは何か&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;基本(裏面カード付き)は、全てのノートに対して表裏2枚のカードを作ります。
-基本(裏面カードを任意選択)は、[Add Reverse]フィールドに何らかの入力がある場合だけ、反転した裏面カードを表示します。[Add Reverse]フィールドをデータフィールドとして活用することもできます。画像や音声などのメディアを入れて画面上に表示する使い方もできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;基本(裏面カードを任意選択)の裏面カードのテンプレート&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;{{#Add Reverse}}{{Back}}{{/Add Reverse}}&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Add Reverseが空でない時に[Back]フィールドを表示する条件式を設定しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_穴埋め_cloze_とは&#34;&gt;穴埋め(Cloze)とは&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;穴埋め問題を作るのに必要な特別のノートタイプです。穴埋め問題の作成方法は、&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;で説明しています。穴埋め問題の詳しい説明は、&lt;a href=&#34;http://wikiwiki.jp/rage2050/?ClozeDeletion&#34;&gt;ユーザーマニュアル&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ノートタイプの拡張法&#34;&gt;ノートタイプの拡張法&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;既定のノートタイプを編集して独自のノートタイプを作成する手順は&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。関心のある方はご覧ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;ankimobilenote&#34;&gt;AnkiMobile ノート&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の iOS 版アプリ &lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; では、ノート作成時に PC 版と同じ既定の 4 種類のノートタイプから選択できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile は、ユーザーインターフェイスの表記が英語固定ですので、日英の名称の対応一覧を掲載します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;既定の4種類のノートタイプ&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Basic - 基本&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Basic (and reversed card) - 基本(裏面カード付き)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Basic (Optional reversed card) - 基本(裏面カードを任意選択)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cloze - 穴埋め&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile では、ノート登録後の変更が出来ませんので注意ください。また、既定のノートタイプの編集もできません。
-これらの作業は PC 版でのみ可能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC 版で作業したノートタイプを AnkiMobile に持ち込むには、持ち込みたいノートタイプを使っているカードを &lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 経由で同期する&lt;/a&gt;か、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;apkg ファイルに書き出して&lt;/a&gt;から&lt;a href=&#34;http://rs.luminousspice.com/how-to-ankimobile-io/&#34;&gt;iPhoneに読み込み&lt;/a&gt;ます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2013/06/16: 初出&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2014/10/01: 追加 スマホアプリ版の制限事項&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2016/04/27: 追加 AnkiMobile 2.0.21 対応&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Ankiが用意している既定の4種類のノートタイプの内容について説明します。ノートタイプを使いこなせるようになると、Ankiのカード面を柔軟に</description>
     </item>
     
   </channel>

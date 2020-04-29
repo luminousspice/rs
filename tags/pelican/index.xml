@@ -3,75 +3,21 @@
   <channel>
     <title>Pelican on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/pelican/</link>
-    <description>Pelican | the Right Stuff</description>
+    <description>Recent content in Pelican on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Dec 2013 21:00:53 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/pelican/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2013 21:00:53 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/tags/pelican/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>静的サイトジェネレータ Pelican で AsciiDoc を使う方法</title>
       <link>http://rs.luminousspice.com/pelican_with_asciidoc/</link>
-      <pubDate>Sun, 01 Dec 2013 21:00:53 +0900</pubDate>
+      <pubDate>Sun, 01 Dec 2013 21:00:53 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/pelican_with_asciidoc/</guid>
-      <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。AsciiDoc API  のインストール方法と、日本語を処理した時に発生するユニコードエラーの対応について説明しています。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://docs.getpelican.com/&#34;&gt;Pelican&lt;/a&gt; は、Python で書かれた静的なサイトジェネレータです。reStructuredText や Markdown を標準でサポートしています。&lt;/p&gt;
-&lt;p&gt;マークアップ言語に &lt;a href=&#34;http://www.methods.co.nz/asciidoc/&#34;&gt;AsciiDoc&lt;/a&gt; を利用するために必要な、文書化されていない手続について説明します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;asciidoc_api_のインストール&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;AsciiDoc API のインストール&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;Pelican で AsciiDoc を利用するには、&lt;a href=&#34;http://www.methods.co.nz/asciidoc/asciidocapi.html&#34;&gt;AsciiDoc API&lt;/a&gt; をインストールする必要があります。
-Markdown を利用するには pip を使ったインストールが可能ですが、AsciiDoc の場合は別途作業になります。&lt;/p&gt;
-&lt;p&gt;AsciiDoc API は &lt;code&gt;asciidocapi.py&lt;/code&gt; ファイルの形で提供されています。Sourceforge から &lt;a href=&#34;http://sourceforge.net/projects/asciidoc/&#34;&gt;AsciiDoc のソースコード&lt;/a&gt;のアーカイブを解凍するとトップレベルに &lt;code&gt;asciidocapi.py&lt;/code&gt; が見つかります。&lt;/p&gt;
-&lt;p&gt;私の環境は、virtualenv を使っていますので次の場所にインストールしました。
-&lt;code&gt;~/.virtualenvs/(Pelicanを使う仮想環境名)/bin/asciidocapi.py&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;これで、ドキュメントのファイル名の拡張子を &lt;code&gt;asc&lt;/code&gt; にすると、Pelican は AsciiDoc として認識し処理してくれます。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ユニコードエラーの問題&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ユニコードエラーの問題&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;利用している Python 環境によっては、Pelican で日本語の文書を処理した時にユニコードのエラーが発生することがあります。これは既定のエンコーディングが utf-8 になっていないためです。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;WARNING: Could not process ./mydoc.asc
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;ascii&amp;#39;&lt;/span&gt; codec can&amp;#39;t encode characters in position 20-22: ordinal not in range&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;128&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
-Done: Processed 1 articles and 0 pages in 0.40 seconds.
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;次のように、調べると既定のエンコーディングを調べることができます。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; import sys
-&amp;gt;&amp;gt;&amp;gt; sys.getdefaultencoding&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;ascii&amp;#39;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;asciidocapi.py を書き換える方法と、Python の環境設定ファイルを編集する方法があります。Python の配布用モジュールを開発している訳ではないので、今回は環境設定ファイルで対応しました。&lt;/p&gt;
-&lt;p&gt;設定は &lt;code&gt;sitecustomize.py&lt;/code&gt; を編集します。
-このファイルのありか次のように調べます。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; import sitecustomize
-&amp;gt;&amp;gt;&amp;gt; sitecustomize.__file__
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;/usr/local/lib/python2.7/site-packages/sitecustomize.pyc&amp;#39;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;このファイルに次のような記述を追加します。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sys&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;setdefaultencoding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;最後に、既定の設定が反映されているか確認します。次のように utf-8 になっていれば完了です。&lt;/p&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&amp;gt;&amp;gt;&amp;gt; import sys
-&amp;gt;&amp;gt;&amp;gt; sys.getdefaultencoding&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;文書化されていない Pelican での AsciiDoc 利用の方法はここまでです。
-ここから先は、他のマークアップ言語と同じようにドキュメントの内容に従って使いこなしてください。&lt;/p&gt;
-&lt;/section&gt;
-</content>
+      <description>静的サイトジェネレータ Plican で AsciiDoc を機能させるのに必要な、文書化されていない作業をまとめました。AsciiDoc API のインストール方法と、日本語を処</description>
     </item>
     
   </channel>

@@ -3,849 +3,183 @@
   <channel>
     <title>Ios on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/ios/</link>
-    <description>Ios | the Right Stuff</description>
+    <description>Recent content in Ios on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/ios/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
+      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <pubDate>Sun, 03 Jan 2016 23:00:16 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <description>暗記についての方法論が確立していない人のために Anki のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理</description>
+    </item>
+    
+    <item>
+      <title>iPhone 版 Anki でテキストを読み上げるには</title>
+      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのための AnkiMobile サバイバルガイド</title>
+      <link>http://rs.luminousspice.com/ankimobile-survival-guide/</link>
+      <pubDate>Sun, 11 May 2014 04:00:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ankimobile-survival-guide/</guid>
+      <description>AnkiMobile をインストールしたけど、どこから手をつけたらいいか分からない方を対象として、どこから重要な機能が呼び出せるか iPhone を例にスクリーンショットを多</description>
+    </item>
+    
+    <item>
+      <title>Ankiが同期できない問題について</title>
+      <link>http://rs.luminousspice.com/anki-fail-to-sync/</link>
+      <pubDate>Thu, 21 Nov 2013 16:17:56 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-fail-to-sync/</guid>
+      <description>Anki と AnkiWeb の同期の問題をまとめました。プロキシ認証の設定、Anki のバージョン、複数のプロファイルや機器からのアクセス、サポートからのよく回答の</description>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
+      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
+    </item>
+    
+    <item>
+      <title>日本語ユーザーのための Anki 共有単語帳リスト</title>
+      <link>http://rs.luminousspice.com/shared-deck-list-in-japanese/</link>
+      <pubDate>Sun, 15 Feb 2015 05:00:57 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/shared-deck-list-in-japanese/</guid>
+      <description>日本語ユーザーが利用可能な Anki 共有単語帳を独自に収集し、検索画面を作成しました。 共有単語帳の日本語分類表を使って、詳しく調べることもできます。</description>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのためのはじめての Anki</title>
+      <link>http://rs.luminousspice.com/how-to-use-ankimobile/</link>
+      <pubDate>Sat, 13 Sep 2014 21:30:52 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-use-ankimobile/</guid>
+      <description>Anki の iOS 版アプリ AnkiMobile を使いこなすのに必要な基本操作のオリエンテーションです。AnkiMobile を単独利用する方を想定しています。サンプルデータ</description>
+    </item>
+    
+    <item>
+      <title>AnkiWeb 同期機能の使い方</title>
+      <link>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</link>
+      <pubDate>Sun, 31 Aug 2014 22:00:26 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-sync-with-ankiweb/</guid>
+      <description>AnkiWeb は、PC や iPhone、Android などのモバイル機器から Anki データを保存し、他のデバイスと同期できる無料のサービスです。最適な機器を使っ</description>
+    </item>
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
       <link>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
-      <pubDate>Tue, 12 Apr 2016 00:39:18 +0900</pubDate>
+      <pubDate>Tue, 12 Apr 2016 00:39:18 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
-      <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッドを用意しています。スクラッチパッドの使い方、サイズを大きくする方法、スワイプやタップを使って簡単に呼び出す方法を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_スクラッチパッドの機能&#34;&gt;スクラッチパッドの機能&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; は、手書きで暗記する方のために、書き付けスクラッチパッド (Scratch Pad) を用意しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-handwriting.png&#34; alt=&#34;スクラッチパッド利用例&#34; width=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. スクラッチパッド利用例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;直接指でなぞっても使えますし、市販のスライラスペン/タッチペンも使えます。Apple Pencil もサポートしています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_取り消しボタン&#34;&gt;取り消しボタン&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;スクラッチパッド右下のボタンから書いた内容を消すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;タップ&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;一画 (一ストローク)分取り消します&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;長押し&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;全て消去します&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_スクラッチパッドを呼び出す&#34;&gt;スクラッチパッドを呼び出す&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;学習画面でスクラッチパッドを呼び出すには &#39;Toggle ScratchPad&#39; というアクションを使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スクラッチパッドを呼び出す手順&lt;/div&gt;
-&lt;p&gt;学習画面右上の [Tools] - [More] - [Toggle ScratchPad]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スクラッチパッドをしまう手順&lt;/div&gt;
-&lt;p&gt;スクラッチパッドをしまう場合も、同じ &#39;Toggle ScratchPad&#39; を呼び出す手順です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_大きさを変える&#34;&gt;大きさを変える&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;環境設定からスクラッチパッドをもっと大きくすることもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;大きなサイズ&#34; width=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 大きなサイズ&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スクラッチパッドの大きさの設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Bigger Pad] を有効にする。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定で大きなサイズを設定&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 環境設定で大きなサイズを設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_呼び出し方をカスタマイズする&#34;&gt;呼び出し方をカスタマイズする&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このままでは、スクラッチパッドを呼び出すのが面倒です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;マルチタッチスクリーンのジェスチャに割り当てましょう。スワイプやタップに割り当てることができますが、画面上中央をタップした時に切り替える設定を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;解答画面 (裏面) で画面中央上をタップした時に呼び出す設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review] - [Taps]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;WHEN ANSWER SHOWN の [Top Center] をタップし [Toggle ScratchPad] を選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;画面タップにスクラッチバッドの切り替えを設定&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 画面タップにスクラッチバッドの切り替えを設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_手書きでの暗記にこだわりのある方のために&#34;&gt;手書きでの暗記にこだわりのある方のために&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;手書きでの暗記にこだわる方にぜひ試してみてほしい機能です。ためしにスクラッチパッドを指でなぞってください。手書きと Anki を組み合わせる威力が直感できるはずです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ちょうどそばにあったイカせんべいの包装紙を切り取って、いつも使っている筆記具の先端に巻き付けました。
-普段の物書きの感覚を残しながら Anki が使えるというなかなか興味深い体験ができました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/simple-stylus.jpg&#34; alt=&#34;普段使いの筆記具をタッチペンにする&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 普段使いの筆記具をタッチペンにする&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;狭い場所では指で使い、落ち着いた場所では使い慣れている筆記具を使ってという使い分けで、様々な学習環境で書き付けるという体験を  Anki に付け加えることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: 音声制御アップデート</title>
       <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
-      <pubDate>Mon, 11 Apr 2016 11:26:29 +0900</pubDate>
+      <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
-      <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこで、AnkiMobile 2.0.20 現在での音声再生の方法について整理しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ankimobile_における音声制御&#34;&gt;AnkiMobile における音声制御&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; では、カードから参照しているサウンドファイルは次の方法で再生を開始します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;自動再生 (単語帳別に操作の割り当てが可能)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ユーザーによる画面操作 (コレクション全体で設定)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_自動再生&#34;&gt;自動再生&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カードに音声ファイルへの参照がある場合、カードを表示した時に自動再生します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;自動再生の設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;学習画面右上の [Tools]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Study Options]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Automatically play audio] を有効にする。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-deckoption-audio.png&#34; alt=&#34;自動再生設定&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 自動再生設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_再生ボタン&#34;&gt;再生ボタン&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カードに音声ファイルへの参照がある場合、再生ボタン (Audio Button) をカード面に表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-audio-button.png&#34; alt=&#34;再生ボタン&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 再生ボタン&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;再生ボタンの設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Audio Button] を有効にする。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 環境設定画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_マルチタッチスクリーンのジェスチャ&#34;&gt;マルチタッチスクリーンのジェスチャ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;マルチタッチスクリーンのジェスチャ、スワイプやタップから再生操作を呼び出すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;左にスワイプを再生に割り当てる設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review] - [Swipes]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Swipe Left] をタップし [Replay Audio] を選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-swipe-replay.png&#34; alt=&#34;左スワイプに再生を設定&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 左スワイプに再生を設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_マナーモードでの自動再生&#34;&gt;マナーモードでの自動再生&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile 2.0.18 から、iPhone 本体側面にある「着信／サイレントスイッチ」が有効になっている (マナーモード) と、AnkiMobile での音声の自動再生が無効になります。
-ただし、ユーザーがボタンを押すなどして再生操作を行うことはできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、&lt;a href=&#34;https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html&#34;&gt;Web Speech API&lt;/a&gt; を使ったテキスト読み上げを自動再生にしている場合も無効になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;サイレントスイッチを無視する設定は、環境設定画面 (Preference) から設定できます。
-この機能は、同時にバックグラウンドで再生中のサウンドの音量を下げます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;マナーモードでも自動再生する設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Always Duck + Ignore Mute] を有効にする。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 環境設定画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile で音声を再生するには、自動再生を設定するか、ユーザーが画面操作して再生処理を呼び出す。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;好きなマルチタッチスクリーンのジェスチャに再生操作を割り当てることができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;マナーモード中に自動再生は機能しないが、設定で変更することもできる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ検索</title>
       <link>http://rs.luminousspice.com/how-to-ankimobile-search/</link>
-      <pubDate>Sat, 09 Apr 2016 04:54:16 +0900</pubDate>
+      <pubDate>Sat, 09 Apr 2016 04:54:16 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/how-to-ankimobile-search/</guid>
-      <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学習セッションの設計が可能になります。iPhone を例にして具体的な操作方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データ検索&#34;&gt;データ検索&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; に収録しているカードを検索するには Find Screen (検索画面) から行います。
-単語帳を選択し学習画面から画面上の Quickbar から [Find] を選択すると Find Screen が開きます。
-([Tools] – [More] – [Find] を選択しても同じ結果になります。)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-search.png&#34; alt=&#34;検索画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 検索画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;既定では検索欄に　&lt;code&gt;deck:current&lt;/code&gt; (意味:選択中の単語帳) と入力済みになっています。そのまま右下の [Search (検索)] ボタンをタップすると、選択中の単語帳のカード一覧を表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;さらに検索条件を追加するしてカードを絞り込むことができます。&lt;code&gt;deck:current&lt;/code&gt; を削除すれば、全ての単語帳から検索できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-search-results.png&#34; alt=&#34;検索結果&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 検索結果&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki と AnkiMobile のデータ検索では、先ほど取り上げた、&lt;code&gt;deck:&lt;/code&gt; のような特別なキーワードを共通に利用できます。
-その一例を参考までに紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
-&lt;caption class=&#34;title&#34;&gt;Table 1. 検索条件例&lt;/caption&gt;
-&lt;colgroup&gt;
-&lt;col style=&#34;width: 33.3333%;&#34;&gt;
-&lt;col style=&#34;width: 66.6667%;&#34;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;項目&lt;/th&gt;
-&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;条件&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;今日追加したカード&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;added:1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;今日学習したカード&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;rated:1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;今日間違えたカード&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;rated:1:1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;新規&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:new&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;学習中&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:learn&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;復習&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:review&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;期日&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:due&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;保留&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:suspended&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;延期&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;is:buried&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;無駄&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;tag:leech&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;単語帳 中学英単語&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;deck:中学英単語&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ノートタイプ 英語単語&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;note:英語単語&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;タグ Grade1&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;tag:Grade1&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;詳しい検索条件は、&lt;a href=&#34;http://ankisrs.net/docs/manual.html#searching&#34;&gt;Anki User Manual&lt;/a&gt;とその&lt;a href=&#34;http://wikiwiki.jp/rage2050/?2.0%2FBrowser#searching&#34;&gt;日本語訳&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_pc_版_anki_との連携のポイント&#34;&gt;PC 版 Anki との連携のポイント&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC 版の Anki が利用できる方は、マニュアルを使わなくても、カードブラウザを操作しながら検索条件を設計できます。
-詳しくは、&lt;a href=&#34;http://rs.luminousspice.com/browser-overview/&#34;&gt;Ankiのブラウザーの使い方とデータ検索&lt;/a&gt;で説明しています。
-PC 版 Anki で設計した条件をフィルター単語帳などの形で同期すれば、AnkiMobile に簡単に導入できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>AnkiMobile が提供するデータ検索機能の使い方を説明します。検索用の特別なキーワードを使いこなせるようになれば、複雑な検索条件を利用した高度なカスタム学</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: データ入出力</title>
       <link>http://rs.luminousspice.com/how-to-ankimobile-io/</link>
-      <pubDate>Thu, 07 Apr 2016 12:18:02 +0900</pubDate>
+      <pubDate>Thu, 07 Apr 2016 12:18:02 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/how-to-ankimobile-io/</guid>
-      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利用する方法の二種類があります。それぞれの使い方を iPhone を例にして説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データの読み込み&#34;&gt;データの読み込み&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; にデータを読み込みには、Anki と AnkiMobile がサポートしている同期機能を使う方法とAnki 単語帳パッケージファイル (apkg) でやり取りする方法が選べます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_collection_全体の同期のみが可能な方法&#34;&gt;collection 全体の同期のみが可能な方法&lt;/h3&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;AnkiWeb 経由で同期&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;この場合、更新したコレクションデータ全てが、AnkiMobile に反映されます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;iTunes 経由でコレクション全体を collection.apkg ファイルとして読み込む&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;iTunes のファイル共有機能を使います。この場合、コレクション内の単語帳全てを上書きします。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_単語帳単位での読み込みも可能な方法&#34;&gt;単語帳単位での読み込みも可能な方法&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この方法は、単語帳単位での読み込みが可能ですが、&lt;code&gt;collection.apkg&lt;/code&gt; も同様に可能です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Safari 経由で apkg ファイルをダウンロード::　ダウンロード後、[Anki で開く] を選択します。共有単語帳のインストールはこの方法です。
-メールに apkg ファイルを添付する::  受信メールに添付している apkg ファイルをタップし、[Anki で開く] を選択します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-mail-deck.png&#34; alt=&#34;メール添付&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. メール添付&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_テキストデータを一括登録するには&#34;&gt;テキストデータを一括登録するには&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile には、テキストデータを一括登録する機能はありません。
-まず、PC 版 Anki を利用して Anki 単語帳パッケージファイル (apkg) ファイルに変換します。
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;ではテキストデータの一括登録する方法を説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;その後、上で紹介したいずれかの方法で AnkiMobile へ持ち込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_読み込み用の単語帳データ作成方法&#34;&gt;読み込み用の単語帳データ作成方法&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC 版 Anki を使って 読み込み用の単語帳データを作る手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-share-anki-decks/&#34;&gt;Anki単語帳を共有する方法&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;AnkiMobile 用に書き出す場合の設定項目&lt;/div&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;iTunes ファイル共有用 &#39;collection.apkg&#39; の作成&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[ファイルの形式]でAnki単語帳パッケージ、[対象]で全ての単語帳を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;ダウンロード、メール添付用単語帳パッケージの作成&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[ファイルの形式]でAnki単語帳パッケージ、[対象]で書き出す単語帳を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;学習履歴を含める&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[スケジュール情報を含める]を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;画像、音声などのメディアファイルを含める&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;[メディアファイルを同梱]を選択&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データの書き出し&#34;&gt;データの書き出し&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile からデータを書き出す方法では細かい設定ができません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile からのデータの出力方法は 2 通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiWeb 経由で Anki と同期する。この場合、コレクションの更新内容全てを同期することになります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;iTunes を経由でコレクションを書き出す。この場合、コレクション全体を書き出すことになります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;残念ながら、読み込みのように単語帳単位で書き出す方法はありません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_ankiweb_のオンラインストレージによる同期&#34;&gt;AnkiWeb のオンラインストレージによる同期&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb に登録すると AnkiMobile のデータを保存でき、PC 版 Anki と学習データや設定を同期できるようになります。
-くわしくは、&lt;a href=&#34;http://rs.luminousspice.com/how-to-sync-with-ankiweb/&#34;&gt;AnkiWeb 同期機能の使い方&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb の同期機能は、原則的に差分同期でデータ転送量を押さえています。
-サーバとのデータ内容の差が大きくなった場合は差分同期ができず、サーバー側か iPhone 側かどちらか一方の内容全体を複製する (完全同期) 必要があります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_itunes_ファイル共有機能による入出力&#34;&gt;iTunes ファイル共有機能による入出力&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;iTunes ファイル共有機能を使うとコレクション全体を collection.apkg ファイル単位で PC と iPhone の間で共有できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;iTunes ファイル共有機能の USB または Wi-Fi を利用した具体的な設定方法は、Apple サポートサイトの記事 &lt;a href=&#34;https://support.apple.com/ja-jp/HT201253&#34;&gt;iOS：iTunes とデータを同期する&lt;/a&gt;を参考にしてください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect3&#34;&gt;
-&lt;h4 id=&#34;_ankimobile_側の手順&#34;&gt;AnkiMobile 側の手順&lt;/h4&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;単語帳一覧の画面左下の [Import/Export] をタップすると、データ入出力に関するダイアログが開きます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-io.png&#34; alt=&#34;データ入出力ダイアログ&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. データ入出力ダイアログ&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;[Import from iTuenes]&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;コレクション全体を読み込んだファイルで置き換えます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;[Export to iTunes]&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;コレクション全体を &lt;code&gt;collection.apkg&lt;/code&gt; として書き出します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect3&#34;&gt;
-&lt;h4 id=&#34;_pc_上の_itunes_側の手順&#34;&gt;PC 上の iTunes 側の手順&lt;/h4&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;PC の iTunes 上で、AnkiMobile とのファイル共有画面は次のような手順で開きます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;iTunes を起動し、画面右上の [iPhone] ボタンをクリックします。
-(接続している iOS 機器によってこのボタンのラベルは変わります。)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;画面上のツールバーから [App] を選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;画面を下にスクロールし [ファイル共有] の [App] の項目一覧から Ankiを選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Anki の書類] というファイル一覧が右のパネルに表示します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile から出力すると、下図のように &lt;code&gt;collection.apkg&lt;/code&gt; が現れます。
-このファイルを選択して、画面右下の [保存先] を押すと、PC 上の任意の場所に保存できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;画面下の [追加] を選択すると、AnkiMobile へ読み込むファイルを選択できます。
-ただし、&lt;code&gt;collection.apkg&lt;/code&gt; という名前でなければ [Import from iTuenes] コマンドが機能しません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how-to-ankimobile-itunes.png&#34; alt=&#34;iTunes ファイル共有&#34; width=&#34;600&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. iTunes ファイル共有&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データ同期の注意点&#34;&gt;データ同期の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiWeb は、基本的に差分同期をするのでデータ転送量が少ないです。iTunes ファイル共有は接続機器のそばであれば USB で直接接続したり、高速な無線回線で接続できます。
-AnkiWeb が常に万能な訳ではなく、同期するファイルの内容によって適切な手段が決まります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;日々の学習データを転送するには AnkiWeb が有利です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;高速に接続できる環境であれば、新しい単語帳を読み込んで、メディアファイルなどを含んだ容量の大きいを読み込むには iTunes ファイル共有が有利です。また大規模なバックアップの復元も、iTunes ファイル共有の方が短時間に処理できるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile へのデータの読み込みは、コレクション全体と単語帳単位で選択できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile からのデータの書き出したはコレクション全体だけ。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;コレクション全体でデータを入出力するには複製 (iTunes ファイル共有) と差分同期 (AnkiWeb) が選択できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最適な転送手段は、ファイル容量と回線速度によって決まる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>AnkiMobile での単語帳データを読み込みや書き出しには、akpg ファイルで交換する汎用的な方法と、Anki との同期機能を持つ AnkiWeb あるいは iTunes ファイル共有を利</description>
     </item>
     
     <item>
       <title>AnkiMobile ノート: カスタム学習とフィルター単語帳</title>
       <link>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</link>
-      <pubDate>Thu, 07 Apr 2016 11:15:00 +0900</pubDate>
+      <pubDate>Thu, 07 Apr 2016 11:15:00 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/how-to-ankimobile-custom-study/</guid>
-      <description>AnkiMobile は PC 版の Anki と同様に、フィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。iPhone を例にして具体的な操作方法を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッションを作成することができます。iPhone を例にして具体的な操作方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_学習のカスタマイズ&#34;&gt;学習のカスタマイズ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; では、PC 版の Anki と同様に単語帳オプションの学習モードをカスタマイズすることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カスタム学習セッションは、主として単語帳のオプションの上限値を超える学習ができる一時的な学習セッションです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フィルター単語帳は、さらにコレクション全体から検索条件に見合うカードを抽出して作成する特別な単語帳です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;試験前のおさらい、一夜漬けするのに使うと言えば分かりやすいでしょうか。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_カスタム学習セッションの作成&#34;&gt;カスタム学習セッションの作成&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カスタム学習では、単語帳オプションで指定している学習上限を一時的に緩めて、新たな学習カードを取得します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カスタム学習セッションは、[Tools] - [Custom Study] で設定画面を呼び出して始めます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-customstudy.png&#34; alt=&#34;カスタム学習&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 1. カスタム学習設定画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;まず最初にカスタム学習の種類を [STUDY TYPE] の中から選びます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;選択した種類に応じて設定項目を、[OPTIONS] で設定します。この項目はスクロールしないと見えない機種もありますので注意が必要です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;取得条件、枚数、などの項目を設定した後に、画面右上 [Done] をタップすると作成し、学習セッションが始まります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;新規カード、復習カードの上限を上げたとき以外は、青字で &lt;code&gt;Custom Study Session&lt;/code&gt; という名前の単語帳に取得カードが移動します。
-カスタム学習セッションの学習が終わったカードは、移動したカードも元の単語帳に戻ります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_フィルター単語帳の作成&#34;&gt;フィルター単語帳の作成&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フィルター単語帳とは、コレクション全体から検索条件で選択したカードを学習する特別な単語帳です。
-&lt;a href=&#34;http://rs.luminousspice.com/how-to-customize-learning/&#34;&gt;フィルター単語帳でAnki学習をカスタマイズしよう&lt;/a&gt;で、紹介しているフィルター単語帳の検索条件はそのまま AnkiMobile でも使えますます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フィルター単語帳は、[Tools] - [More] - [Filter/Cram] で設定画面を呼び出して作成します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-filter.png&#34; alt=&#34;フィルター単語帳設定画面&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 2. フィルター単語帳設定画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;検索条件、取得上限、出題順序などの項目を設定した後に、画面右上 [Build] をタップすると作成し、学習セッションが始まります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;青字で &lt;code&gt;Filterd Deck (連番)&lt;/code&gt; という名前の単語帳に取得カードが移動します。
-フィルター単語帳の学習が終わったカードは、元の単語帳に戻ります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;注意すべきオプション&lt;/div&gt;
-&lt;p&gt;[Reschedule cards based on my answers in this deck?] という項目は初期設定で有効になっていますが注意が必要です。この項目を有効にしたままフィルター単語帳を繰り返し使うと、間違えなければ復習間隔がどんどん広がって、数年単位の復習間隔を設定することになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_カスタム学習セッション_フィルター単語帳のアクション&#34;&gt;カスタム学習セッション、フィルター単語帳のアクション&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カスタム学習セッション、フィルター単語帳を開いた状態で次のアクションが利用できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[Tools] - [More] - [Empty] で、取得したカードを全て元の単語帳に戻します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Tools] - [More] - [Rebuild] で、カードを取得し直します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Tools] - [More] - [Study Option] で、カスタム学習の設定条件が再編集できます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Tools] - [More] - [Filter/Cram] で、フィルター単語帳の設定条件が再編集できます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_カスタム学習セッション_フィルター単語帳の削除&#34;&gt;カスタム学習セッション、フィルター単語帳の削除&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;不要になったカスタム学習セッション、フィルター単語帳は、単語帳一覧から単語帳名を左にスワイプすると削除できます。
-中にカードが残っている状態で削除すると、カードは元の単語帳に戻ります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-remove-deck.png&#34; alt=&#34;単語帳の削除&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;Figure 3. 単語帳の削除&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_ankimobile_で利用する場合の注意点&#34;&gt;AnkiMobile で利用する場合の注意点&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;iPhone などの画面サイズの小さい機器ででカスタム学習セッションやフィルター単語帳を設計する場合、枚数も少なく簡単な条件では問題なく利用できると思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;複雑な検索条件を設定し、カード枚数も多数になると、ブラウザ画面上では確認しきれません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このような場合は、PC 版 Anki で設計し、同期機能などを使って AnkiMobile に持ち込むのが現実的な使い方だと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>AnkiMobile は PC 版の Anki と同様にフィルター単語帳やカスタム学習を使って、単語帳の学習オプションをカスタマイズしたり、複数の単語帳にまたがる学習セッション</description>
+    </item>
+    
+    <item>
+      <title>AnkiMobile ノート: 自動バックアップ</title>
+      <link>http://rs.luminousspice.com/how-to-ankimobile-backup/</link>
+      <pubDate>Thu, 07 Apr 2016 10:34:34 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-ankimobile-backup/</guid>
+      <description>AnkiMobile は定期的にバックアップファイルを iOS 機器 内に自動保存しています。その設定方法と、データの復旧手順について iPhone を例にして説明します。 自動バックア</description>
+    </item>
+    
+    <item>
+      <title>Anki カードへの HTML5 メディアの埋め込み</title>
+      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
+    </item>
+    
+    <item>
+      <title>AnkiMobile の学習オプションを最適化する</title>
+      <link>http://rs.luminousspice.com/ankimobile-study-options/</link>
+      <pubDate>Sat, 24 Jan 2015 00:00:42 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ankimobile-study-options/</guid>
+      <description>AnkiMobile 2.0.18 のリリースによって、AnkiMobile 上で全ての学習オプションが設定可能になりました。AnkiMobile を単独で利用しているユーザー</description>
+    </item>
+    
+    <item>
+      <title>Anki を共有機器で利用するためのプロファイルの使い方</title>
+      <link>http://rs.luminousspice.com/how-to-use-profile/</link>
+      <pubDate>Tue, 23 Sep 2014 17:00:10 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-use-profile/</guid>
+      <description>Anki は、マシンを共有している複数のユーザーのためにユーザープロファイルを設定することができます。Anki と AnkiMobile で設定手順を紹介し、パスワードの設</description>
+    </item>
+    
+    <item>
+      <title>Anki になれた方に iPhone をすすめたい理由</title>
+      <link>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</link>
+      <pubDate>Mon, 15 Sep 2014 23:30:31 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-mastery-calls-for-iphone/</guid>
+      <description>Anki に使い慣れて、もっと効率的な復習をしたいと考え始めたのなら iPhone アプリの AnkiMobile を使うことをすすめます。AnkiMobile を Anki と連動して使うと、P</description>
+    </item>
+    
+    <item>
+      <title>Anki 共有単語帳の学び方</title>
+      <link>http://rs.luminousspice.com/anki-learning-with-shared-decks/</link>
+      <pubDate>Sun, 14 Sep 2014 23:30:25 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-learning-with-shared-decks/</guid>
+      <description>AnkiWeb にはユーザーが単語帳を共有でき、カードを作らなくてもすぐに学習を始めることができます。事前に教材の理解が進んでいれば、Anki の学習効率が</description>
     </item>
     
   </channel>

@@ -3,92 +3,21 @@
   <channel>
     <title>ヒント on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E3%83%92%E3%83%B3%E3%83%88/</link>
-    <description>ヒント | the Right Stuff</description>
+    <description>Recent content in ヒント on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jul 2013 15:00:46 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%92%E3%83%B3%E3%83%88/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2013 15:00:46 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%92%E3%83%B3%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ankiのカードにヒントを付ける方法</title>
       <link>http://rs.luminousspice.com/hint_field/</link>
-      <pubDate>Sun, 07 Jul 2013 15:00:46 +0900</pubDate>
+      <pubDate>Sun, 07 Jul 2013 15:00:46 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/hint_field/</guid>
-      <description>Ankiのカードにヒント用のフィールドを使ってヒントを付ける方法について紹介します。</description>
-      <content>&lt;section id=&#34;カードにヒントを付ける方法&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;カードにヒントを付ける方法&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;穴埋め機能を使って空欄にヒントを付ける方法は、&lt;a href=&#34;http://rs.luminousspice.com/cloze-deletion/&#34;&gt;Ankiにおける空欄補充問題の作り方&lt;/a&gt;で説明しました。この場合は、問題のフィールドの中にヒントを書き込む方法です。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この方法とは別に、ある特定フィールドをヒント用に指定することができます。&lt;/p&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ヒント用のフィールドを追加する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ヒント用のフィールドを追加する&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;新規にヒント用のフィールドを追加するには、追加ウィンドウから画面左上[フィールド]ボタンを押して、フィールド管理画面から追加します。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/hint_field_1.png&#34; alt=&#34;images/hint_field_1.png&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. ヒント用のフィールドを追加&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、フィールド名をあえて「ヒント」としました。その理由は、カード面に表示するヒントへのリンクが 「&amp;lt;ヒントフィールドの名前&amp;gt;を表示」となるからです。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ヒント用のフィールドが、追加ウィンドウに現れたところで、このノートのヒントを入力します。
-この例では、コロケーションと反対語をヒントに使いました。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/hint_field_2.png&#34; alt=&#34;images/hint_field_2.png&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. ヒント用のフィールドが追加ウィンドウに現れた&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ヒントをカードに追加する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ヒントをカードに追加する&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;追加ウィンドウから画面左上の[カード]ボタンを押して、カードレイアウトを表示します。
-画面左上の表面のテンプレートにヒントフィールドを表示する設定をします。 &lt;code&gt;{{hint:&amp;lt;ヒントに使いたいフィールドの名前&amp;gt;}}&lt;/code&gt; を指定します。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/hint_field_3.png&#34; alt=&#34;images/hint_field_3.png&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. ヒント用のフィールドをカードの表面に追加&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では次のように指定しました。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;カードテンプレートへのヒントフィールドの設定例&lt;/div&gt;
-&lt;div class=&#34;content monospaced&#34;&gt;
-&lt;pre&gt;{{Front}}&amp;lt;br&amp;gt;
-{{hint:ヒント}}&lt;/pre&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;プレビュー画面に[ヒントを表示]というリンクが追加になったことが分かります。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、カードの基本的な編集方法については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で紹介しています。&lt;/p&gt;&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;学習画面で表示を確認&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;学習画面で表示を確認&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;それでは、学習画面での表示例を紹介しましょう。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/hint_field_4.png&#34; alt=&#34;images/hint_field_4.png&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. カードの表面にヒントへのリンクが現れた&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ここで[ヒントを表示]というリンクをクリックすると、ヒントフィールドに設定した、ヒント内容が現れます。なお、ヒントフィールドが空欄の場合は、[ヒントを表示]というリンクは表示しません。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/hint_field_5.png&#34; alt=&#34;images/hint_field_5.png&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. リンクをクリックしてヒントを表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;これで完成です。
-カードレイアウトでヒントと問題の書式やレイアウトを細かく設定して、さらに見やすいカードになるようにカスタマイズしてお使いください。&lt;/p&gt;&lt;/div&gt;
-&lt;/section&gt;
-</content>
+      <description>カードにヒントを付ける方法 穴埋め機能を使って空欄にヒントを付ける方法は、Ankiにおける空欄補充問題の作り方で説明しました。この場合は、問題</description>
     </item>
     
   </channel>

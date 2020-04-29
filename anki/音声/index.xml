@@ -3,912 +3,147 @@
   <channel>
     <title>音声 on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E9%9F%B3%E5%A3%B0/</link>
-    <description>音声 | the Right Stuff</description>
+    <description>Recent content in 音声 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E9%9F%B3%E5%A3%B0/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2016 23:00:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/anki/%E9%9F%B3%E5%A3%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>暗記に強くなるために Anki から上手くサポートを得るには</title>
+      <link>http://rs.luminousspice.com/learn-with-anki/</link>
+      <pubDate>Sun, 03 Jan 2016 23:00:16 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/learn-with-anki/</guid>
+      <description>暗記についての方法論が確立していない人のために Anki のサポートを上手く引き出すための学習モデルケース。教材の選び方、Anki の学習方法、進捗管理</description>
+    </item>
+    
+    <item>
+      <title>Anki を使って音声データ付き書籍の理解を深めよう</title>
+      <link>http://rs.luminousspice.com/learn-audio-material-with-anki/</link>
+      <pubDate>Fri, 01 Jan 2016 23:15:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/learn-audio-material-with-anki/</guid>
+      <description>Anki を使って書籍付属の音声データを自己評価で並べ替え、苦手なデータを集中して復習し、教材の内容理解を深める方法を説明します。 はじめに 最近の外国</description>
+    </item>
+    
+    <item>
+      <title>iPhone 版 Anki でテキストを読み上げるには</title>
+      <link>http://rs.luminousspice.com/speech-text-on-ankimobile/</link>
+      <pubDate>Sat, 21 Jun 2014 23:30:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/speech-text-on-ankimobile/</guid>
+      <description>Anki の iOS 版アプリ AnkiMobile では、システムのアクセシビリティ機能を利用すると、特別なアプリをインストールしなくてもテキストを読み上げることができます。こ</description>
+    </item>
+    
+    <item>
+      <title>画像、音声、動画などメディアファイルを Anki へ一括登録</title>
+      <link>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:27 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/bulk-import-media-files-into-anki/</guid>
+      <description>メディアファイル、音声、画像、動画ファイルをまとめて Anki に登録する方法を説明します。基本的なメディアデータの表示方法から、一括登録方法、アドオ</description>
+    </item>
+    
+    <item>
+      <title>iPhone ユーザーのための Anki のゆるい始めかた</title>
+      <link>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</link>
+      <pubDate>Tue, 15 Jul 2014 19:00:04 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/start-up-anki-for-iphone-users/</guid>
+      <description>語学学習のための iPhone 版 Anki (AnkiMobile) の簡単な始めかたを紹介します。iPhone アプリを使うので、ほぼ片手で作業が完結でき、どこでもどんな姿勢でも作業でき</description>
+    </item>
+    
+    <item>
+      <title>Anki アドオンガイド - Anki をもっと使いやすくするアドオンたち</title>
+      <link>http://rs.luminousspice.com/anki-addons-guide/</link>
+      <pubDate>Mon, 14 Apr 2014 05:00:17 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/anki-addons-guide/</guid>
+      <description>Anki は、ユーザーが標準機能を拡張変更できるアドオン機能を提供しています。ユーザーは AnkiWeb にアドオンを公開でき、Anki を使って簡単にインストールで</description>
+    </item>
+    
+    <item>
+      <title>はじめてのAnki – まず使ってみる</title>
+      <link>http://rs.luminousspice.com/how-to-anki/</link>
+      <pubDate>Fri, 12 Apr 2013 23:30:03 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/how-to-anki/</guid>
+      <description>連載: Ankiの使い方 〜覚えるために忘れろ〜 第1回 Ankiを始めたいけど、何から始めて良いか分からない方のためにこの記事を書きました。インス</description>
+    </item>
     
     <item>
       <title>オンラインレッスンを強化する Anki の使い方</title>
       <link>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</link>
-      <pubDate>Thu, 16 Feb 2017 12:26:59 +0900</pubDate>
+      <pubDate>Thu, 16 Feb 2017 12:26:59 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/reinforce-online-lesson-with-anki/</guid>
-      <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_オンラインレッスンが言語学習を変えた&#34;&gt;オンラインレッスンが言語学習を変えた&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;動画チャットやボイスチャットのアプリケーションの利用率が上がり、オンラインで外国語のレッスンが簡単に受けられるようになりました。
-さらに教師や言語交換パートナーをマッチングする SNS の完成度が高まったお陰で、自分の都合の良い時間に都合の良い場所で、世界中から自分の学習したい内容に見合った相手と外国語を練習できるようになりました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私もポルトガル語、フランス語、英語の練習を毎日ネイティブスピーカーとできるようになりました。発音でも、朗読でも、作文でも、会話でも目的に適った方法を指定して練習できます。ゼロから始めた外国語でも進歩の実感がこれまでとは格段に違います。これは、とても素晴らしいことです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一つ気になる点は、レッスンが簡単に受けられる分、復習がおろそかになりがちなことです。気を抜くとレッスンを受け流してしまい、大切な事項が中々身につかなくなります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、今回はオンラインレッスンの効果を上げるための Anki を活用した復習の仕方を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_音声データの復習&#34;&gt;音声データの復習&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype などでのビデオ通話や通常の通話でのオンラインレッスンの記録として一番使いやすいのは音声データです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私は、相手から許可を取って発音練習、テキスト朗読、例文の読み上げや、ディクテーションなどで記録したデータを Anki のカードにしています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;発音やディクテーションといったフラッシュカードとはなじみのない練習方法でも、Anki を使って復習の管理ができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;で紹介した方法で通話アプリから音声を取り込んでいます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私は、音声データは必要な部分だけを編集して使っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_既に加工済みデータがある方へ&#34;&gt;既に加工済みデータがある方へ&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;すでに音声データを作って復習している場合は、分割したデータを大量に Anki に登録する方法は、&lt;a href=&#34;http://rs.luminousspice.com/learn-audio-material-with-anki/&#34;&gt;Anki を使って音声データ付き書籍の理解を深めよう&lt;/a&gt; を参考にすると良いでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki への音声や画像データの基本的な一括登録方法は &lt;a href=&#34;http://rs.luminousspice.com/bulk-import-media-files-into-anki/&#34;&gt;画像、音声、動画などメディアファイルを Anki へ一括登録&lt;/a&gt; で説明してます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_通話以外での音声データの録音&#34;&gt;通話以外での音声データの録音&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;通話やチャットできない相手との発音やアクセント練習のための音声は、録音共有サービスの &lt;a href=&#34;https://clyp.it&#34;&gt;Clyp&lt;/a&gt; を使って交換しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Clyp の埋め込み機能は Anki 上で表示することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/reinforce-online-lesson-clyp.png&#34; alt=&#34;Clyp データの表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. Clyp データの表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_チャットログの復習&#34;&gt;チャットログの復習&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;テキストチャットやメッセージ交換で言語交換しているとテキストのログデータが大量に溜まります。このデータも Anki に持ち込めば、漏らさずスケジュール管理して復習することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype でのビデオ通話での文字データでの説明にテキストチャットを併用しています。またディクテーションや発音練習、聴き取り練習の際にも利用しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このデータも表計算ソフトやテキストエディタで TSV か CSV に加工して、&lt;a href=&#34;https://ankiweb.net/shared/info/1749692420&#34;&gt;Add Note From Clipboard&lt;/a&gt;というアドオンを使ってクリップボード経由で Anki に取り込んでいます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ファイルへの書き出しも不要で、ノートタイプやタグの指定もでき、レッスン後すぐにカード化できます。実際の手順は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;Ankiの共有リソースを使ってみる&lt;/a&gt;で紹介している通りです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;また、このカードでは &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; というアドオンを使って、合成音声で読み上げをしています。設定方法は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki へのテキストデータの一括登録方法の基本は、&lt;a href=&#34;http://rs.luminousspice.com/how-to-import/&#34;&gt;Ankiにデータをまとめて取り込む&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_添削データの復習&#34;&gt;添削データの復習&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://Lang-8.com&#34;&gt;Lang-8&lt;/a&gt; や &lt;a href=&#34;https://italki.com&#34;&gt;iTalki&lt;/a&gt; などの言語交換 SNS を使うとネイティブスピーカーから作文の添削を受けることができます。また、直接ネイティブスピーカーとレッスンしている方でも、作文の練習をしている方もいるでしょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私は、作文だけに特化した言語パートナーと添削の交換をしています。
-添削済みのデータも Anki に登録して復習しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;添削データの場合には、解説やメモを付けるので一括登録ではなく、文字を装飾しながら一件ずつ登録しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;オンラインレッスンは Anki を使うと復習管理ができ、繰り返し練習できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;発音練習やディクテーションのなど一人で復習するのが難しい練習も Anki を使うと可能になる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;テキストのログデータもアドオンを使うと簡単に Anki でカード化できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>オンラインレッスンや言語交換 (ランゲージエクスチェンジ) での学習内容を効果的に復習して身につけるための Anki の使い方を説明します。 オンラインレッ</description>
     </item>
     
     <item>
       <title>Skype 音声を Anki に録音する</title>
       <link>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</link>
-      <pubDate>Tue, 29 Nov 2016 09:44:27 +0900</pubDate>
+      <pubDate>Tue, 29 Nov 2016 09:44:27 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/skype-audio-into-anki-for-mac/</guid>
-      <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。</description>
-      <content>&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この投稿は、Mac ユーザー限定の内容です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;では、Mac で再生した音声を Anki に直接取り込む方法を紹介しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype での会話内容を Anki に取り込むには、さらに次のように Skype を設定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;メニューバーから [設定] を選択し、[音声/ビデオ] タブを選択します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ここで、スピーカー項目を [複数出力装置] に設定すると完了です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/skype-audio-preference.png&#34; alt=&#34;Skype 音声の設定例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. Skype 音声の設定例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これで、Anki の録音機能を使って音声を登録できるようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Skype での会話を繰り返し練習して、効果を高めるために Anki をご活用ください。&lt;/p&gt;
-&lt;/div&gt;
-</content>
+      <description>オンラインのインストラクターや言語交換パートナーなどとの Skype 会話中に録音して Anki のカードに直接取り込む方法を紹介します。 この投稿は、Mac ユーザ</description>
     </item>
     
     <item>
       <title>YouTube の字幕付き動画を活用した Anki カードの作成</title>
       <link>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</link>
-      <pubDate>Sat, 28 May 2016 14:37:07 +0900</pubDate>
+      <pubDate>Sat, 28 May 2016 14:37:07 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/anki-card-from-youtobe-caption/</guid>
-      <description>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_字幕付き動画から_anki_カードを作成&#34;&gt;字幕付き動画から Anki カードを作成&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;動画と字幕から Anki 用のカードを作成するアプリケーションとしては、Windows 版では、&lt;a href=&#34;http://subs2srs.sourceforge.net/&#34;&gt;subs2srs&lt;/a&gt;という非常に高機能なアプリケーションが Anki1 の頃から存在し、非常に有名です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;OS X などの他のプラットフォームで Anki を使っているユーザに取っては羨ましい限りだったのですが、ついにこの作業を自動化する &lt;a href=&#34;https://github.com/katspaugh/youtube-flashcards&#34;&gt;YouTube Flashcards&lt;/a&gt; が GitHub に公開されました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアプリの機能をザックリと説明すると &lt;a href=&#34;https://github.com/rg3/youtube-dl/&#34;&gt;youtube-dl&lt;/a&gt; というアプリで動画と字幕をダウンロードし、その字幕のタイムラインの情報を元に &lt;a href=&#34;https://ffmpeg.org/&#34;&gt;FFmpeg&lt;/a&gt; で音声を分割し、画面ショットを取得し、さらに Anki に読み込むための TSV ファイルを作成してくれます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;動画をダウンロードしますが、カードには音声と画像を配置します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;字幕用ファイルのフォーマットは &lt;a href=&#34;https://www.w3.org/TR/webvtt1/&#34;&gt;WebVTT (Web Video Text Tracks)&lt;/a&gt; を使っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;YouTube Flashcards を使うには、youtube-dl と FFmpeg がインストールされていることが前提です。OS X の場合は両方とも Homebrew から入手できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_youtube_flashcards_の内容&#34;&gt;YouTube Flashcards の内容&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;YouTube Flashcards の構成は極めてシンプル、ダウンロード部分の作業を行う &lt;code&gt;download.sh&lt;/code&gt; とメディアファイルの加工を行う &lt;code&gt;extract.sh&lt;/code&gt; という二つのシェルスクリプトで構成しています。youtube-dl がサポートしているサイトなら、YouTube 以外でも利用できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;内容も簡潔に記述しており、好みに応じて youtube-dl や FFmpeg のオプションを自分で記述できる容易なっています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_メディアのダウンロード&#34;&gt;メディアのダウンロード&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;まず、動画ファイルと字幕ファイル (VTT) を取得します。ダウンロードしたファイルは &lt;code&gt;downloads&lt;/code&gt; フォルダに保存します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;メディアファイルと字幕ファイルの取得&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;./download.sh (メディアファイルのURL)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;画像ファイルが存在するか、どの言語で提供されているかについては youtube-dl を使って調べることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;利用可能な字幕ファイルの一覧の取得方法&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;youtube-dl --list-subs (メディアファイルのURL)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;利用可能なメディアファイルの一覧もダウンロード前に調べることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;利用可能なメディアファイルフォーマットの一覧の取得方法&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;youtube-dl -F (メディアファイルのURL)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;好みのフォーマットを入手するには &lt;code&gt;download.sh&lt;/code&gt; を編集して &lt;code&gt;-f&lt;/code&gt; で指定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_カード用にダウンロードファイルの加工&#34;&gt;Anki カード用にダウンロードファイルの加工&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;メディアファイルからの音声ファイルの切り出しと、画面キャプチャの取得、字幕ファイルからのテキストファイルの抽出を &lt;code&gt;extract.sh&lt;/code&gt; で行います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;メディアファイルの加工&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;./extract.sh (メディアファイルのパス) (字幕ファイルのパス) [(翻訳字幕ファイルのパス)] &amp;gt; (書き出す TSV ファイルのパス)&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;翻訳字幕ファイルのパスは、テキストを抽出するだけなので任意です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;加工した音声や画像は &lt;code&gt;output&lt;/code&gt; フォルダに保存します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;作成する TSV の内容は次のようになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;TSV ファイルの内容&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;原音声字幕	(翻訳字幕)	(画面キャプチャファイル名)	[sound:音声ファイル名]&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_tsv_ファイル利用の注意&#34;&gt;TSV ファイル利用の注意&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;字幕内の改行に HTML の &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; タグを指定していますので、HTML を読み込む設定が必要になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;画像ファイルは、&lt;code&gt;&amp;lt;IMG&amp;gt;&lt;/code&gt; タグを設定していませんので、カードに画像を表示するには TSV を自分で加工してタグを付けるか、テンプレートの中でタグを設定する必要があります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_への読み込み&#34;&gt;Anki への読み込み&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;code&gt;output&lt;/code&gt; の中の動画や画像は、Anki のメディアフォルダに保存します。
-書き出した TSV ファイルは、Anki のテキストファイル読み込み機能を使って読み込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;オプションでは、[フィールドに HTML を利用する] を有効にします。
-TSV ファイルは最低でも三つの列の内容がありますので、標準のノートタイプでは対応できません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;私の場合は、基本ノートタイプに Picture フィールドを追加したノートタイプを作りました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;フィールドの対応表は次の通りです。表面に音声ファイルと画像ファイルを配置し、裏面に字幕の内容を表示する内容です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;テキストファイル読み込み設定例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;フィールド1	Back
-フィールド2	&amp;lt;無視&amp;gt;
-フィールド3	Picture
-フィールド4	Front&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_カードテンプレートの準備&#34;&gt;カードテンプレートの準備&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;さて、さらにカードテンプレートの編集が必要で、表面のテンプレートを次のように設定しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;表面テンプレートの設定例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;{{Front}}
-&amp;lt;img src=&#34;{{Picture}}&#34;&amp;gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_作成例とポイント&#34;&gt;作成例とポイント&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;完成品の一例を紹介しましょう。RussianPod101.com の番組を利用して作成したカードです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki-card-from-youtube-caption.png&#34; alt=&#34;作成例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 作成例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;参考: &lt;a href=&#34;https://www.youtube.com/watch?v=htqx5YkTUms&#34;&gt;Weekly Russian Words with Katya - At the Aquarium&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_カード枚数の目安&#34;&gt;カード枚数の目安&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この動画の長さは約二分で 24 枚のカードが自動作成できました。同じチャンネルの 8 分間の英語の番組では、120 枚になりました。また VOA の一分間のニュースフラッシュで 20 枚程度です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実際に字幕ファイルを見れば、何枚カードができるかわかりますが、実用に適した番組の長さは数分程度が限界なのではないかと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_この方法で作ったカードを使ってみると&#34;&gt;この方法で作ったカードを使ってみると&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;普段は YouTube の動画番組は、必要な箇所だけ&lt;a href=&#34;http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/&#34;&gt;Mac で再生中の音声を Anki に直接録音する&lt;/a&gt;で紹介していた方法で直接録音しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;あらためていつも見ている番組を YouTube Flashcards で作ったカードと比較してみると、細かく区切った文章がある分、一つ一つの音を意識した聴き取りのカードに仕上がったのではないかと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;RussianPod101.com は、字幕にする音声を取捨選択していて、比較的切りのいいところで字幕が区切られています。番組によっては、特にニュースなどは、全ての音声を文字に書き起こすためか中途半端なところで音が切れて、人によっては気にするかもしれませんので、作成前に番組内容や字幕内容を確認することをお勧めします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;手動で音声を区切るとどうしても繰り返し作業が多くなります。事前に正確なタイムラインを指定しているデータを使えるのは非常にありがたく、重宝します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;YouTube Flashcards を使うと OS X や Linux でも YouTube の動画と字幕を使ったカードを作成できる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ファイルのダウンロードや加工方法は、シェルスクリプトの編集で指定きる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;一分間あたりのカード枚数は　10-20 枚程度になるため、実用には番組の長さに注意。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;字幕の区切り方が番組の種類によって異なる。きれいに区切った音声が必要なら番組を選ぶ必要がある。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>字幕付きの YouTube の番組データを使って Anki のカードを自動作成する YouTube Flashcards の使い方と、Anki の読み込み設定例、利用上の注意点、作成例について取り上げます</description>
     </item>
     
     <item>
       <title>Anki カードに埋め込んだ HTML5 Video の速度調整</title>
       <link>http://rs.luminousspice.com/html5controller-on-anki/</link>
-      <pubDate>Sat, 21 May 2016 13:49:38 +0900</pubDate>
+      <pubDate>Sat, 21 May 2016 13:49:38 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/html5controller-on-anki/</guid>
-      <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込んでいます。完成品をダウンロードして利用できます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込んでいます。完成品をダウンロードして利用できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_はじめに&#34;&gt;はじめに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/html5-on-anki/&#34;&gt;Anki カードへの HTML5 メディアの埋め込み&lt;/a&gt;では、HTML5 Video 要素を使ってカードに埋め込んだ動画を再生する方法を紹介しました。動画を教材とする場合、教材の学習効果を高めるために再生速度の調整をしたいことがよくあります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML5 のメディア要素はタグだけでは速度調節できませんが JavaScript を使って制御できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ここまでは、普通に Web ページに動画を埋め込む作業と違いはありませんが、Anki に JavaScript を使い場合に若干の工夫が必要になります。そのための手法を紹介していきます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;まずは、完成品を見て頂きましょう。メディアプレイヤーの下にあるスライドバーが今回作成するコントロールです。再生中にスライダーを変化させると、再生速度が変化します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5controller-anki.png&#34; alt=&#34;HTML5 動画速度調節コントロール完成図&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. HTML5 動画速度調節コントロール完成図&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;今回作成するのは、HTML5 で記述したメディアプレイヤーとスライダー、それを制御する JavaScript になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;スライダーは jQuery のユーザーインターフェイスライブラリ jQuery UI を使って表示することにしました。理由は Anki の表示に利用していてファイルが組み込まれていて、追加ファイルの必要がないためです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;さらに JavaScript を読み込むためのアドオンの作成とJavaScript ライブラリが使用する CSS の配置方法を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_テンプレートの構成&#34;&gt;テンプレートの構成&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;今回は、基本ノートタイプから拡張した新規のノートタイプのテンプレートにメディアプレイヤーを記述していきます。動画ファイル名を格納するフィールドを追加しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;フィールドの構成&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Front:&lt;/strong&gt; 質問内容 (既定のまま)&lt;br&gt;
-&lt;strong&gt;Back:&lt;/strong&gt; 解答内容 (既定のまま)&lt;br&gt;
-&lt;strong&gt;Video:&lt;/strong&gt; 質問中に表示する動画ファイル名 (URL を記述するとネット上の動画を表示)&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_html5_メディアの記述&#34;&gt;HTML5 メディアの記述&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;HTML の記述は、ウェブページを作成する場合と変わりありません。動画のファイル名が Video フィールドに格納されているので &lt;code&gt;{{Video}}&lt;/code&gt; タグで表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;code&gt;#slider&lt;/code&gt; が、jQuery UI のスライダーを表示する領域、&lt;code&gt;#playbackRate&lt;/code&gt; はスライダーを変化させた時の数値を表示する領域になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;表面テンプレートの内容&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;video id=&#34;video&#34; controls&amp;gt;
-  &amp;lt;source src=&#34;{{Video}}&#34; type=&#34;video/mp4&#34;&amp;gt;
-  &amp;lt;source src=&#34;{{Video}}&#34; type=&#34;video/3gpp&#34;&amp;gt;
-  &amp;lt;source src=&#34;{{Video}}&#34; type=&#34;video/webm&#34;&amp;gt;
-&amp;lt;/video&amp;gt;
-&amp;lt;br&amp;gt;
-&amp;lt;div id=&#34;control&#34;&amp;gt;
-再生速度(0.3〜3.0)：&amp;lt;span id=&#34;playbackRate&#34;&amp;gt;1.0倍速&amp;lt;/span&amp;gt;&amp;lt;div id=&#34;slider&#34;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;br&amp;gt;{{Front}}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_再生速度を制御する_javascript_の記述&#34;&gt;再生速度を制御する JavaScript の記述&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;再生速度を制御する JavaScript は、jQuery を使って記述しました。この点もウェブページの制作と変わりありません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;再生速度を制御するスクリプト&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;var video = document.getElementById(&#34;video&#34;);
-var playbackRate  = document.getElementById(&#34;playbackRate&#34;);
-
-$(function() {
-    $(&#34;#slider&#34;).slider({
-        value: 1.0,
-        min: 0.3,
-        max: 3.0,
-        step: 0.1,
-        slide: function(event, ui) {
-            video.playbackRate = ui.value;
-            playbackRate.innerHTML = ui.value.toFixed(1) + &#34; 倍速&#34;;
-        }
-    });
-    $(&#34;#playbackRate&#34;).val($(&#34;#slider&#34;).slider(&#34;value&#34;));
-});&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_anki_で_javascript_を使う時に陥るワナ&#34;&gt;Anki で JavaScript を使う時に陥るワナ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この JavaScript のコードと、jQuery UI のコード、CSS をテンプレートに直接書き込むと、カードレイアウトやブラウザのプレビュー機能では、表示され正しく機能します。しかし、実際の学習画面では機能しません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;理由は、プレビュー機能と学習画面では、コンテンツを書き出す方法が異なっているためです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_学習画面に_javascript_を読み込むアドオン&#34;&gt;学習画面に JavaScript を読み込むアドオン&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで通常のカードテンプレートやフィールドにスクリプトを書き込むのとは違った方法で、学習画面に表示するアドオンを作ります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ということは、残念ながら今回の機能は、Anki PC 版でしか機能しません。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;表面を表示する時に呼び出すフック &lt;code&gt;showQuestion&lt;/code&gt; と裏面を表示する時に呼び出す フック &lt;code&gt;showAnswer&lt;/code&gt; を使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;先ほど説明した、再生速度調節のスクリプト (html5controller) と、Anki に同梱していますが学習画面では読み込まれていない jQuery UI (anki.js.ui) をフックを使って学習画面に読み込みます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;学習画面に JavaScript を読み込むアドオン (html5controller.py)&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;from anki.hooks import addHook
-from aqt import mw
-import anki.js
-
-
-html5controller = u&#34;&#34;&#34;
-var video = document.getElementById(&#34;video&#34;);
-var playbackRate  = document.getElementById(&#34;playbackRate&#34;);
-
-$(function() {
-    $(&#34;#slider&#34;).slider({
-        value: 1.0,
-        min: 0.3,
-        max: 3.0,
-        step: 0.1,
-        slide: function(event, ui) {
-            video.playbackRate = ui.value;
-            playbackRate.innerHTML = ui.value.toFixed(1) + &#34; 倍速&#34;;
-        }
-    });
-    $(&#34;#playbackRate&#34;).val($(&#34;#slider&#34;).slider(&#34;value&#34;));
-});
-&#34;&#34;&#34;
-
-
-def loadhtml5controller():
-    &#34;&#34;&#34;Load js to control playback rate of #video through #slider.&#34;&#34;&#34;
-    mw.web.eval(anki.js.ui)
-    mw.web.eval(html5controller)
-
-addHook(&#34;showQuestion&#34;, loadhtml5controller)
-addHook(&#34;showAnswer&#34;, loadhtml5controller)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_jquery_ui_css_の記述方法について&#34;&gt;jQuery UI CSS の記述方法について&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;最後に JavaScript ライブラリが利用するスタイルシート &lt;code&gt;jquery-ui.css&lt;/code&gt; の読み込み方を紹介しましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_ファイルを読み込む方法&#34;&gt;ファイルを読み込む方法&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ローカルに保存して使うのであれば、メディアフォルダーに &lt;code&gt;_jquery-ui.css&lt;/code&gt; と名前を変更して配置します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;カードテンプレートに次のリンクを追加します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;ローカルに配置する場合のリンク記述例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;_jquery-ui.css&#34;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;CDN などネット上のファイルを使うのであれば、上のファイル名に代えて URL を指定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_テンプレートに直接記述する方法&#34;&gt;テンプレートに直接記述する方法&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;テンプレートの CSS 欄に &lt;code&gt;jquery-ui.css&lt;/code&gt; の中でスライダーに関係する CSS だけを直接記述することもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_完成品のダウンロード&#34;&gt;完成品のダウンロード&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;今回作成したアドオンファイルとノートタイプが入った単語帳ファイルを公開しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;http://rs.luminousspice.com/apkg/html5controller.zip&#34; rel=&#34;nofollow&#34;  onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;HTML5 メディアの速度調整&#39;);&#34;&gt;ダウンロードファイル html5controller.zip&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_ダウンロードファイルの使い方&#34;&gt;ダウンロードファイルの使い方&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このダウンロードファイルを使うには次の手順でカードを作ってください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;ダウンロードファイルの利用手順&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;html5controller.zip&lt;/code&gt; を解凍して &lt;code&gt;html5controller.py&lt;/code&gt; と &lt;code&gt;html5controller.apkg&lt;/code&gt; が含まれていることを確認します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;アドオンファイル &lt;code&gt;html5controller.py&lt;/code&gt; をアドオンフォルダーに配置して、Anki を再起動します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳ファイル &lt;code&gt;html5controller.apkg&lt;/code&gt; を開いて Anki に読み込みます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ノートタイプ選択画面で &lt;code&gt;HTML5 Video Controller&lt;/code&gt; を選択します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Video フィールドに表示したいファイル名を入力します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;追加した単語帳 &lt;code&gt;HTML5 Video Controller&lt;/code&gt; の中にはローカルの動画とネットの動画を表示する二枚のカードが含まれています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/html5controller-anki.png&#34; alt=&#34;ウンロードサンプル表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. ダウンロードサンプル表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;HTML5 のメディア機能で動画の再生速度は JavaScript で制御できる。
-*　Anki には、jQuery と jQuery UI が組み込まれているので追加ファイル不要で利用可能。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;学習画面とプレビュー画面では読み込んだ JavaSript の動作が異なる場合がある。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;学習画面でアドオンを使って JavaScript を読み込ませることができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>HTML5 Video を使って Anki のカードに埋め込んだ動画の再生速度を調整するスライダーの作り方を紹介します。Anki のカードに JavaScript を使用する場合の注意点を盛り込</description>
     </item>
     
     <item>
       <title>AwesomeTTS プリセットの活用</title>
       <link>http://rs.luminousspice.com/awesometts-preset/</link>
-      <pubDate>Tue, 12 Apr 2016 12:55:25 +0900</pubDate>
+      <pubDate>Tue, 12 Apr 2016 12:55:25 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/awesometts-preset/</guid>
-      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音声の種類を自動的に切り替えるコンテンツを作ることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_awesometts_プリセットとは&#34;&gt;AwesomeTTS プリセットとは&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki のアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/301952613&#34;&gt;AwesomeTTS&lt;/a&gt; には、設定項目を保存して後日再利用するためのプリセット (Preset) という機能を持っています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この機能は、音声 (Voice) の種類や読み上げ速度の設定項目を切り替えて使っている場合に重宝します。
-さらに複数の設定項目をグループ化することもでき、ランダムに設定を切り替えながら AwesomeTTS の機能を呼び出すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこで、プリセットの設定方法を紹介し、そのプリセットの機能を活用した使い方を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;注意&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Anki 2.0.35 (OS X)、AwesomeTTS v1.7.0 に基づいて説明します。プリセットは v1.3.0 以降で利用できますが設定画面や呼び出し方が異なる場合があります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ここでは OS X 内蔵の音声を例に使って説明します。ウェブサービスの音声を利用した場合は、再生に時間がかかることがあります。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AnkiMobile ではアドオンは使えませんが、AwesomeTTS を作成した音声を読み込んで再生することはできます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_プリセットグループのメリット&#34;&gt;プリセットグループのメリット&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;プリセットグループの最大のメリットは、複数音声の自動的切り替えです。順序を指定することもランダムに呼び出すこともできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一つの音声を聴き続けた時の飽きが避けられます。また聴き取りにくい苦手な音声でも、聴き取りやすい音声の中に含めれば聴き取りの練習になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS の機能は多彩ですが、この機能は具体的には次のようなメリットをもたらします。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;ノートエディタ&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;テキストを読み上げる音声ファイルを、複数の設定を切り替えて作成します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;カードブラウザ&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;フィールドのテキストを読み上げる音声ファイルを、複数の設定を切り替えながら一括作成します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;カードレイアウト&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;フィールドのテキストを複数の設定を切り替えながら読み上げるタグを作成できます。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;学習画面&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;選択範囲を指定してコンテキストメニューから読み上げる際に、複数の設定を切り替えながら再生します。&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-say.png&#34; alt=&#34;コンテキストメニューからの呼び出し (EN: プリセットグループ)&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. コンテキストメニューからの呼び出し (EN: プリセットグループ)&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;テンプレートで指定する時のポイント&lt;/div&gt;
-&lt;p&gt;テンプレートの中に　&lt;code&gt;tts&lt;/code&gt; タグを含める場合は、音声の種類は固定しません。カードを表示するたびに音声を選択して読み上げます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_プリセットの設定&#34;&gt;プリセットの設定&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS では音声の設定を画面全てで保存できます。また、プリセットは共通で利用できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ノートエディタで、テキストを読み上げた音声ファイルを作成する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カードブラウザで、カードを選択してフィールドのテキストを読み上げた音声ファイルを一括作成する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カードレイアウトで、フィールドのテキストを読み上げるタグを作成する&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;それぞれの画面下中央の [Save] ボタンを押します (図 2)。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;一例として、カードレイアウトから呼び出すタグ作成画面を示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki-awesometts-preview.png&#34; alt=&#34;AwesomeTTS 用タグ作成画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. AwesomeTTS 用タグ作成画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_プリセットの使い方&#34;&gt;プリセットの使い方&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で画面左下のプルダウンメニュー [Load Preset] から使用するプリセットを選択します (図 2)。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_プリセットグループの管理&#34;&gt;プリセットグループの管理&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;設定したプリセットをグループ化して利用するための設定方法を紹介しましょう。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;管理画面の呼び出し方&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;メニューバーから [ツール] - [AwesomeTTS] (または Command/Ctrl + T) で AwesomeTTS の設定画面を開く&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Advanced] タブを選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Manage Groups] ボタンを選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup.png&#34; alt=&#34;プリセットグループ管理画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. プリセットグループ管理画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この画面で、右の ＋ ボタンを押すとプリセットの新規作成ができます。
-プルダウンメニューから設定済みのプリセットグループを選んで編集することもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;プリセットグループを作成して、設定済みのプリセットを読み込むには、プリセット一覧の右にある　＋ ボタンを押します。
-下の図のように、プルダウンから選択できます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-edit.png&#34; alt=&#34;プリセットグループ編集&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. プリセットグループ編集&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;[Mode] 項目では、グループ内のプリセットを呼び出す順番を指定します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;randomaize&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;ランダムに&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;in-order&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;上から順番に&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;順番を並び替えるには、プリセット一覧右の ▲ ▼ ボタンを使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_グループプリセットの使い方&#34;&gt;グループプリセットの使い方&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;AwesomeTTS の音声ファイル作成、またはタグ画面で Configure Services の Generate using 項目のプルダウンメニューの中から作成したプリセットグループを指定します (図 5)。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/awesometts-presetgroup-note.png&#34; alt=&#34;プリセットグループ EN を指定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. プリセットグループ EN を指定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;プリセット機能を使うと AwesomeTTS 設定の再利用でき作業が効率的になる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;プリセットとプリセットグループは AwesomeTTS の機能で共通に使える。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;プリセットグループ機能を使うと特定の音声に偏らない音声学習ができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;テンプレート内でプリセットグループ機能を使うとテキストを読み上げる音声に常に変わる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Anki のテキスト読み上げるアドオン AwesomeTTS は設定項目を保存する機能を持っています。このプリセットをグループ化して管理する機能を利用すると、読み上げる音</description>
+    </item>
+    
+    <item>
+      <title>AnkiMobile ノート: 音声制御アップデート</title>
+      <link>http://rs.luminousspice.com/ankimobile-audio-control/</link>
+      <pubDate>Mon, 11 Apr 2016 11:26:29 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ankimobile-audio-control/</guid>
+      <description>Anki の iOS 版アプリ AnkiMobile は、2.0.18 から音声制御の方法が大きく変わりました。iPhone 本体のスイッチの設定で AnkiMobile の自動再生が無効になります。そこ</description>
+    </item>
+    
+    <item>
+      <title>Anki カードへの HTML5 メディアの埋め込み</title>
+      <link>http://rs.luminousspice.com/html5-on-anki/</link>
+      <pubDate>Thu, 31 Dec 2015 23:00:39 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/html5-on-anki/</guid>
+      <description>HTML5 Video の機能を使って、Anki に埋め込んだ動画のインターフェイスを変更する方法について説明します。さらに Mac と iPhone でデータを同期する場合の注意点に</description>
+    </item>
+    
+    <item>
+      <title>Mac で再生中の音声を Anki に直接録音する</title>
+      <link>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</link>
+      <pubDate>Sun, 27 Dec 2015 23:45:15 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/audio-stdout-into-anki-for-mac/</guid>
+      <description>Mac 上で再生した音声を Anki のカードに直接取り込む方法を紹介します。ここで紹介するのは仮想オーディオデバイス Soundflower と Audio MIDI 設定を使った簡単な方法です。 は</description>
     </item>
     
   </channel>

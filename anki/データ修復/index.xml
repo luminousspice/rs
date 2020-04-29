@@ -3,123 +3,21 @@
   <channel>
     <title>データ修復 on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E3%83%87%E3%83%BC%E3%82%BF%E4%BF%AE%E5%BE%A9/</link>
-    <description>データ修復 | the Right Stuff</description>
+    <description>Recent content in データ修復 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Jul 2013 21:00:07 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%83%87%E3%83%BC%E3%82%BF%E4%BF%AE%E5%BE%A9/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2013 21:00:07 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/anki/%E3%83%87%E3%83%BC%E3%82%BF%E4%BF%AE%E5%BE%A9/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>破損したAnkiデータの修復</title>
       <link>http://rs.luminousspice.com/restore_corrupt_data/</link>
-      <pubDate>Sat, 06 Jul 2013 21:00:07 +0900</pubDate>
+      <pubDate>Sat, 06 Jul 2013 21:00:07 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/restore_corrupt_data/</guid>
-      <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。起動後に大量のデータ更新を行ったりして、自動バックアップからの復元では対応できない場合の手順を説明します。&lt;/p&gt;
-&lt;p&gt;注意: この作業はデスクトップPC上でのみ作業が可能です。また、コマンドラインツールの操作が必要となります。なお、モバイル機器での作業は対象外です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;コレクションデータの破損と確認&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;コレクションデータの破損と確認&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;メニューバーから[ツール]&amp;gt;[データベースをチェック]を実行すると、データが破損していないか確認できます。&lt;/p&gt;
-&lt;p&gt;データの破損が発生した場合、一番簡単な復旧方法は最新の&lt;a href=&#34;http://rs.luminousspice.com/anki_automatic_backup/&#34;&gt;自動バックアップファイルから復旧する&lt;/a&gt;ことです。&lt;/p&gt;
-&lt;p&gt;Ankiは、アプリケーション終了時、ユーザープロファイル変更時に自動バックアップを行います。まずは、自動バックアップファイルの復元を試みて、問題発生の直前の状況と比較してみましょう。&lt;/p&gt;
-&lt;p&gt;この記事で紹介するデータ修復の手順は、最新の自動バックアップ以降に、大量のデータの読み込みを行った場合など、最新のデータと自動バックアップファイルの間に差が大きい場合に有効です。&lt;/p&gt;
-&lt;p&gt;Ankiは、プロファイル毎にコレクションファイルを作成します。データの破損が発生しているのはどのプロファイルか改めて確認してください。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;修復作業の準備&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;修復作業の準備&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;
-プロファイルフォルダーの中にある &lt;code&gt;collection.anki2&lt;/code&gt; のバックアップを取ってください。
-このファイルが、修復対象のファイルです。
-なお、プロファイルフォルダーは、Ankiフォルダーの中に、プロファイル名を使って作成しています。
-&lt;/li&gt;
-&lt;li&gt;
-つぎに &lt;code&gt;sqlite3&lt;/code&gt; がインストール済みか確認してください。
-&lt;div class=&#34;ulist&#34;&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-Mac OS Xの場合は、既定でインストール済みです。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-Linuxの場合は、パッケージ管理システムを使ってインストール済みか確かめることができます。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-Windowsの場合は、&lt;a href=&#34;http://www.sqlite.org/download.html&#34; target=&#34;_new&#34;&gt;SQLite サイト&lt;/a&gt;からWindows用の最新のコマンドラインシェル(command-line shell)をダウンロードします。
-2013/10/16時点で、最新版は&lt;a href=&#34;http://www.sqlite.org/2013/sqlite-shell-win32-x86-3080002.zip&#34;&gt;sqlite-shell-win32-x86-3080002.zip&lt;/a&gt;です。なお、Ankiユーザーマニュアルでは、&lt;a href=&#34;http://www.sqlite.org/sqlite-3_6_23.zip&#34;&gt;sqlite-3_6_23.zip&lt;/a&gt;を指定しています。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-&lt;section id=&#34;コレクションファイルのダンプ&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;コレクションファイルのダンプ&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;SQLite3のコマンドラインシェルを使って、コレクションのダンプファイルを作ります。作業に使用するプラットフォームによって手順が異なりますのでご注意ください。&lt;/p&gt;
-&lt;h3 id=&#34;mac_os_x_または_linuxの場合&#34;&gt;Mac OS X または Linuxの場合&lt;/h3&gt;
-&lt;p&gt;ターミナルを開き、Ankiフォルダーの中のプロファイルフォルダーに移動して次のコマンドを実行します。&lt;/p&gt;
-&lt;pre&gt;sqlite3 collection.anki2 .dump &amp;gt; dump.txt&lt;/pre&gt;
-&lt;p&gt;生成したファイル &lt;code&gt;dump.txt&lt;/code&gt; をテキストエディタで開きます。
-最終行に &#34;rollback;&#34; という記述があれば、&#34;commit;&#34; に変更します。&lt;/p&gt;
-&lt;p&gt;さらに、ターミナルで次のコマンドを実行します。&lt;/p&gt;
-&lt;pre&gt;cat dump.txt | sqlite3 temp.file&lt;/pre&gt;
-&lt;p&gt;注意: コレクションファイルを上書きせず、必ず &lt;code&gt;temp.file&lt;/code&gt; とテンポラリーファイルを指定してください。&lt;/p&gt;
-&lt;h3 id=&#34;windowsの場合&#34;&gt;Windowsの場合&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ダウンロードしたSqliteファイルを解凍すると、&lt;code&gt;sqlite3.exe&lt;/code&gt; が生成します。これをAnkiフォルダーの中のプロファイルフォルダーにコピーします。
-&lt;/li&gt;
-&lt;li&gt;
-コマンドプロンプトを起動して次のコマンドを実行します。
-コマンドプロンプトを開くには、[スタート]ボタンを押し、[プログラムとファイルの検索]フィールドに &lt;code&gt;cmd&lt;/code&gt; と入力して、&lt;code&gt;cmd.exe&lt;/code&gt; を実行します。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;sqlite3 collection.anki2 .dump &amp;gt; dump.txt&lt;/pre&gt;
-&lt;p&gt;生成したファイル &lt;code&gt;dump.txt&lt;/code&gt; をテキストエディタで開きます。
-最終行に &#34;rollback;&#34; という記述があれば、&#34;commit;&#34; に変更します。&lt;/p&gt;
-&lt;p&gt;さらに、ターミナルで次のコマンドを実行します。&lt;/p&gt;
-&lt;pre&gt;cat dump.txt | sqlite3 temp.file&lt;/pre&gt;
-&lt;p&gt;注意: コレクションファイルを上書きせず、必ず &lt;code&gt;temp.file&lt;/code&gt; とテンポラリーファイルを指定してください。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ankiに読み込む&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;Ankiに読み込む&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;
-ダンプファイル作成時にエラーメッセージを表示しないこと、ダンプファイルが空でないことを確認します。
-&lt;/li&gt;
-&lt;li&gt;
-コレクションファイル &lt;code&gt;collection.anki2&lt;/code&gt; を別の名前に変更し、ダンプファイル &lt;code&gt;temp.file&lt;/code&gt; を &lt;code&gt;collection.anki2&lt;/code&gt; に変更します。
-&lt;/li&gt;
-&lt;li&gt;
-Ankiを起動し、ツールバーから[ツール]&amp;gt;[データベースをチェック]を実行します。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;問題がなければ修復作業は成功です。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;更新情報&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;更新情報&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;2013/10/16: Anki 2.0.14のリリースと同時に行われた&lt;a href=&#34;http://ankisrs.net/docs/manual.html#corrupt-collections&#34; target=&#34;_new&#34;&gt;マニュアル&lt;/a&gt;の変更に基づいて、内容を更新しました。&lt;/p&gt;
-&lt;p&gt;2013/7/6: 初出&lt;/p&gt;
-&lt;/section&gt;
-</content>
+      <description>Ankiデータが、何らかの原因で不幸にして破損した場合の修復方法について紹介します。起動後に大量のデータ更新を行ったりして、自動バックアップ</description>
     </item>
     
   </channel>

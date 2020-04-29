@@ -3,165 +3,21 @@
   <channel>
     <title>スクラッチパッド on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%83%91%E3%83%83%E3%83%89/</link>
-    <description>スクラッチパッド | the Right Stuff</description>
+    <description>Recent content in スクラッチパッド on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Apr 2016 00:39:18 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%83%91%E3%83%83%E3%83%89/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2016 00:39:18 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/anki/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%83%91%E3%83%83%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AnkiMobile ノート: 手書きのためのスクラッチパッド</title>
       <link>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</link>
-      <pubDate>Tue, 12 Apr 2016 00:39:18 +0900</pubDate>
+      <pubDate>Tue, 12 Apr 2016 00:39:18 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/ankimobile-scratchpad-for-handwriting/</guid>
-      <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッドを用意しています。スクラッチパッドの使い方、サイズを大きくする方法、スワイプやタップを使って簡単に呼び出す方法を説明します。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_スクラッチパッドの機能&#34;&gt;スクラッチパッドの機能&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://geo.itunes.apple.com/jp/app/ankimobile-flashcards/id373493387?mt=8&amp;amp;at=11lGoS&#34;&gt;AnkiMobile Flashcards&lt;/a&gt; は、手書きで暗記する方のために、書き付けスクラッチパッド (Scratch Pad) を用意しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-handwriting.png&#34; alt=&#34;スクラッチパッド利用例&#34; width=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. スクラッチパッド利用例&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;直接指でなぞっても使えますし、市販のスライラスペン/タッチペンも使えます。Apple Pencil もサポートしています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_取り消しボタン&#34;&gt;取り消しボタン&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;スクラッチパッド右下のボタンから書いた内容を消すことができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;dlist&#34;&gt;
-&lt;dl&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;タップ&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;一画 (一ストローク)分取り消します&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&#34;hdlist1&#34;&gt;長押し&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;全て消去します&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_スクラッチパッドを呼び出す&#34;&gt;スクラッチパッドを呼び出す&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;学習画面でスクラッチパッドを呼び出すには &#39;Toggle ScratchPad&#39; というアクションを使います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スクラッチパッドを呼び出す手順&lt;/div&gt;
-&lt;p&gt;学習画面右上の [Tools] - [More] - [Toggle ScratchPad]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スクラッチパッドをしまう手順&lt;/div&gt;
-&lt;p&gt;スクラッチパッドをしまう場合も、同じ &#39;Toggle ScratchPad&#39; を呼び出す手順です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_大きさを変える&#34;&gt;大きさを変える&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;環境設定からスクラッチパッドをもっと大きくすることもできます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-bigger.png&#34; alt=&#34;大きなサイズ&#34; width=&#34;450&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 大きなサイズ&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;スクラッチパッドの大きさの設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Bigger Pad] を有効にする。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-preference-audio.png&#34; alt=&#34;環境設定で大きなサイズを設定&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 環境設定で大きなサイズを設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_呼び出し方をカスタマイズする&#34;&gt;呼び出し方をカスタマイズする&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このままでは、スクラッチパッドを呼び出すのが面倒です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;マルチタッチスクリーンのジェスチャに割り当てましょう。スワイプやタップに割り当てることができますが、画面上中央をタップした時に切り替える設定を紹介します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;解答画面 (裏面) で画面中央上をタップした時に呼び出す設定&lt;/div&gt;
-&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;単語帳一覧 (Deck List) 右上の歯車アイコンをタップ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Review] - [Taps]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;WHEN ANSWER SHOWN の [Top Center] をタップし [Toggle ScratchPad] を選択&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/am-scratchpad-action.png&#34; alt=&#34;画面タップにスクラッチバッドの切り替えを設定&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 画面タップにスクラッチバッドの切り替えを設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_手書きでの暗記にこだわりのある方のために&#34;&gt;手書きでの暗記にこだわりのある方のために&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;手書きでの暗記にこだわる方にぜひ試してみてほしい機能です。ためしにスクラッチパッドを指でなぞってください。手書きと Anki を組み合わせる威力が直感できるはずです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ちょうどそばにあったイカせんべいの包装紙を切り取って、いつも使っている筆記具の先端に巻き付けました。
-普段の物書きの感覚を残しながら Anki が使えるというなかなか興味深い体験ができました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/simple-stylus.jpg&#34; alt=&#34;普段使いの筆記具をタッチペンにする&#34; width=&#34;300&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 普段使いの筆記具をタッチペンにする&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;狭い場所では指で使い、落ち着いた場所では使い慣れている筆記具を使ってという使い分けで、様々な学習環境で書き付けるという体験を  Anki に付け加えることができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Anki の iOS アプリ AnkiMobile は手書きで暗記する方のためにスクラッチパッド機能を用意しています。スクラッチパッドの使い方、呼び出し方、設定方法を説明します。</description>
     </item>
     
   </channel>

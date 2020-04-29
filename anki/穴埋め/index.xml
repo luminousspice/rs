@@ -3,336 +3,39 @@
   <channel>
     <title>穴埋め on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/</link>
-    <description>穴埋め | the Right Stuff</description>
+    <description>Recent content in 穴埋め on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 18 Jun 2013 00:00:00 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jun 2013 00:00:00 +0000</lastBuildDate>
     
-    <item>
-      <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
-      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
-      <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
-      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
-      <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。</description>
-      <content>&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_この単語帳の内容&#34;&gt;この単語帳の内容&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;かつてSlideShareに公開されていたスライド「救急診療に役立つ暗記メモ集の内容」を学習するための空欄補充問題です。作者のYuichi Kuroki様から承諾を頂いた上で作成しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;表紙を除いた 45 枚のスライドを元に問題設定した設定した303枚のカードを収録しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;利用上の注意:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この記事を公開後、&lt;a href=&#34;https://www.slideshare.net/yuichikuroki/ss-81069393&#34;&gt;オリジナルのスライドは改訂されています&lt;/a&gt;。正しい最新の情報は、オリジナルのスライドを参照ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/sample-decks-ems-nemonics.png&#34; alt=&#34;救急診療に役立つ暗記メモ集&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 救急診療に役立つ暗記メモ集&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_内容についての注意点&#34;&gt;内容についての注意点&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;元のスライド 5枚目の「GCS_M（運動反応）のおぼえかた」の写真は収録しておりません。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元のスライド 46枚目の「小児体重とバイタルサイン 簡便記憶法」から作成したカードは、空欄補充問題の設定はしていません。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_単語帳ダウンロード&#34;&gt;単語帳ダウンロード&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この単語帳は、&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34;&gt;AnkiWeb の共有単語帳として公開しています&lt;/a&gt;。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;https://ankiweb.net/shared/info/697716450&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;救急診療に役立つ暗記メモ集&#39;);&#34;&gt;救急診療に役立つ暗記メモ集 Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;共有単語帳の使い方&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_使用上の注意&#34;&gt;使用上の注意&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
-単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この「救急診療に役立つ暗記メモ集の内容」というスライドを最初に読んだ時に、題名は忘れてしまったのですが、意思決定に関する書籍に書いてあったエピソードを思い出しました。ある米国の医師が元のスライドにある様な MNEMONICSや指標を活用していて、それは非常に精度が高く、適切な意思決定を行うのに大切にしているというものでした。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これまで公開されてきた Anki の利用例は、上級学校への進学や資格取得のために外国語学習(特に英語)などの学習に関するものがほとんどです。学習教材も内容が固定した既成の教科書や参考書が多いようです。これが作者の想定内の使い方だと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上から与えられる勉強からは卒業して、多忙な日常業務の中で専門性を高めている立場にいる方々にも、自分の経験や知識を整理し、洗練するのに Anki は役立つのではないかと。比較対象となる他のアプリに対して Anki が優位に立つユニークな特長は、このような知識分野で際立つのではないかと、Anki を使い続けて感じています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これまでにないような Anki の使い方を求めて、この単語帳を作りました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;元データの利用を快諾くださいましたYuichi Kuroki様ありがとうございました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2014/04/21: 初出&lt;br&gt;
-2015/11/20: 共有単語帳リンク先変更&lt;br&gt;
-2016/04/28: 構成変更&lt;br&gt;
-2017/08/16: 修正 ダウンロードリンク&lt;br&gt;
-2017/10/29: 更新 オリジナルスライド改訂に関して&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-    </item>
+	<atom:link href="http://rs.luminousspice.com/anki/%E7%A9%B4%E5%9F%8B%E3%82%81/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ankiにおける空欄補充問題の作り方</title>
       <link>http://rs.luminousspice.com/cloze-deletion/</link>
-      <pubDate>Tue, 18 Jun 2013 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 18 Jun 2013 00:00:00 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/cloze-deletion/</guid>
-      <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。</description>
-      <content>&lt;section id=&#34;preamble&#34;&gt;
-&lt;p&gt;Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キー入力機能を使った応用例を紹介します。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ノートタイプの設定&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ノートタイプの設定&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;まず基本的な、空欄補充(穴埋め)問題を作ってみましょう。
-穴埋め問題を作るには、ノートタイプを[穴埋め(cloze)]に設定する必要があります。追加ウィンドウの左上のボタンを押して設定します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/how2anki_4_3.png&#34; alt=&#34;ノートタイプを穴埋めに設定&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. ノートタイプを穴埋めに設定&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;一番単純な例&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;一番単純な例&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;かんたんな例として次の引用文から&#34;many&#34;を問う空欄補充問題を作ってみましょう。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If you want to have good ideas you must have many ideas.&lt;/p&gt;
-&lt;small&gt;&lt;a target=&#34;_new&#34; href=&#34;http://en.wikiquote.org/wiki/Linus_Pauling&#34;&gt;Linus Pauling&lt;/a&gt;&lt;/small&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;設定の仕方は、追加ウィンドウで、&#34;many&#34;を選択し、[&amp;#8230;]ボタンを押します。
-すると&#34;many&#34;は、&lt;code&gt;{{c1::many}}&lt;/code&gt; に変わります。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/cloze1.png&#34; alt=&#34;追加ウィンドウ&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 追加ウィンドウ&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;この部分は自分でタイプしても構いません。&lt;/p&gt;
-&lt;pre&gt;If you want to have good ideas you must have {{c1::many}} ideas.&lt;/pre&gt;
-&lt;p&gt;このカードを実際に表示すると &lt;code&gt;{{c1::many}}&lt;/code&gt; が[&amp;#8230;]に置き換わります。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/cloze2.png&#34; alt=&#34;空欄補充問題の表示例&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. 空欄補充問題の表示例&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;ヒントを加える&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;ヒントを加える&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;穴埋めの設定は単語毎に設定する必要はありません。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;manyの先頭の&#34;m&#34;は表示する例&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;If you want to have good ideas you must have m{{c1::any}} ideas.&lt;/pre&gt;
-&lt;p&gt;カードには次のように表示します。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;mだけを残して空欄表示する&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;If you want to have good ideas you must have m[...] ideas.&lt;/pre&gt;
-&lt;p&gt;[&amp;#8230;]の内容をヒントに置き換えることもできます。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;空欄表示[&amp;#8230;]を[how much]に置き換えた例&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;If you want to have good ideas you must have {{c1::many::how much}} ideas.&lt;/pre&gt;
-&lt;p&gt;カード面の空欄表示の中にヒント[how much]が表示されます。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;空欄内にヒントを表示&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;If you want to have good ideas you must have [how much] ideas.&lt;/pre&gt;
-&lt;/section&gt;
-&lt;section id=&#34;複数の空欄を設定する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;複数の空欄を設定する&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;一つの文に複数の空欄を設定することもできます。先ほどの文に&#34;good&#34;を空欄に設定を追加してみましょう。&lt;/p&gt;
-&lt;pre&gt;If you want to have {{c2::good::quality}} ideas you must have {{c1::many::how much}} ideas.&lt;/pre&gt;
-&lt;p&gt;この場合、一つのカードに空欄が2つできるのではなく、空欄を一つ含むカードが2枚できます。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&#34;many&#34;を問うカード&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;If you want to have good ideas you must have [how much] ideas.&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;&#34;good&#34;を問うカード&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;If you want to have [quality] ideas you must have many ideas.&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;
-複数の空欄を設定する時、入れ子にすることはできません。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section id=&#34;キー入力機能を追加する&#34;&gt;
-  &lt;div class=&#34;page-header&#34;&gt;
-    &lt;h2&gt;キー入力機能を追加する&lt;/h2&gt;
-  &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;解答をキー入力する問題も作成できます。
-この場合は、カードテンプレートの編集が必要になります。&lt;/p&gt;
-&lt;p&gt;穴埋め問題の下に、解答を入力するフィールドを設定できます。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 表面の解答キー入力画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;穴埋め問題の解答をテキストフィールドにキー入力し、[解答を表示]ボタンを押します。
-間違っている場合は正解と比較結果を表示します。&lt;/p&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;具体的な設定例は、&lt;a href=&#34;http://rs.luminousspice.com/type_answer/&#34;&gt;Anki解答キー入力機能の使い方&lt;/a&gt;で説明しています。&lt;/p&gt;
-&lt;p&gt;穴埋め問題の詳しい説明は、ユーザーマニュアル&lt;a target=&#34;_new&#34; href=&#34;http://wikiwiki.jp/rage2050/?ClozeDeletion&#34;&gt;穴埋め問題&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;/section&gt;
-</content>
+      <description>Anki上で空欄補充問題(穴埋め問題, Cloze Deletion)を作る方法を説明します。空欄にヒントを加える方法、複数の空欄を設定する方法、解答キ</description>
+    </item>
+    
+    <item>
+      <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
+      <link>http://rs.luminousspice.com/ems-mnemonics/</link>
+      <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
+      
+      <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
+      <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
     </item>
     
     <item>
       <title>Anki解答キー入力機能の使い方</title>
       <link>http://rs.luminousspice.com/type_answer/</link>
-      <pubDate>Mon, 17 Jun 2013 00:00:51 +0900</pubDate>
+      <pubDate>Mon, 17 Jun 2013 00:00:51 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/type_answer/</guid>
-      <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。Tutorial for type answer since Anki2.0.9.</description>
-      <content>&lt;section id=&#34;anki解答キー入力機能の使い方&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使うと、より積極的に記憶内容を確認することができます。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;オフィシャルビデオでアウトラインをつかむ&#34; class=&#34;section&#34;&gt;オフィシャルビデオでアウトラインをつかむ&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;Anki作者Damien Elmesの作ったYouTubeビデオ&#34;Typing in the Answer&#34;を見てください。
-英語の説明音声が分からなくても、画面を眺めるだけで良いです。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/5tYObQ3ocrw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;このビデオの次のような作業をしています。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;olist arabic&#34;&gt;&lt;ol class=&#34;arabic&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;
-カードテンプレートを編集して解答キー入力機能の設定をします。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-フィールド設定からキー入力のフォントサイズを変更します。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-穴埋め問題に解答キー入力機能を追加する応用例を紹介しています。
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;なお、このビデオはAnki2.0.9以前のバージョンで作成しています。
-解答キー入力機能は、&lt;a href=&#34;http://rs.luminousspice.com/changes-in-anki209/&#34;&gt;Anki2.0.9で機能が改善&lt;/a&gt;されていて、最新版のAnkiとは若干表示内容が異なります。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;キー入力機能の設定方法&#34; class=&#34;section&#34;&gt;キー入力機能の設定方法&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;キー入力機能を設定するにはカードテンプレート上でフィールド名の前に &lt;code&gt;type:&lt;/code&gt; を追加します。
-例えば、[Back]フィールドに設定する場合は &lt;code&gt;{{type:Back}}&lt;/code&gt; となります。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;基本ノートタイプへの表面の設定例&lt;/div&gt;
-&lt;div class=&#34;content monospaced&#34;&gt;
-&lt;pre&gt;{{Front}}
-{{type:Back}}&lt;/pre&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;画面上にテキストフィールドが追加になり、解答を入力できるようになります。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/type_answer1.png&#34; alt=&#34;解答キー入力 表面の表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 表面の表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;解答を入力して、エンターキーまたは[解答を表示]ボタンを押すと、間違った場合にはキー入力した内容と正解の比較が表示されます。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/type_answer2.png&#34; alt=&#34;解答キー入力 裏面の表示&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 2. 裏面の表示&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;div class=&#34;title&#34;&gt;注意事項&lt;/div&gt;&lt;p&gt;裏面のテンプレートの &lt;code&gt;&amp;lt;hr id=answer&amp;gt;&lt;/code&gt; タグの直下に解答の比較例を挿入します。このタグを削除すると、比較例が表示できなくなります。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;カードテンプレートの編集画面で、解答キー入力機能のプレビューを見ることもできます。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/type_answer3.png&#34; alt=&#34;解答キー入力 カードテンプレートのプレビュー画面&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 3. カードテンプレートのプレビュー画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;この例では、アドオンAwesomeTTSを使って、BackフィールドをGoogleTTSで読み上げる設定にしています。
-アドオンAwesomeTTSの設定方法については&lt;a href=&#34;http://rs.luminousspice.com/how-to-edit-cards/&#34;&gt;Ankiのカード表示を編集する&lt;/a&gt;をご覧ください。&lt;/p&gt;&lt;/div&gt;
-&lt;h2 id=&#34;穴埋め問題と組み合わせる&#34; class=&#34;section&#34;&gt;穴埋め問題と組み合わせる&lt;/h2&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;オフィシャルビデオの最後で紹介している穴埋め問題と組み合わせた例を説明します。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;ノートタイプを穴埋めに設定した上で、カードテンプレートで穴埋め問題を設定した「テキスト」フィールドに、&lt;code&gt;{{type:close:テキスト}}&lt;/code&gt; と設定すると解答キー入力機能でチェックできるようになります。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;基本ノートタイプへの表面テンプレートの設定例&lt;/div&gt;
-&lt;div class=&#34;content monospaced&#34;&gt;
-&lt;pre&gt;{{cloze:テキスト}}
-{{type:cloze:テキスト}}&lt;/pre&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;穴埋め問題の下に、解答を入力するフィールドが現れます。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_3.png&#34; alt=&#34;キー入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 4. 表面の解答キー入力画面&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;&lt;p&gt;穴埋め問題の解答をテキストフィールドにキー入力し、[解答を表示]ボタンを押します。
-間違っている場合は正解と比較結果を表示します。&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/anki209_4.png&#34; alt=&#34;入力内容と正解の比較&#34; width=&#34;400&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 5. 裏面のキー入力した解答と正解の比較&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;サンプルのダウンロード&#34;&gt;サンプルのダウンロード&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上の例で使ったカードテンプレートを含む単語帳 anki209.apkg をダウンロードしてお使いいただけます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/apkg/anki209.apkg&#34; class=&#34;btn btn-large btn-primary&#34;&gt;&lt;i class=&#34;icon-download-alt icon-white&#34;&gt;&lt;/i&gt; Anki 単語帳パッケージ anki209.apkg&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-</content>
+      <description>解答キー入力機能は、Ankiの画面上から直接キー入力して、正解と比較する機能です。Anki2.0.9で更に使いやすくなりました。この機能を使</description>
     </item>
     
   </channel>

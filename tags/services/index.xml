@@ -3,65 +3,21 @@
   <channel>
     <title>Services on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/services/</link>
-    <description>Services | the Right Stuff</description>
+    <description>Recent content in Services on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Aug 2012 20:49:29 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/services/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Aug 2012 20:49:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/tags/services/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Zencoding Automator Services</title>
       <link>http://rs.luminousspice.com/zencoding-automator-services/</link>
-      <pubDate>Mon, 06 Aug 2012 20:49:29 +0900</pubDate>
+      <pubDate>Mon, 06 Aug 2012 20:49:29 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/zencoding-automator-services/</guid>
-      <description>ZenCodingサービスをautomatorと既存のPerl実装を利用して作ったよ。</description>
-      <content>&lt;p&gt;Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/zen-coding-with-mi/&#34;&gt;前回の記事&lt;/a&gt;のコードを書いていて、更に汎用的なautomatorのサービスにすると便利だと思い、作り直してみました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img c src=&#34;http://rs.luminousspice.com/images/zencoding-service.png&#34; alt=&#34;完成図&#34; /&gt;&lt;/a&gt;
-&lt;strong&gt;図 1. 完成図&lt;/strong&gt;
-&lt;h2&gt;はじめにご理解いただきたいこと&lt;/h2&gt;
-&lt;p&gt;この記事で作成するアプリケーションは、Mac OS X 10.7.4、このOSに付属しているPerl 5.12.3とAutomator 2.2.4を使って作成しました。利用環境の違いによっては動作しない場合も予想されます。この記事は、自分の環境で動作するように一人で修正できる方に向けて書いています。&lt;/p&gt;
-&lt;h2&gt;準備作業&lt;/h2&gt;
-&lt;p&gt;前提条件としてOtchyさん作&lt;a href=&#34;http://www.otchy.net/20100225/zen-coding-for-perl/&#34;&gt;SSSCoding.pm&lt;/a&gt;のインストールが必要です。
-のPerlモジュールのインストール先は、たとえばターミナルから次のコマンドで調べることが出来ます。&lt;/p&gt;
-&lt;pre&gt;perl -e &amp;lsquo;print $i++ . &amp;ldquo;:&amp;rdquo; . &amp;ldquo;$_\n&amp;rdquo; foreach @INC&amp;rsquo;&lt;/pre&gt;
-&lt;p&gt;Mac OS X 10.7 では、/Library/Perl/5.12 でした。&lt;/p&gt;
-&lt;h2&gt;Automatorでサービスを作る&lt;/h2&gt;
-&lt;p&gt;automatorでサービス ワークフローを作成します。&lt;/p&gt;
-&lt;p&gt;サービスは次の項目を選択項目を受け取ります：の項目は、&lt;strong&gt;テキスト&lt;/strong&gt;、検索対象：&lt;strong&gt;全てのアプリケーション&lt;/strong&gt;　にします。&lt;/p&gt;
-&lt;p&gt;次に&lt;strong&gt;シェルスクリプトを実行&lt;/strong&gt;というアクションを追加し、Perlのコードを入力します。
-    次の画像のようになります。&lt;/p&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/zencoding-services-workflow.png&#34; alt=&#34;Automatorワークフロー画面&#34; /&gt;&lt;/a&gt;
-&lt;strong&gt;図 2. Automatorワークフロー画面&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;中身のコードは次のように書きました。
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;use SSSCoding;&lt;/p&gt;
-
-&lt;p&gt;@tags = split(/\x0d|\x0a/, @ARGV[0]);&lt;/p&gt;
-
-&lt;p&gt;foreach (@tags) {
-    print SSSCoding::expand($_).&amp;rdquo;\x0d&amp;rdquo;;
-}&lt;/pre&gt;&lt;/div&gt;
-&lt;strong&gt;List. ZenCoding.workflow&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;このワークフローを保存すれば、サービスとして使えるようになります。この際に指定した名前がサービスの中で表示される名前になります。文字列を選択すると、サービスのメニューにその名前が表示されます。システム環境 - キーボードでショートカットを登録することも出来ます。&lt;/p&gt;
-&lt;h2&gt;完成品のワークフローファイルをそのままインストールする&lt;/h2&gt;
-&lt;p&gt;完成品のworkflowファイルは、&lt;a title=&#34;github&#34; href=&#34;https://github.com/luminousspice/Zen-Coding-Services&#34; target=&#34;_blank&#34;&gt;githubからダウンロードできるようにしました&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;このファイルを開くと、インストールのためのダイアログが表示されます。手作業でインストールするのであれば、~/Library/Services/ に置くと機能するようになります。&lt;/p&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/zencoding-services-installer.png&#34; alt=&#34;インストールダイアログ&#34; /&gt;
-&lt;strong&gt;図 3. インストールダイアログ&lt;/strong&gt;
-
-&lt;h2&gt;どこでも使えるよ&lt;/h2&gt;
-&lt;p&gt;これで、miでも、テキストエディットでも、スティッキーズでも、このブログを書いているFireforx上の入力画面でも、Mac OS Xのサービスが利用できるところはどこでも、ZenCodingの省略記法の展開が出来るようになりました。なんて素晴らしいんでしょう。&lt;/p&gt;
-
-&lt;p&gt;WordPress上での編集については、&lt;a href=&#34;http://code.google.com/p/zen-coding/&#34;&gt;Zen Coding for &amp;lt;textarea&amp;gt;&lt;/a&gt;をWordPressのプラグイン化した&lt;a href=&#34;http://wordpress.org/extend/plugins/wp-zen-coding/&#34;&gt;WP Zen-Coding&lt;/a&gt;が公開されています。これを使うと今回作成した省略記法の展開以外の全ての機能が使えるようです。&lt;/p&gt;
-
-&lt;p&gt;&lt;h2&gt;ありがとう&lt;/h2&gt;
-Perl実装した&lt;a href=&#34;http://www.otchy.net/&#34;&gt;Otchyさん&lt;/a&gt;、ありがとうございます。たったPerl7行でやりたいことが出来てしまった。&lt;/p&gt;
-</content>
+      <description>Mac OS Xのサービス機能を使って、ZenCodingサービスを作りました。 前回の記事のコードを書いていて、更に汎用的なautomatorのサービ</description>
     </item>
     
   </channel>

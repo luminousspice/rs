@@ -3,160 +3,21 @@
   <channel>
     <title>新規学習 on the Right Stuff</title>
     <link>http://rs.luminousspice.com/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/</link>
-    <description>新規学習 | the Right Stuff</description>
+    <description>Recent content in 新規学習 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 May 2016 13:14:21 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 May 2016 13:14:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/anki/%E6%96%B0%E8%A6%8F%E5%AD%A6%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Anki における新規カード一分間トラップの分析</title>
       <link>http://rs.luminousspice.com/1min-trap-in-anki-learning/</link>
-      <pubDate>Mon, 23 May 2016 13:14:21 +0900</pubDate>
+      <pubDate>Mon, 23 May 2016 13:14:21 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/1min-trap-in-anki-learning/</guid>
-      <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価する方法を紹介したいと思います。</description>
-      <content>&lt;div id=&#34;preamble&#34;&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価する方法を紹介したいと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_復習間隔一分に注目した理由&#34;&gt;復習間隔一分に注目した理由&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の処理を変更して直前の成功した間隔からやり直しを実現するアドオン &lt;a href=&#34;https://ankiweb.net/shared/info/1481634779&#34;&gt;Another Retreat&lt;/a&gt; を公開したらある人から、このアドオンを応用して復習間隔一分のデータを取れないかとの相談を受けました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;新規カードの学習で復習間隔一分で繰り返し失敗する &#34;1min Hell&#34; の分析に使うのに必要で、最初の一歩として定量的なデータが欲しいとのことでした。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;とりあえず Anki にデータを入れて、事前に十分な理解をせずにただ見る回数だけこなせばなんとかなるだろうという、SRS から逸脱した浅はかな使い方を自ら戒めるためにアドオンを作ってみました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_一分間隔報告アドオン&#34;&gt;一分間隔報告アドオン&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;そこでクエリーを簡単に改造して復習履歴のデータを検索し、コレクション全体について間隔一分の学習回数とその比率を単語帳別に報告するアドオンを作りました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;このアドオンは AnkiWeb に &lt;a href=&#34;https://ankiweb.net/shared/info/1353526614&#34;&gt;1min Interval Report&lt;/a&gt; として公開しています。Anki 2.1.x Beta 11 以降でも動作します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;無サポート、無責任、無保証です。
-大きなサイズのコレクションの場合は報告作成まで時間がかかります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;使い方&lt;/div&gt;
-&lt;p&gt;メニューバーから [ツール] - [1min Interval Report] を選択すると新規ウィンドウに報告を表示します。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;表示内容&lt;/div&gt;
-&lt;p&gt;左から単語帳名、一分間隔の回数、全セッション中の比率、新規セッションでの比率です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;注目すべき数値は一番左の、新規セッション中の一分間隔の比率です。初期設定では、新規追加カードの学習ステップは 1 分と 10 分ですので、普通を二回押して終了した場合は 0%、一回もう一度、一回普通を押した場合は 50% になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;listingblock&#34;&gt;
-&lt;div class=&#34;title&#34;&gt;出力例&lt;/div&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;1min Interval Report:
-
-Deck	Count	% Total	% in Learn
-Level1	 4618	 7.0	50.0
-Level2	10569	15.0	67.0
-Level31	11275	13.0	76.0
-Level32	11169	15.0	75.0
-Anatomy	  428	11.0	64.0
-MWVB	 2801	18.0	54.0
-MWDSA	　256	16.0	52.0&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_使用データの説明&#34;&gt;使用データの説明&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実際の出力は単語帳名で並び替えますが、説明ために上からやさしい単語帳から難しいものになるように並べました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;先頭四行は同じ枚数の頻出別の単語帳です。Level31 と Level32 は同じ頻度ですがカード枚数を他の単語帳と同じにするために分けました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anatomy とは、グレコローマンを語源とする解剖学用語のカードです。カードの構成は上の頻出用語集と全く同じです。上の単語帳の Level3 と重複した語彙が多いです。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;MWVBとは、&lt;a href=&#34;http://rs.luminousspice.com/learn-with-anki/&#34;&gt;暗記に強くなるために Anki から上手くサポートを得るには&lt;/a&gt;で学習モデルに利用した &lt;a  href=&#34;http://www.amazon.co.jp/gp/product/0877798559/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=0877798559&amp;linkCode=as2&amp;tag=rsls-22&#34;&gt;Merriam-Webster&#39;s Vocabulary Builder&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=rsls-22&amp;l=as2&amp;o=9&amp;a=0877798559&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt; のデータです。カードにする前に十分な分量の文章を読むため、理解が進み一分間隔の学習が抑えられていることがわかります。また本文中で例文がたくさん掲載されているため、カードにも比較的長い文を掲載しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;MWDSA とは、&lt;a  href=&#34;http://www.amazon.co.jp/gp/product/0877799067/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=0877799067&amp;linkCode=as2&amp;tag=rsls-22&#34;&gt;The Merriam-Webster Dictionary of Synonyms and Antonyms&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=rsls-22&amp;l=as2&amp;o=9&amp;a=0877799067&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt; です。同時に同じ意味の言葉を大量に知ることができ、事前に例文のたくさん読むことができます。カードの作りは MWVB と同じです。この単語帳だけ追加継続中です。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_データから読めたこと&#34;&gt;データから読めたこと&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;難易度が上がるに従って、一分間隔の比率も上がっています。これは期待通りの結果ですが、定量的なデータとして確認できました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;こちらは若干驚くべきことですが、相当な難語、古語、文語であっても、事前に親本の文章を読み、そこから例文を拾ったカードを作ると、最頻出語並に一分間隔の比率を抑えることができました。今日初めて知りました。ただし Anki で学習を始めるまでに本などで時間をかけて学習することになります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;literalblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;pre&gt;Anki のカード学習の難しさと、元の教材の難しさは必ずしも一致しない。&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://rs.luminousspice.com/addon-ease-factor-histogram/&#34;&gt;Ease Factor Histogram 単語帳の健全性を診断するアドオン&lt;/a&gt; では、易しさの値の分布を使って単語帳全体としての教材の難しさ、カードの構成の適切さを評価しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;実は、今回作ったアドオンは Ease Factor Histogram と相補的な関係にあることに気がつきました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Ease Factor Histogram は、復習の継続の困難さ評価する指標となり、このアドオン 1min Interval Report は、学習を開始する困難さを評価する指標になります。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;特に 1min Interval Report は、カードを Anki で使う前に十分な準備をしたか、カードの構成は適切だったかなど新規学習を効果を高めるための視点を与えてくれます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;新規学習での間隔一分の統計を取ると、Anki の新規学習の評価ができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;教材の難度は一分間隔の頻度に反映される。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;教材の事前準備やカードの構成によって、新規学習の難度を下げることができる。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2016/05/23: 初出&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2017/08/16: AnkiWeb へアドオン公開に伴い更新&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>Anki で理解が不十分なカードを新規追加すると復習間隔が一分間で連続出題する状態から抜け出せなくなります。この一分間トラップを使って新規学習を評価</description>
     </item>
     
   </channel>

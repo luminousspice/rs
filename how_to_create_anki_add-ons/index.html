@@ -95,6 +95,14 @@
   <nav class="toc">
     <div id="toc"></div>
   </nav>
+  <aside class="notice">
+  
+<div class="alert">
+  <strong>注意:</strong> このページは、個人的な参照目的で保管しています。古いバージョンの Anki に基づいて作成しており、最新のバージョンでは変更されている可能性があります。
+</div>
+
+
+  </aside>
   <div class="post-content">
   <div id="preamble">
 <div class="sectionbody">
@@ -230,7 +238,7 @@ runHook() はフックを新たに設置する標準の関数です。</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_タグを追加_削除する">タグを追加、削除する</h2>
+<h2 id="_タグを追加削除する">タグを追加、削除する</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>復習が終わったら、復習間隔を調べ 21 日以上であったら、"Mature" タグを追加し、それ以外の場合は削除する関数　<code>matureCheck()</code> を定義します。
@@ -427,7 +435,7 @@ Anki に Python インタープリタが含まれているため、アドオン�
 <div class="paragraph">
 <p>アドオンをつくるために Anki が用意している関数は次の通りです。</p>
 </div>
-<table class="tableblock frame-topbot grid-rows spread">
+<table class="tableblock frame-topbot grid-rows stretch">
 <caption class="title">表 1. アドオン開発用関数</caption>
 <colgroup>
 <col style="width: 20%;">
@@ -490,7 +498,7 @@ Anki に Python インタープリタが含まれているため、アドオン�
 
       <footer>
         <div class="footer">
-          &copy; 2017 luminousspice.com.
+          &copy; 2020 luminousspice.com.
         </div>
       </footer>
       </div>
@@ -541,14 +549,17 @@ addtoc();
 </script>
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-29141274-4', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-29141274-4', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 

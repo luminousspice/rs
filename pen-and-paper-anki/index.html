@@ -95,6 +95,14 @@
   <nav class="toc">
     <div id="toc"></div>
   </nav>
+  <aside class="notice">
+  
+<div class="alert">
+  <strong>注意:</strong> このページは、個人的な参照目的で保管しています。古いバージョンの Anki に基づいて作成しており、最新のバージョンでは変更されている可能性があります。
+</div>
+
+
+  </aside>
   <div class="post-content">
   <div id="preamble">
 <div class="sectionbody">
@@ -245,7 +253,7 @@
 <div class="paragraph">
 <p>次に復習間隔表を写します。ページ上の余白か、裏表紙に書き込みます。</p>
 </div>
-<table class="tableblock frame-topbot grid-rows spread">
+<table class="tableblock frame-topbot grid-rows stretch">
 <caption class="title">表 1. 復習間隔表 (Anki アルゴリズム: Ease Factor 200%)</caption>
 <colgroup>
 <col style="width: 14.2857%;">
@@ -437,7 +445,7 @@
 <div class="paragraph">
 <p>実際に使った復習間隔の表を次に示します。復習 1、2 回目は固定で、それ以後は Ease Factor 170% で計算しています。5回目は 33 日ではなくなぜ一か月なのかと言うと、紙でも簡単に次の期日を決められるからだと思います。</p>
 </div>
-<table class="tableblock frame-topbot grid-rows spread">
+<table class="tableblock frame-topbot grid-rows stretch">
 <caption class="title">表 2. 参考: 復習間隔表 (SuperMemo 0 アルゴリズム)</caption>
 <colgroup>
 <col style="width: 14.2857%;">
@@ -571,7 +579,7 @@
 
       <footer>
         <div class="footer">
-          &copy; 2017 luminousspice.com.
+          &copy; 2020 luminousspice.com.
         </div>
       </footer>
       </div>
@@ -622,14 +630,17 @@ addtoc();
 </script>
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-29141274-4', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-29141274-4', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 

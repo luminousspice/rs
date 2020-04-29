@@ -3,127 +3,21 @@
   <channel>
     <title>医学 on the Right Stuff</title>
     <link>http://rs.luminousspice.com/tags/%E5%8C%BB%E5%AD%A6/</link>
-    <description>医学 | the Right Stuff</description>
+    <description>Recent content in 医学 on the Right Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 21 Apr 2014 06:00:34 +0900</lastBuildDate>
-    <atom:link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
-    <atom:link href="/tags/%E5%8C%BB%E5%AD%A6/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Apr 2014 06:00:34 +0000</lastBuildDate>
+    
+	<atom:link href="http://rs.luminousspice.com/tags/%E5%8C%BB%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Anki 単語帳: 救急診療に役立つ暗記メモ集</title>
       <link>http://rs.luminousspice.com/ems-mnemonics/</link>
-      <pubDate>Mon, 21 Apr 2014 06:00:34 +0900</pubDate>
+      <pubDate>Mon, 21 Apr 2014 06:00:34 +0000</pubDate>
+      
       <guid>http://rs.luminousspice.com/ems-mnemonics/</guid>
-      <description>この Anki 単語帳は、救急診療に関するMNEMONICSを収録しています。空欄補充の出題形式で記憶内容を確認するように構成しています。</description>
-      <content>&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_この単語帳の内容&#34;&gt;この単語帳の内容&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;かつてSlideShareに公開されていたスライド「救急診療に役立つ暗記メモ集の内容」を学習するための空欄補充問題です。作者のYuichi Kuroki様から承諾を頂いた上で作成しました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;表紙を除いた 45 枚のスライドを元に問題設定した設定した303枚のカードを収録しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;strong&gt;利用上の注意:&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この記事を公開後、&lt;a href=&#34;https://www.slideshare.net/yuichikuroki/ss-81069393&#34;&gt;オリジナルのスライドは改訂されています&lt;/a&gt;。正しい最新の情報は、オリジナルのスライドを参照ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;imageblock&#34;&gt;
-&lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;http://rs.luminousspice.com/images/sample-decks-ems-nemonics.png&#34; alt=&#34;救急診療に役立つ暗記メモ集&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;title&#34;&gt;図 1. 救急診療に役立つ暗記メモ集&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_内容についての注意点&#34;&gt;内容についての注意点&lt;/h3&gt;
-&lt;div class=&#34;ulist&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;元のスライド 5枚目の「GCS_M（運動反応）のおぼえかた」の写真は収録しておりません。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;元のスライド 46枚目の「小児体重とバイタルサイン 簡便記憶法」から作成したカードは、空欄補充問題の設定はしていません。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_単語帳ダウンロード&#34;&gt;単語帳ダウンロード&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この単語帳は、&lt;a href=&#34;https://ankiweb.net/shared/info/697716450&#34;&gt;AnkiWeb の共有単語帳として公開しています&lt;/a&gt;。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a class=&#34;btn&#34; href=&#34;https://ankiweb.net/shared/info/697716450&#34; rel=&#34;nofollow&#34; onclick=&#34;ga(&#39;send&#39;, &#39;event&#39;, &#39;Downloads&#39;, &#39;AKPG&#39;, &#39;救急診療に役立つ暗記メモ集&#39;);&#34;&gt;救急診療に役立つ暗記メモ集 Anki 単語帳パッケージ&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-use-shared-resources/&#34;&gt;共有単語帳の使い方&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_使用上の注意&#34;&gt;使用上の注意&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この単語帳を利用するには、&lt;a href=&#34;http://rs.luminousspice.com/install_anki/&#34;&gt;Anki のインストール&lt;/a&gt;が必要です。Anki の使い方については、&lt;a href=&#34;http://rs.luminousspice.com/how-to-anki/&#34;&gt;はじめてのAnki&lt;/a&gt;で簡単に説明しています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect2&#34;&gt;
-&lt;h3 id=&#34;_元スライドが同じカードの学習について&#34;&gt;元スライドが同じカードの学習について&lt;/h3&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Anki の既定の設定では、同一の元スライドから生成したカード同士を連続して出題すると簡単に答えが分かってしまい、学習効果が半減するため、同じ日に学習しないよう延期処理が行われます。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;ただし、その処理は最初の一枚を学習してはじめて、延期処理が行われます。
-単語帳を開いた時の枚数と実際に学習する枚数に違いが生じる場合がありますのでご注意ください。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;参考: &lt;a href=&#34;http://rs.luminousspice.com/how-to-suspend-this-card/&#34;&gt;延期処理の詳しい説明&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_おわりに&#34;&gt;おわりに&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;この「救急診療に役立つ暗記メモ集の内容」というスライドを最初に読んだ時に、題名は忘れてしまったのですが、意思決定に関する書籍に書いてあったエピソードを思い出しました。ある米国の医師が元のスライドにある様な MNEMONICSや指標を活用していて、それは非常に精度が高く、適切な意思決定を行うのに大切にしているというものでした。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これまで公開されてきた Anki の利用例は、上級学校への進学や資格取得のために外国語学習(特に英語)などの学習に関するものがほとんどです。学習教材も内容が固定した既成の教科書や参考書が多いようです。これが作者の想定内の使い方だと思います。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;上から与えられる勉強からは卒業して、多忙な日常業務の中で専門性を高めている立場にいる方々にも、自分の経験や知識を整理し、洗練するのに Anki は役立つのではないかと。比較対象となる他のアプリに対して Anki が優位に立つユニークな特長は、このような知識分野で際立つのではないかと、Anki を使い続けて感じています。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;これまでにないような Anki の使い方を求めて、この単語帳を作りました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;元データの利用を快諾くださいましたYuichi Kuroki様ありがとうございました。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_更新情報&#34;&gt;更新情報&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;2014/04/21: 初出&lt;br&gt;
-2015/11/20: 共有単語帳リンク先変更&lt;br&gt;
-2016/04/28: 構成変更&lt;br&gt;
-2017/08/16: 修正 ダウンロードリンク&lt;br&gt;
-2017/10/29: 更新 オリジナルスライド改訂に関して&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
+      <description>この単語帳の内容 この単語帳は、救急診療に関するMNEMONICSを Anki を使って学習することができます。 かつてSlideShareに公開されてい</description>
     </item>
     
   </channel>

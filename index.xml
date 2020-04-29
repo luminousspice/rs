@@ -1499,7 +1499,7 @@ else:
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;次に復習間隔表を写します。ページ上の余白か、裏表紙に書き込みます。&lt;/p&gt;
 &lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-rows stretch&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 1. 復習間隔表 (Anki アルゴリズム: Ease Factor 200%)&lt;/caption&gt;
 &lt;colgroup&gt;
 &lt;col style=&#34;width: 14.2857%;&#34;&gt;
@@ -1691,7 +1691,7 @@ else:
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;実際に使った復習間隔の表を次に示します。復習 1、2 回目は固定で、それ以後は Ease Factor 170% で計算しています。5回目は 33 日ではなくなぜ一か月なのかと言うと、紙でも簡単に次の期日を決められるからだと思います。&lt;/p&gt;
 &lt;/div&gt;
-&lt;table class=&#34;tableblock frame-topbot grid-rows spread&#34;&gt;
+&lt;table class=&#34;tableblock frame-topbot grid-rows stretch&#34;&gt;
 &lt;caption class=&#34;title&#34;&gt;表 2. 参考: 復習間隔表 (SuperMemo 0 アルゴリズム)&lt;/caption&gt;
 &lt;colgroup&gt;
 &lt;col style=&#34;width: 14.2857%;&#34;&gt;
